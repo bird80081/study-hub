@@ -883,7 +883,7 @@ function distractors(word, n) {
   return pool.slice(0, n);
 }
 /* 每日單字：階段一快速翻卡瀏覽（正面純英文）→ 提交 → 階段二測驗同批單字 */
-let vWords = [], vPhase = "browse", vFlip = false;
+let vWords = [], vPhase = "browse", vFlip = false, vSeenMax = 0;
 
 async function startVocabRound() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
@@ -893,12 +893,14 @@ async function startVocabRound() {
   const fresh = av.filter(v => (st[v.w] || 0) === 0).sort(() => Math.random() - 0.5);
   vWords = due.slice(0, 8).concat(fresh).slice(0, 15);
   if (!vWords.length) { toast("全部單字都熟了！🎉"); return; }
-  vPhase = "browse"; vTIdx = 0; vFlip = false; vAnswered = null; vRight = 0;
+  vPhase = "browse"; vTIdx = 0; vFlip = false; vAnswered = null; vRight = 0; vSeenMax = 0;
   showVocabBrowse();
 }
 
 function showVocabBrowse() {
   const v = vWords[vTIdx];
+  vSeenMax = Math.max(vSeenMax, vTIdx);
+  const seenAll = vSeenMax >= vWords.length - 1;
   $app.innerHTML = `
     <div class="exam-top">
       <button class="small ghost" onclick="showVocabTab()">結束</button>
@@ -920,8 +922,9 @@ function showVocabBrowse() {
       ${vTIdx < vWords.length - 1
         ? `<button onclick="vTIdx++;vFlip=false;showVocabBrowse()">下一個</button>`
         : ""}
-      <button class="${vTIdx === vWords.length - 1 ? "" : "ghost"}" onclick="startVocabQuiz()">✋ 提交，開始測驗</button>
-    </div>`;
+      ${seenAll ? `<button onclick="startVocabQuiz()">✋ 提交，開始測驗</button>` : ""}
+    </div>
+    ${!seenAll ? `<p class="muted" style="text-align:center;margin-top:8px">看完全部 ${vWords.length} 個字後，提交按鈕會出現</p>` : ""}`;
 }
 
 function startVocabQuiz() {
