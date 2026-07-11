@@ -290,3 +290,56 @@ textarea:focus { outline: none; border-color: var(--accent); }
   font-weight: 700;
 }
 .q-dot { font-size: 0.8rem; }
+
+/* ===== 首頁溫馨風 ===== */
+.greet { font-size: 1.05rem; font-weight: 700; margin: 4px 0 10px; }
+.countdown-card.warm {
+  background: linear-gradient(135deg, #fff7ed, #ffedd5);
+  border-color: #fed7aa;
+}
+.countdown-card.warm .score-big { color: #c2410c; }
+.countdown-card.warm .quote { color: #9a3412; font-size: 0.95rem; margin-top: 12px; }
+.countdown-card.warm .muted { color: #b45309; }
+@media (prefers-color-scheme: dark) {
+  .countdown-card.warm {
+    background: linear-gradient(135deg, #2a1e14, #3a2417);
+    border-color: #7c4a1e;
+  }
+  .countdown-card.warm .score-big { color: #fdba74; }
+  .countdown-card.warm .quote { color: #fed7aa; }
+  .countdown-card.warm .muted { color: #d97706; }
+}
+.warm-notice { background: #fff7ed; color: #c2410c; }
+@media (prefers-color-scheme: dark) {
+  .warm-notice { background: #3a2417; color: #fdba74; }
+}
+.edit-btn { float: right; font-size: 0.75rem; padding: 3px 12px; }
+.del-btn { flex: 0 0 auto; padding: 4px 10px; color: var(--danger); border-color: var(--danger); }
+.plan-input {
+  flex: 1;
+  font: inherit;
+  color: var(--text);
+  background: var(--card);
+  border: 1.5px solid var(--line);
+  border-radius: 10px;
+  padding: 8px 12px;
+  min-width: 0;
+}
+.plan-input:focus { outline: none; border-color: var(--accent); }
+
+/* 成績趨勢 */
+.trend-row { padding: 8px 0; border-bottom: 1px solid var(--line); }
+.trend-row:last-child { border-bottom: none; }
+.trend-head { display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 600; }
+.trend-bar-bg {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--bg);
+  margin: 6px 0 4px;
+  overflow: hidden;
+}
+.trend-bar {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), #fb923c);
+}

@@ -40,12 +40,24 @@ const SCHEDULE = [
   { date: "2026-08-26", label: "二輪模擬（8/26–28）" },
   { date: "2026-08-30", label: "🎯 郵政升等考" }
 ];
-const DAILY_PLAN = [
+const DEFAULT_PLAN = [
   "刷題或補未訂正題（30 分）",
   "訂正 3～5 題（40 分）",
   "挑出今天最重要的 1 個觀念（15 分）",
   "標記明天要回看的題（5 分）"
 ];
+const LS_PLAN = "hub.plan.v1";
+let planEditing = false;
+
+function getPlan() {
+  try {
+    const p = JSON.parse(localStorage.getItem(LS_PLAN));
+    if (Array.isArray(p) && p.length) return p;
+  } catch {}
+  return DEFAULT_PLAN.slice();
+}
+function savePlan(p) { localStorage.setItem(LS_PLAN, JSON.stringify(p)); }
+
 function todayKey() { return new Date().toISOString().slice(0, 10); }
 function daysLeft() {
   const ms = new Date(EXAM_DATE + "T00:00:00") - new Date(todayKey() + "T00:00:00");
@@ -62,6 +74,32 @@ function toggleDaily(i) {
   localStorage.setItem(LS_DAILY, JSON.stringify(all));
   showHomeTab();
 }
+function addPlanItem() {
+  const el = document.getElementById("new-plan");
+  const t = el.value.trim();
+  if (!t) return;
+  const p = getPlan();
+  p.push(t);
+  savePlan(p);
+  showHomeTab();
+}
+function removePlanItem(i) {
+  const p = getPlan();
+  p.splice(i, 1);
+  savePlan(p.length ? p : DEFAULT_PLAN.slice());
+  showHomeTab();
+}
+function togglePlanEdit() { planEditing = !planEditing; showHomeTab(); }
+
+function greeting() {
+  const h = new Date().getHours();
+  if (h < 5)  return "🌙 夜深了，看一點就去睡";
+  if (h < 11) return "☀️ 早安，新的一天";
+  if (h < 14) return "🍱 午安，休息片刻";
+  if (h < 18) return "🌤 午後時光";
+  return "🌆 晚上好，今天辛苦了";
+}
+
 async function showHomeTab() {
   let sp = {};
   try {
@@ -69,33 +107,97 @@ async function showHomeTab() {
     if (r.ok) sp = await r.json();
   } catch {}
   const d = daysLeft();
-  const quote = QUOTES[(daysLeft() + 7) % QUOTES.length];
+  const quote = QUOTES[(d + 7) % QUOTES.length];
+  const plan = getPlan();
   const local = dailyState()[todayKey()] || [];
   const server = sp[todayKey()] || [];
-  const done = DAILY_PLAN.map((_, i) => !!(local[i] || server[i]));
-  const doneCount = DAILY_PLAN.filter((_, i) => done[i]).length;
-  const upcoming = SCHEDULE.filter(s => s.date >= todayKey()).slice(0, 3);
+  const done = plan.map((_, i) => !!(local[i] || server[i]));
+  const doneCount = done.filter(Boolean).length;
+  const upcoming = SCHEDULE.filter(x => x.date >= todayKey()).slice(0, 3);
+
+  // 快速入口素材：進行中／未開始的卷
+  let quick = "";
+  try {
+    if (!exams.length) {
+      const r = await fetch("exams/index.json", { cache: "no-store" });
+      exams = await r.json();
+    }
+    const all = loadSessions();
+    const going = exams.find(e => all[e.id] && !all[e.id].finished);
+    const fresh = exams.find(e => !all[e.id]);
+    quick = `
+      ${going ? `<button onclick="switchTab('exam');setTimeout(()=>openExam('${going.id}'),300)">▶ 繼續：${going.title}</button>` : ""}
+      ${fresh ? `<button class="${going ? "ghost" : ""}" onclick="switchTab('exam');setTimeout(()=>openExam('${fresh.id}'),300)">📝 ${fresh.title}</button>` : ""}
+      <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocab(false),300)">🔤 來一輪單字</button>`;
+  } catch {}
+
+  // 成績趨勢：伺服器批改檔優先，其次本機完卷紀錄
+  let trend = [];
+  try {
+    const all = loadSessions();
+    for (const e of exams) {
+      let row = null;
+      try {
+        const r = await fetch(`reviews/${e.id}.json`, { cache: "no-store" });
+        if (r.ok) {
+          const rv = await r.json();
+          row = { title: e.title, date: rv.gradedAt, score: rv.total, max: rv.totalMax, pass: rv.pass, full: true };
+        }
+      } catch {}
+      if (!row && all[e.id] && all[e.id].finished) {
+        const sSess = all[e.id];
+        const essayMax = 0;
+        row = { title: e.title, date: new Date(sSess.submitted).toISOString().slice(5, 10),
+                score: sSess.mcScore, max: null, pass: null, full: false };
+      }
+      if (row) trend.push(row);
+    }
+  } catch {}
+
   $app.innerHTML = `
-    <h1>隨身讀書館</h1>
-    <div class="card countdown-card">
+    <p class="greet">${greeting()}</p>
+    <div class="card countdown-card warm">
       <div class="muted">距離 8/30 郵政升等考</div>
       <div class="score-big">${d} <span style="font-size:1.1rem">天</span></div>
       <div class="quote">「${quote}」</div>
     </div>
-    <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${DAILY_PLAN.length}</span></h2>
     <div class="card">
-      ${DAILY_PLAN.map((t, i) => `
-        <label class="check-row">
-          <input type="checkbox" ${done[i] ? "checked" : ""} onchange="toggleDaily(${i})">
-          <span class="${done[i] ? "done-text" : ""}">${t}</span>
-        </label>`).join("")}
-      ${doneCount === DAILY_PLAN.length ? `<div class="notice" style="margin:10px 0 0">今日達標！每天讓一個混亂觀念變清楚 ✅</div>` : ""}
+      <div class="btn-row" style="margin-top:0">${quick}</div>
     </div>
+    <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span>
+      <button class="small ghost edit-btn" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></h2>
+    <div class="card">
+      ${plan.map((t, i) => `
+        <label class="check-row">
+          ${planEditing
+            ? `<button class="small ghost del-btn" onclick="removePlanItem(${i})">✕</button>`
+            : `<input type="checkbox" ${done[i] ? "checked" : ""} onchange="toggleDaily(${i})">`}
+          <span class="${done[i] && !planEditing ? "done-text" : ""}">${t}</span>
+        </label>`).join("")}
+      ${planEditing ? `
+        <div class="btn-row" style="margin-top:10px">
+          <input id="new-plan" class="plan-input" placeholder="新增今日待辦，例如：背 20 個單字">
+          <button class="small" onclick="addPlanItem()" style="flex:0 0 auto">新增</button>
+        </div>` : ""}
+      ${!planEditing && doneCount === plan.length ? `<div class="notice warm-notice" style="margin:10px 0 0">今日達標，好好休息 🌿 你真的很棒</div>` : ""}
+    </div>
+    ${trend.length ? `
+    <h2>成績趨勢</h2>
+    <div class="card">
+      ${trend.map(t => {
+        const pct = t.max ? Math.round(t.score / t.max * 100) : null;
+        return `<div class="trend-row">
+          <div class="trend-head"><span>${t.title}</span><span class="muted">${t.date}</span></div>
+          <div class="trend-bar-bg"><div class="trend-bar" style="width:${pct !== null ? pct : 50}%"></div></div>
+          <div class="muted" style="font-size:0.8rem">${t.max ? `${t.score} / ${t.max} 分${t.pass ? "．✅ 過及格線" : ""}` : `選擇題 ${t.score} 分（申論待批改）`}</div>
+        </div>`;
+      }).join("")}
+    </div>` : ""}
     <h2>近期日程</h2>
     <div class="card">
-      ${upcoming.map(s => {
-        const dd = Math.round((new Date(s.date) - new Date(todayKey())) / 86400000);
-        return `<div class="sched-row"><span>${s.date.slice(5).replace("-", "/")}　${s.label}</span><span class="muted">${dd === 0 ? "今天" : dd + " 天後"}</span></div>`;
+      ${upcoming.map(x => {
+        const dd = Math.round((new Date(x.date) - new Date(todayKey())) / 86400000);
+        return `<div class="sched-row"><span>${x.date.slice(5).replace("-", "/")}　${x.label}</span><span class="muted">${dd === 0 ? "今天" : dd + " 天後"}</span></div>`;
       }).join("")}
     </div>`;
 }
