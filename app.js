@@ -766,15 +766,37 @@ function speak(text) {
   } catch {}
 }
 let grammar = null, gOpen = {};
+const LS_VOCAB_CUSTOM = "hub.vocab.custom.v1";
+function customVocab() { try { return JSON.parse(localStorage.getItem(LS_VOCAB_CUSTOM)) || []; } catch { return []; } }
+function allVocab() {
+  const base = vocab || [];
+  const have = new Set(base.map(v => v.w.toLowerCase()));
+  return base.concat(customVocab().filter(v => !have.has(v.w.toLowerCase())));
+}
+function addCustomWord(w, zh, ex) {
+  const list = customVocab();
+  if (!list.find(x => x.w.toLowerCase() === w.toLowerCase())) {
+    list.push({ w, pos: "－", zh, ex: ex || "", custom: true });
+    localStorage.setItem(LS_VOCAB_CUSTOM, JSON.stringify(list));
+  }
+}
+function exportCustomWords() {
+  const list = customVocab();
+  const text = "【自訂單字匯出，請補完詞性與例句後併入 vocab.json】\n" + JSON.stringify(list, null, 1);
+  navigator.clipboard.writeText(text).then(() => toast("已複製，貼給 Claude 轉正式辭典")).catch(() => {});
+}
 async function showVocabTab() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
   if (!grammar) { try { grammar = await (await fetch("data/grammar.json", { cache: "no-store" })).json(); } catch { grammar = []; } }
   const st = vStages();
-  const mastered = vocab.filter(v => st[v.w] === 3).length;
-  const learning = vocab.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2).length;
+  const av = allVocab();
+  const mastered = av.filter(v => st[v.w] === 3).length;
+  const learning = av.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2).length;
+  const nCustom = customVocab().length;
   $app.innerHTML = `
     <h1>單字辭典</h1>
-    <p class="muted">共 ${vocab.length} 字．已熟 ${mastered}．闖關中 ${learning}．每天考單字請從首頁「來一輪單字」進入</p>
+    <p class="muted">共 ${av.length} 字${nCustom ? `（含自訂 ${nCustom}）` : ""}．已熟 ${mastered}．闖關中 ${learning}．每天考單字請從首頁「來一輪單字」進入</p>
+    ${nCustom ? `<div class="btn-row" style="margin:0 0 10px"><button class="small ghost" onclick="exportCustomWords()">📤 匯出自訂單字給 Claude 轉正式辭典</button></div>` : ""}
     <div class="card">
       <input class="plan-input" id="vocab-search" placeholder="🔍 搜尋單字或中文…" oninput="renderVocabList()" style="width:100%;margin-bottom:8px">
       <div id="vocab-list"></div>
@@ -802,14 +824,14 @@ function renderVocabList() {
   if (!box || !vocab) return;
   const kw = (document.getElementById("vocab-search")?.value || "").trim().toLowerCase();
   const st = vStages();
-  const list = vocab.filter(v => !kw || v.w.toLowerCase().includes(kw) || v.zh.includes(kw));
+  const list = allVocab().filter(v => !kw || v.w.toLowerCase().includes(kw) || v.zh.includes(kw));
   box.innerHTML = list.length ? list.map(v => {
     const stage = st[v.w] || 0;
     const dots = "●".repeat(stage) + "○".repeat(3 - stage);
     const open = vOpen === v.w;
     return `<div class="vlist-row" onclick="vOpen=vOpen==='${v.w.replace(/'/g, "\\'")}'?null:'${v.w.replace(/'/g, "\\'")}';renderVocabList()">
       <div class="vlist-head">
-        <span><strong>${v.w}</strong> <span class="muted">${v.pos}</span>　${v.zh}</span>
+        <span><strong>${v.w}</strong> <span class="muted">${v.pos}</span>　${v.zh}${v.custom ? ' <span class="tag pend" style="font-size:0.65rem">✎ 自訂</span>' : ""}</span>
         <span class="muted" style="font-size:0.75rem">${dots}</span>
       </div>
       ${open ? `<div class="muted" style="font-style:italic;margin-top:4px">${v.ex}</div>
@@ -831,7 +853,7 @@ function blankWord(ex, w) {
   }).join("");
 }
 function distractors(word, n) {
-  const others = vocab.filter(v => v.w !== word.w);
+  const others = allVocab().filter(v => v.w !== word.w);
   const same = others.filter(v => v.pos === word.pos);
   const pool = (same.length >= n ? same : others).slice();
   pool.sort(() => Math.random() - 0.5);
@@ -839,13 +861,14 @@ function distractors(word, n) {
 }
 async function startVocabRound() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
+  const av = allVocab();
   const st = vStages();
-  const quiz = vocab.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2)
-                    .sort(() => Math.random() - 0.5);
-  const fresh = vocab.filter(v => (st[v.w] || 0) === 0)
-                     .sort(() => Math.random() - 0.5);
+  const quiz = av.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2)
+                 .sort(() => Math.random() - 0.5);
+  const fresh = av.filter(v => (st[v.w] || 0) === 0)
+                  .sort(() => Math.random() - 0.5);
   vTasks = [];
-  quiz.slice(0, 6).forEach(v => vTasks.push({ v, type: (st[v.w] === 1 ? "cloze" : "zh2en") }));
+  quiz.slice(0, 6).forEach(v => vTasks.push({ v, type: (st[v.w] === 1 && v.ex ? "cloze" : "zh2en") }));
   fresh.slice(0, Math.max(4, 10 - vTasks.length)).forEach(v => vTasks.push({ v, type: "learn" }));
   vTasks = vTasks.slice(0, 10);
   if (!vTasks.length) { toast("全部單字都熟了！🎉"); return; }
@@ -987,13 +1010,25 @@ function renderLookup() {
   const kw = (document.getElementById("lookup-input")?.value || "").trim().toLowerCase();
   if (!kw) { box.innerHTML = `<p class="muted">選取題目中的單字再按 🔍，會自動帶入。</p>`; return; }
   const hits = (vocab || []).filter(v => v.w.toLowerCase().includes(kw) || v.zh.includes(kw)).slice(0, 5);
+  const exact = allVocab().find(v => v.w.toLowerCase() === kw);
   box.innerHTML = (hits.length ? hits.map(v => `
     <div class="vlist-row">
       <div><strong>${v.w}</strong> <span class="muted">${v.pos}</span>　${v.zh}
         <button class="small ghost" style="padding:1px 8px" onclick="speak('${v.w.replace(/'/g, "\\'")}')">🔊</button></div>
       <div class="muted" style="font-style:italic">${v.ex}</div>
     </div>`).join("") : `<p class="muted">單字庫沒有這個字。</p>`)
-    + `<p style="margin-top:6px"><a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">在劍橋詞典查「${kw}」 ›</a></p>`;
+    + `<p style="margin-top:6px"><a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">在劍橋詞典查「${kw}」 ›</a></p>`
+    + (!exact && /^[a-z][a-z '-]*$/.test(kw) ? `<div id="add-word-zone">
+        <input class="plan-input" id="add-word-zh" placeholder="查到意思後，輸入中文解釋…" style="width:100%;margin-top:6px">
+        <div class="btn-row" style="margin-top:8px"><button class="small" onclick="saveCustomWord('${kw.replace(/'/g, "\\'")}')">➕ 加入我的單字</button></div>
+      </div>` : "");
+}
+function saveCustomWord(w) {
+  const zh = (document.getElementById("add-word-zh")?.value || "").trim();
+  if (!zh) { toast("先填中文解釋"); return; }
+  addCustomWord(w, zh, "");
+  toast(`「${w}」已加入辭典，會進三關輪替`);
+  renderLookup();
 }
 
 /* ================= 工具 ================= */
