@@ -866,14 +866,22 @@ function renderVocabList() {
   }).join("") : `<p class="muted">找不到「${kw}」。<a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">到劍橋詞典查 ›</a></p>`;
 }
 function blankWord(ex, w) {
+  // 1) 整組比對（含片語），大小寫不拘、允許中間空白變化
+  const esc = w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&").replace(/\s+/g, "\\s+");
+  const re = new RegExp("\\b" + esc + "\\b", "i");
+  if (re.test(ex)) return ex.replace(re, "＿＿＿＿");
+  // 2) 單字字形變化（deliver → delivered）：長字首比對
   const pre = w.slice(0, Math.min(w.length, 5)).toLowerCase();
-  return ex.split(/(\s+)/).map(tok => {
+  let hit = false;
+  const out = ex.split(/(\s+)/).map(tok => {
     const clean = tok.replace(/[^A-Za-z]/g, "").toLowerCase();
-    if (clean && (clean === w.toLowerCase() || clean.startsWith(pre))) {
+    if (!hit && clean && (clean === w.toLowerCase() || clean.startsWith(pre))) {
+      hit = true;
       return tok.replace(/[A-Za-z]+/, "＿＿＿＿");
     }
     return tok;
   }).join("");
+  return hit ? out : null; // 挖不掉回傳 null，讓呼叫端改考中翻英
 }
 function distractors(word, n) {
   const others = allVocab().filter(v => v.w !== word.w);
@@ -931,8 +939,9 @@ function startVocabQuiz() {
   const st = vStages();
   vTasks = vWords.map(v => {
     const stage = st[v.w] || 0;
-    const type = (v.ex && stage < 2) ? "cloze" : "zh2en";
-    return { v, type };
+    const blanked = v.ex ? blankWord(v.ex, v.w) : null;
+    const type = (blanked && stage < 2) ? "cloze" : "zh2en";
+    return { v, type, blanked };
   }).sort(() => Math.random() - 0.5);
   vPhase = "quiz"; vTIdx = 0; vAnswered = null; vRight = 0;
   showVocabTask();
@@ -950,7 +959,7 @@ function showVocabTask() {
   const opts = t.opts || (t.opts = [t.v, ...distractors(t.v, 3)].sort(() => Math.random() - 0.5));
   const answered = vAnswered !== null;
   const stem = t.type === "cloze"
-    ? `<div class="q-stem">${blankWord(t.v.ex, t.v.w)}</div><p class="muted">（${t.v.pos}${t.v.zh ? "．" + t.v.zh : ""}）</p>`
+    ? `<div class="q-stem">${t.blanked}</div><p class="muted">（${t.v.pos}${t.v.zh ? "．" + t.v.zh : ""}）</p>`
     : `<div class="q-stem" style="font-size:1.2rem;font-weight:700">${t.v.zh}<span class="muted" style="font-size:0.85rem">（${t.v.pos}）</span></div>`;
   $app.innerHTML = head + stem + opts.map(o => {
     let cls = "opt";
