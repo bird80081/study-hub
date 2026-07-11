@@ -128,7 +128,7 @@ async function showHomeTab() {
     quick = `
       ${going ? `<button onclick="switchTab('exam');setTimeout(()=>openExam('${going.id}'),300)">▶ 繼續：${going.title}</button>` : ""}
       ${fresh ? `<button class="${going ? "ghost" : ""}" onclick="switchTab('exam');setTimeout(()=>openExam('${fresh.id}'),300)">📝 ${fresh.title}</button>` : ""}
-      <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocab(false),300)">🔤 來一輪單字</button>`;
+      <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocabRound(),300)">🔤 來一輪單字</button>`;
   } catch {}
 
   $app.innerHTML = `
@@ -302,6 +302,7 @@ function showDrillQ() {
     <div class="exam-top">
       <button class="small ghost" onclick="showDrillTab()">結束</button>
       <span class="muted">${drillIdx + 1}/${drillQ.length}．${q.subject}</span>
+      <button class="small ghost" onclick="openLookup()">🔍</button>
       <span class="muted">✔ ${drillRight}</span>
     </div>
     <div class="q-num">${q.point}</div>
@@ -537,7 +538,8 @@ function showQuestion() {
     <div class="exam-top">
       <button class="small ghost" onclick="showGridView()">一覽</button>
       <span class="muted">${answered}/${exam.questions.length}</span>
-      <button class="small ghost" onclick="pauseExam()">⏸ 暫停</button>
+      <button class="small ghost" onclick="openLookup()">🔍</button>
+      <button class="small ghost" onclick="pauseExam()">⏸</button>
       <span class="timer" id="timer"></span>
     </div>
     <div class="q-num">第 ${cur + 1} 題／${q.section}${q.essay ? `（${q.points} 分）` : ""}
@@ -781,7 +783,37 @@ async function showVocabTab() {
         <button onclick="startVocabRound()">開始今日單字</button>
       </div>
       <p class="muted" style="margin-top:8px">每輪 10 題：先復習闖關中的字，再學新字（每輪最多 4 個新字）。</p>
+    </div>
+    <h2>單字總表</h2>
+    <div class="card">
+      <input class="plan-input" id="vocab-search" placeholder="🔍 搜尋單字或中文…" oninput="renderVocabList()" style="width:100%;margin-bottom:8px">
+      <div id="vocab-list"></div>
     </div>`;
+  renderVocabList();
+}
+let vOpen = null;
+function renderVocabList() {
+  const box = document.getElementById("vocab-list");
+  if (!box || !vocab) return;
+  const kw = (document.getElementById("vocab-search")?.value || "").trim().toLowerCase();
+  const st = vStages();
+  const list = vocab.filter(v => !kw || v.w.toLowerCase().includes(kw) || v.zh.includes(kw));
+  box.innerHTML = list.length ? list.map(v => {
+    const stage = st[v.w] || 0;
+    const dots = "●".repeat(stage) + "○".repeat(3 - stage);
+    const open = vOpen === v.w;
+    return `<div class="vlist-row" onclick="vOpen=vOpen==='${v.w.replace(/'/g, "\\'")}'?null:'${v.w.replace(/'/g, "\\'")}';renderVocabList()">
+      <div class="vlist-head">
+        <span><strong>${v.w}</strong> <span class="muted">${v.pos}</span>　${v.zh}</span>
+        <span class="muted" style="font-size:0.75rem">${dots}</span>
+      </div>
+      ${open ? `<div class="muted" style="font-style:italic;margin-top:4px">${v.ex}</div>
+        <div class="btn-row" style="margin-top:8px">
+          <button class="small ghost" onclick="event.stopPropagation();speak('${v.w.replace(/'/g, "\\'")}')">🔊 發音</button>
+          <button class="small ghost" onclick="event.stopPropagation();speak(${JSON.stringify(v.ex).replace(/"/g, "&quot;")})">🔊 例句</button>
+        </div>` : ""}
+    </div>`;
+  }).join("") : `<p class="muted">找不到「${kw}」。<a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">到劍橋詞典查 ›</a></p>`;
 }
 function blankWord(ex, w) {
   const pre = w.slice(0, Math.min(w.length, 5)).toLowerCase();
@@ -921,6 +953,41 @@ async function showNotesTab() {
           </div>`).join("") : ""}
       </div>`;
     }).join("")}`;
+}
+
+/* ================= 查單字浮層 ================= */
+async function openLookup() {
+  if (!vocab) { try { vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json(); } catch {} }
+  const sel = (window.getSelection ? String(window.getSelection()) : "").trim().slice(0, 30);
+  document.querySelectorAll(".lookup-overlay").forEach(x => x.remove());
+  const div = document.createElement("div");
+  div.className = "lookup-overlay";
+  div.innerHTML = `
+    <div class="lookup-box card">
+      <div class="h2-row" style="margin:0 0 8px">
+        <strong>查單字</strong>
+        <button class="small ghost" onclick="this.closest('.lookup-overlay').remove()">關閉</button>
+      </div>
+      <input class="plan-input" id="lookup-input" placeholder="輸入英文或中文…" value="${sel.replace(/"/g, "&quot;")}" oninput="renderLookup()" style="width:100%">
+      <div id="lookup-result" style="margin-top:8px"></div>
+    </div>`;
+  document.body.appendChild(div);
+  renderLookup();
+  document.getElementById("lookup-input").focus();
+}
+function renderLookup() {
+  const box = document.getElementById("lookup-result");
+  if (!box) return;
+  const kw = (document.getElementById("lookup-input")?.value || "").trim().toLowerCase();
+  if (!kw) { box.innerHTML = `<p class="muted">選取題目中的單字再按 🔍，會自動帶入。</p>`; return; }
+  const hits = (vocab || []).filter(v => v.w.toLowerCase().includes(kw) || v.zh.includes(kw)).slice(0, 5);
+  box.innerHTML = (hits.length ? hits.map(v => `
+    <div class="vlist-row">
+      <div><strong>${v.w}</strong> <span class="muted">${v.pos}</span>　${v.zh}
+        <button class="small ghost" style="padding:1px 8px" onclick="speak('${v.w.replace(/'/g, "\\'")}')">🔊</button></div>
+      <div class="muted" style="font-style:italic">${v.ex}</div>
+    </div>`).join("") : `<p class="muted">單字庫沒有這個字。</p>`)
+    + `<p style="margin-top:6px"><a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">在劍橋詞典查「${kw}」 ›</a></p>`;
 }
 
 /* ================= 工具 ================= */

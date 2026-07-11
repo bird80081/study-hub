@@ -414,3 +414,20 @@ textarea:focus { outline: none; border-color: var(--accent); }
 .vocab-stages { display: flex; justify-content: space-around; text-align: center; margin-bottom: 6px; }
 .speak-btn { padding: 2px 8px; font-size: 0.8rem; border-style: dashed; }
 .card.locked { opacity: 0.75; background: var(--bg); }
+
+/* ===== 單字總表與查單字 ===== */
+.vlist-row { padding: 8px 0; border-bottom: 1px dashed var(--line); cursor: pointer; }
+.vlist-row:last-child { border-bottom: none; }
+.vlist-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.lookup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 80;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 60px 16px 16px;
+}
+.lookup-box { width: 100%; max-width: 480px; max-height: 70vh; overflow-y: auto; }
+.lookup-overlay a { color: var(--accent); }
