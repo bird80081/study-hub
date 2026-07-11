@@ -6,5 +6,13 @@
     "subject": "民法",
     "minutes": 90,
     "summary": "選擇 20 題＋申論 2 題．工具試營運用，正式卷 7/31"
+  },
+  {
+    "id": "postal-mini-01",
+    "file": "postal-mini-01.json",
+    "title": "郵政法規迷你卷 01",
+    "subject": "郵政法規",
+    "minutes": 20,
+    "summary": "選擇 15 題．速查表核心數字＋⚠ 曾錯考點回收"
   }
 ]
