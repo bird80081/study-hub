@@ -818,7 +818,7 @@ async function showVocabTab() {
   const nCustom = customVocab().length;
   $app.innerHTML = `
     <h1>單字辭典</h1>
-    <p class="muted">共 ${av.length} 字${nCustom ? `（含自訂 ${nCustom}）` : ""}．已熟 ${mastered}．闖關中 ${learning}．每天考單字請從首頁「來一輪單字」進入</p>
+    <p class="muted">共 ${av.length} 字${nCustom ? `（含自訂 ${nCustom}）` : ""}．已熟 ${mastered}．闖關中 ${learning}．每日單字：翻卡瀏覽 15 字 → 提交測驗，從首頁「來一輪單字」進入</p>
     ${nCustom ? `<div class="btn-row" style="margin:0 0 10px"><button class="small ghost" onclick="exportCustomWords()">📤 匯出自訂單字給 Claude 轉正式辭典</button></div>` : ""}
     <div class="card">
       <input class="plan-input" id="vocab-search" placeholder="🔍 搜尋單字或中文…" oninput="renderVocabList()" style="width:100%;margin-bottom:8px">
@@ -882,45 +882,68 @@ function distractors(word, n) {
   pool.sort(() => Math.random() - 0.5);
   return pool.slice(0, n);
 }
+/* 每日單字：階段一快速翻卡瀏覽（正面純英文）→ 提交 → 階段二測驗同批單字 */
+let vWords = [], vPhase = "browse", vFlip = false;
+
 async function startVocabRound() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
   const av = allVocab();
   const st = vStages();
-  const quiz = av.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2)
-                 .sort(() => Math.random() - 0.5);
-  const fresh = av.filter(v => (st[v.w] || 0) === 0)
-                  .sort(() => Math.random() - 0.5);
-  vTasks = [];
-  quiz.slice(0, 6).forEach(v => vTasks.push({ v, type: (st[v.w] === 1 && v.ex ? "cloze" : "zh2en") }));
-  fresh.slice(0, Math.max(4, 10 - vTasks.length)).forEach(v => vTasks.push({ v, type: "learn" }));
-  vTasks = vTasks.slice(0, 10);
-  if (!vTasks.length) { toast("全部單字都熟了！🎉"); return; }
-  vTIdx = 0; vAnswered = null; vRight = 0;
+  const due = av.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2).sort(() => Math.random() - 0.5);
+  const fresh = av.filter(v => (st[v.w] || 0) === 0).sort(() => Math.random() - 0.5);
+  vWords = due.slice(0, 8).concat(fresh).slice(0, 15);
+  if (!vWords.length) { toast("全部單字都熟了！🎉"); return; }
+  vPhase = "browse"; vTIdx = 0; vFlip = false; vAnswered = null; vRight = 0;
+  showVocabBrowse();
+}
+
+function showVocabBrowse() {
+  const v = vWords[vTIdx];
+  $app.innerHTML = `
+    <div class="exam-top">
+      <button class="small ghost" onclick="showVocabTab()">結束</button>
+      <span class="muted">瀏覽 ${vTIdx + 1}/${vWords.length}</span>
+      <span class="muted">點卡片翻面</span>
+    </div>
+    <div class="flashcard ${vFlip ? "flip" : ""}" onclick="vFlip=!vFlip;showVocabBrowse()">
+      ${vFlip
+        ? `<div class="fc-word" style="font-size:1.3rem">${v.w} <span class="muted">${v.pos}</span></div>
+           <div class="fc-zh">${v.zh}</div>
+           ${v.ex ? `<div class="fc-ex">${v.ex}</div>` : ""}
+           <button class="small ghost speak-btn" onclick="event.stopPropagation();speak(${JSON.stringify(v.ex || v.w).replace(/"/g, "&quot;")})">🔊 例句</button>`
+        : `<div class="fc-word">${v.w}</div>
+           <button class="small ghost speak-btn" onclick="event.stopPropagation();speak('${v.w.replace(/'/g, "\\'")}')">🔊</button>
+           <div class="muted">想一下意思，點卡片翻面對答案</div>`}
+    </div>
+    <div class="btn-row">
+      <button class="ghost" onclick="vTIdx=Math.max(0,vTIdx-1);vFlip=false;showVocabBrowse()" ${vTIdx === 0 ? "disabled" : ""}>上一個</button>
+      ${vTIdx < vWords.length - 1
+        ? `<button onclick="vTIdx++;vFlip=false;showVocabBrowse()">下一個</button>`
+        : ""}
+      <button class="${vTIdx === vWords.length - 1 ? "" : "ghost"}" onclick="startVocabQuiz()">✋ 提交，開始測驗</button>
+    </div>`;
+}
+
+function startVocabQuiz() {
+  const st = vStages();
+  vTasks = vWords.map(v => {
+    const stage = st[v.w] || 0;
+    const type = (v.ex && stage < 2) ? "cloze" : "zh2en";
+    return { v, type };
+  }).sort(() => Math.random() - 0.5);
+  vPhase = "quiz"; vTIdx = 0; vAnswered = null; vRight = 0;
   showVocabTask();
 }
+
 function showVocabTask() {
   if (vTIdx >= vTasks.length) return showVocabDone();
   const t = vTasks[vTIdx];
   const head = `
     <div class="exam-top">
       <button class="small ghost" onclick="showVocabTab()">結束</button>
-      <span class="muted">${vTIdx + 1}/${vTasks.length}</span>
-      <span class="muted">${t.type === "learn" ? "🌱 認識新字" : t.type === "cloze" ? "✏️ 第二關：挖空" : "🎯 第三關：中翻英"}</span>
+      <span class="muted">測驗 ${vTIdx + 1}/${vTasks.length}</span>
+      <span class="muted">${t.type === "cloze" ? "✏️ 例句挖空" : "🎯 中翻英"}</span>
     </div>`;
-  if (t.type === "learn") {
-    $app.innerHTML = head + `
-      <div class="flashcard">
-        <div class="fc-word">${t.v.w} <button class="small ghost speak-btn" onclick="event.stopPropagation();speak('${t.v.w}')">🔊</button></div>
-        <div class="muted">${t.v.pos}</div>
-        <div class="fc-zh">${t.v.zh}</div>
-        <div class="fc-ex">${t.v.ex} <button class="small ghost speak-btn" onclick="event.stopPropagation();speak(${JSON.stringify(t.v.ex).replace(/"/g, "&quot;")})">🔊</button></div>
-      </div>
-      <div class="btn-row">
-        <button onclick="learnDone(1)">認識了，進第二關</button>
-        <button class="ghost" onclick="learnDone(2)">早就會，直接第三關</button>
-      </div>`;
-    return;
-  }
   const opts = t.opts || (t.opts = [t.v, ...distractors(t.v, 3)].sort(() => Math.random() - 0.5));
   const answered = vAnswered !== null;
   const stem = t.type === "cloze"
@@ -933,20 +956,15 @@ function showVocabTask() {
       else if (o.w === vAnswered) cls += " wrong";
     }
     return `<button class="${cls}" ${answered ? "disabled" : ""} style="${answered ? "opacity:1" : ""}"
-      onclick="pickVocab('${o.w}')">${o.w}</button>`;
+      onclick="pickVocab('${o.w.replace(/'/g, "\\'")}')">${o.w}</button>`;
   }).join("") + (answered ? `
-    <div class="explain">${t.v.w}（${t.v.pos}）${t.v.zh}\n${t.v.ex}</div>
+    <div class="explain">${t.v.w}（${t.v.pos}）${t.v.zh}${t.v.ex ? "\n" + t.v.ex : ""}</div>
     <div class="btn-row">
-      <button class="small ghost" onclick="speak('${t.v.w}')">🔊 唸一次</button>
+      <button class="small ghost" onclick="speak('${t.v.w.replace(/'/g, "\\'")}')">🔊 唸一次</button>
       <button onclick="nextVocab()">${vTIdx === vTasks.length - 1 ? "看結果" : "下一題"}</button>
     </div>` : "");
 }
-function learnDone(stage) {
-  setStage(vTasks[vTIdx].v.w, stage);
-  vRight++;
-  vTIdx++; vAnswered = null;
-  showVocabTask();
-}
+
 function pickVocab(w) {
   if (vAnswered !== null) return;
   const t = vTasks[vTIdx];
@@ -954,25 +972,27 @@ function pickVocab(w) {
   const cur = vStages()[t.v.w] || 0;
   if (w === t.v.w) {
     vRight++;
-    setStage(t.v.w, t.type === "cloze" ? 2 : 3);
+    setStage(t.v.w, Math.min(3, cur + 1));
     speak(t.v.w);
   } else {
-    setStage(t.v.w, t.type === "cloze" ? 0 : 1); // 答錯退回上一關
+    setStage(t.v.w, Math.max(0, cur - 1));
   }
   showVocabTask();
 }
 function nextVocab() { vTIdx++; vAnswered = null; showVocabTask(); }
+
 function showVocabDone() {
   const st = vStages();
-  const mastered = vocab.filter(v => st[v.w] === 3).length;
+  const mastered = allVocab().filter(v => st[v.w] === 3).length;
+  const pct = Math.round(vRight / vTasks.length * 100);
   $app.innerHTML = `
     <div class="card" style="text-align:center;margin-top:30px">
-      <h2 style="background:none">本輪完成！</h2>
+      <h2 style="background:none">今日單字完成！</h2>
       <div class="score-big">${vRight}<span class="muted" style="font-size:1rem"> / ${vTasks.length}</span></div>
-      <p class="muted">已熟單字累計 ${mastered} / ${vocab.length}．答錯的字退了一關，下輪會再出現</p>
+      <p class="muted">${pct === 100 ? "全對！記憶是真的 🎉" : "答錯的字降了一級，明天會再出現"}．已熟累計 ${mastered} / ${allVocab().length}</p>
       <div class="btn-row">
         <button onclick="startVocabRound()">再來一輪</button>
-        <button class="ghost" onclick="showVocabTab()">回單字頁</button>
+        <button class="ghost" onclick="showVocabTab()">回辭典</button>
       </div>
     </div>`;
 }
