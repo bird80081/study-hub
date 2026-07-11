@@ -756,14 +756,37 @@ function setStage(w, st) {
   all[w] = st;
   localStorage.setItem(LS_VOCAB2, JSON.stringify(all));
 }
-function speak(text) {
+function slugOf(w) { return w.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_+|_+$/g, ""); }
+let bestV = null;
+function ttsSpeak(text) {
   try {
     speechSynthesis.cancel();
+    if (!bestV) {
+      const vs = speechSynthesis.getVoices().filter(v => v.lang && v.lang.startsWith("en"));
+      bestV = vs.find(v => /Google US English/i.test(v.name))
+           || vs.find(v => /Samantha|Ava|Allison|Karen|Daniel/i.test(v.name))
+           || vs.find(v => v.lang === "en-US") || vs[0] || null;
+    }
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "en-US";
     u.rate = 0.9;
+    if (bestV) u.voice = bestV;
     speechSynthesis.speak(u);
   } catch {}
+}
+function speak(text) {
+  // 優先播預先生成的高品質音檔（單字或例句），沒有才用裝置語音
+  const av = (vocab ? (typeof allVocab === "function" ? allVocab() : vocab) : []);
+  const hitW = av.find(v => v.w === text);
+  const hitE = !hitW && av.find(v => v.ex === text);
+  const slug = hitW ? slugOf(hitW.w) : (hitE ? slugOf(hitE.w) + "_ex" : null);
+  if (slug) {
+    const a = new Audio("audio/" + slug + ".m4a");
+    a.onerror = () => ttsSpeak(text);
+    a.play().catch(() => ttsSpeak(text));
+    return;
+  }
+  ttsSpeak(text);
 }
 let grammar = null, gOpen = {};
 const LS_VOCAB_CUSTOM = "hub.vocab.custom.v1";
