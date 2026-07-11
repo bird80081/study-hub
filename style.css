@@ -288,7 +288,14 @@ textarea:focus { outline: none; border-color: var(--accent); }
 }
 .sched-row:last-child { border-bottom: none; }
 .warm-notice { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
-.edit-btn { float: right; font-size: 0.75rem; padding: 3px 12px; }
+.h2-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0 8px;
+}
+.h2-row h2 { margin: 0; }
+.h2-row button { flex: 0 0 auto; font-size: 0.78rem; padding: 4px 14px; }
 .del-btn { flex: 0 0 auto; padding: 4px 10px; }
 .plan-input {
   flex: 1;

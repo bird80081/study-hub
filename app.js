@@ -164,8 +164,10 @@ async function showHomeTab() {
     <div class="card">
       <div class="btn-row" style="margin-top:0">${quick}</div>
     </div>
-    <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span>
-      <button class="small ghost edit-btn" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></h2>
+    <div class="h2-row">
+      <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span></h2>
+      <button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button>
+    </div>
     <div class="card">
       ${plan.map((t, i) => `
         <label class="check-row">
