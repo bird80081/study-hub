@@ -765,30 +765,35 @@ function speak(text) {
     speechSynthesis.speak(u);
   } catch {}
 }
+let grammar = null, gOpen = {};
 async function showVocabTab() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
+  if (!grammar) { try { grammar = await (await fetch("data/grammar.json", { cache: "no-store" })).json(); } catch { grammar = []; } }
   const st = vStages();
-  const c = [0, 0, 0, 0];
-  vocab.forEach(v => c[st[v.w] || 0]++);
+  const mastered = vocab.filter(v => st[v.w] === 3).length;
+  const learning = vocab.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2).length;
   $app.innerHTML = `
-    <h1>單字三關</h1>
-    <p class="muted">認識 → 例句挖空 → 中翻英，過三關才算熟；答錯會退關重練</p>
-    <div class="card">
-      <div class="vocab-stages">
-        <div><div class="score-big" style="font-size:1.6rem">${c[0]}</div><div class="muted">未學</div></div>
-        <div><div class="score-big" style="font-size:1.6rem">${c[1] + c[2]}</div><div class="muted">闖關中</div></div>
-        <div><div class="score-big" style="font-size:1.6rem;color:var(--ok)">${c[3]}</div><div class="muted">已熟</div></div>
-      </div>
-      <div class="btn-row">
-        <button onclick="startVocabRound()">開始今日單字</button>
-      </div>
-      <p class="muted" style="margin-top:8px">每輪 10 題：先復習闖關中的字，再學新字（每輪最多 4 個新字）。</p>
-    </div>
-    <h2>單字總表</h2>
+    <h1>單字辭典</h1>
+    <p class="muted">共 ${vocab.length} 字．已熟 ${mastered}．闖關中 ${learning}．每天考單字請從首頁「來一輪單字」進入</p>
     <div class="card">
       <input class="plan-input" id="vocab-search" placeholder="🔍 搜尋單字或中文…" oninput="renderVocabList()" style="width:100%;margin-bottom:8px">
       <div id="vocab-list"></div>
-    </div>`;
+    </div>
+    <h2>文法重點</h2>
+    ${grammar.map((g, gi) => `
+    <div class="card">
+      <div class="note-group" onclick="gOpen[${gi}]=!gOpen[${gi}];showVocabTab()">
+        <strong>${g.group}</strong>
+        <span class="muted">${g.items.length} 則 ${gOpen[gi] ? "▾" : "▸"}</span>
+      </div>
+      ${gOpen[gi] ? g.items.map(it => `
+        <div class="note-item">
+          <div class="note-point">${it.topic}</div>
+          <div class="note-value" style="font-size:0.92rem">${it.rule}</div>
+          <div class="explain" style="margin-top:6px">${it.examples.join("\n")}</div>
+          <div class="muted" style="font-size:0.8rem;margin-top:4px">💡 ${it.trap}</div>
+        </div>`).join("") : ""}
+    </div>`).join("")}`;
   renderVocabList();
 }
 let vOpen = null;
@@ -832,7 +837,8 @@ function distractors(word, n) {
   pool.sort(() => Math.random() - 0.5);
   return pool.slice(0, n);
 }
-function startVocabRound() {
+async function startVocabRound() {
+  if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
   const st = vStages();
   const quiz = vocab.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2)
                     .sort(() => Math.random() - 0.5);

@@ -1,0 +1,141 @@
+[
+  {
+    "group": "詞類與句型",
+    "items": [
+      {
+        "topic": "關係代名詞 who / whom / whose / which",
+        "rule": "先行詞是人：主格 who、受格 whom、所有格 whose（後面必接名詞）；先行詞是物：which / that。whose 是唯一「後面直接接名詞」的關代。",
+        "examples": [
+          "✓ The applicant whose resume impressed us was hired.（whose＋名詞）",
+          "✓ The clerk who serves at counter 3 is very patient.",
+          "✗ The applicant who resume…（who 後不能直接接名詞）"
+        ],
+        "trap": "看到空格後面緊跟名詞（resume、house、idea），九成是 whose。"
+      },
+      {
+        "topic": "間接問句語序",
+        "rule": "疑問句放進句子裡當受詞時，改用「疑問詞＋主詞＋動詞」的直述句語序，不倒裝、不加 do/does/did。",
+        "examples": [
+          "✓ Could you tell me where the post office is?",
+          "✗ Could you tell me where is the post office?",
+          "✓ I don't know when the parcel will arrive."
+        ],
+        "trap": "選項裡出現「疑問詞＋動詞＋主詞」的，直接刪掉。"
+      },
+      {
+        "topic": "被動語態",
+        "rule": "主詞是動作的承受者時用被動：be ＋ 過去分詞。判斷法：主詞自己會不會做這個動作？包裹不會自己檢查自己 → 被動。",
+        "examples": [
+          "✓ All parcels are inspected before loading.",
+          "✓ The letter was sent via airmail.",
+          "✗ The parcel delivers tomorrow.（包裹不會自己投遞）"
+        ],
+        "trap": "無生命主詞＋及物動詞，優先考慮被動。"
+      },
+      {
+        "topic": "不定詞與動名詞",
+        "rule": "look forward to、be used to、object to 的 to 是介系詞，後接 V-ing；decide、plan、hope 後接 to V；enjoy、finish、avoid、mind 後接 V-ing。",
+        "examples": [
+          "✓ I look forward to hearing from you.",
+          "✗ I look forward to hear from you.",
+          "✓ He finished sorting the mail before noon."
+        ],
+        "trap": "look forward to ＋ V-ing 是歷屆最愛考的陷阱，to 不是不定詞！"
+      }
+    ]
+  },
+  {
+    "group": "連接詞與介系詞",
+    "items": [
+      {
+        "topic": "because vs because of",
+        "rule": "because ＋ 完整子句（主詞＋動詞）；because of ＋ 名詞（片語）。同理：although ＋ 子句、despite / in spite of ＋ 名詞。",
+        "examples": [
+          "✓ The flight was delayed because of the typhoon.",
+          "✓ The flight was delayed because the typhoon hit.",
+          "✓ They finished the work in spite of the heavy rain."
+        ],
+        "trap": "看空格後面：有主詞＋動詞選 because / although；只有名詞選 because of / despite。"
+      },
+      {
+        "topic": "時間介系詞 in / on / at",
+        "rule": "at ＋ 時刻（at 9:00）；on ＋ 特定日期或星期（on July 1, on Monday）；in ＋ 月、年、季節、較長時段（in March, in 2026, in the morning）。",
+        "examples": [
+          "✓ The regulation takes effect on March 1.",
+          "✓ The counter opens at 8:30.",
+          "✓ The new stamps will be issued in October."
+        ],
+        "trap": "「明確的一天」一律 on——包括 on Monday morning（有指定哪一天的早上就用 on）。"
+      },
+      {
+        "topic": "對等連接詞與轉折",
+        "rule": "and 並列、but 轉折、so 結果、or 選擇；however / therefore 是副詞，接兩句時前面要分號或句號，不能直接當連接詞。",
+        "examples": [
+          "✓ The office was closed, so I mailed it the next day.",
+          "✓ The fee is low; however, the delivery is slow.",
+          "✗ The fee is low, however the delivery is slow.（however 不能直接連接兩句）"
+        ],
+        "trap": "選項有 however 時檢查標點——前面沒分號就是錯的。"
+      }
+    ]
+  },
+  {
+    "group": "動詞與時態",
+    "items": [
+      {
+        "topic": "現在完成式 vs 過去簡單式",
+        "rule": "過去簡單式配明確過去時間（yesterday, last week, in 2020）；現在完成式配 since / for / already / yet / ever，強調到現在為止的經驗或結果。",
+        "examples": [
+          "✓ He mailed the package yesterday.",
+          "✓ He has worked at the post office for ten years.",
+          "✗ He has mailed the package yesterday.（完成式不能配 yesterday）"
+        ],
+        "trap": "句尾有 yesterday / last ~ / ago → 一律過去簡單式。"
+      },
+      {
+        "topic": "主詞動詞一致",
+        "rule": "單數主詞配單數動詞。不可數名詞（information, equipment, furniture, advice, mail）永遠當單數；each / every ＋ 名詞當單數；A number of ＋ 複數動詞、The number of ＋ 單數動詞。",
+        "examples": [
+          "✓ There isn't much information on the website.",
+          "✓ Each employee has an ID card.",
+          "✓ The number of parcels is increasing."
+        ],
+        "trap": "information / mail 不可數：不加 s、不配 many、不配 are。"
+      },
+      {
+        "topic": "使役與感官動詞",
+        "rule": "make / have / let ＋ 受詞 ＋ 原形動詞；get ＋ 受詞 ＋ to V；被動意味時用過去分詞（have the parcel delivered）。",
+        "examples": [
+          "✓ The manager had the clerk check the address again.",
+          "✓ She had her hair cut.（被剪 → 過去分詞）",
+          "✓ I'll get someone to help you."
+        ],
+        "trap": "have 後面接原形還是過去分詞，看受詞是「做動作」還是「被動作」。"
+      }
+    ]
+  },
+  {
+    "group": "比較與假設",
+    "items": [
+      {
+        "topic": "比較級與最高級",
+        "rule": "兩者比較用比較級＋than；三者以上用 the ＋ 最高級。more 與 -er 不能同時用；比較對象要對等。",
+        "examples": [
+          "✓ Express mail is faster than ordinary mail.",
+          "✓ This is the busiest branch in the city.",
+          "✗ more faster / most fastest（重複比較）"
+        ],
+        "trap": "「the ＋ 比較級, the ＋ 比較級」＝越…越…（The sooner, the better.）。"
+      },
+      {
+        "topic": "假設語氣（與現在事實相反）",
+        "rule": "If ＋ 主詞 ＋ 過去式（be 動詞用 were）, 主詞 ＋ would / could ＋ 原形。與過去事實相反：If ＋ had ＋ p.p., would have ＋ p.p.。",
+        "examples": [
+          "✓ If I were you, I would send it by registered mail.",
+          "✓ If he had checked the address, the letter would not have been returned."
+        ],
+        "trap": "看到 If I were you 不要改成 was——假設語氣一律 were。"
+      }
+    ]
+  }
+]
