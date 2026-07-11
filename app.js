@@ -33,10 +33,10 @@ const QUOTES = [
   "已經走到這裡了，剩下的路比走過的短。"
 ];
 const SCHEDULE = [
-  { date: "2026-07-31", label: "民法全真卷" },
-  { date: "2026-08-07", label: "郵政法規全真卷" },
-  { date: "2026-08-14", label: "英文全真卷" },
-  { date: "2026-08-21", label: "國文全真卷" },
+  { date: "2026-07-31", label: "民法全真卷", subject: "民法" },
+  { date: "2026-08-07", label: "郵政法規全真卷", subject: "郵政法規" },
+  { date: "2026-08-14", label: "英文全真卷", subject: "英文" },
+  { date: "2026-08-21", label: "國文全真卷", subject: "國文" },
   { date: "2026-08-26", label: "二輪模擬（8/26–28）" },
   { date: "2026-08-30", label: "🎯 郵政升等考" }
 ];
@@ -131,40 +131,6 @@ async function showHomeTab() {
       <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocab(false),300)">🔤 來一輪單字</button>`;
   } catch {}
 
-  // 成績趨勢：按日分組算全科平均（批改檔優先，其次本機完卷紀錄）
-  let trendDays = [];
-  try {
-    const all = loadSessions();
-    const rows = [];
-    for (const e of exams) {
-      let row = null;
-      try {
-        const r = await fetch(`reviews/${e.id}.json`, { cache: "no-store" });
-        if (r.ok) {
-          const rv = await r.json();
-          row = { id: e.id, title: e.title, subject: e.subject, date: rv.gradedAt,
-                  text: `${rv.total} / ${rv.totalMax} 分${rv.pass ? "．✅" : ""}`,
-                  pct: Math.round(rv.total / rv.totalMax * 100) };
-        }
-      } catch {}
-      if (!row && all[e.id] && all[e.id].finished) {
-        const ss = all[e.id];
-        row = { id: e.id, title: e.title, subject: e.subject,
-                date: new Date(ss.submitted).toISOString().slice(0, 10),
-                text: ss.mcMax ? `選擇題 ${ss.mcScore} / ${ss.mcMax} 分` : `選擇題 ${ss.mcScore} 分（待批改）`,
-                pct: ss.mcMax ? Math.round(ss.mcScore / ss.mcMax * 100) : null };
-      }
-      if (row) rows.push(row);
-    }
-    const byDay = {};
-    rows.forEach(r => { (byDay[r.date] = byDay[r.date] || []).push(r); });
-    trendDays = Object.keys(byDay).sort().map(dte => {
-      const list = byDay[dte];
-      const pcts = list.filter(x => x.pct !== null).map(x => x.pct);
-      return { date: dte, avg: pcts.length ? Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length) : null, list };
-    });
-  } catch {}
-
   $app.innerHTML = `
     <p class="greet">${greeting()}</p>
     <div class="card countdown-card warm">
@@ -194,22 +160,6 @@ async function showHomeTab() {
         </div>` : ""}
       ${!planEditing && doneCount === plan.length ? `<div class="notice warm-notice" style="margin:10px 0 0">今日達標，好好休息 🌿 你真的很棒</div>` : ""}
     </div>
-    ${trendDays.length ? `
-    <h2>成績趨勢</h2>
-    <div class="card">
-      <div class="muted" style="font-size:0.78rem">每日全科平均（%）．虛線＝及格線 60．點圓點看當日各科</div>
-      ${trendChart(trendDays)}
-      ${(() => {
-        const di = trendSelected !== null && trendSelected < trendDays.length ? trendSelected : trendDays.length - 1;
-        const day = trendDays[di];
-        return `<div class="trend-detail">
-          <div class="muted" style="font-weight:700;margin-bottom:2px">${day.date}${day.avg !== null ? `．平均 ${day.avg}%` : ""}</div>
-          ${day.list.map(r => `<div class="trend-subj" onclick="viewExamFromTrend('${r.id}')">
-            <span>${r.subject}．${r.title}</span><span class="muted">${r.text} ›</span>
-          </div>`).join("")}
-        </div>`;
-      })()}
-    </div>` : ""}
     <h2>近期日程</h2>
     <div class="card">
       ${upcoming.map(x => {
@@ -221,11 +171,8 @@ async function showHomeTab() {
 
 /* ================= 成績趨勢折線圖 ================= */
 let trendSelected = null;
-function selectTrendDay(i) { trendSelected = i; showHomeTab(); }
-function viewExamFromTrend(id) {
-  tabbar.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.tab === "exam"));
-  showExamTab().then(() => openExam(id));
-}
+function selectTrendDay(i) { trendSelected = i; showExamTab(); }
+function viewExamFromTrend(id) { openExam(id); }
 function trendChart(days) {
   const W = 330, H = 132, PL = 26, PR = 14, PT = 16, PB = 22;
   const n = days.length;
@@ -435,20 +382,96 @@ async function showExamTab() {
   const res = await fetch("exams/index.json", { cache: "no-store" });
   exams = await res.json();
   const all = loadSessions();
+  const today = todayKey();
+
+  const cardOf = e => {
+    const st = all[e.id];
+    const status = !st ? "" : st.finished
+      ? `<span class="tag ok">已完卷 ${st.scoreText || ""}</span>`
+      : `<span class="tag pend">進行中</span>`;
+    return `<div class="card tappable" onclick="openExam('${e.id}')">
+      <strong>${e.title}</strong> ${status}
+      <div class="muted">${e.subject}．限時 ${e.minutes} 分鐘．${e.summary}</div>
+    </div>`;
+  };
+
+  // 考程表：全真卷依日期解鎖
+  const schedRows = SCHEDULE.filter(x => x.subject).map(x => {
+    const exam = exams.find(e => e.type === "full" && e.subject === x.subject);
+    const dd = Math.round((new Date(x.date) - new Date(today)) / 86400000);
+    if (dd > 0) {
+      return `<div class="card locked">
+        <strong>🔒 ${x.label}</strong>
+        <div class="muted">${x.date.slice(5).replace("-", "/")} 開考．還有 ${dd} 天</div>
+      </div>`;
+    }
+    if (exam) return cardOf(exam);
+    return `<div class="card locked">
+      <strong>📝 ${x.label}</strong>
+      <div class="muted">${dd === 0 ? "今天開考" : "已到考程"}．考卷生成中，跟 Claude 說一聲「出卷」</div>
+    </div>`;
+  }).join("");
+
+  const practice = exams.filter(e => e.type !== "full");
+
+  // 成績趨勢資料（批改檔優先，其次本機完卷）
+  let trendDays = [];
+  try {
+    const rows = [];
+    for (const e of exams) {
+      let row = null;
+      try {
+        const r = await fetch(`reviews/${e.id}.json`, { cache: "no-store" });
+        if (r.ok) {
+          const rv = await r.json();
+          row = { id: e.id, title: e.title, subject: e.subject, date: rv.gradedAt,
+                  text: `${rv.total} / ${rv.totalMax} 分${rv.pass ? "．✅" : ""}`,
+                  pct: Math.round(rv.total / rv.totalMax * 100) };
+        }
+      } catch {}
+      if (!row && all[e.id] && all[e.id].finished) {
+        const ss = all[e.id];
+        row = { id: e.id, title: e.title, subject: e.subject,
+                date: new Date(ss.submitted).toISOString().slice(0, 10),
+                text: ss.mcMax ? `選擇題 ${ss.mcScore} / ${ss.mcMax} 分` : `選擇題 ${ss.mcScore} 分（待批改）`,
+                pct: ss.mcMax ? Math.round(ss.mcScore / ss.mcMax * 100) : null };
+      }
+      if (row) rows.push(row);
+    }
+    const byDay = {};
+    rows.forEach(r => { (byDay[r.date] = byDay[r.date] || []).push(r); });
+    trendDays = Object.keys(byDay).sort().map(dte => {
+      const list = byDay[dte];
+      const pcts = list.filter(x => x.pct !== null).map(x => x.pct);
+      return { date: dte, avg: pcts.length ? Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length) : null, list };
+    });
+  } catch {}
+
   $app.innerHTML = `
     <h1>試卷</h1>
-    <p class="muted">作答中不顯示對錯，交卷後才解析；紀錄可匯出回家批改</p>
-    ${exams.map(e => {
-      const s = all[e.id];
-      const status = !s ? "" : s.finished
-        ? `<span class="tag ok">已完卷 ${s.scoreText || ""}</span>`
-        : `<span class="tag pend">進行中</span>`;
-      return `<div class="card tappable" onclick="openExam('${e.id}')">
-        <strong>${e.title}</strong> ${status}
-        <div class="muted">${e.subject}．限時 ${e.minutes} 分鐘．${e.summary}</div>
-      </div>`;
-    }).join("")}`;
+    <p class="muted">全真卷照考程解鎖；練習卷隨時可考．作答中不顯示對錯</p>
+    <h2>考程表</h2>
+    ${schedRows}
+    <h2>練習卷</h2>
+    ${practice.map(cardOf).join("")}
+    ${trendDays.length ? `
+    <h2>成績趨勢</h2>
+    <div class="card">
+      <div class="muted" style="font-size:0.78rem">每日全科平均（%）．虛線＝及格線 60．點圓點看當日各科</div>
+      ${trendChart(trendDays)}
+      ${(() => {
+        const di = trendSelected !== null && trendSelected < trendDays.length ? trendSelected : trendDays.length - 1;
+        const day = trendDays[di];
+        return `<div class="trend-detail">
+          <div class="muted" style="font-weight:700;margin-bottom:2px">${day.date}${day.avg !== null ? `．平均 ${day.avg}%` : ""}</div>
+          ${day.list.map(r => `<div class="trend-subj" onclick="viewExamFromTrend('${r.id}')">
+            <span>${r.subject}．${r.title}</span><span class="muted">${r.text} ›</span>
+          </div>`).join("")}
+        </div>`;
+      })()}
+    </div>` : ""}`;
 }
+
 async function openExam(id) {
   const meta = exams.find(e => e.id === id);
   const res = await fetch(`exams/${meta.file}`, { cache: "no-store" });
@@ -720,80 +743,154 @@ function exportResult() {
     });
 }
 
-/* ================= 單字卡 ================= */
-let vocab = null, vq = [], vIdx = 0, flipped = false;
-function vocabLevels() {
-  try { return JSON.parse(localStorage.getItem(LS_VOCAB)) || {}; } catch { return {}; }
+/* ================= 單字：三關學習法 ================= */
+// 第 0 關未學 → 關1 認識（卡片＋發音）→ 關2 例句挖空 → 關3 中翻英 → 熟
+const LS_VOCAB2 = "hub.vocab.v2";
+let vocab = null, vTasks = [], vTIdx = 0, vAnswered = null, vRight = 0;
+
+function vStages() { try { return JSON.parse(localStorage.getItem(LS_VOCAB2)) || {}; } catch { return {}; } }
+function setStage(w, st) {
+  const all = vStages();
+  all[w] = st;
+  localStorage.setItem(LS_VOCAB2, JSON.stringify(all));
+}
+function speak(text) {
+  try {
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "en-US";
+    u.rate = 0.9;
+    speechSynthesis.speak(u);
+  } catch {}
 }
 async function showVocabTab() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
-  const lv = vocabLevels();
-  const learned = vocab.filter(v => (lv[v.w] || 0) >= 3).length;
-  const seen = vocab.filter(v => lv[v.w] !== undefined).length;
+  const st = vStages();
+  const c = [0, 0, 0, 0];
+  vocab.forEach(v => c[st[v.w] || 0]++);
   $app.innerHTML = `
-    <h1>單字卡</h1>
-    <p class="muted">郵政／金融常考字彙 ${vocab.length} 字．已熟 ${learned}．碰過 ${seen}</p>
+    <h1>單字三關</h1>
+    <p class="muted">認識 → 例句挖空 → 中翻英，過三關才算熟；答錯會退關重練</p>
     <div class="card">
-      <p>點卡片翻面看中文與例句；「還不熟」的字會更常出現，按三次「認得」就算熟了。</p>
-      <div class="btn-row">
-        <button onclick="startVocab(false)">開始背單字</button>
-        <button class="ghost" onclick="startVocab(true)">只練不熟的</button>
+      <div class="vocab-stages">
+        <div><div class="score-big" style="font-size:1.6rem">${c[0]}</div><div class="muted">未學</div></div>
+        <div><div class="score-big" style="font-size:1.6rem">${c[1] + c[2]}</div><div class="muted">闖關中</div></div>
+        <div><div class="score-big" style="font-size:1.6rem;color:var(--ok)">${c[3]}</div><div class="muted">已熟</div></div>
       </div>
+      <div class="btn-row">
+        <button onclick="startVocabRound()">開始今日單字</button>
+      </div>
+      <p class="muted" style="margin-top:8px">每輪 10 題：先復習闖關中的字，再學新字（每輪最多 4 個新字）。</p>
     </div>`;
 }
-function startVocab(onlyWeak) {
-  const lv = vocabLevels();
-  let pool = vocab.filter(v => (lv[v.w] || 0) < 3);
-  if (onlyWeak) {
-    const weak = pool.filter(v => lv[v.w] !== undefined);
-    if (weak.length) pool = weak;
-  }
-  if (!pool.length) { toast("全部背熟了！🎉"); return; }
-  // 洗牌，等級低的排前面
-  vq = pool.map(v => ({ v, r: Math.random() + (lv[v.w] || 0) * 0.8 }))
-           .sort((a, b) => a.r - b.r).map(x => x.v).slice(0, 20);
-  vIdx = 0; flipped = false;
-  showCard();
+function blankWord(ex, w) {
+  const pre = w.slice(0, Math.min(w.length, 5)).toLowerCase();
+  return ex.split(/(\s+)/).map(tok => {
+    const clean = tok.replace(/[^A-Za-z]/g, "").toLowerCase();
+    if (clean && (clean === w.toLowerCase() || clean.startsWith(pre))) {
+      return tok.replace(/[A-Za-z]+/, "＿＿＿＿");
+    }
+    return tok;
+  }).join("");
 }
-function showCard() {
-  if (vIdx >= vq.length) {
-    $app.innerHTML = `<div class="card" style="text-align:center">
-      <h2>這輪 ${vq.length} 個字完成！</h2>
-      <div class="btn-row">
-        <button onclick="startVocab(false)">再來一輪</button>
-        <button class="ghost" onclick="showVocabTab()">返回</button>
-      </div></div>`;
-    return;
-  }
-  const v = vq[vIdx];
-  const lv = vocabLevels()[v.w] || 0;
-  $app.innerHTML = `
+function distractors(word, n) {
+  const others = vocab.filter(v => v.w !== word.w);
+  const same = others.filter(v => v.pos === word.pos);
+  const pool = (same.length >= n ? same : others).slice();
+  pool.sort(() => Math.random() - 0.5);
+  return pool.slice(0, n);
+}
+function startVocabRound() {
+  const st = vStages();
+  const quiz = vocab.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2)
+                    .sort(() => Math.random() - 0.5);
+  const fresh = vocab.filter(v => (st[v.w] || 0) === 0)
+                     .sort(() => Math.random() - 0.5);
+  vTasks = [];
+  quiz.slice(0, 6).forEach(v => vTasks.push({ v, type: (st[v.w] === 1 ? "cloze" : "zh2en") }));
+  fresh.slice(0, Math.max(4, 10 - vTasks.length)).forEach(v => vTasks.push({ v, type: "learn" }));
+  vTasks = vTasks.slice(0, 10);
+  if (!vTasks.length) { toast("全部單字都熟了！🎉"); return; }
+  vTIdx = 0; vAnswered = null; vRight = 0;
+  showVocabTask();
+}
+function showVocabTask() {
+  if (vTIdx >= vTasks.length) return showVocabDone();
+  const t = vTasks[vTIdx];
+  const head = `
     <div class="exam-top">
       <button class="small ghost" onclick="showVocabTab()">結束</button>
-      <span class="muted">${vIdx + 1}/${vq.length}</span>
-      <span class="muted">熟悉度 ${"●".repeat(lv)}${"○".repeat(3 - lv)}</span>
-    </div>
-    <div class="flashcard ${flipped ? "flip" : ""}" onclick="flipCard()">
-      ${flipped
-        ? `<div class="fc-word" style="font-size:1.3rem">${v.w} <span class="muted">${v.pos}</span></div>
-           <div class="fc-zh">${v.zh}</div>
-           <div class="fc-ex">${v.ex}</div>`
-        : `<div class="fc-word">${v.w}</div><div class="muted">點一下翻面</div>`}
-    </div>
-    <div class="btn-row">
-      <button class="ghost" onclick="rateWord(false)">還不熟</button>
-      <button onclick="rateWord(true)">認得 👍</button>
+      <span class="muted">${vTIdx + 1}/${vTasks.length}</span>
+      <span class="muted">${t.type === "learn" ? "🌱 認識新字" : t.type === "cloze" ? "✏️ 第二關：挖空" : "🎯 第三關：中翻英"}</span>
     </div>`;
+  if (t.type === "learn") {
+    $app.innerHTML = head + `
+      <div class="flashcard">
+        <div class="fc-word">${t.v.w} <button class="small ghost speak-btn" onclick="event.stopPropagation();speak('${t.v.w}')">🔊</button></div>
+        <div class="muted">${t.v.pos}</div>
+        <div class="fc-zh">${t.v.zh}</div>
+        <div class="fc-ex">${t.v.ex} <button class="small ghost speak-btn" onclick="event.stopPropagation();speak(${JSON.stringify(t.v.ex).replace(/"/g, "&quot;")})">🔊</button></div>
+      </div>
+      <div class="btn-row">
+        <button onclick="learnDone(1)">認識了，進第二關</button>
+        <button class="ghost" onclick="learnDone(2)">早就會，直接第三關</button>
+      </div>`;
+    return;
+  }
+  const opts = t.opts || (t.opts = [t.v, ...distractors(t.v, 3)].sort(() => Math.random() - 0.5));
+  const answered = vAnswered !== null;
+  const stem = t.type === "cloze"
+    ? `<div class="q-stem">${blankWord(t.v.ex, t.v.w)}</div><p class="muted">（${t.v.pos}${t.v.zh ? "．" + t.v.zh : ""}）</p>`
+    : `<div class="q-stem" style="font-size:1.2rem;font-weight:700">${t.v.zh}<span class="muted" style="font-size:0.85rem">（${t.v.pos}）</span></div>`;
+  $app.innerHTML = head + stem + opts.map(o => {
+    let cls = "opt";
+    if (answered) {
+      if (o.w === t.v.w) cls += " correct";
+      else if (o.w === vAnswered) cls += " wrong";
+    }
+    return `<button class="${cls}" ${answered ? "disabled" : ""} style="${answered ? "opacity:1" : ""}"
+      onclick="pickVocab('${o.w}')">${o.w}</button>`;
+  }).join("") + (answered ? `
+    <div class="explain">${t.v.w}（${t.v.pos}）${t.v.zh}\n${t.v.ex}</div>
+    <div class="btn-row">
+      <button class="small ghost" onclick="speak('${t.v.w}')">🔊 唸一次</button>
+      <button onclick="nextVocab()">${vTIdx === vTasks.length - 1 ? "看結果" : "下一題"}</button>
+    </div>` : "");
 }
-function flipCard() { flipped = !flipped; showCard(); }
-function rateWord(know) {
-  const all = vocabLevels();
-  const w = vq[vIdx].w;
-  all[w] = know ? Math.min(3, (all[w] || 0) + 1) : 0;
-  localStorage.setItem(LS_VOCAB, JSON.stringify(all));
-  if (!know) vq.push(vq[vIdx]); // 不熟的排到這輪尾巴再出現
-  vIdx++; flipped = false;
-  showCard();
+function learnDone(stage) {
+  setStage(vTasks[vTIdx].v.w, stage);
+  vRight++;
+  vTIdx++; vAnswered = null;
+  showVocabTask();
+}
+function pickVocab(w) {
+  if (vAnswered !== null) return;
+  const t = vTasks[vTIdx];
+  vAnswered = w;
+  const cur = vStages()[t.v.w] || 0;
+  if (w === t.v.w) {
+    vRight++;
+    setStage(t.v.w, t.type === "cloze" ? 2 : 3);
+    speak(t.v.w);
+  } else {
+    setStage(t.v.w, t.type === "cloze" ? 0 : 1); // 答錯退回上一關
+  }
+  showVocabTask();
+}
+function nextVocab() { vTIdx++; vAnswered = null; showVocabTask(); }
+function showVocabDone() {
+  const st = vStages();
+  const mastered = vocab.filter(v => st[v.w] === 3).length;
+  $app.innerHTML = `
+    <div class="card" style="text-align:center;margin-top:30px">
+      <h2 style="background:none">本輪完成！</h2>
+      <div class="score-big">${vRight}<span class="muted" style="font-size:1rem"> / ${vTasks.length}</span></div>
+      <p class="muted">已熟單字累計 ${mastered} / ${vocab.length}．答錯的字退了一關，下輪會再出現</p>
+      <div class="btn-row">
+        <button onclick="startVocabRound()">再來一輪</button>
+        <button class="ghost" onclick="showVocabTab()">回單字頁</button>
+      </div>
+    </div>`;
 }
 
 /* ================= 筆記速查 ================= */

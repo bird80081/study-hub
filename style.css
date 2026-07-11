@@ -409,3 +409,8 @@ textarea:focus { outline: none; border-color: var(--accent); }
   font-weight: 700;
   transform: rotate(-1.5deg);
 }
+
+/* ===== 單字三關／考程鎖定 ===== */
+.vocab-stages { display: flex; justify-content: space-around; text-align: center; margin-bottom: 6px; }
+.speak-btn { padding: 2px 8px; font-size: 0.8rem; border-style: dashed; }
+.card.locked { opacity: 0.75; background: var(--bg); }
