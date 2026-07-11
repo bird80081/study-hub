@@ -1,0 +1,89 @@
+{
+ "subject": "英文",
+ "questions": [
+  {
+   "id": "en001", "point": "字彙：compensation",
+   "stem": "The post office offered NT$575 in ______ for the lost registered letter.",
+   "options": ["compensation", "communication", "competition", "combination"],
+   "answer": "A",
+   "explain": "compensation 補償／賠償，claim compensation for… 為固定搭配。communication 通訊、competition 競爭、combination 組合，語意皆不合。"
+  },
+  {
+   "id": "en002", "point": "文法：關係代名詞所有格",
+   "stem": "The applicant ______ resume impressed the manager was hired immediately.",
+   "options": ["who", "whom", "whose", "which"],
+   "answer": "C",
+   "explain": "空格後接名詞 resume，表「他的履歷」，需用所有格關係代名詞 whose。who 作主詞、whom 作受詞、which 用於事物，皆不可直接接名詞表所有。"
+  },
+  {
+   "id": "en003", "point": "字彙：available",
+   "stem": "Foreign currency exchange service is ______ at all major branches.",
+   "options": ["available", "capable", "probable", "comfortable"],
+   "answer": "A",
+   "explain": "available 可取得的、可利用的（服務、商品）。capable 有能力的（人）、probable 可能的（事件發生機率）、comfortable 舒適的，均不符「服務可供使用」語意。"
+  },
+  {
+   "id": "en004", "point": "文法：日期介系詞",
+   "stem": "The new regulation will take effect ______ March 1.",
+   "options": ["in", "on", "at", "by the"],
+   "answer": "B",
+   "explain": "明確日期用 on（on March 1）；月份、年份用 in（in March）；時刻用 at（at 9:00）。"
+  },
+  {
+   "id": "en005", "point": "字彙：recipient",
+   "stem": "The ______ must show a valid ID card when picking up the registered mail.",
+   "options": ["reception", "recipient", "receipt", "recipe"],
+   "answer": "B",
+   "explain": "recipient 收件人（人）。reception 接待／收訊、receipt 收據、recipe 食譜——四字形近，考試常互為誘答，以「人／物」區分最快。"
+  },
+  {
+   "id": "en006", "point": "文法：because of",
+   "stem": "The delivery was delayed ______ the heavy typhoon.",
+   "options": ["because", "because of", "although", "so that"],
+   "answer": "B",
+   "explain": "because of ＋名詞片語（the heavy typhoon）；because 後接完整子句。although 表讓步、so that 表目的，語意不合。"
+  },
+  {
+   "id": "en007", "point": "字彙：expire",
+   "stem": "This coupon will ______ at the end of June, so please use it soon.",
+   "options": ["expand", "explore", "expire", "export"],
+   "answer": "C",
+   "explain": "expire 到期、失效（票券、證件、契約）。expand 擴大、explore 探索、export 出口，字首相同易混。"
+  },
+  {
+   "id": "en008", "point": "文法：被動語態",
+   "stem": "All parcels ______ carefully before they are loaded onto the truck.",
+   "options": ["inspect", "are inspected", "inspecting", "have inspected"],
+   "answer": "B",
+   "explain": "包裹是「被檢查」，需用被動語態 are inspected。主詞 parcels 與 inspect 為被動關係，A、C、D 皆為主動形式。"
+  },
+  {
+   "id": "en009", "point": "字彙：deposit",
+   "stem": "She went to the post office to ______ her salary into the savings account.",
+   "options": ["deposit", "dispose", "deserve", "describe"],
+   "answer": "A",
+   "explain": "deposit 存入（款項）；deposit money into an account 為常見搭配。dispose 處置（dispose of）、deserve 應得、describe 描述。"
+  },
+  {
+   "id": "en010", "point": "文法：間接問句",
+   "stem": "Could you tell me ______?",
+   "options": ["where is the nearest post office", "where the nearest post office is", "the nearest post office is where", "where does the nearest post office"],
+   "answer": "B",
+   "explain": "間接問句採「疑問詞＋主詞＋動詞」的直述句語序：where the nearest post office is。A 是直接問句語序，置於 tell me 之後不合文法。"
+  },
+  {
+   "id": "en011", "point": "字彙：urgent",
+   "stem": "Please send the documents by express mail; the matter is quite ______.",
+   "options": ["urgent", "vacant", "distant", "instant"],
+   "answer": "A",
+   "explain": "urgent 緊急的，與 express mail（快捷）語意呼應。vacant 空的、distant 遙遠的、instant 立即的（instant noodles），-ant 結尾形近誘答。"
+  },
+  {
+   "id": "en012", "point": "文法：數量詞",
+   "stem": "There isn't ______ information about the new service on the website yet.",
+   "options": ["many", "much", "a few", "several"],
+   "answer": "B",
+   "explain": "information 為不可數名詞，否定句用 much。many、a few、several 皆修飾可數複數名詞。"
+  }
+ ]
+}

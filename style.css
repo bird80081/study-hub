@@ -295,7 +295,30 @@ textarea:focus { outline: none; border-color: var(--accent); }
   margin: 18px 0 8px;
 }
 .h2-row h2 { margin: 0; }
-.h2-row button { flex: 0 0 auto; font-size: 0.78rem; padding: 4px 14px; }
+.h2-row button {
+  flex: 0 0 auto;
+  font-size: 0.78rem;
+  padding: 2px 8px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  color: var(--muted);
+  text-decoration: underline dashed;
+  text-underline-offset: 3px;
+}
+.trend-detail { border-top: 1px dashed var(--line); margin-top: 4px; padding-top: 8px; }
+.trend-subj {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--line);
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.trend-subj:last-child { border-bottom: none; }
+.trend-subj:active { opacity: 0.6; }
 .del-btn { flex: 0 0 auto; padding: 4px 10px; }
 .plan-input {
   flex: 1;

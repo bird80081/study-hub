@@ -16,7 +16,7 @@ function switchTab(name) {
   clearInterval(timerId);
   tabbar.querySelectorAll("button").forEach(b =>
     b.classList.toggle("active", b.dataset.tab === name));
-  ({ home: showHomeTab, exam: showExamTab, vocab: showVocabTab, notes: showNotesTab }[name])();
+  ({ home: showHomeTab, drill: showDrillTab, exam: showExamTab, vocab: showVocabTab, notes: showNotesTab }[name])();
 }
 
 /* ================= 首頁 ================= */
@@ -131,27 +131,38 @@ async function showHomeTab() {
       <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocab(false),300)">🔤 來一輪單字</button>`;
   } catch {}
 
-  // 成績趨勢：伺服器批改檔優先，其次本機完卷紀錄
-  let trend = [];
+  // 成績趨勢：按日分組算全科平均（批改檔優先，其次本機完卷紀錄）
+  let trendDays = [];
   try {
     const all = loadSessions();
+    const rows = [];
     for (const e of exams) {
       let row = null;
       try {
         const r = await fetch(`reviews/${e.id}.json`, { cache: "no-store" });
         if (r.ok) {
           const rv = await r.json();
-          row = { title: e.title, date: rv.gradedAt, score: rv.total, max: rv.totalMax, pass: rv.pass, full: true };
+          row = { id: e.id, title: e.title, subject: e.subject, date: rv.gradedAt,
+                  text: `${rv.total} / ${rv.totalMax} 分${rv.pass ? "．✅" : ""}`,
+                  pct: Math.round(rv.total / rv.totalMax * 100) };
         }
       } catch {}
       if (!row && all[e.id] && all[e.id].finished) {
-        const sSess = all[e.id];
-        const essayMax = 0;
-        row = { title: e.title, date: new Date(sSess.submitted).toISOString().slice(5, 10),
-                score: sSess.mcScore, max: null, pass: null, full: false };
+        const ss = all[e.id];
+        row = { id: e.id, title: e.title, subject: e.subject,
+                date: new Date(ss.submitted).toISOString().slice(0, 10),
+                text: ss.mcMax ? `選擇題 ${ss.mcScore} / ${ss.mcMax} 分` : `選擇題 ${ss.mcScore} 分（待批改）`,
+                pct: ss.mcMax ? Math.round(ss.mcScore / ss.mcMax * 100) : null };
       }
-      if (row) trend.push(row);
+      if (row) rows.push(row);
     }
+    const byDay = {};
+    rows.forEach(r => { (byDay[r.date] = byDay[r.date] || []).push(r); });
+    trendDays = Object.keys(byDay).sort().map(dte => {
+      const list = byDay[dte];
+      const pcts = list.filter(x => x.pct !== null).map(x => x.pct);
+      return { date: dte, avg: pcts.length ? Math.round(pcts.reduce((a, b) => a + b, 0) / pcts.length) : null, list };
+    });
   } catch {}
 
   $app.innerHTML = `
@@ -183,17 +194,21 @@ async function showHomeTab() {
         </div>` : ""}
       ${!planEditing && doneCount === plan.length ? `<div class="notice warm-notice" style="margin:10px 0 0">今日達標，好好休息 🌿 你真的很棒</div>` : ""}
     </div>
-    ${trend.length ? `
+    ${trendDays.length ? `
     <h2>成績趨勢</h2>
     <div class="card">
-      ${trend.map(t => {
-        const pct = t.max ? Math.round(t.score / t.max * 100) : null;
-        return `<div class="trend-row">
-          <div class="trend-head"><span>${t.title}</span><span class="muted">${t.date}</span></div>
-          <div class="trend-bar-bg"><div class="trend-bar" style="width:${pct !== null ? pct : 50}%"></div></div>
-          <div class="muted" style="font-size:0.8rem">${t.max ? `${t.score} / ${t.max} 分${t.pass ? "．✅ 過及格線" : ""}` : `選擇題 ${t.score} 分（申論待批改）`}</div>
+      <div class="muted" style="font-size:0.78rem">每日全科平均（%）．虛線＝及格線 60．點圓點看當日各科</div>
+      ${trendChart(trendDays)}
+      ${(() => {
+        const di = trendSelected !== null && trendSelected < trendDays.length ? trendSelected : trendDays.length - 1;
+        const day = trendDays[di];
+        return `<div class="trend-detail">
+          <div class="muted" style="font-weight:700;margin-bottom:2px">${day.date}${day.avg !== null ? `．平均 ${day.avg}%` : ""}</div>
+          ${day.list.map(r => `<div class="trend-subj" onclick="viewExamFromTrend('${r.id}')">
+            <span>${r.subject}．${r.title}</span><span class="muted">${r.text} ›</span>
+          </div>`).join("")}
         </div>`;
-      }).join("")}
+      })()}
     </div>` : ""}
     <h2>近期日程</h2>
     <div class="card">
@@ -202,6 +217,207 @@ async function showHomeTab() {
         return `<div class="sched-row"><span>${x.date.slice(5).replace("-", "/")}　${x.label}</span><span class="muted">${dd === 0 ? "今天" : dd + " 天後"}</span></div>`;
       }).join("")}
     </div>`;
+}
+
+/* ================= 成績趨勢折線圖 ================= */
+let trendSelected = null;
+function selectTrendDay(i) { trendSelected = i; showHomeTab(); }
+function viewExamFromTrend(id) {
+  tabbar.querySelectorAll("button").forEach(b => b.classList.toggle("active", b.dataset.tab === "exam"));
+  showExamTab().then(() => openExam(id));
+}
+function trendChart(days) {
+  const W = 330, H = 132, PL = 26, PR = 14, PT = 16, PB = 22;
+  const n = days.length;
+  const x = i => n === 1 ? PL + (W - PL - PR) / 2 : PL + (W - PL - PR) * i / (n - 1);
+  const y = v => PT + (H - PT - PB) * (100 - v) / 100;
+  const pts = days.map((d, i) => ({ cx: x(i), cy: y(d.avg === null ? 0 : d.avg), i, d }));
+  const sel = trendSelected !== null && trendSelected < n ? trendSelected : n - 1;
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;display:block">
+    <line x1="${PL}" y1="${y(60)}" x2="${W - PR}" y2="${y(60)}" stroke="var(--warn)" stroke-dasharray="4 4" stroke-width="1"/>
+    <text x="${PL - 4}" y="${y(60) + 3}" font-size="9" fill="var(--warn)" text-anchor="end">60</text>
+    ${n > 1 ? `<polyline points="${pts.map(p => p.cx + "," + p.cy).join(" ")}" fill="none" stroke="var(--accent)" stroke-width="2"/>` : ""}
+    ${pts.map(p => `
+      <text x="${p.cx}" y="${p.cy - 10}" font-size="10" fill="var(--accent)" text-anchor="middle" font-weight="700">${p.d.avg === null ? "" : p.d.avg}</text>
+      <circle cx="${p.cx}" cy="${p.cy}" r="${p.i === sel ? 5.5 : 4}" fill="${p.i === sel ? "var(--accent)" : "var(--card)"}" stroke="var(--accent)" stroke-width="2"/>
+      <circle cx="${p.cx}" cy="${p.cy}" r="13" fill="transparent" style="cursor:pointer" onclick="selectTrendDay(${p.i})"/>
+      <text x="${p.cx}" y="${H - 6}" font-size="9" fill="var(--muted)" text-anchor="middle">${p.d.date.slice(5).replace("-", "/")}</text>`).join("")}
+  </svg>`;
+}
+
+/* ================= 每日刷題 ================= */
+const LS_DRILL_SEEN = "hub.drill.seen.v1";
+const LS_DRILL_CFG = "hub.drill.cfg.v1";
+const LS_DRILL_WRONG = "hub.drill.wrong.v1";
+const LS_DRILL_DAILY = "hub.drill.daily.v1";
+let poolIndex = null, poolCache = {}, drillQ = [], drillIdx = 0, drillPicked = null, drillRight = 0, drillWrongRound = [];
+
+function drillSeen() { try { return JSON.parse(localStorage.getItem(LS_DRILL_SEEN)) || {}; } catch { return {}; } }
+function drillCfg() {
+  try { const c = JSON.parse(localStorage.getItem(LS_DRILL_CFG)); if (c && c.subjects) return c; } catch {}
+  return { subjects: ["民法", "郵政法規", "英文", "國文"], per: 5 };
+}
+function drillWrongAll() { try { return JSON.parse(localStorage.getItem(LS_DRILL_WRONG)) || []; } catch { return []; } }
+function drillDaily() { try { return JSON.parse(localStorage.getItem(LS_DRILL_DAILY)) || {}; } catch { return {}; } }
+
+async function showDrillTab() {
+  if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
+  const cfg = drillCfg();
+  const todayN = drillDaily()[todayKey()] || 0;
+  const wrongN = drillWrongAll().length;
+  $app.innerHTML = `
+    <h1>每日刷題</h1>
+    <p class="muted">逐題即時對答．每輪從勾選的科目隨機抽題．今日已刷 ${todayN} 題</p>
+    <div class="card">
+      <div class="muted" style="font-weight:700;margin-bottom:4px">選擇科目</div>
+      ${poolIndex.map(p => `
+        <label class="check-row">
+          <input type="checkbox" data-subj="${p.subject}" ${cfg.subjects.includes(p.subject) ? "checked" : ""}>
+          <span>${p.subject}</span>
+        </label>`).join("")}
+      <div class="muted" style="font-weight:700;margin:12px 0 4px">每科題數</div>
+      <div class="btn-row" style="margin-top:4px">
+        ${[3, 5, 10].map(nn => `<button class="${cfg.per === nn ? "" : "ghost"} small" onclick="setDrillPer(${nn})">${nn} 題</button>`).join("")}
+      </div>
+      <div class="btn-row">
+        <button onclick="startDrill()">開始刷題</button>
+      </div>
+    </div>
+    ${wrongN ? `<div class="card">
+      <strong>錯題本</strong> <span class="muted">${wrongN} 題</span>
+      <div class="btn-row">
+        <button class="ghost" onclick="startDrillWrong()">只刷錯題</button>
+        <button class="ghost" onclick="exportDrillWrong()">匯出給 Claude</button>
+      </div>
+    </div>` : ""}`;
+}
+function setDrillPer(n) {
+  const cfg = readDrillForm();
+  cfg.per = n;
+  localStorage.setItem(LS_DRILL_CFG, JSON.stringify(cfg));
+  showDrillTab();
+}
+function readDrillForm() {
+  const cfg = drillCfg();
+  const boxes = [...document.querySelectorAll("input[data-subj]")];
+  if (boxes.length) cfg.subjects = boxes.filter(b => b.checked).map(b => b.dataset.subj);
+  return cfg;
+}
+async function loadPool(subject) {
+  if (poolCache[subject]) return poolCache[subject];
+  const meta = poolIndex.find(p => p.subject === subject);
+  const pool = await (await fetch(`pools/${meta.file}`, { cache: "no-store" })).json();
+  pool.questions.forEach(q => q.subject = subject);
+  poolCache[subject] = pool;
+  return pool;
+}
+async function startDrill() {
+  const cfg = readDrillForm();
+  if (!cfg.subjects.length) { toast("至少勾一科"); return; }
+  localStorage.setItem(LS_DRILL_CFG, JSON.stringify(cfg));
+  const seen = drillSeen();
+  const picked = [];
+  for (const subj of cfg.subjects) {
+    const pool = await loadPool(subj);
+    const sorted = pool.questions
+      .map(q => ({ q, k: (seen[q.id] || 0) + Math.random() * 0.9 }))
+      .sort((a, b) => a.k - b.k)
+      .map(x => x.q);
+    picked.push(sorted.slice(0, cfg.per));
+  }
+  // 各科輪流交錯
+  drillQ = [];
+  const maxLen = Math.max(...picked.map(a => a.length));
+  for (let i = 0; i < maxLen; i++) for (const arr of picked) if (arr[i]) drillQ.push(arr[i]);
+  beginDrillRun();
+}
+async function startDrillWrong() {
+  if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
+  const ids = new Set(drillWrongAll().map(w => w.id));
+  drillQ = [];
+  for (const p of poolIndex) {
+    const pool = await loadPool(p.subject);
+    pool.questions.forEach(q => { if (ids.has(q.id)) drillQ.push(q); });
+  }
+  if (!drillQ.length) { toast("錯題本是空的"); return; }
+  drillQ.sort(() => Math.random() - 0.5);
+  beginDrillRun();
+}
+function beginDrillRun() {
+  drillIdx = 0; drillPicked = null; drillRight = 0; drillWrongRound = [];
+  showDrillQ();
+}
+function showDrillQ() {
+  if (drillIdx >= drillQ.length) return showDrillDone();
+  const q = drillQ[drillIdx];
+  const answered = drillPicked !== null;
+  $app.innerHTML = `
+    <div class="exam-top">
+      <button class="small ghost" onclick="showDrillTab()">結束</button>
+      <span class="muted">${drillIdx + 1}/${drillQ.length}．${q.subject}</span>
+      <span class="muted">✔ ${drillRight}</span>
+    </div>
+    <div class="q-num">${q.point}</div>
+    <div class="q-stem">${q.stem}</div>
+    ${q.options.map((opt, i) => {
+      const label = "ABCD"[i];
+      let cls = "opt";
+      if (answered) {
+        if (label === q.answer) cls += " correct";
+        else if (label === drillPicked) cls += " wrong";
+      }
+      return `<button class="${cls}" ${answered ? "disabled" : ""} onclick="pickDrill('${label}')" style="${answered ? "opacity:1" : ""}">（${label}）${opt}</button>`;
+    }).join("")}
+    ${answered ? `<div class="explain">${q.explain}</div>
+    <div class="btn-row"><button onclick="nextDrill()">${drillIdx === drillQ.length - 1 ? "看本輪結果" : "下一題"}</button></div>` : ""}`;
+}
+function pickDrill(label) {
+  if (drillPicked !== null) return;
+  const q = drillQ[drillIdx];
+  drillPicked = label;
+  const seen = drillSeen();
+  seen[q.id] = (seen[q.id] || 0) + 1;
+  localStorage.setItem(LS_DRILL_SEEN, JSON.stringify(seen));
+  const daily = drillDaily();
+  daily[todayKey()] = (daily[todayKey()] || 0) + 1;
+  localStorage.setItem(LS_DRILL_DAILY, JSON.stringify(daily));
+  const wrongs = drillWrongAll();
+  if (label === q.answer) {
+    drillRight++;
+    const idx = wrongs.findIndex(w => w.id === q.id);
+    if (idx >= 0) { wrongs.splice(idx, 1); localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs)); }
+  } else {
+    drillWrongRound.push(q);
+    if (!wrongs.find(w => w.id === q.id)) {
+      wrongs.push({ id: q.id, subject: q.subject, point: q.point, stem: q.stem, user: label, answer: q.answer, date: todayKey() });
+      localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs.slice(-200)));
+    }
+  }
+  showDrillQ();
+}
+function nextDrill() { drillIdx++; drillPicked = null; showDrillQ(); }
+function showDrillDone() {
+  const total = drillQ.length;
+  $app.innerHTML = `
+    <div class="card" style="text-align:center;margin-top:30px">
+      <h2 style="background:none">本輪完成！</h2>
+      <div class="score-big">${drillRight}<span class="muted" style="font-size:1rem"> / ${total} 題</span></div>
+      ${drillWrongRound.length ? `<p class="muted">錯的 ${drillWrongRound.length} 題已進錯題本，之後會更常出現</p>` : `<p class="muted">全對！超強 🎉</p>`}
+      <div class="btn-row">
+        <button onclick="startDrill()">再來一輪</button>
+        <button class="ghost" onclick="showDrillTab()">回設定</button>
+      </div>
+    </div>`;
+}
+function exportDrillWrong() {
+  const out = { type: "刷題錯題", exported: todayKey(), wrong: drillWrongAll() };
+  const text = "【刷題錯題匯出，請依複習流程處理】\n" + JSON.stringify(out, null, 1);
+  navigator.clipboard.writeText(text)
+    .then(() => toast("已複製，貼給 Claude 即可"))
+    .catch(() => {
+      $app.insertAdjacentHTML("beforeend",
+        `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(text)}</textarea></div>`);
+    });
 }
 
 /* ================= 試卷（模考引擎） ================= */
@@ -425,7 +641,8 @@ function grade() {
     mcTotal++;
     if (sess.answers[i] === q.answer) { got += q.points; mcRight++; }
   });
-  sess.scoreText = `選擇 ${got}/${fullScore() - essayFull}`;
+  sess.mcMax = fullScore() - essayFull;
+  sess.scoreText = `選擇 ${got}/${sess.mcMax}`;
   sess.mcRight = mcRight; sess.mcTotal = mcTotal; sess.mcScore = got;
   saveSession();
   showResult();

@@ -1,5 +1,5 @@
 /* 離線快取：安裝時抓核心檔與題庫，之後網路優先、失敗用快取（公車斷網也能考） */
-const CACHE = "studyhub-v2";
+const CACHE = "studyhub-v3";
 const CORE = ["./", "index.html", "style.css", "app.js", "manifest.json", "exams/index.json", "data/vocab.json", "data/notes.json"];
 
 self.addEventListener("install", e => {
@@ -9,6 +9,8 @@ self.addEventListener("install", e => {
       try {
         const idx = await (await fetch("exams/index.json")).json();
         await c.addAll(idx.map(x => "exams/" + x.file));
+        const pi = await (await fetch("pools/index.json")).json();
+        await c.addAll(["pools/index.json"].concat(pi.map(x => "pools/" + x.file)));
       } catch {}
     })
   );
