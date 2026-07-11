@@ -3,8 +3,8 @@
   "short_name": "隨身讀書館",
   "start_url": ".",
   "display": "standalone",
-  "background_color": "#111418",
-  "theme_color": "#0f766e",
+  "background_color": "#f7f1e5",
+  "theme_color": "#b3573f",
   "icons": [
     {
       "src": "icon.svg",
