@@ -33,13 +33,14 @@ const QUOTES = [
   "已經走到這裡了，剩下的路比走過的短。"
 ];
 const SCHEDULE = [
-  { date: "2026-07-31", label: "民法全真卷", subject: "民法" },
-  { date: "2026-08-07", label: "郵政法規全真卷", subject: "郵政法規" },
-  { date: "2026-08-14", label: "英文全真卷", subject: "英文" },
-  { date: "2026-08-21", label: "國文全真卷", subject: "國文" },
+  { date: "2026-07-31", label: "全真模擬 第一回（四科）", round: 1 },
+  { date: "2026-08-07", label: "全真模擬 第二回（四科）", round: 2 },
+  { date: "2026-08-14", label: "全真模擬 第三回（四科）", round: 3 },
+  { date: "2026-08-21", label: "全真模擬 第四回（四科）", round: 4 },
   { date: "2026-08-26", label: "二輪模擬（8/26–28）" },
   { date: "2026-08-30", label: "🎯 郵政升等考" }
 ];
+const SUBJECTS = ["民法", "郵政法規", "英文", "國文"];
 const DEFAULT_PLAN = [
   "刷題或補未訂正題（30 分）",
   "訂正 3～5 題（40 分）",
@@ -83,13 +84,24 @@ function addPlanItem() {
   savePlan(p);
   showHomeTab();
 }
-function removePlanItem(i) {
+function removePlanItemByText(t) {
   const p = getPlan();
-  p.splice(i, 1);
+  const i = p.indexOf(t);
+  if (i >= 0) p.splice(i, 1);
   savePlan(p.length ? p : DEFAULT_PLAN.slice());
   showHomeTab();
 }
-function togglePlanEdit() { planEditing = !planEditing; showHomeTab(); }
+let planBackup = null;
+function togglePlanEdit() {
+  if (!planEditing) planBackup = JSON.stringify(getPlan());
+  planEditing = !planEditing;
+  showHomeTab();
+}
+function cancelPlanEdit() {
+  if (planBackup) localStorage.setItem(LS_PLAN, planBackup);
+  planEditing = false;
+  showHomeTab();
+}
 
 function greeting() {
   const h = new Date().getHours();
@@ -108,10 +120,16 @@ async function showHomeTab() {
   } catch {}
   const d = daysLeft();
   const quote = QUOTES[(d + 7) % QUOTES.length];
-  const plan = getPlan();
+  const se = sp[todayKey()];
+  let serverItems = [], serverDone = [];
+  if (Array.isArray(se)) serverDone = se;
+  else if (se && typeof se === "object") { serverItems = se.items || []; serverDone = se.done || []; }
+  const localPlan = getPlan();
+  const custom = localPlan.filter(x => !DEFAULT_PLAN.includes(x));
+  const plan = serverItems.length ? serverItems.concat(custom) : localPlan;
+  const nServer = serverItems.length;
   const local = dailyState()[todayKey()] || [];
-  const server = sp[todayKey()] || [];
-  const done = plan.map((_, i) => !!(local[i] || server[i]));
+  const done = plan.map((_, i) => !!(local[i] || serverDone[i]));
   const doneCount = done.filter(Boolean).length;
   const upcoming = SCHEDULE.filter(x => x.date >= todayKey()).slice(0, 3);
 
@@ -143,13 +161,15 @@ async function showHomeTab() {
     </div>
     <div class="h2-row">
       <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span></h2>
-      <button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button>
+      <span>${planEditing ? `<button class="small ghost" onclick="cancelPlanEdit()">↩ 返回</button> ` : ""}<button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></span>
     </div>
     <div class="card">
       ${plan.map((t, i) => `
         <label class="check-row">
           ${planEditing
-            ? `<button class="small ghost del-btn" onclick="removePlanItem(${i})">✕</button>`
+            ? (i < nServer
+                ? `<span class="muted" style="flex:0 0 auto">📖</span>`
+                : `<button class="small ghost del-btn" onclick="removePlanItemByText(${JSON.stringify(t).replace(/"/g, "&quot;")})">✕</button>`)
             : `<input type="checkbox" ${done[i] ? "checked" : ""} onchange="toggleDaily(${i})">`}
           <span class="${done[i] && !planEditing ? "done-text" : ""}">${t}</span>
         </label>`).join("")}
@@ -396,20 +416,33 @@ async function showExamTab() {
     </div>`;
   };
 
-  // 考程表：全真卷依日期解鎖
-  const schedRows = SCHEDULE.filter(x => x.subject).map(x => {
-    const exam = exams.find(e => e.type === "full" && e.subject === x.subject);
+  // 考程表：每回＝四科全真模擬，日期到才解鎖
+  const schedRows = SCHEDULE.filter(x => x.round).map(x => {
     const dd = Math.round((new Date(x.date) - new Date(today)) / 86400000);
     if (dd > 0) {
       return `<div class="card locked">
         <strong>🔒 ${x.label}</strong>
-        <div class="muted">${x.date.slice(5).replace("-", "/")} 開考．還有 ${dd} 天</div>
+        <div class="muted">${x.date.slice(5).replace("-", "/")} 開考．還有 ${dd} 天．民法／郵政法規／英文／國文四卷</div>
       </div>`;
     }
-    if (exam) return cardOf(exam);
-    return `<div class="card locked">
-      <strong>📝 ${x.label}</strong>
-      <div class="muted">${dd === 0 ? "今天開考" : "已到考程"}．考卷生成中，跟 Claude 說一聲「出卷」</div>
+    const inner = SUBJECTS.map(subj => {
+      const exam = exams.find(e => e.type === "full" && e.round === x.round && e.subject === subj);
+      if (exam) {
+        const st = all[exam.id];
+        const status = !st ? "" : st.finished
+          ? `<span class="tag ok">已完卷 ${st.scoreText || ""}</span>`
+          : `<span class="tag pend">進行中</span>`;
+        return `<div class="trend-subj" onclick="openExam('${exam.id}')">
+          <span>${subj}卷 ${status}</span><span class="muted">限時 ${exam.minutes} 分 ›</span>
+        </div>`;
+      }
+      return `<div class="trend-subj" style="cursor:default;opacity:0.6">
+        <span>${subj}卷</span><span class="muted">生成中——跟 Claude 說「出第${x.round}回${subj}卷」</span>
+      </div>`;
+    }).join("");
+    return `<div class="card">
+      <strong>📝 ${x.label}</strong> <span class="muted">${x.date.slice(5).replace("-", "/")}${dd === 0 ? "．今天開考" : ""}</span>
+      <div style="margin-top:6px">${inner}</div>
     </div>`;
   }).join("");
 
@@ -820,9 +853,13 @@ async function showVocabTab() {
     <h1>單字辭典</h1>
     <p class="muted">共 ${av.length} 字${nCustom ? `（含自訂 ${nCustom}）` : ""}．已熟 ${mastered}．闖關中 ${learning}．每日單字：翻卡瀏覽 15 字 → 提交測驗，從首頁「來一輪單字」進入</p>
     ${nCustom ? `<div class="btn-row" style="margin:0 0 10px"><button class="small ghost" onclick="exportCustomWords()">📤 匯出自訂單字給 Claude 轉正式辭典</button></div>` : ""}
+    ${(mastered === av.length) ? `<div class="notice">🎉 全部單字都熟了！跟 Claude 說「補新單字」，馬上加一批進來。</div>` : ""}
     <div class="card">
-      <input class="plan-input" id="vocab-search" placeholder="🔍 搜尋單字或中文…" oninput="renderVocabList()" style="width:100%;margin-bottom:8px">
-      <div id="vocab-list"></div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <input class="plan-input" id="vocab-search" placeholder="🔍 搜尋單字或中文…" oninput="renderVocabList()" style="flex:1">
+        <button class="small ghost" onclick="vListShow=!vListShow;renderVocabList()" id="vlist-toggle" style="flex:0 0 auto">${vListShow ? "收合 ▴" : "全部 ▾"}</button>
+      </div>
+      <div id="vocab-list" style="margin-top:8px"></div>
     </div>
     <h2>文法重點</h2>
     ${grammar.map((g, gi) => `
@@ -841,11 +878,14 @@ async function showVocabTab() {
     </div>`).join("")}`;
   renderVocabList();
 }
-let vOpen = null;
+let vOpen = null, vListShow = false;
 function renderVocabList() {
   const box = document.getElementById("vocab-list");
   if (!box || !vocab) return;
   const kw = (document.getElementById("vocab-search")?.value || "").trim().toLowerCase();
+  const tg = document.getElementById("vlist-toggle");
+  if (tg) tg.textContent = vListShow ? "收合 ▴" : "全部 ▾";
+  if (!kw && !vListShow) { box.innerHTML = `<p class="muted" style="margin:0">輸入關鍵字搜尋，或點「全部」展開單字總表。</p>`; return; }
   const st = vStages();
   const list = allVocab().filter(v => !kw || v.w.toLowerCase().includes(kw) || v.zh.includes(kw));
   box.innerHTML = list.length ? list.map(v => {
