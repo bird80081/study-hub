@@ -194,7 +194,7 @@ async function showHomeTab() {
 }
 
 /* ================= 成績趨勢折線圖 ================= */
-let trendSelected = null;
+let trendSelected = null, histOpen = {};
 function selectTrendDay(i) { trendSelected = i; showExamTab(); }
 function viewExamFromTrend(id) { openExam(id); }
 function trendChart(days) {
@@ -492,6 +492,29 @@ async function showExamTab() {
     ${schedRows}
     <h2>練習卷</h2>
     ${practice.map(cardOf).join("")}
+    ${(() => {
+      const at = loadAttempts();
+      if (!at.length) return "";
+      const byDate = {};
+      at.forEach(x => (byDate[x.date] = byDate[x.date] || []).push(x));
+      const dates = Object.keys(byDate).sort().reverse();
+      return `<h2>練習紀錄</h2>` + dates.map(d => {
+        const rows = byDate[d];
+        const open = histOpen[d] === true;
+        const nW = rows.reduce((t, x) => t + x.wrongs.length, 0);
+        return `<div class="card">
+          <div class="note-group" onclick="histOpen['${d}']=${!open};showExamTab()">
+            <strong>📅 ${d.slice(5).replace("-", "/")}</strong>
+            <span class="muted">${rows.length} 次練習．錯 ${nW} 題 ${open ? "▾" : "▸"}</span>
+          </div>
+          ${open ? rows.map(x => `
+            <div class="note-item">
+              <div class="note-point">${x.title} <span class="tag ${x.mcRight === x.mcTotal ? "ok" : "pend"}">選擇 ${x.mcScore}/${x.mcMax}．對 ${x.mcRight}/${x.mcTotal}</span></div>
+              ${x.wrongs.length ? `<div class="muted" style="font-size:0.8rem">✗ ${x.wrongs.map(w => `第${w.n}題 ${w.point}（你選 ${w.user}，答案 ${w.answer}）`).join("；")}</div>` : `<div class="muted" style="font-size:0.8rem">全對 🎉</div>`}
+            </div>`).join("") : ""}
+        </div>`;
+      }).join("");
+    })()}
     ${trendDays.length ? `
     <h2>成績趨勢</h2>
     <div class="card">
@@ -707,7 +730,24 @@ function grade() {
   sess.scoreText = `選擇 ${got}/${sess.mcMax}`;
   sess.mcRight = mcRight; sess.mcTotal = mcTotal; sess.mcScore = got;
   saveSession();
+  recordAttempt();
   showResult();
+}
+const LS_ATTEMPTS = "hub.exam.attempts.v1";
+function loadAttempts() { try { return JSON.parse(localStorage.getItem(LS_ATTEMPTS)) || []; } catch { return []; } }
+function recordAttempt() {
+  const wrongs = exam.questions.map((q, i) => (!q.essay && sess.answers[i] !== q.answer)
+    ? { n: i + 1, point: q.point || q.section, user: sess.answers[i] || "未答", answer: q.answer } : null).filter(Boolean);
+  const list = loadAttempts();
+  list.push({ id: exam.id, title: exam.title, subject: exam.subject, date: todayKey(),
+              mcScore: sess.mcScore, mcMax: sess.mcMax, mcRight: sess.mcRight, mcTotal: sess.mcTotal, wrongs });
+  localStorage.setItem(LS_ATTEMPTS, JSON.stringify(list));
+}
+function retakeExam(id) {
+  const all = loadSessions();
+  delete all[id];
+  localStorage.setItem(LS_SESS, JSON.stringify(all));
+  openExam(id);
 }
 async function showResult() {
   clearInterval(timerId);
@@ -730,6 +770,7 @@ async function showResult() {
       ${essayFull && !exam.review ? `<p class="muted">申論 ${essayQs.length} 題（${essayFull} 分）待 AI 批改——按下方「匯出作答紀錄」貼給 Claude。</p>` : ""}
       <div class="btn-row">
         <button onclick="exportResult()">匯出作答紀錄</button>
+        <button class="ghost" onclick="retakeExam('${exam.id}')">🔄 再練一次</button>
         <button class="ghost" onclick="showExamTab()">回試卷列表</button>
       </div>
     </div>
@@ -1066,7 +1107,7 @@ function showVocabDone() {
 
 /* ================= 筆記速查 ================= */
 let notes = null, notesWarnOnly = false, openGroups = {};
-let notesView = "notes", essays = null, essayOpen = {};
+let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規";
 async function showNotesTab() {
   if (notesView === "essay") return showEssayView();
   if (!notes) notes = await (await fetch("data/notes.json", { cache: "no-store" })).json();
@@ -1078,13 +1119,16 @@ async function showNotesTab() {
     </div>
     <p class="muted">數字、期間、金額速查表（來源：本機速記筆記）</p>
     <div class="btn-row" style="margin-bottom:12px">
+      <button class="small ${notesSubject === "郵政法規" ? "" : "ghost"}" onclick="notesSubject='郵政法規';showNotesTab()">📮 郵政法規</button>
+      <button class="small ${notesSubject === "民法" ? "" : "ghost"}" onclick="notesSubject='民法';showNotesTab()">⚖️ 民法</button>
       <button class="small ${notesWarnOnly ? "" : "ghost"}" onclick="notesWarnOnly=!notesWarnOnly;showNotesTab()">
-        ${notesWarnOnly ? "顯示全部" : "只看 ⚠ 曾錯考點"}</button>
+        ${notesWarnOnly ? "顯示全部" : "只看 ⚠"}</button>
     </div>
     ${notes.map((g, gi) => {
+      if ((g.subject || "郵政法規") !== notesSubject) return "";
       const items = notesWarnOnly ? g.items.filter(x => x.warn) : g.items;
       if (!items.length) return "";
-      const open = openGroups[gi] !== false;
+      const open = openGroups[gi] === true;
       return `<div class="card">
         <div class="note-group" onclick="openGroups[${gi}]=${!open};showNotesTab()">
           <strong>${g.group}</strong>
