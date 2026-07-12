@@ -21,7 +21,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--date", default=datetime.date.today().isoformat())
-    for k in ["theme", "text", "sentence", "example", "words", "para", "note"]:
+    for k in ["theme", "text", "sentence", "example", "words", "idiom", "quote", "para", "note"]:
         ap.add_argument(f"--{k}", default=None)
     ap.add_argument("--no-push", action="store_true")
     a = ap.parse_args()
@@ -36,7 +36,7 @@ def main():
             raise SystemExit(f"{a.date} 尚無素材——新增需要 --theme 與 --text")
         entry = {"date": a.date}
         data.append(entry)
-    for k in ["theme", "text", "sentence", "example", "words", "para", "note"]:
+    for k in ["theme", "text", "sentence", "example", "words", "idiom", "quote", "para", "note"]:
         v = getattr(a, k)
         if v is not None:
             entry[k] = v

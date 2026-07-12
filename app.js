@@ -1121,6 +1121,8 @@ async function showEssayView() {
           ${e.sentence ? `<div class="note-item"><div class="note-point">💬 好句</div><div class="note-value">${e.sentence}</div></div>` : ""}
           ${e.example ? `<div class="note-item"><div class="note-point">🧩 好例子</div><div class="note-value">${e.example}</div></div>` : ""}
           ${e.words ? `<div class="note-item"><div class="note-point">🔁 替換詞</div><div class="note-value">${e.words}</div></div>` : ""}
+          ${e.idiom ? `<div class="note-item"><div class="note-point">📿 今日成語</div><div class="note-value">${e.idiom}</div></div>` : ""}
+          ${e.quote ? `<div class="note-item"><div class="note-point">📜 今日名句</div><div class="note-value">${e.quote}</div></div>` : ""}
           ${e.para ? `<div class="note-item"><div class="note-point">✏️ 我的短段</div><div class="note-value" style="font-weight:400">${e.para}</div>
             ${e.note ? `<div class="muted" style="font-size:0.8rem;margin-top:4px">📝 ${e.note}</div>` : ""}</div>` : ""}
         ` : ""}
