@@ -121,15 +121,18 @@ async function showHomeTab() {
   const d = daysLeft();
   const quote = QUOTES[(d + 7) % QUOTES.length];
   const se = sp[todayKey()];
-  let serverItems = [], serverDone = [];
+  const dailyItems = Array.isArray(sp.daily) ? sp.daily : [];
+  let dateItems = [], serverDone = [];
   if (Array.isArray(se)) serverDone = se;
-  else if (se && typeof se === "object") { serverItems = se.items || []; serverDone = se.done || []; }
+  else if (se && typeof se === "object") { dateItems = se.items || []; serverDone = se.done || []; }
   const localPlan = getPlan();
   const custom = localPlan.filter(x => !DEFAULT_PLAN.includes(x));
+  const nDaily = dailyItems.length;
+  const serverItems = dailyItems.concat(dateItems);
   const plan = serverItems.length ? serverItems.concat(custom) : localPlan;
   const nServer = serverItems.length;
   const local = dailyState()[todayKey()] || [];
-  const done = plan.map((_, i) => !!(local[i] || serverDone[i]));
+  const done = plan.map((_, i) => !!(local[i] || (i >= nDaily && serverDone[i - nDaily])));
   const doneCount = done.filter(Boolean).length;
   const upcoming = SCHEDULE.filter(x => x.date >= todayKey()).slice(0, 3);
 
@@ -165,6 +168,7 @@ async function showHomeTab() {
     </div>
     <div class="card">
       ${plan.map((t, i) => `
+        ${nDaily && dateItems.length && !planEditing ? (i === 0 ? '<div class="muted" style="font-size:0.75rem;margin:2px 0">🔁 每日固定</div>' : (i === nDaily ? '<div class="muted" style="font-size:0.75rem;margin:8px 0 2px">📌 今日重點</div>' : "")) : ""}
         <label class="check-row">
           ${planEditing
             ? (i < nServer

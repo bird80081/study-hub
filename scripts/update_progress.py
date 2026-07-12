@@ -44,6 +44,17 @@ def main():
     if not items:
         sys.exit("明日建議段落是空的，沒東西可同步")
 
+    # 每日固定事項（progress.json 的 daily 類別）已常駐首頁，明日建議裡的同類行不再重複列入
+    try:
+        daily = json.load(open(PROGRESS)).get("daily", [])
+    except Exception:
+        daily = []
+    DAILY_KEYS = ["到期題", "一輪單字"]
+    if daily:
+        items = [x for x in items if not any(k in x for k in DAILY_KEYS)]
+    if not items:
+        sys.exit("過濾固定事項後沒有剩餘項目——明日建議只有例行事項時不需同步")
+
     target = (datetime.date.fromisoformat(a.date) + datetime.timedelta(days=1)).isoformat()
     print(f"→ {target} 進度（{len(items)} 項）：")
     for x in items:
@@ -67,6 +78,8 @@ def main():
             if it in old.get("items", []):
                 done[i] = old["done"][old["items"].index(it)]
     prog[target] = {"items": items, "done": done}
+    if daily:
+        prog = {"daily": daily, **{k: v for k, v in prog.items() if k != "daily"}}
     json.dump(prog, open(PROGRESS, "w"), ensure_ascii=False, indent=1)
 
     subprocess.run(["git", "-C", ROOT, "add", "data/progress.json"], check=True)
