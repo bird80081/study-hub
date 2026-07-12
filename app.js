@@ -549,8 +549,20 @@ async function openExam(id) {
     if (sess.pausedAt) return showPauseScreen();
     return showQuestion();
   }
+  // 本機沒有作答紀錄，但雲端可能有批改成績（在其他裝置考的）
+  let rv = null;
+  try {
+    const r = await fetch(`reviews/${id}.json`, { cache: "no-store" });
+    if (r.ok) rv = await r.json();
+  } catch {}
   $app.innerHTML = `
     <h1>${exam.title}</h1>
+    ${rv ? `<div class="card">
+      <div class="note-point">📋 這份卷已批改（${rv.gradedAt}）</div>
+      <div class="score-big" style="font-size:1.6rem">${rv.total} <span class="muted" style="font-size:0.9rem">/ ${rv.totalMax}${rv.pass ? "．✅ 過及格線" : ""}</span></div>
+      ${rv.note ? `<p class="muted" style="font-size:0.8rem">${rv.note}</p>` : ""}
+      <p class="muted" style="font-size:0.8rem">當時的逐題作答存在原本作答的裝置上；在這裡按「開始作答」可重新練習，不影響已批改成績。</p>
+    </div>` : ""}
     <div class="card">
       <p><strong>${exam.subject}</strong>．限時 ${exam.minutes} 分鐘</p>
       <p class="muted">${exam.sections.map(s => `${s.name} ${s.count} 題 × ${s.points} 分`).join("．")}（滿分 ${fullScore()} 分）</p>
