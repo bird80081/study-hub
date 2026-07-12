@@ -903,7 +903,18 @@ function renderVocabList() {
           <button class="small ghost" onclick="event.stopPropagation();speak(${JSON.stringify(v.ex).replace(/"/g, "&quot;")})">🔊 例句</button>
         </div>` : ""}
     </div>`;
-  }).join("") : `<p class="muted">找不到「${kw}」。<a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">到劍橋詞典查 ›</a></p>`;
+  }).join("") : `<p class="muted">找不到「${kw}」。<a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">到劍橋詞典查 ›</a></p>`
+    + (/^[a-z][a-z '-]*$/.test(kw) ? `<div style="margin-top:6px">
+        <input class="plan-input" id="vlist-add-zh" placeholder="查到意思後，輸入中文解釋…" style="width:100%">
+        <div class="btn-row" style="margin-top:8px"><button class="small" onclick="saveCustomWordFromList('${kw.replace(/'/g, "\\'")}')">➕ 加入我的單字</button></div>
+      </div>` : "");
+}
+function saveCustomWordFromList(w) {
+  const zh = (document.getElementById("vlist-add-zh")?.value || "").trim();
+  if (!zh) { toast("先填中文解釋"); return; }
+  addCustomWord(w, zh, "");
+  toast(`「${w}」已加入辭典，會進三關輪替`);
+  renderVocabList();
 }
 function blankWord(ex, w) {
   // 1) 整組比對（含片語），大小寫不拘、允許中間空白變化
