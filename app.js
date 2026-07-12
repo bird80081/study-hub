@@ -325,7 +325,7 @@ function showDrillQ() {
       <button class="small ghost" onclick="openLookup()">🔍</button>
       <span class="muted">✔ ${drillRight}</span>
     </div>
-    <div class="q-num">${q.point}</div>
+    ${answered ? `<div class="q-num">${q.point}</div>` : ""}
     <div class="q-stem">${q.stem}</div>
     ${q.options.map((opt, i) => {
       const label = "ABCD"[i];
