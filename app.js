@@ -1066,10 +1066,16 @@ function showVocabDone() {
 
 /* ================= 筆記速查 ================= */
 let notes = null, notesWarnOnly = false, openGroups = {};
+let notesView = "notes", essays = null, essayOpen = {};
 async function showNotesTab() {
+  if (notesView === "essay") return showEssayView();
   if (!notes) notes = await (await fetch("data/notes.json", { cache: "no-store" })).json();
   $app.innerHTML = `
     <h1>筆記速查</h1>
+    <div class="btn-row" style="margin-bottom:4px">
+      <button class="small">📌 速查表</button>
+      <button class="small ghost" onclick="notesView='essay';showNotesTab()">✍️ 作文素材</button>
+    </div>
     <p class="muted">數字、期間、金額速查表（來源：本機速記筆記）</p>
     <div class="btn-row" style="margin-bottom:12px">
       <button class="small ${notesWarnOnly ? "" : "ghost"}" onclick="notesWarnOnly=!notesWarnOnly;showNotesTab()">
@@ -1092,6 +1098,34 @@ async function showNotesTab() {
           </div>`).join("") : ""}
       </div>`;
     }).join("")}`;
+}
+
+async function showEssayView() {
+  if (!essays) { try { essays = await (await fetch("data/essay.json", { cache: "no-store" })).json(); } catch { essays = []; } }
+  $app.innerHTML = `
+    <h1>筆記速查</h1>
+    <div class="btn-row" style="margin-bottom:4px">
+      <button class="small ghost" onclick="notesView='notes';showNotesTab()">📌 速查表</button>
+      <button class="small">✍️ 作文素材</button>
+    </div>
+    <p class="muted">每日 3 個素材：好句、好例子、替換詞——假日整篇作文前先來翻彈藥庫</p>
+    ${essays.length ? essays.map((e, i) => {
+      const open = essayOpen[e.date] !== undefined ? essayOpen[e.date] : i === 0;
+      return `<div class="card">
+        <div class="note-group" onclick="essayOpen['${e.date}']=${!open};showEssayView()">
+          <strong>${e.theme || "（未定主題）"}</strong>
+          <span class="muted">${e.date.slice(5).replace("-", "/")} ${open ? "▾" : "▸"}</span>
+        </div>
+        ${open ? `
+          ${e.text ? `<div class="muted" style="margin:6px 0;line-height:1.7">${e.text}</div>` : ""}
+          ${e.sentence ? `<div class="note-item"><div class="note-point">💬 好句</div><div class="note-value">${e.sentence}</div></div>` : ""}
+          ${e.example ? `<div class="note-item"><div class="note-point">🧩 好例子</div><div class="note-value">${e.example}</div></div>` : ""}
+          ${e.words ? `<div class="note-item"><div class="note-point">🔁 替換詞</div><div class="note-value">${e.words}</div></div>` : ""}
+          ${e.para ? `<div class="note-item"><div class="note-point">✏️ 我的短段</div><div class="note-value" style="font-weight:400">${e.para}</div>
+            ${e.note ? `<div class="muted" style="font-size:0.8rem;margin-top:4px">📝 ${e.note}</div>` : ""}</div>` : ""}
+        ` : ""}
+      </div>`;
+    }).join("") : `<div class="card"><p class="muted" style="margin:0">還沒有素材——明天開始複習時就會自動出現第一筆。</p></div>`}`;
 }
 
 /* ================= 查單字浮層 ================= */
