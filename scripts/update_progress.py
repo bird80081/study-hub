@@ -21,9 +21,11 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--date", default=datetime.date.today().isoformat(),
-                    help="讀書紀錄日期（預設今天）")
+                    help="讀書紀錄日期（預設今天；可用 yesterday／昨天）")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    if a.date in ("yesterday", "昨天"):
+        a.date = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
 
     recs = sorted(glob.glob(os.path.join(RECORD_DIR, f"{a.date}*讀書紀錄.md")))
     if not recs:
@@ -69,7 +71,8 @@ def main():
         prog = {}
     old = prog.get(target)
     if isinstance(old, dict) and old.get("items") == items:
-        print("內容與網站現況相同，不需更新")
+        print("內容相同，不需改檔——補推未上傳的 commit（若有）")
+        _push()
         return
     # 保留同日已勾選的舊項目狀態
     done = [False] * len(items)
@@ -84,8 +87,15 @@ def main():
 
     subprocess.run(["git", "-C", ROOT, "add", "data/progress.json"], check=True)
     subprocess.run(["git", "-C", ROOT, "commit", "-q", "-m", f"進度同步：{target}（{len(items)} 項）"], check=True)
-    subprocess.run(["git", "-C", ROOT, "push", "-q"], check=True)
-    print(f"✓ 已 push，網站明天首頁就是這份清單")
+    _push()
+
+
+def _push():
+    r = subprocess.run(["git", "-C", ROOT, "push", "-q"], capture_output=True, text=True)
+    if r.returncode == 0:
+        print("✓ 已 push，網站首頁進度已是最新")
+    else:
+        print("⚠ push 失敗（大概是沒網路）——已存檔，明早啟動時跑「update_progress.py --date 昨天」即可補推")
 
 
 if __name__ == "__main__":
