@@ -12,12 +12,24 @@ tabbar.addEventListener("click", e => {
   if (!btn) return;
   switchTab(btn.dataset.tab);
 });
+let currentTab = "home";
 function switchTab(name) {
   clearInterval(timerId);
+  currentTab = name;
   tabbar.querySelectorAll("button").forEach(b =>
     b.classList.toggle("active", b.dataset.tab === name));
   ({ home: showHomeTab, drill: showDrillTab, exam: showExamTab, vocab: showVocabTab, notes: showNotesTab }[name])();
 }
+// 舊畫面兩大來源：斷網時拿到快取、背景分頁被原樣還原。兩種情況都自動重抓（作答中不打擾）
+function refreshIfIdle() {
+  const busy = (typeof sess !== "undefined" && sess && !sess.finished) || (typeof drillQ !== "undefined" && drillQ.length && drillIdx < drillQ.length && document.body.innerText.includes("結束"));
+  if (busy) return;
+  if (["home", "exam", "notes"].includes(currentTab)) switchTab(currentTab);
+}
+window.addEventListener("online", refreshIfIdle);
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "visible") refreshIfIdle();
+});
 
 /* ================= 首頁 ================= */
 const QUOTES = [
@@ -163,7 +175,7 @@ async function showHomeTab() {
       <div class="btn-row" style="margin-top:0">${quick}</div>
     </div>
     <div class="h2-row">
-      <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span></h2>
+      <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}．⟳ ${new Date().toTimeString().slice(0,5)}</span></h2>
       <span>${planEditing ? `<button class="small ghost" onclick="cancelPlanEdit()">↩ 返回</button> ` : ""}<button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></span>
     </div>
     <div class="card">
