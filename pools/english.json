@@ -2,88 +2,550 @@
  "subject": "英文",
  "questions": [
   {
-   "id": "en001", "point": "字彙：compensation",
+   "id": "en001",
+   "point": "字彙：compensation",
    "stem": "The post office offered NT$575 in ______ for the lost registered letter.",
-   "options": ["compensation", "communication", "competition", "combination"],
+   "options": [
+    "compensation",
+    "communication",
+    "competition",
+    "combination"
+   ],
    "answer": "A",
    "explain": "compensation 補償／賠償，claim compensation for… 為固定搭配。communication 通訊、competition 競爭、combination 組合，語意皆不合。"
   },
   {
-   "id": "en002", "point": "文法：關係代名詞所有格",
+   "id": "en002",
+   "point": "文法：關係代名詞所有格",
    "stem": "The applicant ______ resume impressed the manager was hired immediately.",
-   "options": ["who", "whom", "whose", "which"],
+   "options": [
+    "who",
+    "whom",
+    "whose",
+    "which"
+   ],
    "answer": "C",
    "explain": "空格後接名詞 resume，表「他的履歷」，需用所有格關係代名詞 whose。who 作主詞、whom 作受詞、which 用於事物，皆不可直接接名詞表所有。"
   },
   {
-   "id": "en003", "point": "字彙：available",
+   "id": "en003",
+   "point": "字彙：available",
    "stem": "Foreign currency exchange service is ______ at all major branches.",
-   "options": ["available", "capable", "probable", "comfortable"],
+   "options": [
+    "available",
+    "capable",
+    "probable",
+    "comfortable"
+   ],
    "answer": "A",
    "explain": "available 可取得的、可利用的（服務、商品）。capable 有能力的（人）、probable 可能的（事件發生機率）、comfortable 舒適的，均不符「服務可供使用」語意。"
   },
   {
-   "id": "en004", "point": "文法：日期介系詞",
+   "id": "en004",
+   "point": "文法：日期介系詞",
    "stem": "The new regulation will take effect ______ March 1.",
-   "options": ["in", "on", "at", "by the"],
+   "options": [
+    "in",
+    "on",
+    "at",
+    "by the"
+   ],
    "answer": "B",
    "explain": "明確日期用 on（on March 1）；月份、年份用 in（in March）；時刻用 at（at 9:00）。"
   },
   {
-   "id": "en005", "point": "字彙：recipient",
+   "id": "en005",
+   "point": "字彙：recipient",
    "stem": "The ______ must show a valid ID card when picking up the registered mail.",
-   "options": ["reception", "recipient", "receipt", "recipe"],
+   "options": [
+    "reception",
+    "recipient",
+    "receipt",
+    "recipe"
+   ],
    "answer": "B",
    "explain": "recipient 收件人（人）。reception 接待／收訊、receipt 收據、recipe 食譜——四字形近，考試常互為誘答，以「人／物」區分最快。"
   },
   {
-   "id": "en006", "point": "文法：because of",
+   "id": "en006",
+   "point": "文法：because of",
    "stem": "The delivery was delayed ______ the heavy typhoon.",
-   "options": ["because", "because of", "although", "so that"],
+   "options": [
+    "because",
+    "because of",
+    "although",
+    "so that"
+   ],
    "answer": "B",
    "explain": "because of ＋名詞片語（the heavy typhoon）；because 後接完整子句。although 表讓步、so that 表目的，語意不合。"
   },
   {
-   "id": "en007", "point": "字彙：expire",
+   "id": "en007",
+   "point": "字彙：expire",
    "stem": "This coupon will ______ at the end of June, so please use it soon.",
-   "options": ["expand", "explore", "expire", "export"],
+   "options": [
+    "expand",
+    "explore",
+    "expire",
+    "export"
+   ],
    "answer": "C",
    "explain": "expire 到期、失效（票券、證件、契約）。expand 擴大、explore 探索、export 出口，字首相同易混。"
   },
   {
-   "id": "en008", "point": "文法：被動語態",
+   "id": "en008",
+   "point": "文法：被動語態",
    "stem": "All parcels ______ carefully before they are loaded onto the truck.",
-   "options": ["inspect", "are inspected", "inspecting", "have inspected"],
+   "options": [
+    "inspect",
+    "are inspected",
+    "inspecting",
+    "have inspected"
+   ],
    "answer": "B",
    "explain": "包裹是「被檢查」，需用被動語態 are inspected。主詞 parcels 與 inspect 為被動關係，A、C、D 皆為主動形式。"
   },
   {
-   "id": "en009", "point": "字彙：deposit",
+   "id": "en009",
+   "point": "字彙：deposit",
    "stem": "She went to the post office to ______ her salary into the savings account.",
-   "options": ["deposit", "dispose", "deserve", "describe"],
+   "options": [
+    "deposit",
+    "dispose",
+    "deserve",
+    "describe"
+   ],
    "answer": "A",
    "explain": "deposit 存入（款項）；deposit money into an account 為常見搭配。dispose 處置（dispose of）、deserve 應得、describe 描述。"
   },
   {
-   "id": "en010", "point": "文法：間接問句",
+   "id": "en010",
+   "point": "文法：間接問句",
    "stem": "Could you tell me ______?",
-   "options": ["where is the nearest post office", "where the nearest post office is", "the nearest post office is where", "where does the nearest post office"],
+   "options": [
+    "where is the nearest post office",
+    "where the nearest post office is",
+    "the nearest post office is where",
+    "where does the nearest post office"
+   ],
    "answer": "B",
    "explain": "間接問句採「疑問詞＋主詞＋動詞」的直述句語序：where the nearest post office is。A 是直接問句語序，置於 tell me 之後不合文法。"
   },
   {
-   "id": "en011", "point": "字彙：urgent",
+   "id": "en011",
+   "point": "字彙：urgent",
    "stem": "Please send the documents by express mail; the matter is quite ______.",
-   "options": ["urgent", "vacant", "distant", "instant"],
+   "options": [
+    "urgent",
+    "vacant",
+    "distant",
+    "instant"
+   ],
    "answer": "A",
    "explain": "urgent 緊急的，與 express mail（快捷）語意呼應。vacant 空的、distant 遙遠的、instant 立即的（instant noodles），-ant 結尾形近誘答。"
   },
   {
-   "id": "en012", "point": "文法：數量詞",
+   "id": "en012",
+   "point": "文法：數量詞",
    "stem": "There isn't ______ information about the new service on the website yet.",
-   "options": ["many", "much", "a few", "several"],
+   "options": [
+    "many",
+    "much",
+    "a few",
+    "several"
+   ],
    "answer": "B",
    "explain": "information 為不可數名詞，否定句用 much。many、a few、several 皆修飾可數複數名詞。"
+  },
+  {
+   "id": "en013",
+   "point": "字彙：commitment",
+   "stem": "She is not ready to make a lifelong _____, so she decided not to marry him.",
+   "options": [
+    "devotion",
+    "commitment",
+    "investment",
+    "donation"
+   ],
+   "answer": "B",
+   "explain": "commitment 承諾（make a commitment 固定搭配）。devotion 奉獻、investment 投資、donation 捐贈。（112 歷屆）"
+  },
+  {
+   "id": "en014",
+   "point": "字彙：violate",
+   "stem": "The police officer said playing loud music after midnight _____ noise laws.",
+   "options": [
+    "stimulates",
+    "enforces",
+    "creates",
+    "violates"
+   ],
+   "answer": "D",
+   "explain": "violate 違反（法律）。enforce 是「執行」法律，方向相反；stimulate 刺激、create 創造。（112 歷屆）"
+  },
+  {
+   "id": "en015",
+   "point": "字彙：retreat",
+   "stem": "Higher temperatures and lack of snow is causing the _____ of the glaciers.",
+   "options": [
+    "formation",
+    "retreat",
+    "complexity",
+    "splendor"
+   ],
+   "answer": "B",
+   "explain": "retreat 後退、消退（冰川消退）。formation 形成、complexity 複雜性、splendor 壯麗。（112 歷屆）"
+  },
+  {
+   "id": "en016",
+   "point": "字彙：residence",
+   "stem": "That old man lives on the street and has no _____.",
+   "options": [
+    "insistence",
+    "relation",
+    "residence",
+    "habitat"
+   ],
+   "answer": "C",
+   "explain": "residence 住所（人）。habitat 是動植物的棲息地，不用於人；insistence 堅持、relation 關係。（112 歷屆）"
+  },
+  {
+   "id": "en017",
+   "point": "字彙：challenge",
+   "stem": "To get onto a stage and speak to a crowd is a big _____ to a shy person.",
+   "options": [
+    "challenge",
+    "warning",
+    "answer",
+    "season"
+   ],
+   "answer": "A",
+   "explain": "challenge 挑戰。上台演說對害羞者是一大挑戰。（112 歷屆）"
+  },
+  {
+   "id": "en018",
+   "point": "字彙：deliberate",
+   "stem": "When Chris copied a research paper he found on the Internet, it was _____.",
+   "options": [
+    "deliberate",
+    "innocent",
+    "efficient",
+    "credible"
+   ],
+   "answer": "A",
+   "explain": "deliberate 蓄意的（抄襲是故意行為）。innocent 無辜的、efficient 有效率的、credible 可信的。（112 歷屆）"
+  },
+  {
+   "id": "en019",
+   "point": "字彙：refuse",
+   "stem": "I must _____ this poor and unfair request from my boss.",
+   "options": [
+    "climb",
+    "refuse",
+    "protect",
+    "guess"
+   ],
+   "answer": "B",
+   "explain": "refuse 拒絕（不公平的要求）。（112 歷屆）"
+  },
+  {
+   "id": "en020",
+   "point": "字彙：shortage",
+   "stem": "People in this country are suffering from hunger because of a _____ of food and water.",
+   "options": [
+    "garage",
+    "village",
+    "marriage",
+    "shortage"
+   ],
+   "answer": "D",
+   "explain": "shortage 短缺（a shortage of food 糧食短缺）。注意 -age 結尾字的字義區辨。（112 歷屆）"
+  },
+  {
+   "id": "en021",
+   "point": "字彙：addicted",
+   "stem": "James is so _____ to video games that he plays them for 8 hours almost every day!",
+   "options": [
+    "blamed",
+    "addicted",
+    "offended",
+    "frightened"
+   ],
+   "answer": "B",
+   "explain": "be addicted to 對……上癮（固定搭配 to）。offended 被冒犯、frightened 受驚嚇。（112 歷屆）"
+  },
+  {
+   "id": "en022",
+   "point": "字彙：persuade",
+   "stem": "My friend tried to _____ me to invest in something I don't feel safe, but I said no.",
+   "options": [
+    "invade",
+    "tolerate",
+    "persuade",
+    "hesitate"
+   ],
+   "answer": "C",
+   "explain": "persuade sb to V 說服某人做某事。invade 入侵、tolerate 容忍、hesitate 猶豫。（112 歷屆）"
+  },
+  {
+   "id": "en023",
+   "point": "字彙：thrifty",
+   "stem": "The man is _____ as he lives a very simple life and wouldn't spend one penny on anything unnecessary.",
+   "options": [
+    "thrifty",
+    "fragile",
+    "lavish",
+    "stinky"
+   ],
+   "answer": "A",
+   "explain": "thrifty 節儉的。lavish 揮霍的（反義）、fragile 脆弱的、stinky 發臭的。（112 歷屆）"
+  },
+  {
+   "id": "en024",
+   "point": "字彙：inform",
+   "stem": "Before going out, always _____ your parents of your plans.",
+   "options": [
+    "tell",
+    "state",
+    "inform",
+    "describe"
+   ],
+   "answer": "C",
+   "explain": "inform sb of sth 告知某人某事（介系詞 of 是關鍵搭配）。tell 接雙受詞不加 of。（112 歷屆）"
+  },
+  {
+   "id": "en025",
+   "point": "文法：分詞形容詞 interesting",
+   "stem": "Justin bought a new book which he found very _____ and he finished reading it in one day.",
+   "options": [
+    "disinterested",
+    "interested",
+    "interest",
+    "interesting"
+   ],
+   "answer": "D",
+   "explain": "修飾「書」用現在分詞 interesting（令人感興趣的）；interested 用於人（感到興趣的）。（112 歷屆）"
+  },
+  {
+   "id": "en026",
+   "point": "字彙：allegation",
+   "stem": "Some entertainers are facing _____ of sexual assault as controversies rock show business this month.",
+   "options": [
+    "allegations",
+    "delegations",
+    "testimonies",
+    "demonstrations"
+   ],
+   "answer": "A",
+   "explain": "allegation 指控（face allegations of... 面臨……的指控）。delegation 代表團、testimony 證詞、demonstration 示威。（112 歷屆）"
+  },
+  {
+   "id": "en027",
+   "point": "字彙：fiscal",
+   "stem": "The _____ reports published by large-scaled companies each year can serve as a good reference for the investors.",
+   "options": [
+    "experimental",
+    "fiscal",
+    "dynamic",
+    "historic"
+   ],
+   "answer": "B",
+   "explain": "fiscal 財務的、會計的（fiscal report 財務報告）。金融情境高頻字，郵政儲匯英文常考。（112 歷屆）"
+  },
+  {
+   "id": "en028",
+   "point": "文法：名詞子句疑問詞 how",
+   "stem": "It is difficult to imagine _____ our personal and business affairs could be carried on without smartphones.",
+   "options": [
+    "why",
+    "how",
+    "what",
+    "when"
+   ],
+   "answer": "B",
+   "explain": "語意：難以想像事務「如何」在沒有手機下運作——用 how 引導名詞子句；what 在子句中缺乏對應缺格。（112 歷屆）"
+  },
+  {
+   "id": "en029",
+   "point": "文法：compared with",
+   "stem": "The African plantations provide almost 70% of the world's cacao, _____ with 5% from Mexico.",
+   "options": [
+    "compared",
+    "compare",
+    "to compare",
+    "compares"
+   ],
+   "answer": "A",
+   "explain": "compared with 相較於（過去分詞構句，主詞與 compare 為被動關係）。（112 歷屆）"
+  },
+  {
+   "id": "en030",
+   "point": "文法：it takes 時間",
+   "stem": "It _____ years for the newborns to master all the necessary skills for daily life.",
+   "options": [
+    "spends",
+    "costs",
+    "needs",
+    "takes"
+   ],
+   "answer": "D",
+   "explain": "It takes＋時間＋for sb to V 固定句型。spend 主詞須是人；cost 用於金錢代價。（112 歷屆）"
+  },
+  {
+   "id": "en031",
+   "point": "文法：wish 假設語氣",
+   "stem": "I have met that man before. I wish I _____ his name.",
+   "options": [
+    "will remember",
+    "can remember",
+    "could remember",
+    "had remembered"
+   ],
+   "answer": "C",
+   "explain": "wish 表「與現在事實相反」的願望用過去式助動詞：I wish I could remember（現在想不起來）。had remembered 是與過去事實相反。（112 歷屆）"
+  },
+  {
+   "id": "en032",
+   "point": "文法：過去式疑問句 Did",
+   "stem": "_____ you call me yesterday? I left my cellphone in my brother's place.",
+   "options": [
+    "Was",
+    "Why",
+    "Did",
+    "Where"
+   ],
+   "answer": "C",
+   "explain": "yesterday＋一般動詞 call → 過去式疑問句用 Did。（112 歷屆）"
+  },
+  {
+   "id": "en033",
+   "point": "文法：interested in",
+   "stem": "I'm not interested _____ any sports at all.",
+   "options": [
+    "on",
+    "for",
+    "in",
+    "to"
+   ],
+   "answer": "C",
+   "explain": "be interested in 對……感興趣，固定介系詞搭配。（112 歷屆）"
+  },
+  {
+   "id": "en034",
+   "point": "文法：mind＋動名詞",
+   "stem": "The lid of the jar seemed stuck. Do you mind _____ it?",
+   "options": [
+    "open",
+    "opened",
+    "to open",
+    "opening"
+   ],
+   "answer": "D",
+   "explain": "mind 後接動名詞 V-ing（mind opening）。同類動詞：enjoy、finish、avoid、practice。（112 歷屆）"
+  },
+  {
+   "id": "en035",
+   "point": "文法：動名詞當主詞",
+   "stem": "_____ is my favorite pastime.",
+   "options": [
+    "Listen music",
+    "Listening music",
+    "To listen music",
+    "Listening to music"
+   ],
+   "answer": "D",
+   "explain": "動名詞片語當主詞，且 listen 為不及物動詞須接 to：Listening to music。（112 歷屆）"
+  },
+  {
+   "id": "en036",
+   "point": "文法：分詞構句 when told",
+   "stem": "When _____ about the bad news, Georgia was so shocked that she fainted right away.",
+   "options": [
+    "tell",
+    "tells",
+    "told",
+    "telling"
+   ],
+   "answer": "C",
+   "explain": "Georgia 是「被告知」，用過去分詞：When (she was) told about...。（112 歷屆）"
+  },
+  {
+   "id": "en037",
+   "point": "文法：關係代名詞 which 指事件",
+   "stem": "At the age of ten, Michael lost his parents, _____ he considered the most traumatic in his life.",
+   "options": [
+    "which",
+    "who",
+    "whom",
+    "when"
+   ],
+   "answer": "A",
+   "explain": "先行詞是「失去雙親」這件事（非人），非限定用法用 which。（112 歷屆）"
+  },
+  {
+   "id": "en038",
+   "point": "文法：過去簡單式",
+   "stem": "Yesterday, I _____ dinner with an old friend.",
+   "options": [
+    "have",
+    "had",
+    "had had",
+    "have had"
+   ],
+   "answer": "B",
+   "explain": "yesterday 明確過去時間，用過去簡單式 had；不可用完成式。（112 歷屆）"
+  },
+  {
+   "id": "en039",
+   "point": "文法：所有格比較 as good as",
+   "stem": "Your cooking skills are as good as _____.",
+   "options": [
+    "your mother",
+    "your mother's",
+    "your mother does",
+    "your mother's do"
+   ],
+   "answer": "B",
+   "explain": "比較對象是「你媽媽的廚藝」（skills），須用所有格 your mother's（＝your mother's skills），與人比較會語意不對等。（112 歷屆）"
+  },
+  {
+   "id": "en040",
+   "point": "文法：with＋受詞＋分詞",
+   "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
+   "options": [
+    "involved",
+    "involving",
+    "to involve",
+    "which involve"
+   ],
+   "answer": "A",
+   "explain": "with＋受詞＋分詞的獨立結構：factors 是「被牽涉」的，用過去分詞 involved（be involved in）。（112 歷屆）"
+  },
+  {
+   "id": "en041",
+   "point": "文法：fed up with",
+   "stem": "Teenagers are often rebellious and can easily get fed up _____ doing house chores.",
+   "options": [
+    "by",
+    "in",
+    "for",
+    "with"
+   ],
+   "answer": "D",
+   "explain": "be/get fed up with 對……感到厭煩，固定搭配 with。（112 歷屆）"
+  },
+  {
+   "id": "en042",
+   "point": "片語動詞：get on",
+   "stem": "Tim and Jacob have been friends since they were in kindergarten, and the two _____ really well.",
+   "options": [
+    "run over",
+    "get on",
+    "turn up",
+    "come up"
+   ],
+   "answer": "B",
+   "explain": "get on (well) 相處融洽（＝get along）。run over 輾過、turn up 出現、come up 被提出。（112 歷屆）"
   }
  ]
 }
