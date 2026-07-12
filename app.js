@@ -71,7 +71,10 @@ function getPlan() {
 }
 function savePlan(p) { localStorage.setItem(LS_PLAN, JSON.stringify(p)); }
 
-function todayKey() { return new Date().toISOString().slice(0, 10); }
+function todayKey() {  // 本地日期（舊版用 UTC，台灣早上 8 點前會誤判成昨天）
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
 function daysLeft() {
   const ms = new Date(EXAM_DATE + "T00:00:00") - new Date(todayKey() + "T00:00:00");
   return Math.round(ms / 86400000);
