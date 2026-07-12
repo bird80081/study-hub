@@ -494,7 +494,8 @@ async function showExamTab() {
     ${practice.map(cardOf).join("")}
     ${(() => {
       const at = loadAttempts();
-      if (!at.length) return "";
+      if (!at.length) return `<h2>練習紀錄</h2>
+        <div class="card"><p class="muted" style="margin:0">還沒有紀錄——從現在起每次交卷都會自動記一筆（日期、成績、錯題），存在這支手機上。</p></div>`;
       const byDate = {};
       at.forEach(x => (byDate[x.date] = byDate[x.date] || []).push(x));
       const dates = Object.keys(byDate).sort().reverse();
