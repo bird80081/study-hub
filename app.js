@@ -236,6 +236,22 @@ const LS_DRILL_SEEN = "hub.drill.seen.v1";
 const LS_DRILL_CFG = "hub.drill.cfg.v1";
 const LS_DRILL_WRONG = "hub.drill.wrong.v1";
 const LS_DRILL_DAILY = "hub.drill.daily.v1";
+const LS_DRILL_STATE = "hub.drill.state.v1";
+function drillState() { try { return JSON.parse(localStorage.getItem(LS_DRILL_STATE)); } catch { return null; } }
+function saveDrillState() {
+  if (!drillQ.length || drillIdx >= drillQ.length) return clearDrillState();
+  localStorage.setItem(LS_DRILL_STATE, JSON.stringify({
+    q: drillQ, idx: drillIdx, picked: drillPicked, right: drillRight,
+    wrongRound: drillWrongRound.map(w => w.id), savedAt: Date.now() }));
+}
+function clearDrillState() { localStorage.removeItem(LS_DRILL_STATE); }
+function resumeDrill() {
+  const st = drillState();
+  if (!st) return showDrillTab();
+  drillQ = st.q; drillIdx = st.idx; drillPicked = st.picked; drillRight = st.right;
+  drillWrongRound = drillQ.filter(q => (st.wrongRound || []).includes(q.id));
+  showDrillQ();
+}
 let poolIndex = null, poolCache = {}, drillQ = [], drillIdx = 0, drillPicked = null, drillRight = 0, drillWrongRound = [];
 
 function drillSeen() { try { return JSON.parse(localStorage.getItem(LS_DRILL_SEEN)) || {}; } catch { return {}; } }
@@ -254,6 +270,14 @@ async function showDrillTab() {
   $app.innerHTML = `
     <h1>每日刷題</h1>
     <p class="muted">逐題即時對答．每輪從勾選的科目隨機抽題．今日已刷 ${todayN} 題</p>
+    ${(() => {
+      const st = drillState();
+      if (!st || st.idx >= st.q.length) return "";
+      return `<div class="card tappable" onclick="resumeDrill()" style="border-color:var(--accent)">
+        <strong>▶ 繼續上輪</strong> <span class="muted">刷到第 ${st.idx + 1}/${st.q.length} 題</span>
+        <div class="muted" style="font-size:0.8rem">上次暫停：${new Date(st.savedAt).toLocaleString("zh-TW", {month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"})}．點此接續</div>
+      </div>`;
+    })()}
     <div class="card">
       <div class="muted" style="font-weight:700;margin-bottom:4px">選擇科目</div>
       ${poolIndex.map(p => `
@@ -341,6 +365,7 @@ async function startDrillWrong() {
   beginDrillRun();
 }
 function beginDrillRun() {
+  clearDrillState();
   drillIdx = 0; drillPicked = null; drillRight = 0; drillWrongRound = [];
   showDrillQ();
 }
@@ -350,7 +375,7 @@ function showDrillQ() {
   const answered = drillPicked !== null;
   $app.innerHTML = `
     <div class="exam-top">
-      <button class="small ghost" onclick="showDrillTab()">結束</button>
+      <button class="small ghost" onclick="pauseDrill()">暫停</button>
       <span class="muted">${drillIdx + 1}/${drillQ.length}．${q.subject}</span>
       <button class="small ghost" onclick="openLookup()">🔍</button>
       <span class="muted">✔ ${drillRight}</span>
@@ -391,10 +416,13 @@ function pickDrill(label) {
       localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs.slice(-200)));
     }
   }
+  saveDrillState();
   showDrillQ();
 }
-function nextDrill() { drillIdx++; drillPicked = null; showDrillQ(); }
+function nextDrill() { drillIdx++; drillPicked = null; saveDrillState(); showDrillQ(); }
+function pauseDrill() { saveDrillState(); showDrillTab(); }
 function showDrillDone() {
+  clearDrillState();
   const total = drillQ.length;
   $app.innerHTML = `
     <div class="card" style="text-align:center;margin-top:30px">
