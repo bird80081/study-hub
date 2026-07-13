@@ -431,3 +431,12 @@ textarea:focus { outline: none; border-color: var(--accent); }
 }
 .lookup-box { width: 100%; max-width: 480px; max-height: 70vh; overflow-y: auto; }
 .lookup-overlay a { color: var(--accent); }
+
+/* 筆記表格模式 */
+.note-table-wrap { overflow-x: auto; margin-top: 8px; -webkit-overflow-scrolling: touch; }
+.note-table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+.note-table th, .note-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.note-table th { font-size: 0.75rem; color: var(--muted); font-weight: 700; white-space: nowrap; }
+.note-table td:first-child { font-weight: 700; white-space: nowrap; }
+.note-table td:nth-child(2) { min-width: 140px; }
+.note-table .warn-row td:first-child { color: var(--warn); }

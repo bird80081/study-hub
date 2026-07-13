@@ -30,6 +30,8 @@ window.addEventListener("online", refreshIfIdle);
 document.addEventListener("visibilitychange", () => {
   if (document.visibilityState === "visible") refreshIfIdle();
 });
+// iOS Safari 從背景還原是 bfcache 快照（JS 不重跑），只有 pageshow persisted 會觸發
+window.addEventListener("pageshow", e => { if (e.persisted) refreshIfIdle(); });
 
 /* ================= 首頁 ================= */
 const QUOTES = [
@@ -178,8 +180,8 @@ async function showHomeTab() {
       <div class="btn-row" style="margin-top:0">${quick}</div>
     </div>
     <div class="h2-row">
-      <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}．⟳ ${new Date().toTimeString().slice(0,5)}</span></h2>
-      <span>${planEditing ? `<button class="small ghost" onclick="cancelPlanEdit()">↩ 返回</button> ` : ""}<button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></span>
+      <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span></h2>
+      <span><button class="small ghost" onclick="showHomeTab()" title="重新抓最新進度">⟳ ${new Date().toTimeString().slice(0,5)}</button> ${planEditing ? `<button class="small ghost" onclick="cancelPlanEdit()">↩ 返回</button> ` : ""}<button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></span>
     </div>
     <div class="card">
       ${plan.map((t, i) => `
@@ -1174,7 +1176,7 @@ function showVocabDone() {
 
 /* ================= 筆記速查 ================= */
 let notes = null, notesWarnOnly = false, openGroups = {};
-let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規";
+let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = true;
 async function showNotesTab() {
   if (notesView === "essay") return showEssayView();
   if (!notes) notes = await (await fetch("data/notes.json", { cache: "no-store" })).json();
@@ -1190,6 +1192,7 @@ async function showNotesTab() {
       <button class="small ${notesSubject === "民法" ? "" : "ghost"}" onclick="notesSubject='民法';showNotesTab()">⚖️ 民法</button>
       <button class="small ${notesWarnOnly ? "" : "ghost"}" onclick="notesWarnOnly=!notesWarnOnly;showNotesTab()">
         ${notesWarnOnly ? "顯示全部" : "只看 ⚠"}</button>
+      <button class="small ghost" onclick="notesTable=!notesTable;showNotesTab()">${notesTable ? "☰ 條列" : "▦ 表格"}</button>
     </div>
     ${notes.map((g, gi) => {
       if ((g.subject || "郵政法規") !== notesSubject) return "";
@@ -1201,12 +1204,21 @@ async function showNotesTab() {
           <strong>${g.group}</strong>
           <span class="muted">${items.length} 條 ${open ? "▾" : "▸"}</span>
         </div>
-        ${open ? items.map(x => `
+        ${open ? (notesTable
+          ? `<div class="note-table-wrap"><table class="note-table">
+              <thead><tr><th>考點</th><th>內容</th><th>備註</th></tr></thead>
+              <tbody>${items.map(x => `<tr class="${x.warn ? "warn-row" : ""}">
+                <td>${x.warn ? "⚠ " : ""}${x.point}</td>
+                <td>${x.value}</td>
+                <td class="muted">${x.note || ""}</td>
+              </tr>`).join("")}</tbody>
+            </table></div>`
+          : items.map(x => `
           <div class="note-item ${x.warn ? "warn-item" : ""}">
             <div class="note-point">${x.warn ? "⚠ " : ""}${x.point}</div>
             <div class="note-value">${x.value}</div>
             ${x.note ? `<div class="muted" style="font-size:0.8rem">${x.note}</div>` : ""}
-          </div>`).join("") : ""}
+          </div>`).join("")) : ""}
       </div>`;
     }).join("")}`;
 }
