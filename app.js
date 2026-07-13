@@ -318,9 +318,11 @@ async function startDrill() {
   drillQ = drillQ.map(shuffleOptions);
   beginDrillRun();
 }
-// 選項洗牌：防止第二遍靠「記得答案位置」作答；含「以上皆…」類選項的題目保持原序
+// 選項洗牌：防止第二遍靠「記得答案位置」作答。
+// 不洗的兩種題：選項含「以上皆…」類；解析文字引用了選項代號（洗了代號會對不上）
 function shuffleOptions(q) {
   if (q.options.some(o => /以上|皆非|皆是|皆正確|上述/.test(o))) return q;
+  if (/(選項\s*[ABCD])|(^|[^A-Za-z])[ABCD]([^A-Za-z]|$)/.test(q.explain || "")) return q;
   const idx = [0, 1, 2, 3].sort(() => Math.random() - 0.5);
   return { ...q,
     options: idx.map(i => q.options[i]),
