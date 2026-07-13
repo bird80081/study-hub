@@ -315,7 +315,16 @@ async function startDrill() {
   drillQ = [];
   const maxLen = Math.max(...picked.map(a => a.length));
   for (let i = 0; i < maxLen; i++) for (const arr of picked) if (arr[i]) drillQ.push(arr[i]);
+  drillQ = drillQ.map(shuffleOptions);
   beginDrillRun();
+}
+// 選項洗牌：防止第二遍靠「記得答案位置」作答；含「以上皆…」類選項的題目保持原序
+function shuffleOptions(q) {
+  if (q.options.some(o => /以上|皆非|皆是|皆正確|上述/.test(o))) return q;
+  const idx = [0, 1, 2, 3].sort(() => Math.random() - 0.5);
+  return { ...q,
+    options: idx.map(i => q.options[i]),
+    answer: "ABCD"[idx.indexOf("ABCD".indexOf(q.answer))] };
 }
 async function startDrillWrong() {
   if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
