@@ -440,3 +440,9 @@ textarea:focus { outline: none; border-color: var(--accent); }
 .note-table td:first-child { font-weight: 700; white-space: nowrap; }
 .note-table td:nth-child(2) { min-width: 140px; }
 .note-table .warn-row td:first-child { color: var(--warn); }
+
+/* 條文區塊 */
+.law-block { margin-top: 8px; padding: 8px 10px; border-radius: 8px; background: var(--card2, rgba(120,90,60,0.06)); border-left: 3px solid var(--accent); }
+.law-title { font-size: 0.72rem; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
+.law-item { font-size: 0.8rem; line-height: 1.6; margin: 3px 0; }
+.law-art { display: inline-block; font-weight: 700; color: var(--accent); margin-right: 4px; }

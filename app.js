@@ -371,6 +371,12 @@ function beginDrillRun() {
   drillIdx = 0; drillPicked = null; drillRight = 0; drillWrongRound = [];
   showDrillQ();
 }
+function lawBlock(q) {
+  if (!q.law || !q.law.length) return "";
+  return `<div class="law-block"><div class="law-title">📖 條文</div>` +
+    q.law.map(l => `<div class="law-item"><span class="law-art">${l.art}</span>${l.text}</div>`).join("") +
+    `</div>`;
+}
 function showDrillQ() {
   if (drillIdx >= drillQ.length) return showDrillDone();
   const q = drillQ[drillIdx];
@@ -393,7 +399,7 @@ function showDrillQ() {
       }
       return `<button class="${cls}" ${answered ? "disabled" : ""} onclick="pickDrill('${label}')" style="${answered ? "opacity:1" : ""}">（${label}）${opt}</button>`;
     }).join("")}
-    ${answered ? `<div class="explain">${q.explain}</div>
+    ${answered ? `<div class="explain">${q.explain}</div>${lawBlock(q)}
     <div class="btn-row"><button onclick="nextDrill()">${drillIdx === drillQ.length - 1 ? "看本輪結果" : "下一題"}</button></div>` : ""}`;
 }
 function pickDrill(label) {
@@ -869,7 +875,7 @@ function resultRow(q, i) {
       else if (label === user) cls += " wrong";
       return `<div class="${cls}">（${label}）${opt}</div>`;
     }).join("")}
-    <div class="explain">${q.explain}</div>
+    <div class="explain">${q.explain}</div>${lawBlock(q)}
   </div>`;
 }
 function exportResult() {
