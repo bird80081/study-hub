@@ -389,7 +389,7 @@ function showDrillQ() {
       <span class="muted">✔ ${drillRight}</span>
     </div>
     ${answered ? `<div class="q-num">${q.point}</div>` : ""}
-    <div class="q-stem">${q.stem}</div>
+    <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.options.map((opt, i) => {
       const label = "ABCD"[i];
       let cls = "opt";
@@ -397,7 +397,7 @@ function showDrillQ() {
         if (label === q.answer) cls += " correct";
         else if (label === drillPicked) cls += " wrong";
       }
-      return `<button class="${cls}" ${answered ? "disabled" : ""} onclick="pickDrill('${label}')" style="${answered ? "opacity:1" : ""}">（${label}）${opt}</button>`;
+      return `<button class="${cls}" ${answered ? "disabled" : ""} onclick="pickDrill('${label}')" style="${answered ? "opacity:1" : ""}">（${label}）${answered ? linkifyEnglish(opt) : opt}</button>`;
     }).join("")}
     ${answered ? `<div class="explain">${q.explain}</div>${lawBlock(q)}
     <div class="btn-row"><button onclick="nextDrill()">${drillIdx === drillQ.length - 1 ? "看本輪結果" : "下一題"}</button></div>` : ""}`;
@@ -680,7 +680,7 @@ function showQuestion() {
     <div class="q-num">第 ${cur + 1} 題／${q.section}${q.essay ? `（${q.points} 分）` : ""}
       <button class="small flag-btn ${sess.flags[cur] ? "flagged" : ""}" onclick="toggleFlag()">🚩${sess.flags[cur] ? " 已標疑問" : " 有疑問"}</button>
     </div>
-    <div class="q-stem">${q.stem}</div>
+    <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.essay ? essayBox(q) : q.options.map((opt, i) => {
       const label = "ABCD"[i];
       return `<button class="opt ${sess.answers[cur] === label ? "picked" : ""}" onclick="pick('${label}')">（${label}）${opt}</button>`;
@@ -867,13 +867,13 @@ function resultRow(q, i) {
   return `<div class="result-q">
     <div class="q-num">第 ${i + 1} 題．${q.point || q.section}
       <span class="tag ${right ? "ok" : "bad"}">${right ? "答對" : user ? `答錯（你選 ${user}）` : "未作答"}</span>${(sess.flags||[])[i] ? ' <span class="tag pend">🚩 疑問</span>' : ''}</div>
-    <div class="q-stem">${q.stem}</div>
+    <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.options.map((opt, j) => {
       const label = "ABCD"[j];
       let cls = "opt";
       if (label === q.answer) cls += " correct";
       else if (label === user) cls += " wrong";
-      return `<div class="${cls}">（${label}）${opt}</div>`;
+      return `<div class="${cls}">（${label}）${linkifyEnglish(opt)}</div>`;
     }).join("")}
     <div class="explain">${q.explain}</div>${lawBlock(q)}
   </div>`;
@@ -1260,9 +1260,16 @@ async function showEssayView() {
 }
 
 /* ================= 查單字浮層 ================= */
-async function openLookup() {
+// 把英文單字包成可點的 span（手機用：點一下就帶入查詢，免長按選字）
+function linkifyEnglish(text) {
+  return (text || "").replace(/[A-Za-z][A-Za-z'-]{2,}/g,
+    m => `<span class="wlook" onclick="event.stopPropagation();lookupWord('${m.replace(/'/g, "\\'")}')">${m}</span>`);
+}
+function lookupWord(w) { openLookup(w); }
+
+async function openLookup(preset) {
   if (!vocab) { try { vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json(); } catch {} }
-  const sel = (window.getSelection ? String(window.getSelection()) : "").trim().slice(0, 30);
+  const sel = (preset || (window.getSelection ? String(window.getSelection()) : "")).trim().slice(0, 30);
   document.querySelectorAll(".lookup-overlay").forEach(x => x.remove());
   const div = document.createElement("div");
   div.className = "lookup-overlay";

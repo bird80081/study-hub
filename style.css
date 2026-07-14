@@ -446,3 +446,7 @@ textarea:focus { outline: none; border-color: var(--accent); }
 .law-title { font-size: 0.72rem; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
 .law-item { font-size: 0.8rem; line-height: 1.6; margin: 3px 0; }
 .law-art { display: inline-block; font-weight: 700; color: var(--accent); margin-right: 4px; }
+
+/* 可點查詢的英文單字（手機友善） */
+.wlook { border-bottom: 1px dotted var(--accent); cursor: pointer; padding: 0 1px; }
+.wlook:active { background: var(--accent); color: #fff; border-radius: 3px; }
