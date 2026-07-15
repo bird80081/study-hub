@@ -730,5 +730,71 @@
   "pos": "adj.",
   "zh": "不必要的、多餘的",
   "ex": "Please avoid unnecessary steps when processing the application."
+ },
+ {
+  "w": "deliberate",
+  "pos": "adj.",
+  "zh": "（常指壞事）有意的，故意的，蓄意的",
+  "ex": "The court ruled that the damage was deliberate, not accidental."
+ },
+ {
+  "w": "innocent",
+  "pos": "adj.",
+  "zh": "（人）無罪的；單純的；天真的",
+  "ex": "The suspect was found innocent after the investigation."
+ },
+ {
+  "w": "credible",
+  "pos": "adj.",
+  "zh": "可信的；可靠的",
+  "ex": "The witness gave a credible account of the accident."
+ },
+ {
+  "w": "reception",
+  "pos": "n.",
+  "zh": "招待會；接待處；接受",
+  "ex": "A reception was held to welcome the new manager."
+ },
+ {
+  "w": "recipe",
+  "pos": "n.",
+  "zh": "食譜；烹飪法",
+  "ex": "She followed her grandmother's recipe for the soup."
+ },
+ {
+  "w": "consider",
+  "pos": "v.",
+  "zh": "認真考慮，斟酌，細想",
+  "ex": "Please consider all the options before making a decision."
+ },
+ {
+  "w": "traumatic",
+  "pos": "adj.",
+  "zh": "（經歷）痛苦難忘的，造成精神創傷的",
+  "ex": "Losing his job was a traumatic experience for him."
+ },
+ {
+  "w": "residence",
+  "pos": "n.",
+  "zh": "住所；住房；宅第",
+  "ex": "Please provide proof of residence when applying for the account."
+ },
+ {
+  "w": "habitat",
+  "pos": "n.",
+  "zh": "（動植物的）生長地，棲息地",
+  "ex": "The wetland is a natural habitat for many rare birds."
+ },
+ {
+  "w": "relation",
+  "pos": "n.",
+  "zh": "關聯；關係；聯繫",
+  "ex": "The report examines the relation between price and demand."
+ },
+ {
+  "w": "insistence",
+  "pos": "n.",
+  "zh": "堅決要求；堅持主張；堅持",
+  "ex": "At her insistence, the meeting was moved to Friday."
  }
 ]
