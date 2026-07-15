@@ -982,6 +982,15 @@ function addCustomWord(w, zh, ex) {
     localStorage.setItem(LS_VOCAB_CUSTOM, JSON.stringify(list));
   }
 }
+function pruneCustomWords() {
+  const have = new Set((vocab || []).map(v => v.w.toLowerCase()));
+  const list = customVocab();
+  const kept = list.filter(v => !have.has(v.w.toLowerCase()));
+  if (kept.length !== list.length) {
+    localStorage.setItem(LS_VOCAB_CUSTOM, JSON.stringify(kept));
+    toast(`${list.length - kept.length} 個自訂單字已轉入正式辭典，自動清除本機記錄`);
+  }
+}
 function exportCustomWords() {
   const list = customVocab();
   const text = "【自訂單字匯出，請補完詞性與例句後併入 vocab.json】\n" + JSON.stringify(list, null, 1);
@@ -989,6 +998,7 @@ function exportCustomWords() {
 }
 async function showVocabTab() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
+  pruneCustomWords();
   if (!grammar) { try { grammar = await (await fetch("data/grammar.json", { cache: "no-store" })).json(); } catch { grammar = []; } }
   const st = vStages();
   const av = allVocab();
