@@ -268,7 +268,9 @@ async function showDrillTab() {
   if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
   const cfg = drillCfg();
   const todayN = drillDaily()[todayKey()] || 0;
-  const wrongN = drillWrongAll().length;
+  const wrongAll = drillWrongAll();
+  const wrongN = wrongAll.length;
+  const newN = wrongAll.filter(w => !w.exported).length;
   $app.innerHTML = `
     <h1>每日刷題</h1>
     <p class="muted">逐題即時對答．每輪從勾選的科目隨機抽題．今日已刷 ${todayN} 題</p>
@@ -296,11 +298,12 @@ async function showDrillTab() {
       </div>
     </div>
     ${wrongN ? `<div class="card">
-      <strong>錯題本</strong> <span class="muted">${wrongN} 題</span>
+      <strong>錯題本</strong> <span class="muted">${wrongN} 題${newN ? `．${newN} 題未匯出` : "．已全部匯出"}</span>
       <div class="btn-row">
         <button class="ghost" onclick="startDrillWrong()">只刷錯題</button>
-        <button class="ghost" onclick="exportDrillWrong()">匯出給 Claude</button>
+        <button class="${newN ? "" : "ghost"}" onclick="exportDrillWrong()">匯出新錯題${newN ? `（${newN}）` : ""}</button>
       </div>
+      ${wrongN > newN ? `<div class="muted" style="font-size:0.78rem;margin-top:6px">已匯出的仍留在錯題本供「只刷錯題」複習．<a href="#" onclick="event.preventDefault();exportDrillWrong(true)">重匯全部 ${wrongN} 題 ›</a></div>` : ""}
     </div>` : ""}`;
 }
 function setDrillPer(n) {
@@ -419,10 +422,14 @@ function pickDrill(label) {
     if (idx >= 0) { wrongs.splice(idx, 1); localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs)); }
   } else {
     drillWrongRound.push(q);
-    if (!wrongs.find(w => w.id === q.id)) {
-      wrongs.push({ id: q.id, subject: q.subject, point: q.point, stem: q.stem, user: label, answer: q.answer, date: todayKey() });
-      localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs.slice(-200)));
+    const ex = wrongs.find(w => w.id === q.id);
+    if (ex) {
+      ex.exported = false;   // 又錯 → 重新列入待匯出（觸發 Notion「又錯」提醒）
+      ex.user = label; ex.date = todayKey();
+    } else {
+      wrongs.push({ id: q.id, subject: q.subject, point: q.point, stem: q.stem, user: label, answer: q.answer, date: todayKey(), exported: false });
     }
+    localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs.slice(-200)));
   }
   saveDrillState();
   showDrillQ();
@@ -443,15 +450,34 @@ function showDrillDone() {
       </div>
     </div>`;
 }
-function exportDrillWrong() {
-  const out = { type: "刷題錯題", exported: todayKey(), wrong: drillWrongAll() };
+function exportDrillWrong(all) {
+  const wrongs = drillWrongAll();
+  const pick = all ? wrongs : wrongs.filter(w => !w.exported);
+  if (!pick.length) {
+    toast(all ? "錯題本是空的" : "沒有新錯題（都匯出過了）");
+    return;
+  }
+  const out = { type: "刷題錯題", exported: todayKey(),
+    wrong: pick.map(({ exported, ...w }) => w) };   // 匯出不帶內部 exported 旗標
   const text = "【刷題錯題匯出，請依複習流程處理】\n" + JSON.stringify(out, null, 1);
+  const done = () => {
+    pick.forEach(w => { w.exported = true; });       // 標記已匯出，下次不再出現
+    localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs));
+    showDrillTab();
+  };
   navigator.clipboard.writeText(text)
-    .then(() => toast("已複製，貼給 Claude 即可"))
+    .then(() => { toast(`已複製 ${pick.length} 題，貼給 Claude 即可`); done(); })
     .catch(() => {
       $app.insertAdjacentHTML("beforeend",
-        `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(text)}</textarea></div>`);
+        `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(text)}</textarea>
+         <button class="small" onclick="markExported()">複製好了，標記已匯出</button></div>`);
     });
+}
+function markExported() {
+  const wrongs = drillWrongAll();
+  wrongs.forEach(w => { if (!w.exported) w.exported = true; });
+  localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs));
+  toast("已標記"); showDrillTab();
 }
 
 /* ================= 試卷（模考引擎） ================= */
