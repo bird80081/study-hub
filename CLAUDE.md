@@ -1,0 +1,32 @@
+# study-hub — 郵政升等考讀書 PWA
+
+純靜態 PWA（無建置步驟），手機透過 GitHub Pages 使用。所有作答資料存在裝置 localStorage，靠 app 內的「匯出」按鈕（複製 JSON 到剪貼簿）貼給 Claude 回流到 repo。
+
+## 收到匯出內容時的處理規則
+
+使用者會貼上以【…匯出】開頭的 JSON，依開頭字樣處理：
+
+### 【讀書紀錄匯出，請併入 data/records.json】
+
+1. 讀取 `data/records.json`（以日期為 key 的物件）。
+2. 以匯出內容的 `date` 為 key 寫入整包資料（去掉外層 `type` 欄位）。
+3. 同日期已有資料時直接覆蓋——匯出是當日累計快照，晚匯出的一定比較完整。
+4. 完成後 commit，訊息格式：`records: 併入 YYYY-MM-DD 讀書紀錄`。
+
+欄位說明：`plan`＝今日進度勾選狀況；`drill.count`＝今日刷題數；`drill.wrong`＝今日新錯題；`exams`＝今日模考成績；`vocabStages`＝單字熟練度分佈快照（0~3 級的字數，僅含已接觸過的字）。
+
+### 【自訂單字匯出，請補完詞性與例句後併入 vocab.json】
+
+1. 為每個字補上 `pos`（詞性縮寫如 `n.` `v.` `adj.`）與 `ex`（郵政／考試情境的英文例句尤佳）。
+2. 併入 `data/vocab.json`：`w` 已存在者跳過，不重複加入；保留 `custom: true` 欄位。
+3. commit 訊息格式：`vocab: 新增自訂單字 <字1>、<字2>`。
+
+### 【刷題錯題匯出，請依複習流程處理】
+
+錯題回收主要在 Mac 端搭配 Notion 處理。若在雲端 session 收到，將錯題整理成隔日回收題項目，寫入 `data/progress.json` 對應日期的 `items`（每題一行、附考點），並告知使用者已排入。
+
+## 通用規範
+
+- 回應一律使用繁體中文。
+- JSON 檔以 `indent=1`、UTF-8（不轉義中文）寫入，維持既有格式。
+- 修改後 commit；在雲端 session 中同時 push（手機 PWA 靠 GitHub Pages 重新部署後才看得到更新）。

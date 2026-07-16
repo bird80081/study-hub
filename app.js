@@ -200,6 +200,7 @@ async function showHomeTab() {
           <button class="small" onclick="addPlanItem()" style="flex:0 0 auto">新增</button>
         </div>` : ""}
       ${!planEditing && doneCount === plan.length ? `<div class="notice warm-notice" style="margin:10px 0 0">今日達標，好好休息 🌿 你真的很棒</div>` : ""}
+      ${!planEditing ? `<div class="btn-row" style="margin-top:10px"><button class="small ghost" onclick="exportDayRecord()">📤 匯出今日讀書紀錄</button></div>` : ""}
     </div>
     <h2>近期日程</h2>
     <div class="card">
@@ -208,6 +209,42 @@ async function showHomeTab() {
         return `<div class="sched-row"><span>${x.date.slice(5).replace("-", "/")}　${x.label}</span><span class="muted">${dd === 0 ? "今天" : dd + " 天後"}</span></div>`;
       }).join("")}
     </div>`;
+}
+
+// 匯出今日讀書紀錄：打包當天所有活動（進度勾選、刷題、模考、單字熟練度）
+// 貼給 Claude（Mac 或手機雲端 session 皆可）併入 data/records.json
+async function exportDayRecord() {
+  const day = todayKey();
+  let sp = {};
+  try {
+    const r = await fetch("data/progress.json", { cache: "no-store" });
+    if (r.ok) sp = await r.json();
+  } catch {}
+  const se = sp[day];
+  const dailyItems = Array.isArray(sp.daily) ? sp.daily : [];
+  let dateItems = [], serverDone = [];
+  if (Array.isArray(se)) serverDone = se;
+  else if (se && typeof se === "object") { dateItems = se.items || []; serverDone = se.done || []; }
+  const custom = getPlan().filter(x => !DEFAULT_PLAN.includes(x));
+  const serverItems = dailyItems.concat(dateItems);
+  const plan = serverItems.length ? serverItems.concat(custom) : getPlan();
+  const nDaily = dailyItems.length;
+  const local = dailyState()[day] || [];
+  const planOut = plan.map((t, i) => ({ t, done: !!(local[i] || (i >= nDaily && serverDone[i - nDaily])) }));
+  const wrongToday = drillWrongAll().filter(w => w.date === day).map(({ exported, ...w }) => w);
+  const attempts = loadAttempts().filter(a => a.date === day)
+    .map(a => ({ title: a.title, subject: a.subject, mcScore: a.mcScore, mcMax: a.mcMax, mcRight: a.mcRight, mcTotal: a.mcTotal }));
+  const dist = { 0: 0, 1: 0, 2: 0, 3: 0 };
+  Object.values(vStages()).forEach(s => { if (dist[s] !== undefined) dist[s]++; });
+  const out = { type: "讀書紀錄", date: day,
+    plan: planOut,
+    drill: { count: drillDaily()[day] || 0, wrong: wrongToday },
+    exams: attempts,
+    vocabStages: dist };
+  const text = "【讀書紀錄匯出，請併入 data/records.json】\n" + JSON.stringify(out, null, 1);
+  navigator.clipboard.writeText(text)
+    .then(() => toast("已複製，貼給 Claude 寫入讀書紀錄"))
+    .catch(() => {});
 }
 
 /* ================= 成績趨勢折線圖 ================= */
