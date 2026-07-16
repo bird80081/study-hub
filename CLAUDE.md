@@ -2,6 +2,8 @@
 
 純靜態 PWA（無建置步驟），手機透過 GitHub Pages 使用。所有作答資料存在裝置 localStorage，靠 app 內的「匯出」按鈕（複製 JSON 到剪貼簿）貼給 Claude 回流到 repo。
 
+**規則分工**：本檔服務「手機雲端 session」——只做匯出內容的合併、commit、push。完整讀書流程（Notion 錯題回收、單字音檔生成、作文素材落地）在使用者 Mac 本機的考試 rules 裡，雲端做不了的（如音檔）在回覆結尾提醒使用者回 Mac 補即可。
+
 ## 收到匯出內容時的處理規則
 
 使用者會貼上以【…匯出】開頭的 JSON，依開頭字樣處理：
@@ -17,8 +19,8 @@
 
 ### 【自訂單字匯出，請補完詞性與例句後併入 vocab.json】
 
-1. 為每個字補上 `pos`（詞性縮寫如 `n.` `v.` `adj.`）與 `ex`（郵政／考試情境的英文例句尤佳）。
-2. 併入 `data/vocab.json`：`w` 已存在者跳過，不重複加入；保留 `custom: true` 欄位。
+1. **Mac 端（有本機環境）**：逐字跑 `scripts/add_word.py <word> --pos … --zh … --ex …`——會一併生成發音音檔，不要手動編輯 vocab.json。
+2. **雲端 session（無法跑 macOS `say`）**：為每個字補上 `pos`（詞性縮寫如 `n.` `v.` `adj.`）與 `ex`（郵政／考試情境的英文例句尤佳），併入 `data/vocab.json`（`w` 已存在者跳過；保留 `custom: true`），並在回覆結尾提醒：「回 Mac 後補跑音檔生成」。
 3. commit 訊息格式：`vocab: 新增自訂單字 <字1>、<字2>`。
 
 ### 【作文短段匯出，請批改】

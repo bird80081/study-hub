@@ -73,10 +73,11 @@ function getPlan() {
 }
 function savePlan(p) { localStorage.setItem(LS_PLAN, JSON.stringify(p)); }
 
-function todayKey() {  // 本地日期（舊版用 UTC，台灣早上 8 點前會誤判成昨天）
-  const d = new Date();
+function dayKeyOf(ts) {  // 本地日期（舊版用 UTC，台灣早上 8 點前會誤判成昨天）
+  const d = new Date(ts);
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
+function todayKey() { return dayKeyOf(Date.now()); }
 function daysLeft() {
   const ms = new Date(EXAM_DATE + "T00:00:00") - new Date(todayKey() + "T00:00:00");
   return Math.round(ms / 86400000);
@@ -937,7 +938,8 @@ function recordAttempt() {
   const wrongs = exam.questions.map((q, i) => (!q.essay && sess.answers[i] !== q.answer)
     ? { n: i + 1, point: q.point || q.section, user: sess.answers[i] || "未答", answer: q.answer } : null).filter(Boolean);
   const list = loadAttempts();
-  list.push({ id: exam.id, title: exam.title, subject: exam.subject, date: todayKey(),
+  // date 記作答開始日而非批改日：隔日才批改的卷不該算成批改當天的讀書量
+  list.push({ id: exam.id, title: exam.title, subject: exam.subject, date: dayKeyOf(sess.started || Date.now()),
               mcScore: sess.mcScore, mcMax: sess.mcMax, mcRight: sess.mcRight, mcTotal: sess.mcTotal, wrongs });
   localStorage.setItem(LS_ATTEMPTS, JSON.stringify(list));
 }
