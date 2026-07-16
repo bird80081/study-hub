@@ -213,7 +213,21 @@ async function showHomeTab() {
 
 // 匯出今日讀書紀錄：打包當天所有活動（進度勾選、刷題、模考、單字熟練度）
 // 貼給 Claude（Mac 或手機雲端 session 皆可）併入 data/records.json
-async function exportDayRecord() {
+function exportDayRecord() {
+  const textP = buildDayRecordText();
+  // iOS Safari 要求剪貼簿寫入緊貼使用者手勢；先 fetch 再 writeText 會被拒。
+  // 用 ClipboardItem 包 Promise 可在手勢當下先「預約」寫入，等資料好了才填內容。
+  const ok = () => toast("已複製，貼給 Claude 寫入讀書紀錄");
+  const fail = () => textP.then(t => $app.insertAdjacentHTML("beforeend",
+    `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(t)}</textarea></div>`));
+  if (navigator.clipboard && window.ClipboardItem) {
+    const item = new ClipboardItem({ "text/plain": textP.then(t => new Blob([t], { type: "text/plain" })) });
+    navigator.clipboard.write([item]).then(ok).catch(fail);
+  } else {
+    textP.then(t => navigator.clipboard.writeText(t).then(ok).catch(fail));
+  }
+}
+async function buildDayRecordText() {
   const day = todayKey();
   let sp = {};
   try {
@@ -241,10 +255,7 @@ async function exportDayRecord() {
     drill: { count: drillDaily()[day] || 0, wrong: wrongToday },
     exams: attempts,
     vocabStages: dist };
-  const text = "【讀書紀錄匯出，請併入 data/records.json】\n" + JSON.stringify(out, null, 1);
-  navigator.clipboard.writeText(text)
-    .then(() => toast("已複製，貼給 Claude 寫入讀書紀錄"))
-    .catch(() => {});
+  return "【讀書紀錄匯出，請併入 data/records.json】\n" + JSON.stringify(out, null, 1);
 }
 
 /* ================= 成績趨勢折線圖 ================= */
