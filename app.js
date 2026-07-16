@@ -179,6 +179,16 @@ async function showHomeTab() {
     <div class="card">
       <div class="btn-row" style="margin-top:0">${quick}</div>
     </div>
+    ${(() => {
+      const d = essayDraft();
+      return `<div class="card">
+        <strong>✍️ 作文短段</strong> <span class="muted">${d.text ? `草稿 ${d.text.length} 字` : "通勤空檔寫一段，回家不用扛"}</span>
+        <div class="btn-row">
+          <button class="ghost" onclick="showEssayPad()">${d.text ? "繼續寫" : "開始寫"}</button>
+          ${d.text ? `<button onclick="exportEssayDraft()">匯出批改</button>` : ""}
+        </div>
+      </div>`;
+    })()}
     <div class="h2-row">
       <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span></h2>
       <span><button class="small ghost" onclick="showHomeTab()" title="重新抓最新進度">⟳ ${new Date().toTimeString().slice(0,5)}</button> ${planEditing ? `<button class="small ghost" onclick="cancelPlanEdit()">↩ 返回</button> ` : ""}<button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></span>
@@ -240,6 +250,48 @@ async function buildDayRecordText() {
     exams: attempts,
     vocabStages: dist };
   return "【讀書紀錄匯出，請併入 data/records.json】\n" + JSON.stringify(out, null, 1);
+}
+
+/* ================= 作文短段（通勤快寫） ================= */
+const LS_ESSAY_DRAFT = "hub.essay.draft.v1";
+function essayDraft() { try { return JSON.parse(localStorage.getItem(LS_ESSAY_DRAFT)) || {}; } catch { return {}; } }
+function saveEssayDraft() {
+  const title = document.getElementById("essay-title")?.value ?? "";
+  const text = document.getElementById("essay-text")?.value ?? "";
+  localStorage.setItem(LS_ESSAY_DRAFT, JSON.stringify({ title, text, updated: Date.now() }));
+  const c = document.getElementById("essay-count");
+  if (c) c.textContent = `${text.length} 字`;
+}
+function showEssayPad() {
+  const d = essayDraft();
+  $app.innerHTML = `
+    <h1>作文短段</h1>
+    <p class="muted">邊寫邊自動存草稿，寫完「匯出批改」貼給 Claude</p>
+    <div class="card">
+      <input id="essay-title" class="plan-input" placeholder="題目，例如：為什麼紀律能建立公共信任" value="${escapeHtml(d.title || "")}" oninput="saveEssayDraft()" style="width:100%">
+      <textarea id="essay-text" rows="10" placeholder="開始寫…" oninput="saveEssayDraft()" style="width:100%;margin-top:8px">${escapeHtml(d.text || "")}</textarea>
+      <div class="muted" style="text-align:right;font-size:0.8rem"><span id="essay-count">${(d.text || "").length} 字</span></div>
+      <div class="btn-row">
+        <button onclick="exportEssayDraft()">匯出批改</button>
+        <button class="ghost" onclick="clearEssayDraft()">清除草稿</button>
+        <button class="ghost" onclick="showHomeTab()">返回首頁</button>
+      </div>
+    </div>`;
+}
+function exportEssayDraft() {
+  const d = essayDraft();
+  if (!d.text) { toast("還沒有內容"); return; }
+  const text = `【作文短段匯出，請批改】\n日期：${todayKey()}\n題目：${d.title || "（未填）"}\n字數：${d.text.length}\n---\n${d.text}`;
+  navigator.clipboard.writeText(text)
+    .then(() => toast("已複製，貼給 Claude 批改"))
+    .catch(() => $app.insertAdjacentHTML("beforeend",
+      `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(text)}</textarea></div>`));
+}
+function clearEssayDraft() {
+  if (!confirm("確定清除草稿？")) return;
+  localStorage.removeItem(LS_ESSAY_DRAFT);
+  showEssayPad();
+  toast("已清除");
 }
 
 /* ================= 成績趨勢折線圖 ================= */
