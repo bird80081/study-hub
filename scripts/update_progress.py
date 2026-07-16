@@ -42,6 +42,8 @@ def main():
         x = re.sub(r"^[-*\d.、\s]+", "", ln).strip().strip("`")
         if not x or re.fullmatch(r"[^：:]{1,6}[：:]", x):   # 跳過「民法：」類分類行
             continue
+        if x.startswith("（") and x.endswith("）"):        # 跳過純備註行，不是待辦
+            continue
         items.append(x)
     if not items:
         sys.exit("明日建議段落是空的，沒東西可同步")
