@@ -243,7 +243,7 @@ function drillState() { try { return JSON.parse(localStorage.getItem(LS_DRILL_ST
 function saveDrillState() {
   if (!drillQ.length || drillIdx >= drillQ.length) return clearDrillState();
   localStorage.setItem(LS_DRILL_STATE, JSON.stringify({
-    q: drillQ, idx: drillIdx, picked: drillPicked, right: drillRight,
+    q: drillQ, idx: drillIdx, picked: drillPicked, right: drillRight, hist: drillHist,
     wrongRound: drillWrongRound.map(w => w.id), savedAt: Date.now() }));
 }
 function clearDrillState() { localStorage.removeItem(LS_DRILL_STATE); }
@@ -251,10 +251,11 @@ function resumeDrill() {
   const st = drillState();
   if (!st) return showDrillTab();
   drillQ = st.q; drillIdx = st.idx; drillPicked = st.picked; drillRight = st.right;
+  drillHist = st.hist || [];
   drillWrongRound = drillQ.filter(q => (st.wrongRound || []).includes(q.id));
   showDrillQ();
 }
-let poolIndex = null, poolCache = {}, drillQ = [], drillIdx = 0, drillPicked = null, drillRight = 0, drillWrongRound = [];
+let poolIndex = null, poolCache = {}, drillQ = [], drillIdx = 0, drillPicked = null, drillRight = 0, drillWrongRound = [], drillHist = [];
 
 function drillSeen() { try { return JSON.parse(localStorage.getItem(LS_DRILL_SEEN)) || {}; } catch { return {}; } }
 function drillCfg() {
@@ -371,7 +372,7 @@ async function startDrillWrong() {
 }
 function beginDrillRun() {
   clearDrillState();
-  drillIdx = 0; drillPicked = null; drillRight = 0; drillWrongRound = [];
+  drillIdx = 0; drillPicked = null; drillRight = 0; drillWrongRound = []; drillHist = [];
   showDrillQ();
 }
 function lawBlock(q) {
@@ -387,6 +388,7 @@ function showDrillQ() {
   $app.innerHTML = `
     <div class="exam-top">
       <button class="small ghost" onclick="pauseDrill()">暫停</button>
+      ${drillIdx > 0 ? `<button class="small ghost" onclick="prevDrill()">← 上一題</button>` : ""}
       <span class="muted">${drillIdx + 1}/${drillQ.length}．${q.subject}</span>
       <button class="small ghost" onclick="openLookup()">🔍</button>
       <span class="muted">✔ ${drillRight}</span>
@@ -409,6 +411,7 @@ function pickDrill(label) {
   if (drillPicked !== null) return;
   const q = drillQ[drillIdx];
   drillPicked = label;
+  drillHist[drillIdx] = label;
   const seen = drillSeen();
   seen[q.id] = (seen[q.id] || 0) + 1;
   localStorage.setItem(LS_DRILL_SEEN, JSON.stringify(seen));
@@ -434,7 +437,8 @@ function pickDrill(label) {
   saveDrillState();
   showDrillQ();
 }
-function nextDrill() { drillIdx++; drillPicked = null; saveDrillState(); showDrillQ(); }
+function nextDrill() { drillIdx++; drillPicked = drillHist[drillIdx] ?? null; saveDrillState(); showDrillQ(); }
+function prevDrill() { if (drillIdx > 0) { drillIdx--; drillPicked = drillHist[drillIdx] ?? null; showDrillQ(); } }
 function pauseDrill() { saveDrillState(); showDrillTab(); }
 function showDrillDone() {
   clearDrillState();
