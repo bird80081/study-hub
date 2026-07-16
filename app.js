@@ -468,7 +468,8 @@ function pickDrill(label) {
     const ex = wrongs.find(w => w.id === q.id);
     if (ex) {
       ex.exported = false;   // 又錯 → 重新列入待匯出（觸發 Notion「又錯」提醒）
-      ex.user = label; ex.date = todayKey();
+      // user 與 answer 必須同輪更新：選項每輪重新洗牌，字母空間不同，只更新一邊會對不上
+      ex.user = label; ex.answer = q.answer; ex.date = todayKey();
     } else {
       wrongs.push({ id: q.id, subject: q.subject, point: q.point, stem: q.stem, user: label, answer: q.answer, date: todayKey(), exported: false });
     }
