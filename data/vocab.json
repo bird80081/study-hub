@@ -802,5 +802,12 @@
   "pos": "adj.",
   "zh": "最近的；最新的；近來的",
   "ex": "The most recent update fixed several problems with the app."
+ },
+ {
+  "w": "refuse",
+  "pos": "v.",
+  "zh": "拒絕;回絕;拒絕接受",
+  "ex": "The recipient may refuse to accept a damaged parcel.",
+  "custom": true
  }
 ]
