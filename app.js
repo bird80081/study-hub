@@ -300,8 +300,13 @@ async function showDrillTab() {
     </div>
     ${wrongN ? `<div class="card">
       <strong>錯題本</strong> <span class="muted">${wrongN} 題${newN ? `．${newN} 題未匯出` : "．已全部匯出"}</span>
+      <div class="muted" style="font-size:0.8rem;margin-top:2px">${(() => {
+        const bySubj = {};
+        wrongAll.forEach(w => { bySubj[w.subject] = (bySubj[w.subject] || 0) + 1; });
+        return Object.entries(bySubj).map(([s, n]) => `${s} ${n}`).join("．");
+      })()}</div>
       <div class="btn-row">
-        <button class="ghost" onclick="startDrillWrong()">只刷錯題</button>
+        <button class="ghost" onclick="startDrillWrong()">只刷錯題（依勾選科目）</button>
         <button class="${newN ? "" : "ghost"}" onclick="exportDrillWrong()">匯出新錯題${newN ? `（${newN}）` : ""}</button>
       </div>
       ${wrongN > newN ? `<div class="muted" style="font-size:0.78rem;margin-top:6px">已匯出的仍留在錯題本供「只刷錯題」複習．<a href="#" onclick="event.preventDefault();exportDrillWrong(true)">重匯全部 ${wrongN} 題 ›</a></div>` : ""}
@@ -360,13 +365,16 @@ function shuffleOptions(q) {
 }
 async function startDrillWrong() {
   if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
+  const cfg = readDrillForm();
+  if (!cfg.subjects.length) { toast("至少勾一科"); return; }
+  localStorage.setItem(LS_DRILL_CFG, JSON.stringify(cfg));
   const ids = new Set(drillWrongAll().map(w => w.id));
   drillQ = [];
-  for (const p of poolIndex) {
+  for (const p of poolIndex.filter(p => cfg.subjects.includes(p.subject))) {
     const pool = await loadPool(p.subject);
     pool.questions.forEach(q => { if (ids.has(q.id)) drillQ.push(q); });
   }
-  if (!drillQ.length) { toast("錯題本是空的"); return; }
+  if (!drillQ.length) { toast(ids.size ? "勾選的科目沒有錯題" : "錯題本是空的"); return; }
   drillQ.sort(() => Math.random() - 0.5);
   beginDrillRun();
 }
