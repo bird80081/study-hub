@@ -211,8 +211,9 @@ async function showHomeTab() {
     </div>`;
 }
 
-// 匯出今日讀書紀錄：打包當天所有活動（進度勾選、刷題、模考、單字熟練度）
+// 匯出今日讀書紀錄：打包當天活動（刷題、模考、單字熟練度）
 // 貼給 Claude（Mac 或手機雲端 session 皆可）併入 data/records.json
+// 今日進度待辦不匯出——那本來就是 Mac 端排進 progress.json 的，回流多餘
 function exportDayRecord() {
   const textP = buildDayRecordText();
   // iOS Safari 要求剪貼簿寫入緊貼使用者手勢；先 fetch 再 writeText 會被拒。
@@ -229,29 +230,12 @@ function exportDayRecord() {
 }
 async function buildDayRecordText() {
   const day = todayKey();
-  let sp = {};
-  try {
-    const r = await fetch("data/progress.json", { cache: "no-store" });
-    if (r.ok) sp = await r.json();
-  } catch {}
-  const se = sp[day];
-  const dailyItems = Array.isArray(sp.daily) ? sp.daily : [];
-  let dateItems = [], serverDone = [];
-  if (Array.isArray(se)) serverDone = se;
-  else if (se && typeof se === "object") { dateItems = se.items || []; serverDone = se.done || []; }
-  const custom = getPlan().filter(x => !DEFAULT_PLAN.includes(x));
-  const serverItems = dailyItems.concat(dateItems);
-  const plan = serverItems.length ? serverItems.concat(custom) : getPlan();
-  const nDaily = dailyItems.length;
-  const local = dailyState()[day] || [];
-  const planOut = plan.map((t, i) => ({ t, done: !!(local[i] || (i >= nDaily && serverDone[i - nDaily])) }));
   const wrongToday = drillWrongAll().filter(w => w.date === day).map(({ exported, ...w }) => w);
   const attempts = loadAttempts().filter(a => a.date === day)
     .map(a => ({ title: a.title, subject: a.subject, mcScore: a.mcScore, mcMax: a.mcMax, mcRight: a.mcRight, mcTotal: a.mcTotal }));
   const dist = { 0: 0, 1: 0, 2: 0, 3: 0 };
   Object.values(vStages()).forEach(s => { if (dist[s] !== undefined) dist[s]++; });
   const out = { type: "讀書紀錄", date: day,
-    plan: planOut,
     drill: { count: drillDaily()[day] || 0, wrong: wrongToday },
     exams: attempts,
     vocabStages: dist };

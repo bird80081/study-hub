@@ -13,7 +13,7 @@
 3. 同日期已有資料時直接覆蓋——匯出是當日累計快照，晚匯出的一定比較完整。
 4. 完成後 commit，訊息格式：`records: 併入 YYYY-MM-DD 讀書紀錄`。
 
-欄位說明：`plan`＝今日進度勾選狀況；`drill.count`＝今日刷題數；`drill.wrong`＝今日新錯題；`exams`＝今日模考成績；`vocabStages`＝單字熟練度分佈快照（0~3 級的字數，僅含已接觸過的字）。
+欄位說明：`drill.count`＝今日刷題數；`drill.wrong`＝今日新錯題；`exams`＝今日模考成績；`vocabStages`＝單字熟練度分佈快照（0~3 級的字數，僅含已接觸過的字）。
 
 ### 【自訂單字匯出，請補完詞性與例句後併入 vocab.json】
 
