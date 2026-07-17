@@ -546,6 +546,201 @@
    ],
    "answer": "B",
    "explain": "get on (well) 相處融洽（＝get along）。run over 輾過、turn up 出現、come up 被提出。（112 歷屆）"
+  },
+  {
+   "id": "en043",
+   "point": "文法：不可數名詞 much",
+   "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
+   "options": [
+    "much",
+    "many",
+    "a few",
+    "several"
+   ],
+   "answer": "A",
+   "explain": "advice 為不可數名詞，量的修飾用 much；many、a few、several 只能修飾可數複數名詞。information、furniture 同屬此類——曾錯考點。"
+  },
+  {
+   "id": "en044",
+   "point": "字彙：allocate",
+   "stem": "The company will _____ more budget to improving parcel delivery services next year.",
+   "options": [
+    "allocate",
+    "decorate",
+    "hesitate",
+    "celebrate"
+   ],
+   "answer": "A",
+   "explain": "allocate 分配（allocate＋資源＋to＋用途，把資源分配給某用途）。decorate 裝飾、hesitate 猶豫、celebrate 慶祝，語意均不合。"
+  },
+  {
+   "id": "en045",
+   "point": "字彙：launch",
+   "stem": "The post office will _____ a new mobile payment service next month.",
+   "options": [
+    "launch",
+    "punish",
+    "rescue",
+    "borrow"
+   ],
+   "answer": "A",
+   "explain": "launch 推出、發起（新產品或服務），為郵政情境常用字。punish 處罰、rescue 救援、borrow 借入。"
+  },
+  {
+   "id": "en046",
+   "point": "字彙：proof",
+   "stem": "Please keep the receipt as _____ of payment in case you need a refund.",
+   "options": [
+    "proof",
+    "pride",
+    "praise",
+    "price"
+   ],
+   "answer": "A",
+   "explain": "proof of payment 付款證明，固定搭配。pride 驕傲、praise 讚美、price 價格。"
+  },
+  {
+   "id": "en047",
+   "point": "文法：despite＋名詞",
+   "stem": "_____ the heavy rain, the mail carrier delivered all the parcels on time.",
+   "options": [
+    "Despite",
+    "Although",
+    "Because",
+    "Unless"
+   ],
+   "answer": "A",
+   "explain": "空格後接名詞片語 the heavy rain，須用介系詞 despite；although、because、unless 為連接詞，後面須接完整子句。despite／in spite of＋名詞，although＋子句——曾錯考點。"
+  },
+  {
+   "id": "en048",
+   "point": "字彙：postpone",
+   "stem": "The meeting was _____ until next Friday because the manager was on sick leave.",
+   "options": [
+    "postponed",
+    "purchased",
+    "polished",
+    "persuaded"
+   ],
+   "answer": "A",
+   "explain": "postpone 延期（postpone…until… 延到某時），語意唯一合理。purchase 購買、polish 擦亮、persuade 說服。"
+  },
+  {
+   "id": "en049",
+   "point": "文法：關係副詞 where",
+   "stem": "This is the counter _____ you can pick up registered letters.",
+   "options": [
+    "where",
+    "which",
+    "who",
+    "what"
+   ],
+   "answer": "A",
+   "explain": "先行詞 the counter 為地點，且後方子句 you can pick up registered letters 結構完整（不缺主詞受詞），用關係副詞 where。which 須在子句中充當主詞或受詞，此處不成立。"
+  },
+  {
+   "id": "en050",
+   "point": "字彙：destination",
+   "stem": "Please make sure the parcel's _____ address is written clearly.",
+   "options": [
+    "destination",
+    "decoration",
+    "definition",
+    "donation"
+   ],
+   "answer": "A",
+   "explain": "destination 目的地（destination address 收件地址），郵務常用字。decoration 裝飾、definition 定義、donation 捐贈。"
+  },
+  {
+   "id": "en051",
+   "point": "文法：現在完成式 for",
+   "stem": "Ms. Lin has worked at the post office _____ more than ten years.",
+   "options": [
+    "for",
+    "since",
+    "during",
+    "from"
+   ],
+   "answer": "A",
+   "explain": "現在完成式搭配「一段時間」用 for（for more than ten years）；since 後接「起始時間點」（since 2015）。during 後接特定名詞時段、from 需與 to 搭配。"
+  },
+  {
+   "id": "en052",
+   "point": "字彙：premium",
+   "stem": "You must pay the insurance _____ every month to keep the policy effective.",
+   "options": [
+    "premium",
+    "pension",
+    "penalty",
+    "passenger"
+   ],
+   "answer": "A",
+   "explain": "premium 保險費，與 policy（保單）同為簡易壽險情境高頻字。pension 退休金、penalty 罰款、passenger 乘客。"
+  },
+  {
+   "id": "en053",
+   "point": "文法：the＋比較級",
+   "stem": "The sooner you mail the package, _____ it will arrive.",
+   "options": [
+    "the sooner",
+    "the soonest",
+    "sooner",
+    "soonest"
+   ],
+   "answer": "A",
+   "explain": "「the＋比較級…, the＋比較級…」表「越…就越…」，前後兩半都要有 the 與比較級，故空格用 the sooner。最高級 soonest 不用於此句型。"
+  },
+  {
+   "id": "en054",
+   "point": "字彙：inquiry",
+   "stem": "For further _____ about postal rates, please call our service hotline.",
+   "options": [
+    "inquiry",
+    "injury",
+    "industry",
+    "identity"
+   ],
+   "answer": "A",
+   "explain": "inquiry 詢問（for further inquiry 如需進一步詢問），客服情境常用。injury 受傷、industry 產業、identity 身分。"
+  },
+  {
+   "id": "en055",
+   "point": "文法：suggest＋動名詞",
+   "stem": "The clerk suggested _____ the fragile items with bubble wrap before shipping.",
+   "options": [
+    "wrapping",
+    "wrap",
+    "to wrap",
+    "wrapped"
+   ],
+   "answer": "A",
+   "explain": "suggest 後接動名詞 V-ing（suggest doing），不接不定詞。同類動詞：mind、enjoy、finish、avoid、consider——與 mind＋V-ing 為同一組考點。"
+  },
+  {
+   "id": "en056",
+   "point": "字彙：valid",
+   "stem": "This coupon is _____ until the end of December.",
+   "options": [
+    "valid",
+    "vacant",
+    "violent",
+    "visual"
+   ],
+   "answer": "A",
+   "explain": "valid 有效的（be valid until… 有效期限至…），與 expire（到期）互為正反面考點。vacant 空的、violent 暴力的、visual 視覺的。"
+  },
+  {
+   "id": "en057",
+   "point": "文法：neither…nor 動詞一致",
+   "stem": "Neither the manager nor the clerks _____ aware of the schedule change.",
+   "options": [
+    "were",
+    "was",
+    "is",
+    "has been"
+   ],
+   "answer": "A",
+   "explain": "neither…nor 連接兩個主詞時，動詞與「最接近」的主詞一致；最近主詞為複數 the clerks，且語境為過去，故用 were。"
   }
  ]
 }
