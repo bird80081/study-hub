@@ -741,6 +741,136 @@
    ],
    "answer": "A",
    "explain": "neither…nor 連接兩個主詞時，動詞與「最接近」的主詞一致；最近主詞為複數 the clerks，且語境為過去，故用 were。"
+  },
+  {
+   "id": "en058",
+   "point": "字彙：farewell",
+   "stem": "The staff held a _____ party for the retiring postmaster who had served for thirty years.",
+   "options": [
+    "farewell",
+    "wedding",
+    "birthday",
+    "costume"
+   ],
+   "answer": "A",
+   "explain": "farewell 歡送、告別（farewell party 歡送會），與 retiring（即將退休）呼應。wedding 婚禮、birthday 生日、costume 化裝（舞會），語意不合。"
+  },
+  {
+   "id": "en059",
+   "point": "字彙：plunge",
+   "stem": "Housing prices _____ sharply after the new tax policy was announced.",
+   "options": [
+    "plunged",
+    "soared",
+    "ascended",
+    "surged"
+   ],
+   "answer": "A",
+   "explain": "plunge 暴跌，與 sharply 搭配表急遽下滑；soar、ascend、surge 都是「上升、飆漲」，方向相反——原典型考法即以三個同義上升詞作誘答。"
+  },
+  {
+   "id": "en060",
+   "point": "字彙：glance",
+   "stem": "I only took a quick _____ at the notice board, so I missed the details of the schedule change.",
+   "options": [
+    "glance",
+    "term",
+    "stroll",
+    "circuit"
+   ],
+   "answer": "A",
+   "explain": "glance 一瞥（take a glance at 匆匆看一眼），與 quick 及後句 missed the details 呼應。term 期間／術語、stroll 漫步、circuit 環道。"
+  },
+  {
+   "id": "en061",
+   "point": "字彙：retail",
+   "stem": "Mobile payments are now widely accepted in _____ stores across the country.",
+   "options": [
+    "retail",
+    "curtail",
+    "detail",
+    "entail"
+   ],
+   "answer": "A",
+   "explain": "retail 零售（retail store 零售商店）。curtail 縮減、detail 細節、entail 使必需——三者皆與 -tail 結尾形近，屬形似字誘答。"
+  },
+  {
+   "id": "en062",
+   "point": "字彙：confirm",
+   "stem": "Please _____ your appointment two days in advance, or it will be cancelled automatically.",
+   "options": [
+    "confirm",
+    "conform",
+    "reform",
+    "inform"
+   ],
+   "answer": "A",
+   "explain": "confirm 確認（confirm an appointment 確認預約）。conform 遵從（conform to）、reform 改革、inform 通知（inform 人 of 事）——四個 -form 形近字為歷屆常見誘答組。"
+  },
+  {
+   "id": "en063",
+   "point": "字彙：severe",
+   "stem": "Due to the _____ typhoon warning, all mail deliveries were suspended for two days.",
+   "options": [
+    "severe",
+    "timid",
+    "vital",
+    "prompt"
+   ],
+   "answer": "A",
+   "explain": "severe 嚴重的、劇烈的（severe weather 惡劣天氣），與停止投遞之因果相合。timid 膽小的、vital 極重要的、prompt 迅速的。"
+  },
+  {
+   "id": "en064",
+   "point": "字彙：vulnerable",
+   "stem": "Elderly customers are more _____ to telephone scams, so counter clerks are trained to remind them.",
+   "options": [
+    "vulnerable",
+    "remarkable",
+    "knowledgeable",
+    "indispensable"
+   ],
+   "answer": "A",
+   "explain": "vulnerable 易受害的（be vulnerable to 容易受到…傷害）。remarkable 出色的、knowledgeable 知識豐富的、indispensable 不可或缺的——四字皆 -able 結尾，考語意辨析。"
+  },
+  {
+   "id": "en065",
+   "point": "文法：avoid＋動名詞",
+   "stem": "You should avoid _____ personal information to strangers over the phone.",
+   "options": [
+    "giving",
+    "give",
+    "to give",
+    "given"
+   ],
+   "answer": "A",
+   "explain": "avoid 後接動名詞 V-ing（avoid doing），不接不定詞。同組動詞：mind、enjoy、finish、suggest、consider，為歷屆固定考點。"
+  },
+  {
+   "id": "en066",
+   "point": "文法：have trouble＋動名詞",
+   "stem": "Many people have trouble _____ all their passwords for different accounts.",
+   "options": [
+    "remembering",
+    "to remember",
+    "remember",
+    "remembered"
+   ],
+   "answer": "A",
+   "explain": "have trouble／difficulty／a hard time＋V-ing 為固定句型（介系詞 in 省略），故用 remembering，不接不定詞。"
+  },
+  {
+   "id": "en067",
+   "point": "片語：aside from",
+   "stem": "_____ the postage, you also need to pay an insurance fee for valuable items.",
+   "options": [
+    "Aside from",
+    "As soon as",
+    "As far as",
+    "Apart in"
+   ],
+   "answer": "A",
+   "explain": "aside from＝apart from＝in addition to 除了…之外（還有），後接名詞。as soon as 一…就（接子句）、as far as 就…而言；apart 須搭配 from，並無 apart in 之用法。"
   }
  ]
 }
