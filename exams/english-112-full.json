@@ -1,0 +1,749 @@
+{
+ "title": "112 英文真卷（全科第7場）",
+ "subject": "英文",
+ "minutes": 60,
+ "sections": [
+  {
+   "name": "字彙",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "文法",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "克漏字",
+   "count": 10,
+   "points": 2
+  },
+  {
+   "name": "閱讀",
+   "count": 10,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第1題",
+   "stem": "She is not ready to make a lifelong _____, so she decided not to marry him.",
+   "options": [
+    "devotion",
+    "commitment",
+    "investment",
+    "donation"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第2題",
+   "stem": "The police officer said playing loud music after midnight _____ noise laws.",
+   "options": [
+    "stimulates",
+    "enforces",
+    "creates",
+    "violates"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第3題",
+   "stem": "Higher temperatures and lack of snow is causing the _____ of the glaciers.",
+   "options": [
+    "formation",
+    "retreat",
+    "complexity",
+    "splendor"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第4題",
+   "stem": "That old man lives on the street and has no _____.",
+   "options": [
+    "insistence",
+    "relation",
+    "residence",
+    "habitat"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第5題",
+   "stem": "To get onto a stage and speak to a crowd is a big _____ to a shy person.",
+   "options": [
+    "challenge",
+    "warning",
+    "answer",
+    "season"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第6題",
+   "stem": "When Chris copied a research paper he found on the Internet, it was _____.",
+   "options": [
+    "deliberate",
+    "innocent",
+    "efficient",
+    "credible"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第7題",
+   "stem": "I must _____ this poor and unfair request from my boss.",
+   "options": [
+    "climb",
+    "refuse",
+    "protect",
+    "guess"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第8題",
+   "stem": "People in this country are suffering from hunger because of a _____ of food and water.",
+   "options": [
+    "garage",
+    "village",
+    "marriage",
+    "shortage"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第9題",
+   "stem": "James is so _____ to video games that he plays them for 8 hours almost every day!",
+   "options": [
+    "blamed",
+    "addicted",
+    "offended",
+    "frightened"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第10題",
+   "stem": "My friend tried to _____ me to invest in something I don’t feel safe, but I said no.",
+   "options": [
+    "invade",
+    "tolerate",
+    "persuade",
+    "hesitate"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第11題",
+   "stem": "The man is _____ as he lives a very simple life and wouldn’t spend one penny on anything unnecessary.",
+   "options": [
+    "thrifty",
+    "fragile",
+    "lavish",
+    "stinky"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第12題",
+   "stem": "Before going out, always _____ your parents of your plans.",
+   "options": [
+    "tell",
+    "state",
+    "inform",
+    "describe"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第13題",
+   "stem": "Justin bought a new book which he found very _____ and he finished reading it in one day.",
+   "options": [
+    "disinterested",
+    "interested",
+    "interest",
+    "interesting"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第14題",
+   "stem": "Some entertainers are facing _____ of sexual assault as controversies rock show business this month.",
+   "options": [
+    "allegations",
+    "delegations",
+    "testimonies",
+    "demonstrations"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第15題",
+   "stem": "The _____ reports published by large-scaled companies each year can serve as a good reference for their business performances.",
+   "options": [
+    "experimental",
+    "fiscal",
+    "dynamic",
+    "historic"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第16題",
+   "stem": "It is difficult to imagine _____ our personal and business affairs could be carried on without smart phones.",
+   "options": [
+    "why",
+    "how",
+    "what",
+    "when"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第17題",
+   "stem": "The African plantations provide almost 70% of the world’s cacao, _____ with 5% from Mexico.",
+   "options": [
+    "compared",
+    "compare",
+    "to compare",
+    "compares"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第18題",
+   "stem": "It _____ years for the newborns to master all the necessary skills for daily life.",
+   "options": [
+    "spends",
+    "costs",
+    "needs",
+    "takes"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第19題",
+   "stem": "I have met that man before. I wish I _____ his name.",
+   "options": [
+    "will remember",
+    "can remember",
+    "could remember",
+    "had remembered"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第20題",
+   "stem": "_____ you call me yesterday? I left my cellphone in my brother’s place.",
+   "options": [
+    "Was",
+    "Why",
+    "Did",
+    "Where"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第21題",
+   "stem": "I’m not interested _____ any sports at all.",
+   "options": [
+    "on",
+    "for",
+    "in",
+    "to"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第22題",
+   "stem": "The lid of the jar seemed stuck. Do you mind _____ it?",
+   "options": [
+    "open",
+    "opened",
+    "to open",
+    "opening"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第23題",
+   "stem": "_____ is my favorite pastime.",
+   "options": [
+    "Listen music",
+    "Listening music",
+    "To listen music",
+    "Listening to music"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第24題",
+   "stem": "When _____ about the bad news, Georgia was so shocked that she fainted right away.",
+   "options": [
+    "tell",
+    "tells",
+    "told",
+    "telling"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第25題",
+   "stem": "At the age of ten, Michael lost his parents, _____ he considered the most traumatic in his life.",
+   "options": [
+    "which",
+    "who",
+    "whom",
+    "when"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第26題",
+   "stem": "Yesterday, I _____ dinner with an old friend.",
+   "options": [
+    "have",
+    "had",
+    "had had",
+    "have had"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第27題",
+   "stem": "Your cooking skills are as good as _____.",
+   "options": [
+    "your mother",
+    "your mother’s",
+    "your mother does",
+    "your mother’s do"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第28題",
+   "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
+   "options": [
+    "involved",
+    "involving",
+    "to involve",
+    "which involve"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第29題",
+   "stem": "Teenagers are often rebellious and can easily get fed up _____ doing house chores.",
+   "options": [
+    "by",
+    "in",
+    "for",
+    "with"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "真卷第30題",
+   "stem": "Tim and Jacob have been friends since they were in kindergarten, and the two _____ really well.",
+   "options": [
+    "run over",
+    "get on",
+    "turn up",
+    "come up"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第31題",
+   "stem": "第 31 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "barely",
+    "certainly",
+    "eventually",
+    "openly"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "Have you got a great idea for a new business but aren't quite sure where to begin? It can __31__ be a complex process. Here at Creative Consultants, we can turn your idea for a pet store __32__ an actual shop. If you're looking to __33__ an online business, retail store, or something in the service sector, we can also assist you with that. Our team of experts is familiar with every step of the process, from drafting a business plan to applying for a __34__. We also have in-house designers __35__ can create advertisements, logos, and even websites. Once you're ready to start making money, our marketing group will help you come up with a solid strategy for reaching customers."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第32題",
+   "stem": "第 32 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "out",
+    "from",
+    "behind",
+    "into"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "Have you got a great idea for a new business but aren't quite sure where to begin? It can __31__ be a complex process. Here at Creative Consultants, we can turn your idea for a pet store __32__ an actual shop. If you're looking to __33__ an online business, retail store, or something in the service sector, we can also assist you with that. Our team of experts is familiar with every step of the process, from drafting a business plan to applying for a __34__. We also have in-house designers __35__ can create advertisements, logos, and even websites. Once you're ready to start making money, our marketing group will help you come up with a solid strategy for reaching customers."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第33題",
+   "stem": "第 33 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "produce",
+    "command",
+    "establish",
+    "impress"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "Have you got a great idea for a new business but aren't quite sure where to begin? It can __31__ be a complex process. Here at Creative Consultants, we can turn your idea for a pet store __32__ an actual shop. If you're looking to __33__ an online business, retail store, or something in the service sector, we can also assist you with that. Our team of experts is familiar with every step of the process, from drafting a business plan to applying for a __34__. We also have in-house designers __35__ can create advertisements, logos, and even websites. Once you're ready to start making money, our marketing group will help you come up with a solid strategy for reaching customers."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第34題",
+   "stem": "第 34 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "license",
+    "company",
+    "job",
+    "store"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "Have you got a great idea for a new business but aren't quite sure where to begin? It can __31__ be a complex process. Here at Creative Consultants, we can turn your idea for a pet store __32__ an actual shop. If you're looking to __33__ an online business, retail store, or something in the service sector, we can also assist you with that. Our team of experts is familiar with every step of the process, from drafting a business plan to applying for a __34__. We also have in-house designers __35__ can create advertisements, logos, and even websites. Once you're ready to start making money, our marketing group will help you come up with a solid strategy for reaching customers."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第35題",
+   "stem": "第 35 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "which",
+    "who",
+    "where",
+    "they"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "Have you got a great idea for a new business but aren't quite sure where to begin? It can __31__ be a complex process. Here at Creative Consultants, we can turn your idea for a pet store __32__ an actual shop. If you're looking to __33__ an online business, retail store, or something in the service sector, we can also assist you with that. Our team of experts is familiar with every step of the process, from drafting a business plan to applying for a __34__. We also have in-house designers __35__ can create advertisements, logos, and even websites. Once you're ready to start making money, our marketing group will help you come up with a solid strategy for reaching customers."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第36題",
+   "stem": "第 36 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "celebrate",
+    "fix",
+    "avoid",
+    "spread"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "If you have COVID-19, you could __36__ it to others, even if you do not have symptoms. When you have symptoms, get tested and stay home until you have your __37__. If you have tested __38__ (even without symptoms), follow the __39__ recommendations by the Centers for Disease Control and Prevention. You would need to stay home and away from others for at least 5 days (possibly more, depending on how the virus affects you) and wearing a high-quality, __40__ mask when indoors around others for a period of time."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第37題",
+   "stem": "第 37 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "results",
+    "partners",
+    "choices",
+    "salaries"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "If you have COVID-19, you could __36__ it to others, even if you do not have symptoms. When you have symptoms, get tested and stay home until you have your __37__. If you have tested __38__ (even without symptoms), follow the __39__ recommendations by the Centers for Disease Control and Prevention. You would need to stay home and away from others for at least 5 days (possibly more, depending on how the virus affects you) and wearing a high-quality, __40__ mask when indoors around others for a period of time."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第38題",
+   "stem": "第 38 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "negative",
+    "creative",
+    "positive",
+    "native"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "If you have COVID-19, you could __36__ it to others, even if you do not have symptoms. When you have symptoms, get tested and stay home until you have your __37__. If you have tested __38__ (even without symptoms), follow the __39__ recommendations by the Centers for Disease Control and Prevention. You would need to stay home and away from others for at least 5 days (possibly more, depending on how the virus affects you) and wearing a high-quality, __40__ mask when indoors around others for a period of time."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第39題",
+   "stem": "第 39 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "donation",
+    "isolation",
+    "vacation",
+    "application"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "If you have COVID-19, you could __36__ it to others, even if you do not have symptoms. When you have symptoms, get tested and stay home until you have your __37__. If you have tested __38__ (even without symptoms), follow the __39__ recommendations by the Centers for Disease Control and Prevention. You would need to stay home and away from others for at least 5 days (possibly more, depending on how the virus affects you) and wearing a high-quality, __40__ mask when indoors around others for a period of time."
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "真卷第40題",
+   "stem": "第 40 格：請依文章上下文意，選出最適當的答案。",
+   "options": [
+    "natural",
+    "medical",
+    "sexual",
+    "digital"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "If you have COVID-19, you could __36__ it to others, even if you do not have symptoms. When you have symptoms, get tested and stay home until you have your __37__. If you have tested __38__ (even without symptoms), follow the __39__ recommendations by the Centers for Disease Control and Prevention. You would need to stay home and away from others for at least 5 days (possibly more, depending on how the virus affects you) and wearing a high-quality, __40__ mask when indoors around others for a period of time."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第41題",
+   "stem": "What is a good title for this passage?",
+   "options": [
+    "History of Spider.",
+    "Peculiar Theridiidae.",
+    "Wonder of Cobwebs.",
+    "How to Treat Wounds."
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "When little children get hurt, the first thing they usually ask for is a Band-Aid to make their wounds feel better. However, have you ever wondered what people used to cover wounds before Band-Aids were invented? Band-Aids have only been around since the 1920s, but people have been getting hurt for much longer than that. How people treated their wounds in the past may come as a surprise. In addition to cloth bandages, people often covered and cured their wounds with cobwebs.\n\nCobwebs are made by members of the spider family called Theridiidae. These spiders do not spin typical webs that look like concentric polygons. Instead, these spiders spin a random, sticky, crisscrossed net in which they trap their prey. Most people associate cobwebs with a messy house mainly because of the dust that gathers on the adhesive strands of cobwebs. Yet, although it might appear untidy, the presence of cobwebs does not suggest an unhealthy space. In fact, quite the opposite is true. Many types of cobwebs are laced with penicillin, fungi that contain antibiotic properties. Alexander Fleming, the discoverer of penicillin, came across the fungi when working with a colleague's cobweb collection.\n\nWhen the cobwebs containing penicillin came into contact with some bacteria samples, the growth of the bacteria was stopped, and the bacteria samples died. The discovery of penicillin for use as an antibiotic changed the face of modern medicine because it helped treat many serious diseases. That explains why cobweb bandages were known for generations as a medical cure. Not only did the webbing help to coagulate the liquid on the wound, but it also contained penicillin, a powerful antibiotic that aided in the healing process. By using cobwebs to cover wounds, people with injuries were using antibiotics without even realizing it.\n\nCobwebs appear in the stories of many cultures. These days, cobwebs are used as spooky decorations in Halloween scenes or bring a sense of frustration during people's spring-cleaning. Next time, when you reach up to clean a dusty crevice, try not to feel frustrated but remember such a medical treasure tangled in your broom."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第42題",
+   "stem": "According to the passage, which of the following statement is NOT true?",
+   "options": [
+    "The history of Band-Aids can be traced to 1920s.",
+    "Theridiidae spin the cobwebs in the shapes that look like concentric polygons.",
+    "Cobwebs are sticky and carry healing effects.",
+    "Unknowingly, people used to take advantage of cobwebs for their antibiotic properties."
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "When little children get hurt, the first thing they usually ask for is a Band-Aid to make their wounds feel better. However, have you ever wondered what people used to cover wounds before Band-Aids were invented? Band-Aids have only been around since the 1920s, but people have been getting hurt for much longer than that. How people treated their wounds in the past may come as a surprise. In addition to cloth bandages, people often covered and cured their wounds with cobwebs.\n\nCobwebs are made by members of the spider family called Theridiidae. These spiders do not spin typical webs that look like concentric polygons. Instead, these spiders spin a random, sticky, crisscrossed net in which they trap their prey. Most people associate cobwebs with a messy house mainly because of the dust that gathers on the adhesive strands of cobwebs. Yet, although it might appear untidy, the presence of cobwebs does not suggest an unhealthy space. In fact, quite the opposite is true. Many types of cobwebs are laced with penicillin, fungi that contain antibiotic properties. Alexander Fleming, the discoverer of penicillin, came across the fungi when working with a colleague's cobweb collection.\n\nWhen the cobwebs containing penicillin came into contact with some bacteria samples, the growth of the bacteria was stopped, and the bacteria samples died. The discovery of penicillin for use as an antibiotic changed the face of modern medicine because it helped treat many serious diseases. That explains why cobweb bandages were known for generations as a medical cure. Not only did the webbing help to coagulate the liquid on the wound, but it also contained penicillin, a powerful antibiotic that aided in the healing process. By using cobwebs to cover wounds, people with injuries were using antibiotics without even realizing it.\n\nCobwebs appear in the stories of many cultures. These days, cobwebs are used as spooky decorations in Halloween scenes or bring a sense of frustration during people's spring-cleaning. Next time, when you reach up to clean a dusty crevice, try not to feel frustrated but remember such a medical treasure tangled in your broom."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第43題",
+   "stem": "According to the passage, Alexander Fleming…(continue to the following)",
+   "options": [
+    "healed many patients with cobwebs.",
+    "created Band-Aids.",
+    "discovered penicillin.",
+    "collected cobwebs for a living."
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "When little children get hurt, the first thing they usually ask for is a Band-Aid to make their wounds feel better. However, have you ever wondered what people used to cover wounds before Band-Aids were invented? Band-Aids have only been around since the 1920s, but people have been getting hurt for much longer than that. How people treated their wounds in the past may come as a surprise. In addition to cloth bandages, people often covered and cured their wounds with cobwebs.\n\nCobwebs are made by members of the spider family called Theridiidae. These spiders do not spin typical webs that look like concentric polygons. Instead, these spiders spin a random, sticky, crisscrossed net in which they trap their prey. Most people associate cobwebs with a messy house mainly because of the dust that gathers on the adhesive strands of cobwebs. Yet, although it might appear untidy, the presence of cobwebs does not suggest an unhealthy space. In fact, quite the opposite is true. Many types of cobwebs are laced with penicillin, fungi that contain antibiotic properties. Alexander Fleming, the discoverer of penicillin, came across the fungi when working with a colleague's cobweb collection.\n\nWhen the cobwebs containing penicillin came into contact with some bacteria samples, the growth of the bacteria was stopped, and the bacteria samples died. The discovery of penicillin for use as an antibiotic changed the face of modern medicine because it helped treat many serious diseases. That explains why cobweb bandages were known for generations as a medical cure. Not only did the webbing help to coagulate the liquid on the wound, but it also contained penicillin, a powerful antibiotic that aided in the healing process. By using cobwebs to cover wounds, people with injuries were using antibiotics without even realizing it.\n\nCobwebs appear in the stories of many cultures. These days, cobwebs are used as spooky decorations in Halloween scenes or bring a sense of frustration during people's spring-cleaning. Next time, when you reach up to clean a dusty crevice, try not to feel frustrated but remember such a medical treasure tangled in your broom."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第44題",
+   "stem": "What is the main purpose of this passage?",
+   "options": [
+    "To inform readers about cobwebs and their medicinal use.",
+    "To emphasize the history of cobwebs and its fascinating features.",
+    "To persuade readers to use cobwebs instead of Band-Aids.",
+    "To remind readers of the famous stories about cobwebs and their uses."
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "When little children get hurt, the first thing they usually ask for is a Band-Aid to make their wounds feel better. However, have you ever wondered what people used to cover wounds before Band-Aids were invented? Band-Aids have only been around since the 1920s, but people have been getting hurt for much longer than that. How people treated their wounds in the past may come as a surprise. In addition to cloth bandages, people often covered and cured their wounds with cobwebs.\n\nCobwebs are made by members of the spider family called Theridiidae. These spiders do not spin typical webs that look like concentric polygons. Instead, these spiders spin a random, sticky, crisscrossed net in which they trap their prey. Most people associate cobwebs with a messy house mainly because of the dust that gathers on the adhesive strands of cobwebs. Yet, although it might appear untidy, the presence of cobwebs does not suggest an unhealthy space. In fact, quite the opposite is true. Many types of cobwebs are laced with penicillin, fungi that contain antibiotic properties. Alexander Fleming, the discoverer of penicillin, came across the fungi when working with a colleague's cobweb collection.\n\nWhen the cobwebs containing penicillin came into contact with some bacteria samples, the growth of the bacteria was stopped, and the bacteria samples died. The discovery of penicillin for use as an antibiotic changed the face of modern medicine because it helped treat many serious diseases. That explains why cobweb bandages were known for generations as a medical cure. Not only did the webbing help to coagulate the liquid on the wound, but it also contained penicillin, a powerful antibiotic that aided in the healing process. By using cobwebs to cover wounds, people with injuries were using antibiotics without even realizing it.\n\nCobwebs appear in the stories of many cultures. These days, cobwebs are used as spooky decorations in Halloween scenes or bring a sense of frustration during people's spring-cleaning. Next time, when you reach up to clean a dusty crevice, try not to feel frustrated but remember such a medical treasure tangled in your broom."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第45題",
+   "stem": "Which of the following is correct, according to this passage?",
+   "options": [
+    "In the past, people used cobwebs to treat wounds because they knew the medicinal effects.",
+    "Band-Aids make use of cobwebs as one of its basic components.",
+    "Penicillin was discovered in Fleming’s own collection of cobwebs.",
+    "The webbing on cobwebs can help the liquid from wounds to coagulate."
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "When little children get hurt, the first thing they usually ask for is a Band-Aid to make their wounds feel better. However, have you ever wondered what people used to cover wounds before Band-Aids were invented? Band-Aids have only been around since the 1920s, but people have been getting hurt for much longer than that. How people treated their wounds in the past may come as a surprise. In addition to cloth bandages, people often covered and cured their wounds with cobwebs.\n\nCobwebs are made by members of the spider family called Theridiidae. These spiders do not spin typical webs that look like concentric polygons. Instead, these spiders spin a random, sticky, crisscrossed net in which they trap their prey. Most people associate cobwebs with a messy house mainly because of the dust that gathers on the adhesive strands of cobwebs. Yet, although it might appear untidy, the presence of cobwebs does not suggest an unhealthy space. In fact, quite the opposite is true. Many types of cobwebs are laced with penicillin, fungi that contain antibiotic properties. Alexander Fleming, the discoverer of penicillin, came across the fungi when working with a colleague's cobweb collection.\n\nWhen the cobwebs containing penicillin came into contact with some bacteria samples, the growth of the bacteria was stopped, and the bacteria samples died. The discovery of penicillin for use as an antibiotic changed the face of modern medicine because it helped treat many serious diseases. That explains why cobweb bandages were known for generations as a medical cure. Not only did the webbing help to coagulate the liquid on the wound, but it also contained penicillin, a powerful antibiotic that aided in the healing process. By using cobwebs to cover wounds, people with injuries were using antibiotics without even realizing it.\n\nCobwebs appear in the stories of many cultures. These days, cobwebs are used as spooky decorations in Halloween scenes or bring a sense of frustration during people's spring-cleaning. Next time, when you reach up to clean a dusty crevice, try not to feel frustrated but remember such a medical treasure tangled in your broom."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第46題",
+   "stem": "What is this article mainly about?",
+   "options": [
+    "Some best designers of green buildings in the world.",
+    "The pros and cons of green buildings.",
+    "The history and development of green buildings.",
+    "The analysis of why green buildings are too costly."
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "\"Green building\" is a popular term these days. But what does that really mean, and who decides whether a building is green or not? In the United States, there is no governing body which says: \"This building is green and that one isn't.\" The Environmental Protection Agency does have a definition in place, though. According to the EPA, green buildings are structures that use natural resources efficiently and in a sustainable way.\n\nYou might think that this is a new or very modern idea, but it actually dates back half a century. In the 1970s, buildings that used the modern \"green\" architecture concepts began to appear. For instance, the Willis Faber and Dumas Headquarters building in England had a grass roof. It also had a large center hall that was lit by natural light. In California, the Gregory Bateson Building was one of the first constructions to use solar cells to store energy from the sun.\n\nIn the following decade, people were starting to realize that besides helping the environment, green buildings could also save them money on their heating, cooling, and electric bills. Solar panels became more widely used for a renewable source of electricity. Buildings also began to be equipped with rainwater collection systems. In another decade's time, even the White House itself was undergoing the process of turning green. Experts believe that, since 1996, the White House has saved US$300,000 a year in energy and water costs.\n\nToday, green architecture is taking off all over the world. There is even a Global Award for Sustainable Architecture, which was founded in 2006. It is handed out each year to five architects who design the most revolutionary and innovative green buildings. One of the winners in 2023, Xu Tiantian of China, is known for her \"Architectural Acupuncture,\" a holistic approach to the social and economic revitalization of rural China. In the future, more architects are expected to join this green trend."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第47題",
+   "stem": "How does the author start this article?",
+   "options": [
+    "By pointing out the environmental unfriendliness of traditional buildings.",
+    "By talking about the meaning and related authorities of green buildings.",
+    "By giving a quote from an award-winning architect of green buildings.",
+    "By mentioning some coolest facilities and features of green buildings."
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "\"Green building\" is a popular term these days. But what does that really mean, and who decides whether a building is green or not? In the United States, there is no governing body which says: \"This building is green and that one isn't.\" The Environmental Protection Agency does have a definition in place, though. According to the EPA, green buildings are structures that use natural resources efficiently and in a sustainable way.\n\nYou might think that this is a new or very modern idea, but it actually dates back half a century. In the 1970s, buildings that used the modern \"green\" architecture concepts began to appear. For instance, the Willis Faber and Dumas Headquarters building in England had a grass roof. It also had a large center hall that was lit by natural light. In California, the Gregory Bateson Building was one of the first constructions to use solar cells to store energy from the sun.\n\nIn the following decade, people were starting to realize that besides helping the environment, green buildings could also save them money on their heating, cooling, and electric bills. Solar panels became more widely used for a renewable source of electricity. Buildings also began to be equipped with rainwater collection systems. In another decade's time, even the White House itself was undergoing the process of turning green. Experts believe that, since 1996, the White House has saved US$300,000 a year in energy and water costs.\n\nToday, green architecture is taking off all over the world. There is even a Global Award for Sustainable Architecture, which was founded in 2006. It is handed out each year to five architects who design the most revolutionary and innovative green buildings. One of the winners in 2023, Xu Tiantian of China, is known for her \"Architectural Acupuncture,\" a holistic approach to the social and economic revitalization of rural China. In the future, more architects are expected to join this green trend."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第48題",
+   "stem": "Why does the article mention the buildings in England and in California?",
+   "options": [
+    "To explain how much money green buildings can save.",
+    "To compare older green buildings with newer ones.",
+    "To show American green buildings are better than British ones.",
+    "To give examples of the world’s earliest green buildings."
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "\"Green building\" is a popular term these days. But what does that really mean, and who decides whether a building is green or not? In the United States, there is no governing body which says: \"This building is green and that one isn't.\" The Environmental Protection Agency does have a definition in place, though. According to the EPA, green buildings are structures that use natural resources efficiently and in a sustainable way.\n\nYou might think that this is a new or very modern idea, but it actually dates back half a century. In the 1970s, buildings that used the modern \"green\" architecture concepts began to appear. For instance, the Willis Faber and Dumas Headquarters building in England had a grass roof. It also had a large center hall that was lit by natural light. In California, the Gregory Bateson Building was one of the first constructions to use solar cells to store energy from the sun.\n\nIn the following decade, people were starting to realize that besides helping the environment, green buildings could also save them money on their heating, cooling, and electric bills. Solar panels became more widely used for a renewable source of electricity. Buildings also began to be equipped with rainwater collection systems. In another decade's time, even the White House itself was undergoing the process of turning green. Experts believe that, since 1996, the White House has saved US$300,000 a year in energy and water costs.\n\nToday, green architecture is taking off all over the world. There is even a Global Award for Sustainable Architecture, which was founded in 2006. It is handed out each year to five architects who design the most revolutionary and innovative green buildings. One of the winners in 2023, Xu Tiantian of China, is known for her \"Architectural Acupuncture,\" a holistic approach to the social and economic revitalization of rural China. In the future, more architects are expected to join this green trend."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第49題",
+   "stem": "When did people begin to see another benefit of green buildings－saving money?",
+   "options": [
+    "In the 1970s",
+    "In the 1980s",
+    "In the 1990s",
+    "In the 2000s"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "\"Green building\" is a popular term these days. But what does that really mean, and who decides whether a building is green or not? In the United States, there is no governing body which says: \"This building is green and that one isn't.\" The Environmental Protection Agency does have a definition in place, though. According to the EPA, green buildings are structures that use natural resources efficiently and in a sustainable way.\n\nYou might think that this is a new or very modern idea, but it actually dates back half a century. In the 1970s, buildings that used the modern \"green\" architecture concepts began to appear. For instance, the Willis Faber and Dumas Headquarters building in England had a grass roof. It also had a large center hall that was lit by natural light. In California, the Gregory Bateson Building was one of the first constructions to use solar cells to store energy from the sun.\n\nIn the following decade, people were starting to realize that besides helping the environment, green buildings could also save them money on their heating, cooling, and electric bills. Solar panels became more widely used for a renewable source of electricity. Buildings also began to be equipped with rainwater collection systems. In another decade's time, even the White House itself was undergoing the process of turning green. Experts believe that, since 1996, the White House has saved US$300,000 a year in energy and water costs.\n\nToday, green architecture is taking off all over the world. There is even a Global Award for Sustainable Architecture, which was founded in 2006. It is handed out each year to five architects who design the most revolutionary and innovative green buildings. One of the winners in 2023, Xu Tiantian of China, is known for her \"Architectural Acupuncture,\" a holistic approach to the social and economic revitalization of rural China. In the future, more architects are expected to join this green trend."
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "真卷第50題",
+   "stem": "Which of the following is true about the Global Award for Sustainable Architecture?",
+   "options": [
+    "It has a history of over a decade and a half.",
+    "It has a prize money of US$300,000 each year.",
+    "It recognizes five archaeologists annually.",
+    "It’s current president is Chinese artist Xu Tiantian."
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "\"Green building\" is a popular term these days. But what does that really mean, and who decides whether a building is green or not? In the United States, there is no governing body which says: \"This building is green and that one isn't.\" The Environmental Protection Agency does have a definition in place, though. According to the EPA, green buildings are structures that use natural resources efficiently and in a sustainable way.\n\nYou might think that this is a new or very modern idea, but it actually dates back half a century. In the 1970s, buildings that used the modern \"green\" architecture concepts began to appear. For instance, the Willis Faber and Dumas Headquarters building in England had a grass roof. It also had a large center hall that was lit by natural light. In California, the Gregory Bateson Building was one of the first constructions to use solar cells to store energy from the sun.\n\nIn the following decade, people were starting to realize that besides helping the environment, green buildings could also save them money on their heating, cooling, and electric bills. Solar panels became more widely used for a renewable source of electricity. Buildings also began to be equipped with rainwater collection systems. In another decade's time, even the White House itself was undergoing the process of turning green. Experts believe that, since 1996, the White House has saved US$300,000 a year in energy and water costs.\n\nToday, green architecture is taking off all over the world. There is even a Global Award for Sustainable Architecture, which was founded in 2006. It is handed out each year to five architects who design the most revolutionary and innovative green buildings. One of the winners in 2023, Xu Tiantian of China, is known for her \"Architectural Acupuncture,\" a holistic approach to the social and economic revitalization of rural China. In the future, more architects are expected to join this green trend."
+  }
+ ]
+}

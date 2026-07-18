@@ -450,3 +450,16 @@ textarea:focus { outline: none; border-color: var(--accent); }
 /* 可點查詢的英文單字（手機友善） */
 .wlook { border-bottom: 1px dotted var(--accent); cursor: pointer; padding: 0 1px; }
 .wlook:active { background: var(--accent); color: #fff; border-radius: 3px; }
+
+/* 題組文章（克漏字／閱讀） */
+.q-passage {
+  background: var(--card, #f6f6f8);
+  border: 1px solid var(--line, #ddd);
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin: 8px 0;
+  font-size: 0.92rem;
+  line-height: 1.65;
+}
+.q-passage summary { cursor: pointer; font-weight: 700; font-size: 0.85rem; color: var(--muted, #777); }
+.q-passage > div { max-height: 40vh; overflow-y: auto; margin-top: 6px; }

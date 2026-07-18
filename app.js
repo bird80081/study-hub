@@ -47,11 +47,13 @@ const QUOTES = [
   "已經走到這裡了，剩下的路比走過的短。"
 ];
 const SCHEDULE = [
-  { date: "2026-07-31", label: "全真模擬 第一回（四科）", round: 1 },
-  { date: "2026-08-07", label: "全真模擬 第二回（四科）", round: 2 },
-  { date: "2026-08-14", label: "全真模擬 第三回（四科）", round: 3 },
-  { date: "2026-08-21", label: "全真模擬 第四回（四科）", round: 4 },
-  { date: "2026-08-26", label: "二輪模擬（8/26–28）" },
+  { date: "2026-07-31", label: "全科模擬 第 1 場（109 真卷）", round: 1 },
+  { date: "2026-08-08", label: "全科模擬 第 2 場（仿真卷 A）", round: 2 },
+  { date: "2026-08-14", label: "全科模擬 第 3 場（仿真卷 B）", round: 3 },
+  { date: "2026-08-21", label: "全科模擬 第 4 場（仿真卷 C）", round: 4 },
+  { date: "2026-08-23", label: "全科模擬 第 5 場（仿真卷 D）", round: 5 },
+  { date: "2026-08-26", label: "全科模擬 第 6 場（仿真卷 E）", round: 6 },
+  { date: "2026-08-28", label: "全科模擬 第 7 場（112 真卷・考前校準）", round: 7 },
   { date: "2026-08-30", label: "🎯 郵政升等考" }
 ];
 const SUBJECTS = ["民法", "郵政法規", "英文", "國文"];
@@ -804,6 +806,7 @@ function showQuestion() {
     <div class="q-num">第 ${cur + 1} 題／${q.section}${q.essay ? `（${q.points} 分）` : ""}
       <button class="small flag-btn ${sess.flags[cur] ? "flagged" : ""}" onclick="toggleFlag()">🚩${sess.flags[cur] ? " 已標疑問" : " 有疑問"}</button>
     </div>
+    ${passageBox(q)}
     <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.essay ? essayBox(q) : q.options.map((opt, i) => {
       const label = "ABCD"[i];
@@ -816,6 +819,10 @@ function showQuestion() {
         : `<button onclick="nav(1)">下一題</button>`}
     </div>`;
   tick();
+}
+function passageBox(q) {
+  if (!q.passage) return "";
+  return `<details class="q-passage" open><summary>題組文章</summary><div>${linkifyEnglish(q.passage).replace(/\n/g, "<br>")}</div></details>`;
 }
 function essayBox(q) {
   const val = sess.answers[cur] || "";
@@ -983,6 +990,7 @@ function resultRow(q, i) {
     const rv = exam.review && exam.review.essays.find(e => e.n === i + 1);
     return `<div class="result-q">
       <div class="q-num">第 ${i + 1} 題．申論 ${rv ? `<span class="tag ok">${rv.score}/${rv.max} 分</span>` : '<span class="tag pend">待批改</span>'}${(sess.flags||[])[i] ? ' <span class="tag pend">🚩 疑問</span>' : ''}</div>
+      ${passageBox(q)}
       <div class="q-stem">${q.stem}</div>
       <div class="explain">你的作答：\n${user ? escapeHtml(user) : "（未作答）"}</div>
       ${rv ? `<div class="explain" style="border-left-color:var(--warn)">批改評語：\n${escapeHtml(rv.comment)}</div>` : ""}
@@ -992,6 +1000,7 @@ function resultRow(q, i) {
   return `<div class="result-q">
     <div class="q-num">第 ${i + 1} 題．${q.point || q.section}
       <span class="tag ${right ? "ok" : "bad"}">${right ? "答對" : user ? `答錯（你選 ${user}）` : "未作答"}</span>${(sess.flags||[])[i] ? ' <span class="tag pend">🚩 疑問</span>' : ''}</div>
+    ${passageBox(q)}
     <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.options.map((opt, j) => {
       const label = "ABCD"[j];

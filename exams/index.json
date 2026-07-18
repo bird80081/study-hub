@@ -16,5 +16,45 @@
     "minutes": 20,
     "summary": "選擇 15 題．速查表核心數字＋⚠ 曾錯考點回收",
     "type": "practice"
+  },
+  {
+    "id": "chinese-112-full",
+    "file": "chinese-112-full.json",
+    "title": "112 國文真卷",
+    "subject": "國文",
+    "minutes": 90,
+    "summary": "選擇 20＋作文 1（60 分）．全科第 7 場用卷",
+    "type": "full",
+    "round": 7
+  },
+  {
+    "id": "postal-112-full",
+    "file": "postal-112-full.json",
+    "title": "112 郵政法規真卷",
+    "subject": "郵政法規",
+    "minutes": 60,
+    "summary": "選擇 50 題．全科第 7 場用卷",
+    "type": "full",
+    "round": 7
+  },
+  {
+    "id": "english-112-full",
+    "file": "english-112-full.json",
+    "title": "112 英文真卷",
+    "subject": "英文",
+    "minutes": 60,
+    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 7 場用卷",
+    "type": "full",
+    "round": 7
+  },
+  {
+    "id": "minfa-112-full",
+    "file": "minfa-112-full.json",
+    "title": "112 民法真卷",
+    "subject": "民法",
+    "minutes": 90,
+    "summary": "選擇 20＋申論 2．全科第 7 場用卷",
+    "type": "full",
+    "round": 7
   }
 ]
