@@ -809,5 +809,54 @@
   "zh": "拒絕;回絕;拒絕接受",
   "ex": "The recipient may refuse to accept a damaged parcel.",
   "custom": true
+ },
+ {
+  "w": "complexity",
+  "pos": "n.",
+  "zh": "錯綜複雜;複雜性",
+  "ex": "The complexity of the tax system confuses many people.",
+  "custom": true
+ },
+ {
+  "w": "splendor",
+  "pos": "n.",
+  "zh": "壯麗;輝煌;光彩",
+  "ex": "Visitors were amazed by the splendor of the old palace.",
+  "custom": true
+ },
+ {
+  "w": "retreat",
+  "pos": "v.",
+  "zh": "退卻;撤退;後退",
+  "ex": "The soldiers were ordered to retreat from the border.",
+  "custom": true
+ },
+ {
+  "w": "formation",
+  "pos": "n.",
+  "zh": "結構;形狀;形成方式;組成方式",
+  "ex": "The geese flew south in a V-shaped formation.",
+  "custom": true
+ },
+ {
+  "w": "accidental",
+  "pos": "adj.",
+  "zh": "偶然的;意外的",
+  "ex": "The report confirmed that the fire was accidental.",
+  "custom": true
+ },
+ {
+  "w": "instruction",
+  "pos": "n.",
+  "zh": "指示;命令;吩咐",
+  "ex": "Follow the instructions on the package before use.",
+  "custom": true
+ },
+ {
+  "w": "distant",
+  "pos": "adj.",
+  "zh": "遙遠的;遠方的",
+  "ex": "We could see distant mountains from the train window.",
+  "custom": true
  }
 ]
