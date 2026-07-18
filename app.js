@@ -48,7 +48,7 @@ const QUOTES = [
 ];
 const SCHEDULE = [
   { date: "2026-07-31", label: "全科模擬 第 1 場（109 真卷）", round: 1 },
-  { date: "2026-08-08", label: "全科模擬 第 2 場（仿真卷 A）", round: 2 },
+  { date: "2026-08-07", label: "全科模擬 第 2 場（仿真卷 A）", round: 2 },
   { date: "2026-08-14", label: "全科模擬 第 3 場（仿真卷 B）", round: 3 },
   { date: "2026-08-21", label: "全科模擬 第 4 場（仿真卷 C）", round: 4 },
   { date: "2026-08-23", label: "全科模擬 第 5 場（仿真卷 D）", round: 5 },
