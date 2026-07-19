@@ -1,0 +1,739 @@
+{
+ "title": "109 英文真卷（全科第1場）",
+ "subject": "英文",
+ "minutes": 60,
+ "sections": [
+  {
+   "name": "字彙",
+   "count": 20,
+   "points": 2
+  },
+  {
+   "name": "對話",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "文意選填",
+   "count": 15,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第1題",
+   "stem": "If you want to get something you need, you'd better ___ up. The convenience store is about to close pretty soon.",
+   "options": [
+    "tremble",
+    "hurt",
+    "hurry",
+    "vanish"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第2題",
+   "stem": "Not knowing the intention of the head of the sales department, the clerk looked ___.",
+   "options": [
+    "bored",
+    "prepared",
+    "delighted",
+    "confused"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第3題",
+   "stem": "One of the ___ of taking MRT is that you can save much time from getting stuck in traffic jams during the rush hour.",
+   "options": [
+    "devices",
+    "advantages",
+    "attendants",
+    "visitors"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第4題",
+   "stem": "It is ___ that Chad's five-year-old daughter can speak Chinese and English fluently.",
+   "options": [
+    "shining",
+    "confusing",
+    "amazing",
+    "boring"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第5題",
+   "stem": "Amy was so focused on her novel that she ___ put her book down to help her mother run an errand.",
+   "options": [
+    "rapidly",
+    "genuinely",
+    "definitely",
+    "unwillingly"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第6題",
+   "stem": "The ___ of Taiwan is over 23 million and more than 85% of the people have the right to vote for the president and the legislators.",
+   "options": [
+    "portion",
+    "population",
+    "pollution",
+    "calculation"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第7題",
+   "stem": "Shelly is ___ chemical treatment for her breast cancer. And she is making great progress.",
+   "options": [
+    "receiving",
+    "living",
+    "sending",
+    "falling"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第8題",
+   "stem": "Tad is filling out a visa application ___ because he is going to visit America next month.",
+   "options": [
+    "farm",
+    "firm",
+    "fame",
+    "form"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第9題",
+   "stem": "You cannot park your car here because the parking lot is reserved for the ___.",
+   "options": [
+    "fascinated",
+    "twisted",
+    "handicapped",
+    "endangered"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第10題",
+   "stem": "A Boeing 747 made an ___ landing earlier this morning because of the plane's mechanical problems.",
+   "options": [
+    "emergency",
+    "emotion",
+    "emphasis",
+    "empire"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第11題",
+   "stem": "Lydia did not have tomatoes in her kitchen, so she used corn to make some soup ___.",
+   "options": [
+    "above",
+    "instead",
+    "after",
+    "along"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第12題",
+   "stem": "Everyone at the party kept eating until they were ___.",
+   "options": [
+    "full",
+    "heavy",
+    "hungry",
+    "strict"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第13題",
+   "stem": "You should be careful not to give out your ___ information on the Internet.",
+   "options": [
+    "public",
+    "perfect",
+    "personal",
+    "sudden"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第14題",
+   "stem": "Donald ___ blood twice a year. He likes to help people in need.",
+   "options": [
+    "exports",
+    "protects",
+    "encourages",
+    "donates"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第15題",
+   "stem": "Because Ivan didn't have any ___ shoes for the wedding, I lent him one pair.",
+   "options": [
+    "suitable",
+    "organized",
+    "involved",
+    "simple"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第16題",
+   "stem": "Henry looked at the timetable at the airport to find out the ___ time of his flight.",
+   "options": [
+    "spoon",
+    "purchase",
+    "departure",
+    "snack"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第17題",
+   "stem": "If you see an ___ person on a bus or on the MRT, you should offer him or her your seat.",
+   "options": [
+    "ideal",
+    "elderly",
+    "exotic",
+    "empty"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第18題",
+   "stem": "You had better wear a mask. This disease can be ___ through contact with patients.",
+   "options": [
+    "ignored",
+    "equipped",
+    "restricted",
+    "spread"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第19題",
+   "stem": "May spent a lot of time trying to ___ her mom to let her buy a new iPhone.",
+   "options": [
+    "recover",
+    "adopt",
+    "persuade",
+    "establish"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "真卷第20題",
+   "stem": "My eyes are ___ to the sunlight, so I have to put on sunglasses when I go outside.",
+   "options": [
+    "sensitive",
+    "accurate",
+    "tempting",
+    "pleasant"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第21題",
+   "stem": "Tiffany: Harry, can you give me a hand?\nHarry: Sure. What can I do for you?\nTiffany: I'm going to my son's drama performance tomorrow evening. ___\nHarry: No problem. I can help you out.",
+   "options": [
+    "Could you take my shift?",
+    "Why not ask someone else?",
+    "In case I am occupied.",
+    "It sounds like a good excuse."
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第22題",
+   "stem": "Mary: Hi. What time do you close this evening?\nJohn: We close at 10:00 p.m. every day. And we open at 9:00 in the morning.\nMary: Oh, OK. ___\nJohn: Yeah, same hours as on the weekdays.",
+   "options": [
+    "And are you open on the weekends?",
+    "I'll come down tonight. Thanks.",
+    "Your sale is still on, isn't it?",
+    "How long does it take?"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第23題",
+   "stem": "Roger: I am off to the post office.\nRich: Can you mail this airmail for me?\nRoger: Sure. ___\nRich: Yes, you can simply throw it into the mailbox.",
+   "options": [
+    "You can fax it to me.",
+    "Why don't you mail it yourself?",
+    "Have you stamped it?",
+    "I'm also going to the bank."
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第24題",
+   "stem": "Nick: I need to go to the drugstore and buy some vitamins.\nMandy: ___\nNick: That's not true. Vitamins can provide most of the nutrients we need.",
+   "options": [
+    "I'm in need of them, too.",
+    "They're too good for you.",
+    "I cannot agree with you more.",
+    "I don't think those pills would really work."
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第25題",
+   "stem": "Andy: Can you lower the price a little bit? We like these two pairs of shoes, but ___\nClerk: Sorry, they are the latest limited edition. Even a VIP doesn't have any discounts.\nAndy: Thank you anyway. We'll think about it.",
+   "options": [
+    "we should book a room beforehand.",
+    "they're a bit beyond our budget.",
+    "I'll do my warm-up exercise.",
+    "we're here on business."
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第26題",
+   "stem": "Betty: What's the matter with you? You look so pale and so down.\nSteve: I hurt my ankle during the basketball game.\nBetty: ___ Take good care.",
+   "options": [
+    "I am ahead of the schedule.",
+    "I wonder if I could have some of that.",
+    "It's very nice of you to say so.",
+    "I'm sorry to hear that."
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第27題",
+   "stem": "Karen: I spend a lot time learning Japanese.\nLarry: That sounds great. ___\nKaren: I was planning to go to the 2020 Summer Olympics in Tokyo but I can't now.\nLarry: What a pity!",
+   "options": [
+    "Is the Japanese Language Proficiency Test coming soon?",
+    "Did they offer you a new job in Japan?",
+    "Why are you learning the language?",
+    "Do you like Japanese cosplay?"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第28題",
+   "stem": "A: I got a raise.\nB: ___",
+   "options": [
+    "Congrats!",
+    "You bet.",
+    "Poor you.",
+    "Not at all."
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第29題",
+   "stem": "A: How many museums are there in this town?\nB: ___, there's only one art museum nearby.",
+   "options": [
+    "As far as I can",
+    "As far as I know",
+    "So far, so good",
+    "As far as the park"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第30題",
+   "stem": "A: How long does it take from here to the post office?\nB: ___",
+   "options": [
+    "500 miles long.",
+    "The longer, the better.",
+    "Every ten minutes.",
+    "It depends on the traffic."
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第31題",
+   "stem": "Waiter: Are you ready to order?\nMary: Yes, I'd like the steak, please.\nWaiter: ___\nMary: Medium-well, please.",
+   "options": [
+    "What flavors do you like?",
+    "For here or to go?",
+    "How would you like your steak?",
+    "What would you like to drink?"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第32題",
+   "stem": "Nancy: ___\nHelen: It's six thousand dollars.\nNancy: Then I'll take it.",
+   "options": [
+    "How much is the cellphone?",
+    "May I take a look at the cellphone?",
+    "Should I pay by credit card or cash?",
+    "How many cellphones do you have?"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第33題",
+   "stem": "Larry: What is your favorite sport?\nJames: ___\nLarry: Me too! We should go and play it sometime.",
+   "options": [
+    "I can't go with you. I have another plan.",
+    "Hmm… Basketball.",
+    "I like to go to the movies.",
+    "I don't exercise."
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第34題",
+   "stem": "Simon: How did you spend your weekend?\nJane: I went to a movie. ___\nSimon: I went to the basketball court to practice my basketball skills with my friends.",
+   "options": [
+    "What's that?",
+    "How do you like it?",
+    "How about you?",
+    "How come?"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "對話",
+   "points": 2,
+   "point": "真卷第35題",
+   "stem": "Tom: Hurry! I am afraid we may be late for the show.\nSandy: When will it start?\nTom: ___\nSandy: Then we should rush to the show.",
+   "options": [
+    "For two hours.",
+    "In thirty minutes.",
+    "Forty minutes ago.",
+    "Until night."
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第36題",
+   "passage": "We should always try to help others. When we help others, we usually become __36__. One time a girl shared a glass of milk __37__ a poor boy. Several years __38__, the boy became a doctor and saved her life. Animals can also be of great help. They can even save our lives! Brave __39__ dogs help to look for people under rocks after an earthquake hits. They don't stop __40__, even though they may get hurt. Maybe we don't have much money to help people, however, we can begin helping others by giving our seats to people in need on the bus or MRT.",
+   "stem": "第 36 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "happy",
+    "happiness",
+    "happily",
+    "happiest"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第37題",
+   "passage": "We should always try to help others. When we help others, we usually become __36__. One time a girl shared a glass of milk __37__ a poor boy. Several years __38__, the boy became a doctor and saved her life. Animals can also be of great help. They can even save our lives! Brave __39__ dogs help to look for people under rocks after an earthquake hits. They don't stop __40__, even though they may get hurt. Maybe we don't have much money to help people, however, we can begin helping others by giving our seats to people in need on the bus or MRT.",
+   "stem": "第 37 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "for",
+    "at",
+    "with",
+    "of"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第38題",
+   "passage": "We should always try to help others. When we help others, we usually become __36__. One time a girl shared a glass of milk __37__ a poor boy. Several years __38__, the boy became a doctor and saved her life. Animals can also be of great help. They can even save our lives! Brave __39__ dogs help to look for people under rocks after an earthquake hits. They don't stop __40__, even though they may get hurt. Maybe we don't have much money to help people, however, we can begin helping others by giving our seats to people in need on the bus or MRT.",
+   "stem": "第 38 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "ahead",
+    "later",
+    "after",
+    "soon"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第39題",
+   "passage": "We should always try to help others. When we help others, we usually become __36__. One time a girl shared a glass of milk __37__ a poor boy. Several years __38__, the boy became a doctor and saved her life. Animals can also be of great help. They can even save our lives! Brave __39__ dogs help to look for people under rocks after an earthquake hits. They don't stop __40__, even though they may get hurt. Maybe we don't have much money to help people, however, we can begin helping others by giving our seats to people in need on the bus or MRT.",
+   "stem": "第 39 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "cure",
+    "excuse",
+    "court",
+    "rescue"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第40題",
+   "passage": "We should always try to help others. When we help others, we usually become __36__. One time a girl shared a glass of milk __37__ a poor boy. Several years __38__, the boy became a doctor and saved her life. Animals can also be of great help. They can even save our lives! Brave __39__ dogs help to look for people under rocks after an earthquake hits. They don't stop __40__, even though they may get hurt. Maybe we don't have much money to help people, however, we can begin helping others by giving our seats to people in need on the bus or MRT.",
+   "stem": "第 40 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "search",
+    "searched",
+    "searching",
+    "to search"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第41題",
+   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
+   "stem": "第 41 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "on",
+    "in",
+    "of",
+    "as"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第42題",
+   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
+   "stem": "第 42 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "At",
+    "Over",
+    "With",
+    "About"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第43題",
+   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
+   "stem": "第 43 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "For fear",
+    "For all",
+    "For example",
+    "For a while"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第44題",
+   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
+   "stem": "第 44 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "add",
+    "taste",
+    "catch",
+    "ask"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第45題",
+   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
+   "stem": "第 45 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "would",
+    "will be going to",
+    "X",
+    "will"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第46題",
+   "passage": "Inventions are good, but people should know how to use them. Take the cellphone for example. It is a wonderful __46__ with countless uses. __47__, it has changed people's lives a lot. Many cellphone users felt that it would be very hard __48__ up their cellphones. More and more people ended up in the hospital __49__ using their smartphones while walking or driving. In fact, the number of people who got hurt in this way is still increasing. Therefore, it is time to leave your cellphone at home and make yourself __50__ more outdoor activities instead. Don't make your cellphone change your life!",
+   "stem": "第 46 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "response",
+    "invention",
+    "perfection",
+    "decoration"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第47題",
+   "passage": "Inventions are good, but people should know how to use them. Take the cellphone for example. It is a wonderful __46__ with countless uses. __47__, it has changed people's lives a lot. Many cellphone users felt that it would be very hard __48__ up their cellphones. More and more people ended up in the hospital __49__ using their smartphones while walking or driving. In fact, the number of people who got hurt in this way is still increasing. Therefore, it is time to leave your cellphone at home and make yourself __50__ more outdoor activities instead. Don't make your cellphone change your life!",
+   "stem": "第 47 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "Actually",
+    "Personally",
+    "Usually",
+    "Suddenly"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第48題",
+   "passage": "Inventions are good, but people should know how to use them. Take the cellphone for example. It is a wonderful __46__ with countless uses. __47__, it has changed people's lives a lot. Many cellphone users felt that it would be very hard __48__ up their cellphones. More and more people ended up in the hospital __49__ using their smartphones while walking or driving. In fact, the number of people who got hurt in this way is still increasing. Therefore, it is time to leave your cellphone at home and make yourself __50__ more outdoor activities instead. Don't make your cellphone change your life!",
+   "stem": "第 48 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "giving",
+    "give",
+    "to giving",
+    "to give"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第49題",
+   "passage": "Inventions are good, but people should know how to use them. Take the cellphone for example. It is a wonderful __46__ with countless uses. __47__, it has changed people's lives a lot. Many cellphone users felt that it would be very hard __48__ up their cellphones. More and more people ended up in the hospital __49__ using their smartphones while walking or driving. In fact, the number of people who got hurt in this way is still increasing. Therefore, it is time to leave your cellphone at home and make yourself __50__ more outdoor activities instead. Don't make your cellphone change your life!",
+   "stem": "第 49 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "in order to",
+    "in addition to",
+    "as a result of",
+    "as soon as"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  },
+  {
+   "section": "文意選填",
+   "points": 2,
+   "point": "真卷第50題",
+   "passage": "Inventions are good, but people should know how to use them. Take the cellphone for example. It is a wonderful __46__ with countless uses. __47__, it has changed people's lives a lot. Many cellphone users felt that it would be very hard __48__ up their cellphones. More and more people ended up in the hospital __49__ using their smartphones while walking or driving. In fact, the number of people who got hurt in this way is still increasing. Therefore, it is time to leave your cellphone at home and make yourself __50__ more outdoor activities instead. Don't make your cellphone change your life!",
+   "stem": "第 50 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "do",
+    "doing",
+    "done",
+    "to do"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。"
+  }
+ ]
+}

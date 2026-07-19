@@ -56,5 +56,35 @@
     "summary": "選擇 20＋申論 2．全科第 7 場用卷",
     "type": "full",
     "round": 7
+  },
+  {
+    "id": "postal-109-full",
+    "file": "postal-109-full.json",
+    "title": "109 郵政法規真卷",
+    "subject": "郵政法規",
+    "minutes": 60,
+    "summary": "選擇 50 題．全科第 1 場用卷",
+    "type": "full",
+    "round": 1
+  },
+  {
+    "id": "minfa-109-full",
+    "file": "minfa-109-full.json",
+    "title": "109 民法真卷",
+    "subject": "民法",
+    "minutes": 90,
+    "summary": "選擇 20＋申論 2．全科第 1 場用卷",
+    "type": "full",
+    "round": 1
+  },
+  {
+    "id": "english-109-full",
+    "file": "english-109-full.json",
+    "title": "109 英文真卷",
+    "subject": "英文",
+    "minutes": 60,
+    "summary": "字彙20＋對話15＋文意選填15．全科第 1 場用卷",
+    "type": "full",
+    "round": 1
   }
 ]
