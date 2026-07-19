@@ -86,5 +86,15 @@
     "summary": "字彙20＋對話15＋文意選填15．全科第 1 場用卷",
     "type": "full",
     "round": 1
+  },
+  {
+    "id": "chinese-109-full",
+    "file": "chinese-109-full.json",
+    "title": "109 國文真卷",
+    "subject": "國文",
+    "minutes": 120,
+    "summary": "選擇 20＋作文 1．全科第 1 場用卷",
+    "type": "full",
+    "round": 1
   }
 ]
