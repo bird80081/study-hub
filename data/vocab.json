@@ -858,5 +858,180 @@
   "zh": "遙遠的;遠方的",
   "ex": "We could see distant mountains from the train window.",
   "custom": true
+ },
+ {
+  "w": "factors",
+  "pos": "n.",
+  "zh": "因素；要素",
+  "ex": "Several factors must be considered before making the final decision.",
+  "custom": true
+ },
+ {
+  "w": "complex",
+  "pos": "adj.",
+  "zh": "由許多相關的不同部分組成的；構造複雜的",
+  "ex": "The application process for the postal exam is quite complex.",
+  "custom": true
+ },
+ {
+  "w": "partner",
+  "pos": "n.",
+  "zh": "搭檔，夥伴，同伴",
+  "ex": "The post office works with a reliable delivery partner overseas.",
+  "custom": true
+ },
+ {
+  "w": "involved",
+  "pos": "adj.",
+  "zh": "複雜的，複雜難懂的",
+  "ex": "The customs procedure is more involved than it first appears.",
+  "custom": true
+ },
+ {
+  "w": "affairs",
+  "pos": "n.",
+  "zh": "事務；事情",
+  "ex": "The manager handles the daily affairs of the branch office.",
+  "custom": true
+ },
+ {
+  "w": "probable",
+  "pos": "adj.",
+  "zh": "很可能真實的；很可能發生的",
+  "ex": "It is probable that the parcel will arrive tomorrow.",
+  "custom": true
+ },
+ {
+  "w": "capable",
+  "pos": "adj.",
+  "zh": "有能力的；熟練的；能幹的",
+  "ex": "She is capable of handling a heavy workload at the counter.",
+  "custom": true
+ },
+ {
+  "w": "controversies",
+  "pos": "n.",
+  "zh": "爭議；爭論；爭辯",
+  "ex": "The new policy sparked several controversies among the staff.",
+  "custom": true
+ },
+ {
+  "w": "allegations",
+  "pos": "n.",
+  "zh": "（未經證實的）指責，指控",
+  "ex": "The company denied all the allegations of misconduct.",
+  "custom": true
+ },
+ {
+  "w": "delegations",
+  "pos": "n.",
+  "zh": "代表團",
+  "ex": "Delegations from several countries attended the postal conference.",
+  "custom": true
+ },
+ {
+  "w": "testimonies",
+  "pos": "n.",
+  "zh": "（尤指法庭上的）證詞，證言",
+  "ex": "The witnesses gave their testimonies in court.",
+  "custom": true
+ },
+ {
+  "w": "demonstrations",
+  "pos": "n.",
+  "zh": "演示，示範",
+  "ex": "The trainer gave clear demonstrations of the new sorting system.",
+  "custom": true
+ },
+ {
+  "w": "entertainers",
+  "pos": "n.",
+  "zh": "（以唱歌、講笑話等娛悅大眾的）表演者，藝人",
+  "ex": "The entertainers performed at the annual company event.",
+  "custom": true
+ },
+ {
+  "w": "hesitate",
+  "pos": "v.",
+  "zh": "猶豫，躊躇",
+  "ex": "Do not hesitate to contact us if you have any questions.",
+  "custom": true
+ },
+ {
+  "w": "tolerate",
+  "pos": "v.",
+  "zh": "寬容；容忍",
+  "ex": "The office will not tolerate any rude behaviour toward its staff.",
+  "custom": true
+ },
+ {
+  "w": "invade",
+  "pos": "v.",
+  "zh": "入侵，侵略",
+  "ex": "Junk mail seems to invade every mailbox these days.",
+  "custom": true
+ },
+ {
+  "w": "vulnerable",
+  "pos": "adj.",
+  "zh": "易受傷的；易受影響（或攻擊）的；脆弱的",
+  "ex": "Elderly customers are more vulnerable to phone scams.",
+  "custom": true
+ },
+ {
+  "w": "indispensable",
+  "pos": "adj.",
+  "zh": "必不可少的，必需的",
+  "ex": "A reliable postal service is indispensable to daily life.",
+  "custom": true
+ },
+ {
+  "w": "remarkable",
+  "pos": "adj.",
+  "zh": "非凡的；奇異的；引人注目的",
+  "ex": "The team made remarkable progress this quarter.",
+  "custom": true
+ },
+ {
+  "w": "knowledgeable",
+  "pos": "adj.",
+  "zh": "知識淵博的；有見識的",
+  "ex": "The clerk is very knowledgeable about international shipping rules.",
+  "custom": true
+ },
+ {
+  "w": "inform",
+  "pos": "v.",
+  "zh": "通知，告知",
+  "ex": "Please inform the recipient before the parcel is delivered.",
+  "custom": true
+ },
+ {
+  "w": "state",
+  "pos": "n.",
+  "zh": "狀態；情形；狀況",
+  "ex": "The package arrived in perfect state after the long journey.",
+  "custom": true
+ },
+ {
+  "w": "describe",
+  "pos": "v.",
+  "zh": "描述，描寫，描繪",
+  "ex": "Please describe the contents of the package on this form.",
+  "custom": true
+ },
+ {
+  "w": "vacant",
+  "pos": "adj.",
+  "zh": "空的；未被佔用的",
+  "ex": "There is a vacant position at the front counter.",
+  "custom": true
+ },
+ {
+  "w": "violent",
+  "pos": "adj.",
+  "zh": "使用暴力的；強暴的",
+  "ex": "The staff reported a violent customer to security.",
+  "custom": true
  }
 ]
