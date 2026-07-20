@@ -1033,5 +1033,11 @@
   "zh": "使用暴力的；強暴的",
   "ex": "The staff reported a violent customer to security.",
   "custom": true
+ },
+ {
+  "w": "allocate",
+  "pos": "v.",
+  "zh": "分配；撥給；配置",
+  "ex": "The city council decided to allocate additional funds to improve public transportation."
  }
 ]
