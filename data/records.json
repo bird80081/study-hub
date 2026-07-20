@@ -103,5 +103,92 @@
    "2": 10,
    "3": 3
   }
+ },
+ "2026-07-20": {
+  "date": "2026-07-20",
+  "drill": {
+   "count": 26,
+   "wrong": [
+    {
+     "id": "mf043",
+     "subject": "民法",
+     "point": "共有物不分割約定期限",
+     "stem": "依民法規定，共有人以契約約定共有物不分割之期限，最長不得逾多久？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "mf045",
+     "subject": "民法",
+     "point": "承攬瑕疵發見期間",
+     "stem": "依民法規定，承攬之工作（非建築物或其他土地上之工作物），其瑕疵自工作交付後經過多久始發見者，定作人不得再主張瑕疵擔保權利？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "mf065",
+     "subject": "民法",
+     "point": "輔助宣告",
+     "stem": "依民法規定，因精神障礙或其他心智缺陷，致其為意思表示、受意思表示或辨識其效果之能力「顯有不足」者，法院得為下列何種宣告？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "po078",
+     "subject": "郵政法規",
+     "point": "郵資機符誌彙印",
+     "stem": "依郵務營業規章規定，寄件人一次交寄之函件或小包達多少件以上且種類相同者，得將郵資總數彙印郵資券交由郵局核驗？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en053",
+     "subject": "英文",
+     "point": "文法：the＋比較級",
+     "stem": "The sooner you mail the package, _____ it will arrive.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en043",
+     "subject": "英文",
+     "point": "文法：不可數名詞 much",
+     "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en064",
+     "subject": "英文",
+     "point": "字彙：vulnerable",
+     "stem": "Elderly customers are more _____ to telephone scams, so counter clerks are trained to remind them.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en024",
+     "subject": "英文",
+     "point": "字彙：inform",
+     "stem": "Before going out, always _____ your parents of your plans.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-20"
+    }
+   ]
+  },
+  "exams": [],
+  "vocabStages": {
+   "0": 2,
+   "1": 17,
+   "2": 10,
+   "3": 7
+  }
  }
 }
