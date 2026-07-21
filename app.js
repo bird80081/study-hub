@@ -231,9 +231,10 @@ function exportDayRecord() {
   const textP = buildDayRecordText();
   // iOS Safari 要求剪貼簿寫入緊貼使用者手勢；先 fetch 再 writeText 會被拒。
   // 用 ClipboardItem 包 Promise 可在手勢當下先「預約」寫入，等資料好了才填內容。
-  const ok = () => toast("已複製，貼給 Claude 寫入讀書紀錄");
+  const ok = () => { markExported(true); toast("已複製，貼給 Claude 寫入讀書紀錄"); };
   const fail = () => textP.then(t => $app.insertAdjacentHTML("beforeend",
-    `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(t)}</textarea></div>`));
+    `<div class="card"><p class="muted">自動複製失敗，請長按全選複製：</p><textarea readonly>${escapeHtml(t)}</textarea>
+     <button class="small" onclick="markExported()">複製好了，標記已匯出</button></div>`));
   if (navigator.clipboard && window.ClipboardItem) {
     const item = new ClipboardItem({ "text/plain": textP.then(t => new Blob([t], { type: "text/plain" })) });
     navigator.clipboard.write([item]).then(ok).catch(fail);
@@ -243,15 +244,23 @@ function exportDayRecord() {
 }
 async function buildDayRecordText() {
   const day = todayKey();
-  const wrongToday = drillWrongAll().filter(w => w.date === day).map(({ exported, ...w }) => w);
+  const strip = ({ exported, ...w }) => w;
+  const all = drillWrongAll();
+  const wrongToday = all.filter(w => w.date === day).map(strip);
+  // 補件：前幾天漏匯出的錯題。今天的已在 drill.wrong，這裡只收跨日殘留，
+  // 免得同一份匯出裡出現兩次一樣的題目。
+  const pending = all.filter(w => !w.exported && w.date !== day).map(strip);
   const attempts = loadAttempts().filter(a => a.date === day)
     .map(a => ({ title: a.title, subject: a.subject, mcScore: a.mcScore, mcMax: a.mcMax, mcRight: a.mcRight, mcTotal: a.mcTotal }));
   const dist = { 0: 0, 1: 0, 2: 0, 3: 0 };
   Object.values(vStages()).forEach(s => { if (dist[s] !== undefined) dist[s]++; });
+  const vd = vocabDaily()[day] || { done: 0, right: 0 };
   const out = { type: "讀書紀錄", date: day,
     drill: { count: drillDaily()[day] || 0, wrong: wrongToday },
     exams: attempts,
+    vocab: { done: vd.done, right: vd.right },
     vocabStages: dist };
+  if (pending.length) out.pendingWrong = pending;
   return "【讀書紀錄匯出，請併入 data/records.json】\n" + JSON.stringify(out, null, 1);
 }
 
@@ -394,9 +403,9 @@ async function showDrillTab() {
       })()}</div>
       <div class="btn-row">
         <button class="ghost" onclick="startDrillWrong()">只刷錯題（依勾選科目）</button>
-        <button class="${newN ? "" : "ghost"}" onclick="exportDrillWrong()">匯出新錯題${newN ? `（${newN}）` : ""}</button>
+        <button class="ghost" onclick="exportDrillWrong()">單獨匯出錯題${newN ? `（${newN}）` : ""}</button>
       </div>
-      ${wrongN > newN ? `<div class="muted" style="font-size:0.78rem;margin-top:6px">已匯出的仍留在錯題本供「只刷錯題」複習．<a href="#" onclick="event.preventDefault();exportDrillWrong(true)">重匯全部 ${wrongN} 題 ›</a></div>` : ""}
+      <div class="muted" style="font-size:0.78rem;margin-top:6px">首頁「匯出今日讀書紀錄」已含當日錯題，平常不必再按這顆．已匯出的仍留在錯題本供「只刷錯題」複習${wrongN > newN ? `．<a href="#" onclick="event.preventDefault();exportDrillWrong(true)">重匯全部 ${wrongN} 題 ›</a>` : ""}</div>
     </div>` : ""}`;
 }
 function setDrillPer(n) {
@@ -573,10 +582,12 @@ function exportDrillWrong(all) {
          <button class="small" onclick="markExported()">複製好了，標記已匯出</button></div>`);
     });
 }
-function markExported() {
+// quiet：由「匯出讀書紀錄」呼叫時用——那邊自己會 toast，也不該把畫面切到刷題頁
+function markExported(quiet) {
   const wrongs = drillWrongAll();
   wrongs.forEach(w => { if (!w.exported) w.exported = true; });
   localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs));
+  if (quiet === true) return;
   toast("已標記"); showDrillTab();
 }
 
@@ -1035,9 +1046,21 @@ function exportResult() {
 /* ================= 單字：三關學習法 ================= */
 // 第 0 關未學 → 關1 認識（卡片＋發音）→ 關2 例句挖空 → 關3 中翻英 → 熟
 const LS_VOCAB2 = "hub.vocab.v2";
+const LS_VOCAB_DAILY = "hub.vocab.daily.v1";
 let vocab = null, vTasks = [], vTIdx = 0, vAnswered = null, vRight = 0;
 
 function vStages() { try { return JSON.parse(localStorage.getItem(LS_VOCAB2)) || {}; } catch { return {}; } }
+// 當日實際作答字數／答對數。stage 分佈是快照（字滿級後就不再變動），
+// 看不出「今天到底做了幾個」，所以另記流水計數。
+function vocabDaily() { try { return JSON.parse(localStorage.getItem(LS_VOCAB_DAILY)) || {}; } catch { return {}; } }
+function bumpVocabDaily(right) {
+  const all = vocabDaily();
+  const d = all[todayKey()] || { done: 0, right: 0 };
+  d.done++;
+  if (right) d.right++;
+  all[todayKey()] = d;
+  localStorage.setItem(LS_VOCAB_DAILY, JSON.stringify(all));
+}
 function setStage(w, st) {
   const all = vStages();
   all[w] = st;
@@ -1297,6 +1320,7 @@ function pickVocab(w) {
   const t = vTasks[vTIdx];
   vAnswered = w;
   const cur = vStages()[t.v.w] || 0;
+  bumpVocabDaily(w === t.v.w);
   if (w === t.v.w) {
     vRight++;
     setStage(t.v.w, Math.min(3, cur + 1));
