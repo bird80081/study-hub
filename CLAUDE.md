@@ -2,6 +2,8 @@
 
 純靜態 PWA（無建置步驟），手機透過 GitHub Pages 使用。所有作答資料存在裝置 localStorage，靠 app 內的「匯出」按鈕（複製 JSON 到剪貼簿）貼給 Claude 回流到 repo。
 
+> 資料流向、localStorage key 一覽、哪些檔案 app 會讀回 → 見 [README.md](README.md)。動到 `app.js` 的匯出邏輯或 `data/` 結構時，順手確認 README 是否要同步。
+
 **規則分工**：本檔服務「手機雲端 session」——只做匯出內容的合併、commit、push。完整讀書流程（Notion 錯題回收、單字音檔生成、作文素材落地）在使用者 Mac 本機的考試 rules 裡，雲端做不了的（如音檔）在回覆結尾提醒使用者回 Mac 補即可。
 
 ## 收到匯出內容時的處理規則
