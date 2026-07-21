@@ -190,5 +190,92 @@
    "2": 10,
    "3": 7
   }
+ },
+ "2026-07-21": {
+  "date": "2026-07-21",
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "mf064",
+     "subject": "民法",
+     "point": "抵押權之次序",
+     "stem": "依民法規定，不動產所有人因擔保數債權，就同一不動產設定數抵押權者，其次序如何定之？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "po068",
+     "subject": "郵政法規",
+     "point": "新聞紙雜誌登記應檢附刊物",
+     "stem": "依郵務營業規章規定，新聞紙或雜誌申請交寄登記時，應檢附最近出刊之該刊物幾份？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "po071",
+     "subject": "郵政法規",
+     "point": "零星補寄件數",
+     "stem": "依郵務營業規章規定，新聞紙或雜誌之零星補寄，以多少件以內為限？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "en051",
+     "subject": "英文",
+     "point": "文法：現在完成式 for",
+     "stem": "Ms. Lin has worked at the post office _____ more than ten years.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "ch060",
+     "subject": "國文",
+     "point": "文意填空：菜根譚",
+     "stem": "「風來疏竹，風過而竹不留聲；雁渡寒潭，雁去而潭不留影；故君子事來而心始現，事去而心隨□。」（《菜根譚》）□內最適合填入：",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "en066",
+     "subject": "英文",
+     "point": "文法：have trouble＋動名詞",
+     "stem": "Many people have trouble _____ all their passwords for different accounts.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "ch056",
+     "subject": "國文",
+     "point": "字音辨正：載",
+     "stem": "「一年半載」與「載歌載舞」中「載」字之讀音，下列何者正確？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "ch050",
+     "subject": "國文",
+     "point": "借代詞語：桑梓",
+     "stem": "古文中「桑梓」一詞，借代下列何者？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-21"
+    }
+   ]
+  },
+  "exams": [],
+  "vocabStages": {
+   "0": 2,
+   "1": 23,
+   "2": 8,
+   "3": 16
+  }
  }
 }
