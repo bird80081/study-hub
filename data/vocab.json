@@ -1135,5 +1135,107 @@
   "pos": "adj.",
   "zh": "可靠的；可信賴的",
   "ex": "Customers need reliable information from the post office."
+ },
+ {
+  "w": "automate",
+  "pos": "v.",
+  "zh": "使自動化",
+  "ex": "The postal service plans to automate its parcel sorting process."
+ },
+ {
+  "w": "automation",
+  "pos": "n.",
+  "zh": "自動化",
+  "ex": "Increased automation has reduced the need for manual sorting."
+ },
+ {
+  "w": "algorithm",
+  "pos": "n.",
+  "zh": "演算法",
+  "ex": "The bank uses an algorithm to detect unusual transactions in real time."
+ },
+ {
+  "w": "deploy",
+  "pos": "v.",
+  "zh": "部署、配置",
+  "ex": "The company will deploy an AI assistant to help clerks answer inquiries."
+ },
+ {
+  "w": "streamline",
+  "pos": "v.",
+  "zh": "精簡流程、使更有效率",
+  "ex": "The new system was designed to streamline the delivery process."
+ },
+ {
+  "w": "obsolete",
+  "pos": "adj.",
+  "zh": "過時的、已廢棄的",
+  "ex": "Paper money orders have become obsolete in the age of electronic transfers."
+ },
+ {
+  "w": "displace",
+  "pos": "v.",
+  "zh": "取代、使離開原位",
+  "ex": "Many workers fear that automation will displace them within a decade."
+ },
+ {
+  "w": "disrupt",
+  "pos": "v.",
+  "zh": "顛覆、擾亂",
+  "ex": "Generative AI has begun to disrupt traditional customer service industries."
+ },
+ {
+  "w": "impersonate",
+  "pos": "v.",
+  "zh": "冒充、假扮",
+  "ex": "Scammers often impersonate bank officials to obtain personal information."
+ },
+ {
+  "w": "authenticate",
+  "pos": "v.",
+  "zh": "驗證身分、認證",
+  "ex": "Users must authenticate their identity before accessing the account."
+ },
+ {
+  "w": "credential",
+  "pos": "n.",
+  "zh": "憑證、資格證明",
+  "ex": "Never share your login credentials with anyone over the phone."
+ },
+ {
+  "w": "fraudulent",
+  "pos": "adj.",
+  "zh": "詐欺的、不實的",
+  "ex": "The system flagged several fraudulent transactions last month."
+ },
+ {
+  "w": "counterfeit",
+  "pos": "adj./n.",
+  "zh": "偽造的；偽造品",
+  "ex": "Customs officers seized a shipment of counterfeit goods at the airport."
+ },
+ {
+  "w": "surveillance",
+  "pos": "n.",
+  "zh": "監視、監控",
+  "ex": "Critics argue that facial recognition amounts to constant surveillance."
+ },
+ {
+  "w": "bias",
+  "pos": "n.",
+  "zh": "偏見、偏誤",
+  "ex": "Researchers found a significant bias in the data used to train the model."
+ },
+ {
+  "w": "ethical",
+  "pos": "adj.",
+  "zh": "倫理的、合乎道德的",
+  "ex": "Companies face ethical questions about how customer data is used."
+ },
+ {
+  "w": "privacy",
+  "pos": "n.",
+  "zh": "隱私",
+  "ex": "Stronger regulations are needed to protect consumer privacy online."
  }
 ]
