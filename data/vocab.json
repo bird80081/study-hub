@@ -1275,28 +1275,28 @@
   "ex": "The company plans to reform its mail sorting system."
  },
  {
-  "w": "violates",
+  "w": "violate",
   "pos": "v.",
   "zh": "違反，違背，違犯（尤指法律、協議、原則等）",
-  "ex": "Mailing dangerous goods violates postal regulations."
+  "ex": "Mailing dangerous goods can violate postal regulations."
  },
  {
-  "w": "creates",
+  "w": "create",
   "pos": "v.",
   "zh": "創造；創建；創作；發明",
-  "ex": "The new system creates a tracking number for every parcel."
+  "ex": "The new system will create a tracking number for every parcel."
  },
  {
-  "w": "enforces",
+  "w": "enforce",
   "pos": "v.",
   "zh": "使服從（法律）；強制執行",
-  "ex": "The post office strictly enforces the rules on prohibited items."
+  "ex": "Postal staff must enforce the rules on prohibited items."
  },
  {
-  "w": "stimulates",
+  "w": "stimulate",
   "pos": "v.",
   "zh": "激發，激勵；促進",
-  "ex": "Free shipping stimulates more online shopping and parcel deliveries."
+  "ex": "Free shipping can stimulate more online shopping and parcel deliveries."
  },
  {
   "w": "launch",
