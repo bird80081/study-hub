@@ -277,5 +277,96 @@
    "2": 8,
    "3": 16
   }
+ },
+ "2026-07-22": {
+  "date": "2026-07-22",
+  "drill": {
+   "count": 35,
+   "wrong": [
+    {
+     "id": "mf057",
+     "subject": "民法",
+     "point": "共有物之處分",
+     "stem": "依民法規定，共有物之處分、變更及設定負擔，應得何人之同意？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "po072",
+     "subject": "郵政法規",
+     "point": "無法投遞新聞紙雜誌之領回",
+     "stem": "依郵件處理規則等規定，無法投遞之國內非掛號新聞紙、雜誌退回原寄局後，發單通知寄件人自通知之次日起幾日內至指定郵局補付郵資領回？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "ch049",
+     "subject": "國文",
+     "point": "成語運用：汗牛充棟",
+     "stem": "下列成語，何者專用於形容「書籍極多」？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "en063",
+     "subject": "英文",
+     "point": "字彙：severe",
+     "stem": "Due to the _____ typhoon warning, all mail deliveries were suspended for two days.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "ch002",
+     "subject": "國文",
+     "point": "公文稱謂語",
+     "stem": "機關對所屬下級機關行文，自稱與對方稱謂，下列何者正確？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "en050",
+     "subject": "英文",
+     "point": "字彙：destination",
+     "stem": "Please make sure the parcel's _____ address is written clearly.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "ch039",
+     "subject": "國文",
+     "point": "論語為學歷程：耳順",
+     "stem": "《論語．為政》中孔子自述為學的歷程和進境，下列何者為六十歲的境界？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "po053",
+     "subject": "郵政法規",
+     "point": "存證信函",
+     "stem": "依郵件處理規則規定，有關存證信函，下列敘述何者錯誤？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 12,
+   "right": 10
+  },
+  "vocabStages": {
+   "0": 4,
+   "1": 20,
+   "2": 13,
+   "3": 17
+  }
  }
 }
