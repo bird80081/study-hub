@@ -368,5 +368,42 @@
    "2": 13,
    "3": 17
   }
+ },
+ "2026-07-23": {
+  "date": "2026-07-23",
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "en060",
+     "subject": "英文",
+     "point": "字彙：glance",
+     "stem": "I only took a quick _____ at the notice board, so I missed the details of the schedule change.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-23"
+    },
+    {
+     "id": "ch064",
+     "subject": "國文",
+     "point": "地名判讀：錦官城",
+     "stem": "杜甫〈蜀相〉：「丞相祠堂何處尋？錦官城外柏森森」，「錦官城」指今日何地？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-23"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 30,
+   "right": 28
+  },
+  "vocabStages": {
+   "0": 5,
+   "1": 26,
+   "2": 13,
+   "3": 24
+  }
  }
 }
