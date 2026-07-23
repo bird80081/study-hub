@@ -394,6 +394,11 @@ async function showDrillTab() {
         <button onclick="startDrill()">開始刷題</button>
       </div>
     </div>
+    <div class="card">
+      <div class="muted" style="font-weight:700;margin-bottom:4px">題庫進度</div>
+      <div id="pool-progress" class="muted" style="font-size:0.85rem">計算中…</div>
+      <div class="muted" style="font-size:0.75rem;margin-top:6px">「已看 X/Y」到齊代表該科刷完一輪、之後就會開始重複；2遍+ 是已看過兩次以上的題數</div>
+    </div>
     ${wrongN ? `<div class="card">
       <strong>錯題本</strong> <span class="muted">${wrongN} 題${newN ? `．${newN} 題未匯出` : "．已全部匯出"}</span>
       <div class="muted" style="font-size:0.8rem;margin-top:2px">${(() => {
@@ -407,6 +412,28 @@ async function showDrillTab() {
       </div>
       <div class="muted" style="font-size:0.78rem;margin-top:6px">首頁「匯出今日讀書紀錄」已含當日錯題，平常不必再按這顆．已匯出的仍留在錯題本供「只刷錯題」複習${wrongN > newN ? `．<a href="#" onclick="event.preventDefault();exportDrillWrong(true)">重匯全部 ${wrongN} 題 ›</a>` : ""}</div>
     </div>` : ""}`;
+  renderPoolProgress();
+}
+async function renderPoolProgress() {
+  const box = document.getElementById("pool-progress");
+  if (!box) return;
+  const seen = drillSeen();
+  const rows = [];
+  for (const p of poolIndex) {
+    const pool = await loadPool(p.subject);
+    const total = pool.questions.length;
+    let done = 0, twice = 0;
+    pool.questions.forEach(q => {
+      const s = seen[q.id] || 0;
+      if (s >= 1) done++;
+      if (s >= 2) twice++;
+    });
+    const cycled = done === total;
+    rows.push(`<div style="display:flex;justify-content:space-between;padding:3px 0">
+      <span>${p.subject}${cycled ? ' <span class="tag pend" style="font-size:0.62rem">已一輪</span>' : ""}</span>
+      <span class="muted" style="font-size:0.8rem">已看 ${done}/${total}．2遍+ ${twice}</span></div>`);
+  }
+  box.innerHTML = rows.join("");
 }
 function setDrillPer(n) {
   const cfg = readDrillForm();
@@ -1113,6 +1140,37 @@ function addCustomWord(w, zh, ex) {
     localStorage.setItem(LS_VOCAB_CUSTOM, JSON.stringify(list));
   }
 }
+function removeCustomWord(w) {
+  const list = customVocab();
+  const kept = list.filter(x => x.w.toLowerCase() !== w.toLowerCase());
+  if (kept.length === list.length) {
+    toast("此字已併入正式辭典，請叫 Claude 從 vocab.json 移除");
+    return;
+  }
+  localStorage.setItem(LS_VOCAB_CUSTOM, JSON.stringify(kept));
+  const st = vStages();
+  if (st[w] != null) { delete st[w]; localStorage.setItem(LS_VOCAB2, JSON.stringify(st)); }
+  toast(`已移除自訂單字「${w}」`);
+  renderVocabList();
+}
+// 字形防呆：candidate 是否與辭典既有字互為時態/單複數變化
+function inflForms(x) {
+  x = x.toLowerCase();
+  const out = new Set([x]);
+  const bases = [x, x.endsWith("e") ? x.slice(0, -1) : x, x.endsWith("y") ? x.slice(0, -1) : x];
+  bases.forEach(b => ["s", "es", "ed", "ing", "d"].forEach(suf => out.add(b + suf)));
+  if (x.endsWith("y")) { out.add(x.slice(0, -1) + "ies"); out.add(x.slice(0, -1) + "ied"); }
+  const stripped = x.replace(/(ing|ied|ies|ed|es|s)$/, "");
+  if (stripped.length >= 3) ["", "e", "s", "es", "ed", "ing", "d", "y"].forEach(suf => out.add(stripped + suf));
+  return out;
+}
+function relatedExistingWord(w) {
+  const wl = w.toLowerCase();
+  const set = new Set(allVocab().map(v => v.w.toLowerCase()));
+  for (const f of inflForms(wl)) if (f !== wl && set.has(f)) return f;
+  for (const e of set) if (e !== wl && Math.abs(e.length - wl.length) <= 3 && inflForms(e).has(wl)) return e;
+  return null;
+}
 function pruneCustomWords() {
   const have = new Set((vocab || []).map(v => v.w.toLowerCase()));
   const list = customVocab();
@@ -1188,6 +1246,7 @@ function renderVocabList() {
         <div class="btn-row" style="margin-top:8px">
           <button class="small ghost" onclick="event.stopPropagation();speak('${v.w.replace(/'/g, "\\'")}')">🔊 發音</button>
           <button class="small ghost" onclick="event.stopPropagation();speak(${JSON.stringify(v.ex).replace(/"/g, "&quot;")})">🔊 例句</button>
+          ${v.custom ? `<button class="small ghost del-btn" onclick="event.stopPropagation();removeCustomWord(${JSON.stringify(v.w).replace(/"/g, "&quot;")})">✕ 移除</button>` : ""}
         </div>` : ""}
     </div>`;
   }).join("") : `<p class="muted">找不到「${kw}」。<a href="https://dictionary.cambridge.org/zht/詞典/英語-漢語-繁體/${encodeURIComponent(kw)}" target="_blank" rel="noopener">到劍橋詞典查 ›</a></p>`
@@ -1199,6 +1258,8 @@ function renderVocabList() {
 function saveCustomWordFromList(w) {
   const zh = (document.getElementById("vlist-add-zh")?.value || "").trim();
   if (!zh) { toast("先填中文解釋"); return; }
+  const rel = relatedExistingWord(w);
+  if (rel && !confirm(`辭典已有「${rel}」，「${w}」看起來是它的時態／單複數變化。\n建議加原形就好，確定還要加「${w}」嗎？`)) return;
   addCustomWord(w, zh, "");
   toast(`「${w}」已加入辭典，會進三關輪替`);
   renderVocabList();
