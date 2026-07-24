@@ -1363,5 +1363,103 @@
   "pos": "n.",
   "zh": "定義",
   "ex": "The manual gives a clear definition of registered mail."
+ },
+ {
+  "w": "violates",
+  "pos": "v.",
+  "zh": "違反，違背，違犯（尤指法律、協議、原則等）",
+  "ex": "Opening another person's mail violates postal regulations.",
+  "custom": true
+ },
+ {
+  "w": "creates",
+  "pos": "v.",
+  "zh": "創造；創建；創作；發明",
+  "ex": "Automated sorting creates fewer delivery errors.",
+  "custom": true
+ },
+ {
+  "w": "enforces",
+  "pos": "v.",
+  "zh": "使服從（法律）；（強制）實行，執行",
+  "ex": "The postal authority enforces strict rules on prohibited items.",
+  "custom": true
+ },
+ {
+  "w": "stimulates",
+  "pos": "v.",
+  "zh": "激發，激勵；促進",
+  "ex": "The seasonal discount stimulates demand for express delivery.",
+  "custom": true
+ },
+ {
+  "w": "glance",
+  "pos": "n./v.",
+  "zh": "瞥一眼，迅速地看一眼，掃視",
+  "ex": "She gave the address label a quick glance before sorting it.",
+  "custom": true
+ },
+ {
+  "w": "circuit",
+  "pos": "n.",
+  "zh": "巡迴；巡遊；巡迴之地",
+  "ex": "The mail carrier follows a fixed circuit through the district each morning.",
+  "custom": true
+ },
+ {
+  "w": "term",
+  "pos": "n.",
+  "zh": "期，期限",
+  "ex": "The insurance policy has a term of ten years.",
+  "custom": true
+ },
+ {
+  "w": "stroll",
+  "pos": "v./n.",
+  "zh": "散步，蹓躂",
+  "ex": "They took a stroll to the post office after lunch.",
+  "custom": true
+ },
+ {
+  "w": "persuaded",
+  "pos": "v.",
+  "zh": "勸服；說服",
+  "ex": "The clerk persuaded the customer to use registered mail.",
+  "custom": true
+ },
+ {
+  "w": "decorate",
+  "pos": "v.",
+  "zh": "裝飾，裝扮，打扮",
+  "ex": "The staff decorated the branch for the New Year holiday.",
+  "custom": true
+ },
+ {
+  "w": "celebrate",
+  "pos": "v.",
+  "zh": "慶祝，慶賀；祝賀",
+  "ex": "The company held a party to celebrate its anniversary.",
+  "custom": true
+ },
+ {
+  "w": "dynamic",
+  "pos": "adj.",
+  "zh": "思維活躍的；活潑的，充滿活力的，精力充沛的",
+  "ex": "The new manager brought a dynamic approach to counter service.",
+  "custom": true
+ },
+ {
+  "w": "experimental",
+  "pos": "adj.",
+  "zh": "（尤指科學方面）實驗（性）的，試驗（性）的",
+  "ex": "The office is testing an experimental parcel-tracking system.",
+  "custom": true
+ },
+ {
+  "w": "instant",
+  "pos": "adj.",
+  "zh": "立即的，立刻的",
+  "ex": "The app sends an instant notification when the package arrives.",
+  "custom": true
  }
 ]

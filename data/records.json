@@ -405,5 +405,69 @@
    "2": 13,
    "3": 24
   }
+ },
+ "2026-07-24": {
+  "date": "2026-07-24",
+  "drill": {
+   "count": 43,
+   "wrong": [
+    {
+     "id": "en031",
+     "subject": "英文",
+     "point": "文法：wish 假設語氣",
+     "stem": "I have met that man before. I wish I _____ his name.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "en035",
+     "subject": "英文",
+     "point": "文法：動名詞當主詞",
+     "stem": "_____ is my favorite pastime.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "mf099",
+     "subject": "民法",
+     "point": "抵押權效力及於從物",
+     "stem": "抵押權之效力，原則上及於下列何者？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "po129",
+     "subject": "郵政法規",
+     "point": "國內包裹無法遞交之程序",
+     "stem": "國內包裹無法遞交收件人時之處理方式包括：(1)退回寄件人 (2)招領15日 (3)依包裹單據或封面上指定退回。請問：依郵務營業規章規定，正確之程序為何？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "en011",
+     "subject": "英文",
+     "point": "字彙：urgent",
+     "stem": "Please send the documents by express mail; the matter is quite ______.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-24"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 30,
+   "right": 29
+  },
+  "vocabStages": {
+   "0": 6,
+   "1": 30,
+   "2": 15,
+   "3": 31
+  }
  }
 }
