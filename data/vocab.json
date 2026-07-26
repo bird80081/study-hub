@@ -1461,5 +1461,11 @@
   "zh": "立即的，立刻的",
   "ex": "The app sends an instant notification when the package arrives.",
   "custom": true
+ },
+ {
+  "w": "decline",
+  "pos": "v.",
+  "zh": "下滑、衰退",
+  "ex": "Traditional mail volume has been declining due to the rise of digital communication."
  }
 ]
