@@ -487,5 +487,132 @@
       "2": 19,
       "3": 33
     }
+  },
+  "2026-07-27": {
+    "date": "2026-07-27",
+    "drill": {
+      "count": 35,
+      "wrong": [
+        {
+          "id": "mf072",
+          "subject": "民法",
+          "point": "共有物分管契約",
+          "stem": "甲乙丙丁共有土地1筆，應有部分各為四分之一，關於分管契約下列敘述何者錯誤？",
+          "user": "B",
+          "answer": "D",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "mf102",
+          "subject": "民法",
+          "point": "拾得遺失物之報酬上限",
+          "stem": "拾得遺失物，經有受領權之人認領時，拾得人得請求報酬，其數額上限為何？",
+          "user": "B",
+          "answer": "D",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "po117",
+          "subject": "郵政法規",
+          "point": "保險契約權利之時效",
+          "stem": "依簡易人壽保險法規定，由保險契約所發生之權利，經過多久不行使而消滅？",
+          "user": "D",
+          "answer": "B",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "ch004",
+          "subject": "國文",
+          "point": "字音辨正",
+          "stem": "下列「」內的字，讀音正確的選項是：",
+          "user": "A",
+          "answer": "C",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "ch022",
+          "subject": "國文",
+          "point": "用字辨識：一籌莫展",
+          "stem": "下列選項中，用字完全正確的是：",
+          "user": "A",
+          "answer": "D",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "ch061",
+          "subject": "國文",
+          "point": "詠史判讀：周瑜",
+          "stem": "蘇軾〈念奴嬌．赤壁懷古〉：「遙想公瑾當年，小喬初嫁了，雄姿英發」，所詠之三國人物為何？",
+          "user": "D",
+          "answer": "B",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "ch043",
+          "subject": "國文",
+          "point": "公文統一用字：制定／訂定",
+          "stem": "依法律統一用字表，法律之創制用「制定」，行政命令之創制應用下列何者？",
+          "user": "C",
+          "answer": "B",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "ch040",
+          "subject": "國文",
+          "point": "稱謂：先公＝亡父",
+          "stem": "「先公為群牧判官」，句中「先公」可替換的是：（甲）先君；（乙）先嚴；（丙）先祖；（丁）先考；（戊）先慈",
+          "user": "B",
+          "answer": "D",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "ch010",
+          "subject": "國文",
+          "point": "詞語辨析：截止／截至",
+          "stem": "「報名______本月十五日下午五時止。」缺空處填入下列何者最恰當？",
+          "user": "B",
+          "answer": "A",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "en061",
+          "subject": "英文",
+          "point": "字彙：retail",
+          "stem": "Mobile payments are now widely accepted in _____ stores across the country.",
+          "user": "D",
+          "answer": "C",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "en067",
+          "subject": "英文",
+          "point": "片語：aside from",
+          "stem": "_____ the postage, you also need to pay an insurance fee for valuable items.",
+          "user": "C",
+          "answer": "A",
+          "date": "2026-07-27"
+        },
+        {
+          "id": "en021",
+          "subject": "英文",
+          "point": "字彙：addicted",
+          "stem": "James is so _____ to video games that he plays them for 8 hours almost every day!",
+          "user": "A",
+          "answer": "C",
+          "date": "2026-07-27"
+        }
+      ]
+    },
+    "exams": [],
+    "vocab": {
+      "done": 15,
+      "right": 14
+    },
+    "vocabStages": {
+      "0": 10,
+      "1": 34,
+      "2": 20,
+      "3": 39
+    }
   }
 }
