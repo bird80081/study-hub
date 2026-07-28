@@ -1491,5 +1491,96 @@
   "pos": "v.",
   "zh": "保護（protect...from/against...）",
   "ex": "Sunscreen protects skin from UV damage."
+ },
+ {
+  "w": "detail",
+  "pos": "n.",
+  "zh": "消息；細節",
+  "ex": "Please fill in your contact details on the delivery form.",
+  "custom": true
+ },
+ {
+  "w": "retail",
+  "pos": "n./v.",
+  "zh": "零售，零賣",
+  "ex": "The post office also runs a small retail counter for stationery.",
+  "custom": true
+ },
+ {
+  "w": "curtail",
+  "pos": "v.",
+  "zh": "制止；減少；縮減；限制",
+  "ex": "The branch had to curtail its opening hours during the holiday.",
+  "custom": true
+ },
+ {
+  "w": "entail",
+  "pos": "v.",
+  "zh": "使必要；牽涉",
+  "ex": "Sorting international mail entails several extra checks.",
+  "custom": true
+ },
+ {
+  "w": "praise",
+  "pos": "v./n.",
+  "zh": "讚揚，表揚",
+  "ex": "The supervisor gave praise to the staff for clearing the backlog.",
+  "custom": true
+ },
+ {
+  "w": "farewell",
+  "pos": "n.",
+  "zh": "再見，再會",
+  "ex": "The team held a farewell party for the retiring postmaster.",
+  "custom": true
+ },
+ {
+  "w": "costume",
+  "pos": "n.",
+  "zh": "（某國或某一歷史時期或適合某種活動的）服裝",
+  "ex": "Staff wore traditional costume at the anniversary event.",
+  "custom": true
+ },
+ {
+  "w": "wedding",
+  "pos": "n.",
+  "zh": "婚禮，結婚慶典",
+  "ex": "She mailed the wedding invitations by registered post.",
+  "custom": true
+ },
+ {
+  "w": "plunge",
+  "pos": "v.",
+  "zh": "（使）（某人或某物）驟然移動，驟然下降",
+  "ex": "Parcel volumes plunged after the peak shopping season ended.",
+  "custom": true
+ },
+ {
+  "w": "soar",
+  "pos": "v.",
+  "zh": "猛增，驟升",
+  "ex": "Online orders made delivery demand soar last month.",
+  "custom": true
+ },
+ {
+  "w": "ascend",
+  "pos": "v.",
+  "zh": "上升；攀登；登上",
+  "ex": "The lift ascended to the sorting floor on the top level.",
+  "custom": true
+ },
+ {
+  "w": "surge",
+  "pos": "n./v.",
+  "zh": "陡增，遽增，急遽上升",
+  "ex": "There was a surge in parcels just before the New Year holiday.",
+  "custom": true
+ },
+ {
+  "w": "inspect",
+  "pos": "v.",
+  "zh": "檢查；審視",
+  "ex": "Customs officers inspect every incoming international package.",
+  "custom": true
  }
 ]
