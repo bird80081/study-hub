@@ -614,5 +614,123 @@
       "2": 20,
       "3": 39
     }
+  },
+  "2026-07-28": {
+    "date": "2026-07-28",
+    "drill": {
+      "count": 35,
+      "wrong": [
+        {
+          "id": "po125",
+          "subject": "郵政法規",
+          "point": "逕予公告不按址投遞之郵件",
+          "stem": "依郵件處理規則規定，中華郵政公司得逕予公告後不按址投遞之郵件不包括下列何者？",
+          "user": "D",
+          "answer": "B",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "mf070",
+          "subject": "民法",
+          "point": "抵銷之限制",
+          "stem": "關於抵銷，下列敘述何者正確？",
+          "user": "A",
+          "answer": "B",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "mf101",
+          "subject": "民法",
+          "point": "盜贓遺失物之回復請求",
+          "stem": "占有物如係盜贓或遺失物，原占有人自喪失占有之時起，多久內得向占有人請求回復？",
+          "user": "A",
+          "answer": "D",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "mf073",
+          "subject": "民法",
+          "point": "區分所有建築物",
+          "stem": "關於區分所有建築物，下列敘述何者錯誤？",
+          "user": "D",
+          "answer": "C",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "mf085",
+          "subject": "民法",
+          "point": "剩餘財產差額分配請求權",
+          "stem": "生存之配偶主張有剩餘財產差額分配請求權，該請求權之消滅，自請求權人知有剩餘財產之差額時起多少期間？",
+          "user": "B",
+          "answer": "C",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "ch042",
+          "subject": "國文",
+          "point": "公文統一用字：紀錄／記錄",
+          "stem": "依公文書橫式書寫暨統一用字規定，「會議○錄」作名詞使用時，○內應填入下列何字？",
+          "user": "B",
+          "answer": "D",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "ch065",
+          "subject": "國文",
+          "point": "字音辨正：諄／迍",
+          "stem": "下列「」內之字，何者與「諄諄教誨」之「諄」讀音相同？",
+          "user": "C",
+          "answer": "D",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "ch048",
+          "subject": "國文",
+          "point": "成語運用：戶限為穿",
+          "stem": "下列何者用以形容來訪人數眾多、門庭若市？",
+          "user": "B",
+          "answer": "D",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "en058",
+          "subject": "英文",
+          "point": "字彙：farewell",
+          "stem": "The staff held a _____ party for the retiring postmaster who had served for thirty years.",
+          "user": "D",
+          "answer": "B",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "en029",
+          "subject": "英文",
+          "point": "文法：compared with",
+          "stem": "The African plantations provide almost 70% of the world's cacao, _____ with 5% from Mexico.",
+          "user": "D",
+          "answer": "A",
+          "date": "2026-07-28"
+        },
+        {
+          "id": "en055",
+          "subject": "英文",
+          "point": "文法：suggest＋動名詞",
+          "stem": "The clerk suggested _____ the fragile items with bubble wrap before shipping.",
+          "user": "C",
+          "answer": "D",
+          "date": "2026-07-28"
+        }
+      ]
+    },
+    "exams": [],
+    "vocab": {
+      "done": 30,
+      "right": 28
+    },
+    "vocabStages": {
+      "0": 11,
+      "1": 34,
+      "2": 28,
+      "3": 43
+    }
   }
 }
