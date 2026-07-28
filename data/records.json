@@ -1,736 +1,826 @@
 {
-  "2026-07-16": {
-    "date": "2026-07-16",
-    "drill": {
-      "count": 49,
-      "wrong": [
-        {
-          "id": "po055",
-          "subject": "郵政法規",
-          "point": "補償金支付期限",
-          "stem": "A 君於 112 年 6 月 10 日交寄普通掛號郵件，於 6 月 20 日辦理查詢，嗣 A 君於 6 月 25 日接獲郵局通知該掛號郵件遺失依法應予補償，經 A 君於 9 月 10 日提供交寄憑據，其補償金支付至遲應於下列何日期前為之？",
-          "user": "C",
-          "answer": "C",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "en018",
-          "subject": "英文",
-          "point": "字彙：deliberate",
-          "stem": "When Chris copied a research paper he found on the Internet, it was _____.",
-          "user": "C",
-          "answer": "A",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "en040",
-          "subject": "英文",
-          "point": "文法：with＋受詞＋分詞",
-          "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
-          "user": "B",
-          "answer": "B",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "mf011",
-          "subject": "民法",
-          "point": "侵權行為損害賠償時效",
-          "stem": "依民法規定，因侵權行為所生之損害賠償請求權，其消滅時效為何？",
-          "user": "D",
-          "answer": "C",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "po043",
-          "subject": "郵政法規",
-          "point": "保單借款扣抵",
-          "stem": "依簡易人壽保險法規定，有關保險單借款發生下列哪些事項時，其所欠之本息，應於給付之金額內扣抵之？（A.保險契約效力停止 B.保險契約終止 C.保險契約滿期 D.發生保險事故）",
-          "user": "D",
-          "answer": "A",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "po051",
-          "subject": "郵政法規",
-          "point": "機關機構之投遞",
-          "stem": "依郵件處理規則規定，郵件以其機關或機構之地址為收件地址者，有關其投遞方式，下列敘述何者錯誤？",
-          "user": "C",
-          "answer": "B",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "po017",
-          "subject": "郵政法規",
-          "point": "郵政核心資通系統",
-          "stem": "依郵政法規定，郵政核心資通系統係指中華郵政公司支持何種業務持續運作必要或防護需求等級為高之該種業務資通系統？（A.郵務業務 B.儲金及匯兌業務 C.壽險業務）",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "po045",
-          "subject": "郵政法規",
-          "point": "簡易壽險綜合",
-          "stem": "依簡易人壽保險法規定，下列敘述何者正確？（A.保險人不得代位行使要保人或受益人因保險事故所生對於第三人之請求權 B.由保險契約所發生之權利，自得為請求之日起，逾五年不行使而消滅 C.郵政簡易人壽保險之會計帳務，應獨立處理之 D.中華郵政公司經依本法規定處罰並限期令其改正後，屆期仍不改正者，不得按次連續處罰）",
-          "user": "D",
-          "answer": "A",
-          "date": "2026-07-16"
-        },
-        {
-          "id": "mf029",
-          "subject": "民法",
-          "point": "抵押權之標的",
-          "stem": "下列何者得為設定抵押權之標的？",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-16"
-        }
-      ]
+ "2026-07-16": {
+  "date": "2026-07-16",
+  "drill": {
+   "count": 49,
+   "wrong": [
+    {
+     "id": "po055",
+     "subject": "郵政法規",
+     "point": "補償金支付期限",
+     "stem": "A 君於 112 年 6 月 10 日交寄普通掛號郵件，於 6 月 20 日辦理查詢，嗣 A 君於 6 月 25 日接獲郵局通知該掛號郵件遺失依法應予補償，經 A 君於 9 月 10 日提供交寄憑據，其補償金支付至遲應於下列何日期前為之？",
+     "user": "C",
+     "answer": "C",
+     "date": "2026-07-16"
     },
-    "exams": [
-      {
-        "title": "郵政法規迷你卷 01",
-        "subject": "郵政法規",
-        "mcScore": 28,
-        "mcMax": 30,
-        "mcRight": 14,
-        "mcTotal": 15
-      }
-    ],
-    "vocabStages": {
-      "0": 2,
-      "1": 14,
-      "2": 10,
-      "3": 3
+    {
+     "id": "en018",
+     "subject": "英文",
+     "point": "字彙：deliberate",
+     "stem": "When Chris copied a research paper he found on the Internet, it was _____.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "en040",
+     "subject": "英文",
+     "point": "文法：with＋受詞＋分詞",
+     "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
+     "user": "B",
+     "answer": "B",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "mf011",
+     "subject": "民法",
+     "point": "侵權行為損害賠償時效",
+     "stem": "依民法規定，因侵權行為所生之損害賠償請求權，其消滅時效為何？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "po043",
+     "subject": "郵政法規",
+     "point": "保單借款扣抵",
+     "stem": "依簡易人壽保險法規定，有關保險單借款發生下列哪些事項時，其所欠之本息，應於給付之金額內扣抵之？（A.保險契約效力停止 B.保險契約終止 C.保險契約滿期 D.發生保險事故）",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "po051",
+     "subject": "郵政法規",
+     "point": "機關機構之投遞",
+     "stem": "依郵件處理規則規定，郵件以其機關或機構之地址為收件地址者，有關其投遞方式，下列敘述何者錯誤？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "po017",
+     "subject": "郵政法規",
+     "point": "郵政核心資通系統",
+     "stem": "依郵政法規定，郵政核心資通系統係指中華郵政公司支持何種業務持續運作必要或防護需求等級為高之該種業務資通系統？（A.郵務業務 B.儲金及匯兌業務 C.壽險業務）",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "po045",
+     "subject": "郵政法規",
+     "point": "簡易壽險綜合",
+     "stem": "依簡易人壽保險法規定，下列敘述何者正確？（A.保險人不得代位行使要保人或受益人因保險事故所生對於第三人之請求權 B.由保險契約所發生之權利，自得為請求之日起，逾五年不行使而消滅 C.郵政簡易人壽保險之會計帳務，應獨立處理之 D.中華郵政公司經依本法規定處罰並限期令其改正後，屆期仍不改正者，不得按次連續處罰）",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-07-16"
+    },
+    {
+     "id": "mf029",
+     "subject": "民法",
+     "point": "抵押權之標的",
+     "stem": "下列何者得為設定抵押權之標的？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-16"
     }
+   ]
   },
-  "2026-07-20": {
-    "date": "2026-07-20",
-    "drill": {
-      "count": 26,
-      "wrong": [
-        {
-          "id": "mf043",
-          "subject": "民法",
-          "point": "共有物不分割約定期限",
-          "stem": "依民法規定，共有人以契約約定共有物不分割之期限，最長不得逾多久？",
-          "user": "A",
-          "answer": "C",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "mf045",
-          "subject": "民法",
-          "point": "承攬瑕疵發見期間",
-          "stem": "依民法規定，承攬之工作（非建築物或其他土地上之工作物），其瑕疵自工作交付後經過多久始發見者，定作人不得再主張瑕疵擔保權利？",
-          "user": "B",
-          "answer": "A",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "mf065",
-          "subject": "民法",
-          "point": "輔助宣告",
-          "stem": "依民法規定，因精神障礙或其他心智缺陷，致其為意思表示、受意思表示或辨識其效果之能力「顯有不足」者，法院得為下列何種宣告？",
-          "user": "C",
-          "answer": "B",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "po078",
-          "subject": "郵政法規",
-          "point": "郵資機符誌彙印",
-          "stem": "依郵務營業規章規定，寄件人一次交寄之函件或小包達多少件以上且種類相同者，得將郵資總數彙印郵資券交由郵局核驗？",
-          "user": "B",
-          "answer": "A",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "en053",
-          "subject": "英文",
-          "point": "文法：the＋比較級",
-          "stem": "The sooner you mail the package, _____ it will arrive.",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "en043",
-          "subject": "英文",
-          "point": "文法：不可數名詞 much",
-          "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
-          "user": "A",
-          "answer": "C",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "en064",
-          "subject": "英文",
-          "point": "字彙：vulnerable",
-          "stem": "Elderly customers are more _____ to telephone scams, so counter clerks are trained to remind them.",
-          "user": "C",
-          "answer": "A",
-          "date": "2026-07-20"
-        },
-        {
-          "id": "en024",
-          "subject": "英文",
-          "point": "字彙：inform",
-          "stem": "Before going out, always _____ your parents of your plans.",
-          "user": "A",
-          "answer": "B",
-          "date": "2026-07-20"
-        }
-      ]
-    },
-    "exams": [],
-    "vocabStages": {
-      "0": 2,
-      "1": 17,
-      "2": 10,
-      "3": 7
-    }
-  },
-  "2026-07-21": {
-    "date": "2026-07-21",
-    "drill": {
-      "count": 30,
-      "wrong": [
-        {
-          "id": "mf064",
-          "subject": "民法",
-          "point": "抵押權之次序",
-          "stem": "依民法規定，不動產所有人因擔保數債權，就同一不動產設定數抵押權者，其次序如何定之？",
-          "user": "A",
-          "answer": "B",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "po068",
-          "subject": "郵政法規",
-          "point": "新聞紙雜誌登記應檢附刊物",
-          "stem": "依郵務營業規章規定，新聞紙或雜誌申請交寄登記時，應檢附最近出刊之該刊物幾份？",
-          "user": "B",
-          "answer": "A",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "po071",
-          "subject": "郵政法規",
-          "point": "零星補寄件數",
-          "stem": "依郵務營業規章規定，新聞紙或雜誌之零星補寄，以多少件以內為限？",
-          "user": "A",
-          "answer": "D",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "en051",
-          "subject": "英文",
-          "point": "文法：現在完成式 for",
-          "stem": "Ms. Lin has worked at the post office _____ more than ten years.",
-          "user": "A",
-          "answer": "C",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "ch060",
-          "subject": "國文",
-          "point": "文意填空：菜根譚",
-          "stem": "「風來疏竹，風過而竹不留聲；雁渡寒潭，雁去而潭不留影；故君子事來而心始現，事去而心隨□。」（《菜根譚》）□內最適合填入：",
-          "user": "D",
-          "answer": "B",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "en066",
-          "subject": "英文",
-          "point": "文法：have trouble＋動名詞",
-          "stem": "Many people have trouble _____ all their passwords for different accounts.",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "ch056",
-          "subject": "國文",
-          "point": "字音辨正：載",
-          "stem": "「一年半載」與「載歌載舞」中「載」字之讀音，下列何者正確？",
-          "user": "B",
-          "answer": "C",
-          "date": "2026-07-21"
-        },
-        {
-          "id": "ch050",
-          "subject": "國文",
-          "point": "借代詞語：桑梓",
-          "stem": "古文中「桑梓」一詞，借代下列何者？",
-          "user": "A",
-          "answer": "B",
-          "date": "2026-07-21"
-        }
-      ]
-    },
-    "exams": [],
-    "vocabStages": {
-      "0": 2,
-      "1": 23,
-      "2": 8,
-      "3": 16
-    }
-  },
-  "2026-07-22": {
-    "date": "2026-07-22",
-    "drill": {
-      "count": 35,
-      "wrong": [
-        {
-          "id": "mf057",
-          "subject": "民法",
-          "point": "共有物之處分",
-          "stem": "依民法規定，共有物之處分、變更及設定負擔，應得何人之同意？",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "po072",
-          "subject": "郵政法規",
-          "point": "無法投遞新聞紙雜誌之領回",
-          "stem": "依郵件處理規則等規定，無法投遞之國內非掛號新聞紙、雜誌退回原寄局後，發單通知寄件人自通知之次日起幾日內至指定郵局補付郵資領回？",
-          "user": "A",
-          "answer": "D",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "ch049",
-          "subject": "國文",
-          "point": "成語運用：汗牛充棟",
-          "stem": "下列成語，何者專用於形容「書籍極多」？",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "en063",
-          "subject": "英文",
-          "point": "字彙：severe",
-          "stem": "Due to the _____ typhoon warning, all mail deliveries were suspended for two days.",
-          "user": "A",
-          "answer": "D",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "ch002",
-          "subject": "國文",
-          "point": "公文稱謂語",
-          "stem": "機關對所屬下級機關行文，自稱與對方稱謂，下列何者正確？",
-          "user": "A",
-          "answer": "D",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "en050",
-          "subject": "英文",
-          "point": "字彙：destination",
-          "stem": "Please make sure the parcel's _____ address is written clearly.",
-          "user": "A",
-          "answer": "B",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "ch039",
-          "subject": "國文",
-          "point": "論語為學歷程：耳順",
-          "stem": "《論語．為政》中孔子自述為學的歷程和進境，下列何者為六十歲的境界？",
-          "user": "B",
-          "answer": "C",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "po053",
-          "subject": "郵政法規",
-          "point": "存證信函",
-          "stem": "依郵件處理規則規定，有關存證信函，下列敘述何者錯誤？",
-          "user": "C",
-          "answer": "A",
-          "date": "2026-07-22"
-        }
-      ]
-    },
-    "exams": [],
-    "vocab": {
-      "done": 12,
-      "right": 10
-    },
-    "vocabStages": {
-      "0": 4,
-      "1": 20,
-      "2": 13,
-      "3": 17
-    }
-  },
-  "2026-07-23": {
-    "date": "2026-07-23",
-    "drill": {
-      "count": 30,
-      "wrong": [
-        {
-          "id": "en060",
-          "subject": "英文",
-          "point": "字彙：glance",
-          "stem": "I only took a quick _____ at the notice board, so I missed the details of the schedule change.",
-          "user": "B",
-          "answer": "A",
-          "date": "2026-07-23"
-        },
-        {
-          "id": "ch064",
-          "subject": "國文",
-          "point": "地名判讀：錦官城",
-          "stem": "杜甫〈蜀相〉：「丞相祠堂何處尋？錦官城外柏森森」，「錦官城」指今日何地？",
-          "user": "C",
-          "answer": "A",
-          "date": "2026-07-23"
-        }
-      ]
-    },
-    "exams": [],
-    "vocab": {
-      "done": 30,
-      "right": 28
-    },
-    "vocabStages": {
-      "0": 5,
-      "1": 26,
-      "2": 13,
-      "3": 24
-    }
-  },
-  "2026-07-24": {
-    "date": "2026-07-24",
-    "drill": {
-      "count": 43,
-      "wrong": [
-        {
-          "id": "en031",
-          "subject": "英文",
-          "point": "文法：wish 假設語氣",
-          "stem": "I have met that man before. I wish I _____ his name.",
-          "user": "A",
-          "answer": "C",
-          "date": "2026-07-24"
-        },
-        {
-          "id": "en035",
-          "subject": "英文",
-          "point": "文法：動名詞當主詞",
-          "stem": "_____ is my favorite pastime.",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-24"
-        },
-        {
-          "id": "mf099",
-          "subject": "民法",
-          "point": "抵押權效力及於從物",
-          "stem": "抵押權之效力，原則上及於下列何者？",
-          "user": "B",
-          "answer": "C",
-          "date": "2026-07-24"
-        },
-        {
-          "id": "po129",
-          "subject": "郵政法規",
-          "point": "國內包裹無法遞交之程序",
-          "stem": "國內包裹無法遞交收件人時之處理方式包括：(1)退回寄件人 (2)招領15日 (3)依包裹單據或封面上指定退回。請問：依郵務營業規章規定，正確之程序為何？",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-24"
-        },
-        {
-          "id": "en011",
-          "subject": "英文",
-          "point": "字彙：urgent",
-          "stem": "Please send the documents by express mail; the matter is quite ______.",
-          "user": "A",
-          "answer": "B",
-          "date": "2026-07-24"
-        }
-      ]
-    },
-    "exams": [],
-    "vocab": {
-      "done": 30,
-      "right": 29
-    },
-    "vocabStages": {
-      "0": 6,
-      "1": 30,
-      "2": 15,
-      "3": 31
-    }
-  },
-  "2026-07-25": {
-    "date": "2026-07-25",
-    "drill": {
-      "count": 0,
-      "wrong": []
-    },
-    "exams": [],
-    "vocab": {
-      "done": 15,
-      "right": 13
-    },
-    "vocabStages": {
-      "0": 8,
-      "1": 29,
-      "2": 19,
-      "3": 33
-    }
-  },
-  "2026-07-27": {
-    "date": "2026-07-27",
-    "drill": {
-      "count": 35,
-      "wrong": [
-        {
-          "id": "mf072",
-          "subject": "民法",
-          "point": "共有物分管契約",
-          "stem": "甲乙丙丁共有土地1筆，應有部分各為四分之一，關於分管契約下列敘述何者錯誤？",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "mf102",
-          "subject": "民法",
-          "point": "拾得遺失物之報酬上限",
-          "stem": "拾得遺失物，經有受領權之人認領時，拾得人得請求報酬，其數額上限為何？",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "po117",
-          "subject": "郵政法規",
-          "point": "保險契約權利之時效",
-          "stem": "依簡易人壽保險法規定，由保險契約所發生之權利，經過多久不行使而消滅？",
-          "user": "D",
-          "answer": "B",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "ch004",
-          "subject": "國文",
-          "point": "字音辨正",
-          "stem": "下列「」內的字，讀音正確的選項是：",
-          "user": "A",
-          "answer": "C",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "ch022",
-          "subject": "國文",
-          "point": "用字辨識：一籌莫展",
-          "stem": "下列選項中，用字完全正確的是：",
-          "user": "A",
-          "answer": "D",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "ch061",
-          "subject": "國文",
-          "point": "詠史判讀：周瑜",
-          "stem": "蘇軾〈念奴嬌．赤壁懷古〉：「遙想公瑾當年，小喬初嫁了，雄姿英發」，所詠之三國人物為何？",
-          "user": "D",
-          "answer": "B",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "ch043",
-          "subject": "國文",
-          "point": "公文統一用字：制定／訂定",
-          "stem": "依法律統一用字表，法律之創制用「制定」，行政命令之創制應用下列何者？",
-          "user": "C",
-          "answer": "B",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "ch040",
-          "subject": "國文",
-          "point": "稱謂：先公＝亡父",
-          "stem": "「先公為群牧判官」，句中「先公」可替換的是：（甲）先君；（乙）先嚴；（丙）先祖；（丁）先考；（戊）先慈",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "ch010",
-          "subject": "國文",
-          "point": "詞語辨析：截止／截至",
-          "stem": "「報名______本月十五日下午五時止。」缺空處填入下列何者最恰當？",
-          "user": "B",
-          "answer": "A",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "en061",
-          "subject": "英文",
-          "point": "字彙：retail",
-          "stem": "Mobile payments are now widely accepted in _____ stores across the country.",
-          "user": "D",
-          "answer": "C",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "en067",
-          "subject": "英文",
-          "point": "片語：aside from",
-          "stem": "_____ the postage, you also need to pay an insurance fee for valuable items.",
-          "user": "C",
-          "answer": "A",
-          "date": "2026-07-27"
-        },
-        {
-          "id": "en021",
-          "subject": "英文",
-          "point": "字彙：addicted",
-          "stem": "James is so _____ to video games that he plays them for 8 hours almost every day!",
-          "user": "A",
-          "answer": "C",
-          "date": "2026-07-27"
-        }
-      ]
-    },
-    "exams": [],
-    "vocab": {
-      "done": 15,
-      "right": 14
-    },
-    "vocabStages": {
-      "0": 10,
-      "1": 34,
-      "2": 20,
-      "3": 39
-    }
-  },
-  "2026-07-28": {
-    "date": "2026-07-28",
-    "drill": {
-      "count": 35,
-      "wrong": [
-        {
-          "id": "po125",
-          "subject": "郵政法規",
-          "point": "逕予公告不按址投遞之郵件",
-          "stem": "依郵件處理規則規定，中華郵政公司得逕予公告後不按址投遞之郵件不包括下列何者？",
-          "user": "D",
-          "answer": "B",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "mf070",
-          "subject": "民法",
-          "point": "抵銷之限制",
-          "stem": "關於抵銷，下列敘述何者正確？",
-          "user": "A",
-          "answer": "B",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "mf101",
-          "subject": "民法",
-          "point": "盜贓遺失物之回復請求",
-          "stem": "占有物如係盜贓或遺失物，原占有人自喪失占有之時起，多久內得向占有人請求回復？",
-          "user": "A",
-          "answer": "D",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "mf073",
-          "subject": "民法",
-          "point": "區分所有建築物",
-          "stem": "關於區分所有建築物，下列敘述何者錯誤？",
-          "user": "D",
-          "answer": "C",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "mf085",
-          "subject": "民法",
-          "point": "剩餘財產差額分配請求權",
-          "stem": "生存之配偶主張有剩餘財產差額分配請求權，該請求權之消滅，自請求權人知有剩餘財產之差額時起多少期間？",
-          "user": "B",
-          "answer": "C",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "ch042",
-          "subject": "國文",
-          "point": "公文統一用字：紀錄／記錄",
-          "stem": "依公文書橫式書寫暨統一用字規定，「會議○錄」作名詞使用時，○內應填入下列何字？",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "ch065",
-          "subject": "國文",
-          "point": "字音辨正：諄／迍",
-          "stem": "下列「」內之字，何者與「諄諄教誨」之「諄」讀音相同？",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "ch048",
-          "subject": "國文",
-          "point": "成語運用：戶限為穿",
-          "stem": "下列何者用以形容來訪人數眾多、門庭若市？",
-          "user": "B",
-          "answer": "D",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "en058",
-          "subject": "英文",
-          "point": "字彙：farewell",
-          "stem": "The staff held a _____ party for the retiring postmaster who had served for thirty years.",
-          "user": "D",
-          "answer": "B",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "en029",
-          "subject": "英文",
-          "point": "文法：compared with",
-          "stem": "The African plantations provide almost 70% of the world's cacao, _____ with 5% from Mexico.",
-          "user": "D",
-          "answer": "A",
-          "date": "2026-07-28"
-        },
-        {
-          "id": "en055",
-          "subject": "英文",
-          "point": "文法：suggest＋動名詞",
-          "stem": "The clerk suggested _____ the fragile items with bubble wrap before shipping.",
-          "user": "C",
-          "answer": "D",
-          "date": "2026-07-28"
-        }
-      ]
-    },
-    "exams": [],
-    "vocab": {
-      "done": 30,
-      "right": 28
-    },
-    "vocabStages": {
-      "0": 11,
-      "1": 34,
-      "2": 28,
-      "3": 43
-    }
+  "exams": [
+   {
+    "title": "郵政法規迷你卷 01",
+    "subject": "郵政法規",
+    "mcScore": 28,
+    "mcMax": 30,
+    "mcRight": 14,
+    "mcTotal": 15
+   }
+  ],
+  "vocabStages": {
+   "0": 2,
+   "1": 14,
+   "2": 10,
+   "3": 3
   }
+ },
+ "2026-07-20": {
+  "date": "2026-07-20",
+  "drill": {
+   "count": 26,
+   "wrong": [
+    {
+     "id": "mf043",
+     "subject": "民法",
+     "point": "共有物不分割約定期限",
+     "stem": "依民法規定，共有人以契約約定共有物不分割之期限，最長不得逾多久？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "mf045",
+     "subject": "民法",
+     "point": "承攬瑕疵發見期間",
+     "stem": "依民法規定，承攬之工作（非建築物或其他土地上之工作物），其瑕疵自工作交付後經過多久始發見者，定作人不得再主張瑕疵擔保權利？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "mf065",
+     "subject": "民法",
+     "point": "輔助宣告",
+     "stem": "依民法規定，因精神障礙或其他心智缺陷，致其為意思表示、受意思表示或辨識其效果之能力「顯有不足」者，法院得為下列何種宣告？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "po078",
+     "subject": "郵政法規",
+     "point": "郵資機符誌彙印",
+     "stem": "依郵務營業規章規定，寄件人一次交寄之函件或小包達多少件以上且種類相同者，得將郵資總數彙印郵資券交由郵局核驗？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en053",
+     "subject": "英文",
+     "point": "文法：the＋比較級",
+     "stem": "The sooner you mail the package, _____ it will arrive.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en043",
+     "subject": "英文",
+     "point": "文法：不可數名詞 much",
+     "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en064",
+     "subject": "英文",
+     "point": "字彙：vulnerable",
+     "stem": "Elderly customers are more _____ to telephone scams, so counter clerks are trained to remind them.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "en024",
+     "subject": "英文",
+     "point": "字彙：inform",
+     "stem": "Before going out, always _____ your parents of your plans.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-20"
+    }
+   ]
+  },
+  "exams": [],
+  "vocabStages": {
+   "0": 2,
+   "1": 17,
+   "2": 10,
+   "3": 7
+  }
+ },
+ "2026-07-21": {
+  "date": "2026-07-21",
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "mf064",
+     "subject": "民法",
+     "point": "抵押權之次序",
+     "stem": "依民法規定，不動產所有人因擔保數債權，就同一不動產設定數抵押權者，其次序如何定之？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "po068",
+     "subject": "郵政法規",
+     "point": "新聞紙雜誌登記應檢附刊物",
+     "stem": "依郵務營業規章規定，新聞紙或雜誌申請交寄登記時，應檢附最近出刊之該刊物幾份？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "po071",
+     "subject": "郵政法規",
+     "point": "零星補寄件數",
+     "stem": "依郵務營業規章規定，新聞紙或雜誌之零星補寄，以多少件以內為限？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "en051",
+     "subject": "英文",
+     "point": "文法：現在完成式 for",
+     "stem": "Ms. Lin has worked at the post office _____ more than ten years.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "ch060",
+     "subject": "國文",
+     "point": "文意填空：菜根譚",
+     "stem": "「風來疏竹，風過而竹不留聲；雁渡寒潭，雁去而潭不留影；故君子事來而心始現，事去而心隨□。」（《菜根譚》）□內最適合填入：",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "en066",
+     "subject": "英文",
+     "point": "文法：have trouble＋動名詞",
+     "stem": "Many people have trouble _____ all their passwords for different accounts.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "ch056",
+     "subject": "國文",
+     "point": "字音辨正：載",
+     "stem": "「一年半載」與「載歌載舞」中「載」字之讀音，下列何者正確？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-21"
+    },
+    {
+     "id": "ch050",
+     "subject": "國文",
+     "point": "借代詞語：桑梓",
+     "stem": "古文中「桑梓」一詞，借代下列何者？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-21"
+    }
+   ]
+  },
+  "exams": [],
+  "vocabStages": {
+   "0": 2,
+   "1": 23,
+   "2": 8,
+   "3": 16
+  }
+ },
+ "2026-07-22": {
+  "date": "2026-07-22",
+  "drill": {
+   "count": 35,
+   "wrong": [
+    {
+     "id": "mf057",
+     "subject": "民法",
+     "point": "共有物之處分",
+     "stem": "依民法規定，共有物之處分、變更及設定負擔，應得何人之同意？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "po072",
+     "subject": "郵政法規",
+     "point": "無法投遞新聞紙雜誌之領回",
+     "stem": "依郵件處理規則等規定，無法投遞之國內非掛號新聞紙、雜誌退回原寄局後，發單通知寄件人自通知之次日起幾日內至指定郵局補付郵資領回？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "ch049",
+     "subject": "國文",
+     "point": "成語運用：汗牛充棟",
+     "stem": "下列成語，何者專用於形容「書籍極多」？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "en063",
+     "subject": "英文",
+     "point": "字彙：severe",
+     "stem": "Due to the _____ typhoon warning, all mail deliveries were suspended for two days.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "ch002",
+     "subject": "國文",
+     "point": "公文稱謂語",
+     "stem": "機關對所屬下級機關行文，自稱與對方稱謂，下列何者正確？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "en050",
+     "subject": "英文",
+     "point": "字彙：destination",
+     "stem": "Please make sure the parcel's _____ address is written clearly.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "ch039",
+     "subject": "國文",
+     "point": "論語為學歷程：耳順",
+     "stem": "《論語．為政》中孔子自述為學的歷程和進境，下列何者為六十歲的境界？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "po053",
+     "subject": "郵政法規",
+     "point": "存證信函",
+     "stem": "依郵件處理規則規定，有關存證信函，下列敘述何者錯誤？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-22"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 12,
+   "right": 10
+  },
+  "vocabStages": {
+   "0": 4,
+   "1": 20,
+   "2": 13,
+   "3": 17
+  }
+ },
+ "2026-07-23": {
+  "date": "2026-07-23",
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "en060",
+     "subject": "英文",
+     "point": "字彙：glance",
+     "stem": "I only took a quick _____ at the notice board, so I missed the details of the schedule change.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-23"
+    },
+    {
+     "id": "ch064",
+     "subject": "國文",
+     "point": "地名判讀：錦官城",
+     "stem": "杜甫〈蜀相〉：「丞相祠堂何處尋？錦官城外柏森森」，「錦官城」指今日何地？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-23"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 30,
+   "right": 28
+  },
+  "vocabStages": {
+   "0": 5,
+   "1": 26,
+   "2": 13,
+   "3": 24
+  }
+ },
+ "2026-07-24": {
+  "date": "2026-07-24",
+  "drill": {
+   "count": 43,
+   "wrong": [
+    {
+     "id": "en031",
+     "subject": "英文",
+     "point": "文法：wish 假設語氣",
+     "stem": "I have met that man before. I wish I _____ his name.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "en035",
+     "subject": "英文",
+     "point": "文法：動名詞當主詞",
+     "stem": "_____ is my favorite pastime.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "mf099",
+     "subject": "民法",
+     "point": "抵押權效力及於從物",
+     "stem": "抵押權之效力，原則上及於下列何者？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "po129",
+     "subject": "郵政法規",
+     "point": "國內包裹無法遞交之程序",
+     "stem": "國內包裹無法遞交收件人時之處理方式包括：(1)退回寄件人 (2)招領15日 (3)依包裹單據或封面上指定退回。請問：依郵務營業規章規定，正確之程序為何？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-24"
+    },
+    {
+     "id": "en011",
+     "subject": "英文",
+     "point": "字彙：urgent",
+     "stem": "Please send the documents by express mail; the matter is quite ______.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-24"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 30,
+   "right": 29
+  },
+  "vocabStages": {
+   "0": 6,
+   "1": 30,
+   "2": 15,
+   "3": 31
+  }
+ },
+ "2026-07-25": {
+  "date": "2026-07-25",
+  "drill": {
+   "count": 0,
+   "wrong": []
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 13
+  },
+  "vocabStages": {
+   "0": 8,
+   "1": 29,
+   "2": 19,
+   "3": 33
+  }
+ },
+ "2026-07-27": {
+  "date": "2026-07-27",
+  "drill": {
+   "count": 35,
+   "wrong": [
+    {
+     "id": "mf072",
+     "subject": "民法",
+     "point": "共有物分管契約",
+     "stem": "甲乙丙丁共有土地1筆，應有部分各為四分之一，關於分管契約下列敘述何者錯誤？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "mf102",
+     "subject": "民法",
+     "point": "拾得遺失物之報酬上限",
+     "stem": "拾得遺失物，經有受領權之人認領時，拾得人得請求報酬，其數額上限為何？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "po117",
+     "subject": "郵政法規",
+     "point": "保險契約權利之時效",
+     "stem": "依簡易人壽保險法規定，由保險契約所發生之權利，經過多久不行使而消滅？",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "ch004",
+     "subject": "國文",
+     "point": "字音辨正",
+     "stem": "下列「」內的字，讀音正確的選項是：",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "ch022",
+     "subject": "國文",
+     "point": "用字辨識：一籌莫展",
+     "stem": "下列選項中，用字完全正確的是：",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "ch061",
+     "subject": "國文",
+     "point": "詠史判讀：周瑜",
+     "stem": "蘇軾〈念奴嬌．赤壁懷古〉：「遙想公瑾當年，小喬初嫁了，雄姿英發」，所詠之三國人物為何？",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "ch043",
+     "subject": "國文",
+     "point": "公文統一用字：制定／訂定",
+     "stem": "依法律統一用字表，法律之創制用「制定」，行政命令之創制應用下列何者？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "ch040",
+     "subject": "國文",
+     "point": "稱謂：先公＝亡父",
+     "stem": "「先公為群牧判官」，句中「先公」可替換的是：（甲）先君；（乙）先嚴；（丙）先祖；（丁）先考；（戊）先慈",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "ch010",
+     "subject": "國文",
+     "point": "詞語辨析：截止／截至",
+     "stem": "「報名______本月十五日下午五時止。」缺空處填入下列何者最恰當？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "en061",
+     "subject": "英文",
+     "point": "字彙：retail",
+     "stem": "Mobile payments are now widely accepted in _____ stores across the country.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "en067",
+     "subject": "英文",
+     "point": "片語：aside from",
+     "stem": "_____ the postage, you also need to pay an insurance fee for valuable items.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "en021",
+     "subject": "英文",
+     "point": "字彙：addicted",
+     "stem": "James is so _____ to video games that he plays them for 8 hours almost every day!",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-27"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 14
+  },
+  "vocabStages": {
+   "0": 10,
+   "1": 34,
+   "2": 20,
+   "3": 39
+  }
+ },
+ "2026-07-28": {
+  "date": "2026-07-28",
+  "drill": {
+   "count": 35,
+   "wrong": [
+    {
+     "id": "po125",
+     "subject": "郵政法規",
+     "point": "逕予公告不按址投遞之郵件",
+     "stem": "依郵件處理規則規定，中華郵政公司得逕予公告後不按址投遞之郵件不包括下列何者？",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "mf070",
+     "subject": "民法",
+     "point": "抵銷之限制",
+     "stem": "關於抵銷，下列敘述何者正確？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "mf101",
+     "subject": "民法",
+     "point": "盜贓遺失物之回復請求",
+     "stem": "占有物如係盜贓或遺失物，原占有人自喪失占有之時起，多久內得向占有人請求回復？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "mf073",
+     "subject": "民法",
+     "point": "區分所有建築物",
+     "stem": "關於區分所有建築物，下列敘述何者錯誤？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "mf085",
+     "subject": "民法",
+     "point": "剩餘財產差額分配請求權",
+     "stem": "生存之配偶主張有剩餘財產差額分配請求權，該請求權之消滅，自請求權人知有剩餘財產之差額時起多少期間？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "ch042",
+     "subject": "國文",
+     "point": "公文統一用字：紀錄／記錄",
+     "stem": "依公文書橫式書寫暨統一用字規定，「會議○錄」作名詞使用時，○內應填入下列何字？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "ch065",
+     "subject": "國文",
+     "point": "字音辨正：諄／迍",
+     "stem": "下列「」內之字，何者與「諄諄教誨」之「諄」讀音相同？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "ch048",
+     "subject": "國文",
+     "point": "成語運用：戶限為穿",
+     "stem": "下列何者用以形容來訪人數眾多、門庭若市？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "en058",
+     "subject": "英文",
+     "point": "字彙：farewell",
+     "stem": "The staff held a _____ party for the retiring postmaster who had served for thirty years.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "en029",
+     "subject": "英文",
+     "point": "文法：compared with",
+     "stem": "The African plantations provide almost 70% of the world's cacao, _____ with 5% from Mexico.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-07-28"
+    },
+    {
+     "id": "en055",
+     "subject": "英文",
+     "point": "文法：suggest＋動名詞",
+     "stem": "The clerk suggested _____ the fragile items with bubble wrap before shipping.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-28"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 30,
+   "right": 28
+  },
+  "vocabStages": {
+   "0": 11,
+   "1": 34,
+   "2": 28,
+   "3": 43
+  }
+ },
+ "2026-07-29": {
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "po124",
+     "subject": "郵政法規",
+     "point": "疑裝禁寄物品之拆驗",
+     "stem": "依郵件處理規則規定，郵局認為郵件內裝有禁寄之文件或物品，或夾寄他人郵件者，其處理方式，下列何者不正確？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "mf080",
+     "subject": "民法",
+     "point": "贈與撤銷權之期間",
+     "stem": "贈與人得撤銷其贈與，其撤銷權之消滅，自贈與人知有撤銷原因之時起算期間為何？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "mf092",
+     "subject": "民法",
+     "point": "應有部分之處分",
+     "stem": "各共有人對其「應有部分」，得如何處分？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "mf097",
+     "subject": "民法",
+     "point": "最高限額抵押權之確定期日",
+     "stem": "最高限額抵押權得約定所擔保原債權應確定之期日，該期日自約定之日起不得逾多少年？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "mf091",
+     "subject": "民法",
+     "point": "共有物之保存行為",
+     "stem": "共有物之簡易修繕及其他保存行為，得由何人為之？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "ch035",
+     "subject": "國文",
+     "point": "文言詞義：星星（髮白）",
+     "stem": "歐陽修〈秋聲賦〉「宜其渥然丹者為槁木，黟然黑者為星星。奈何非金石之質，欲與草木而爭榮？」由上下文推知「星星」乃謂：",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "ch053",
+     "subject": "國文",
+     "point": "稱謂：家嚴",
+     "stem": "對他人稱呼自己的父親，宜用下列何者？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-07-29"
+    },
+    {
+     "id": "ch066",
+     "subject": "國文",
+     "point": "文意理解：捲簾面孔",
+     "stem": "「不塗脂粉的男人的臉，也有「捲簾」一格，外面擺著一副面孔，在適當的時候，呱嗒一聲如簾子一般捲起，另露出一副面孔。」文中「捲簾」所形容之意最接近下列何者？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-29"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 14
+  },
+  "vocabStages": {
+   "0": 11,
+   "1": 35,
+   "2": 30,
+   "3": 46
+  }
+ }
 }
