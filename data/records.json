@@ -822,5 +822,68 @@
    "2": 30,
    "3": 46
   }
+ },
+ "2026-07-30": {
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "mf072",
+     "subject": "民法",
+     "point": "共有物分管契約",
+     "stem": "甲乙丙丁共有土地1筆，應有部分各為四分之一，關於分管契約下列敘述何者錯誤？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-07-30"
+    },
+    {
+     "id": "po114",
+     "subject": "郵政法規",
+     "point": "停效後之復效期間",
+     "stem": "依簡易人壽保險法規定，下列有關簡易人壽保險契約停止效力後之敘述何者正確？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-07-30"
+    },
+    {
+     "id": "en014",
+     "subject": "英文",
+     "point": "字彙：violate",
+     "stem": "The police officer said playing loud music after midnight _____ noise laws.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-07-30"
+    },
+    {
+     "id": "ch045",
+     "subject": "國文",
+     "point": "題辭：賀新婚",
+     "stem": "下列題辭，何者適用於祝賀新婚？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-07-30"
+    },
+    {
+     "id": "ch025",
+     "subject": "國文",
+     "point": "文學常識：詩中有畫",
+     "stem": "被蘇軾譽為「詩中有畫，畫中有詩」的是哪一位唐代詩人？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-07-30"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 14
+  },
+  "vocabStages": {
+   "0": 12,
+   "1": 38,
+   "2": 28,
+   "3": 51
+  }
  }
 }
