@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>7/31 模考錯題檢討</title>
+</head>
+<body>
+
+<style>
+  :root {
+    --paper: #f4f6f2;
+    --paper-2: #ffffff;
+    --ink: #1c241e;
+    --ink-2: #4a564d;
+    --ink-3: #77857a;
+    --rule: #d9e0d6;
+    --green: #12633c;
+    --green-soft: #e3ede5;
+    --red: #a8302a;
+    --red-soft: #f7e6e4;
+    --gold: #8a6a1f;
+    --shadow: 0 1px 2px rgba(28,36,30,.06), 0 8px 24px -16px rgba(28,36,30,.28);
+
+    --sans: "PingFang TC", "PingFang SC", "Hiragino Sans TC", "Microsoft JhengHei",
+            system-ui, -apple-system, "Segoe UI", sans-serif;
+    --serif: "Songti TC", "Songti SC", "Noto Serif TC", "Source Han Serif TC",
+             "Times New Roman", serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #141815;
+      --paper-2: #1c221e;
+      --ink: #e6ebe6;
+      --ink-2: #b0bbb2;
+      --ink-3: #7d8a81;
+      --rule: #2c352f;
+      --green: #6fbf8e;
+      --green-soft: #1e2f25;
+      --red: #e08c86;
+      --red-soft: #33211f;
+      --gold: #c9a75c;
+      --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #141815;
+    --paper-2: #1c221e;
+    --ink: #e6ebe6;
+    --ink-2: #b0bbb2;
+    --ink-3: #7d8a81;
+    --rule: #2c352f;
+    --green: #6fbf8e;
+    --green-soft: #1e2f25;
+    --red: #e08c86;
+    --red-soft: #33211f;
+    --gold: #c9a75c;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 8px 24px -16px rgba(0,0,0,.8);
+  }
+
+  :root[data-theme="light"] {
+    --paper: #f4f6f2;
+    --paper-2: #ffffff;
+    --ink: #1c241e;
+    --ink-2: #4a564d;
+    --ink-3: #77857a;
+    --rule: #d9e0d6;
+    --green: #12633c;
+    --green-soft: #e3ede5;
+    --red: #a8302a;
+    --red-soft: #f7e6e4;
+    --gold: #8a6a1f;
+    --shadow: 0 1px 2px rgba(28,36,30,.06), 0 8px 24px -16px rgba(28,36,30,.28);
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 16px;
+    line-height: 1.75;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .wrap {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 2rem 1.125rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  /* ---------- masthead ---------- */
+
+  .masthead { display: flex; flex-direction: column; gap: .75rem; }
+
+  .stamp {
+    align-self: flex-start;
+    border: 1.5px solid var(--green);
+    color: var(--green);
+    border-radius: 999px;
+    padding: .3rem .85rem;
+    font-size: .7rem;
+    letter-spacing: .16em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+  }
+
+  h1 {
+    font-family: var(--serif);
+    font-size: clamp(1.75rem, 6vw, 2.4rem);
+    line-height: 1.25;
+    font-weight: 600;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .standfirst { color: var(--ink-2); margin: 0; font-size: .95rem; }
+
+  .meter {
+    margin-top: .25rem;
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+    font-size: .85rem;
+    color: var(--ink-3);
+  }
+  .meter b {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--green);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- section ---------- */
+
+  section { display: flex; flex-direction: column; gap: 1rem; }
+
+  .perf {
+    border: 0;
+    border-top: 2px dashed var(--rule);
+    margin: 0;
+  }
+
+  .sec-head { display: flex; flex-direction: column; gap: .3rem; }
+
+  .sec-meta {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    flex-wrap: wrap;
+    font-size: .72rem;
+    letter-spacing: .1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pri {
+    background: var(--green);
+    color: var(--paper-2);
+    border-radius: 3px;
+    padding: .1rem .45rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+  }
+  .pri.low { background: transparent; color: var(--ink-3); border: 1px solid var(--rule); }
+
+  h2 {
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .sec-note { margin: 0; font-size: .9rem; color: var(--ink-2); }
+
+  /* ---------- poem ---------- */
+
+  .poem {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--gold);
+    box-shadow: var(--shadow);
+    padding: 1.25rem 1.25rem;
+    margin: 0;
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    line-height: 2.1;
+  }
+  .poem cite {
+    display: block;
+    font-family: var(--sans);
+    font-style: normal;
+    font-size: .75rem;
+    letter-spacing: .1em;
+    color: var(--ink-3);
+    margin-bottom: .6rem;
+  }
+
+  /* ---------- card ---------- */
+
+  .card {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+    box-shadow: var(--shadow);
+    border-radius: 2px;
+    padding: 1rem 1.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+    cursor: pointer;
+    transition: opacity .18s ease, border-color .18s ease;
+  }
+  .card:focus-visible { outline: 2px solid var(--green); outline-offset: 3px; }
+  .card.done { opacity: .42; border-color: var(--rule); }
+
+  .q-head {
+    display: flex;
+    align-items: baseline;
+    gap: .6rem;
+    font-size: .72rem;
+    letter-spacing: .1em;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+  .tick { margin-left: auto; color: var(--green); font-size: .8rem; letter-spacing: 0; }
+  .card:not(.done) .tick { color: var(--ink-3); opacity: .45; }
+
+  .stem { margin: 0; font-size: .98rem; line-height: 1.7; }
+  .stem .en { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .9rem; }
+
+  .ab {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem .5rem;
+    font-size: .85rem;
+  }
+  .chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: .35rem;
+    padding: .18rem .55rem;
+    border-radius: 2px;
+    line-height: 1.5;
+  }
+  .chip small { font-size: .68rem; letter-spacing: .08em; opacity: .8; }
+  .chip.mine { background: var(--red-soft); color: var(--red); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .chip.mine small { text-decoration: none; display: inline-block; }
+  .chip.ans { background: var(--green-soft); color: var(--green); font-weight: 600; }
+
+  .why {
+    margin: 0;
+    font-size: .9rem;
+    line-height: 1.7;
+    color: var(--ink-2);
+    padding-top: .55rem;
+    border-top: 1px solid var(--rule);
+  }
+  .why b { color: var(--ink); font-weight: 600; }
+
+  /* ---------- close ---------- */
+
+  .close {
+    text-align: center;
+    color: var(--ink-3);
+    font-size: .85rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+  }
+  .close strong { color: var(--green); font-family: var(--serif); font-size: 1.1rem; font-weight: 600; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="stamp">2026.07.31 · 全科第 1 場</span>
+    <h1>模考錯題檢討</h1>
+    <p class="standfirst">109 真卷四科，共 27 題。依投報率排序——做到哪算哪，前兩節做完就拿到今天七成的價值。點一下卡片可標記看過。</p>
+    <p class="meter"><b id="count">0</b> <span>／ 27 題已看過</span></p>
+  </header>
+
+  <hr class="perf">
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-meta"><span class="pri">最優先</span><span>國文 · 3 題 · 約 5 分鐘</span></div>
+      <h2>陶淵明〈飲酒〉其五</h2>
+      <p class="sec-note">一首詩連錯三題。這不是零散失分，是整篇沒讀過——也因此，讀熟這一首等於直接回收 6 分，是今天最划算的一件事。先把詩讀一遍，再看題目。</p>
+    </div>
+
+    <blockquote class="poem">
+      <cite>陶淵明〈飲酒〉其五</cite>
+      結廬在人境，而無車馬喧。<br>
+      問君何能爾？心遠地自偏。<br>
+      採菊東籬下，悠然見南山。<br>
+      山氣日夕佳，飛鳥相與還。<br>
+      此中有真意，欲辯已忘言。
+    </blockquote>
+
+    <div class="card" tabindex="0" data-id="ch16">
+      <div class="q-head"><span>國文 16</span><span class="tick">已看過</span></div>
+      <p class="stem">「結廬」一詞是指：</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C 三顧茅廬</span>
+        <span class="chip ans"><small>正解</small>B 建構房舍</span>
+      </div>
+      <p class="why"><b>結＝構築、搭建</b>，廬＝簡陋的房舍。「結廬在人境」是說把房子蓋在人來人往的地方。不是「連結草木」，也跟三顧茅廬無關——那是劉備訪諸葛亮，兩件事只是都有個「廬」字。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch18">
+      <div class="q-head"><span>國文 18</span><span class="tick">已看過</span></div>
+      <p class="stem">「問君何能爾」的「爾」字意為：</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>B 你</span>
+        <span class="chip ans"><small>正解</small>C 如此</span>
+      </div>
+      <p class="why">整句是「請問你怎麼能夠<b>這樣</b>？」——答案就在下一句「心遠地自偏」。前面已經有「君」當作「你」了，「爾」再解成「你」會變成重複。<b>看到「爾」先想「如此、這樣」</b>，這是文言常見用法。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch20">
+      <div class="q-head"><span>國文 20</span><span class="tick">已看過</span></div>
+      <p class="stem">下列選項，何者與「欲辯已忘言」的意境相似？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A 望穿秋水</span>
+        <span class="chip ans"><small>正解</small>D 得意忘言</span>
+      </div>
+      <p class="why">「欲辯已忘言」是<b>領會了真意，反而覺得不必說</b>——是一種滿足，不是說不出話。「得意忘言」（得其意而忘其言）正是同一個意思。啞口無言是被問倒，望穿秋水是苦等，情緒完全不同。</p>
+    </div>
+  </section>
+
+  <hr class="perf">
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-meta"><span class="pri">優先</span><span>國文 · 7 題 · 約 8 分鐘</span></div>
+      <h2>國文其餘錯點</h2>
+      <p class="sec-note">四個常考詞義、一題修辭、一題應用文、一題文意理解。詞義那幾個是純記憶，看過就有。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch4">
+      <div class="q-head"><span>國文 4</span><span class="tick">已看過</span></div>
+      <p class="stem">范仲淹〈岳陽樓記〉：「微斯人，吾誰與歸！」句中「微」字意指：</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A 微小</span>
+        <span class="chip ans"><small>正解</small>B 沒有</span>
+      </div>
+      <p class="why"><b>微＝沒有、若非</b>。全句是「若沒有這樣的人，我還能跟誰同道呢！」同一個用法還有〈燭之武退秦師〉的「微夫人之力不及此」。文言的「微」當虛詞用時幾乎都是這個意思，跟大小無關。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch7">
+      <div class="q-head"><span>國文 7</span><span class="tick">已看過</span></div>
+      <p class="stem">連橫〈臺灣通史序〉：「夫臺灣固海上之荒島爾，□□□□，以啟山林，至於今是賴。」</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A 開物成務</span>
+        <span class="chip ans"><small>正解</small>D 篳路藍縷</span>
+      </div>
+      <p class="why"><b>篳路藍縷，以啟山林</b>——駕著柴車、穿著破衣去開闢山林，形容創業的艱辛。這是必背名句，整句一起記，考出來通常就是挖空這四個字。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch9">
+      <div class="q-head"><span>國文 9</span><span class="tick">已看過</span></div>
+      <p class="stem">「但願人長久，千里共嬋娟。」句中「嬋娟」是指：</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>D 銀河</span>
+        <span class="chip ans"><small>正解</small>C 明月</span>
+      </div>
+      <p class="why">蘇軾〈水調歌頭〉。<b>嬋娟＝明月</b>（本義是姿態美好，在此指月）。整句是「只願彼此都平安長久，即使相隔千里，也共享這一輪明月」——中秋詞，扣著月亮走。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch12">
+      <div class="q-head"><span>國文 12</span><span class="tick">已看過</span></div>
+      <p class="stem">〈紀水沙連〉：「獨虛其中為山頭，如人露頂然。」此情況可用下列哪個成語形容？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C 醍醐灌頂</span>
+        <span class="chip ans"><small>正解</small>A 童山濯濯</span>
+      </div>
+      <p class="why">題幹的鑰匙是「<b>如人露頂</b>」——像人露出光禿的頭頂。<b>童山濯濯</b>＝山上沒有草木，光禿禿的（童＝禿）。醍醐灌頂是突然領悟，只是剛好有個「頂」字。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch15">
+      <div class="q-head"><span>國文 15</span><span class="tick">已看過</span></div>
+      <p class="stem">「綠煙紅霧，彌漫二十餘里。」句中的「綠煙紅霧」使用了何種修辭？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C 轉化、象徵</span>
+        <span class="chip ans"><small>正解</small>D 譬喻、對偶</span>
+      </div>
+      <p class="why">把柳色比作煙、花色比作霧，是<b>譬喻</b>；「綠煙」對「紅霧」字數相同、詞性相對，是<b>對偶</b>。<b>修辭題的作法：選項裡有兩個辭格，兩個都成立才能選。</b>只要有一個對不上就刪掉——這樣可以很快篩掉三個。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch3">
+      <div class="q-head"><span>國文 3</span><span class="tick">已看過</span></div>
+      <p class="stem">一份包括案由、說明、辦法、提案人、附署人的會議文書，應是：</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>B 會議紀錄</span>
+        <span class="chip ans"><small>正解</small>A 會議提案</span>
+      </div>
+      <p class="why">關鍵在<b>「提案人、附署人」</b>——會議紀錄記的是已經議決的事，只會有主席、記錄、出席者，不會有提案人和附署人。看到這兩個欄位就是提案。這題對你其實有利，你本來就在辦公文。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="ch14">
+      <div class="q-head"><span>國文 14</span><span class="tick">已看過</span></div>
+      <p class="stem">〈賣柑者言〉「今子是之不察，而以察吾柑！」譏諷人們不追究「大欺」，反倒苛責「小欺」。大欺、小欺分別指：</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C 東方朔／賣柑者</span>
+        <span class="chip ans"><small>正解</small>A 無能的政府／賣柑者</span>
+      </div>
+      <p class="why">賣柑者的反擊是：你不去查那些<b>尸位素餐的文武百官（＝整個無能的政府）</b>，卻來查我一顆柑橘。<b>小欺就是賣柑者自己</b>（金玉其外的柑），大欺是他所諷刺的對象。選項 D 只是列出兩類官員的形象，沒有對應到「大／小」這組對比。</p>
+    </div>
+  </section>
+
+  <hr class="perf">
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-meta"><span class="pri low">次要</span><span>英文 · 13 題 · 約 10 分鐘</span></div>
+      <h2>英文</h2>
+      <p class="sec-note">文意選填 6 題是最大破口，先看那 6 個文法點；字彙 6 字掃過有印象就好，明天進單字庫翻卡。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en40">
+      <div class="q-head"><span>英文 40 · 文意選填</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">They don't stop ___, even though they may get hurt.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>D to search</span>
+        <span class="chip ans"><small>正解</small>C searching</span>
+      </div>
+      <p class="why">必考對比：<b>stop + Ving＝停止做這件事</b>；<b>stop to V＝停下來，去做另一件事</b>。本文說搜救犬受傷也不停止搜尋，所以是 stop searching。<span class="en">He stopped smoking</span>（戒菸）／<span class="en">He stopped to smoke</span>（停下來抽菸）。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en45">
+      <div class="q-head"><span>英文 45 · 文意選填</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">If you drink too much of it, you ___ get fat or get a cavity.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>B will be going to</span>
+        <span class="chip ans"><small>正解</small>D will</span>
+      </div>
+      <p class="why">條件句：<b>if 子句用現在式代替未來，主要子句用 will + 原形</b>。另外 <span class="en">will be going to</span> 本身就是錯的結構——will 和 be going to 都是未來式，不能疊用。看到這種選項可以直接刪。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en41">
+      <div class="q-head"><span>英文 41 · 文意選填</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">In the beginning, cola was sold ___ medicine.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A on</span>
+        <span class="chip ans"><small>正解</small>D as</span>
+      </div>
+      <p class="why"><b>as＝作為、當成</b>（身分或用途）。可樂最初是「當成藥」在賣。同型：<span class="en">work as a teacher</span>、<span class="en">use it as a tool</span>。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en37">
+      <div class="q-head"><span>英文 37 · 文意選填</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">A girl shared a glass of milk ___ a poor boy.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A for</span>
+        <span class="chip ans"><small>正解</small>C with</span>
+      </div>
+      <p class="why"><b>share sth. with sb.</b>＝把某物分享給某人，介系詞固定用 with。這種固定搭配沒有道理可講，記起來就好。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en36">
+      <div class="q-head"><span>英文 36 · 文意選填</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">When we help others, we usually become ___.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>B happiness</span>
+        <span class="chip ans"><small>正解</small>A happy</span>
+      </div>
+      <p class="why"><b>become 是連綴動詞，後面接形容詞</b>當主詞補語。人會變得「快樂的」（happy），不會變成「快樂」這個抽象名詞（happiness）。同類動詞：be, become, get, feel, seem, look。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en39">
+      <div class="q-head"><span>英文 39 · 文意選填</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">Brave ___ dogs help to look for people under rocks after an earthquake.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>B excuse</span>
+        <span class="chip ans"><small>正解</small>D rescue</span>
+      </div>
+      <p class="why"><b>rescue dogs＝搜救犬</b>。地震後在瓦礫下找人，就是 rescue（救援）。cure 是治癒、excuse 是藉口、court 是法庭，都對不上。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en5">
+      <div class="q-head"><span>英文 5 · 字彙</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">Amy was so focused on her novel that she ___ put her book down to help her mother.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C definitely</span>
+        <span class="chip ans"><small>正解</small>D unwillingly</span>
+      </div>
+      <p class="why"><b>unwillingly＝不情願地</b>（un- + willing 願意的）。前面說她太專注於小說，所以是「不情願地」放下書。這題的線索是 so...that 的語氣。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en6">
+      <div class="q-head"><span>英文 6 · 字彙</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">The ___ of Taiwan is over 23 million.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C pollution</span>
+        <span class="chip ans"><small>正解</small>B population</span>
+      </div>
+      <p class="why">拼字近似必須分清：<b>popul-（人民）→ population 人口</b>；<b>pollute（污染）→ pollution 污染</b>。看到 23 million 這種人數就是 population。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en10">
+      <div class="q-head"><span>英文 10 · 字彙</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">A Boeing 747 made an ___ landing because of mechanical problems.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>D empire</span>
+        <span class="chip ans"><small>正解</small>A emergency</span>
+      </div>
+      <p class="why"><b>emergency landing＝迫降</b>，固定搭配。em- 開頭這一組一起記：emergency 緊急／emotion 情緒／emphasis 強調／empire 帝國。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en11">
+      <div class="q-head"><span>英文 11 · 字彙</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">Lydia did not have tomatoes, so she used corn to make some soup ___.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>D along</span>
+        <span class="chip ans"><small>正解</small>B instead</span>
+      </div>
+      <p class="why"><b>instead 放句尾＝取而代之</b>（沒有番茄，改用玉米）。要放句中則用 <span class="en">instead of + N</span>。位置決定用哪一個。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en16">
+      <div class="q-head"><span>英文 16 · 字彙</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">Henry looked at the timetable to find out the ___ time of his flight.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A spoon</span>
+        <span class="chip ans"><small>正解</small>C departure</span>
+      </div>
+      <p class="why"><b>departure time＝起飛／出發時間</b>（depart 動詞 → departure 名詞）。對照 <span class="en">arrival time</span> 抵達時間。機場情境必考這組。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en19">
+      <div class="q-head"><span>英文 19 · 字彙</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">May spent a lot of time trying to ___ her mom to let her buy a new iPhone.</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>D establish</span>
+        <span class="chip ans"><small>正解</small>C persuade</span>
+      </div>
+      <p class="why"><b>persuade sb. to V＝說服某人做某事</b>。看到「to let her buy」這個不定詞就知道要找能接 sb. + to V 的動詞。對照 <span class="en">convince sb. of sth.</span></p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="en30">
+      <div class="q-head"><span>英文 30 · 對話</span><span class="tick">已看過</span></div>
+      <p class="stem"><span class="en">A: How long does it take from here to the post office?</span></p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A “500 miles long.”</span>
+        <span class="chip ans"><small>正解</small>D “It depends on the traffic.”</span>
+      </div>
+      <p class="why"><span class="en">How long does it <b>take</b></span> 問的是<b>花多少時間</b>，答時間長度或「看情況」。<span class="en">500 miles long</span> 是距離（回答 How far）、<span class="en">Every ten minutes</span> 是頻率（回答 How often）。<b>疑問詞先看完再選</b>。</p>
+    </div>
+  </section>
+
+  <hr class="perf">
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-meta"><span class="pri low">次要</span><span>郵政法規 · 3 題 · 約 3 分鐘</span></div>
+      <h2>郵政法規</h2>
+      <p class="sec-note">三題都是條文細節記半套，不是觀念錯。你這科 47/50，只補這三個點就好。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="po25">
+      <div class="q-head"><span>郵政 25</span><span class="tick">已看過</span></div>
+      <p class="stem">續期保險費逾一個月未交付，保險人應予催告，並自何日起算三個月為寬限期間？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>C 自當期繳費日次日起算</span>
+        <span class="chip ans"><small>正解</small>B 自當期繳費日起算</span>
+      </div>
+      <p class="why">簡易人壽保險法 §13：應於<b>十日內</b>催告，寬限期間<b>自「當期繳費日」起算三個月</b>——是繳費日本身，不是次日、也不是催告日。屆滿仍未交付，契約效力停止；§14 停效後二年內得申請復效。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="po35">
+      <div class="q-head"><span>郵政 35</span><span class="tick">已看過</span></div>
+      <p class="stem">有關快捷郵件之敘述，下列何者正確？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>B 專指國際指定地區間互寄</span>
+        <span class="chip ans"><small>正解</small>C 含國內及國際，國際者得交寄達國民營公司遞送</span>
+      </div>
+      <p class="why">郵件處理規則 §27 列了<b>三種並列管道</b>：國內指定地區間互寄、經外國郵政機構同意與其指定郵局互寄、<b>或交由在寄達國提供遞送服務的民營公司</b>。所以範圍含國內＋國際，選項 D 的「僅得」是過度限縮。順帶記 §60：國際快捷查詢期限 4 個月（國內掛號 6 個月）。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="po45">
+      <div class="q-head"><span>郵政 45</span><span class="tick">已看過</span></div>
+      <p class="stem">有關欠資郵件之處理，下列何者<b>不正確</b>？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>A 未付郵資者契約不成立</span>
+        <span class="chip ans"><small>正解</small>D 大批國際明信片資費不足逕以無著郵件處理</span>
+      </div>
+      <p class="why">營業規章 §180Ⅱ 有<b>三道程序不能跳</b>：先退還寄件人補付 → 無法退還才不予寄遞 → 招領揭示期滿後才作無著郵件。「逕以」就是漏掉中間兩道，所以不正確。<b>這題是反向題（問「不正確」），作答時圈起否定詞</b>——這是你今天唯一一個非知識性的失分。</p>
+    </div>
+  </section>
+
+  <hr class="perf">
+
+  <section>
+    <div class="sec-head">
+      <div class="sec-meta"><span class="pri low">次要</span><span>民法 · 1 題 · 約 2 分鐘</span></div>
+      <h2>民法</h2>
+      <p class="sec-note">選擇只錯這一題（19/20）。記一句話就夠。</p>
+    </div>
+
+    <div class="card" tabindex="0" data-id="mf5">
+      <div class="q-head"><span>民法 5</span><span class="tick">已看過</span></div>
+      <p class="stem">關於抵銷，下列敘述何者正確？</p>
+      <div class="ab">
+        <span class="chip mine"><small>你選</small>D 乙有侵權損害賠償請求權時，乙不得抵銷</span>
+        <span class="chip ans"><small>正解</small>A 乙之債權禁止扣押時，甲不得抵銷</span>
+      </div>
+      <p class="why">一句話記法：<b>§338、§339 限制的都是「債務人」。</b><br>
+      §338 禁止扣押之債 → 該債權的債務人（甲）不得抵銷。<br>
+      §339 因<b>故意</b>侵權而負擔之債 → 加害人（債務人）不得抵銷；被害人是債權人，仍可以抵銷。你選 D 就是把主體方向弄反了。<br>
+      §336 履行地不同<b>不影響</b>抵銷，只是抵銷人要賠對方因抵銷而生的損害。</p>
+    </div>
+  </section>
+
+  <hr class="perf">
+
+  <footer class="close">
+    <strong>看完就收工</strong>
+    <span>回收（重做題目、Notion 銷帳）排在 8/1 課後，今天不用做。</span>
+  </footer>
+
+</div>
+
+<script>
+  (function () {
+    var KEY = 'mock0731-seen';
+    var seen;
+    try { seen = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { seen = {}; }
+
+    var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+    var counter = document.getElementById('count');
+
+    function render() {
+      var n = 0;
+      cards.forEach(function (c) {
+        var on = !!seen[c.dataset.id];
+        c.classList.toggle('done', on);
+        c.setAttribute('aria-pressed', on ? 'true' : 'false');
+        if (on) n++;
+      });
+      counter.textContent = n;
+    }
+
+    function toggle(c) {
+      var id = c.dataset.id;
+      if (seen[id]) { delete seen[id]; } else { seen[id] = 1; }
+      try { localStorage.setItem(KEY, JSON.stringify(seen)); } catch (e) {}
+      render();
+    }
+
+    cards.forEach(function (c) {
+      c.setAttribute('role', 'button');
+      c.addEventListener('click', function () { toggle(c); });
+      c.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggle(c); }
+      });
+    });
+
+    render();
+  })();
+</script>
+
+</body>
+</html>
