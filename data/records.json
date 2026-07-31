@@ -885,5 +885,55 @@
    "2": 28,
    "3": 51
   }
+ },
+ "2026-07-31": {
+  "drill": {
+   "count": 0,
+   "wrong": []
+  },
+  "exams": [
+   {
+    "title": "109 郵政法規真卷（全科第1場）",
+    "subject": "郵政法規",
+    "mcScore": 94,
+    "mcMax": 100,
+    "mcRight": 47,
+    "mcTotal": 50
+   },
+   {
+    "title": "109 民法真卷（全科第1場）",
+    "subject": "民法",
+    "mcScore": 47.5,
+    "mcMax": 50,
+    "mcRight": 19,
+    "mcTotal": 20
+   },
+   {
+    "title": "109 英文真卷（全科第1場）",
+    "subject": "英文",
+    "mcScore": 74,
+    "mcMax": 100,
+    "mcRight": 37,
+    "mcTotal": 50
+   },
+   {
+    "title": "109 國文真卷（全科第1場）",
+    "subject": "國文",
+    "mcScore": 20,
+    "mcMax": 40,
+    "mcRight": 10,
+    "mcTotal": 20
+   }
+  ],
+  "vocab": {
+   "done": 15,
+   "right": 13
+  },
+  "vocabStages": {
+   "0": 2,
+   "1": 13,
+   "2": 0,
+   "3": 0
+  }
  }
 }
