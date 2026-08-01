@@ -1522,5 +1522,41 @@
   "pos": "v.",
   "zh": "檢查；審視",
   "ex": "Customs officers inspect every incoming international package."
+ },
+ {
+  "w": "unwillingly",
+  "pos": "adv.",
+  "zh": "不情願地、勉強地（un- 否定＋willing 願意的）",
+  "ex": "She unwillingly put her book down to help her mother."
+ },
+ {
+  "w": "population",
+  "pos": "n.",
+  "zh": "人口、人口數（popul- 人民；勿與 pollution 污染混淆）",
+  "ex": "The population of Taiwan is over 23 million."
+ },
+ {
+  "w": "pollution",
+  "pos": "n.",
+  "zh": "污染（動詞 pollute；與 population 拼字近似，須分清）",
+  "ex": "Air pollution in the city has become a serious problem."
+ },
+ {
+  "w": "departure",
+  "pos": "n.",
+  "zh": "出發、起飛；departure time 起飛時間（動詞 depart，反義 arrival）",
+  "ex": "Henry checked the departure time of his flight on the timetable."
+ },
+ {
+  "w": "arrival",
+  "pos": "n.",
+  "zh": "抵達、到達；arrival time 抵達時間（與 departure 成對記）",
+  "ex": "The arrival time of the train is 3:20 in the afternoon."
+ },
+ {
+  "w": "instead",
+  "pos": "adv.",
+  "zh": "取而代之、反而（放句尾；置於句中須用 instead of + N）",
+  "ex": "Lydia had no tomatoes, so she used corn to make the soup instead."
  }
 ]
