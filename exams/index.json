@@ -96,5 +96,45 @@
     "summary": "選擇 20＋作文 1．全科第 1 場用卷",
     "type": "full",
     "round": 1
+  },
+  {
+    "id": "minfa-sim-A",
+    "file": "minfa-sim-A.json",
+    "title": "民法仿真卷 A",
+    "subject": "民法",
+    "minutes": 90,
+    "summary": "選擇 20 題＋申論 2 題．全科第 2 場用卷",
+    "type": "full",
+    "round": 2
+  },
+  {
+    "id": "postal-sim-A",
+    "file": "postal-sim-A.json",
+    "title": "郵政法規仿真卷 A",
+    "subject": "郵政法規",
+    "minutes": 60,
+    "summary": "選擇 50 題．全科第 2 場用卷",
+    "type": "full",
+    "round": 2
+  },
+  {
+    "id": "english-sim-A",
+    "file": "english-sim-A.json",
+    "title": "英文仿真卷 A",
+    "subject": "英文",
+    "minutes": 60,
+    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 2 場用卷",
+    "type": "full",
+    "round": 2
+  },
+  {
+    "id": "chinese-sim-A",
+    "file": "chinese-sim-A.json",
+    "title": "國文仿真卷 A",
+    "subject": "國文",
+    "minutes": 90,
+    "summary": "選擇 20＋作文 1（60 分）．全科第 2 場用卷",
+    "type": "full",
+    "round": 2
   }
 ]
