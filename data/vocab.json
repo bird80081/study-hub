@@ -1,1562 +1,2402 @@
 [
- {
-  "w": "deliver",
-  "pos": "v.",
-  "zh": "投遞、遞送",
-  "ex": "The parcel will be delivered within three working days."
- },
- {
-  "w": "postage",
-  "pos": "n.",
-  "zh": "郵資",
-  "ex": "Postage is included in the total price."
- },
- {
-  "w": "recipient",
-  "pos": "n.",
-  "zh": "收件人、受領人",
-  "ex": "The recipient must sign for the registered letter."
- },
- {
-  "w": "correspondence",
-  "pos": "n.",
-  "zh": "信件往來、通信",
-  "ex": "Please address all correspondence to the head office."
- },
- {
-  "w": "enclose",
-  "pos": "v.",
-  "zh": "隨函附上",
-  "ex": "I enclose a copy of the receipt for your reference."
- },
- {
-  "w": "attachment",
-  "pos": "n.",
-  "zh": "附件",
-  "ex": "Please see the attachment for further details."
- },
- {
-  "w": "premium",
-  "pos": "n.",
-  "zh": "保險費；獎金",
-  "ex": "The monthly premium for this policy is quite reasonable."
- },
- {
-  "w": "policy",
-  "pos": "n.",
-  "zh": "保單；政策",
-  "ex": "Read the insurance policy carefully before signing."
- },
- {
-  "w": "beneficiary",
-  "pos": "n.",
-  "zh": "受益人",
-  "ex": "She named her son as the beneficiary of the policy."
- },
- {
-  "w": "compensation",
-  "pos": "n.",
-  "zh": "補償、賠償",
-  "ex": "The sender may claim compensation for the lost parcel."
- },
- {
-  "w": "remittance",
-  "pos": "n.",
-  "zh": "匯款",
-  "ex": "Please confirm once the remittance has been received."
- },
- {
-  "w": "deposit",
-  "pos": "n./v.",
-  "zh": "存款；存入",
-  "ex": "He made a deposit of NT$5,000 at the counter."
- },
- {
-  "w": "withdraw",
-  "pos": "v.",
-  "zh": "提款；撤回",
-  "ex": "You can withdraw cash from any ATM nationwide."
- },
- {
-  "w": "interest",
-  "pos": "n.",
-  "zh": "利息；興趣",
-  "ex": "The savings account earns 1.5% interest per year."
- },
- {
-  "w": "account",
-  "pos": "n.",
-  "zh": "帳戶",
-  "ex": "She opened a savings account at the post office."
- },
- {
-  "w": "transaction",
-  "pos": "n.",
-  "zh": "交易",
-  "ex": "Each transaction is recorded in the passbook."
- },
- {
-  "w": "installment",
-  "pos": "n.",
-  "zh": "分期付款",
-  "ex": "The loan is repaid in monthly installments."
- },
- {
-  "w": "currency",
-  "pos": "n.",
-  "zh": "貨幣",
-  "ex": "Foreign currency exchange is available at this branch."
- },
- {
-  "w": "annual",
-  "pos": "adj.",
-  "zh": "每年的、年度的",
-  "ex": "The annual report will be published in March."
- },
- {
-  "w": "applicant",
-  "pos": "n.",
-  "zh": "申請人",
-  "ex": "Each applicant must submit two photos."
- },
- {
-  "w": "application",
-  "pos": "n.",
-  "zh": "申請（書）",
-  "ex": "Your application has been approved."
- },
- {
-  "w": "appointment",
-  "pos": "n.",
-  "zh": "約定；任命",
-  "ex": "I made an appointment with the manager for Friday."
- },
- {
-  "w": "available",
-  "pos": "adj.",
-  "zh": "可用的、有空的",
-  "ex": "This service is available at all branches."
- },
- {
-  "w": "confirm",
-  "pos": "v.",
-  "zh": "確認",
-  "ex": "Please confirm your reservation by e-mail."
- },
- {
-  "w": "convenient",
-  "pos": "adj.",
-  "zh": "方便的",
-  "ex": "Online banking is convenient for busy customers."
- },
- {
-  "w": "efficient",
-  "pos": "adj.",
-  "zh": "有效率的",
-  "ex": "The new sorting system is fast and efficient."
- },
- {
-  "w": "urgent",
-  "pos": "adj.",
-  "zh": "緊急的",
-  "ex": "Send it by express mail if the matter is urgent."
- },
- {
-  "w": "estimate",
-  "pos": "v./n.",
-  "zh": "估計；估價",
-  "ex": "We estimate the delivery will take five days."
- },
- {
-  "w": "guarantee",
-  "pos": "v./n.",
-  "zh": "保證",
-  "ex": "We guarantee next-day delivery for express items."
- },
- {
-  "w": "insurance",
-  "pos": "n.",
-  "zh": "保險",
-  "ex": "Postal life insurance is popular in rural areas."
- },
- {
-  "w": "inquiry",
-  "pos": "n.",
-  "zh": "詢問、查詢",
-  "ex": "For further inquiries, please call our service line."
- },
- {
-  "w": "invoice",
-  "pos": "n.",
-  "zh": "發票、請款單",
-  "ex": "The invoice must be paid within thirty days."
- },
- {
-  "w": "receipt",
-  "pos": "n.",
-  "zh": "收據",
-  "ex": "Keep the receipt in case you need a refund."
- },
- {
-  "w": "refund",
-  "pos": "n./v.",
-  "zh": "退款",
-  "ex": "You may request a refund within seven days."
- },
- {
-  "w": "register",
-  "pos": "v.",
-  "zh": "掛號；登記",
-  "ex": "It is safer to register valuable letters."
- },
- {
-  "w": "schedule",
-  "pos": "n./v.",
-  "zh": "時程表；排定",
-  "ex": "The meeting is scheduled for next Monday."
- },
- {
-  "w": "signature",
-  "pos": "n.",
-  "zh": "簽名",
-  "ex": "The document is not valid without your signature."
- },
- {
-  "w": "verify",
-  "pos": "v.",
-  "zh": "查核、驗證",
-  "ex": "Please verify your identity with an ID card."
- },
- {
-  "w": "identity",
-  "pos": "n.",
-  "zh": "身分",
-  "ex": "The clerk checked the customer's identity carefully."
- },
- {
-  "w": "procedure",
-  "pos": "n.",
-  "zh": "程序、手續",
-  "ex": "Follow the standard procedure when handling complaints."
- },
- {
-  "w": "regulation",
-  "pos": "n.",
-  "zh": "規章、法規",
-  "ex": "The new regulation takes effect next month."
- },
- {
-  "w": "requirement",
-  "pos": "n.",
-  "zh": "要求、必要條件",
-  "ex": "Meeting the deadline is a basic requirement."
- },
- {
-  "w": "responsible",
-  "pos": "adj.",
-  "zh": "負責的",
-  "ex": "The carrier is responsible for any damage in transit."
- },
- {
-  "w": "liability",
-  "pos": "n.",
-  "zh": "（法律）責任",
-  "ex": "The company denied liability for the delay."
- },
- {
-  "w": "valid",
-  "pos": "adj.",
-  "zh": "有效的",
-  "ex": "The coupon is valid until the end of June."
- },
- {
-  "w": "expire",
-  "pos": "v.",
-  "zh": "到期、失效",
-  "ex": "My passport expires next year."
- },
- {
-  "w": "extend",
-  "pos": "v.",
-  "zh": "延長",
-  "ex": "You may extend the storage period in writing."
- },
- {
-  "w": "postpone",
-  "pos": "v.",
-  "zh": "延期",
-  "ex": "The ceremony was postponed because of the typhoon."
- },
- {
-  "w": "notify",
-  "pos": "v.",
-  "zh": "通知",
-  "ex": "We will notify you as soon as the parcel arrives."
- },
- {
-  "w": "announce",
-  "pos": "v.",
-  "zh": "宣布、公告",
-  "ex": "The company announced a new express service."
- },
- {
-  "w": "distribute",
-  "pos": "v.",
-  "zh": "分發、配送",
-  "ex": "Leaflets were distributed to every mailbox."
- },
- {
-  "w": "domestic",
-  "pos": "adj.",
-  "zh": "國內的",
-  "ex": "Domestic parcels usually arrive within two days."
- },
- {
-  "w": "international",
-  "pos": "adj.",
-  "zh": "國際的",
-  "ex": "International mail requires a customs declaration."
- },
- {
-  "w": "declaration",
-  "pos": "n.",
-  "zh": "申報（單）；聲明",
-  "ex": "Fill out a customs declaration for overseas parcels."
- },
- {
-  "w": "fragile",
-  "pos": "adj.",
-  "zh": "易碎的",
-  "ex": "Mark the box FRAGILE if it contains glassware."
- },
- {
-  "w": "via",
-  "pos": "prep.",
-  "zh": "經由",
-  "ex": "The letter was sent via airmail."
- },
- {
-  "w": "destination",
-  "pos": "n.",
-  "zh": "目的地",
-  "ex": "The parcel reached its destination on time."
- },
- {
-  "w": "address",
-  "pos": "n./v.",
-  "zh": "地址；寄往、處理",
-  "ex": "Make sure the address is written clearly."
- },
- {
-  "w": "counter",
-  "pos": "n.",
-  "zh": "櫃檯",
-  "ex": "Please pay at the counter over there."
- },
- {
-  "w": "branch",
-  "pos": "n.",
-  "zh": "分行、分局",
-  "ex": "This branch opens at eight thirty on weekdays."
- },
- {
-  "w": "apply",
-  "pos": "v.",
-  "zh": "申請",
-  "ex": "You can apply for the position online before Friday."
- },
- {
-  "w": "submit",
-  "pos": "v.",
-  "zh": "提交",
-  "ex": "Please submit the report to your supervisor by noon."
- },
- {
-  "w": "supervisor",
-  "pos": "n.",
-  "zh": "主管",
-  "ex": "My supervisor approved the leave request yesterday."
- },
- {
-  "w": "deadline",
-  "pos": "n.",
-  "zh": "截止日期",
-  "ex": "The deadline for registration is July 31."
- },
- {
-  "w": "approval",
-  "pos": "n.",
-  "zh": "批准",
-  "ex": "The project cannot start without the manager's approval."
- },
- {
-  "w": "cancel",
-  "pos": "v.",
-  "zh": "取消",
-  "ex": "She called to cancel her appointment."
- },
- {
-  "w": "process",
-  "pos": "n./v.",
-  "zh": "處理程序；處理",
-  "ex": "It takes three days to process the application."
- },
- {
-  "w": "client",
-  "pos": "n.",
-  "zh": "客戶",
-  "ex": "The client asked for a detailed price list."
- },
- {
-  "w": "report",
-  "pos": "n./v.",
-  "zh": "報告；報告",
-  "ex": "Please hand in the monthly report before the meeting."
- },
- {
-  "w": "extension",
-  "pos": "n.",
-  "zh": "延期、延長",
-  "ex": "He asked for a two-day extension on the deadline."
- },
- {
-  "w": "prevent",
-  "pos": "v.",
-  "zh": "預防",
-  "ex": "Washing hands often helps prevent infection."
- },
- {
-  "w": "symptom",
-  "pos": "n.",
-  "zh": "症狀",
-  "ex": "A fever is a common symptom of the flu."
- },
- {
-  "w": "treatment",
-  "pos": "n.",
-  "zh": "治療",
-  "ex": "The new treatment works well for most patients."
- },
- {
-  "w": "recover",
-  "pos": "v.",
-  "zh": "康復",
-  "ex": "It took him two weeks to recover from the operation."
- },
- {
-  "w": "medicine",
-  "pos": "n.",
-  "zh": "藥",
-  "ex": "Take the medicine three times a day after meals."
- },
- {
-  "w": "injury",
-  "pos": "n.",
-  "zh": "傷害",
-  "ex": "She missed the game because of a knee injury."
- },
- {
-  "w": "emergency",
-  "pos": "n.",
-  "zh": "緊急狀況",
-  "ex": "Call 119 in case of an emergency."
- },
- {
-  "w": "clinic",
-  "pos": "n.",
-  "zh": "診所",
-  "ex": "The clinic opens at nine every morning."
- },
- {
-  "w": "fever",
-  "pos": "n.",
-  "zh": "發燒",
-  "ex": "The child stayed home because of a high fever."
- },
- {
-  "w": "cough",
-  "pos": "n./v.",
-  "zh": "咳嗽",
-  "ex": "He has had a bad cough for a week."
- },
- {
-  "w": "check-up",
-  "pos": "n.",
-  "zh": "健康檢查",
-  "ex": "You should get a check-up once a year."
- },
- {
-  "w": "vitamin",
-  "pos": "n.",
-  "zh": "維他命",
-  "ex": "Oranges are rich in vitamin C."
- },
- {
-  "w": "infection",
-  "pos": "n.",
-  "zh": "感染",
-  "ex": "Clean the wound to avoid infection."
- },
- {
-  "w": "operation",
-  "pos": "n.",
-  "zh": "手術；營運",
-  "ex": "The operation lasted about two hours."
- },
- {
-  "w": "be aware of",
-  "pos": "phr.",
-  "zh": "意識到",
-  "ex": "You should be aware of the new safety rules."
- },
- {
-  "w": "in charge of",
-  "pos": "phr.",
-  "zh": "負責",
-  "ex": "Ms. Lin is in charge of customer service."
- },
- {
-  "w": "due to",
-  "pos": "phr.",
-  "zh": "由於",
-  "ex": "The flight was delayed due to the storm."
- },
- {
-  "w": "in spite of",
-  "pos": "phr.",
-  "zh": "儘管",
-  "ex": "They finished the work in spite of the heavy rain."
- },
- {
-  "w": "as soon as",
-  "pos": "phr.",
-  "zh": "一…就…",
-  "ex": "Call me as soon as the parcel arrives."
- },
- {
-  "w": "according to",
-  "pos": "phr.",
-  "zh": "根據",
-  "ex": "According to the schedule, the exam starts at nine."
- },
- {
-  "w": "deal with",
-  "pos": "phr.",
-  "zh": "處理",
-  "ex": "The staff learned how to deal with complaints."
- },
- {
-  "w": "come up with",
-  "pos": "phr.",
-  "zh": "想出",
-  "ex": "She came up with a great idea for the event."
- },
- {
-  "w": "take part in",
-  "pos": "phr.",
-  "zh": "參加",
-  "ex": "All employees are welcome to take part in the training."
- },
- {
-  "w": "pay attention to",
-  "pos": "phr.",
-  "zh": "注意",
-  "ex": "Please pay attention to the announcement."
- },
- {
-  "w": "get rid of",
-  "pos": "phr.",
-  "zh": "去除",
-  "ex": "We need to get rid of the old files."
- },
- {
-  "w": "take care of",
-  "pos": "phr.",
-  "zh": "照顧、處理",
-  "ex": "Don't worry — I'll take care of the paperwork."
- },
- {
-  "w": "set up",
-  "pos": "phr.",
-  "zh": "建立、設置",
-  "ex": "They set up a new branch in Tainan last year."
- },
- {
-  "w": "look forward to",
-  "pos": "phr.",
-  "zh": "期待",
-  "ex": "I look forward to hearing from you soon."
- },
- {
-  "w": "turn in",
-  "pos": "phr.",
-  "zh": "提交",
-  "ex": "Remember to turn in your answer sheet before leaving."
- },
- {
-  "w": "recycle",
-  "pos": "v.",
-  "zh": "回收",
-  "ex": "Please recycle the boxes after unpacking."
- },
- {
-  "w": "device",
-  "pos": "n.",
-  "zh": "裝置",
-  "ex": "This device can scan the barcode on each parcel."
- },
- {
-  "w": "electricity",
-  "pos": "n.",
-  "zh": "電力",
-  "ex": "The office saved electricity by turning off unused lights."
- },
- {
-  "w": "global warming",
-  "pos": "n.",
-  "zh": "全球暖化",
-  "ex": "Global warming is causing sea levels to rise."
- },
- {
-  "w": "solar energy",
-  "pos": "n.",
-  "zh": "太陽能",
-  "ex": "The building uses solar energy for heating."
- },
- {
-  "w": "battery",
-  "pos": "n.",
-  "zh": "電池",
-  "ex": "My phone's battery only lasts half a day."
- },
- {
-  "w": "network",
-  "pos": "n.",
-  "zh": "網路",
-  "ex": "The network was down for an hour this morning."
- },
- {
-  "w": "download",
-  "pos": "v.",
-  "zh": "下載",
-  "ex": "You can download the form from the official website."
- },
- {
-  "w": "upload",
-  "pos": "v.",
-  "zh": "上傳",
-  "ex": "Please upload the file to the shared folder."
- },
- {
-  "w": "signal",
-  "pos": "n.",
-  "zh": "訊號",
-  "ex": "There is no phone signal in the basement."
- },
- {
-  "w": "digital",
-  "pos": "adj.",
-  "zh": "數位的",
-  "ex": "More people are using digital payment these days."
- },
- {
-  "w": "update",
-  "pos": "v./n.",
-  "zh": "更新",
-  "ex": "Remember to update the app to the latest version."
- },
- {
-  "w": "access",
-  "pos": "n./v.",
-  "zh": "存取、進入",
-  "ex": "Only staff members have access to this room."
- },
- {
-  "w": "password",
-  "pos": "n.",
-  "zh": "密碼",
-  "ex": "Never share your password with anyone."
- },
- {
-  "w": "screen",
-  "pos": "n.",
-  "zh": "螢幕",
-  "ex": "The screen shows the number of your turn."
- },
- {
-  "w": "philately",
-  "pos": "n.",
-  "zh": "集郵",
-  "ex": "He has been interested in philately since he collected his first stamp."
- },
- {
-  "w": "persuade",
-  "pos": "v.",
-  "zh": "說服、勸服",
-  "ex": "The clerk persuaded the customer to send the parcel by registered mail."
- },
- {
-  "w": "competition",
-  "pos": "n.",
-  "zh": "競爭",
-  "ex": "The competition among delivery companies is getting fierce."
- },
- {
-  "w": "communication",
-  "pos": "n.",
-  "zh": "溝通、交流",
-  "ex": "Good communication with customers helps prevent complaints."
- },
- {
-  "w": "combination",
-  "pos": "n.",
-  "zh": "結合、組合",
-  "ex": "A combination of savings and insurance meets most clients' needs."
- },
- {
-  "w": "thrifty",
-  "pos": "adj.",
-  "zh": "節儉的",
-  "ex": "She is thrifty and deposits part of her salary every month."
- },
- {
-  "w": "lavish",
-  "pos": "adj.",
-  "zh": "揮霍的、奢華的",
-  "ex": "He regretted his lavish spending when the bill arrived."
- },
- {
-  "w": "unnecessary",
-  "pos": "adj.",
-  "zh": "不必要的、多餘的",
-  "ex": "Please avoid unnecessary steps when processing the application."
- },
- {
-  "w": "deliberate",
-  "pos": "adj.",
-  "zh": "（常指壞事）有意的，故意的，蓄意的",
-  "ex": "The court ruled that the damage was deliberate, not accidental."
- },
- {
-  "w": "innocent",
-  "pos": "adj.",
-  "zh": "（人）無罪的；單純的；天真的",
-  "ex": "The suspect was found innocent after the investigation."
- },
- {
-  "w": "credible",
-  "pos": "adj.",
-  "zh": "可信的；可靠的",
-  "ex": "The witness gave a credible account of the accident."
- },
- {
-  "w": "reception",
-  "pos": "n.",
-  "zh": "招待會；接待處；接受",
-  "ex": "A reception was held to welcome the new manager."
- },
- {
-  "w": "recipe",
-  "pos": "n.",
-  "zh": "食譜；烹飪法",
-  "ex": "She followed her grandmother's recipe for the soup."
- },
- {
-  "w": "consider",
-  "pos": "v.",
-  "zh": "認真考慮，斟酌，細想",
-  "ex": "Please consider all the options before making a decision."
- },
- {
-  "w": "traumatic",
-  "pos": "adj.",
-  "zh": "（經歷）痛苦難忘的，造成精神創傷的",
-  "ex": "Losing his job was a traumatic experience for him."
- },
- {
-  "w": "residence",
-  "pos": "n.",
-  "zh": "住所；住房；宅第",
-  "ex": "Please provide proof of residence when applying for the account."
- },
- {
-  "w": "habitat",
-  "pos": "n.",
-  "zh": "（動植物的）生長地，棲息地",
-  "ex": "The wetland is a natural habitat for many rare birds."
- },
- {
-  "w": "relation",
-  "pos": "n.",
-  "zh": "關聯；關係；聯繫",
-  "ex": "The report examines the relation between price and demand."
- },
- {
-  "w": "insistence",
-  "pos": "n.",
-  "zh": "堅決要求；堅持主張；堅持",
-  "ex": "At her insistence, the meeting was moved to Friday."
- },
- {
-  "w": "recent",
-  "pos": "adj.",
-  "zh": "最近的；最新的；近來的",
-  "ex": "The most recent update fixed several problems with the app."
- },
- {
-  "w": "refuse",
-  "pos": "v.",
-  "zh": "拒絕;回絕;拒絕接受",
-  "ex": "The recipient may refuse to accept a damaged parcel."
- },
- {
-  "w": "complexity",
-  "pos": "n.",
-  "zh": "錯綜複雜;複雜性",
-  "ex": "The complexity of the tax system confuses many people."
- },
- {
-  "w": "splendor",
-  "pos": "n.",
-  "zh": "壯麗;輝煌;光彩",
-  "ex": "Visitors were amazed by the splendor of the old palace."
- },
- {
-  "w": "retreat",
-  "pos": "v.",
-  "zh": "退卻;撤退;後退",
-  "ex": "The soldiers were ordered to retreat from the border."
- },
- {
-  "w": "formation",
-  "pos": "n.",
-  "zh": "結構;形狀;形成方式;組成方式",
-  "ex": "The geese flew south in a V-shaped formation."
- },
- {
-  "w": "accidental",
-  "pos": "adj.",
-  "zh": "偶然的;意外的",
-  "ex": "The report confirmed that the fire was accidental."
- },
- {
-  "w": "instruction",
-  "pos": "n.",
-  "zh": "指示;命令;吩咐",
-  "ex": "Follow the instructions on the package before use."
- },
- {
-  "w": "distant",
-  "pos": "adj.",
-  "zh": "遙遠的;遠方的",
-  "ex": "We could see distant mountains from the train window."
- },
- {
-  "w": "factors",
-  "pos": "n.",
-  "zh": "因素；要素",
-  "ex": "Several factors must be considered before making the final decision."
- },
- {
-  "w": "complex",
-  "pos": "adj.",
-  "zh": "由許多相關的不同部分組成的；構造複雜的",
-  "ex": "The application process for the postal exam is quite complex."
- },
- {
-  "w": "partner",
-  "pos": "n.",
-  "zh": "搭檔，夥伴，同伴",
-  "ex": "The post office works with a reliable delivery partner overseas."
- },
- {
-  "w": "involved",
-  "pos": "adj.",
-  "zh": "複雜的，複雜難懂的",
-  "ex": "The customs procedure is more involved than it first appears."
- },
- {
-  "w": "affairs",
-  "pos": "n.",
-  "zh": "事務；事情",
-  "ex": "The manager handles the daily affairs of the branch office."
- },
- {
-  "w": "probable",
-  "pos": "adj.",
-  "zh": "很可能真實的；很可能發生的",
-  "ex": "It is probable that the parcel will arrive tomorrow."
- },
- {
-  "w": "capable",
-  "pos": "adj.",
-  "zh": "有能力的；熟練的；能幹的",
-  "ex": "She is capable of handling a heavy workload at the counter."
- },
- {
-  "w": "controversies",
-  "pos": "n.",
-  "zh": "爭議；爭論；爭辯",
-  "ex": "The new policy sparked several controversies among the staff."
- },
- {
-  "w": "allegations",
-  "pos": "n.",
-  "zh": "（未經證實的）指責，指控",
-  "ex": "The company denied all the allegations of misconduct."
- },
- {
-  "w": "delegations",
-  "pos": "n.",
-  "zh": "代表團",
-  "ex": "Delegations from several countries attended the postal conference."
- },
- {
-  "w": "testimonies",
-  "pos": "n.",
-  "zh": "（尤指法庭上的）證詞，證言",
-  "ex": "The witnesses gave their testimonies in court."
- },
- {
-  "w": "demonstrations",
-  "pos": "n.",
-  "zh": "演示，示範",
-  "ex": "The trainer gave clear demonstrations of the new sorting system."
- },
- {
-  "w": "entertainers",
-  "pos": "n.",
-  "zh": "（以唱歌、講笑話等娛悅大眾的）表演者，藝人",
-  "ex": "The entertainers performed at the annual company event."
- },
- {
-  "w": "hesitate",
-  "pos": "v.",
-  "zh": "猶豫，躊躇",
-  "ex": "Do not hesitate to contact us if you have any questions."
- },
- {
-  "w": "tolerate",
-  "pos": "v.",
-  "zh": "寬容；容忍",
-  "ex": "The office will not tolerate any rude behaviour toward its staff."
- },
- {
-  "w": "invade",
-  "pos": "v.",
-  "zh": "入侵，侵略",
-  "ex": "Junk mail seems to invade every mailbox these days."
- },
- {
-  "w": "vulnerable",
-  "pos": "adj.",
-  "zh": "易受傷的；易受影響（或攻擊）的；脆弱的",
-  "ex": "Elderly customers are more vulnerable to phone scams."
- },
- {
-  "w": "indispensable",
-  "pos": "adj.",
-  "zh": "必不可少的，必需的",
-  "ex": "A reliable postal service is indispensable to daily life."
- },
- {
-  "w": "remarkable",
-  "pos": "adj.",
-  "zh": "非凡的；奇異的；引人注目的",
-  "ex": "The team made remarkable progress this quarter."
- },
- {
-  "w": "knowledgeable",
-  "pos": "adj.",
-  "zh": "知識淵博的；有見識的",
-  "ex": "The clerk is very knowledgeable about international shipping rules."
- },
- {
-  "w": "inform",
-  "pos": "v.",
-  "zh": "通知，告知",
-  "ex": "Please inform the recipient before the parcel is delivered."
- },
- {
-  "w": "state",
-  "pos": "n.",
-  "zh": "狀態；情形；狀況",
-  "ex": "The package arrived in perfect state after the long journey."
- },
- {
-  "w": "describe",
-  "pos": "v.",
-  "zh": "描述，描寫，描繪",
-  "ex": "Please describe the contents of the package on this form."
- },
- {
-  "w": "vacant",
-  "pos": "adj.",
-  "zh": "空的；未被佔用的",
-  "ex": "There is a vacant position at the front counter."
- },
- {
-  "w": "violent",
-  "pos": "adj.",
-  "zh": "使用暴力的；強暴的",
-  "ex": "The staff reported a violent customer to security."
- },
- {
-  "w": "allocate",
-  "pos": "v.",
-  "zh": "分配；撥給；配置",
-  "ex": "The city council decided to allocate additional funds to improve public transportation."
- },
- {
-  "w": "additional",
-  "pos": "adj.",
-  "zh": "額外的；附加的",
-  "ex": "Additional documents are required for the application."
- },
- {
-  "w": "funds",
-  "pos": "n.",
-  "zh": "資金；經費",
-  "ex": "The project needs more funds before construction can begin."
- },
- {
-  "w": "resources",
-  "pos": "n.",
-  "zh": "資源",
-  "ex": "The manager allocated resources to the most urgent tasks."
- },
- {
-  "w": "provide",
-  "pos": "v.",
-  "zh": "提供；供給",
-  "ex": "The post office will provide clear instructions to customers."
- },
- {
-  "w": "increase",
-  "pos": "v.",
-  "zh": "增加；提高",
-  "ex": "The company plans to increase funding for employee training."
- },
- {
-  "w": "reduce",
-  "pos": "v.",
-  "zh": "減少；降低",
-  "ex": "The department must reduce spending without lowering service quality."
- },
- {
-  "w": "budget",
-  "pos": "n.",
-  "zh": "預算",
-  "ex": "The city approved a larger budget for public transportation."
- },
- {
-  "w": "funding",
-  "pos": "n.",
-  "zh": "資金；經費；撥款",
-  "ex": "The program depends on stable funding from the government."
- },
- {
-  "w": "financial support",
-  "pos": "n.",
-  "zh": "財務支持；經費支援",
-  "ex": "Small businesses may need financial support during difficult times."
- },
- {
-  "w": "scam",
-  "pos": "n. v.",
-  "zh": "詐騙；騙局；詐騙某人",
-  "ex": "Many elderly people have become victims of telephone scams."
- },
- {
-  "w": "fraud",
-  "pos": "n.",
-  "zh": "詐欺；詐騙行為；舞弊",
-  "ex": "The company was investigated for fraud."
- },
- {
-  "w": "susceptible",
-  "pos": "adj.",
-  "zh": "易受影響的；易感染的",
-  "ex": "Children are susceptible to colds."
- },
- {
-  "w": "prone",
-  "pos": "adj.",
-  "zh": "有……傾向的；容易……的",
-  "ex": "He is prone to making mistakes when he is tired."
- },
- {
-  "w": "exposed",
-  "pos": "adj.",
-  "zh": "暴露的；無遮蔽的；易受影響的",
-  "ex": "Workers are exposed to chemicals in the factory."
- },
- {
-  "w": "valuable",
-  "pos": "adj.",
-  "zh": "有價值的；寶貴的",
-  "ex": "The clerk gave me valuable advice about registered mail."
- },
- {
-  "w": "reliable",
-  "pos": "adj.",
-  "zh": "可靠的；可信賴的",
-  "ex": "Customers need reliable information from the post office."
- },
- {
-  "w": "automate",
-  "pos": "v.",
-  "zh": "使自動化",
-  "ex": "The postal service plans to automate its parcel sorting process."
- },
- {
-  "w": "automation",
-  "pos": "n.",
-  "zh": "自動化",
-  "ex": "Increased automation has reduced the need for manual sorting."
- },
- {
-  "w": "algorithm",
-  "pos": "n.",
-  "zh": "演算法",
-  "ex": "The bank uses an algorithm to detect unusual transactions in real time."
- },
- {
-  "w": "deploy",
-  "pos": "v.",
-  "zh": "部署、配置",
-  "ex": "The company will deploy an AI assistant to help clerks answer inquiries."
- },
- {
-  "w": "streamline",
-  "pos": "v.",
-  "zh": "精簡流程、使更有效率",
-  "ex": "The new system was designed to streamline the delivery process."
- },
- {
-  "w": "obsolete",
-  "pos": "adj.",
-  "zh": "過時的、已廢棄的",
-  "ex": "Paper money orders have become obsolete in the age of electronic transfers."
- },
- {
-  "w": "displace",
-  "pos": "v.",
-  "zh": "取代、使離開原位",
-  "ex": "Many workers fear that automation will displace them within a decade."
- },
- {
-  "w": "disrupt",
-  "pos": "v.",
-  "zh": "顛覆、擾亂",
-  "ex": "Generative AI has begun to disrupt traditional customer service industries."
- },
- {
-  "w": "impersonate",
-  "pos": "v.",
-  "zh": "冒充、假扮",
-  "ex": "Scammers often impersonate bank officials to obtain personal information."
- },
- {
-  "w": "authenticate",
-  "pos": "v.",
-  "zh": "驗證身分、認證",
-  "ex": "Users must authenticate their identity before accessing the account."
- },
- {
-  "w": "credential",
-  "pos": "n.",
-  "zh": "憑證、資格證明",
-  "ex": "Never share your login credentials with anyone over the phone."
- },
- {
-  "w": "fraudulent",
-  "pos": "adj.",
-  "zh": "詐欺的、不實的",
-  "ex": "The system flagged several fraudulent transactions last month."
- },
- {
-  "w": "counterfeit",
-  "pos": "adj./n.",
-  "zh": "偽造的；偽造品",
-  "ex": "Customs officers seized a shipment of counterfeit goods at the airport."
- },
- {
-  "w": "surveillance",
-  "pos": "n.",
-  "zh": "監視、監控",
-  "ex": "Critics argue that facial recognition amounts to constant surveillance."
- },
- {
-  "w": "bias",
-  "pos": "n.",
-  "zh": "偏見、偏誤",
-  "ex": "Researchers found a significant bias in the data used to train the model."
- },
- {
-  "w": "ethical",
-  "pos": "adj.",
-  "zh": "倫理的、合乎道德的",
-  "ex": "Companies face ethical questions about how customer data is used."
- },
- {
-  "w": "privacy",
-  "pos": "n.",
-  "zh": "隱私",
-  "ex": "Stronger regulations are needed to protect consumer privacy online."
- },
- {
-  "w": "passenger",
-  "pos": "n.",
-  "zh": "乘客，旅客",
-  "ex": "The bus passenger asked the clerk where to mail a postcard."
- },
- {
-  "w": "penalty",
-  "pos": "n.",
-  "zh": "刑罰，懲罰，處罰",
-  "ex": "Sending prohibited items by mail may result in a heavy penalty."
- },
- {
-  "w": "pension",
-  "pos": "n.",
-  "zh": "養老金；退休金；撫恤金",
-  "ex": "Retired postal workers receive a monthly pension."
- },
- {
-  "w": "industry",
-  "pos": "n.",
-  "zh": "工業；產業；生產製造",
-  "ex": "The logistics industry depends on a reliable postal service."
- },
- {
-  "w": "conform",
-  "pos": "v.",
-  "zh": "順從；遵從；順應習俗",
-  "ex": "All parcels must conform to the post office's size limits."
- },
- {
-  "w": "reform",
-  "pos": "v.",
-  "zh": "改革，改進，改造",
-  "ex": "The company plans to reform its mail sorting system."
- },
- {
-  "w": "violate",
-  "pos": "v.",
-  "zh": "違反，違背，違犯（尤指法律、協議、原則等）",
-  "ex": "Mailing dangerous goods can violate postal regulations."
- },
- {
-  "w": "create",
-  "pos": "v.",
-  "zh": "創造；創建；創作；發明",
-  "ex": "The new system will create a tracking number for every parcel."
- },
- {
-  "w": "enforce",
-  "pos": "v.",
-  "zh": "使服從（法律）；強制執行",
-  "ex": "Postal staff must enforce the rules on prohibited items."
- },
- {
-  "w": "stimulate",
-  "pos": "v.",
-  "zh": "激發，激勵；促進",
-  "ex": "Free shipping can stimulate more online shopping and parcel deliveries."
- },
- {
-  "w": "launch",
-  "pos": "v.",
-  "zh": "啟動，推出，發起",
-  "ex": "The post office will launch a new express delivery service next month."
- },
- {
-  "w": "punish",
-  "pos": "v.",
-  "zh": "懲罰",
-  "ex": "The regulations punish anyone who opens another person's mail."
- },
- {
-  "w": "borrow",
-  "pos": "v.",
-  "zh": "借，借入",
-  "ex": "You may borrow a pen at the counter to fill out the form."
- },
- {
-  "w": "rescue",
-  "pos": "v.",
-  "zh": "救援；營救；解救",
-  "ex": "Emergency mail helped rescue teams reach the flooded village."
- },
- {
-  "w": "severe",
-  "pos": "adj.",
-  "zh": "非常嚴重的；劇烈的；慘重的",
-  "ex": "Due to the severe typhoon, all mail deliveries were suspended."
- },
- {
-  "w": "timid",
-  "pos": "adj.",
-  "zh": "羞怯的；膽小的，膽怯的",
-  "ex": "The timid customer hesitated before asking about registered mail."
- },
- {
-  "w": "prompt",
-  "pos": "adj.",
-  "zh": "迅速的；敏捷的；及時的",
-  "ex": "Prompt delivery is essential for the express mail service."
- },
- {
-  "w": "vital",
-  "pos": "adj.",
-  "zh": "必不可少的；極其重要的",
-  "ex": "An accurate address is vital for successful parcel delivery."
- },
- {
-  "w": "decoration",
-  "pos": "n.",
-  "zh": "裝飾，裝潢；裝飾品，裝飾物",
-  "ex": "The post office added holiday decoration to its main lobby."
- },
- {
-  "w": "donation",
-  "pos": "n.",
-  "zh": "捐獻，捐贈，捐助",
-  "ex": "The charity sent a thank-you letter for every donation by mail."
- },
- {
-  "w": "definition",
-  "pos": "n.",
-  "zh": "定義",
-  "ex": "The manual gives a clear definition of registered mail."
- },
- {
-  "w": "violates",
-  "pos": "v.",
-  "zh": "違反，違背，違犯（尤指法律、協議、原則等）",
-  "ex": "Opening another person's mail violates postal regulations."
- },
- {
-  "w": "creates",
-  "pos": "v.",
-  "zh": "創造；創建；創作；發明",
-  "ex": "Automated sorting creates fewer delivery errors."
- },
- {
-  "w": "enforces",
-  "pos": "v.",
-  "zh": "使服從（法律）；（強制）實行，執行",
-  "ex": "The postal authority enforces strict rules on prohibited items."
- },
- {
-  "w": "stimulates",
-  "pos": "v.",
-  "zh": "激發，激勵；促進",
-  "ex": "The seasonal discount stimulates demand for express delivery."
- },
- {
-  "w": "glance",
-  "pos": "n./v.",
-  "zh": "瞥一眼，迅速地看一眼，掃視",
-  "ex": "She gave the address label a quick glance before sorting it."
- },
- {
-  "w": "circuit",
-  "pos": "n.",
-  "zh": "巡迴；巡遊；巡迴之地",
-  "ex": "The mail carrier follows a fixed circuit through the district each morning."
- },
- {
-  "w": "term",
-  "pos": "n.",
-  "zh": "期，期限",
-  "ex": "The insurance policy has a term of ten years."
- },
- {
-  "w": "stroll",
-  "pos": "v./n.",
-  "zh": "散步，蹓躂",
-  "ex": "They took a stroll to the post office after lunch."
- },
- {
-  "w": "persuaded",
-  "pos": "v.",
-  "zh": "勸服；說服",
-  "ex": "The clerk persuaded the customer to use registered mail."
- },
- {
-  "w": "decorate",
-  "pos": "v.",
-  "zh": "裝飾，裝扮，打扮",
-  "ex": "The staff decorated the branch for the New Year holiday."
- },
- {
-  "w": "celebrate",
-  "pos": "v.",
-  "zh": "慶祝，慶賀；祝賀",
-  "ex": "The company held a party to celebrate its anniversary."
- },
- {
-  "w": "dynamic",
-  "pos": "adj.",
-  "zh": "思維活躍的；活潑的，充滿活力的，精力充沛的",
-  "ex": "The new manager brought a dynamic approach to counter service."
- },
- {
-  "w": "experimental",
-  "pos": "adj.",
-  "zh": "（尤指科學方面）實驗（性）的，試驗（性）的",
-  "ex": "The office is testing an experimental parcel-tracking system."
- },
- {
-  "w": "instant",
-  "pos": "adj.",
-  "zh": "立即的，立刻的",
-  "ex": "The app sends an instant notification when the package arrives."
- },
- {
-  "w": "decline",
-  "pos": "v.",
-  "zh": "下滑、衰退",
-  "ex": "Traditional mail volume has been declining due to the rise of digital communication."
- },
- {
-  "w": "track",
-  "pos": "v.",
-  "zh": "追蹤",
-  "ex": "Customers can track their parcels online at any time."
- },
- {
-  "w": "essential",
-  "pos": "adj.",
-  "zh": "不可或缺的、必要的",
-  "ex": "Postal workers play an essential role in connecting rural and urban communities."
- },
- {
-  "w": "despite",
-  "pos": "prep.",
-  "zh": "儘管（接名詞片語）",
-  "ex": "Despite the heavy rain, the game continued as scheduled."
- },
- {
-  "w": "protect",
-  "pos": "v.",
-  "zh": "保護（protect...from/against...）",
-  "ex": "Sunscreen protects skin from UV damage."
- },
- {
-  "w": "detail",
-  "pos": "n.",
-  "zh": "消息；細節",
-  "ex": "Please fill in your contact details on the delivery form."
- },
- {
-  "w": "retail",
-  "pos": "n./v.",
-  "zh": "零售，零賣",
-  "ex": "The post office also runs a small retail counter for stationery."
- },
- {
-  "w": "curtail",
-  "pos": "v.",
-  "zh": "制止；減少；縮減；限制",
-  "ex": "The branch had to curtail its opening hours during the holiday."
- },
- {
-  "w": "entail",
-  "pos": "v.",
-  "zh": "使必要；牽涉",
-  "ex": "Sorting international mail entails several extra checks."
- },
- {
-  "w": "praise",
-  "pos": "v./n.",
-  "zh": "讚揚，表揚",
-  "ex": "The supervisor gave praise to the staff for clearing the backlog."
- },
- {
-  "w": "farewell",
-  "pos": "n.",
-  "zh": "再見，再會",
-  "ex": "The team held a farewell party for the retiring postmaster."
- },
- {
-  "w": "costume",
-  "pos": "n.",
-  "zh": "（某國或某一歷史時期或適合某種活動的）服裝",
-  "ex": "Staff wore traditional costume at the anniversary event."
- },
- {
-  "w": "wedding",
-  "pos": "n.",
-  "zh": "婚禮，結婚慶典",
-  "ex": "She mailed the wedding invitations by registered post."
- },
- {
-  "w": "plunge",
-  "pos": "v.",
-  "zh": "（使）（某人或某物）驟然移動，驟然下降",
-  "ex": "Parcel volumes plunged after the peak shopping season ended."
- },
- {
-  "w": "soar",
-  "pos": "v.",
-  "zh": "猛增，驟升",
-  "ex": "Online orders made delivery demand soar last month."
- },
- {
-  "w": "ascend",
-  "pos": "v.",
-  "zh": "上升；攀登；登上",
-  "ex": "The lift ascended to the sorting floor on the top level."
- },
- {
-  "w": "surge",
-  "pos": "n./v.",
-  "zh": "陡增，遽增，急遽上升",
-  "ex": "There was a surge in parcels just before the New Year holiday."
- },
- {
-  "w": "inspect",
-  "pos": "v.",
-  "zh": "檢查；審視",
-  "ex": "Customs officers inspect every incoming international package."
- },
- {
-  "w": "unwillingly",
-  "pos": "adv.",
-  "zh": "不情願地、勉強地（un- 否定＋willing 願意的）",
-  "ex": "She unwillingly put her book down to help her mother."
- },
- {
-  "w": "population",
-  "pos": "n.",
-  "zh": "人口、人口數（popul- 人民；勿與 pollution 污染混淆）",
-  "ex": "The population of Taiwan is over 23 million."
- },
- {
-  "w": "pollution",
-  "pos": "n.",
-  "zh": "污染（動詞 pollute；與 population 拼字近似，須分清）",
-  "ex": "Air pollution in the city has become a serious problem."
- },
- {
-  "w": "departure",
-  "pos": "n.",
-  "zh": "出發、起飛；departure time 起飛時間（動詞 depart，反義 arrival）",
-  "ex": "Henry checked the departure time of his flight on the timetable."
- },
- {
-  "w": "arrival",
-  "pos": "n.",
-  "zh": "抵達、到達；arrival time 抵達時間（與 departure 成對記）",
-  "ex": "The arrival time of the train is 3:20 in the afternoon."
- },
- {
-  "w": "instead",
-  "pos": "adv.",
-  "zh": "取而代之、反而（放句尾；置於句中須用 instead of + N）",
-  "ex": "Lydia had no tomatoes, so she used corn to make the soup instead."
- }
+  {
+    "w": "deliver",
+    "pos": "v.",
+    "zh": "投遞、遞送",
+    "ex": "The parcel will be delivered within three working days."
+  },
+  {
+    "w": "postage",
+    "pos": "n.",
+    "zh": "郵資",
+    "ex": "Postage is included in the total price."
+  },
+  {
+    "w": "recipient",
+    "pos": "n.",
+    "zh": "收件人、受領人",
+    "ex": "The recipient must sign for the registered letter."
+  },
+  {
+    "w": "correspondence",
+    "pos": "n.",
+    "zh": "信件往來、通信",
+    "ex": "Please address all correspondence to the head office."
+  },
+  {
+    "w": "enclose",
+    "pos": "v.",
+    "zh": "隨函附上",
+    "ex": "I enclose a copy of the receipt for your reference."
+  },
+  {
+    "w": "attachment",
+    "pos": "n.",
+    "zh": "附件",
+    "ex": "Please see the attachment for further details."
+  },
+  {
+    "w": "premium",
+    "pos": "n.",
+    "zh": "保險費；獎金",
+    "ex": "The monthly premium for this policy is quite reasonable."
+  },
+  {
+    "w": "policy",
+    "pos": "n.",
+    "zh": "保單；政策",
+    "ex": "Read the insurance policy carefully before signing."
+  },
+  {
+    "w": "beneficiary",
+    "pos": "n.",
+    "zh": "受益人",
+    "ex": "She named her son as the beneficiary of the policy."
+  },
+  {
+    "w": "compensation",
+    "pos": "n.",
+    "zh": "補償、賠償",
+    "ex": "The sender may claim compensation for the lost parcel."
+  },
+  {
+    "w": "remittance",
+    "pos": "n.",
+    "zh": "匯款",
+    "ex": "Please confirm once the remittance has been received."
+  },
+  {
+    "w": "deposit",
+    "pos": "n./v.",
+    "zh": "存款；存入",
+    "ex": "He made a deposit of NT$5,000 at the counter."
+  },
+  {
+    "w": "withdraw",
+    "pos": "v.",
+    "zh": "提款；撤回",
+    "ex": "You can withdraw cash from any ATM nationwide."
+  },
+  {
+    "w": "interest",
+    "pos": "n.",
+    "zh": "利息；興趣",
+    "ex": "The savings account earns 1.5% interest per year."
+  },
+  {
+    "w": "account",
+    "pos": "n.",
+    "zh": "帳戶",
+    "ex": "She opened a savings account at the post office."
+  },
+  {
+    "w": "transaction",
+    "pos": "n.",
+    "zh": "交易",
+    "ex": "Each transaction is recorded in the passbook."
+  },
+  {
+    "w": "installment",
+    "pos": "n.",
+    "zh": "分期付款",
+    "ex": "The loan is repaid in monthly installments."
+  },
+  {
+    "w": "currency",
+    "pos": "n.",
+    "zh": "貨幣",
+    "ex": "Foreign currency exchange is available at this branch."
+  },
+  {
+    "w": "annual",
+    "pos": "adj.",
+    "zh": "每年的、年度的",
+    "ex": "The annual report will be published in March."
+  },
+  {
+    "w": "applicant",
+    "pos": "n.",
+    "zh": "申請人",
+    "ex": "Each applicant must submit two photos."
+  },
+  {
+    "w": "application",
+    "pos": "n.",
+    "zh": "申請（書）",
+    "ex": "Your application has been approved."
+  },
+  {
+    "w": "appointment",
+    "pos": "n.",
+    "zh": "約定；任命",
+    "ex": "I made an appointment with the manager for Friday."
+  },
+  {
+    "w": "available",
+    "pos": "adj.",
+    "zh": "可用的、有空的",
+    "ex": "This service is available at all branches."
+  },
+  {
+    "w": "confirm",
+    "pos": "v.",
+    "zh": "確認",
+    "ex": "Please confirm your reservation by e-mail."
+  },
+  {
+    "w": "convenient",
+    "pos": "adj.",
+    "zh": "方便的",
+    "ex": "Online banking is convenient for busy customers."
+  },
+  {
+    "w": "efficient",
+    "pos": "adj.",
+    "zh": "有效率的",
+    "ex": "The new sorting system is fast and efficient."
+  },
+  {
+    "w": "urgent",
+    "pos": "adj.",
+    "zh": "緊急的",
+    "ex": "Send it by express mail if the matter is urgent."
+  },
+  {
+    "w": "estimate",
+    "pos": "v./n.",
+    "zh": "估計；估價",
+    "ex": "We estimate the delivery will take five days."
+  },
+  {
+    "w": "guarantee",
+    "pos": "v./n.",
+    "zh": "保證",
+    "ex": "We guarantee next-day delivery for express items."
+  },
+  {
+    "w": "insurance",
+    "pos": "n.",
+    "zh": "保險",
+    "ex": "Postal life insurance is popular in rural areas."
+  },
+  {
+    "w": "inquiry",
+    "pos": "n.",
+    "zh": "詢問、查詢",
+    "ex": "For further inquiries, please call our service line."
+  },
+  {
+    "w": "invoice",
+    "pos": "n.",
+    "zh": "發票、請款單",
+    "ex": "The invoice must be paid within thirty days."
+  },
+  {
+    "w": "receipt",
+    "pos": "n.",
+    "zh": "收據",
+    "ex": "Keep the receipt in case you need a refund."
+  },
+  {
+    "w": "refund",
+    "pos": "n./v.",
+    "zh": "退款",
+    "ex": "You may request a refund within seven days."
+  },
+  {
+    "w": "register",
+    "pos": "v.",
+    "zh": "掛號；登記",
+    "ex": "It is safer to register valuable letters."
+  },
+  {
+    "w": "schedule",
+    "pos": "n./v.",
+    "zh": "時程表；排定",
+    "ex": "The meeting is scheduled for next Monday."
+  },
+  {
+    "w": "signature",
+    "pos": "n.",
+    "zh": "簽名",
+    "ex": "The document is not valid without your signature."
+  },
+  {
+    "w": "verify",
+    "pos": "v.",
+    "zh": "查核、驗證",
+    "ex": "Please verify your identity with an ID card."
+  },
+  {
+    "w": "identity",
+    "pos": "n.",
+    "zh": "身分",
+    "ex": "The clerk checked the customer's identity carefully."
+  },
+  {
+    "w": "procedure",
+    "pos": "n.",
+    "zh": "程序、手續",
+    "ex": "Follow the standard procedure when handling complaints."
+  },
+  {
+    "w": "regulation",
+    "pos": "n.",
+    "zh": "規章、法規",
+    "ex": "The new regulation takes effect next month."
+  },
+  {
+    "w": "requirement",
+    "pos": "n.",
+    "zh": "要求、必要條件",
+    "ex": "Meeting the deadline is a basic requirement."
+  },
+  {
+    "w": "responsible",
+    "pos": "adj.",
+    "zh": "負責的",
+    "ex": "The carrier is responsible for any damage in transit."
+  },
+  {
+    "w": "liability",
+    "pos": "n.",
+    "zh": "（法律）責任",
+    "ex": "The company denied liability for the delay."
+  },
+  {
+    "w": "valid",
+    "pos": "adj.",
+    "zh": "有效的",
+    "ex": "The coupon is valid until the end of June."
+  },
+  {
+    "w": "expire",
+    "pos": "v.",
+    "zh": "到期、失效",
+    "ex": "My passport expires next year."
+  },
+  {
+    "w": "extend",
+    "pos": "v.",
+    "zh": "延長",
+    "ex": "You may extend the storage period in writing."
+  },
+  {
+    "w": "postpone",
+    "pos": "v.",
+    "zh": "延期",
+    "ex": "The ceremony was postponed because of the typhoon."
+  },
+  {
+    "w": "notify",
+    "pos": "v.",
+    "zh": "通知",
+    "ex": "We will notify you as soon as the parcel arrives."
+  },
+  {
+    "w": "announce",
+    "pos": "v.",
+    "zh": "宣布、公告",
+    "ex": "The company announced a new express service."
+  },
+  {
+    "w": "distribute",
+    "pos": "v.",
+    "zh": "分發、配送",
+    "ex": "Leaflets were distributed to every mailbox."
+  },
+  {
+    "w": "domestic",
+    "pos": "adj.",
+    "zh": "國內的",
+    "ex": "Domestic parcels usually arrive within two days."
+  },
+  {
+    "w": "international",
+    "pos": "adj.",
+    "zh": "國際的",
+    "ex": "International mail requires a customs declaration."
+  },
+  {
+    "w": "declaration",
+    "pos": "n.",
+    "zh": "申報（單）；聲明",
+    "ex": "Fill out a customs declaration for overseas parcels."
+  },
+  {
+    "w": "fragile",
+    "pos": "adj.",
+    "zh": "易碎的",
+    "ex": "Mark the box FRAGILE if it contains glassware."
+  },
+  {
+    "w": "via",
+    "pos": "prep.",
+    "zh": "經由",
+    "ex": "The letter was sent via airmail."
+  },
+  {
+    "w": "destination",
+    "pos": "n.",
+    "zh": "目的地",
+    "ex": "The parcel reached its destination on time."
+  },
+  {
+    "w": "address",
+    "pos": "n./v.",
+    "zh": "地址；寄往、處理",
+    "ex": "Make sure the address is written clearly."
+  },
+  {
+    "w": "counter",
+    "pos": "n.",
+    "zh": "櫃檯",
+    "ex": "Please pay at the counter over there."
+  },
+  {
+    "w": "branch",
+    "pos": "n.",
+    "zh": "分行、分局",
+    "ex": "This branch opens at eight thirty on weekdays."
+  },
+  {
+    "w": "apply",
+    "pos": "v.",
+    "zh": "申請",
+    "ex": "You can apply for the position online before Friday."
+  },
+  {
+    "w": "submit",
+    "pos": "v.",
+    "zh": "提交",
+    "ex": "Please submit the report to your supervisor by noon."
+  },
+  {
+    "w": "supervisor",
+    "pos": "n.",
+    "zh": "主管",
+    "ex": "My supervisor approved the leave request yesterday."
+  },
+  {
+    "w": "deadline",
+    "pos": "n.",
+    "zh": "截止日期",
+    "ex": "The deadline for registration is July 31."
+  },
+  {
+    "w": "approval",
+    "pos": "n.",
+    "zh": "批准",
+    "ex": "The project cannot start without the manager's approval."
+  },
+  {
+    "w": "cancel",
+    "pos": "v.",
+    "zh": "取消",
+    "ex": "She called to cancel her appointment."
+  },
+  {
+    "w": "process",
+    "pos": "n./v.",
+    "zh": "處理程序；處理",
+    "ex": "It takes three days to process the application."
+  },
+  {
+    "w": "client",
+    "pos": "n.",
+    "zh": "客戶",
+    "ex": "The client asked for a detailed price list."
+  },
+  {
+    "w": "report",
+    "pos": "n./v.",
+    "zh": "報告；報告",
+    "ex": "Please hand in the monthly report before the meeting."
+  },
+  {
+    "w": "extension",
+    "pos": "n.",
+    "zh": "延期、延長",
+    "ex": "He asked for a two-day extension on the deadline."
+  },
+  {
+    "w": "prevent",
+    "pos": "v.",
+    "zh": "預防",
+    "ex": "Washing hands often helps prevent infection."
+  },
+  {
+    "w": "symptom",
+    "pos": "n.",
+    "zh": "症狀",
+    "ex": "A fever is a common symptom of the flu."
+  },
+  {
+    "w": "treatment",
+    "pos": "n.",
+    "zh": "治療",
+    "ex": "The new treatment works well for most patients."
+  },
+  {
+    "w": "recover",
+    "pos": "v.",
+    "zh": "康復",
+    "ex": "It took him two weeks to recover from the operation."
+  },
+  {
+    "w": "medicine",
+    "pos": "n.",
+    "zh": "藥",
+    "ex": "Take the medicine three times a day after meals."
+  },
+  {
+    "w": "injury",
+    "pos": "n.",
+    "zh": "傷害",
+    "ex": "She missed the game because of a knee injury."
+  },
+  {
+    "w": "emergency",
+    "pos": "n.",
+    "zh": "緊急狀況",
+    "ex": "Call 119 in case of an emergency."
+  },
+  {
+    "w": "clinic",
+    "pos": "n.",
+    "zh": "診所",
+    "ex": "The clinic opens at nine every morning."
+  },
+  {
+    "w": "fever",
+    "pos": "n.",
+    "zh": "發燒",
+    "ex": "The child stayed home because of a high fever."
+  },
+  {
+    "w": "cough",
+    "pos": "n./v.",
+    "zh": "咳嗽",
+    "ex": "He has had a bad cough for a week."
+  },
+  {
+    "w": "check-up",
+    "pos": "n.",
+    "zh": "健康檢查",
+    "ex": "You should get a check-up once a year."
+  },
+  {
+    "w": "vitamin",
+    "pos": "n.",
+    "zh": "維他命",
+    "ex": "Oranges are rich in vitamin C."
+  },
+  {
+    "w": "infection",
+    "pos": "n.",
+    "zh": "感染",
+    "ex": "Clean the wound to avoid infection."
+  },
+  {
+    "w": "operation",
+    "pos": "n.",
+    "zh": "手術；營運",
+    "ex": "The operation lasted about two hours."
+  },
+  {
+    "w": "be aware of",
+    "pos": "phr.",
+    "zh": "意識到",
+    "ex": "You should be aware of the new safety rules."
+  },
+  {
+    "w": "in charge of",
+    "pos": "phr.",
+    "zh": "負責",
+    "ex": "Ms. Lin is in charge of customer service."
+  },
+  {
+    "w": "due to",
+    "pos": "phr.",
+    "zh": "由於",
+    "ex": "The flight was delayed due to the storm."
+  },
+  {
+    "w": "in spite of",
+    "pos": "phr.",
+    "zh": "儘管",
+    "ex": "They finished the work in spite of the heavy rain."
+  },
+  {
+    "w": "as soon as",
+    "pos": "phr.",
+    "zh": "一…就…",
+    "ex": "Call me as soon as the parcel arrives."
+  },
+  {
+    "w": "according to",
+    "pos": "phr.",
+    "zh": "根據",
+    "ex": "According to the schedule, the exam starts at nine."
+  },
+  {
+    "w": "deal with",
+    "pos": "phr.",
+    "zh": "處理",
+    "ex": "The staff learned how to deal with complaints."
+  },
+  {
+    "w": "come up with",
+    "pos": "phr.",
+    "zh": "想出",
+    "ex": "She came up with a great idea for the event."
+  },
+  {
+    "w": "take part in",
+    "pos": "phr.",
+    "zh": "參加",
+    "ex": "All employees are welcome to take part in the training."
+  },
+  {
+    "w": "pay attention to",
+    "pos": "phr.",
+    "zh": "注意",
+    "ex": "Please pay attention to the announcement."
+  },
+  {
+    "w": "get rid of",
+    "pos": "phr.",
+    "zh": "去除",
+    "ex": "We need to get rid of the old files."
+  },
+  {
+    "w": "take care of",
+    "pos": "phr.",
+    "zh": "照顧、處理",
+    "ex": "Don't worry — I'll take care of the paperwork."
+  },
+  {
+    "w": "set up",
+    "pos": "phr.",
+    "zh": "建立、設置",
+    "ex": "They set up a new branch in Tainan last year."
+  },
+  {
+    "w": "look forward to",
+    "pos": "phr.",
+    "zh": "期待",
+    "ex": "I look forward to hearing from you soon."
+  },
+  {
+    "w": "turn in",
+    "pos": "phr.",
+    "zh": "提交",
+    "ex": "Remember to turn in your answer sheet before leaving."
+  },
+  {
+    "w": "recycle",
+    "pos": "v.",
+    "zh": "回收",
+    "ex": "Please recycle the boxes after unpacking."
+  },
+  {
+    "w": "device",
+    "pos": "n.",
+    "zh": "裝置",
+    "ex": "This device can scan the barcode on each parcel."
+  },
+  {
+    "w": "electricity",
+    "pos": "n.",
+    "zh": "電力",
+    "ex": "The office saved electricity by turning off unused lights."
+  },
+  {
+    "w": "global warming",
+    "pos": "n.",
+    "zh": "全球暖化",
+    "ex": "Global warming is causing sea levels to rise."
+  },
+  {
+    "w": "solar energy",
+    "pos": "n.",
+    "zh": "太陽能",
+    "ex": "The building uses solar energy for heating."
+  },
+  {
+    "w": "battery",
+    "pos": "n.",
+    "zh": "電池",
+    "ex": "My phone's battery only lasts half a day."
+  },
+  {
+    "w": "network",
+    "pos": "n.",
+    "zh": "網路",
+    "ex": "The network was down for an hour this morning."
+  },
+  {
+    "w": "download",
+    "pos": "v.",
+    "zh": "下載",
+    "ex": "You can download the form from the official website."
+  },
+  {
+    "w": "upload",
+    "pos": "v.",
+    "zh": "上傳",
+    "ex": "Please upload the file to the shared folder."
+  },
+  {
+    "w": "signal",
+    "pos": "n.",
+    "zh": "訊號",
+    "ex": "There is no phone signal in the basement."
+  },
+  {
+    "w": "digital",
+    "pos": "adj.",
+    "zh": "數位的",
+    "ex": "More people are using digital payment these days."
+  },
+  {
+    "w": "update",
+    "pos": "v./n.",
+    "zh": "更新",
+    "ex": "Remember to update the app to the latest version."
+  },
+  {
+    "w": "access",
+    "pos": "n./v.",
+    "zh": "存取、進入",
+    "ex": "Only staff members have access to this room."
+  },
+  {
+    "w": "password",
+    "pos": "n.",
+    "zh": "密碼",
+    "ex": "Never share your password with anyone."
+  },
+  {
+    "w": "screen",
+    "pos": "n.",
+    "zh": "螢幕",
+    "ex": "The screen shows the number of your turn."
+  },
+  {
+    "w": "philately",
+    "pos": "n.",
+    "zh": "集郵",
+    "ex": "He has been interested in philately since he collected his first stamp."
+  },
+  {
+    "w": "persuade",
+    "pos": "v.",
+    "zh": "說服、勸服",
+    "ex": "The clerk persuaded the customer to send the parcel by registered mail."
+  },
+  {
+    "w": "competition",
+    "pos": "n.",
+    "zh": "競爭",
+    "ex": "The competition among delivery companies is getting fierce."
+  },
+  {
+    "w": "communication",
+    "pos": "n.",
+    "zh": "溝通、交流",
+    "ex": "Good communication with customers helps prevent complaints."
+  },
+  {
+    "w": "combination",
+    "pos": "n.",
+    "zh": "結合、組合",
+    "ex": "A combination of savings and insurance meets most clients' needs."
+  },
+  {
+    "w": "thrifty",
+    "pos": "adj.",
+    "zh": "節儉的",
+    "ex": "She is thrifty and deposits part of her salary every month."
+  },
+  {
+    "w": "lavish",
+    "pos": "adj.",
+    "zh": "揮霍的、奢華的",
+    "ex": "He regretted his lavish spending when the bill arrived."
+  },
+  {
+    "w": "unnecessary",
+    "pos": "adj.",
+    "zh": "不必要的、多餘的",
+    "ex": "Please avoid unnecessary steps when processing the application."
+  },
+  {
+    "w": "deliberate",
+    "pos": "adj.",
+    "zh": "（常指壞事）有意的，故意的，蓄意的",
+    "ex": "The court ruled that the damage was deliberate, not accidental."
+  },
+  {
+    "w": "innocent",
+    "pos": "adj.",
+    "zh": "（人）無罪的；單純的；天真的",
+    "ex": "The suspect was found innocent after the investigation."
+  },
+  {
+    "w": "credible",
+    "pos": "adj.",
+    "zh": "可信的；可靠的",
+    "ex": "The witness gave a credible account of the accident."
+  },
+  {
+    "w": "reception",
+    "pos": "n.",
+    "zh": "招待會；接待處；接受",
+    "ex": "A reception was held to welcome the new manager."
+  },
+  {
+    "w": "recipe",
+    "pos": "n.",
+    "zh": "食譜；烹飪法",
+    "ex": "She followed her grandmother's recipe for the soup."
+  },
+  {
+    "w": "consider",
+    "pos": "v.",
+    "zh": "認真考慮，斟酌，細想",
+    "ex": "Please consider all the options before making a decision."
+  },
+  {
+    "w": "traumatic",
+    "pos": "adj.",
+    "zh": "（經歷）痛苦難忘的，造成精神創傷的",
+    "ex": "Losing his job was a traumatic experience for him."
+  },
+  {
+    "w": "residence",
+    "pos": "n.",
+    "zh": "住所；住房；宅第",
+    "ex": "Please provide proof of residence when applying for the account."
+  },
+  {
+    "w": "habitat",
+    "pos": "n.",
+    "zh": "（動植物的）生長地，棲息地",
+    "ex": "The wetland is a natural habitat for many rare birds."
+  },
+  {
+    "w": "relation",
+    "pos": "n.",
+    "zh": "關聯；關係；聯繫",
+    "ex": "The report examines the relation between price and demand."
+  },
+  {
+    "w": "insistence",
+    "pos": "n.",
+    "zh": "堅決要求；堅持主張；堅持",
+    "ex": "At her insistence, the meeting was moved to Friday."
+  },
+  {
+    "w": "recent",
+    "pos": "adj.",
+    "zh": "最近的；最新的；近來的",
+    "ex": "The most recent update fixed several problems with the app."
+  },
+  {
+    "w": "refuse",
+    "pos": "v.",
+    "zh": "拒絕;回絕;拒絕接受",
+    "ex": "The recipient may refuse to accept a damaged parcel."
+  },
+  {
+    "w": "complexity",
+    "pos": "n.",
+    "zh": "錯綜複雜;複雜性",
+    "ex": "The complexity of the tax system confuses many people."
+  },
+  {
+    "w": "splendor",
+    "pos": "n.",
+    "zh": "壯麗;輝煌;光彩",
+    "ex": "Visitors were amazed by the splendor of the old palace."
+  },
+  {
+    "w": "retreat",
+    "pos": "v.",
+    "zh": "退卻;撤退;後退",
+    "ex": "The soldiers were ordered to retreat from the border."
+  },
+  {
+    "w": "formation",
+    "pos": "n.",
+    "zh": "結構;形狀;形成方式;組成方式",
+    "ex": "The geese flew south in a V-shaped formation."
+  },
+  {
+    "w": "accidental",
+    "pos": "adj.",
+    "zh": "偶然的;意外的",
+    "ex": "The report confirmed that the fire was accidental."
+  },
+  {
+    "w": "instruction",
+    "pos": "n.",
+    "zh": "指示;命令;吩咐",
+    "ex": "Follow the instructions on the package before use."
+  },
+  {
+    "w": "distant",
+    "pos": "adj.",
+    "zh": "遙遠的;遠方的",
+    "ex": "We could see distant mountains from the train window."
+  },
+  {
+    "w": "factors",
+    "pos": "n.",
+    "zh": "因素；要素",
+    "ex": "Several factors must be considered before making the final decision."
+  },
+  {
+    "w": "complex",
+    "pos": "adj.",
+    "zh": "由許多相關的不同部分組成的；構造複雜的",
+    "ex": "The application process for the postal exam is quite complex."
+  },
+  {
+    "w": "partner",
+    "pos": "n.",
+    "zh": "搭檔，夥伴，同伴",
+    "ex": "The post office works with a reliable delivery partner overseas."
+  },
+  {
+    "w": "involved",
+    "pos": "adj.",
+    "zh": "複雜的，複雜難懂的",
+    "ex": "The customs procedure is more involved than it first appears."
+  },
+  {
+    "w": "affairs",
+    "pos": "n.",
+    "zh": "事務；事情",
+    "ex": "The manager handles the daily affairs of the branch office."
+  },
+  {
+    "w": "probable",
+    "pos": "adj.",
+    "zh": "很可能真實的；很可能發生的",
+    "ex": "It is probable that the parcel will arrive tomorrow."
+  },
+  {
+    "w": "capable",
+    "pos": "adj.",
+    "zh": "有能力的；熟練的；能幹的",
+    "ex": "She is capable of handling a heavy workload at the counter."
+  },
+  {
+    "w": "controversies",
+    "pos": "n.",
+    "zh": "爭議；爭論；爭辯",
+    "ex": "The new policy sparked several controversies among the staff."
+  },
+  {
+    "w": "allegations",
+    "pos": "n.",
+    "zh": "（未經證實的）指責，指控",
+    "ex": "The company denied all the allegations of misconduct."
+  },
+  {
+    "w": "delegations",
+    "pos": "n.",
+    "zh": "代表團",
+    "ex": "Delegations from several countries attended the postal conference."
+  },
+  {
+    "w": "testimonies",
+    "pos": "n.",
+    "zh": "（尤指法庭上的）證詞，證言",
+    "ex": "The witnesses gave their testimonies in court."
+  },
+  {
+    "w": "demonstrations",
+    "pos": "n.",
+    "zh": "演示，示範",
+    "ex": "The trainer gave clear demonstrations of the new sorting system."
+  },
+  {
+    "w": "entertainers",
+    "pos": "n.",
+    "zh": "（以唱歌、講笑話等娛悅大眾的）表演者，藝人",
+    "ex": "The entertainers performed at the annual company event."
+  },
+  {
+    "w": "hesitate",
+    "pos": "v.",
+    "zh": "猶豫，躊躇",
+    "ex": "Do not hesitate to contact us if you have any questions."
+  },
+  {
+    "w": "tolerate",
+    "pos": "v.",
+    "zh": "寬容；容忍",
+    "ex": "The office will not tolerate any rude behaviour toward its staff."
+  },
+  {
+    "w": "invade",
+    "pos": "v.",
+    "zh": "入侵，侵略",
+    "ex": "Junk mail seems to invade every mailbox these days."
+  },
+  {
+    "w": "vulnerable",
+    "pos": "adj.",
+    "zh": "易受傷的；易受影響（或攻擊）的；脆弱的",
+    "ex": "Elderly customers are more vulnerable to phone scams."
+  },
+  {
+    "w": "indispensable",
+    "pos": "adj.",
+    "zh": "必不可少的，必需的",
+    "ex": "A reliable postal service is indispensable to daily life."
+  },
+  {
+    "w": "remarkable",
+    "pos": "adj.",
+    "zh": "非凡的；奇異的；引人注目的",
+    "ex": "The team made remarkable progress this quarter."
+  },
+  {
+    "w": "knowledgeable",
+    "pos": "adj.",
+    "zh": "知識淵博的；有見識的",
+    "ex": "The clerk is very knowledgeable about international shipping rules."
+  },
+  {
+    "w": "inform",
+    "pos": "v.",
+    "zh": "通知，告知",
+    "ex": "Please inform the recipient before the parcel is delivered."
+  },
+  {
+    "w": "state",
+    "pos": "n.",
+    "zh": "狀態；情形；狀況",
+    "ex": "The package arrived in perfect state after the long journey."
+  },
+  {
+    "w": "describe",
+    "pos": "v.",
+    "zh": "描述，描寫，描繪",
+    "ex": "Please describe the contents of the package on this form."
+  },
+  {
+    "w": "vacant",
+    "pos": "adj.",
+    "zh": "空的；未被佔用的",
+    "ex": "There is a vacant position at the front counter."
+  },
+  {
+    "w": "violent",
+    "pos": "adj.",
+    "zh": "使用暴力的；強暴的",
+    "ex": "The staff reported a violent customer to security."
+  },
+  {
+    "w": "allocate",
+    "pos": "v.",
+    "zh": "分配；撥給；配置",
+    "ex": "The city council decided to allocate additional funds to improve public transportation."
+  },
+  {
+    "w": "additional",
+    "pos": "adj.",
+    "zh": "額外的；附加的",
+    "ex": "Additional documents are required for the application."
+  },
+  {
+    "w": "funds",
+    "pos": "n.",
+    "zh": "資金；經費",
+    "ex": "The project needs more funds before construction can begin."
+  },
+  {
+    "w": "resources",
+    "pos": "n.",
+    "zh": "資源",
+    "ex": "The manager allocated resources to the most urgent tasks."
+  },
+  {
+    "w": "provide",
+    "pos": "v.",
+    "zh": "提供；供給",
+    "ex": "The post office will provide clear instructions to customers."
+  },
+  {
+    "w": "increase",
+    "pos": "v.",
+    "zh": "增加；提高",
+    "ex": "The company plans to increase funding for employee training."
+  },
+  {
+    "w": "reduce",
+    "pos": "v.",
+    "zh": "減少；降低",
+    "ex": "The department must reduce spending without lowering service quality."
+  },
+  {
+    "w": "budget",
+    "pos": "n.",
+    "zh": "預算",
+    "ex": "The city approved a larger budget for public transportation."
+  },
+  {
+    "w": "funding",
+    "pos": "n.",
+    "zh": "資金；經費；撥款",
+    "ex": "The program depends on stable funding from the government."
+  },
+  {
+    "w": "financial support",
+    "pos": "n.",
+    "zh": "財務支持；經費支援",
+    "ex": "Small businesses may need financial support during difficult times."
+  },
+  {
+    "w": "scam",
+    "pos": "n. v.",
+    "zh": "詐騙；騙局；詐騙某人",
+    "ex": "Many elderly people have become victims of telephone scams."
+  },
+  {
+    "w": "fraud",
+    "pos": "n.",
+    "zh": "詐欺；詐騙行為；舞弊",
+    "ex": "The company was investigated for fraud."
+  },
+  {
+    "w": "susceptible",
+    "pos": "adj.",
+    "zh": "易受影響的；易感染的",
+    "ex": "Children are susceptible to colds."
+  },
+  {
+    "w": "prone",
+    "pos": "adj.",
+    "zh": "有……傾向的；容易……的",
+    "ex": "He is prone to making mistakes when he is tired."
+  },
+  {
+    "w": "exposed",
+    "pos": "adj.",
+    "zh": "暴露的；無遮蔽的；易受影響的",
+    "ex": "Workers are exposed to chemicals in the factory."
+  },
+  {
+    "w": "valuable",
+    "pos": "adj.",
+    "zh": "有價值的；寶貴的",
+    "ex": "The clerk gave me valuable advice about registered mail."
+  },
+  {
+    "w": "reliable",
+    "pos": "adj.",
+    "zh": "可靠的；可信賴的",
+    "ex": "Customers need reliable information from the post office."
+  },
+  {
+    "w": "automate",
+    "pos": "v.",
+    "zh": "使自動化",
+    "ex": "The postal service plans to automate its parcel sorting process."
+  },
+  {
+    "w": "automation",
+    "pos": "n.",
+    "zh": "自動化",
+    "ex": "Increased automation has reduced the need for manual sorting."
+  },
+  {
+    "w": "algorithm",
+    "pos": "n.",
+    "zh": "演算法",
+    "ex": "The bank uses an algorithm to detect unusual transactions in real time."
+  },
+  {
+    "w": "deploy",
+    "pos": "v.",
+    "zh": "部署、配置",
+    "ex": "The company will deploy an AI assistant to help clerks answer inquiries."
+  },
+  {
+    "w": "streamline",
+    "pos": "v.",
+    "zh": "精簡流程、使更有效率",
+    "ex": "The new system was designed to streamline the delivery process."
+  },
+  {
+    "w": "obsolete",
+    "pos": "adj.",
+    "zh": "過時的、已廢棄的",
+    "ex": "Paper money orders have become obsolete in the age of electronic transfers."
+  },
+  {
+    "w": "displace",
+    "pos": "v.",
+    "zh": "取代、使離開原位",
+    "ex": "Many workers fear that automation will displace them within a decade."
+  },
+  {
+    "w": "disrupt",
+    "pos": "v.",
+    "zh": "顛覆、擾亂",
+    "ex": "Generative AI has begun to disrupt traditional customer service industries."
+  },
+  {
+    "w": "impersonate",
+    "pos": "v.",
+    "zh": "冒充、假扮",
+    "ex": "Scammers often impersonate bank officials to obtain personal information."
+  },
+  {
+    "w": "authenticate",
+    "pos": "v.",
+    "zh": "驗證身分、認證",
+    "ex": "Users must authenticate their identity before accessing the account."
+  },
+  {
+    "w": "credential",
+    "pos": "n.",
+    "zh": "憑證、資格證明",
+    "ex": "Never share your login credentials with anyone over the phone."
+  },
+  {
+    "w": "fraudulent",
+    "pos": "adj.",
+    "zh": "詐欺的、不實的",
+    "ex": "The system flagged several fraudulent transactions last month."
+  },
+  {
+    "w": "counterfeit",
+    "pos": "adj./n.",
+    "zh": "偽造的；偽造品",
+    "ex": "Customs officers seized a shipment of counterfeit goods at the airport."
+  },
+  {
+    "w": "surveillance",
+    "pos": "n.",
+    "zh": "監視、監控",
+    "ex": "Critics argue that facial recognition amounts to constant surveillance."
+  },
+  {
+    "w": "bias",
+    "pos": "n.",
+    "zh": "偏見、偏誤",
+    "ex": "Researchers found a significant bias in the data used to train the model."
+  },
+  {
+    "w": "ethical",
+    "pos": "adj.",
+    "zh": "倫理的、合乎道德的",
+    "ex": "Companies face ethical questions about how customer data is used."
+  },
+  {
+    "w": "privacy",
+    "pos": "n.",
+    "zh": "隱私",
+    "ex": "Stronger regulations are needed to protect consumer privacy online."
+  },
+  {
+    "w": "passenger",
+    "pos": "n.",
+    "zh": "乘客，旅客",
+    "ex": "The bus passenger asked the clerk where to mail a postcard."
+  },
+  {
+    "w": "penalty",
+    "pos": "n.",
+    "zh": "刑罰，懲罰，處罰",
+    "ex": "Sending prohibited items by mail may result in a heavy penalty."
+  },
+  {
+    "w": "pension",
+    "pos": "n.",
+    "zh": "養老金；退休金；撫恤金",
+    "ex": "Retired postal workers receive a monthly pension."
+  },
+  {
+    "w": "industry",
+    "pos": "n.",
+    "zh": "工業；產業；生產製造",
+    "ex": "The logistics industry depends on a reliable postal service."
+  },
+  {
+    "w": "conform",
+    "pos": "v.",
+    "zh": "順從；遵從；順應習俗",
+    "ex": "All parcels must conform to the post office's size limits."
+  },
+  {
+    "w": "reform",
+    "pos": "v.",
+    "zh": "改革，改進，改造",
+    "ex": "The company plans to reform its mail sorting system."
+  },
+  {
+    "w": "violate",
+    "pos": "v.",
+    "zh": "違反，違背，違犯（尤指法律、協議、原則等）",
+    "ex": "Mailing dangerous goods can violate postal regulations."
+  },
+  {
+    "w": "create",
+    "pos": "v.",
+    "zh": "創造；創建；創作；發明",
+    "ex": "The new system will create a tracking number for every parcel."
+  },
+  {
+    "w": "enforce",
+    "pos": "v.",
+    "zh": "使服從（法律）；強制執行",
+    "ex": "Postal staff must enforce the rules on prohibited items."
+  },
+  {
+    "w": "stimulate",
+    "pos": "v.",
+    "zh": "激發，激勵；促進",
+    "ex": "Free shipping can stimulate more online shopping and parcel deliveries."
+  },
+  {
+    "w": "launch",
+    "pos": "v.",
+    "zh": "啟動，推出，發起",
+    "ex": "The post office will launch a new express delivery service next month."
+  },
+  {
+    "w": "punish",
+    "pos": "v.",
+    "zh": "懲罰",
+    "ex": "The regulations punish anyone who opens another person's mail."
+  },
+  {
+    "w": "borrow",
+    "pos": "v.",
+    "zh": "借，借入",
+    "ex": "You may borrow a pen at the counter to fill out the form."
+  },
+  {
+    "w": "rescue",
+    "pos": "v.",
+    "zh": "救援；營救；解救",
+    "ex": "Emergency mail helped rescue teams reach the flooded village."
+  },
+  {
+    "w": "severe",
+    "pos": "adj.",
+    "zh": "非常嚴重的；劇烈的；慘重的",
+    "ex": "Due to the severe typhoon, all mail deliveries were suspended."
+  },
+  {
+    "w": "timid",
+    "pos": "adj.",
+    "zh": "羞怯的；膽小的，膽怯的",
+    "ex": "The timid customer hesitated before asking about registered mail."
+  },
+  {
+    "w": "prompt",
+    "pos": "adj.",
+    "zh": "迅速的；敏捷的；及時的",
+    "ex": "Prompt delivery is essential for the express mail service."
+  },
+  {
+    "w": "vital",
+    "pos": "adj.",
+    "zh": "必不可少的；極其重要的",
+    "ex": "An accurate address is vital for successful parcel delivery."
+  },
+  {
+    "w": "decoration",
+    "pos": "n.",
+    "zh": "裝飾，裝潢；裝飾品，裝飾物",
+    "ex": "The post office added holiday decoration to its main lobby."
+  },
+  {
+    "w": "donation",
+    "pos": "n.",
+    "zh": "捐獻，捐贈，捐助",
+    "ex": "The charity sent a thank-you letter for every donation by mail."
+  },
+  {
+    "w": "definition",
+    "pos": "n.",
+    "zh": "定義",
+    "ex": "The manual gives a clear definition of registered mail."
+  },
+  {
+    "w": "glance",
+    "pos": "n./v.",
+    "zh": "瞥一眼，迅速地看一眼，掃視",
+    "ex": "She gave the address label a quick glance before sorting it."
+  },
+  {
+    "w": "circuit",
+    "pos": "n.",
+    "zh": "巡迴；巡遊；巡迴之地",
+    "ex": "The mail carrier follows a fixed circuit through the district each morning."
+  },
+  {
+    "w": "term",
+    "pos": "n.",
+    "zh": "期，期限",
+    "ex": "The insurance policy has a term of ten years."
+  },
+  {
+    "w": "stroll",
+    "pos": "v./n.",
+    "zh": "散步，蹓躂",
+    "ex": "They took a stroll to the post office after lunch."
+  },
+  {
+    "w": "decorate",
+    "pos": "v.",
+    "zh": "裝飾，裝扮，打扮",
+    "ex": "The staff decorated the branch for the New Year holiday."
+  },
+  {
+    "w": "celebrate",
+    "pos": "v.",
+    "zh": "慶祝，慶賀；祝賀",
+    "ex": "The company held a party to celebrate its anniversary."
+  },
+  {
+    "w": "dynamic",
+    "pos": "adj.",
+    "zh": "思維活躍的；活潑的，充滿活力的，精力充沛的",
+    "ex": "The new manager brought a dynamic approach to counter service."
+  },
+  {
+    "w": "experimental",
+    "pos": "adj.",
+    "zh": "（尤指科學方面）實驗（性）的，試驗（性）的",
+    "ex": "The office is testing an experimental parcel-tracking system."
+  },
+  {
+    "w": "instant",
+    "pos": "adj.",
+    "zh": "立即的，立刻的",
+    "ex": "The app sends an instant notification when the package arrives."
+  },
+  {
+    "w": "decline",
+    "pos": "v.",
+    "zh": "下滑、衰退",
+    "ex": "Traditional mail volume has been declining due to the rise of digital communication."
+  },
+  {
+    "w": "track",
+    "pos": "v.",
+    "zh": "追蹤",
+    "ex": "Customers can track their parcels online at any time."
+  },
+  {
+    "w": "essential",
+    "pos": "adj.",
+    "zh": "不可或缺的、必要的",
+    "ex": "Postal workers play an essential role in connecting rural and urban communities."
+  },
+  {
+    "w": "despite",
+    "pos": "prep.",
+    "zh": "儘管（接名詞片語）",
+    "ex": "Despite the heavy rain, the game continued as scheduled."
+  },
+  {
+    "w": "protect",
+    "pos": "v.",
+    "zh": "保護（protect...from/against...）",
+    "ex": "Sunscreen protects skin from UV damage."
+  },
+  {
+    "w": "detail",
+    "pos": "n.",
+    "zh": "消息；細節",
+    "ex": "Please fill in your contact details on the delivery form."
+  },
+  {
+    "w": "retail",
+    "pos": "n./v.",
+    "zh": "零售，零賣",
+    "ex": "The post office also runs a small retail counter for stationery."
+  },
+  {
+    "w": "curtail",
+    "pos": "v.",
+    "zh": "制止；減少；縮減；限制",
+    "ex": "The branch had to curtail its opening hours during the holiday."
+  },
+  {
+    "w": "entail",
+    "pos": "v.",
+    "zh": "使必要；牽涉",
+    "ex": "Sorting international mail entails several extra checks."
+  },
+  {
+    "w": "praise",
+    "pos": "v./n.",
+    "zh": "讚揚，表揚",
+    "ex": "The supervisor gave praise to the staff for clearing the backlog."
+  },
+  {
+    "w": "farewell",
+    "pos": "n.",
+    "zh": "再見，再會",
+    "ex": "The team held a farewell party for the retiring postmaster."
+  },
+  {
+    "w": "costume",
+    "pos": "n.",
+    "zh": "（某國或某一歷史時期或適合某種活動的）服裝",
+    "ex": "Staff wore traditional costume at the anniversary event."
+  },
+  {
+    "w": "wedding",
+    "pos": "n.",
+    "zh": "婚禮，結婚慶典",
+    "ex": "She mailed the wedding invitations by registered post."
+  },
+  {
+    "w": "plunge",
+    "pos": "v.",
+    "zh": "（使）（某人或某物）驟然移動，驟然下降",
+    "ex": "Parcel volumes plunged after the peak shopping season ended."
+  },
+  {
+    "w": "soar",
+    "pos": "v.",
+    "zh": "猛增，驟升",
+    "ex": "Online orders made delivery demand soar last month."
+  },
+  {
+    "w": "ascend",
+    "pos": "v.",
+    "zh": "上升；攀登；登上",
+    "ex": "The lift ascended to the sorting floor on the top level."
+  },
+  {
+    "w": "surge",
+    "pos": "n./v.",
+    "zh": "陡增，遽增，急遽上升",
+    "ex": "There was a surge in parcels just before the New Year holiday."
+  },
+  {
+    "w": "inspect",
+    "pos": "v.",
+    "zh": "檢查；審視",
+    "ex": "Customs officers inspect every incoming international package."
+  },
+  {
+    "w": "unwillingly",
+    "pos": "adv.",
+    "zh": "不情願地、勉強地（un- 否定＋willing 願意的）",
+    "ex": "She unwillingly put her book down to help her mother."
+  },
+  {
+    "w": "population",
+    "pos": "n.",
+    "zh": "人口、人口數（popul- 人民；勿與 pollution 污染混淆）",
+    "ex": "The population of Taiwan is over 23 million."
+  },
+  {
+    "w": "pollution",
+    "pos": "n.",
+    "zh": "污染（動詞 pollute；與 population 拼字近似，須分清）",
+    "ex": "Air pollution in the city has become a serious problem."
+  },
+  {
+    "w": "departure",
+    "pos": "n.",
+    "zh": "出發、起飛；departure time 起飛時間（動詞 depart，反義 arrival）",
+    "ex": "Henry checked the departure time of his flight on the timetable."
+  },
+  {
+    "w": "arrival",
+    "pos": "n.",
+    "zh": "抵達、到達；arrival time 抵達時間（與 departure 成對記）",
+    "ex": "The arrival time of the train is 3:20 in the afternoon."
+  },
+  {
+    "w": "instead",
+    "pos": "adv.",
+    "zh": "取而代之、反而（放句尾；置於句中須用 instead of + N）",
+    "ex": "Lydia had no tomatoes, so she used corn to make the soup instead."
+  },
+  {
+    "w": "abandon",
+    "pos": "v.",
+    "zh": "放棄、遺棄",
+    "ex": "The sender abandoned the claim after receiving full compensation."
+  },
+  {
+    "w": "absorb",
+    "pos": "v.",
+    "zh": "吸收、承擔",
+    "ex": "The company had to absorb the extra shipping costs."
+  },
+  {
+    "w": "abundant",
+    "pos": "adj.",
+    "zh": "豐富的、充足的",
+    "ex": "There is abundant evidence that the parcel was properly packed."
+  },
+  {
+    "w": "accompany",
+    "pos": "v.",
+    "zh": "陪同、伴隨",
+    "ex": "A customs declaration form must accompany every international parcel."
+  },
+  {
+    "w": "accomplish",
+    "pos": "v.",
+    "zh": "完成、達成",
+    "ex": "The team accomplished the sorting task ahead of schedule."
+  },
+  {
+    "w": "accurate",
+    "pos": "adj.",
+    "zh": "準確的",
+    "ex": "Please make sure the postal code is accurate before mailing."
+  },
+  {
+    "w": "acquire",
+    "pos": "v.",
+    "zh": "取得、獲得",
+    "ex": "She acquired the skills needed to handle customer complaints."
+  },
+  {
+    "w": "adapt",
+    "pos": "v.",
+    "zh": "適應、改編",
+    "ex": "New employees must adapt to the busy season quickly."
+  },
+  {
+    "w": "adequate",
+    "pos": "adj.",
+    "zh": "足夠的、適當的",
+    "ex": "The packaging was not adequate to protect the fragile item."
+  },
+  {
+    "w": "adjust",
+    "pos": "v.",
+    "zh": "調整",
+    "ex": "We may adjust the delivery schedule during the typhoon."
+  },
+  {
+    "w": "adopt",
+    "pos": "v.",
+    "zh": "採用、收養",
+    "ex": "The post office adopted a new tracking system last year."
+  },
+  {
+    "w": "afford",
+    "pos": "v.",
+    "zh": "負擔得起",
+    "ex": "Not every customer can afford express delivery."
+  },
+  {
+    "w": "agenda",
+    "pos": "n.",
+    "zh": "議程",
+    "ex": "The staff meeting agenda includes the new counter procedure."
+  },
+  {
+    "w": "alter",
+    "pos": "v.",
+    "zh": "更改、變更",
+    "ex": "You may not alter the recipient's address after mailing."
+  },
+  {
+    "w": "amount",
+    "pos": "n./v.",
+    "zh": "數量、金額；總計",
+    "ex": "The amount of compensation depends on the weight of the parcel."
+  },
+  {
+    "w": "analyze",
+    "pos": "v.",
+    "zh": "分析",
+    "ex": "We analyzed the reasons for the delivery delay."
+  },
+  {
+    "w": "anticipate",
+    "pos": "v.",
+    "zh": "預期、預料",
+    "ex": "We anticipate a surge in parcels before the holiday."
+  },
+  {
+    "w": "anxious",
+    "pos": "adj.",
+    "zh": "焦慮的、渴望的",
+    "ex": "The customer was anxious about her missing package."
+  },
+  {
+    "w": "apologize",
+    "pos": "v.",
+    "zh": "道歉",
+    "ex": "The clerk apologized for the long waiting time."
+  },
+  {
+    "w": "appliance",
+    "pos": "n.",
+    "zh": "家電用品",
+    "ex": "Large appliances cannot be sent as ordinary parcels."
+  },
+  {
+    "w": "appreciate",
+    "pos": "v.",
+    "zh": "感謝、欣賞、增值",
+    "ex": "We appreciate your patience during the busy season."
+  },
+  {
+    "w": "approach",
+    "pos": "v./n.",
+    "zh": "接近；方法、途徑",
+    "ex": "A friendly approach can calm an angry customer."
+  },
+  {
+    "w": "appropriate",
+    "pos": "adj.",
+    "zh": "適當的、恰當的",
+    "ex": "Choose the appropriate box size for your item."
+  },
+  {
+    "w": "approve",
+    "pos": "v.",
+    "zh": "批准、核可",
+    "ex": "The manager approved the refund request."
+  },
+  {
+    "w": "argue",
+    "pos": "v.",
+    "zh": "爭論、主張",
+    "ex": "The customer argued that the damage happened during transport."
+  },
+  {
+    "w": "arrange",
+    "pos": "v.",
+    "zh": "安排、整理",
+    "ex": "We can arrange a redelivery at your convenience."
+  },
+  {
+    "w": "assemble",
+    "pos": "v.",
+    "zh": "組裝、集合",
+    "ex": "The staff assembled the shelves in the new branch."
+  },
+  {
+    "w": "assess",
+    "pos": "v.",
+    "zh": "評估、估價",
+    "ex": "The officer will assess the value of the damaged goods."
+  },
+  {
+    "w": "assign",
+    "pos": "v.",
+    "zh": "指派、分配",
+    "ex": "Each carrier is assigned a fixed delivery route."
+  },
+  {
+    "w": "assist",
+    "pos": "v.",
+    "zh": "協助",
+    "ex": "May I assist you with the customs form?"
+  },
+  {
+    "w": "assume",
+    "pos": "v.",
+    "zh": "假定、承擔",
+    "ex": "Do not assume the address is correct without checking."
+  },
+  {
+    "w": "assure",
+    "pos": "v.",
+    "zh": "向……保證",
+    "ex": "The clerk assured her that the parcel would arrive on Monday."
+  },
+  {
+    "w": "attempt",
+    "pos": "v./n.",
+    "zh": "嘗試、企圖",
+    "ex": "After two failed attempts, the parcel was sent for collection."
+  },
+  {
+    "w": "attitude",
+    "pos": "n.",
+    "zh": "態度",
+    "ex": "A positive attitude matters more than speed at the counter."
+  },
+  {
+    "w": "attract",
+    "pos": "v.",
+    "zh": "吸引",
+    "ex": "The discount attracted many small business customers."
+  },
+  {
+    "w": "authority",
+    "pos": "n.",
+    "zh": "當局、權威、職權",
+    "ex": "Only the competent authority may open a suspicious parcel."
+  },
+  {
+    "w": "avoid",
+    "pos": "v.",
+    "zh": "避免",
+    "ex": "Wrap the item well to avoid damage in transit."
+  },
+  {
+    "w": "aware",
+    "pos": "adj.",
+    "zh": "察覺的、意識到的",
+    "ex": "Customers should be aware of the list of prohibited items."
+  },
+  {
+    "w": "barrier",
+    "pos": "n.",
+    "zh": "障礙、屏障",
+    "ex": "Language can be a barrier when serving foreign customers."
+  },
+  {
+    "w": "benefit",
+    "pos": "n./v.",
+    "zh": "利益；受益",
+    "ex": "Both sides benefit from a clear refund policy."
+  },
+  {
+    "w": "blame",
+    "pos": "v./n.",
+    "zh": "責怪；責任",
+    "ex": "It is unfair to blame the carrier for the bad weather."
+  },
+  {
+    "w": "boost",
+    "pos": "v./n.",
+    "zh": "提升、促進",
+    "ex": "The new machine boosted sorting efficiency by thirty percent."
+  },
+  {
+    "w": "brief",
+    "pos": "adj./v.",
+    "zh": "簡短的；簡報",
+    "ex": "Please give a brief description of the contents."
+  },
+  {
+    "w": "calculate",
+    "pos": "v.",
+    "zh": "計算",
+    "ex": "The system calculates the postage automatically."
+  },
+  {
+    "w": "campaign",
+    "pos": "n./v.",
+    "zh": "活動、宣傳戰",
+    "ex": "The company launched a campaign to promote online tracking."
+  },
+  {
+    "w": "capacity",
+    "pos": "n.",
+    "zh": "容量、能力、身分",
+    "ex": "The mailbox has reached its maximum capacity."
+  },
+  {
+    "w": "category",
+    "pos": "n.",
+    "zh": "類別、範疇",
+    "ex": "Printed matter falls into a different postage category."
+  },
+  {
+    "w": "cautious",
+    "pos": "adj.",
+    "zh": "謹慎的",
+    "ex": "Be cautious when handling items marked as fragile."
+  },
+  {
+    "w": "certificate",
+    "pos": "n.",
+    "zh": "證書、證明書",
+    "ex": "A certificate of posting serves as proof of mailing."
+  },
+  {
+    "w": "challenge",
+    "pos": "n./v.",
+    "zh": "挑戰；質疑",
+    "ex": "Delivering to remote areas remains a real challenge."
+  },
+  {
+    "w": "charge",
+    "pos": "v./n.",
+    "zh": "收費；指控；負責",
+    "ex": "We charge an extra fee for special handling."
+  },
+  {
+    "w": "circumstance",
+    "pos": "n.",
+    "zh": "情況、情勢",
+    "ex": "Under no circumstances may staff open private mail."
+  },
+  {
+    "w": "claim",
+    "pos": "v./n.",
+    "zh": "主張、索賠、認領",
+    "ex": "You may claim compensation within six months of mailing."
+  },
+  {
+    "w": "clarify",
+    "pos": "v.",
+    "zh": "澄清、闡明",
+    "ex": "Could you clarify which item was damaged?"
+  },
+  {
+    "w": "collapse",
+    "pos": "v./n.",
+    "zh": "倒塌、崩潰",
+    "ex": "The stack of boxes collapsed during the earthquake."
+  },
+  {
+    "w": "commit",
+    "pos": "v.",
+    "zh": "承諾、犯（罪）、投入",
+    "ex": "The company is committed to universal postal service."
+  },
+  {
+    "w": "compare",
+    "pos": "v.",
+    "zh": "比較",
+    "ex": "Compare the two rates before choosing a service."
+  },
+  {
+    "w": "compensate",
+    "pos": "v.",
+    "zh": "補償、賠償",
+    "ex": "The post office will compensate you for the lost item."
+  },
+  {
+    "w": "complain",
+    "pos": "v.",
+    "zh": "抱怨、申訴",
+    "ex": "Several customers complained about the noise at the counter."
+  },
+  {
+    "w": "comply",
+    "pos": "v.",
+    "zh": "遵守、順從",
+    "ex": "All parcels must comply with the size limits."
+  },
+  {
+    "w": "conclude",
+    "pos": "v.",
+    "zh": "結論、締結",
+    "ex": "The investigation concluded that no one was at fault."
+  },
+  {
+    "w": "conduct",
+    "pos": "v./n.",
+    "zh": "執行、實施；行為",
+    "ex": "The company conducted a survey on service quality."
+  },
+  {
+    "w": "confidential",
+    "pos": "adj.",
+    "zh": "機密的",
+    "ex": "Customer information is strictly confidential."
+  },
+  {
+    "w": "conflict",
+    "pos": "n./v.",
+    "zh": "衝突、抵觸",
+    "ex": "The new rule conflicts with the existing regulation."
+  },
+  {
+    "w": "consequence",
+    "pos": "n.",
+    "zh": "後果、結果",
+    "ex": "Careless packing may have serious consequences."
+  },
+  {
+    "w": "consistent",
+    "pos": "adj.",
+    "zh": "一致的、始終如一的",
+    "ex": "Her service quality has been consistent for years."
+  },
+  {
+    "w": "constant",
+    "pos": "adj.",
+    "zh": "持續的、不斷的",
+    "ex": "Constant rain delayed deliveries in the mountain area."
+  },
+  {
+    "w": "consult",
+    "pos": "v.",
+    "zh": "諮詢、查閱",
+    "ex": "Please consult the rate table before quoting a price."
+  },
+  {
+    "w": "contain",
+    "pos": "v.",
+    "zh": "包含、容納、抑制",
+    "ex": "The box contained nothing but documents."
+  },
+  {
+    "w": "contract",
+    "pos": "n./v.",
+    "zh": "契約；收縮、感染",
+    "ex": "The two parties signed a delivery contract."
+  },
+  {
+    "w": "contribute",
+    "pos": "v.",
+    "zh": "貢獻、投稿、促成",
+    "ex": "Poor packaging contributed to the damage."
+  },
+  {
+    "w": "convince",
+    "pos": "v.",
+    "zh": "說服、使信服",
+    "ex": "He convinced the customer to insure the parcel."
+  },
+  {
+    "w": "cooperate",
+    "pos": "v.",
+    "zh": "合作、配合",
+    "ex": "The airline cooperated with us during the strike."
+  },
+  {
+    "w": "crucial",
+    "pos": "adj.",
+    "zh": "關鍵的、決定性的",
+    "ex": "Accurate addressing is crucial to on-time delivery."
+  },
+  {
+    "w": "damage",
+    "pos": "n./v.",
+    "zh": "損害、毀損",
+    "ex": "The damage was caused by improper handling."
+  },
+  {
+    "w": "decrease",
+    "pos": "v./n.",
+    "zh": "減少、下降",
+    "ex": "Complaints decreased after the new system started."
+  },
+  {
+    "w": "defect",
+    "pos": "n.",
+    "zh": "瑕疵、缺陷",
+    "ex": "The buyer must notify the seller of any defect."
+  },
+  {
+    "w": "delay",
+    "pos": "v./n.",
+    "zh": "延誤、耽擱",
+    "ex": "Bad weather delayed the flight carrying the mail."
+  },
+  {
+    "w": "deny",
+    "pos": "v.",
+    "zh": "否認、拒絕給予",
+    "ex": "The company denied any responsibility for the loss."
+  },
+  {
+    "w": "depend",
+    "pos": "v.",
+    "zh": "依賴、取決於",
+    "ex": "How long it takes depends on the traffic."
+  },
+  {
+    "w": "destroy",
+    "pos": "v.",
+    "zh": "摧毀、銷毀",
+    "ex": "Items of no value are destroyed after a fixed period."
+  },
+  {
+    "w": "determine",
+    "pos": "v.",
+    "zh": "決定、確定",
+    "ex": "The court will determine who owns the package."
+  },
+  {
+    "w": "devote",
+    "pos": "v.",
+    "zh": "奉獻、致力於",
+    "ex": "She devoted her career to rural postal service."
+  },
+  {
+    "w": "disaster",
+    "pos": "n.",
+    "zh": "災難、天災",
+    "ex": "The company is not liable for losses caused by natural disasters."
+  },
+  {
+    "w": "discount",
+    "pos": "n./v.",
+    "zh": "折扣；打折",
+    "ex": "Bulk senders may receive a discount on postage."
+  },
+  {
+    "w": "dismiss",
+    "pos": "v.",
+    "zh": "解僱、駁回、不予考慮",
+    "ex": "The claim was dismissed for lack of evidence."
+  },
+  {
+    "w": "dispute",
+    "pos": "n./v.",
+    "zh": "爭議、爭執",
+    "ex": "A dispute arose over who should pay the customs duty."
+  },
+  {
+    "w": "distinguish",
+    "pos": "v.",
+    "zh": "區別、辨別",
+    "ex": "It is hard to distinguish the original from the copy."
+  },
+  {
+    "w": "divide",
+    "pos": "v.",
+    "zh": "劃分、分割",
+    "ex": "The city is divided into several delivery zones."
+  },
+  {
+    "w": "eliminate",
+    "pos": "v.",
+    "zh": "消除、排除",
+    "ex": "The new machine helps eliminate human error."
+  },
+  {
+    "w": "embarrass",
+    "pos": "v.",
+    "zh": "使尷尬",
+    "ex": "He was embarrassed by his own mistake at the counter."
+  },
+  {
+    "w": "emphasize",
+    "pos": "v.",
+    "zh": "強調",
+    "ex": "The manager emphasized the importance of accuracy."
+  },
+  {
+    "w": "employ",
+    "pos": "v.",
+    "zh": "僱用、運用",
+    "ex": "The branch employs twenty full-time carriers."
+  },
+  {
+    "w": "encounter",
+    "pos": "v./n.",
+    "zh": "遭遇、邂逅",
+    "ex": "We encountered several problems during the transition."
+  },
+  {
+    "w": "endure",
+    "pos": "v.",
+    "zh": "忍受、持續",
+    "ex": "Carriers must endure extreme heat in summer."
+  },
+  {
+    "w": "engage",
+    "pos": "v.",
+    "zh": "從事、聘請、吸引",
+    "ex": "She engaged in a long conversation with the customer."
+  },
+  {
+    "w": "enhance",
+    "pos": "v.",
+    "zh": "提升、增強",
+    "ex": "Online tracking enhances customer confidence."
+  },
+  {
+    "w": "ensure",
+    "pos": "v.",
+    "zh": "確保",
+    "ex": "Please ensure that the address is complete."
+  },
+  {
+    "w": "entitle",
+    "pos": "v.",
+    "zh": "使有權利、命名",
+    "ex": "Registered senders are entitled to compensation."
+  },
+  {
+    "w": "equipment",
+    "pos": "n.",
+    "zh": "設備、器材",
+    "ex": "The sorting equipment is checked every month."
+  },
+  {
+    "w": "establish",
+    "pos": "v.",
+    "zh": "建立、設立、確立",
+    "ex": "The branch was established over fifty years ago."
+  },
+  {
+    "w": "evaluate",
+    "pos": "v.",
+    "zh": "評估、評價",
+    "ex": "We evaluate service quality twice a year."
+  },
+  {
+    "w": "evidence",
+    "pos": "n.",
+    "zh": "證據",
+    "ex": "The receipt is the only evidence that you sent the item."
+  },
+  {
+    "w": "exceed",
+    "pos": "v.",
+    "zh": "超過、超越",
+    "ex": "The parcel must not exceed twenty kilograms."
+  },
+  {
+    "w": "exchange",
+    "pos": "v./n.",
+    "zh": "交換、兌換",
+    "ex": "You may exchange the stamps for a different denomination."
+  },
+  {
+    "w": "exclude",
+    "pos": "v.",
+    "zh": "排除、不包括",
+    "ex": "The fee excludes insurance and handling charges."
+  },
+  {
+    "w": "exhibit",
+    "pos": "v./n.",
+    "zh": "展示、陳列；展覽品",
+    "ex": "The post office exhibited rare stamps last month."
+  },
+  {
+    "w": "expand",
+    "pos": "v.",
+    "zh": "擴張、擴大",
+    "ex": "The company plans to expand its overnight service."
+  },
+  {
+    "w": "expense",
+    "pos": "n.",
+    "zh": "費用、開銷",
+    "ex": "The repair was done at the sender's expense."
+  },
+  {
+    "w": "explore",
+    "pos": "v.",
+    "zh": "探索、探討",
+    "ex": "We are exploring new ways to reduce delivery time."
+  },
+  {
+    "w": "export",
+    "pos": "v./n.",
+    "zh": "出口、輸出",
+    "ex": "Certain goods may not be exported by mail."
+  },
+  {
+    "w": "facility",
+    "pos": "n.",
+    "zh": "設施、設備",
+    "ex": "The new sorting facility opened in March."
+  },
+  {
+    "w": "familiar",
+    "pos": "adj.",
+    "zh": "熟悉的",
+    "ex": "She is familiar with the customs procedures."
+  },
+  {
+    "w": "fasten",
+    "pos": "v.",
+    "zh": "繫緊、固定",
+    "ex": "Fasten the lid securely before mailing."
+  },
+  {
+    "w": "fault",
+    "pos": "n.",
+    "zh": "過失、缺點；斷層",
+    "ex": "The delay was through no fault of the carrier."
+  },
+  {
+    "w": "flexible",
+    "pos": "adj.",
+    "zh": "有彈性的、靈活的",
+    "ex": "Our delivery hours are quite flexible."
+  },
+  {
+    "w": "forbid",
+    "pos": "v.",
+    "zh": "禁止",
+    "ex": "Regulations forbid mailing flammable materials."
+  },
+  {
+    "w": "forecast",
+    "pos": "n./v.",
+    "zh": "預測、預報",
+    "ex": "The weather forecast warns of heavy rain tomorrow."
+  },
+  {
+    "w": "fulfill",
+    "pos": "v.",
+    "zh": "履行、實現、滿足",
+    "ex": "The company fulfilled its obligation to deliver on time."
+  },
+  {
+    "w": "furthermore",
+    "pos": "adv.",
+    "zh": "此外、再者",
+    "ex": "Furthermore, the sender failed to declare the contents."
+  },
+  {
+    "w": "generate",
+    "pos": "v.",
+    "zh": "產生、生成",
+    "ex": "The service generates steady revenue for the branch."
+  },
+  {
+    "w": "genuine",
+    "pos": "adj.",
+    "zh": "真正的、真誠的",
+    "ex": "Please check whether the stamp is genuine."
+  },
+  {
+    "w": "grant",
+    "pos": "v./n.",
+    "zh": "給予、准予；補助金",
+    "ex": "The manager granted her request for a refund."
+  },
+  {
+    "w": "handle",
+    "pos": "v./n.",
+    "zh": "處理、操作；把手",
+    "ex": "Please handle this box with care."
+  },
+  {
+    "w": "hazard",
+    "pos": "n./v.",
+    "zh": "危險、危害",
+    "ex": "Loose batteries are a serious hazard in transit."
+  },
+  {
+    "w": "immediate",
+    "pos": "adj.",
+    "zh": "立即的、直接的",
+    "ex": "The problem requires immediate attention."
+  },
+  {
+    "w": "implement",
+    "pos": "v./n.",
+    "zh": "實施、執行；工具",
+    "ex": "The new rule will be implemented next month."
+  },
+  {
+    "w": "imply",
+    "pos": "v.",
+    "zh": "暗示、意味著",
+    "ex": "Signing the receipt implies that you accepted the item."
+  },
+  {
+    "w": "impose",
+    "pos": "v.",
+    "zh": "課徵、強加",
+    "ex": "A surcharge may be imposed on oversized parcels."
+  },
+  {
+    "w": "improve",
+    "pos": "v.",
+    "zh": "改善、改進",
+    "ex": "We are working to improve counter service."
+  },
+  {
+    "w": "indicate",
+    "pos": "v.",
+    "zh": "顯示、指出、表明",
+    "ex": "The tracking record indicates the parcel left the depot."
+  },
+  {
+    "w": "influence",
+    "pos": "n./v.",
+    "zh": "影響、影響力",
+    "ex": "Weather has a strong influence on delivery time."
+  },
+  {
+    "w": "initial",
+    "pos": "adj./n.",
+    "zh": "最初的；姓名首字母",
+    "ex": "Please sign your initials on the delivery record."
+  },
+  {
+    "w": "install",
+    "pos": "v.",
+    "zh": "安裝、設置",
+    "ex": "We installed a new self-service kiosk in the lobby."
+  },
+  {
+    "w": "intend",
+    "pos": "v.",
+    "zh": "打算、意圖",
+    "ex": "She intended to send the gift by express mail."
+  },
+  {
+    "w": "interpret",
+    "pos": "v.",
+    "zh": "解釋、詮釋、口譯",
+    "ex": "The rule can be interpreted in more than one way."
+  },
+  {
+    "w": "justify",
+    "pos": "v.",
+    "zh": "證明……正當、辯解",
+    "ex": "Nothing can justify opening a customer's mail."
+  },
+  {
+    "w": "maintain",
+    "pos": "v.",
+    "zh": "維持、保養、主張",
+    "ex": "The company maintains a fleet of delivery vehicles."
+  },
+  {
+    "w": "negotiate",
+    "pos": "v.",
+    "zh": "談判、協商",
+    "ex": "The two sides negotiated a new carriage agreement."
+  },
+  {
+    "w": "obtain",
+    "pos": "v.",
+    "zh": "取得、獲得",
+    "ex": "You must obtain a permit before mailing such items."
+  },
+  {
+    "w": "obvious",
+    "pos": "adj.",
+    "zh": "明顯的",
+    "ex": "There was obvious damage to the outer packaging."
+  },
+  {
+    "w": "occupy",
+    "pos": "v.",
+    "zh": "佔據、佔用、居住",
+    "ex": "Sorting the mail occupies most of the morning."
+  },
+  {
+    "w": "perform",
+    "pos": "v.",
+    "zh": "執行、表演、表現",
+    "ex": "The machine performs better than the old one."
+  },
+  {
+    "w": "permanent",
+    "pos": "adj.",
+    "zh": "永久的、常設的",
+    "ex": "Please provide a permanent address for registration."
+  },
+  {
+    "w": "prohibit",
+    "pos": "v.",
+    "zh": "禁止",
+    "ex": "Regulations prohibit sending cash by ordinary mail."
+  }
 ]
