@@ -935,5 +935,123 @@
    "2": 0,
    "3": 0
   }
+ },
+ "2026-08-03": {
+  "date": "2026-08-03",
+  "drill": {
+   "count": 40,
+   "wrong": [
+    {
+     "id": "mf043",
+     "subject": "民法",
+     "point": "共有物不分割約定期限",
+     "stem": "依民法規定，共有人以契約約定共有物不分割之期限，最長不得逾多久？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "ch089",
+     "subject": "國文",
+     "point": "成語運用：滄海桑田",
+     "stem": "下列何者最適合以「滄海桑田」形容？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "ch114",
+     "subject": "國文",
+     "point": "公文結構：公告",
+     "stem": "依公文程式，「公告」之結構應包含下列何者？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "ch091",
+     "subject": "國文",
+     "point": "詞語辨析：不齒與不恥",
+     "stem": "下列文句「」中之詞語，何者使用正確？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "ch054",
+     "subject": "國文",
+     "point": "文學常識：唐宋八大家",
+     "stem": "下列文人，何者「不屬於」唐宋八大家？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "en100",
+     "subject": "英文",
+     "point": "文法：be worth＋V-ing",
+     "stem": "This old stamp collection is worth ______ by an expert.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "en075",
+     "subject": "英文",
+     "point": "字彙：indicate",
+     "stem": "The tracking record ______ that the parcel left the depot yesterday.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "en098",
+     "subject": "英文",
+     "point": "文法：分詞構句（主動）",
+     "stem": "______ the customer's complaint, the clerk immediately checked the tracking record.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "en094",
+     "subject": "英文",
+     "point": "字彙：forbid",
+     "stem": "Airline regulations ______ passengers to carry flammable liquids.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "en099",
+     "subject": "英文",
+     "point": "文法：spend＋時間＋V-ing",
+     "stem": "The staff spent three hours ______ the parcels by postal code.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-03"
+    },
+    {
+     "id": "po111",
+     "subject": "郵政法規",
+     "point": "簡易壽險得經營之主約險種",
+     "stem": "依簡易人壽保險法規定，下列何者為簡易人壽保險得以主約方式經營之險種？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-03"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 15
+  },
+  "vocabStages": {
+   "0": 11,
+   "1": 45,
+   "2": 26,
+   "3": 59
+  }
  }
 }
