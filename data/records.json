@@ -1053,5 +1053,123 @@
    "2": 26,
    "3": 59
   }
+ },
+ "2026-08-04": {
+  "date": "2026-08-04",
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "mf091",
+     "subject": "民法",
+     "point": "共有物之保存行為",
+     "stem": "共有物之簡易修繕及其他保存行為，得由何人為之？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "en084",
+     "subject": "英文",
+     "point": "字彙：impose",
+     "stem": "A surcharge may be ______ on oversized parcels.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "ch005",
+     "subject": "國文",
+     "point": "錯別字辨識",
+     "stem": "下列詞語，用字完全正確的選項是：",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "ch046",
+     "subject": "國文",
+     "point": "題辭：哀輓女喪",
+     "stem": "下列題辭，何者適用於哀輓女喪？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "en085",
+     "subject": "英文",
+     "point": "字彙：interpret",
+     "stem": "The regulation can be ______ in more than one way.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "ch112",
+     "subject": "國文",
+     "point": "公文文別：令",
+     "stem": "依現行公文程式條例，公布法律、發布法規命令、人事任免時，應使用下列何種公文文別？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "en076",
+     "subject": "英文",
+     "point": "字彙：obtain",
+     "stem": "You must ______ a permit before mailing dangerous goods.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "ch113",
+     "subject": "國文",
+     "point": "公文文別：咨",
+     "stem": "下列何種情形應使用「咨」？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "en072",
+     "subject": "英文",
+     "point": "字彙：entitle",
+     "stem": "Registered senders are ______ to compensation if the item is lost.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "ch095",
+     "subject": "國文",
+     "point": "成語運用：明日黃花",
+     "stem": "「這則消息早已是______，如今再提已無意義。」空格內最適合填入下列何者？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-04"
+    },
+    {
+     "id": "po105",
+     "subject": "郵政法規",
+     "point": "郵政匯票兌領時效",
+     "stem": "郵政匯票受款人之兌領請求權，自發票日起算，幾年間不行使，因時效而消滅？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-04"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 15
+  },
+  "vocabStages": {
+   "0": 11,
+   "1": 47,
+   "2": 28,
+   "3": 62
+  }
  }
 }
