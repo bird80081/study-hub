@@ -1171,5 +1171,114 @@
    "2": 28,
    "3": 62
   }
+ },
+ "2026-08-05": {
+  "date": "2026-08-05",
+  "drill": {
+   "count": 30,
+   "wrong": [
+    {
+     "id": "en068",
+     "subject": "英文",
+     "point": "字彙：adequate",
+     "stem": "The packaging was not ______ to protect the glassware during transport.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en105",
+     "subject": "英文",
+     "point": "文法：感官動詞",
+     "stem": "I saw the clerk ______ the label on the box just now.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en083",
+     "subject": "英文",
+     "point": "字彙：evidence",
+     "stem": "The receipt is the only ______ that you sent the item.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en070",
+     "subject": "英文",
+     "point": "字彙：comply",
+     "stem": "All parcels must ______ with the size and weight limits.",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en071",
+     "subject": "英文",
+     "point": "字彙：exceed",
+     "stem": "The parcel must not ______ twenty kilograms.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en113",
+     "subject": "英文",
+     "point": "文法：最高級搭配介系詞",
+     "stem": "This is the busiest branch ______ the whole district.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en077",
+     "subject": "英文",
+     "point": "字彙：prohibit",
+     "stem": "Regulations ______ sending cash by ordinary mail.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "en111",
+     "subject": "英文",
+     "point": "文法：形容詞子句化簡為分詞",
+     "stem": "The parcels ______ in the storeroom will be delivered tomorrow.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "ch102",
+     "subject": "國文",
+     "point": "字音辨正：藉",
+     "stem": "下列「」內字之讀音，何者正確？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-05"
+    },
+    {
+     "id": "mf095",
+     "subject": "民法",
+     "point": "未定期限典權之回贖",
+     "stem": "典權未定期限者，出典人得隨時回贖，但自出典後經過多少年不回贖，典權人即取得典物所有權？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-05"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 12
+  },
+  "vocabStages": {
+   "0": 14,
+   "1": 47,
+   "2": 28,
+   "3": 66
+  }
  }
 }
