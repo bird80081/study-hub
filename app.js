@@ -1282,8 +1282,16 @@ function blankWord(ex, w) {
   }).join("");
   return hit ? out : null; // 挖不掉回傳 null，讓呼叫端改考中翻英
 }
+// 把中文釋義切成義項：去掉括號註記，只留含中文的詞（"departure time" 這類英文註記不算義項）
+function zhSenses(zh) {
+  return (zh || "").replace(/（[^）]*）|\([^)]*\)/g, "")
+    .split(/[、，,；;／/]|\s+/)
+    .filter(s => s.length >= 2 && /[一-鿿]/.test(s));
+}
 function distractors(word, n) {
-  const others = allVocab().filter(v => v.w !== word.w);
+  // 同義字不能當干擾選項：中翻英題幹只有中文，「禁止」配上 forbid＋prohibit 會出現兩個正解
+  const mine = new Set(zhSenses(word.zh));
+  const others = allVocab().filter(v => v.w !== word.w && !zhSenses(v.zh).some(s => mine.has(s)));
   const same = others.filter(v => v.pos === word.pos);
   const pool = (same.length >= n ? same : others).slice();
   pool.sort(() => Math.random() - 0.5);
