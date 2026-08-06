@@ -56,7 +56,7 @@
   {
     "w": "compensation",
     "pos": "n.",
-    "zh": "補償、賠償",
+    "zh": "補償、賠償（賠償金）",
     "ex": "The sender may claim compensation for the lost parcel."
   },
   {
@@ -368,7 +368,7 @@
   {
     "w": "submit",
     "pos": "v.",
-    "zh": "提交",
+    "zh": "提交（正式遞交）",
     "ex": "Please submit the report to your supervisor by noon."
   },
   {
@@ -590,7 +590,7 @@
   {
     "w": "turn in",
     "pos": "phr.",
-    "zh": "提交",
+    "zh": "提交（口語，繳交）",
     "ex": "Remember to turn in your answer sheet before leaving."
   },
   {
@@ -1568,7 +1568,7 @@
   {
     "w": "acquire",
     "pos": "v.",
-    "zh": "取得、獲得",
+    "zh": "取得、獲得（逐步習得，如技能）",
     "ex": "She acquired the skills needed to handle customer complaints."
   },
   {
@@ -1874,7 +1874,7 @@
   {
     "w": "compensate",
     "pos": "v.",
-    "zh": "補償、賠償",
+    "zh": "補償、賠償（compensate sb for sth）",
     "ex": "The post office will compensate you for the lost item."
   },
   {
@@ -2228,7 +2228,7 @@
   {
     "w": "forbid",
     "pos": "v.",
-    "zh": "禁止",
+    "zh": "禁止（不准；forbid sb to do）",
     "ex": "Regulations forbid mailing flammable materials."
   },
   {
@@ -2366,7 +2366,7 @@
   {
     "w": "obtain",
     "pos": "v.",
-    "zh": "取得、獲得",
+    "zh": "取得、獲得（設法取得，如證件）",
     "ex": "You must obtain a permit before mailing such items."
   },
   {
@@ -2396,7 +2396,7 @@
   {
     "w": "prohibit",
     "pos": "v.",
-    "zh": "禁止",
+    "zh": "禁止（法規明令；prohibit sb from doing）",
     "ex": "Regulations prohibit sending cash by ordinary mail."
   }
 ]
