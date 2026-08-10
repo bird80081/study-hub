@@ -1324,6 +1324,29 @@ function zhSenses(zh) {
     .split(/[、，,；;／/]|\s+/)
     .filter(s => s.length >= 2 && /[一-鿿]/.test(s));
 }
+// 形近程度評分（2026-08-10 新增）。考卷的字彙失分幾乎都是「認得意思，但四個長很像的
+// 選錯一個」——popularity/population、property/priority、complaint/completion…。
+// 干擾選項若是隨機同詞性字，測的是「知不知道意思」，跟考卷考的不是同一件事：
+// 8/10 實測翻卡 89%，同日考卷形近字連錯 6 題。分數越高越像。
+function lookAlike(a, b) {
+  a = a.toLowerCase(); b = b.toLowerCase();
+  let pre = 0;
+  while (pre < a.length && pre < b.length && a[pre] === b[pre]) pre++;
+  let lcs = 0;                                   // 最長共同子字串：抓 eligible／legible 的 "gible"
+  for (let i = 0; i < a.length; i++) {
+    for (let j = 0; j < b.length; j++) {
+      let k = 0;
+      while (i + k < a.length && j + k < b.length && a[i + k] === b[j + k]) k++;
+      if (k > lcs) lcs = k;
+    }
+  }
+  // property／priority 這種頭尾像、中間換位的，共同子字串只有 2，靠同位置字元比率補抓
+  let same = 0;
+  for (let i = 0; i < Math.min(a.length, b.length); i++) if (a[i] === b[i]) same++;
+  const aligned = Math.abs(a.length - b.length) <= 2 &&
+                  same / Math.max(a.length, b.length) >= 0.5;
+  return Math.max(pre, lcs) + (aligned ? 4 : 0);
+}
 function distractors(word, n) {
   // 同義字不能當干擾選項：中翻英題幹只有中文，「禁止」配上 forbid＋prohibit 會出現兩個正解
   const mine = new Set(zhSenses(word.zh));
@@ -1331,13 +1354,44 @@ function distractors(word, n) {
   const same = others.filter(v => v.pos === word.pos);
   const pool = (same.length >= n ? same : others).slice();
   pool.sort(() => Math.random() - 0.5);
-  return pool.slice(0, n);
+  // 順序：同組形近字 → 字形相似者 → 隨機補滿。形近字不限同詞性，考卷選項本來就常跨詞性。
+  // `grp` 是明確標記的易混組（vocab.json）。純靠相似度算分會漏掉真正該考的一組——
+  // property 會被 process／protect 擠掉（字首更像），eligible 會被 credible 擠掉 legible，
+  // 而 property/priority、eligible/legible 正是 8/10 考卷實際失分的兩組。
+  const grouped = word.grp ? others.filter(v => v.grp === word.grp) : [];
+  const near = others.map(v => ({ v, s: lookAlike(v.w, word.w) }))
+                     .filter(x => x.s >= 4)
+                     .sort((x, y) => y.s - x.s)
+                     .map(x => x.v);
+  const ranked = [];
+  const seen = new Set();
+  for (const v of grouped.concat(near, pool)) {
+    if (seen.has(v.w)) continue;
+    seen.add(v.w); ranked.push(v);
+  }
+  return ranked.slice(0, n);
 }
 /* 每日單字：階段一快速翻卡瀏覽（正面純英文）→ 提交 → 階段二測驗同批單字 */
 let vWords = [], vPhase = "browse", vFlip = false, vSeenMax = 0;
 
+// 一次性回收（2026-08-10）：舊制下三次答對即 3 級，其中兩次可能都是中翻英，
+// 標熟的門檻遠低於考卷。而 startVocabRound 只抽 0～2 級，3 級的字從此不再出現——
+// 等於這批字被舊標準永久認證。降回 2 級讓它們重新進輪替，改用無提示挖空重驗。
+function migrateStagesOnce() {
+  const KEY = "hub.vocab.recert.2026-08-10";
+  if (localStorage.getItem(KEY)) return 0;
+  const all = vStages();
+  let n = 0;
+  for (const w in all) if (all[w] >= 3) { all[w] = 2; n++; }
+  localStorage.setItem(LS_VOCAB2, JSON.stringify(all));
+  localStorage.setItem(KEY, "1");
+  return n;
+}
+
 async function startVocabRound() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
+  const recert = migrateStagesOnce();
+  if (recert) toast(`${recert} 個已熟的字降回 2 級，改用無提示挖空重驗一次`);
   const av = allVocab();
   const st = vStages();
   const due = av.filter(v => (st[v.w] || 0) === 1 || (st[v.w] || 0) === 2).sort(() => Math.random() - 0.5);
@@ -1383,8 +1437,12 @@ function startVocabQuiz() {
   vTasks = vWords.map(v => {
     const stage = st[v.w] || 0;
     const blanked = v.ex ? blankWord(v.ex, v.w) : null;
-    const type = (blanked && stage < 2) ? "cloze" : "zh2en";
-    return { v, type, blanked };
+    // 進程方向（2026-08-10 修正）。原本 0-1 級考例句挖空、2 級以上改考中翻英——
+    // 字越熟，題型離考卷越遠；而且挖空題底下還印著中文釋義。考卷不給中文，也不考中翻英，
+    // 等於考卷格式從頭到尾沒被練到（8/10 查證：75 字掛 3 級，考卷字彙仍 70%）。
+    // 改成：0 級中翻英建立連結 → 1 級挖空（留中文提示）→ 2 級以上挖空且無提示＝考卷格式。
+    const type = (blanked && stage >= 1) ? "cloze" : "zh2en";
+    return { v, type, blanked, hint: stage < 2 };
   }).sort(() => Math.random() - 0.5);
   vPhase = "quiz"; vTIdx = 0; vAnswered = null; vRight = 0;
   showVocabTask();
@@ -1397,12 +1455,15 @@ function showVocabTask() {
     <div class="exam-top">
       <button class="small ghost" onclick="showVocabTab()">結束</button>
       <span class="muted">測驗 ${vTIdx + 1}/${vTasks.length}</span>
-      <span class="muted">${t.type === "cloze" ? "✏️ 例句挖空" : "🎯 中翻英"}</span>
+      <span class="muted">${t.type !== "cloze" ? "🎯 中翻英"
+        : t.hint ? "✏️ 例句挖空" : "🔥 例句挖空（無提示）"}</span>
     </div>`;
   const opts = t.opts || (t.opts = [t.v, ...distractors(t.v, 3)].sort(() => Math.random() - 0.5));
   const answered = vAnswered !== null;
+  // 無提示挖空只給詞性——中文釋義就是考卷會拿掉的那個提示，2 級以上不再供應
   const stem = t.type === "cloze"
-    ? `<div class="q-stem">${t.blanked}</div><p class="muted">（${t.v.pos}${t.v.zh ? "．" + t.v.zh : ""}）</p>`
+    ? `<div class="q-stem">${t.blanked}</div><p class="muted">（${t.v.pos}${
+        t.hint && t.v.zh ? "．" + t.v.zh : ""}）</p>`
     : `<div class="q-stem" style="font-size:1.2rem;font-weight:700">${t.v.zh}<span class="muted" style="font-size:0.85rem">（${t.v.pos}）</span></div>`;
   $app.innerHTML = head + stem + opts.map(o => {
     let cls = "opt";
@@ -1428,7 +1489,11 @@ function pickVocab(w) {
   bumpVocabDaily(w === t.v.w);
   if (w === t.v.w) {
     vRight++;
-    setStage(t.v.w, Math.min(3, cur + 1));
+    // 3 級＝熟，只能靠「無提示例句挖空」拿到，那才是考卷格式。舊版任何題型答對都 +1，
+    // 三次中翻英就能標熟——這是 75 字掛 3 級、考卷字彙仍 70% 的直接原因。
+    // 沒有例句的字（自訂字可能沒補 ex）無從考挖空，維持舊上限，不要卡在 2 級。
+    const cap = (t.type === "cloze" && !t.hint) || !t.v.ex ? 3 : 2;
+    setStage(t.v.w, Math.max(cur, Math.min(cap, cur + 1)));
     speak(t.v.w);
   } else {
     setStage(t.v.w, Math.max(0, cur - 1));
