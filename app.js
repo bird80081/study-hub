@@ -507,7 +507,9 @@ function beginDrillRun() {
   showDrillQ();
 }
 function lawBlock(q) {
-  if (!q.law || !q.law.length) return "";
+  // 必須擋非陣列：回收卷曾把科目名稱寫進 law（字串也有 .length），
+  // 舊寫法會在作答後 q.law.map 拋錯 → showDrillQ 整段不執行 → 點選項像沒反應
+  if (!Array.isArray(q.law) || !q.law.length) return "";
   return `<div class="law-block"><div class="law-title">📖 條文</div>` +
     q.law.map(l => `<div class="law-item"><span class="law-art">${l.art}</span>${l.text}</div>`).join("") +
     `</div>`;

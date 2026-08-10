@@ -4,7 +4,7 @@
  "dueDate": "2026-08-10",
  "questions": [
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81e4-97e3-c6ced0d1adac",
    "point": "選擇之債之選擇權歸屬",
    "stem": "甲乙約定甲應交付 A 車或 B 車其中一部與乙，但未約定由何人選擇。嗣選擇權人遲未選擇。依民法規定，下列敘述何者正確？",
    "options": [
@@ -15,13 +15,13 @@
    ],
    "answer": "A",
    "explain": "民法第208條：於數宗給付中得選定其一者，其選擇權屬於債務人，但法律另有規定或契約另有訂定者不在此限。故未約定時推由債務人甲選擇。選擇之債之標的雖於選擇前尚未特定，惟給付內容可得確定，契約有效，非無效。另依第210條，選擇權定有行使期間而不行使者，其選擇權移屬於他方當事人。",
-   "law": "民法",
+   "srcSubject": "民法",
    "pageId": "3b52ace3-4688-81e4-97e3-c6ced0d1adac",
    "kind": "訂正",
    "number": "模考0807-5"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81a6-b48e-eb9e7d4bf972",
    "point": "簡易壽險罰鍰與撤換人員",
    "stem": "中華郵政公司違反簡易人壽保險法第13條第1項關於續期保險費催告及寬限期間之規定。依該法規定，其法律效果為何？",
    "options": [
@@ -32,13 +32,13 @@
    ],
    "answer": "C",
    "explain": "簡易人壽保險法第37條第1款：違反第5條第1項、第7條、第7條之1、第8條第2項、第9條、第13條第1項、第17條第1項但書、第26條、第28條者，處三十萬元以上一百五十萬元以下罰鍰，並得撤換其核保或精算人員。其餘級距分屬不同事由：十五萬至七十五萬元為第38條第2項（未依限報告或公開說明不實）、二十四萬至一百二十萬元為第36條（安定基金提撥）、五十萬至二百五十萬元為第34條（規避妨礙拒絕檢查），四級距易互換。",
-   "law": "郵政4法",
+   "srcSubject": "郵政4法",
    "pageId": "3b52ace3-4688-81a6-b48e-eb9e7d4bf972",
    "kind": "訂正",
    "number": "模考0807-30"
   },
   {
-   "id": "rc-3ae2ace3",
+   "id": "rc-3ae2ace3-4688-81cd-aeb0-e730fdab60a9",
    "point": "欠資郵件處理程序：先退還寄件人補付→無法退還→招領揭示期滿→無著郵件",
    "stem": "依郵務營業規章規定，有關郵件申請改投、改寄之有效期限，何者正確？",
    "options": [
@@ -49,13 +49,13 @@
    ],
    "answer": "C",
    "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "law": "郵政4法",
+   "srcSubject": "郵政4法",
    "pageId": "3ae2ace3-4688-81cd-aeb0-e730fdab60a9",
    "kind": "訂正",
    "number": "模考0731-45"
   },
   {
-   "id": "rc-3ae2ace3",
+   "id": "rc-3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
    "point": "簡易壽險續期保費：催告十日內＋自當期繳費日起算三個月寬限期間",
    "stem": "依簡易人壽保險法規定，續期保險費自繳費日起一個月未交付者，保險人應予催告，並自何日起算三個月為寬限期間？",
    "options": [
@@ -66,13 +66,13 @@
    ],
    "answer": "B",
    "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "law": "郵政4法",
+   "srcSubject": "郵政4法",
    "pageId": "3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
    "kind": "訂正",
    "number": "模考0731-25"
   },
   {
-   "id": "rc-39e2ace3",
+   "id": "rc-39e2ace3-4688-8194-8805-f23e66e6a1d1",
    "point": "延誤補償之計算",
    "stem": "某甲交寄限時掛號附回執小包 1 件，其資費共 102 元（小包資費 60 元、掛號資費 20 元、限時資費 7 元、普通回執費 15 元），因郵局投遞人員未依中華郵政公司公告之處理規定遞送，其可向郵局請求補償之金額為新臺幣多少元？",
    "options": [
@@ -83,13 +83,13 @@
    ],
    "answer": "B",
    "explain": "未依規定遞送依「所收取之全部資費」補償，但不含報值費、保價費、代收貨款費及「回執費」：102 − 15 ＝ 87 元（⚠ 速查表：曾漏扣項目，本題考排除回執費）。",
-   "law": "郵政4法",
+   "srcSubject": "郵政4法",
    "pageId": "39e2ace3-4688-8194-8805-f23e66e6a1d1",
    "kind": "訂正",
    "number": "延誤補償之計算"
   },
   {
-   "id": "rc-39e2ace3",
+   "id": "rc-39e2ace3-4688-81a6-9e4d-e9c7103793a6",
    "point": "匯兌業務依據",
    "stem": "下列何者業務之處理，除依萬國郵政聯盟所定郵政匯兌協定及其施行細則或我國與國外雙邊郵政匯兌協定辦理外，依郵政儲金匯兌法規定辦理？",
    "options": [
@@ -100,13 +100,13 @@
    ],
    "answer": "C",
    "explain": "「國際匯兌」優先依萬國郵盟匯兌協定或雙邊協定，協定未定者依郵政儲金匯兌法。國內匯兌逕依本法。",
-   "law": "郵政4法",
+   "srcSubject": "郵政4法",
    "pageId": "39e2ace3-4688-81a6-9e4d-e9c7103793a6",
    "kind": "訂正",
    "number": "匯兌業務依據"
   },
   {
-   "id": "rc-39d2ace3",
+   "id": "rc-39d2ace3-4688-8101-8d6b-d53dc273d215",
    "point": "郵件之遞送：僅設受信設備時，掛號及欠資郵件仍應按址投遞洽收件人",
    "stem": "依郵政法規定，有關郵件之遞送，下列敘述何者錯誤？",
    "options": [
@@ -117,13 +117,13 @@
    ],
    "answer": "B",
    "explain": "僅設受信設備時，平常郵件投入受信設備；掛號及欠資郵件應「按址投遞洽收件人」，而非逕要求至郵局領取（官方公告正解 B）。",
-   "law": "郵政4法",
+   "srcSubject": "郵政4法",
    "pageId": "39d2ace3-4688-8101-8d6b-d53dc273d215",
    "kind": "訂正",
    "number": "郵件之遞送"
   },
   {
-   "id": "rc-39d2ace3",
+   "id": "rc-39d2ace3-4688-81ea-84d8-e6326588385b",
    "point": "表見代理：本人有可歸責代理權外觀，對善意第三人負授權人責任",
    "stem": "甲公司之前員工乙離職後，仍持甲公司先前交付且未收回之空白合約書及公司印章，以甲公司代理人名義與不知情之丙簽約。甲公司知悉乙曾多次以其名義對外洽談而未為反對之表示。依民法規定，下列敘述何者正確？",
    "options": [
@@ -134,13 +134,13 @@
    ],
    "answer": "A",
    "explain": "由自己之行為表示以代理權授與他人，或知他人表示為其代理人而不為反對之表示者，對於第三人應負授權人之責任；但第三人明知或可得而知其無代理權者，不在此限（民法第 169 條，表見代理）。承認權在本人（甲公司）而非無權代理人乙，選項 D 錯誤。",
-   "law": "民法",
+   "srcSubject": "民法",
    "pageId": "39d2ace3-4688-81ea-84d8-e6326588385b",
    "kind": "訂正",
    "number": "表見代理"
   },
   {
-   "id": "rc-39d2ace3",
+   "id": "rc-39d2ace3-4688-815a-b5d7-fda79b7c03f8",
    "point": "時效完成之效力：債務人得拒絕給付，已給付者不得以不知時效為理由請求返還",
    "stem": "甲對乙之借款返還請求權時效已完成，乙不知時效完成而仍清償全部借款，事後始發覺。依民法規定，下列敘述何者正確？",
    "options": [
@@ -151,13 +151,13 @@
    ],
    "answer": "B",
    "explain": "我國採抗辯權發生主義：時效完成後，債務人得拒絕給付（民法第 144 條第 1 項），但請求權本身不消滅。債務人不知時效完成而為給付者，係履行仍存在之債務，非無法律上原因，不得以不知時效為理由請求返還（第 144 條第 2 項）。",
-   "law": "民法",
+   "srcSubject": "民法",
    "pageId": "39d2ace3-4688-815a-b5d7-fda79b7c03f8",
    "kind": "訂正",
    "number": "時效完成之效力"
   },
   {
-   "id": "rc-39d2ace3",
+   "id": "rc-39d2ace3-4688-81d3-8f3e-fbd57c5971a7",
    "point": "勞務契約之補充適用",
    "stem": "有關勞務給付之契約，不屬於民法所定契約之種類者，應適用民法有關何種契約之規定？",
    "options": [
@@ -168,13 +168,13 @@
    ],
    "answer": "A",
    "explain": "第 529 條：關於勞務給付之契約，不屬於法律所定其他契約之種類者，適用關於「委任」之規定。委任是勞務契約之補充類型。（112 歷屆）",
-   "law": "民法",
+   "srcSubject": "民法",
    "pageId": "39d2ace3-4688-81d3-8f3e-fbd57c5971a7",
    "kind": "訂正",
    "number": "勞務契約之補充適用"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81d0-9e7e-ea7ea9c33ae6",
    "point": "模考0807-47 閱讀二：細節（採行原因）",
    "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 47 題：Why did the town choose to use letter carriers instead of hiring more care workers?",
    "options": [
@@ -185,13 +185,13 @@
    ],
    "answer": "C",
    "explain": "第一段末句明確指出 Hiring additional care workers was beyond the town's budget，即預算不足。文中反而強調郵務士不提供醫療照護、未受護理訓練，其餘兩項亦未提及。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81d0-9e7e-ea7ea9c33ae6",
    "kind": "英文",
    "number": "模考0807-47 閱讀二：細節（採行原因）"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
    "point": "模考0807-45 閱讀一：寫作手法",
    "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
    "options": [
@@ -202,13 +202,13 @@
    ],
    "answer": "B",
    "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
    "kind": "英文",
    "number": "模考0807-45 閱讀一：寫作手法"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
    "point": "模考0807-38 主詞動詞一致與時態",
    "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
    "options": [
@@ -219,13 +219,13 @@
    ],
    "answer": "B",
    "explain": "主詞 mistakes 為複數，全段陳述普遍事實用現在簡單式，故用原形 occur。occurs 為單數動詞、occurring 缺助動詞、has occurred 主詞動詞不一致且時態不符。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-8158-a94c-dd4d2110212f",
    "kind": "英文",
    "number": "模考0807-38 主詞動詞一致與時態"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81e0-9fff-ee7f58b8bcd7",
    "point": "模考0807-36 however 轉折副詞",
    "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 36 格：",
    "options": [
@@ -236,13 +236,13 @@
    ],
    "answer": "B",
    "explain": "前句說明一般人的看法，後句 suggest the opposite 為相反結論，故用轉折副詞 however。therefore 表結果、moreover 表遞進、otherwise 表否則，均不符轉折語氣。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81e0-9fff-ee7f58b8bcd7",
    "kind": "英文",
    "number": "模考0807-36 however 轉折副詞"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-8121-b1a0-c4104bc4aaf4",
    "point": "模考0807-20 條件句主要子句時態",
    "stem": "If the address is incomplete, the letter _____ back to the sender.",
    "options": [
@@ -253,13 +253,13 @@
    ],
    "answer": "C",
    "explain": "條件副詞子句用現在式表未來，主要子句用 will + 原形；信件是被退回，須用被動，故為 will be returned。will be going to 為錯誤結構（will 與 be going to 不可並用）、is going to returned 缺被動之 be、would return 為與現在事實相反之語氣且語態錯誤。第 1 場模考誤選 will be going to，本題保留該錯誤結構為誘答。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-8121-b1a0-c4104bc4aaf4",
    "kind": "英文",
    "number": "模考0807-20 條件句主要子句時態"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
    "point": "模考0807-19 be sold as",
    "stem": "These second-hand boxes are _____ packing material at a very low price.",
    "options": [
@@ -270,13 +270,13 @@
    ],
    "answer": "A",
    "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
    "kind": "英文",
    "number": "模考0807-19 be sold as"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
    "point": "模考0807-15 eliminate",
    "stem": "The new sorting machine helps _____ human error in the delivery process.",
    "options": [
@@ -287,13 +287,13 @@
    ],
    "answer": "D",
    "explain": "eliminate 意為『消除、排除』，與減少人為錯誤之語意相符。accumulate 是累積（語意相反）、estimate 是估計、exaggerate 是誇大。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81bc-9f7d-e940413a648f",
    "kind": "英文",
    "number": "模考0807-15 eliminate"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
    "point": "模考0807-14 complaint",
    "stem": "The customer filed a formal _____ about the damaged goods and asked for compensation.",
    "options": [
@@ -304,13 +304,13 @@
    ],
    "answer": "B",
    "explain": "complaint 意為『抱怨、申訴』，file a complaint 為固定搭配。compliment 是讚美、complement 是補充物、completion 是完成，四字形近且 compliment 與 complaint 語意相反，為高鑑別度誘答。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
    "kind": "英文",
    "number": "模考0807-14 complaint"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
    "point": "模考0807-13 estimate",
    "stem": "Could you _____ how long it will take for the parcel to reach Japan by sea mail?",
    "options": [
@@ -321,13 +321,13 @@
    ],
    "answer": "A",
    "explain": "estimate 意為『估計』，符合詢問所需時間之語意。eliminate 是消除、illustrate 是說明圖解、imitate 是模仿。注意本題問的是時間長度，若改問頻率則須用 how often 回答，此為第 1 場對話題之錯點延伸。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81f4-ba2a-eeca344e9f94",
    "kind": "英文",
    "number": "模考0807-13 estimate"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-8192-a04c-f9c398b8d8e0",
    "point": "模考0807-12 priority",
    "stem": "Registered letters are given _____ over ordinary mail during the busy season.",
    "options": [
@@ -338,13 +338,13 @@
    ],
    "answer": "A",
    "explain": "priority 意為『優先權』，give priority over 指優先於某物處理。property 是財產、prosperity 是繁榮、publicity 是宣傳，三者為字形相近之誘答。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-8192-a04c-f9c398b8d8e0",
    "kind": "英文",
    "number": "模考0807-12 priority"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
    "point": "模考0807-9 notify",
    "stem": "The post office will _____ you by text message as soon as your package arrives at the pickup station.",
    "options": [
@@ -355,13 +355,13 @@
    ],
    "answer": "B",
    "explain": "notify 為及物動詞，意為『通知（某人）』，可直接接受詞 you。notice 作動詞時意為注意到，語意不符；note 是記下；notation 是記號、標記法。notify sb. of sth. 亦為常見搭配。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
    "kind": "英文",
    "number": "模考0807-9 notify"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-8195-9c82-c2779a0d6609",
    "point": "模考0807-5 departure",
    "stem": "Passengers are advised to check the _____ time on the screen, as the schedule may change without notice.",
    "options": [
@@ -372,13 +372,13 @@
    ],
    "answer": "D",
    "explain": "departure time 為固定搭配，指『出發時間』；departure 為名詞。depart 是動詞、department 是部門、dependent 是依賴的，三者為形近字誘答。第 1 場模考誤判此字，形近字組須一併記憶。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-8195-9c82-c2779a0d6609",
    "kind": "英文",
    "number": "模考0807-5 departure"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-8158-8aff-dd0bfee69158",
    "point": "模考0807-2 population",
    "stem": "The town's _____ has dropped sharply in the past decade, and many post offices there have been closed.",
    "options": [
@@ -389,13 +389,13 @@
    ],
    "answer": "D",
    "explain": "population 意為『人口』，與 dropped sharply、post offices closed 語意相符。pollution 是污染、publication 是出版品、popularity 是受歡迎程度，三者皆為形近或音近誘答。第 1 場模考誤選 pollution，本題保留同組形近字重測。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-8158-8aff-dd0bfee69158",
    "kind": "英文",
    "number": "模考0807-2 population"
   },
   {
-   "id": "rc-3b52ace3",
+   "id": "rc-3b52ace3-4688-81da-91cf-e29e7e23a4fe",
    "point": "模考0807-1 unwillingly",
    "stem": "Although the clerk was already off duty, he _____ returned to the counter to help the elderly customer.",
    "options": [
@@ -406,13 +406,13 @@
    ],
    "answer": "D",
    "explain": "unwillingly 為副詞，意為『不情願地』，修飾動詞 returned，符合『雖然已下班』的轉折語氣。willingly 語意相反；unwilling 與 willing 皆為形容詞，不能修飾動詞。第 1 場模考此字答錯，本題換為郵局櫃檯情境重出。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81da-91cf-e29e7e23a4fe",
    "kind": "英文",
    "number": "模考0807-1 unwillingly"
   },
   {
-   "id": "rc-3ae2ace3",
+   "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
    "point": "模考0731-30 It depends on the traffic.",
    "stem": "A: How long does it take from here to the post office?\nB: ___",
    "options": [
@@ -423,7 +423,7 @@
    ],
    "answer": "D",
    "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "law": "英文",
+   "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
    "kind": "英文",
    "number": "模考0731-30 It depends on the traffic."
