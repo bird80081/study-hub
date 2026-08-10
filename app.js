@@ -244,7 +244,7 @@ function exportDayRecord() {
 }
 async function buildDayRecordText() {
   const day = todayKey();
-  const strip = ({ exported, ...w }) => w;
+  const strip = ({ exported, snap, ...w }) => w;   // exported 是內部旗標、snap 是重刷用的題目快照，都不外送
   const all = drillWrongAll();
   const wrongToday = all.filter(w => w.date === day).map(strip);
   // 補件：前幾天漏匯出的錯題。今天的已在 drill.wrong，這裡只收跨日殘留，
@@ -359,6 +359,17 @@ function drillCfg() {
   return { subjects: ["民法", "郵政法規", "英文", "國文"], per: 5 };
 }
 function drillWrongAll() { try { return JSON.parse(localStorage.getItem(LS_DRILL_WRONG)) || []; } catch { return []; } }
+// 一次性清理：8/10 前的回收卷 id 只取 pageId 前 8 碼，一個 id 對到多達 16 題，
+// 既分不出是哪一題也刷不回來，留著只會匯出成假的錯題。（產生器已改用完整 pageId）
+const BAD_RC_ID = /^rc-[0-9a-f]{8}$/;
+function migrateDrillWrong() {
+  const all = drillWrongAll();
+  const kept = all.filter(w => !BAD_RC_ID.test(w.id));
+  if (kept.length !== all.length) localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(kept));
+  const seen = drillSeen();
+  const bad = Object.keys(seen).filter(k => BAD_RC_ID.test(k));
+  if (bad.length) { bad.forEach(k => delete seen[k]); localStorage.setItem(LS_DRILL_SEEN, JSON.stringify(seen)); }
+}
 function drillDaily() { try { return JSON.parse(localStorage.getItem(LS_DRILL_DAILY)) || {}; } catch { return {}; } }
 
 async function showDrillTab() {
@@ -451,7 +462,9 @@ async function loadPool(subject) {
   if (poolCache[subject]) return poolCache[subject];
   const meta = poolIndex.find(p => p.subject === subject);
   const pool = await (await fetch(`pools/${meta.file}`, { cache: "no-store" })).json();
-  pool.questions.forEach(q => q.subject = subject);
+  // 回收卷是混科卷，題目自帶 srcSubject（民法／郵政法規／英文）；沒帶的就用池名。
+  // 錯題本記的是 q.subject，掛「今日回收」會讓「只刷錯題」的科目勾選對不上。
+  pool.questions.forEach(q => q.subject = q.srcSubject || subject);
   poolCache[subject] = pool;
   return pool;
 }
@@ -486,17 +499,31 @@ function shuffleOptions(q) {
     options: idx.map(i => q.options[i]),
     answer: "ABCD"[idx.indexOf("ABCD".indexOf(q.answer))] };
 }
+// 錯題本自帶的題目快照。回收卷每天重產，隔天該題就從 pools/recycle.json 消失，
+// 只靠題庫撈會變成永遠刷不到的孤兒；快照讓錯題本不依賴題庫檔也能重建題目。
+// snap.options 與項目的 answer 是同一輪洗牌的結果，兩者必須一起寫入。
+function drillSnap(q) { return { options: q.options, explain: q.explain }; }
+function drillWrongToQ(w) {
+  return { id: w.id, subject: w.subject, point: w.point, stem: w.stem,
+           options: w.snap.options, answer: w.answer, explain: w.snap.explain };
+}
 async function startDrillWrong() {
   if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
   const cfg = readDrillForm();
   if (!cfg.subjects.length) { toast("至少勾一科"); return; }
   localStorage.setItem(LS_DRILL_CFG, JSON.stringify(cfg));
-  const ids = new Set(drillWrongAll().map(w => w.id));
+  const all = drillWrongAll();
+  const ids = new Set(all.map(w => w.id));
   drillQ = [];
   for (const p of poolIndex.filter(p => cfg.subjects.includes(p.subject))) {
     const pool = await loadPool(p.subject);
     pool.questions.forEach(q => { if (ids.has(q.id)) drillQ.push(q); });
   }
+  // 題庫撈不到的（回收卷已重產）用快照補回；優先用題庫版本，那邊才有 📖 條文
+  const got = new Set(drillQ.map(q => q.id));
+  all.forEach(w => {
+    if (!got.has(w.id) && w.snap && cfg.subjects.includes(w.subject)) drillQ.push(drillWrongToQ(w));
+  });
   if (!drillQ.length) { toast(ids.size ? "勾選的科目沒有錯題" : "錯題本是空的"); return; }
   drillQ.sort(() => Math.random() - 0.5);
   beginDrillRun();
@@ -561,10 +588,10 @@ function pickDrill(label) {
     const ex = wrongs.find(w => w.id === q.id);
     if (ex) {
       ex.exported = false;   // 又錯 → 重新列入待匯出（觸發 Notion「又錯」提醒）
-      // user 與 answer 必須同輪更新：選項每輪重新洗牌，字母空間不同，只更新一邊會對不上
-      ex.user = label; ex.answer = q.answer; ex.date = todayKey();
+      // user、answer、snap 必須同輪更新：選項每輪重新洗牌，字母空間不同，只更新一邊會對不上
+      ex.user = label; ex.answer = q.answer; ex.date = todayKey(); ex.snap = drillSnap(q);
     } else {
-      wrongs.push({ id: q.id, subject: q.subject, point: q.point, stem: q.stem, user: label, answer: q.answer, date: todayKey(), exported: false });
+      wrongs.push({ id: q.id, subject: q.subject, point: q.point, stem: q.stem, user: label, answer: q.answer, date: todayKey(), exported: false, snap: drillSnap(q) });
     }
     localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs.slice(-200)));
   }
@@ -596,7 +623,7 @@ function exportDrillWrong(all) {
     return;
   }
   const out = { type: "刷題錯題", exported: todayKey(),
-    wrong: pick.map(({ exported, ...w }) => w) };   // 匯出不帶內部 exported 旗標
+    wrong: pick.map(({ exported, snap, ...w }) => w) };   // 匯出不帶內部 exported 旗標與題目快照
   const text = "【刷題錯題匯出，請依複習流程處理】\n" + JSON.stringify(out, null, 1);
   const done = () => {
     pick.forEach(w => { w.exported = true; });       // 標記已匯出，下次不再出現
@@ -1566,4 +1593,5 @@ function escapeHtml(s) {
 }
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+migrateDrillWrong();
 showHomeTab();
