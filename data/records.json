@@ -1398,5 +1398,275 @@
    "2": 30,
    "3": 67
   }
+ },
+ "2026-08-10": {
+  "date": "2026-08-10",
+  "drill": {
+   "count": 74,
+   "wrong": [
+    {
+     "id": "mf073",
+     "subject": "民法",
+     "point": "區分所有建築物",
+     "stem": "關於區分所有建築物，下列敘述何者錯誤？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "mf100",
+     "subject": "民法",
+     "point": "動產物權讓與之生效",
+     "stem": "依民法規定，動產物權之讓與，非將動產如何，不生效力？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "ch088",
+     "subject": "國文",
+     "point": "成語辨析：望其項背",
+     "stem": "下列關於「望其項背」之用法，何者正確？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "en103",
+     "subject": "英文",
+     "point": "文法：It is＋形容詞＋of sb. to V",
+     "stem": "It was very careless ______ him to write the wrong postal code.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "ch098",
+     "subject": "國文",
+     "point": "詞語辨析：其他與其它",
+     "stem": "下列文句用字何者正確？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "po113",
+     "subject": "郵政法規",
+     "point": "簡易壽險契約生效日",
+     "stem": "依簡易人壽保險法規定，簡易人壽保險契約發生效力之時點為何？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "po091",
+     "subject": "郵政法規",
+     "point": "信函之定義",
+     "stem": "依郵政法規定，有關信函之定義，下列何者敘述正確？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "ch075",
+     "subject": "國文",
+     "point": "醉翁亭記：與民同樂",
+     "stem": "〈醉翁亭記〉末段「人知從太守遊而樂，而不知太守之樂其樂也」，所表達之旨為何？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "en112",
+     "subject": "英文",
+     "point": "文法：比較級之修飾語",
+     "stem": "The new sorting machine is ______ faster than the old one.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "en107",
+     "subject": "英文",
+     "point": "文法：be supposed to",
+     "stem": "Registered mail ______ to be delivered within three working days.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "ch015",
+     "subject": "國文",
+     "point": "字形辨識：褒",
+     "stem": "下列「」內的字形前後相同的是：",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "en081",
+     "subject": "英文",
+     "point": "字彙：crucial",
+     "stem": "Accurate addressing is ______ to on-time delivery.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "ch070",
+     "subject": "國文",
+     "point": "師說：句讀之不知",
+     "stem": "韓愈〈師說〉：「句讀之不知，惑之不解，或師焉，或不焉，小學而大遺，吾未見其明也。」作者於此批評何種現象？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-10"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81d0-9e7e-ea7ea9c33ae6",
+     "subject": "英文",
+     "point": "模考0807-47 閱讀二：細節（採行原因）",
+     "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 47 題：Why did the town choose to use letter carriers instead of hiring more care workers?",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-10",
+     "userText": "Letter carriers had medical training"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8121-b1a0-c4104bc4aaf4",
+     "subject": "英文",
+     "point": "模考0807-20 條件句主要子句時態",
+     "stem": "If the address is incomplete, the letter _____ back to the sender.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-10",
+     "userText": "would return"
+    },
+    {
+     "id": "rc-39d2ace3-4688-8101-8d6b-d53dc273d215",
+     "subject": "郵政法規",
+     "point": "郵件之遞送：僅設受信設備時，掛號及欠資郵件仍應按址投遞洽收件人",
+     "stem": "依郵政法規定，有關郵件之遞送，下列敘述何者錯誤？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-10",
+     "userText": "地面層設有管理服務人員或郵件收發處者，各類郵件得交管理服務人員或郵件收發處收領"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81a6-b48e-eb9e7d4bf972",
+     "subject": "郵政法規",
+     "point": "簡易壽險罰鍰與撤換人員",
+     "stem": "中華郵政公司違反簡易人壽保險法第13條第1項關於續期保險費催告及寬限期間之規定。依該法規定，其法律效果為何？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-10",
+     "userText": "處新臺幣二十四萬元以上一百二十萬元以下罰鍰"
+    },
+    {
+     "id": "rc-39e2ace3-4688-81a6-9e4d-e9c7103793a6",
+     "subject": "郵政法規",
+     "point": "匯兌業務依據",
+     "stem": "下列何者業務之處理，除依萬國郵政聯盟所定郵政匯兌協定及其施行細則或我國與國外雙邊郵政匯兌協定辦理外，依郵政儲金匯兌法規定辦理？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-10",
+     "userText": "僅國內匯兌"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81e0-9fff-ee7f58b8bcd7",
+     "subject": "英文",
+     "point": "模考0807-36 however 轉折副詞",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 36 格：",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-10",
+     "userText": "otherwise"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8158-8aff-dd0bfee69158",
+     "subject": "英文",
+     "point": "模考0807-2 population",
+     "stem": "The town's _____ has dropped sharply in the past decade, and many post offices there have been closed.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-10",
+     "userText": "popularity"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8192-a04c-f9c398b8d8e0",
+     "subject": "英文",
+     "point": "模考0807-12 priority",
+     "stem": "Registered letters are given _____ over ordinary mail during the busy season.",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-10",
+     "userText": "property"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8195-9c82-c2779a0d6609",
+     "subject": "英文",
+     "point": "模考0807-5 departure",
+     "stem": "Passengers are advised to check the _____ time on the screen, as the schedule may change without notice.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-10",
+     "userText": "department"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81da-91cf-e29e7e23a4fe",
+     "subject": "英文",
+     "point": "模考0807-1 unwillingly",
+     "stem": "Although the clerk was already off duty, he _____ returned to the counter to help the elderly customer.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-10",
+     "userText": "willingly"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
+     "subject": "英文",
+     "point": "模考0807-14 complaint",
+     "stem": "The customer filed a formal _____ about the damaged goods and asked for compensation.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-10",
+     "userText": "completion"
+    }
+   ],
+   "misgraded": [
+    {
+     "id": "rc-39e2ace3-4688-8194-8805-f23e66e6a1d1",
+     "subject": "郵政法規",
+     "point": "延誤補償之計算",
+     "stem": "某甲交寄限時掛號附回執小包 1 件，其資費共 102 元（小包資費 60 元、掛號資費 20 元、限時資費 7 元、普通回執費 15 元），因郵局投遞人員未依中華郵政公司公告之處理規定遞送，其可向郵局請求補償之金額為新臺幣多少元？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-10",
+     "userText": "87 元",
+     "note": "app 端題庫為 2026-08-09T22:18 版（正解修正 commit 248881f 於 08-10 12:53 才進 repo），手機刷題時仍是舊正解，故誤判為錯；經 userText 比對，實際作答與題庫正解一致。"
+    },
+    {
+     "id": "rc-39d2ace3-4688-81ea-84d8-e6326588385b",
+     "subject": "民法",
+     "point": "表見代理：本人有可歸責代理權外觀，對善意第三人負授權人責任",
+     "stem": "甲公司之前員工乙離職後，仍持甲公司先前交付且未收回之空白合約書及公司印章，以甲公司代理人名義與不知情之丙簽約。甲公司知悉乙曾多次以其名義對外洽談而未為反對之表示。依民法規定，下列敘述何者正確？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-10",
+     "userText": "甲公司知他人表示為其代理人而不為反對之表示，對於善意之丙應負授權人之責任",
+     "note": "app 端題庫為 2026-08-09T22:18 版（正解修正 commit 248881f 於 08-10 12:53 才進 repo），手機刷題時仍是舊正解，故誤判為錯；經 userText 比對，實際作答與題庫正解一致。"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 46,
+   "right": 41
+  },
+  "vocabStages": {
+   "0": 13,
+   "1": 52,
+   "2": 44,
+   "3": 75
+  }
  }
 }
