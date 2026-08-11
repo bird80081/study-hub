@@ -399,7 +399,7 @@ async function showDrillTab() {
         </label>`).join("")}
       <div class="muted" style="font-weight:700;margin:12px 0 4px">每科題數</div>
       <div class="btn-row" style="margin-top:4px">
-        ${[3, 5, 10].map(nn => `<button class="${cfg.per === nn ? "" : "ghost"} small" onclick="setDrillPer(${nn})">${nn} 題</button>`).join("")}
+        ${[5, 10, 20, 999].map(nn => `<button class="${cfg.per === nn ? "" : "ghost"} small" onclick="setDrillPer(${nn})">${nn === 999 ? "全部" : nn + " 題"}</button>`).join("")}
       </div>
       <div class="btn-row">
         <button onclick="startDrill()">開始刷題</button>
@@ -476,10 +476,14 @@ async function startDrill() {
   const picked = [];
   for (const subj of cfg.subjects) {
     const pool = await loadPool(subj);
-    const sorted = pool.questions
-      .map(q => ({ q, k: (seen[q.id] || 0) + Math.random() * 0.9 }))
-      .sort((a, b) => a.k - b.k)
-      .map(x => x.q);
+    // 回收卷照卷序出：產生器已依拉分順位排好，昨日錯題排在前面。套 seen 排序會把
+    // 「昨天做過」的壓到最後，刷不完時第一個被犧牲的正是最該回收的題——2026-08-11
+    // 40 題卷刷 30 題，跳過的 10 題全是昨日錯題。
+    const sorted = subj === "今日回收" ? pool.questions
+      : pool.questions
+        .map(q => ({ q, k: (seen[q.id] || 0) + Math.random() * 0.9 }))
+        .sort((a, b) => a.k - b.k)
+        .map(x => x.q);
     picked.push(sorted.slice(0, cfg.per));
   }
   // 各科輪流交錯
