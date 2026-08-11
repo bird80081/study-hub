@@ -2508,5 +2508,29 @@
   "zh": "心甘情願地",
   "ex": "He willingly stayed after hours to help the elderly customer.",
   "grp": "willing"
+ },
+ {
+  "w": "description",
+  "pos": "n.",
+  "zh": "描述、說明",
+  "ex": "Please write a clear description of the lost item."
+ },
+ {
+  "w": "remain",
+  "pos": "v.",
+  "zh": "保持、仍然（不及物，後面不接受詞）",
+  "ex": "The counter will remain open until six."
+ },
+ {
+  "w": "elegant",
+  "pos": "adj.",
+  "zh": "優雅的",
+  "ex": "She wore an elegant dress to the party."
+ },
+ {
+  "w": "amazed",
+  "pos": "adj.",
+  "zh": "感到驚訝的",
+  "ex": "I was amazed by how well he looked."
  }
 ]
