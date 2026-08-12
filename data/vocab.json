@@ -2544,5 +2544,53 @@
   "pos": "v.",
   "zh": "回想起；召回（瑕疵品）",
   "ex": "I cannot recall the exact date of mailing."
+ },
+ {
+  "w": "illegible",
+  "pos": "adj.",
+  "zh": "難以辨認的、字跡潦草的",
+  "ex": "The address on the parcel was illegible, so it was returned to the sender."
+ },
+ {
+  "w": "boat",
+  "pos": "n.",
+  "zh": "船",
+  "ex": "The remote island receives its mail by boat twice a week."
+ },
+ {
+  "w": "include",
+  "pos": "v.",
+  "zh": "包含、包括",
+  "ex": "The postage fee does not include insurance for valuable items."
+ },
+ {
+  "w": "resident",
+  "pos": "n.",
+  "zh": "居民、住戶",
+  "ex": "Every resident in this district is served by the same post office."
+ },
+ {
+  "w": "inspire",
+  "pos": "v.",
+  "zh": "激勵、鼓舞",
+  "ex": "The supervisor's praise inspired the new clerk to work harder."
+ },
+ {
+  "w": "aspire",
+  "pos": "v.",
+  "zh": "渴望、嚮往（＋to）",
+  "ex": "Many clerks aspire to be promoted to branch manager."
+ },
+ {
+  "w": "require",
+  "pos": "v.",
+  "zh": "需要、要求",
+  "ex": "Registered mail requires the recipient's signature upon delivery."
+ },
+ {
+  "w": "accumulate",
+  "pos": "v.",
+  "zh": "累積、堆積",
+  "ex": "Undelivered letters accumulate quickly during the holiday season."
  }
 ]
