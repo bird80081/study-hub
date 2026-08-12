@@ -1,195 +1,8 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-11T23:16:35",
- "dueDate": "2026-08-12",
+ "generatedAt": "2026-08-13T07:35:04",
+ "dueDate": "2026-08-13",
  "questions": [
-  {
-   "id": "rc-3b52ace3-4688-8192-a04c-f9c398b8d8e0",
-   "point": "模考0807-12 priority",
-   "stem": "Registered letters are given _____ over ordinary mail during the busy season.",
-   "options": [
-    "priority",
-    "property",
-    "prosperity",
-    "publicity"
-   ],
-   "answer": "A",
-   "explain": "priority 意為『優先權』，give priority over 指優先於某物處理。property 是財產、prosperity 是繁榮、publicity 是宣傳，三者為字形相近之誘答。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8192-a04c-f9c398b8d8e0",
-   "kind": "英文",
-   "number": "模考0807-12 priority"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81d0-9e7e-ea7ea9c33ae6",
-   "point": "模考0807-47 閱讀二：細節（採行原因）",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 47 題：Why did the town choose to use letter carriers instead of hiring more care workers?",
-   "options": [
-    "Letter carriers had medical training",
-    "Residents refused to accept care workers",
-    "Hiring more care workers was beyond the town's budget",
-    "The government required the town to do so"
-   ],
-   "answer": "C",
-   "explain": "第一段末句明確指出 Hiring additional care workers was beyond the town's budget，即預算不足。文中反而強調郵務士不提供醫療照護、未受護理訓練，其餘兩項亦未提及。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81d0-9e7e-ea7ea9c33ae6",
-   "kind": "英文",
-   "number": "模考0807-47 閱讀二：細節（採行原因）"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81e0-9fff-ee7f58b8bcd7",
-   "point": "模考0807-36 however 轉折副詞",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 36 格：",
-   "options": [
-    "therefore",
-    "however",
-    "moreover",
-    "otherwise"
-   ],
-   "answer": "B",
-   "explain": "前句說明一般人的看法，後句 suggest the opposite 為相反結論，故用轉折副詞 however。therefore 表結果、moreover 表遞進、otherwise 表否則，均不符轉折語氣。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81e0-9fff-ee7f58b8bcd7",
-   "kind": "英文",
-   "number": "模考0807-36 however 轉折副詞"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8116-970c-f7ca309ff28f",
-   "point": "模考0807-29 疑問詞＋不定詞",
-   "stem": "The new employee was not sure _____ the customs declaration form.",
-   "options": [
-    "how fill in",
-    "how to fill in",
-    "how filling in",
-    "how does he fill in"
-   ],
-   "answer": "B",
-   "explain": "疑問詞 + to V 可作名詞片語當受詞，how to fill in 意為『如何填寫』。how fill in 缺結構、how filling in 詞性錯誤、how does he fill in 為直接問句語序，作受詞時須改為間接問句語序。此點與第 1 場考過的間接問句相通。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8116-970c-f7ca309ff28f",
-   "kind": "英文",
-   "number": "模考0807-29 疑問詞＋不定詞"
-  },
-  {
-   "id": "rc-3b52ace3-4688-817e-a249-ed514f2b8d4d",
-   "point": "模考0807-27 so...that 結果子句",
-   "stem": "The line at the counter was _____ long that many customers decided to come back later.",
-   "options": [
-    "too",
-    "very",
-    "so",
-    "such"
-   ],
-   "answer": "C",
-   "explain": "so + 形容詞 + that 子句表『如此……以致於』。too 須搭配 to V、very 不引導 that 子句、such 後接名詞片語（such a long line that...）。so 與 such 之後接詞性不同，為本題主要誘答。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-817e-a249-ed514f2b8d4d",
-   "kind": "英文",
-   "number": "模考0807-27 so...that 結果子句"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8149-ba33-f79ed9bd3627",
-   "point": "模考0807-26 現在分詞與過去分詞之別",
-   "stem": "The clerk found the waiting area _____ with customers during the lunch hour.",
-   "options": [
-    "crowding",
-    "crowd",
-    "to crowd",
-    "crowded"
-   ],
-   "answer": "D",
-   "explain": "be crowded with 為固定用法，表『擠滿了』，此處以過去分詞作受詞補語，描述 waiting area 被擠滿的狀態。crowding 為主動進行、to crowd 與 crowd 皆不符受詞補語結構。此點與第 1 場考過的 interesting／interested 同屬分詞形容詞判斷。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8149-ba33-f79ed9bd3627",
-   "kind": "英文",
-   "number": "模考0807-26 現在分詞與過去分詞之別"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8194-9438-f7842e088e78",
-   "point": "模考0807-25 關係代名詞 whose",
-   "stem": "The customer _____ signature was missing on the form had to come back to the post office.",
-   "options": [
-    "who",
-    "which",
-    "whose",
-    "whom"
-   ],
-   "answer": "C",
-   "explain": "先行詞 customer 與 signature 為所有關係（顧客的簽名），故用所有格關係代名詞 whose。who 為主格、whom 為受格、which 用於事物。判斷關鍵是關係詞後緊接名詞且無冠詞。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8194-9438-f7842e088e78",
-   "kind": "英文",
-   "number": "模考0807-25 關係代名詞 whose"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8170-ac9b-cfb854b16215",
-   "point": "模考0807-22 too...to 結構",
-   "stem": "The package was _____ heavy for one person to carry upstairs.",
-   "options": [
-    "so",
-    "too",
-    "very",
-    "much"
-   ],
-   "answer": "B",
-   "explain": "too + 形容詞 + for sb. + to V 表『太……以致某人不能……』，符合語意。so 須搭配 that 子句、very 無此結構、much 不修飾原級形容詞。注意 too...to 本身即含否定意味，句中不再加 not。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8170-ac9b-cfb854b16215",
-   "kind": "英文",
-   "number": "模考0807-22 too...to 結構"
-  },
-  {
-   "id": "rc-3b52ace3-4688-818d-a693-e78bb8f4462c",
-   "point": "模考0807-21 used to V vs be used to V-ing",
-   "stem": "Having worked at the counter for ten years, she is used to _____ with all kinds of customers.",
-   "options": [
-    "deal",
-    "dealt",
-    "dealing",
-    "be dealing"
-   ],
-   "answer": "C",
-   "explain": "be used to + V-ing 意為『習慣於做某事』，此處 to 為介系詞，其後接動名詞。若為 used to + 原形動詞，則意為『過去經常』，與句首 Having worked for ten years 所表達的『已習慣』語意不合。此為兩結構之核心區辨。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-818d-a693-e78bb8f4462c",
-   "kind": "英文",
-   "number": "模考0807-21 used to V vs be used to V-ing"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8121-b1a0-c4104bc4aaf4",
-   "point": "模考0807-20 條件句主要子句時態",
-   "stem": "If the address is incomplete, the letter _____ back to the sender.",
-   "options": [
-    "will be going to return",
-    "is going to returned",
-    "will be returned",
-    "would return"
-   ],
-   "answer": "C",
-   "explain": "條件副詞子句用現在式表未來，主要子句用 will + 原形；信件是被退回，須用被動，故為 will be returned。will be going to 為錯誤結構（will 與 be going to 不可並用）、is going to returned 缺被動之 be、would return 為與現在事實相反之語氣且語態錯誤。第 1 場模考誤選 will be going to，本題保留該錯誤結構為誘答。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8121-b1a0-c4104bc4aaf4",
-   "kind": "英文",
-   "number": "模考0807-20 條件句主要子句時態"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81ce-a77b-cabf827cfcfd",
-   "point": "模考0807-18 stop＋V-ing vs stop to V",
-   "stem": "The postman was so tired that he stopped _____ a short rest under the tree.",
-   "options": [
-    "taking",
-    "to take",
-    "take",
-    "taken"
-   ],
-   "answer": "B",
-   "explain": "stop to V 意為『停下來去做某事』，此處停下來是為了休息，故用不定詞。stop + V-ing 意為『停止做某事』，若填 taking 則變成『停止休息』，與 so tired 之語意矛盾。此為 8/1 複習時的錯點，本題以疲勞情境測驗語意方向。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81ce-a77b-cabf827cfcfd",
-   "kind": "英文",
-   "number": "模考0807-18 stop＋V-ing vs stop to V"
-  },
   {
    "id": "rc-3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
    "point": "模考0807-14 complaint",
@@ -206,23 +19,6 @@
    "pageId": "3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
    "kind": "英文",
    "number": "模考0807-14 complaint"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8195-9c82-c2779a0d6609",
-   "point": "模考0807-5 departure",
-   "stem": "Passengers are advised to check the _____ time on the screen, as the schedule may change without notice.",
-   "options": [
-    "depart",
-    "dependent",
-    "department",
-    "departure"
-   ],
-   "answer": "D",
-   "explain": "departure time 為固定搭配，指『出發時間』；departure 為名詞。depart 是動詞、department 是部門、dependent 是依賴的，三者為形近字誘答。第 1 場模考誤判此字，形近字組須一併記憶。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8195-9c82-c2779a0d6609",
-   "kind": "英文",
-   "number": "模考0807-5 departure"
   },
   {
    "id": "rc-3b52ace3-4688-8158-8aff-dd0bfee69158",
@@ -257,6 +53,74 @@
    "pageId": "3b52ace3-4688-81da-91cf-e29e7e23a4fe",
    "kind": "英文",
    "number": "模考0807-1 unwillingly"
+  },
+  {
+   "id": "rc-3b52ace3-4688-817a-9888-e0adff99480c",
+   "point": "模考0807-39 encourage＋受詞＋to V",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 39 格：",
+   "options": [
+    "walking",
+    "walk",
+    "to walk",
+    "walked"
+   ],
+   "answer": "C",
+   "explain": "encourage + 受詞 + to V 為固定句型，故用 to walk。此結構與 ask／advise／persuade sb. to V 同型，persuade 一字為第 1 場模考錯點，可一併記憶。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-817a-9888-e0adff99480c",
+   "kind": "英文",
+   "number": "模考0807-39 encourage＋受詞＋to V"
+  },
+  {
+   "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
+   "point": "模考0807-33 cause＋受詞＋to V",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
+   "options": [
+    "stuck",
+    "to be stuck",
+    "being stuck",
+    "stick"
+   ],
+   "answer": "B",
+   "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-816e-891d-e05bb13e0d81",
+   "kind": "英文",
+   "number": "模考0807-33 cause＋受詞＋to V"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81dd-ba62-de7be7335392",
+   "point": "模考0807-28 had better＋原形",
+   "stem": "You _____ insure the parcel, or you will not be compensated if it gets lost.",
+   "options": [
+    "had better",
+    "would rather not",
+    "had better to",
+    "are better"
+   ],
+   "answer": "A",
+   "explain": "had better + 原形動詞，表『最好……』，其後不加 to。would rather not 語意為寧可不，與後句語意矛盾；had better to 多加 to 為錯誤結構；are better 不成句型。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81dd-ba62-de7be7335392",
+   "kind": "英文",
+   "number": "模考0807-28 had better＋原形"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81f0-ba47-e36fda0eae8c",
+   "point": "模考0807-23 not only...but also 倒裝",
+   "stem": "Not only _____ the parcel arrive late, but it was also damaged.",
+   "options": [
+    "did",
+    "was",
+    "had",
+    "does"
+   ],
+   "answer": "A",
+   "explain": "Not only 置於句首時，其後子句須用倒裝，即助動詞提前。原句動詞 arrive 為一般動詞過去式，故用助動詞 did + 原形 arrive。was 與 had 不符主動詞形式；does 時態錯誤，與後半句 was 不一致。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81f0-ba47-e36fda0eae8c",
+   "kind": "英文",
+   "number": "模考0807-23 not only...but also 倒裝"
   },
   {
    "id": "ch050",
@@ -349,24 +213,6 @@
    "lastWrong": "2026-07-22"
   },
   {
-   "id": "ch049",
-   "point": "成語運用：汗牛充棟",
-   "stem": "下列成語，何者專用於形容「書籍極多」？",
-   "options": [
-    "汗牛充棟",
-    "車載斗量",
-    "多如牛毛",
-    "俯拾即是"
-   ],
-   "answer": "A",
-   "explain": "汗牛充棟專指藏書之多（運書使牛出汗、堆書充滿棟宇）；車載斗量、多如牛毛、俯拾即是泛指數量多，不專指書籍。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "成語運用：汗牛充棟",
-   "lastWrong": "2026-07-22"
-  },
-  {
    "id": "ch064",
    "point": "地名判讀：錦官城",
    "stem": "杜甫〈蜀相〉：「丞相祠堂何處尋？錦官城外柏森森」，「錦官城」指今日何地？",
@@ -385,24 +231,6 @@
    "lastWrong": "2026-07-23"
   },
   {
-   "id": "ch004",
-   "point": "字音辨正",
-   "stem": "下列「」內的字，讀音正確的選項是：",
-   "options": [
-    "「莘」莘學子：音同「辛」",
-    "「莘」莘學子：音同「深」",
-    "「莘」莘學子：音同「森」",
-    "「莘」莘學子：音同「身」"
-   ],
-   "answer": "B",
-   "explain": "「莘莘學子」的「莘」讀ㄕㄣ（音同「深」），形容眾多。常見誤讀為ㄒㄧㄣ。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "字音辨正",
-   "lastWrong": "2026-07-27"
-  },
-  {
    "id": "ch010",
    "point": "詞語辨析：截止／截至",
    "stem": "「報名______本月十五日下午五時止。」缺空處填入下列何者最恰當？",
@@ -418,78 +246,6 @@
    "pageId": "",
    "kind": "國文",
    "number": "詞語辨析：截止／截至",
-   "lastWrong": "2026-07-27"
-  },
-  {
-   "id": "ch022",
-   "point": "用字辨識：一籌莫展",
-   "stem": "下列選項中，用字完全正確的是：",
-   "options": [
-    "這次的短跑比賽，他果然不付眾望奪得金牌",
-    "計然已經遲到了，你不如就慢慢來吧",
-    "由於天候影響，工程預定完工的日期一再延蕩",
-    "面對遠距離戀愛，自詡情聖的他也一籌莫展"
-   ],
-   "answer": "D",
-   "explain": "「一籌莫展」一句用字完全正確。其餘三句各有誤字：「不付眾望」應作「不負眾望」，負為辜負；「計然已經遲到」應作「既然」；「延蕩」應作「延宕」，宕為拖延。（106 歷屆）",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "用字辨識：一籌莫展",
-   "lastWrong": "2026-07-27"
-  },
-  {
-   "id": "ch040",
-   "point": "稱謂：先公＝亡父",
-   "stem": "「先公為群牧判官」，句中「先公」可替換的是：（甲）先君；（乙）先嚴；（丙）先祖；（丁）先考；（戊）先慈",
-   "options": [
-    "甲丙",
-    "甲丁",
-    "乙丙",
-    "乙戊"
-   ],
-   "answer": "B",
-   "explain": "先公＝已故之父，可替換為「先君」「先考」（亦可稱先嚴，但選項組合以甲丁為正解——先祖指亡祖父、先慈指亡母）。「先」字皆用於已歿尊長。（103 歷屆）",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "稱謂：先公＝亡父",
-   "lastWrong": "2026-07-27"
-  },
-  {
-   "id": "ch043",
-   "point": "公文統一用字：制定／訂定",
-   "stem": "依法律統一用字表，法律之創制用「制定」，行政命令之創制應用下列何者？",
-   "options": [
-    "訂定",
-    "制訂",
-    "定制",
-    "擬定"
-   ],
-   "answer": "A",
-   "explain": "法律用「制定」、行政命令用「訂定」，為法律統一用字表明定；「制訂」非統一用字。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "公文統一用字：制定／訂定",
-   "lastWrong": "2026-07-27"
-  },
-  {
-   "id": "ch061",
-   "point": "詠史判讀：周瑜",
-   "stem": "蘇軾〈念奴嬌．赤壁懷古〉：「遙想公瑾當年，小喬初嫁了，雄姿英發」，所詠之三國人物為何？",
-   "options": [
-    "周瑜",
-    "曹操",
-    "諸葛亮",
-    "孫權"
-   ],
-   "answer": "A",
-   "explain": "「公瑾」為周瑜之字，小喬為其妻；「羽扇綸巾，談笑間強虜灰飛煙滅」詠其赤壁破曹之功。羽扇綸巾在本詞中形容周瑜儒將風流，勿因後世形象誤判為諸葛亮。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "詠史判讀：周瑜",
    "lastWrong": "2026-07-27"
   },
   {
@@ -529,24 +285,6 @@
    "lastWrong": "2026-07-28"
   },
   {
-   "id": "ch065",
-   "point": "字音辨正：諄／迍",
-   "stem": "下列「」內之字，何者與「諄諄教誨」之「諄」讀音相同？",
-   "options": [
-    "國事「迍」邅",
-    "寬平「惇」大",
-    "世風「淳」厚",
-    "「囤」積居奇"
-   ],
-   "answer": "A",
-   "explain": "諄讀ㄓㄨㄣ，迍（迍邅：處境艱難）亦讀ㄓㄨㄣ。惇讀ㄉㄨㄣ、淳讀ㄔㄨㄣˊ、囤讀ㄊㄨㄣˊ，聲母或聲調均異。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "字音辨正：諄／迍",
-   "lastWrong": "2026-07-28"
-  },
-  {
    "id": "ch035",
    "point": "文言詞義：星星（髮白）",
    "stem": "歐陽修〈秋聲賦〉「宜其渥然丹者為槁木，黟然黑者為星星。奈何非金石之質，欲與草木而爭榮？」由上下文推知「星星」乃謂：",
@@ -562,24 +300,6 @@
    "pageId": "",
    "kind": "國文",
    "number": "文言詞義：星星（髮白）",
-   "lastWrong": "2026-07-29"
-  },
-  {
-   "id": "ch053",
-   "point": "稱謂：家嚴",
-   "stem": "對他人稱呼自己的父親，宜用下列何者？",
-   "options": [
-    "家嚴",
-    "令尊",
-    "先考",
-    "家慈"
-   ],
-   "answer": "A",
-   "explain": "稱自己父親為「家嚴」（家父）；「令尊」是稱對方父親；「先考」是稱自己已故之父；「家慈」是稱自己母親。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "稱謂：家嚴",
    "lastWrong": "2026-07-29"
   },
   {
@@ -619,42 +339,6 @@
    "lastWrong": "2026-07-30"
   },
   {
-   "id": "ch045",
-   "point": "題辭：賀新婚",
-   "stem": "下列題辭，何者適用於祝賀新婚？",
-   "options": [
-    "珠聯璧合",
-    "椿萱並茂",
-    "杏林春暖",
-    "絳帳春風"
-   ],
-   "answer": "A",
-   "explain": "珠聯璧合賀新婚；椿萱並茂賀父母雙壽（椿＝父、萱＝母）；杏林春暖賀醫界；絳帳春風賀教育界。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "題辭：賀新婚",
-   "lastWrong": "2026-07-30"
-  },
-  {
-   "id": "ch054",
-   "point": "文學常識：唐宋八大家",
-   "stem": "下列文人，何者「不屬於」唐宋八大家？",
-   "options": [
-    "李白",
-    "韓愈",
-    "柳宗元",
-    "歐陽脩"
-   ],
-   "answer": "A",
-   "explain": "唐宋八大家為古文家：韓愈、柳宗元、歐陽脩、蘇洵、蘇軾、蘇轍、王安石、曾鞏。李白為唐代詩人，不以古文名家。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "文學常識：唐宋八大家",
-   "lastWrong": "2026-08-03"
-  },
-  {
    "id": "ch089",
    "point": "成語運用：滄海桑田",
    "stem": "下列何者最適合以「滄海桑田」形容？",
@@ -670,24 +354,6 @@
    "pageId": "",
    "kind": "國文",
    "number": "成語運用：滄海桑田",
-   "lastWrong": "2026-08-03"
-  },
-  {
-   "id": "ch091",
-   "point": "詞語辨析：不齒與不恥",
-   "stem": "下列文句「」中之詞語，何者使用正確？",
-   "options": [
-    "他的行徑為眾人所「不恥」",
-    "他「不齒」下問，虛心向後輩請教",
-    "這種欺瞞顧客的手法，令人「不齒」",
-    "他「不恥」於接受幫助，堅持獨力完成"
-   ],
-   "answer": "C",
-   "explain": "「不齒」意為不願提及、羞與為伍，用於鄙視他人行為；「不恥」意為不以為羞恥，如「不恥下問」。故鄙視他人行徑應用「不齒」，虛心請教應用「不恥下問」，前二項恰好對調。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "詞語辨析：不齒與不恥",
    "lastWrong": "2026-08-03"
   },
   {
@@ -709,24 +375,6 @@
    "lastWrong": "2026-08-03"
   },
   {
-   "id": "ch005",
-   "point": "錯別字辨識",
-   "stem": "下列詞語，用字完全正確的選項是：",
-   "options": [
-    "彼此連繫",
-    "興高彩烈",
-    "淚流滿臉",
-    "貌合神離"
-   ],
-   "answer": "D",
-   "explain": "「貌合神離」用字正確。「興高彩烈」應作「興高采烈」，采為神采；「淚流滿臉」慣用作「淚流滿面」；「彼此連繫」宜作「聯繫」，聯為聯絡、連結之意，考試以「聯繫」為準。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "錯別字辨識",
-   "lastWrong": "2026-08-04"
-  },
-  {
    "id": "ch046",
    "point": "題辭：哀輓女喪",
    "stem": "下列題辭，何者適用於哀輓女喪？",
@@ -743,96 +391,6 @@
    "kind": "國文",
    "number": "題辭：哀輓女喪",
    "lastWrong": "2026-08-04"
-  },
-  {
-   "id": "ch095",
-   "point": "成語運用：明日黃花",
-   "stem": "「這則消息早已是______，如今再提已無意義。」空格內最適合填入下列何者？",
-   "options": [
-    "空谷足音",
-    "明日黃花",
-    "曇花一現",
-    "鳳毛麟角"
-   ],
-   "answer": "B",
-   "explain": "明日黃花本指重陽節過後的菊花，比喻已失去時效的事物，與「再提已無意義」相合。空谷足音喻難得的音訊、曇花一現喻美好事物短暫、鳳毛麟角喻稀少珍貴，皆不合。注意此語為「明日」非「昨日」。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "成語運用：明日黃花",
-   "lastWrong": "2026-08-04"
-  },
-  {
-   "id": "ch112",
-   "point": "公文文別：令",
-   "stem": "依現行公文程式條例，公布法律、發布法規命令、人事任免時，應使用下列何種公文文別？",
-   "options": [
-    "令",
-    "呈",
-    "咨",
-    "函"
-   ],
-   "answer": "A",
-   "explain": "令：公布法律、發布法規命令、解釋性規定與裁量基準之行政規則、人事任免遷調獎懲。呈：對總統有所呈請或報告。咨：總統與立法院、監察院公文往復。函：各機關間或對人民往復行文，為最常用者。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "公文文別：令",
-   "lastWrong": "2026-08-04"
-  },
-  {
-   "id": "ch113",
-   "point": "公文文別：咨",
-   "stem": "下列何種情形應使用「咨」？",
-   "options": [
-    "總統與立法院之間公文往復",
-    "機關對人民之申請予以答復",
-    "下級機關對上級機關有所請求",
-    "機關內部單位間之聯繫"
-   ],
-   "answer": "A",
-   "explain": "咨專用於總統與立法院、監察院之間公文往復，屬特定主體間之文別。對人民答復及機關間往復用「函」；機關內部單位間之聯繫用「便簽」或「簽」。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "公文文別：咨",
-   "lastWrong": "2026-08-04"
-  },
-  {
-   "id": "ch102",
-   "point": "字音辨正：藉",
-   "stem": "下列「」內字之讀音，何者正確？",
-   "options": [
-    "狼「藉」不堪：ㄐㄧˊ",
-    "「藉」口推託：ㄐㄧˊ",
-    "慰「藉」心靈：ㄐㄧㄝˋ",
-    "「藉」由溝通：ㄐㄧˊ"
-   ],
-   "answer": "A",
-   "explain": "狼藉之藉讀ㄐㄧˊ，意為雜亂。藉口、藉由之藉讀ㄐㄧㄝˋ，意為憑藉、假託；慰藉之藉讀ㄐㄧˋ，意為安慰。「藉」為多音字，須依詞義分辨：雜亂義讀ㄐㄧˊ、憑藉義讀ㄐㄧㄝˋ、慰藉義讀ㄐㄧˋ。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "字音辨正：藉",
-   "lastWrong": "2026-08-05"
-  },
-  {
-   "id": "ch001",
-   "point": "公文期望語（上行）",
-   "stem": "機關對上級機關行文，於文末表達期望時，下列用語何者正確？",
-   "options": [
-    "請 查照",
-    "請 鑒核",
-    "請 照辦",
-    "請 知悉"
-   ],
-   "answer": "B",
-   "explain": "上行文（對上級）期望語用「請 鑒核」「請 核示」；「請 查照」用於平行文；「請 照辦」用於下行文。行文方向與期望語的對應是公文題必考。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "公文期望語（上行）",
-   "lastWrong": "2026-08-06"
   },
   {
    "id": "ch028",
@@ -853,42 +411,6 @@
    "lastWrong": "2026-08-06"
   },
   {
-   "id": "ch072",
-   "point": "蘭亭集序：修禊事也",
-   "stem": "王羲之〈蘭亭集序〉：「暮春之初，會于會稽山陰之蘭亭，修禊事也。」所謂「修禊」，是何種活動？",
-   "options": [
-    "祭祀祖先之禮",
-    "於水邊舉行祓除不祥之禮俗",
-    "春耕前祭祀土地之儀式",
-    "文人聚會賦詩之通稱"
-   ],
-   "answer": "B",
-   "explain": "修禊為古代於農曆三月上巳日到水邊沐浴、祓除不祥的習俗。蘭亭之會即藉此俗集會，後演為曲水流觴、飲酒賦詩之雅集。祭祖為祭禮、祭土地為社祭，均非修禊。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "蘭亭集序：修禊事也",
-   "lastWrong": "2026-08-06"
-  },
-  {
-   "id": "ch079",
-   "point": "論語：過猶不及",
-   "stem": "《論語・先進》子貢問：「師與商也孰賢？」子曰：「師也過，商也不及。」曰：「然則師愈與？」子曰：「過猶不及。」孔子之意為何？",
-   "options": [
-    "子張較子夏賢能",
-    "超過與趕不上同樣不好，貴在合乎中道",
-    "做事寧可過度也不要不足",
-    "兩人皆不足取，不必比較"
-   ],
-   "answer": "B",
-   "explain": "「愈」意為較勝。孔子指出「過」與「不及」同樣偏離中道，故答「過猶不及」，並非肯定子張較賢。此章為儒家中庸思想之經典表述。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "論語：過猶不及",
-   "lastWrong": "2026-08-06"
-  },
-  {
    "id": "ch109",
    "point": "字形辨識：形近字",
    "stem": "下列各組詞語，何組用字完全正確？",
@@ -905,24 +427,6 @@
    "kind": "國文",
    "number": "字形辨識：形近字",
    "lastWrong": "2026-08-06"
-  },
-  {
-   "id": "ch015",
-   "point": "字形辨識：褒",
-   "stem": "下列「」內的字形前後相同的是：",
-   "options": [
-    "陷入膠□╱弄巧成□",
-    "一字□貶╱□賢遏惡",
-    "剛□自用╱作法自□",
-    "捉襟見□╱罷□百家"
-   ],
-   "answer": "B",
-   "explain": "「一字褒貶／褒賢遏惡」前後皆為「褒」字，故字形相同。其餘三組前後字形皆異：膠「著」與弄巧成「拙」、剛「愎」自用與作法自「斃」、捉襟見「肘」與罷「黜」百家。（112 歷屆）",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "字形辨識：褒",
-   "lastWrong": "2026-08-10"
   },
   {
    "id": "ch070",
@@ -961,24 +465,6 @@
    "lastWrong": "2026-08-10"
   },
   {
-   "id": "ch088",
-   "point": "成語辨析：望其項背",
-   "stem": "下列關於「望其項背」之用法，何者正確？",
-   "options": [
-    "他的成就無人能望其項背，堪稱業界第一",
-    "他努力多年，終於望其項背，超越前輩",
-    "兩人實力伯仲之間，可謂望其項背",
-    "他天資聰穎，同儕皆望其項背，紛紛超前"
-   ],
-   "answer": "A",
-   "explain": "望其項背指能望見他人頸項與背脊，即相去不遠、能夠趕上。多用於否定句「不能望其項背」「無人能望其項背」，表差距懸殊。若用於肯定句表「超越」或「並駕齊驅」，均屬誤用。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "成語辨析：望其項背",
-   "lastWrong": "2026-08-10"
-  },
-  {
    "id": "ch098",
    "point": "詞語辨析：其他與其它",
    "stem": "下列文句用字何者正確？",
@@ -995,91 +481,6 @@
    "kind": "國文",
    "number": "詞語辨析：其他與其它",
    "lastWrong": "2026-08-10"
-  },
-  {
-   "id": "rc-39d2ace3-4688-81b9-a57e-c8ff2d0bae08",
-   "point": "補償金支付期限：至遲自查詢之次日起三個月內為之",
-   "stem": "A 君於 112 年 6 月 10 日交寄普通掛號郵件，於 6 月 20 日辦理查詢，嗣 A 君於 6 月 25 日接獲郵局通知該掛號郵件遺失依法應予補償，經 A 君於 9 月 10 日提供交寄憑據，其補償金支付至遲應於下列何日期前為之？",
-   "options": [
-    "112 年 9 月 10 日",
-    "112 年 9 月 20 日",
-    "112 年 9 月 25 日",
-    "112 年 12 月 10 日"
-   ],
-   "answer": "B",
-   "explain": "補償金應自寄件人「提供交寄憑據之日起 10 日內」支付：9/10 提供憑據 → 至遲 9/20。日期題認清起算事件是提供憑據，不是通知或查詢日。",
-   "srcSubject": "郵政法規",
-   "pageId": "39d2ace3-4688-81b9-a57e-c8ff2d0bae08",
-   "kind": "訂正",
-   "number": "補償金支付期限"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81dc-a098-e3c00ceaecf8",
-   "point": "大宗郵件撤回費之計付",
-   "stem": "甲同時寄交同一收件人、發由同一郵路運遞之同一種類大宗郵件共 50 件，嗣後一併申請撤回。依郵務營業規章規定，其撤回費應如何計付？",
-   "options": [
-    "按 50 件分別計付撤回費",
-    "僅按一件付費",
-    "按件數之半數計付",
-    "免付撤回費"
-   ],
-   "answer": "B",
-   "explain": "郵務營業規章第184條第4項：寄件人同時寄交同一收件人並發由同一郵路運遞同一種類之大宗郵件，申請撤回者，『僅按一件付費』。須同時具備同一收件人、同一郵路、同一種類三要件。另依同條第2項，申請撤回各類國內郵件或尚未離開我國境內之各類國際郵件，受理局以傳真辦理者，寄件人免加付傳真費；撤回費由中華郵政公司定之。",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-81dc-a098-e3c00ceaecf8",
-   "kind": "訂正",
-   "number": "模考0807-50"
-  },
-  {
-   "id": "rc-3b52ace3-4688-817d-8317-e442720d30ba",
-   "point": "保價郵件通知領取期限",
-   "stem": "依郵務營業規章規定，報值郵件與保價郵件經郵局發單通知領取者，收件人應於自通知之次日起多久內領取？（比較題）",
-   "options": [
-    "報值郵件十五日、保價郵件十五日",
-    "報值郵件十五日、保價郵件三十日",
-    "報值郵件三十日、保價郵件十五日",
-    "報值郵件三十日、保價郵件三十日"
-   ],
-   "answer": "B",
-   "explain": "郵務營業規章第83條：報值郵件經郵局發單通知領取者，收件人應自通知之次日起『十五日』內領取，逾期依無法投遞郵件之規定處理；同規章第95條：保價郵件則為自通知之次日起『三十日』內領取。全部通知領取類期限中，僅保價郵件為三十日，其餘（報值、印刷物、包裹、代收貨款、掛號郵件招領）均為十五日，此為唯一特例，最易被期間互換之誘答攻擊。",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-817d-8317-e442720d30ba",
-   "kind": "訂正",
-   "number": "模考0807-49"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8118-8537-cf39b709520c",
-   "point": "存證信函之撤回與變更",
-   "stem": "依郵務營業規章規定，關於存證信函，下列敘述何者正確？",
-   "options": [
-    "存證信函經郵局收寄後，寄件人得隨時申請更改收件人姓名及地址",
-    "寄件人依規定申請撤回存證信函，得將留存郵局副本同時撤回；但作成總副本而僅撤回一部分者，其留存郵局總副本不得一併撤回",
-    "存證信函之留存郵局副本，自交寄日起由郵局保存一年",
-    "經撤回留存郵局副本者，其存證號碼仍繼續有效"
-   ],
-   "answer": "B",
-   "explain": "郵務營業規章第120條：申請撤回存證信函得同時撤回留存郵局副本，但作成總副本而僅撤回一部分者，總副本不得一併撤回；經撤回副本者其存證號碼作廢。第119條另定收寄後除依規定申請撤回外，不得申請更改收件人姓名及地址，須按新地址重行交寄者應另作一存證信函。至於副本保存年限，依郵件處理規則第34條為自交寄日起『三年』，期滿後銷燬。",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-8118-8537-cf39b709520c",
-   "kind": "訂正",
-   "number": "模考0807-48"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81a2-876d-cecefbe66c34",
-   "point": "出售品售出後之換取",
-   "stem": "甲向郵局購買郵票後，因現場交寄郵件需要，欲換取不同面額之郵票。依郵務營業規章規定，下列敘述何者正確？",
-   "options": [
-    "郵票一經售出概不得請求退還或換取",
-    "得因現場交寄郵件需要，以所購之郵票、郵政明信片、特製郵簡、特製信封向郵局換取不同面額之等值郵票、郵政明信片、特製郵簡、特製信封或便利箱袋使用",
-    "得於購買後七日內持憑證辦理退還",
-    "須先申請購票證明，始得辦理換取"
-   ],
-   "answer": "B",
-   "explain": "郵務營業規章第149條第2項：郵票或各類出售品一經售出，除當場聲明有瑕疵者外不得請求退還；但因現場交寄郵件需要，得以所購之郵票、郵政明信片、特製郵簡、特製信封換取不同面額之等值品項或便利箱袋使用。故並非『概不得』，設有現場交寄之換取例外。另同條第1項：要求發給購票證明者應『當場』申請，事後不予補證，此為另一考點，非換取之前提要件。",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-81a2-876d-cecefbe66c34",
-   "kind": "訂正",
-   "number": "模考0807-44"
   },
   {
    "id": "rc-3b52ace3-4688-8140-bb06-d01e6ba78c62",
@@ -1150,57 +551,6 @@
    "number": "模考0807-30"
   },
   {
-   "id": "rc-39e2ace3-4688-81b2-ac14-f33ae6c1ff19",
-   "point": "拒絕改投改寄",
-   "stem": "依郵務營業規章規定，有關郵局得拒絕收件人申請改投或改寄之情形，下列敘述何者錯誤？",
-   "options": [
-    "原收件地址為不按址投遞區域者",
-    "有收件人地址之郵件，改交同地郵局存局候領者",
-    "性質複雜者",
-    "僅限於即將寄到之郵件者"
-   ],
-   "answer": "A",
-   "explain": "得拒絕改投改寄：改存局候領、性質複雜、僅限即將寄到之郵件等；「原地址為不按址投遞區域」非拒絕事由（官方公告正解 A）。",
-   "srcSubject": "郵政法規",
-   "pageId": "39e2ace3-4688-81b2-ac14-f33ae6c1ff19",
-   "kind": "訂正",
-   "number": "拒絕改投改寄"
-  },
-  {
-   "id": "rc-39e2ace3-4688-81a6-9e4d-e9c7103793a6",
-   "point": "匯兌業務依據",
-   "stem": "下列何者業務之處理，除依萬國郵政聯盟所定郵政匯兌協定及其施行細則或我國與國外雙邊郵政匯兌協定辦理外，依郵政儲金匯兌法規定辦理？",
-   "options": [
-    "僅國內匯兌",
-    "僅國際匯兌",
-    "國內匯兌或國際匯兌",
-    "國內匯兌、國際匯兌或郵政禮券"
-   ],
-   "answer": "B",
-   "explain": "「國際匯兌」優先依萬國郵盟匯兌協定或雙邊協定，協定未定者依郵政儲金匯兌法。國內匯兌逕依本法。",
-   "srcSubject": "郵政法規",
-   "pageId": "39e2ace3-4688-81a6-9e4d-e9c7103793a6",
-   "kind": "訂正",
-   "number": "匯兌業務依據"
-  },
-  {
-   "id": "rc-39d2ace3-4688-8101-8d6b-d53dc273d215",
-   "point": "郵件之遞送：僅設受信設備時，掛號及欠資郵件仍應按址投遞洽收件人",
-   "stem": "依郵政法規定，有關郵件之遞送，下列敘述何者錯誤？",
-   "options": [
-    "地面層設有管理服務人員或郵件收發處者，各類郵件得交管理服務人員或郵件收發處收領",
-    "地面層未設有管理服務人員而僅設置受信設備者，掛號郵件及欠資郵件，應請收件人至郵局領取或補付欠資",
-    "各類郵件之收件人有二人以上者，得向其中任何一人投遞之",
-    "各類郵件，應按其表面所書收件人之地址投遞之"
-   ],
-   "answer": "B",
-   "explain": "僅設受信設備時，平常郵件投入受信設備；掛號及欠資郵件應「按址投遞洽收件人」，而非逕要求至郵局領取（官方公告正解 B）。",
-   "srcSubject": "郵政法規",
-   "pageId": "39d2ace3-4688-8101-8d6b-d53dc273d215",
-   "kind": "訂正",
-   "number": "郵件之遞送"
-  },
-  {
    "id": "rc-34b2ace3-4688-802e-90d7-d4e39c602b23",
    "point": "48",
    "stem": "依郵務營業規章規定，郵件因遺失、被竊、毀損、遞送延誤等事由所致之其他損失或損害，郵局應如何處理？",
@@ -1252,40 +602,6 @@
    "number": "25"
   },
   {
-   "id": "rc-34b2ace3-4688-8069-80bf-ccb7280fc213",
-   "point": "8",
-   "stem": "依郵務營業規章規定，同日同一收件人之印刷物總重量超過多少公斤者？得通知收件人至郵局領取。收件人應自通知之次日起幾日內至指定郵局領取？",
-   "options": [
-    "5 公斤、10 日",
-    "10 公斤、10 日",
-    "5 公斤、15 日",
-    "10 公斤、15 日"
-   ],
-   "answer": "C",
-   "explain": "同日同收件人印刷物總重量超過5公斤，得通知收件人至郵局領取\n若招領印刷物，收件人應自通知之次日起15日內至指定郵局領取，預期為領者，應按預期日數交付預期保管費。\n若無法投遞退回，則向寄件人收取之。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-8069-80bf-ccb7280fc213",
-   "kind": "訂正",
-   "number": "8"
-  },
-  {
-   "id": "rc-34b2ace3-4688-8009-8f51-e0c3cea36d0f",
-   "point": "2",
-   "stem": "依郵務營業規章規定，下列何者非屬中華郵政公司經營之特種郵件業務？",
-   "options": [
-    "快捷郵件",
-    "郵簡",
-    "限時郵件",
-    "航空郵件"
-   ],
-   "answer": "B",
-   "explain": "特種郵件業務：\n1.航空郵件、2.限時郵件、可追蹤函件、快捷郵件。、3.掛號郵件、4.報值郵件、5.保價郵件、6.代收貨款郵件、7.廣告回信、8.存證信函、9.傳真函件、10.未來郵件\n→郵簡屬於基本郵件業務\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-8009-8f51-e0c3cea36d0f",
-   "kind": "訂正",
-   "number": "2"
-  },
-  {
    "id": "rc-34b2ace3-4688-8045-9823-ce3d1f6ae58c",
    "point": "1",
    "stem": "依郵務營業規章規定，下列何者非屬中華郵政公司經營之基本郵件業務？",
@@ -1303,72 +619,344 @@
    "number": "1"
   },
   {
-   "id": "rc-3462ace3-4688-80a2-b7b2-f0e2e3c1cb8a",
-   "point": "保險費不得訴請支付；要保人得終止契約但效力不溯及既往；指定變更受益人須注意第三人書面同意",
-   "stem": "依簡易人壽保險法規定，下列敘述何者錯誤？",
+   "id": "rc-39e2ace3-4688-81b3-b6e5-cfd8d71b9e1e",
+   "point": "郵政專用名稱標誌",
+   "stem": "依郵政法規定，廠商欲在網路上販售印有「超愛郵局」字樣之 T 恤，則下列敘述何者正確？",
    "options": [
-    "要保人在保險契約滿期前，除保險契約另有約定外，得指定或變更受益人",
-    "要保人為不實之說明，足以變更保險人對於危險之估計者，保險人得解除保險契約",
-    "簡易人壽保險之保險人，對於保險費，不得以訴訟請求支付",
-    "要保人得隨時向保險人聲明終止保險契約；其終止效力，溯及既往"
+    "須經交通部同意，否則處新臺幣 20 萬元以上 100 萬元以下罰鍰，並令其限期改善",
+    "須經中華郵政公司同意，否則處新臺幣 20 萬元以上 100 萬元以下罰鍰，並令其限期改善",
+    "須經交通部同意，否則處新臺幣 2 萬元以上 10 萬元以下罰鍰，並令其限期改善",
+    "須經中華郵政公司同意，否則處新臺幣 2 萬元以上 10 萬元以下罰鍰，並令其限期改善"
    ],
    "answer": "D",
-   "explain": "訂正：\n(A) 依第17條第一項，要保人於保險契約滿期前或保險事故發生前，除保險契約另有約定外，得制定或變更受益人。但被保險人為第三人時，應先得其書面同意。\n(B) 依第15條，若故意隱匿或因過失遺漏，或為不實之說明，足以變更或剪手保險人對於危險之估計者，保險得解除保險契約。\n(C) 第12條\n(D) 依第18條，其中止效力不得朔及既往。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "explain": "使用與郵政有關之名稱、標誌須經「中華郵政公司」同意；違者處 2 萬以上 10 萬以下罰鍰並令限期改善。同意主體與罰鍰級距為雙重考點。",
    "srcSubject": "郵政法規",
-   "pageId": "3462ace3-4688-80a2-b7b2-f0e2e3c1cb8a",
+   "pageId": "39e2ace3-4688-81b3-b6e5-cfd8d71b9e1e",
    "kind": "訂正",
-   "number": "52"
+   "number": "郵政專用名稱標誌"
   },
   {
-   "id": "rc-3462ace3-4688-802c-9d99-dada4056acf3",
-   "point": "簡易人壽保險資本由交通部會商金管會核定，按實收資本總額15%繳存保證金於國庫",
-   "stem": "依簡易人壽保險法規定，有關郵政簡易人壽保險之資本，下列敘述何者正確？",
+   "id": "rc-39e2ace3-4688-81b7-acee-de141f56a4f8",
+   "point": "儲匯法罰鍰級距",
+   "stem": "依郵政儲金匯兌法規定，中華郵政公司有下列何種情事之一者，處新臺幣三十萬元以上一百五十萬元以下罰鍰？（A.隱匿或毀損業務或財務狀況之帳冊文件 B.未依第十條規定建立內部控制及稽核制度 C.違反第十一條第二項規定，洩漏顧客之郵政儲金或匯款等有關資料）",
    "options": [
-    "按實收資本總額百分之五十繳存保證金於國庫",
-    "不用繳存保證金",
-    "由交通部會商金融監督管理委員會後核定",
-    "由財政部核定"
+    "僅 AB",
+    "僅 AC",
+    "僅 BC",
+    "ABC"
    ],
    "answer": "C",
-   "explain": "依第29條：\n簡易人壽保險之本：\n  1. 由交通部會商金融監督管理委員會後核定\n  2. 按實收資本總額15%繳存保證金於國庫\n\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "explain": "30～150 萬罰鍰：未建內控稽核（B）、洩漏顧客資料（C）。隱匿或毀損帳冊文件（A）屬規避檢查類，罰 50～250 萬（⚠ 速查表兩級距對比）。",
    "srcSubject": "郵政法規",
-   "pageId": "3462ace3-4688-802c-9d99-dada4056acf3",
+   "pageId": "39e2ace3-4688-81b7-acee-de141f56a4f8",
    "kind": "訂正",
-   "number": "51"
+   "number": "儲匯法罰鍰級距"
   },
   {
-   "id": "rc-3462ace3-4688-80a2-a76c-fbf85aa0bc41",
-   "point": "8",
-   "stem": "依郵政儲金匯兌法規定，無行為能力人關於郵政儲金及匯兌事務，對中華郵政公司所為之行為，其效力為何？",
+   "id": "rc-39d2ace3-4688-8169-807d-d69259498eb9",
+   "point": "新聞紙雜誌發行間隔",
+   "stem": "依郵務營業規章規定，得申請按新聞紙、雜誌類交寄之發行間隔，下列敘述何者正確？",
    "options": [
-    "視為無行為能力人之行為",
-    "應得法定代理人同意始為有效",
-    "限辦理存簿儲金事務有效",
-    "視為有行為能力人之行為"
+    "新聞紙為每日或每隔六日以下發行一次；雜誌為每隔七日以上三個月以下發行一次",
+    "新聞紙為每隔七日以上發行一次；雜誌為每隔六個月以下發行一次",
+    "新聞紙與雜誌均為每月至少發行一次",
+    "新聞紙為每日發行；雜誌為每隔六日以上六個月以下發行一次"
    ],
-   "answer": "D",
-   "explain": "為了增進民眾辦理郵政儲金會對事物之便利性，根據郵政儲金匯兌法第5條，無行為能力人或限制行為能力人，關於郵政儲金及會對事物，對中華郵政公司所為之行為，視為有行為能力人之行為。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "answer": "A",
+   "explain": "新聞紙：每日或每隔六日以下發行一次；雜誌：每隔七日以上三個月以下發行一次。雜誌上限是「三個月」不是六個月（曾誤記六個月，⚠ 曾錯考點）。",
    "srcSubject": "郵政法規",
-   "pageId": "3462ace3-4688-80a2-a76c-fbf85aa0bc41",
+   "pageId": "39d2ace3-4688-8169-807d-d69259498eb9",
    "kind": "訂正",
-   "number": "8"
+   "number": "新聞紙雜誌發行間隔"
   },
   {
-   "id": "rc-39d2ace3-4688-8044-a022-df80eebad1f9",
-   "point": "8",
-   "stem": "下列請求權之消滅時效期間何者正確？",
+   "id": "rc-39d2ace3-4688-8160-aa09-d277e1716ca6",
+   "point": "存簿儲金定義與計息限額、利息免稅",
+   "stem": "依郵政儲金匯兌法規定，有關存簿儲金，下列敘述何者錯誤？",
    "options": [
-    "一般請求權10年",
-    "利息、紅利、租金各期給付5年",
-    "承攬人報酬請求權5年",
-    "旅店住宿費1年。正解B"
+    "指存款人憑郵政儲金簿或依約定方式，隨時存入或提取之儲金",
+    "儲戶計息之最高存款限額，由中華郵政公司擬訂，報由交通部會同金融監督管理委員會定之",
+    "每一人或每一團體僅得為一戶",
+    "利息應免一切稅捐"
    ],
    "answer": "B",
-   "explain": "一般時效15年（§125）；定期給付債權5年（§126）；§127所列（承攬人報酬、旅店住宿費、運送費等）為2年。承攬報酬屬§127二年短期時效，不是五年",
-   "srcSubject": "民法",
-   "pageId": "39d2ace3-4688-8044-a022-df80eebad1f9",
+   "explain": "計息最高存款限額由中華郵政公司擬訂，報請「交通部核定」，非會同金管會。另記例外戶：政府機關、自治團體、公益法人不受限額限制。",
+   "srcSubject": "郵政法規",
+   "pageId": "39d2ace3-4688-8160-aa09-d277e1716ca6",
    "kind": "訂正",
-   "number": "8"
+   "number": "存簿儲金"
+  },
+  {
+   "id": "rc-39d2ace3-4688-81e6-9b52-f8903b5058be",
+   "point": "郵件之遞送：僅設受信設備時，掛號及欠資郵件仍應按址投遞洽收件人",
+   "stem": "依郵政法規定，有關郵件之遞送，下列敘述何者錯誤？",
+   "options": [
+    "地面層設有管理服務人員或郵件收發處者，各類郵件得交管理服務人員或郵件收發處收領",
+    "地面層未設有管理服務人員而僅設置受信設備者，掛號郵件及欠資郵件，應請收件人至郵局領取或補付欠資",
+    "各類郵件之收件人有二人以上者，得向其中任何一人投遞之",
+    "各類郵件，應按其表面所書收件人之地址投遞之"
+   ],
+   "answer": "B",
+   "explain": "僅設受信設備時，平常郵件投入受信設備；掛號及欠資郵件應「按址投遞洽收件人」，而非逕要求至郵局領取（官方公告正解 B）。",
+   "srcSubject": "郵政法規",
+   "pageId": "39d2ace3-4688-81e6-9b52-f8903b5058be",
+   "kind": "訂正",
+   "number": "郵件之遞送"
+  },
+  {
+   "id": "rc-36a2ace3-4688-800e-a906-d5e17ce9b310",
+   "point": "受益人故意致死或雖未至死無死亡保險金請求權；故意傷害無傷害保險金請求權",
+   "stem": "受益人故意傷害被保險人者，無請求何種保險金額之權？",
+   "options": [
+    "健康保險",
+    "傷害保險",
+    "死亡保險",
+    "生死合險"
+   ],
+   "answer": "B",
+   "explain": "📍 題目解析：\n受益人故意造成保險事故，是否還能請久保險金\n→故意致死或雖未至死：喪失死亡人壽保險金請求權\n→故意傷害：喪失傷害保險金請求權\n⚖️ §22\n受益人故意致被保險人於死或雖未至死者，無請求死亡人壽保險金額之權。\n受益人故意傷害被保險人者，無請求傷害保險金額之權。\n前二項情形，有其他受益人，由其他受益人平均領受全部保險金額，無其他受益人時，其保險金額作為被保險人遺產。\n👉 本題因受益人「故意傷害」被保險人依§22 II 規定無權請求傷害保險金額之權。故為答按（Ｂ）\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "36a2ace3-4688-800e-a906-d5e17ce9b310",
+   "kind": "訂正",
+   "number": "12"
+  },
+  {
+   "id": "rc-3622ace3-4688-80fd-8b7f-c631c1c4dcb7",
+   "point": "49",
+   "stem": "小美住新竹市，自美國網站購買日常用品一批，有關國際包裹進口之相關規定，下列敘述何者錯誤？",
+   "options": [
+    "包裹倘應踐行報關手續者，原則上由寄件人或收件人自行辦理",
+    "包裹非在駐有海關之郵局投遞者，得由郵局代為報關",
+    "包裹屬非結匯進口物品，且價值未超過免繳輸入許可證限額者，得由郵局代為報關",
+    "郵局代為報關之包裹，如經海關拆驗有違禁或依規定禁止輸入或輸出之物品，應退回原寄國"
+   ],
+   "answer": "D",
+   "explain": "⚖️ 《郵務營業規章》第58條：\n包裹應踐行報關手續者，由寄件人或收件人自行辦理。但下列包裹得郵局代為報關：\n一、包裹非在著有海關之郵局交際或投遞者。\n二、進口國際包裹，啡節會進口物品，其價值為超過免輸入許可證限額者。\n郵局代為報關之包裹，如經海關拆驗有違禁或依規定禁止輸入或輸出之物品，應依海關有關法規之規定處理，並由收件或寄件人對其內容自行負責。\n收件人自行辦理報關手續之進口國際包裹，經海關拆驗後，收件人應對其內容負責；委託他人帶領者一同。驗關後郵局與海關雙方人員會同投交收件人。\n📍 題目解析：\n（Ａ）正確，包裹應踐行報關手續者，原則上由寄件人或收件人自行辦理。\n（Ｂ）正確，包裹非在駐有海關之郵局交際或投遞者，得由郵局代為報關。\n（Ｃ）正確，進口國際包裹屬非節會進口物品，且價值為超過免繳輸入許可證限額者，得由郵局代為報關。\n（Ｄ）錯誤，違禁或禁止輸入、輸出物品，不是直接退回原寄國，而是依海關有關法歸處理，且由收件人或寄件人對內容自行負責。\n\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3622ace3-4688-80fd-8b7f-c631c1c4dcb7",
+   "kind": "訂正",
+   "number": "49"
+  },
+  {
+   "id": "rc-3622ace3-4688-804b-ad07-d0ffc73e9a6e",
+   "point": "46",
+   "stem": "有關廣告回信業務，下列敘述何者正確？",
+   "options": [
+    "郵局僅辦理國內廣告回信，尚未開辦國際廣告回信",
+    "回信信封、明信片或貼紙皆得裝入信封郵寄，備供回信人填寫寄回",
+    "廣告回信用戶連續 3 年未使用者，郵局得撤銷其登記",
+    "廣告回信用戶地址如有變更，應於 10 日內向郵局辦理變更移轉或取消登記手續"
+   ],
+   "answer": "C",
+   "explain": "（Ａ）錯誤，《郵務營業規章》第106條第2項規定，國際廣告回信業務另一萬國郵政公約規定辦理。\n👉 不是尚未開辦\n（Ｂ）錯誤，《郵務營業規章》第108條第2項規定，回信信封或明信片得裝入信封郵寄；貼紙是刊印於新聞紙、雜誌上，供剪貼寄回。\n👉 不是三者皆得裝入信封郵寄。\n（Ｃ）正確，《郵務營業規章》第111條第3項第2款，連續3年未使用者，郵局得撤銷其登記。\n（Ｄ）錯誤，《郵務營業規章》第111條第2項，地址變更應立即辦理變更移轉或取消登記\n👉 不是10日內。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3622ace3-4688-804b-ad07-d0ffc73e9a6e",
+   "kind": "訂正",
+   "number": "46"
+  },
+  {
+   "id": "rc-3622ace3-4688-8093-9bc7-d56fc227c4cf",
+   "point": "43",
+   "stem": "寄件人申請撤回國際包裹時，相關撤回費及已付之資費之敘述，下列何者錯誤？",
+   "options": [
+    "包裹尚在原寄局者，其已付之資費全數退還並免付撤回費",
+    "相關包裹已離開原寄局，但尚在我國境內，經截留退回者，其已付之資費扣除原寄局與退回地之國內包 裹往返資費後，退還餘額，並免付撤回費",
+    "包裹已離開我國境內，於未投遞前，經截留退回者，其已付之資費，不予退還，並應付撤回費",
+    "包裹係保價者，於扣除國內包裹資費時，其已付之保價費，不予退還"
+   ],
+   "answer": "B",
+   "explain": "《郵務營業規章》第54條第3項：\n寄件人申請撤回國際包裹時：\n  1. 包裹尚在原寄局，已付資費全數退回，免付撤回費\n  2. 已離開原寄局，但尚在我國近內，經截留退回，已付資費扣除原寄局與退回地之國內包裹往反資費後，退還餘額，應付撤回費。\n  3. 已離開我國境內，於為投遞前，經截留退回，已付資費不予退還，且應付退回費。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3622ace3-4688-8093-9bc7-d56fc227c4cf",
+   "kind": "訂正",
+   "number": "43"
+  },
+  {
+   "id": "rc-3622ace3-4688-80b6-837b-dd0acd8c01d2",
+   "point": "34",
+   "stem": "「未來郵件」之最短及最長保管期限各為多久？",
+   "options": [
+    "最短 7 日，最長不逾 10 年",
+    "最短 7 日，最長不逾 20 年",
+    "最短 15 日，最長不逾 20 年",
+    "最短 15 日，最長不逾 30 年"
+   ],
+   "answer": "D",
+   "explain": "《郵務營業規章》第121-2條第1項\n未來郵件之保管期限最短15日，最長不逾30年。\n\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3622ace3-4688-80b6-837b-dd0acd8c01d2",
+   "kind": "訂正",
+   "number": "34"
+  },
+  {
+   "id": "rc-3622ace3-4688-80ba-9841-f44f2c72d322",
+   "point": "32",
+   "stem": "廣告回信應按照郵局同意登記之回信信封、明信片或貼紙上所印之用戶名稱、地址及郵遞區號寄遞，下列何者如經塗改，將依欠資郵件規定處理？",
+   "options": [
+    "用戶名稱",
+    "用戶地址",
+    "郵遞區號",
+    "以上皆不得塗改"
+   ],
+   "answer": "A",
+   "explain": "《郵務營業規章》第111條第1項：\n廣告會信應按照郵局同意登記之回信信封、明信片或貼紙上所印之用戶名稱、地址及郵地區號寄遞，用戶名稱如經塗改，依欠資郵件規定處理。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3622ace3-4688-80ba-9841-f44f2c72d322",
+   "kind": "訂正",
+   "number": "32"
+  },
+  {
+   "id": "rc-3622ace3-4688-806e-b4e1-cca5dc507d68",
+   "point": "1",
+   "stem": "寄件人同時交寄大宗各類掛號郵件多少件以上者，得使用大宗掛號郵件執據存根聯單一式二份，交郵局查點、簽章並加蓋郵戳後，退還一份，作為執據？",
+   "options": [
+    "4 件",
+    "5 件",
+    "6 件",
+    "10 件"
+   ],
+   "answer": "B",
+   "explain": "依第137條第二項規定\n寄件人同時交寄大宗各類掛號郵件5件以上者，使用大宗掛號郵件執據存跟聯單一是二份，交郵局茶點、簽章並加個郵戳後，退還一份，作為執據。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3622ace3-4688-806e-b4e1-cca5dc507d68",
+   "kind": "訂正",
+   "number": "1"
+  },
+  {
+   "id": "rc-3562ace3-4688-8016-a138-e553a22ffecd",
+   "point": "簡易人壽保險法立法目的：提供基本經濟保障、健全簡易人壽保險、便利全民投保、增進社會福祉",
+   "stem": "下列那一項不是簡易人壽保險的立法意旨？",
+   "options": [
+    "提供國民基本經濟保障",
+    "健全人身保險制度",
+    "便利全民投保",
+    "增進社會福祉"
+   ],
+   "answer": "B",
+   "explain": "1.提供國民基本經制度濟保障\n2.健全簡易人壽保險\n3.便利全民投保\n4.增進社會福祉\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3562ace3-4688-8016-a138-e553a22ffecd",
+   "kind": "訂正",
+   "number": "46"
+  },
+  {
+   "id": "rc-3562ace3-4688-806f-8e1b-ef87fde2a5a2",
+   "point": "19",
+   "stem": "郵政儲金匯兌法對於郵政儲金業務之規定，下列敘述何者錯誤？",
+   "options": [
+    "中華郵政公司辦理劃撥儲金之劃撥支票業務，準用票據法有關支票之規定",
+    "存簿儲金之利息，應免一切稅捐",
+    "自治團體開立之存簿儲金戶，逾計息之最高存款限額，超過限額之數，不給利息",
+    "公益法人開立之存簿儲金戶，逾計息之最高存款限額，超過限額之數，仍給利息"
+   ],
+   "answer": "C",
+   "explain": "存簿儲金，儲戶計息之最高存款限額：\n1.最高存款限額（100萬）由本公司擬定，報由交通部會同中央銀行及金融監督管理委員會訂之。\n2.超過限額之術，不給利息\n3.例外：不受儲戶之最高存款額限制者（即超過限額，譯給利息）\n→政府機關、自治團體（如直轄市、縣（市）、箱（陣、是）均屬之）、公益法人\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3562ace3-4688-806f-8e1b-ef87fde2a5a2",
+   "kind": "訂正",
+   "number": "19"
+  },
+  {
+   "id": "rc-3512ace3-4688-80ec-91a7-fbe37d87c55c",
+   "point": "22",
+   "stem": "依郵件處理規則第 10 條之規定，郵件處理規則所稱「雜誌」 ，係指何者？",
+   "options": [
+    "每日或每隔 7 日以下按期發行者",
+    "每日或每隔 6 日以下按期發行者",
+    "7 日以上 3 個月以下按期發行者",
+    "6 日以上 3 個月以下按期發行者"
+   ],
+   "answer": "C",
+   "explain": "新聞紙：每日或每隔6日以下按其發行者\n雜誌：7日～3個月以下案期發行者",
+   "srcSubject": "郵政法規",
+   "pageId": "3512ace3-4688-80ec-91a7-fbe37d87c55c",
+   "kind": "訂正",
+   "number": "22"
+  },
+  {
+   "id": "rc-3512ace3-4688-8073-a885-eddd020a6edd",
+   "point": "17",
+   "stem": "今有顧客某甲交寄國內報值包裹一件，重量 7 公斤（包裹郵資 100 元），報值金額 3,000 元（報值費 12 元） ， 總郵資合計 112 元，嗣因故全部毀損，請問某甲得向郵局請求之金額，下列何者正確？",
+   "options": [
+    "865 元",
+    "3,000 元",
+    "3,100 元",
+    "3,112 元"
+   ],
+   "answer": "C",
+   "explain": "報值包裹，若郵件全部毀損時，郵局應退還「資費」。但「報值費」不逾退還。\n→3000(報值金額）+100（郵資運費）=3100",
+   "srcSubject": "郵政法規",
+   "pageId": "3512ace3-4688-8073-a885-eddd020a6edd",
+   "kind": "訂正",
+   "number": "17"
+  },
+  {
+   "id": "rc-3512ace3-4688-8038-9397-c524266c52b9",
+   "point": "15",
+   "stem": "有關郵件處理規則之規定，下列何者錯誤？",
+   "options": [
+    "中華郵政公司對於寄件人交寄之存證信函留存郵局之副本給予證明",
+    "中華郵政公司以外之任何人可印製明信片，惟應向中華郵政公司申請許可並依公告之紙質、規格印製",
+    "國內定期發行之刊物，符合郵件處理規則規定者，得向中華郵政公司申請登記，經同意後按新聞紙或雜誌交寄",
+    "中華郵政公司以外之任何人可印製郵簡，惟應向中華郵政公司申請許可並依公告之紙質、尺寸、規格 印製"
+   ],
+   "answer": "B",
+   "explain": "明信片只要和和中華郵政公告的「紙質、規格」就可以印出來印製並交寄無需申請許可",
+   "srcSubject": "郵政法規",
+   "pageId": "3512ace3-4688-8038-9397-c524266c52b9",
+   "kind": "訂正",
+   "number": "15"
+  },
+  {
+   "id": "rc-34b2ace3-4688-8072-b476-f97046f0cf84",
+   "point": "43",
+   "stem": "依郵務營業規章規定，寄往國外之欠資函件，若無法退還寄件人，且非信函及明信片時，應如何處理？",
+   "options": [
+    "作欠資函件寄發",
+    "不予寄遞，於招領揭示期滿後，依無著郵件規定處理",
+    "逕予銷燬",
+    "退回原寄國郵政"
+   ],
+   "answer": "B",
+   "explain": "寄往國外之欠資函件：\n→ 退還寄件人補足資費差額\n→ 無法退還時，除信函及明信片做欠資函件寄發外，其他函件不予寄遞，於招領揭示期滿後，依無著郵件規定處理\n大批交際之國際信函及明信片資費不足：\n→ 無法退還寄件人不付者，不予寄遞，於招領揭示滿期後，作無著郵件處理\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "34b2ace3-4688-8072-b476-f97046f0cf84",
+   "kind": "訂正",
+   "number": "43"
+  },
+  {
+   "id": "rc-34b2ace3-4688-80b6-b5a5-ec22538aca1d",
+   "point": "42",
+   "stem": "依郵務營業規章規定，寄件人使用郵資機印出符誌一次交寄的函件數量達到何種標準時，得將郵資總數彙印郵資券，貼於大宗函件彙計郵資單查證聯上？",
+   "options": [
+    "函件十件以上且種類相同",
+    "函件十件以上(小包二十件以上)，種類可以不相同",
+    "函件十五件以上(小包五件以上)且種類相同",
+    "函件二十件以上(小包十件以上)且種類相同"
+   ],
+   "answer": "D",
+   "explain": "郵資機符誌之印印方式：\n→ 直接印於「郵件封面」，或印於「空白郵資券」後在黏貼\n→ 大宗（彙印總數）：\n     ♦︎ 適用門檻: 一次交寄函件20件以上或小包10件以上。\n     ♦︎ 適用條件: 郵件種類必須相同\n     ♦︎ 作業程序: 將郵資總數彙印成一張郵資券，連同郵件交由郵局\n         收寄人元檢驗後，貼於大宗函件會寄郵資單查聯上，並由郵\n         局在相關函件上加蓋「郵資已付」戳記\n→ 符誌之法律效力與限制\n     ♦︎ 禁止抵現：符誌不得以任何方式抵作現金使用。\n     ♦︎ 效力等同郵票：符誌一經印出使用後，在法律地位上視為「蓋\n         銷之郵票」（即已失效，不可重複使用）。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "34b2ace3-4688-80b6-b5a5-ec22538aca1d",
+   "kind": "訂正",
+   "number": "42"
+  },
+  {
+   "id": "rc-3462ace3-4688-807b-9522-c219a6798712",
+   "point": "重大公共建設融資經交通部核可，總額不得超過資金總額30%；資金含業主權益及各種準備金",
+   "stem": "依簡易人壽保險法規定，中華郵政公司得經交通部核可，提供重大公共建設計畫之融資所需款項。但其提供總額， 不得超過「資金」總額百分之三十。前述所定「資金」，包括業主權益，以及下列何項之金額？",
+   "options": [
+    "保險金額",
+    "保單價值準備金",
+    "各種準備金",
+    "保險費"
+   ],
+   "answer": "C",
+   "explain": "依第27條第三項之規定，所定資金包括業主權益及各種準備金\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "3462ace3-4688-807b-9522-c219a6798712",
+   "kind": "訂正",
+   "number": "17"
   },
   {
    "id": "rc-36c2ace3-4688-80f4-b7ae-e371dbe72e50",
@@ -1388,40 +976,6 @@
    "number": "7"
   },
   {
-   "id": "rc-3562ace3-4688-8024-aea5-ce11357d8fc3",
-   "point": "消滅時效不完成期間：繼承6個月；法定代理與夫妻1年；天災1個月",
-   "stem": "依民法規定，下列關於消滅時效不完成之敘述，何者正確？",
-   "options": [
-    "屬於繼承財產之權利或對於繼承財產之權利，自繼承人確定或管理人選 定或破產之宣告時起 1 年內，其時效不完成",
-    "無行為能力人或限制行為能力人，對於其法定代理人之權利，於代理關係消滅後 6 個月內，其時效不完成",
-    "夫對於妻或妻對於夫之權利，於婚姻關係消滅後 1 年內，其時效不完成",
-    "天災或其他不可避之事變，在時效期間終止前 1 日結束者，自其妨礙事由消滅時起 1 個月內，其時效不完成"
-   ],
-   "answer": "C",
-   "explain": "解析：\n（Ａ）錯誤，根據《民法》第140條，屬於繼承財產之權利或對於繼承財產之權利，自繼承人確定或管理人選定或破產之宣告時起「6個月」內，其時效不完成。\n（Ｂ）錯誤，根據《民法》第142條，無行為能力人或限制行為能力人，對於其法定代理人之權利，於代理關係消滅號「1年」內，其時效不完成\n（Ｃ）正確，根據《民法》第143條，夫對於妻或妻對於夫之權利，於婚姻關係消滅後1年內，其時效不完成。\n（Ｄ）錯誤，根據《民法》第139條，時效之期間終止時，因天災或其他不可避之事變，致不能中斷其時效者，自其防礙事由消滅時起「1個月」內，其時效不完成。與終止前1日結束並不影響。",
-   "srcSubject": "民法",
-   "pageId": "3562ace3-4688-8024-aea5-ce11357d8fc3",
-   "kind": "訂正",
-   "number": "115身心(3)"
-  },
-  {
-   "id": "rc-34d2ace3-4688-80f4-8f4c-cb92a4339aa3",
-   "point": "114員(23)",
-   "stem": "S 和 W 是夫妻，S 雙親只剩下爸爸甲，W 雙親只剩下媽媽乙，甲乙兩人因為 S 與 W 的關係認識， 雙方日久生情，想結婚。下列敘述何者正確？",
-   "options": [
-    "可以，因甲乙雙方非姻親，無禁婚親問題",
-    "可以，因為甲乙雙方雖為姻親，但非在禁婚親之列",
-    "不可，因為雙方為禁婚親",
-    "不可，因為雙方為直系姻親"
-   ],
-   "answer": "A",
-   "explain": "📍本案甲與乙在法律上「沒有關係」：\n依據《民法》第969條，法律定義的「姻親」只有以下三種：\n• 血親之配偶：例如：兒媳、女婿\n• 配偶之血親：例如：岳父母、公婆（Ｓ和Ｗ彼此之間互為這種姻親）\n• 配偶之血親之配偶：例如：妯娌、連襟\n→解析：甲是Ｓ的父親，乙是Ｗ母親。甲乙雙方是「配偶之血親（甲）」與「配偶之血親（乙）」的關系。這條法律條文中完全沒有被列入姻親範圍，所以他們法律上不是親屬。（血親之配偶之血親不在規範內所以可以）\n📍無法結婚（§983)：\n• 直系血親與直系姻親：例如：婦女、公公與媳婦（即便離婚後也禁止）\n• 旁系血親：六親等以內（例如堂表兄姊妹）\n• 旁系姻親：五親等以內且「輩分不相當」者（配偶的兄姊、兄姊的配偶，都是旁系姻親。平輩離婚可以再婚，長又不分不能結！）",
-   "srcSubject": "民法",
-   "pageId": "34d2ace3-4688-80f4-8f4c-cb92a4339aa3",
-   "kind": "訂正",
-   "number": "114員(23)"
-  },
-  {
    "id": "rc-34d2ace3-4688-80d5-b3e2-d92312339772",
    "point": "114員(10)",
    "stem": "有關給付遲延之效力，下列敘述何者正確？",
@@ -1439,74 +993,6 @@
    "number": "114員(10)"
   },
   {
-   "id": "rc-34d2ace3-4688-8037-b86e-fd66c4b5d52b",
-   "point": "114員(1)",
-   "stem": "列何種情況當事人不屬於有權收取天然孳息之人？",
-   "options": [
-    "土地所有權人對未採收而自然掉落之果實",
-    "農場主人對其所有之母獸所生之小獸",
-    "果園主人對修剪園中芒果樹落下的枝條",
-    "果園承租人對租賃期滿仍未收取之果實"
-   ],
-   "answer": "D",
-   "explain": "（A) 土地所有權人對果實：所有權人對其所有物有絕對的收益權。果實自然掉落（分離），所有當然有權取得\n（B) 農場主人對小獸：母獸是農長主人的，小獸出生（分離）時，農場主人就是權利人，取得小獸所有權。\n（C) 果園主人對芒果樹枝條：枝條雖然是修剪下的，但在法律上這也是依物之用法（整理果園）所產生的出產物，屬於天然孳息，主人有權收取\n（D) 果園承租人對租任期滿仍未收取之果實：依據民法第70條之規定收取法定孳息之人，按期權利存續期間內之日數，取得孳息，本案因果園承租人於租任期滿能為收取果實，未有合法之權利採收樹上的果實，故採收之權利數土地所有權人。",
-   "srcSubject": "民法",
-   "pageId": "34d2ace3-4688-8037-b86e-fd66c4b5d52b",
-   "kind": "訂正",
-   "number": "114員(1)"
-  },
-  {
-   "id": "rc-3482ace3-4688-80aa-98b3-e975252ebe0f",
-   "point": "親屬身分關係與結婚限制",
-   "stem": "甲之子為乙，乙與丙相戀，乙徵得其父甲之同意後向丙求婚。丙向其女丁詢問，給你找 1 個新爸爸好不好，丁說好，於是丙答應與乙結婚。乙丙結婚 10 年後，在給丁舉行的成年派對上，甲丁第 1 次見面，竟墜入愛河。甲丁得否結婚？",
-   "options": [
-    "不得，因為紊亂倫常",
-    "可以，因為甲丁間沒有親屬之關係",
-    "不得，因有優生學之考量",
-    "可以，因為旁系姻親輩分不相同者，不違反民法規定"
-   ],
-   "answer": "B",
-   "explain": "",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-80aa-98b3-e975252ebe0f",
-   "kind": "訂正",
-   "number": "20"
-  },
-  {
-   "id": "rc-3482ace3-4688-8087-92c2-d68e4268528f",
-   "point": "19",
-   "stem": "甲有 A 地，乙向甲承租該地建築 B 屋。下列敘述何者正確？",
-   "options": [
-    "若 B 屋為違章建築，則乙無法取得 B 屋之所有權",
-    "乙得就 B 屋請求甲為 A 地之地上權登記",
-    "乙應於基地租賃契約訂立後兩個月內聲請地政機關為地上權登記，逾期將無法請求為此登記",
-    "未為地上權登記前，甲即將 A 地讓與丙，則丙得請求乙拆屋還地"
-   ],
-   "answer": "B",
-   "explain": "",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-8087-92c2-d68e4268528f",
-   "kind": "訂正",
-   "number": "19"
-  },
-  {
-   "id": "rc-3482ace3-4688-8022-b612-e75e4e9af506",
-   "point": "侵權責任與特殊損害賠償責任",
-   "stem": "關於旅店客人所攜帶物品，下列敘述何者錯誤？",
-   "options": [
-    "旅店主人得不附理由，拒絕保管客人之貴重物品",
-    "珠寶非經報明其物之性質及數量交付保管者，旅店主人不負責任",
-    "客人知其物品毀損、喪失後，如怠於即通知旅店主人，喪失其損害賠償請求權",
-    "旅店主人以揭示限制其對於客人所攜帶物品毀損、喪失之賠償責任者，其揭示無效"
-   ],
-   "answer": "A",
-   "explain": "",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-8022-b612-e75e4e9af506",
-   "kind": "訂正",
-   "number": "13"
-  },
-  {
    "id": "rc-3482ace3-4688-8060-bff7-dca46743ef41",
    "point": "12",
    "stem": "甲授與經理權於乙、丙、丁、戊，為其經營管理商號之事務。下列敘述何者正確？",
@@ -1522,57 +1008,6 @@
    "pageId": "3482ace3-4688-8060-bff7-dca46743ef41",
    "kind": "訂正",
    "number": "12"
-  },
-  {
-   "id": "rc-3482ace3-4688-809f-97f7-d22a61fba047",
-   "point": "提存之正確法律效果與費用負擔",
-   "stem": "依民法規定，下列關於提存之敘述，何者正確？",
-   "options": [
-    "債務人給付遲延時，得為提存",
-    "提存後，給付標的物毀損滅失之危險，由債務人承擔",
-    "債權人不得隨時受取提存物",
-    "提存拍賣之費用，由債權人負擔"
-   ],
-   "answer": "D",
-   "explain": "",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-809f-97f7-d22a61fba047",
-   "kind": "訂正",
-   "number": "10"
-  },
-  {
-   "id": "rc-3482ace3-4688-80d2-91be-ce6b5c1d0d9b",
-   "point": "侵權責任與特殊損害賠償責任",
-   "stem": "甲、乙二人分別駕駛自用轎車，因過失共同撞傷路人丙，造成丙受有新臺幣（下同）10 萬元之損害 ， 經鑑定甲有十分之三之過失 ，乙有十分之七之過失 。丙向甲請求損害賠償 ，最高得請求賠償多少元？",
-   "options": [
-    "3 萬元",
-    "5 萬元",
-    "7 萬元",
-    "10 萬元"
-   ],
-   "answer": "D",
-   "explain": "",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-80d2-91be-ce6b5c1d0d9b",
-   "kind": "訂正",
-   "number": "9"
-  },
-  {
-   "id": "rc-3482ace3-4688-80eb-a22d-f8d7a1efed21",
-   "point": "3",
-   "stem": "依民法規定，下列何者，非屬社團法人總會之權限？",
-   "options": [
-    "任免監察人",
-    "開除社員",
-    "擔任法人之代表",
-    "監督董事職務之執行"
-   ],
-   "answer": "C",
-   "explain": "依據民法第50條\n總會之決議（有正當理由時為限）：\n  1. 變更章程\n  2. 任免董事及監察人\n  3. 監督是及監察人質物之執行\n  4. 開除社員\n 而選項（C) 擔任法人之代表，依第27條之規定為董事。",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-80eb-a22d-f8d7a1efed21",
-   "kind": "訂正",
-   "number": "3"
   }
  ]
 }
