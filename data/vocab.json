@@ -2532,5 +2532,17 @@
   "pos": "adj.",
   "zh": "感到驚訝的",
   "ex": "I was amazed by how well he looked."
+ },
+ {
+  "w": "receive",
+  "pos": "v.",
+  "zh": "收到、接獲",
+  "ex": "You will receive a notice when the parcel arrives."
+ },
+ {
+  "w": "recall",
+  "pos": "v.",
+  "zh": "回想起；召回（瑕疵品）",
+  "ex": "I cannot recall the exact date of mailing."
  }
 ]
