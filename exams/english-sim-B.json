@@ -31,12 +31,12 @@
    "point": "字彙：destination（回收）",
    "stem": "The parcel was returned because the _____ address had been written incorrectly.",
    "options": [
-    "destination",
     "description",
+    "destination",
     "declaration",
     "definition"
    ],
-   "answer": "A",
+   "answer": "B",
    "explain": "destination 為「目的地」，destination address 即收件地址。definition 定義、declaration 申報單（customs declaration）、description 描述，三者與 de- 字首形近但語意無關。8/13 回收題此字誤選 definition，本題改以「退件原因」情境重出。"
   },
   {
@@ -45,12 +45,12 @@
    "point": "字彙：entitle（回收）",
    "stem": "Customers who use registered mail are _____ to compensation if the item is lost.",
    "options": [
-    "entitled",
+    "entered",
     "entertained",
     "entrusted",
-    "entered"
+    "entitled"
    ],
-   "answer": "A",
+   "answer": "D",
    "explain": "be entitled to N/V 表「有權享有」，為固定搭配。entertain 娛樂、enter 進入、entrust 委託（entrust sb. with sth.）。四字同以 ent- 起首，屬形近字組。8/13 此字誤選 entertained，本題保留搭配結構、改換主詞與條件子句重測。"
   },
   {
@@ -59,12 +59,12 @@
    "point": "字彙：confidential（回收）",
    "stem": "All customer data must be kept _____ and may not be shared with third parties.",
    "options": [
-    "confidential",
     "confident",
+    "confidential",
     "convenient",
     "considerate"
    ],
-   "answer": "A",
+   "answer": "B",
    "explain": "confidential 機密的，修飾資料、文件；confident 是「有信心的」，修飾人。兩字僅差一個字尾卻分屬不同語意場，為本題核心。considerate 體貼的、convenient 方便的。8/13 此字誤選 confident，本題以 keep + O + adj. 結構重出。"
   },
   {
@@ -73,12 +73,12 @@
    "point": "字彙：enhance（回收）",
    "stem": "The new tracking system has greatly _____ the efficiency of parcel delivery.",
    "options": [
-    "endured",
     "enhanced",
+    "endured",
     "enforced",
     "enclosed"
    ],
-   "answer": "B",
+   "answer": "A",
    "explain": "enhance 提升（品質、效率、價值）；enforce 是「執行、強制實施」，受詞多為 law、rule。endure 忍受、enclose 隨函附上。8/13 此字誤選 enforces，錯因即在 enhance/enforce 形近而語意相反方向，本題改以 efficiency 為受詞，使搭配線索更明確。"
   },
   {
@@ -130,11 +130,11 @@
    "stem": "Only staff members who are _____ may open undeliverable mail.",
    "options": [
     "authentic",
-    "authored",
+    "authorized",
     "automated",
-    "authorized"
+    "authored"
    ],
-   "answer": "D",
+   "answer": "B",
    "explain": "authorize 授權，be authorized to V 表「經授權得以」。author 為「著作」（動詞少用）、automate 自動化、authentic 真正的（形容詞，不與 who are 後之被動語意相符）。本題以「僅經授權者得開拆」呼應郵政法第10條之情境。"
   },
   {
@@ -144,11 +144,11 @@
    "stem": "Please _____ the recipient's identity before handing over the registered letter.",
    "options": [
     "value",
-    "verify",
     "violate",
+    "verify",
     "vary"
    ],
-   "answer": "B",
+   "answer": "C",
    "explain": "verify 查證、核實（身分、資訊）。vary 變化、value 重視或估價、violate 違反。掛號郵件投遞前須確認收件人身分，語境與 identity 搭配者只有 verify；名詞為 verification。"
   },
   {
@@ -173,10 +173,10 @@
    "options": [
     "accessible",
     "acceptable",
-    "accustomed",
-    "accurate"
+    "accurate",
+    "accustomed"
    ],
-   "answer": "D",
+   "answer": "C",
    "explain": "accurate 準確的，修飾資訊、數字、地址。accustomed 習慣的（be accustomed to）、acceptable 可接受的、accessible 可取得的。郵遞區號的關鍵屬性是「正確與否」而非「可否接受」，故 acceptable 為主要誘答。"
   },
   {
@@ -185,12 +185,12 @@
    "point": "字彙：acknowledge",
    "stem": "The recipient must sign the return receipt to _____ delivery of the parcel.",
    "options": [
-    "acknowledge",
-    "accompany",
     "accumulate",
+    "accompany",
+    "acknowledge",
     "accomplish"
    ],
-   "answer": "A",
+   "answer": "C",
    "explain": "acknowledge 承認、確認收訖，正是回執（return receipt）之功能。accomplish 完成、accompany 陪伴、accumulate 累積。四字同以 acc- 起首，判斷線索在 sign the receipt 這個動作的目的是「確認收到」。"
   },
   {
@@ -199,13 +199,13 @@
    "point": "字彙：substitute",
    "stem": "When the original box was damaged, the clerk used a _____ container.",
    "options": [
-    "substitute",
-    "sufficient",
     "subsequent",
+    "sufficient",
+    "substitute",
     "substantial"
    ],
-   "answer": "A",
-   "explain": "substitute 作形容詞時為「替代的」，亦可作名詞或動詞（substitute A for C）。subsequent 隨後的、substantial 大量的、sufficient 足夠的。原箱受損後所使用者為「替代」容器，時間先後（subsequent）並非重點，此為誘答設計。"
+   "answer": "C",
+   "explain": "substitute 作形容詞時為「替代的」，亦可作名詞或動詞（substitute C for A）。subsequent 隨後的、substantial 大量的、sufficient 足夠的。原箱受損後所使用者為「替代」容器，時間先後（subsequent）並非重點，此為誘答設計。"
   },
   {
    "section": "字彙",
@@ -213,13 +213,13 @@
    "point": "字彙：insufficient",
    "stem": "The letter was returned to the sender because of _____ postage.",
    "options": [
-    "invisible",
-    "inevitable",
     "insufficient",
+    "inevitable",
+    "invisible",
     "informal"
    ],
-   "answer": "C",
-   "explain": "insufficient postage 郵資不足，即欠資郵件之英文表達。inevitable 不可避免的、invisible 看不見的、informal 非正式的。字首 in- 在此表否定，sufficient（足夠）加 in- 即為不足，與 sim-C 曾出之 sufficient 為同一字根之反向測驗。"
+   "answer": "A",
+   "explain": "insufficient postage 郵資不足，即欠資郵件之英文表達。inevitable 不可避免的、invisible 看不見的、informal 非正式的。字首 in- 在此表否定，sufficient（足夠）加 in- 即為不足，與 sim-A 曾出之 sufficient 為同一字根之反向測驗。"
   },
   {
    "section": "字彙",
@@ -227,12 +227,12 @@
    "point": "字彙：negotiate",
    "stem": "The company is trying to _____ a new contract with the airline for mail transport.",
    "options": [
-    "navigate",
+    "negotiate",
     "nominate",
     "neglect",
-    "negotiate"
+    "navigate"
    ],
-   "answer": "D",
+   "answer": "A",
    "explain": "negotiate 協商、談判，受詞常為 contract、terms、price。navigate 導航、nominate 提名、neglect 忽略。與 with the airline 搭配者只有 negotiate；名詞 negotiation 亦為常考字。"
   },
   {
@@ -257,10 +257,10 @@
    "options": [
     "had not better",
     "had better no",
-    "would better not",
-    "had better not"
+    "had better not",
+    "would better not"
    ],
-   "answer": "D",
+   "answer": "C",
    "explain": "had better 之否定形式為 had better not + 原形動詞，not 置於 better 之後、原形動詞之前。had not better 為誤置，would better 不成結構，had better no 之 no 不能修飾動詞。此點 8/7、8/13 兩度失分，本次改測否定形以確認是否真的掌握結構而非語感。"
   },
   {
@@ -283,12 +283,12 @@
    "point": "文法：關係代名詞 which 修飾物",
    "stem": "The box _____ contains fragile items should be marked clearly.",
    "options": [
-    "who",
     "which",
+    "who",
     "what",
     "whose"
    ],
-   "answer": "B",
+   "answer": "A",
    "explain": "先行詞 the box 為物且關係子句中缺主詞，故用 which（亦可用 that）。who 用於人；whose 為所有格，其後應接名詞；what 不能作關係代名詞使用（本身已含先行詞）。判斷動作：先問「先行詞是人還是物」，再問「子句裡缺的是主詞、受詞還是所有格」。"
   },
   {
@@ -297,12 +297,12 @@
    "point": "文法：分詞構句之被動",
    "stem": "_____ in a sturdy box, the glassware arrived without any damage.",
    "options": [
-    "Packed",
+    "Pack",
     "Packing",
     "To pack",
-    "Pack"
+    "Packed"
    ],
-   "answer": "A",
+   "answer": "D",
    "explain": "主詞 the glassware 與 pack 之間為被動關係（玻璃器皿被包裝），故用過去分詞 Packed 引導分詞構句。Packing 為主動，語意變成玻璃器皿自己包裝；To pack 表目的，與後半句不合；Pack 為原形動詞，不能引導分詞構句。判斷動作：把主詞抓出來，問它是「做」還是「被做」。"
   },
   {
@@ -313,10 +313,10 @@
    "options": [
     "very",
     "too",
-    "so",
-    "far"
+    "far",
+    "so"
    ],
-   "answer": "D",
+   "answer": "C",
    "explain": "修飾比較級（faster）須用 far、much、even、still、a lot 等；very 只能修飾原級（very fast）。so 與 too 亦僅修飾原級，且 too...to 另有結構。判斷動作：看到形容詞字尾 -er 或 more，修飾語就不能用 very。"
   },
   {
@@ -325,12 +325,12 @@
    "point": "文法：動名詞作主詞之單複數",
    "stem": "Filling out the customs form correctly _____ delays at the border.",
    "options": [
-    "are preventing",
-    "have prevented",
     "prevents",
+    "have prevented",
+    "are preventing",
     "prevent"
    ],
-   "answer": "C",
+   "answer": "A",
    "explain": "動名詞片語作主詞時視為單數，故動詞用第三人稱單數 prevents。prevent 為複數動詞形，are preventing 與 have prevented 皆以複數處理主詞。判斷動作：主詞為 V-ing 開頭的片語時，一律當作單數，不受片語內名詞（form）的單複數影響。"
   },
   {
@@ -340,11 +340,11 @@
    "stem": "The package must be picked up _____ Friday; otherwise it will be returned.",
    "options": [
     "until",
-    "since",
     "by",
+    "since",
     "during"
    ],
-   "answer": "C",
+   "answer": "B",
    "explain": "by + 時間點表「最遲在……之前完成」，用於一次性動作（pick up）。until 表「持續到某時」，須搭配持續性動作或狀態（如 wait until Friday）。since 用於完成式起點，during 後接期間名詞。判斷動作：問這個動作是「一次完成」還是「持續進行」。"
   },
   {
@@ -355,10 +355,10 @@
    "options": [
     "that how",
     "what",
-    "how",
-    "how is"
+    "how is",
+    "how"
    ],
-   "answer": "C",
+   "answer": "D",
    "explain": "名詞子句須用直述語序（主詞＋動詞），故 how the compensation is calculated 正確；how is 為疑問語序，不可用於子句。what 之後子句成分完整，無空缺可填，故不適用；that how 為兩個引導詞連用，結構重複。判斷動作：子句一律不倒裝。"
   },
   {
@@ -381,12 +381,12 @@
    "point": "文法：every 之單複數一致",
    "stem": "Every parcel and letter _____ scanned before leaving the sorting center.",
    "options": [
-    "is",
-    "are",
     "were",
+    "are",
+    "is",
     "have been"
    ],
-   "answer": "A",
+   "answer": "C",
    "explain": "every 修飾之名詞即使以 and 連接，仍視為單數，故動詞用 is。此與 both...and 連接兩個名詞須用複數動詞不同。are、were、have been 皆為複數形。判斷動作：看到 every、each 起首的主詞，一律配單數動詞。"
   },
   {
@@ -395,12 +395,12 @@
    "point": "文法：現在完成式與 for",
    "stem": "The company _____ this delivery service for over twenty years.",
    "options": [
-    "has provided",
     "provided",
+    "has provided",
     "is providing",
     "provides"
    ],
-   "answer": "A",
+   "answer": "B",
    "explain": "for + 一段時間表示從過去持續至今，須用現在完成式 has provided。過去簡單式 provided 表過去已結束之動作，與「持續至今」矛盾；現在進行式與現在簡單式均無法表達自過去累積之期間。判斷動作：看到 for/since + 期間，先想完成式。"
   },
   {
@@ -409,12 +409,12 @@
    "point": "文法：不定詞表目的",
    "stem": "The sender kept the receipt _____ prove that the parcel had been mailed.",
    "options": [
-    "because of",
     "in order to",
+    "because of",
     "for",
     "so that"
    ],
-   "answer": "B",
+   "answer": "A",
    "explain": "空格後為原形動詞 prove，故須用 in order to（或 so as to、to）表目的。so that 之後須接完整子句（主詞＋動詞），for 與 because of 之後須接名詞或動名詞。判斷動作：先看空格後面是「原形動詞」「完整子句」還是「名詞」，再選連接方式。"
   },
   {
@@ -438,11 +438,11 @@
    "stem": "_____ the item is properly packed, the post office may refuse to accept it.",
    "options": [
     "Although",
-    "If",
     "Unless",
+    "If",
     "Whether"
    ],
-   "answer": "C",
+   "answer": "B",
    "explain": "Unless 等於 if...not，語意為「除非妥善包裝，否則郵局得拒收」，與後半句之否定結果相符。If 會使語意變成「若妥善包裝就拒收」，明顯矛盾；Although 為讓步；Whether 表二選一，不能引導條件。判斷動作：先把 unless 換成 if not 讀一遍，看語意是否成立。"
   },
   {
@@ -465,12 +465,12 @@
    "point": "克漏字一：關係代名詞 which 指前面名詞",
    "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSmart parcel lockers have changed the way people collect their mail. Instead of waiting at home for the postman, customers can now pick up a package __31__ it is convenient for them. When a parcel is placed in a locker, the system sends a text message __32__ contains a code for opening the door. The service is popular in cities, where many residents are out at work during the day and __33__ to receive registered mail in person. There are limits, however. Items that are too large, too fragile, or too valuable __34__ be placed in a locker. Customers should also collect their parcels quickly; if a package stays in the locker for more than two days, it __35__ to a nearby post office for collection.\n\n第 32 格：",
    "options": [
-    "where",
+    "which",
     "who",
     "whose",
-    "which"
+    "where"
    ],
-   "answer": "D",
+   "answer": "A",
    "explain": "先行詞為 a text message（物），關係子句中缺主詞，故用 which。who 用於人；whose 為所有格須接名詞；where 為關係副詞，其後子句成分應完整，但此處 contains 缺主詞。"
   },
   {
@@ -521,12 +521,12 @@
    "point": "克漏字二：條件連接詞 as long as",
    "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nFiling a claim for a lost parcel is not as complicated as it sounds, __36__ you keep the right documents. The first thing you need is the receipt issued at the counter, __37__ carries the tracking number of your item. Without it, the post office has no way of confirming that the parcel was ever mailed. Second, note the deadline. In most countries a claim must be submitted within a fixed period, and a request made after that period __38__ be accepted. Third, be specific about the contents. A general description such as \"some gifts\" makes it difficult for staff __39__ the value of what was lost. Finally, keep a copy of everything you submit. __40__ the process usually ends within a few weeks, disputes over valuable items can take much longer.\n\n第 36 格：",
    "options": [
-    "as far as",
     "as long as",
+    "as far as",
     "as well as",
     "as soon as"
    ],
-   "answer": "B",
+   "answer": "A",
    "explain": "語意為「只要你保留正確文件」，表條件，故用 as long as。as far as 表範圍或距離（as far as I know），as soon as 表時間先後，as well as 表附加，均不表條件。"
   },
   {
@@ -550,11 +550,11 @@
    "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nFiling a claim for a lost parcel is not as complicated as it sounds, __36__ you keep the right documents. The first thing you need is the receipt issued at the counter, __37__ carries the tracking number of your item. Without it, the post office has no way of confirming that the parcel was ever mailed. Second, note the deadline. In most countries a claim must be submitted within a fixed period, and a request made after that period __38__ be accepted. Third, be specific about the contents. A general description such as \"some gifts\" makes it difficult for staff __39__ the value of what was lost. Finally, keep a copy of everything you submit. __40__ the process usually ends within a few weeks, disputes over valuable items can take much longer.\n\n第 38 格：",
    "options": [
     "will be not",
-    "will not",
+    "does not will",
     "not will",
-    "does not will"
+    "will not"
    ],
-   "answer": "B",
+   "answer": "D",
    "explain": "助動詞 will 之否定為 will not，其後接原形 be accepted。not will 語序顛倒；will be not 把 not 誤置於 be 之後；does not will 為助動詞連用，皆不成結構。"
   },
   {
@@ -591,13 +591,13 @@
    "point": "閱讀一：主旨",
    "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nBefore 1840, the cost of sending a letter in Britain was paid by the person who received it, and the price depended on how far the letter had travelled. The system caused endless trouble. Poor families often refused letters they could not afford, and clever senders learned to write messages on the outside of the envelope so that the receiver could read them, refuse the letter, and pay nothing at all.\n\nA schoolteacher named Rowland Hill proposed a simple change: let the sender pay in advance, charge the same low price for any distance, and prove that the fee had been paid by sticking a small printed label on the envelope. The label became the world's first postage stamp, the Penny Black.\n\nThe results surprised even Hill's supporters. In the first year, the number of letters posted in Britain more than doubled. Because the price no longer depended on distance, keeping in touch with relatives far away became affordable for ordinary people for the first time. Within twenty years, most countries in Europe had copied the idea.\n\nHill's reform is often described as a triumph of technology, but the printed label was the least original part of it. What changed the postal world was the decision to charge everyone the same, regardless of distance — an idea that sounded reckless to the officials of his time and obvious to everyone after him.\n\n第 41 題：What is the main idea of the passage?",
    "options": [
-    "A reform in how postage was charged, not the stamp itself, transformed the postal system",
     "Postal services in Europe developed independently of one another",
+    "A reform in how postage was charged, not the stamp itself, transformed the postal system",
     "British families in the 1830s were too poor to send letters",
     "The Penny Black was the most advanced printing technology of its time"
    ],
-   "answer": "A",
-   "explain": "全文主線為「收件人付費、按距離計價」之弊病 → Hill 提出預付、統一費率 → 結果與影響，末段更明言印製標籤是其中最不具原創性的部分，真正改變郵政世界的是統一費率的決定。D 與末段主張相反，C 僅為背景細節，B 與第三段末「多數歐洲國家仿效」矛盾。"
+   "answer": "B",
+   "explain": "全文主線為「收件人付費、按距離計價」之弊病 → Hill 提出預付、統一費率 → 結果與影響，末段更明言印製標籤是其中最不具原創性的部分，真正改變郵政世界的是統一費率的決定。D 與末段主張相反，C 僅為背景細節，A 與第三段末「多數歐洲國家仿效」矛盾。"
   },
   {
    "section": "閱讀",
@@ -606,11 +606,11 @@
    "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nBefore 1840, the cost of sending a letter in Britain was paid by the person who received it, and the price depended on how far the letter had travelled. The system caused endless trouble. Poor families often refused letters they could not afford, and clever senders learned to write messages on the outside of the envelope so that the receiver could read them, refuse the letter, and pay nothing at all.\n\nA schoolteacher named Rowland Hill proposed a simple change: let the sender pay in advance, charge the same low price for any distance, and prove that the fee had been paid by sticking a small printed label on the envelope. The label became the world's first postage stamp, the Penny Black.\n\nThe results surprised even Hill's supporters. In the first year, the number of letters posted in Britain more than doubled. Because the price no longer depended on distance, keeping in touch with relatives far away became affordable for ordinary people for the first time. Within twenty years, most countries in Europe had copied the idea.\n\nHill's reform is often described as a triumph of technology, but the printed label was the least original part of it. What changed the postal world was the decision to charge everyone the same, regardless of distance — an idea that sounded reckless to the officials of his time and obvious to everyone after him.\n\n第 42 題：According to the passage, why did some senders write on the outside of the envelope?",
    "options": [
     "To help the post office calculate the distance travelled",
-    "So that the receiver could read the message without paying for the letter",
     "Because paper was too expensive to use for long messages",
+    "So that the receiver could read the message without paying for the letter",
     "Because the law required the sender's name to appear outside"
    ],
-   "answer": "B",
+   "answer": "C",
    "explain": "第一段末明載：聰明的寄件人把訊息寫在信封外面，讓收件人讀完後拒收、分文不付。其餘三項文中均無依據，A 更與舊制由郵局按距離計價之事實無關。"
   },
   {
@@ -619,12 +619,12 @@
    "point": "閱讀一：細節（改革內容）",
    "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nBefore 1840, the cost of sending a letter in Britain was paid by the person who received it, and the price depended on how far the letter had travelled. The system caused endless trouble. Poor families often refused letters they could not afford, and clever senders learned to write messages on the outside of the envelope so that the receiver could read them, refuse the letter, and pay nothing at all.\n\nA schoolteacher named Rowland Hill proposed a simple change: let the sender pay in advance, charge the same low price for any distance, and prove that the fee had been paid by sticking a small printed label on the envelope. The label became the world's first postage stamp, the Penny Black.\n\nThe results surprised even Hill's supporters. In the first year, the number of letters posted in Britain more than doubled. Because the price no longer depended on distance, keeping in touch with relatives far away became affordable for ordinary people for the first time. Within twenty years, most countries in Europe had copied the idea.\n\nHill's reform is often described as a triumph of technology, but the printed label was the least original part of it. What changed the postal world was the decision to charge everyone the same, regardless of distance — an idea that sounded reckless to the officials of his time and obvious to everyone after him.\n\n第 43 題：Which of the following was NOT part of Rowland Hill's proposal?",
    "options": [
-    "Charging a higher fee for letters sent to distant places",
     "Having the sender pay before the letter was delivered",
+    "Charging a higher fee for letters sent to distant places",
     "Using a printed label to show that the fee had been paid",
     "Charging the same low price regardless of distance"
    ],
-   "answer": "A",
+   "answer": "B",
    "explain": "第二段列出三項內容：寄件人預付、不論距離同一低價、貼印製標籤證明已付。按距離加價正是 Hill 所要廢除的舊制，故為未包含者。此題型須逐項回文比對，不能憑印象。"
   },
   {
@@ -661,13 +661,13 @@
    "point": "閱讀二：標題",
    "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 46 題：Which of the following is the best title for the passage?",
    "options": [
-    "New Rules for Flying Drones in Cities",
+    "Drones in Postal Delivery: Promise and Limits",
     "The Rising Cost of Delivering Mail to Villages",
     "How Drones Have Replaced Rural Postmen",
-    "Drones in Postal Delivery: Promise and Limits"
+    "New Rules for Flying Drones in Cities"
    ],
-   "answer": "D",
-   "explain": "全文結構為：優點（快速、成本下降）→ 問題（天候、法規、民眾反應）→ 結論（補充而非取代），標題須同時涵蓋潛力與限制。C 與末段明白矛盾，B 只觸及第一段一句，A 之城市法規非本文範圍（文中討論的是偏遠路線）。"
+   "answer": "A",
+   "explain": "全文結構為：優點（快速、成本下降）→ 問題（天候、法規、民眾反應）→ 結論（補充而非取代），標題須同時涵蓋潛力與限制。C 與末段明白矛盾，B 只觸及第一段一句，D 之城市法規非本文範圍（文中討論的是偏遠路線）。"
   },
   {
    "section": "閱讀",
@@ -677,25 +677,25 @@
    "options": [
     "They can be operated without any training",
     "They are unaffected by bad weather",
-    "A twenty-minute flight can replace a two-hour road journey",
-    "Drones can carry heavier loads than postal vans"
+    "Drones can carry heavier loads than postal vans",
+    "A twenty-minute flight can replace a two-hour road journey"
    ],
-   "answer": "C",
-   "explain": "第一段明載二十分鐘航程可取代兩小時車程，且路線常態化後每次遞送成本大幅下降。D、A 文中未提；B 與第二段「強風使機隊停飛數日」正好相反。"
+   "answer": "D",
+   "explain": "第一段明載二十分鐘航程可取代兩小時車程，且路線常態化後每次遞送成本大幅下降。C、A 文中未提；B 與第二段「強風使機隊停飛數日」正好相反。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀二：細節（法規限制）",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 48 題：What limits drone routes to only a few kilometres in most countries?",
+   "point": "閱讀二：NOT true",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 48 題：Which of the following is NOT true according to the passage?",
    "options": [
-    "Rules against flying beyond the operator's line of sight",
-    "The refusal of villages to accept deliveries",
-    "A shortage of trained operators",
-    "The short battery life of current models"
+    "Some residents complained about the noise made by drones",
+    "Drones can operate normally regardless of weather conditions",
+    "Most operators regard drones as a supplement to existing delivery",
+    "In most countries drones may not be flown beyond the operator's line of sight without permission"
    ],
-   "answer": "A",
-   "explain": "第二段：多數國家未經特別許可不得於操作者目視範圍外飛行，因而限制航程。電池續航、人力不足、村莊拒收均非文中所述——D 為常識性誘答，正是這類題目最容易誤選之處，須以文本為準。"
+   "answer": "B",
+   "explain": "第二段明載強風可使機隊停飛數日，且「只在好天氣運作的服務無法取代郵差」，故 B 與文意相反，為本題答案。D 見第二段之法規限制，A 見第三段民眾反應，C 見末段 supplement rather than a replacement。NOT true 題須逐項回文核對，不能只憑印象挑一個看起來最強的敘述。"
   },
   {
    "section": "閱讀",
@@ -704,11 +704,11 @@
    "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 49 題：How did one postal service respond to residents' concerns?",
    "options": [
     "By hiring guards to watch the landing areas",
-    "By delivering to fixed landing stations instead of individual homes",
+    "By stopping the trial altogether",
     "By flying only at night to reduce noise",
-    "By stopping the trial altogether"
+    "By delivering to fixed landing stations instead of individual homes"
    ],
-   "answer": "B",
+   "answer": "D",
    "explain": "第三段末：郵政服務改為只投遞至村中心附近的固定降落站，而非個別住家。此舉同時回應噪音與失竊疑慮。其餘三項文中均無提及。"
   },
   {
@@ -717,13 +717,13 @@
    "point": "閱讀二：作者立場",
    "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 50 題：What is the author's attitude toward drone delivery?",
    "options": [
-    "Completely neutral: the author gives no evaluation",
+    "Cautiously positive: useful on certain routes but not a general solution",
     "Strongly opposed: the risks outweigh any benefit",
     "Highly enthusiastic: drones will soon replace traditional delivery",
-    "Cautiously positive: useful on certain routes but not a general solution"
+    "Completely neutral: the author gives no evaluation"
    ],
-   "answer": "D",
-   "explain": "末段「在可行的路線上表現很好，困難在於這類路線比早期熱情所預期的少」即為謹慎肯定之立場。B 過度負面，C 與 supplement rather than a replacement 相反，A 則忽略末段明確的評價語句。"
+   "answer": "A",
+   "explain": "末段「在可行的路線上表現很好，困難在於這類路線比早期熱情所預期的少」即為謹慎肯定之立場。B 過度負面，C 與 supplement rather than a replacement 相反，D 則忽略末段明確的評價語句。"
   }
  ]
 }
