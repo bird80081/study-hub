@@ -2096,5 +2096,214 @@
    "2": 106,
    "3": 11
   }
+ },
+ "2026-08-13": {
+  "date": "2026-08-13",
+  "drill": {
+   "count": 91,
+   "wrong": [
+    {
+     "id": "en050",
+     "subject": "英文",
+     "point": "字彙：destination",
+     "stem": "Please make sure the parcel's _____ address is written clearly.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-13",
+     "userText": "definition"
+    },
+    {
+     "id": "en072",
+     "subject": "英文",
+     "point": "字彙：entitle",
+     "stem": "Registered senders are ______ to compensation if the item is lost.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-13",
+     "userText": "entertained"
+    },
+    {
+     "id": "en080",
+     "subject": "英文",
+     "point": "字彙：confidential",
+     "stem": "Customer information is strictly ______ and must not be disclosed.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "confident"
+    },
+    {
+     "id": "en107",
+     "subject": "英文",
+     "point": "文法：be supposed to",
+     "stem": "Registered mail ______ to be delivered within three working days.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-13",
+     "userText": "has supposed"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8140-bb06-d01e6ba78c62",
+     "subject": "郵政法規",
+     "point": "特約記帳戶之預存與結付",
+     "stem": "依郵務營業規章規定，與郵局簽訂特約記帳戶之寄件人，關於預存郵資與結付期限，下列敘述何者正確？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-13",
+     "userText": "應預存相當於一個月交寄郵件所需郵資之金額，逐月結算並於次月底前付清"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8111-8887-cef386cdf7fc",
+     "subject": "郵政法規",
+     "point": "遞送延誤之補償比例",
+     "stem": "甲交寄國際快捷郵件，因中華郵政公司之過失致遞送延誤，甲所付全部資費為新臺幣 1,200 元（其中含報值費 200 元）。依郵件處理規則規定，其補償金額為何？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-13",
+     "userText": "新臺幣 1,000 元"
+    },
+    {
+     "id": "rc-34b2ace3-4688-80ff-846e-f9f932961a23",
+     "subject": "郵政法規",
+     "point": "47",
+     "stem": "依郵務營業規章規定，郵局支付補償金後若發現原寄郵件，受領補償者得於多久時間內退還補償金並請求交付原寄郵件？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-13",
+     "userText": "收到通知之日起，一個月內"
+    },
+    {
+     "id": "rc-3482ace3-4688-8060-bff7-dca46743ef41",
+     "subject": "民法",
+     "point": "12",
+     "stem": "甲授與經理權於乙、丙、丁、戊，為其經營管理商號之事務。下列敘述何者正確？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "經理權之授與，應具有明示意思，始得生效"
+    },
+    {
+     "id": "en092",
+     "subject": "英文",
+     "point": "字彙：enhance",
+     "stem": "Online tracking greatly ______ customer confidence in our service.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-13",
+     "userText": "enforces"
+    },
+    {
+     "id": "en078",
+     "subject": "英文",
+     "point": "字彙：assure",
+     "stem": "The clerk ______ the customer that the parcel would arrive on Monday.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "ensured"
+    },
+    {
+     "id": "ch105",
+     "subject": "國文",
+     "point": "錯別字辨識：一鼓作氣",
+     "stem": "下列文句用字完全正確者為何？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-13",
+     "userText": "這件事錯綜複雜，令人一頭霧水，不知從何著手起"
+    },
+    {
+     "id": "ch086",
+     "subject": "國文",
+     "point": "成語運用：因噎廢食",
+     "stem": "「不能因為曾發生一次配送疏失，就全面停止宅配服務」，此情形最適合以下列何者形容？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "矯枉過正"
+    },
+    {
+     "id": "ch012",
+     "subject": "國文",
+     "point": "成語語義辨析：目空一切",
+     "stem": "下列各組成語，何者前後語義相似？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-13",
+     "userText": "望梅止渴／望洋興嘆"
+    },
+    {
+     "id": "ch093",
+     "subject": "國文",
+     "point": "詞語辨析：反應與反映",
+     "stem": "下列文句「」中之詞語，何者使用正確？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "服用藥物後產生過敏「反映」"
+    },
+    {
+     "id": "ch108",
+     "subject": "國文",
+     "point": "錯別字辨識：迫不及待",
+     "stem": "下列文句「」中之詞語，何者用字正確？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-13",
+     "userText": "他「迫不急待」地拆開包裹"
+    },
+    {
+     "id": "ch097",
+     "subject": "國文",
+     "point": "成語運用：空穴來風",
+     "stem": "關於成語「空穴來風」，下列敘述何者正確？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "專指謠言傳播速度極快"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81dd-ba62-de7be7335392",
+     "subject": "英文",
+     "point": "模考0807-28 had better＋原形",
+     "stem": "You _____ insure the parcel, or you will not be compensated if it gets lost.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-13",
+     "userText": "are better"
+    },
+    {
+     "id": "ch039",
+     "subject": "國文",
+     "point": "論語為學歷程：耳順",
+     "stem": "《論語．為政》中孔子自述為學的歷程和進境，下列何者為六十歲的境界？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-13",
+     "userText": "不惑"
+    },
+    {
+     "id": "rc-34b2ace3-4688-8072-b476-f97046f0cf84",
+     "subject": "郵政法規",
+     "point": "43",
+     "stem": "依郵務營業規章規定，寄往國外之欠資函件，若無法退還寄件人，且非信函及明信片時，應如何處理？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-13",
+     "userText": "作欠資函件寄發"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 15,
+   "right": 15
+  },
+  "vocabStages": {
+   "0": 15,
+   "1": 74,
+   "2": 102,
+   "3": 17
+  }
  }
 }
