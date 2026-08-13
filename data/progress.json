@@ -1052,7 +1052,8 @@
    "作文硬規則**：當場手寫、計時 40 分、600 字以上，不得跳過。素材庫已累積 25 天，考前不再產新素材。",
    "仿真卷 B 交件前務必跑 `scripts/check_difficulty.py` 自檢（8/7 仿真卷 A 因形式複雜度失控，四科下滑 16～26 分）。",
    "錯題依 `模擬考流程.md` 入庫，`exam.py export-wrong` 後跑 `add-drill-wrong`。",
-   "補問 8/13 未驗收的手寫 10 字**（recipient／resident、expire／inspire／aspire／require、allocate／accumulate、deliberate／available），確認是否完成。",
+   "手寫 10 字改用測驗驗收**（recipient／resident、expire／inspire／aspire／require、allocate／accumulate、deliberate／available）——8/13 已完成手寫但使用者自評「還沒完全背誦」，需的是提取而非再寫一次。",
+   "新入庫 5 字首測**：considerable／considerate／considering／considered／competence。",
    "作文短段補回 2 段**（8/12「我按下暫停鍵那一次」、8/13「該一個人走的那一次」，後者須用上「踽踽獨行」）。",
    "elig- 組再測**（已排 8/14）：要求答對時**順手寫出其他三個選項的字義**，寫不出即不算通過——本日就是靠這個動作抓到「答對但理由錯」。",
    "considerable 組首測**（已排 8/15）：錨句 a considerable amount／be considerate to／considering the weather／a considered decision。",
@@ -1066,7 +1067,7 @@
    "不抄錯題**；寫的是判斷動作一句話。本日可寫的：「問資格→eligible」「問大小→considerable」「除…外先問站哪一邊」「有洞才有風＝事出有因」「傳出去用映、跳出來用應」「§216 管賠多少、§217 管誰也有錯」。",
    "英文回測固定加一個動作**：答對時順手寫出其他選項字義。",
    "硬規則第 10 條的過濾器失效（本日新發現，提至第一）**——規則寫 `sed -n '/^題目:/p'`，但 Notion 實際欄位名是**「錯誤題目」**，且該欄內容**末尾夾著「（你選 X／正解 Y）」**。本日據規則操作仍洩題兩筆（特約記帳戶、遞送延誤補償）。修法：`rules/出題硬規則.md` 第 10 條的指令改為 `awk '/^錯誤題目:/{f=1} /^解析:/{f=0} f' | grep -v -E \"正解|你選\"`，或於 `notion_review.py read` 加 `--safe` 模式。**規則寫錯比沒有規則更危險，因為會讓人以為已經防住。**",
-   "app.js:259` 匯出加上答題題號**（8/12 待辦 1 順延）——今日再度導致 91 題成績無法自動銷帳，帳面積壓 110 筆嚴重失真。",
+   "app.js:259` 匯出加上答題題號**（8/12 待辦 1 順延）——今日再度導致 91 題成績無法自動銷帳，且**收尾時 AI 未主動補做，是使用者事後提醒才發現**。反推法（卷題 − 錯題）已連兩日使用，每次都要使用者口頭擔保「整卷刷完」，本日更一次讓 19 筆直接畢業退出輪替。**在修好之前，收尾流程必須固定加一步：讀當日卷檔 id 與 records.json 錯題差集，補銷後才寫讀書紀錄。**",
    "session.py log` 無法修正已記錄的結果**——本日第 10 題須改判作廢，只能手動改 JSON。建議加 `log --amend N --result X --note …`。",
    "reconcile` 題號比對改為完全匹配**（8/12 待辦 3 順延）——靜默資料汙染風險。",
    "英文偏移 bug**（8/11 待辦 2 順延）——47 筆無源中 11 筆題號對得上但考點不符。",
@@ -1075,6 +1076,7 @@
    "progress.json` 隔日 items 雙軌互相覆寫**（8/12 待辦 7 順延）——修好前順序必須是「先跑 update_progress，再寫錯題回收」。本日已依此順序執行。"
   ],
   "done": [
+   false,
    false,
    false,
    false,
