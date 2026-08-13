@@ -1,8 +1,144 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-13T07:49:18",
- "dueDate": "2026-08-13",
+ "generatedAt": "2026-08-13T21:46:27",
+ "dueDate": "2026-08-14",
  "questions": [
+  {
+   "id": "rc-3b52ace3-4688-81dd-ba62-de7be7335392",
+   "point": "模考0807-28 had better＋原形",
+   "stem": "You _____ insure the parcel, or you will not be compensated if it gets lost.",
+   "options": [
+    "had better",
+    "would rather not",
+    "had better to",
+    "are better"
+   ],
+   "answer": "A",
+   "explain": "had better + 原形動詞，表『最好……』，其後不加 to。would rather not 語意為寧可不，與後句語意矛盾；had better to 多加 to 為錯誤結構；are better 不成句型。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81dd-ba62-de7be7335392",
+   "kind": "英文",
+   "number": "模考0807-28 had better＋原形"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
+   "point": "模考0807-45 閱讀一：寫作手法",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
+   "options": [
+    "By listing official regulations",
+    "By quoting a worker's comparison",
+    "By providing statistics",
+    "By asking readers a question"
+   ],
+   "answer": "B",
+   "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
+   "kind": "英文",
+   "number": "模考0807-45 閱讀一：寫作手法"
+  },
+  {
+   "id": "rc-3b52ace3-4688-817a-9888-e0adff99480c",
+   "point": "模考0807-39 encourage＋受詞＋to V",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 39 格：",
+   "options": [
+    "walking",
+    "walk",
+    "to walk",
+    "walked"
+   ],
+   "answer": "C",
+   "explain": "encourage + 受詞 + to V 為固定句型，故用 to walk。此結構與 ask／advise／persuade sb. to V 同型，persuade 一字為第 1 場模考錯點，可一併記憶。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-817a-9888-e0adff99480c",
+   "kind": "英文",
+   "number": "模考0807-39 encourage＋受詞＋to V"
+  },
+  {
+   "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
+   "point": "模考0807-38 主詞動詞一致與時態",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
+   "options": [
+    "occurs",
+    "occur",
+    "occurring",
+    "has occurred"
+   ],
+   "answer": "B",
+   "explain": "主詞 mistakes 為複數，全段陳述普遍事實用現在簡單式，故用原形 occur。occurs 為單數動詞、occurring 缺助動詞、has occurred 主詞動詞不一致且時態不符。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-8158-a94c-dd4d2110212f",
+   "kind": "英文",
+   "number": "模考0807-38 主詞動詞一致與時態"
+  },
+  {
+   "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
+   "point": "模考0807-33 cause＋受詞＋to V",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
+   "options": [
+    "stuck",
+    "to be stuck",
+    "being stuck",
+    "stick"
+   ],
+   "answer": "B",
+   "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-816e-891d-e05bb13e0d81",
+   "kind": "英文",
+   "number": "模考0807-33 cause＋受詞＋to V"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81f0-ba47-e36fda0eae8c",
+   "point": "模考0807-23 not only...but also 倒裝",
+   "stem": "Not only _____ the parcel arrive late, but it was also damaged.",
+   "options": [
+    "did",
+    "was",
+    "had",
+    "does"
+   ],
+   "answer": "A",
+   "explain": "Not only 置於句首時，其後子句須用倒裝，即助動詞提前。原句動詞 arrive 為一般動詞過去式，故用助動詞 did + 原形 arrive。was 與 had 不符主動詞形式；does 時態錯誤，與後半句 was 不一致。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81f0-ba47-e36fda0eae8c",
+   "kind": "英文",
+   "number": "模考0807-23 not only...but also 倒裝"
+  },
+  {
+   "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
+   "point": "模考0807-19 be sold as",
+   "stem": "These second-hand boxes are _____ packing material at a very low price.",
+   "options": [
+    "sold as",
+    "sold for",
+    "selling as",
+    "sold to"
+   ],
+   "answer": "A",
+   "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
+   "kind": "英文",
+   "number": "模考0807-19 be sold as"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
+   "point": "模考0807-15 eliminate",
+   "stem": "The new sorting machine helps _____ human error in the delivery process.",
+   "options": [
+    "accumulate",
+    "exaggerate",
+    "estimate",
+    "eliminate"
+   ],
+   "answer": "D",
+   "explain": "eliminate 意為『消除、排除』，與減少人為錯誤之語意相符。accumulate 是累積（語意相反）、estimate 是估計、exaggerate 是誇大。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81bc-9f7d-e940413a648f",
+   "kind": "英文",
+   "number": "模考0807-15 eliminate"
+  },
   {
    "id": "rc-3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
    "point": "模考0807-14 complaint",
@@ -19,6 +155,40 @@
    "pageId": "3b52ace3-4688-81e3-80bf-d8a64dc6dfee",
    "kind": "英文",
    "number": "模考0807-14 complaint"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
+   "point": "模考0807-13 estimate",
+   "stem": "Could you _____ how long it will take for the parcel to reach Japan by sea mail?",
+   "options": [
+    "estimate",
+    "eliminate",
+    "illustrate",
+    "imitate"
+   ],
+   "answer": "A",
+   "explain": "estimate 意為『估計』，符合詢問所需時間之語意。eliminate 是消除、illustrate 是說明圖解、imitate 是模仿。注意本題問的是時間長度，若改問頻率則須用 how often 回答，此為第 1 場對話題之錯點延伸。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81f4-ba2a-eeca344e9f94",
+   "kind": "英文",
+   "number": "模考0807-13 estimate"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
+   "point": "模考0807-9 notify",
+   "stem": "The post office will _____ you by text message as soon as your package arrives at the pickup station.",
+   "options": [
+    "notice",
+    "notify",
+    "note",
+    "notation"
+   ],
+   "answer": "B",
+   "explain": "notify 為及物動詞，意為『通知（某人）』，可直接接受詞 you。notice 作動詞時意為注意到，語意不符；note 是記下；notation 是記號、標記法。notify sb. of sth. 亦為常見搭配。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
+   "kind": "英文",
+   "number": "模考0807-9 notify"
   },
   {
    "id": "rc-3b52ace3-4688-8158-8aff-dd0bfee69158",
@@ -55,72 +225,21 @@
    "number": "模考0807-1 unwillingly"
   },
   {
-   "id": "rc-3b52ace3-4688-817a-9888-e0adff99480c",
-   "point": "模考0807-39 encourage＋受詞＋to V",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 39 格：",
+   "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
+   "point": "模考0731-30 It depends on the traffic.",
+   "stem": "A: How long does it take from here to the post office?\nB: ___",
    "options": [
-    "walking",
-    "walk",
-    "to walk",
-    "walked"
+    "500 miles long.",
+    "The longer, the better.",
+    "Every ten minutes.",
+    "It depends on the traffic."
    ],
-   "answer": "C",
-   "explain": "encourage + 受詞 + to V 為固定句型，故用 to walk。此結構與 ask／advise／persuade sb. to V 同型，persuade 一字為第 1 場模考錯點，可一併記憶。",
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
    "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-817a-9888-e0adff99480c",
+   "pageId": "3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
    "kind": "英文",
-   "number": "模考0807-39 encourage＋受詞＋to V"
-  },
-  {
-   "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
-   "point": "模考0807-33 cause＋受詞＋to V",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
-   "options": [
-    "stuck",
-    "to be stuck",
-    "being stuck",
-    "stick"
-   ],
-   "answer": "B",
-   "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-816e-891d-e05bb13e0d81",
-   "kind": "英文",
-   "number": "模考0807-33 cause＋受詞＋to V"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81dd-ba62-de7be7335392",
-   "point": "模考0807-28 had better＋原形",
-   "stem": "You _____ insure the parcel, or you will not be compensated if it gets lost.",
-   "options": [
-    "had better",
-    "would rather not",
-    "had better to",
-    "are better"
-   ],
-   "answer": "A",
-   "explain": "had better + 原形動詞，表『最好……』，其後不加 to。would rather not 語意為寧可不，與後句語意矛盾；had better to 多加 to 為錯誤結構；are better 不成句型。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81dd-ba62-de7be7335392",
-   "kind": "英文",
-   "number": "模考0807-28 had better＋原形"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81f0-ba47-e36fda0eae8c",
-   "point": "模考0807-23 not only...but also 倒裝",
-   "stem": "Not only _____ the parcel arrive late, but it was also damaged.",
-   "options": [
-    "did",
-    "was",
-    "had",
-    "does"
-   ],
-   "answer": "A",
-   "explain": "Not only 置於句首時，其後子句須用倒裝，即助動詞提前。原句動詞 arrive 為一般動詞過去式，故用助動詞 did + 原形 arrive。was 與 had 不符主動詞形式；does 時態錯誤，與後半句 was 不一致。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81f0-ba47-e36fda0eae8c",
-   "kind": "英文",
-   "number": "模考0807-23 not only...but also 倒裝"
+   "number": "模考0731-30 It depends on the traffic."
   },
   {
    "id": "ch050",
@@ -192,24 +311,6 @@
    "pageId": "",
    "kind": "國文",
    "number": "公文稱謂語",
-   "lastWrong": "2026-07-22"
-  },
-  {
-   "id": "ch039",
-   "point": "論語為學歷程：耳順",
-   "stem": "《論語．為政》中孔子自述為學的歷程和進境，下列何者為六十歲的境界？",
-   "options": [
-    "不惑",
-    "耳順",
-    "知天命",
-    "從心所欲不逾矩"
-   ],
-   "answer": "B",
-   "explain": "三十而立、四十不惑、五十知天命、六十耳順、七十從心所欲不逾矩。（103 歷屆）",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "論語為學歷程：耳順",
    "lastWrong": "2026-07-22"
   },
   {
@@ -483,6 +584,24 @@
    "lastWrong": "2026-08-10"
   },
   {
+   "id": "ch001",
+   "point": "公文期望語（上行）",
+   "stem": "機關對上級機關行文，於文末表達期望時，下列用語何者正確？",
+   "options": [
+    "請 查照",
+    "請 鑒核",
+    "請 照辦",
+    "請 知悉"
+   ],
+   "answer": "B",
+   "explain": "上行文（對上級）期望語用「請 鑒核」「請 核示」；「請 查照」用於平行文；「請 照辦」用於下行文。行文方向與期望語的對應是公文題必考。",
+   "srcSubject": "國文",
+   "pageId": "",
+   "kind": "國文",
+   "number": "公文期望語（上行）",
+   "lastWrong": "2026-08-12"
+  },
+  {
    "id": "rc-3b52ace3-4688-8140-bb06-d01e6ba78c62",
    "point": "特約記帳戶之預存與結付",
    "stem": "依郵務營業規章規定，與郵局簽訂特約記帳戶之寄件人，關於預存郵資與結付期限，下列敘述何者正確？",
@@ -517,6 +636,40 @@
    "number": "模考0807-39"
   },
   {
+   "id": "rc-34b2ace3-4688-80ff-846e-f9f932961a23",
+   "point": "47",
+   "stem": "依郵務營業規章規定，郵局支付補償金後若發現原寄郵件，受領補償者得於多久時間內退還補償金並請求交付原寄郵件？",
+   "options": [
+    "收到通知之日起，一個月內",
+    "收到通知之次日起，二個月內",
+    "收到通知之日起，三個月內",
+    "收到通知之次日起，四個月內"
+   ],
+   "answer": "C",
+   "explain": "履行補償後，發現原寄郵件之全部或一部，應通知受領補償者，得於收到通知之日起，三個月內，退還補償金之全部或一部，請求交付該項發現支原寄郵件。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "34b2ace3-4688-80ff-846e-f9f932961a23",
+   "kind": "訂正",
+   "number": "47"
+  },
+  {
+   "id": "rc-34b2ace3-4688-8072-b476-f97046f0cf84",
+   "point": "43",
+   "stem": "依郵務營業規章規定，寄往國外之欠資函件，若無法退還寄件人，且非信函及明信片時，應如何處理？",
+   "options": [
+    "作欠資函件寄發",
+    "不予寄遞，於招領揭示期滿後，依無著郵件規定處理",
+    "逕予銷燬",
+    "退回原寄國郵政"
+   ],
+   "answer": "B",
+   "explain": "寄往國外之欠資函件：\n→ 退還寄件人補足資費差額\n→ 無法退還時，除信函及明信片做欠資函件寄發外，其他函件不予寄遞，於招領揭示期滿後，依無著郵件規定處理\n大批交際之國際信函及明信片資費不足：\n→ 無法退還寄件人不付者，不予寄遞，於招領揭示滿期後，作無著郵件處理\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "34b2ace3-4688-8072-b476-f97046f0cf84",
+   "kind": "訂正",
+   "number": "43"
+  },
+  {
    "id": "rc-3b52ace3-4688-8193-983d-d0ea4c623009",
    "point": "查詢期限之比較",
    "stem": "甲於 115 年 6 月 10 日交寄國際快捷郵件一件，乙於同日交寄國內掛號函件一件，兩件均未送達。依郵件處理規則規定，關於查詢期限，下列敘述何者正確？（比較題）",
@@ -549,74 +702,6 @@
    "pageId": "3b52ace3-4688-81a6-b48e-eb9e7d4bf972",
    "kind": "訂正",
    "number": "模考0807-30"
-  },
-  {
-   "id": "rc-34b2ace3-4688-802e-90d7-d4e39c602b23",
-   "point": "48",
-   "stem": "依郵務營業規章規定，郵件因遺失、被竊、毀損、遞送延誤等事由所致之其他損失或損害，郵局應如何處理？",
-   "options": [
-    "應依實際損失給予補償",
-    "不予補償或賠償",
-    "僅補償其郵資差額",
-    "依郵政法規定賠償，但不補償"
-   ],
-   "answer": "B",
-   "explain": "若非郵件遺失、被竊、損毀、遞送延誤或掛號郵件未依本公司公告之處理規定遞送者之事由所致之其他損失或損害不予補償或賠償。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-802e-90d7-d4e39c602b23",
-   "kind": "訂正",
-   "number": "48"
-  },
-  {
-   "id": "rc-34b2ace3-4688-80ff-846e-f9f932961a23",
-   "point": "47",
-   "stem": "依郵務營業規章規定，郵局支付補償金後若發現原寄郵件，受領補償者得於多久時間內退還補償金並請求交付原寄郵件？",
-   "options": [
-    "收到通知之日起，一個月內",
-    "收到通知之次日起，二個月內",
-    "收到通知之日起，三個月內",
-    "收到通知之次日起，四個月內"
-   ],
-   "answer": "C",
-   "explain": "履行補償後，發現原寄郵件之全部或一部，應通知受領補償者，得於收到通知之日起，三個月內，退還補償金之全部或一部，請求交付該項發現支原寄郵件。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-80ff-846e-f9f932961a23",
-   "kind": "訂正",
-   "number": "47"
-  },
-  {
-   "id": "rc-34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
-   "point": "25",
-   "stem": "依郵務營業規章規定，有關廣告回信郵件，下列敘述何者錯誤？",
-   "options": [
-    "寄件人對其所發未貼郵票之回信信封、明信片、徵詢函回答表件或刊在報章雜誌之空白回信卡片或貼紙，經回信人寄回時，代回信人交付郵資，並按件計付手續費者，為廣告回信",
-    "廣告回信應先向當地郵局申請轉送所屬各等郵局申請登記",
-    "申請廣告回信登記，應填申請書一份並預存郵資。預存郵資金額由郵局視實際情形酌定，並於取消登記 交還登記證三個月後，未積欠郵資者，全數退還",
-    "廣告回信用戶領到登記證後，應依照郵局同意之回信樣本及規定式樣印製回信信封、明信片或貼紙，其上並應加印登記證字號及交寄郵件種類"
-   ],
-   "answer": "C",
-   "explain": "廣告回信郵件\n📍寄件規範（§106)：\n1. 寄件人對其所發為貼郵票之回信信封、明信片、徵詢函回答表件或刊在報章雜誌之空白回信卡片或貼紙，經回信人寄回時，代回信人（申請廣告回信人）交付郵資，並按件計付手續費者。\n2. 應先向當地郵局申請轉送屬各等郵局申請登記\n3. 國際廣告回信業務依萬國郵政公約規定辦理\n📍申請規範(§107)：\n1. 填寫申請書二份\n2. 回信樣張二份   \n3. 預存郵資（金額由郵局視實際情形酌定）\n→取消登記交還登記證2個月後，未積欠郵資者，全數退還\n📍樣式規範（§108) →郵局同意\n1. 回信樣本及規定是樣印製回信信封、明信片或貼紙，其上並應加印登記字號及交際郵件種類。\n2. 回信信封、明信片得裝入信封郵寄，備供回信人填寫寄回\n3.貼紙得依式刊印於新聞紙、雜誌上，備供回填寫剪貼於空白信封或類似明信片之硬紙片上寄回\n\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
-   "kind": "訂正",
-   "number": "25"
-  },
-  {
-   "id": "rc-34b2ace3-4688-8045-9823-ce3d1f6ae58c",
-   "point": "1",
-   "stem": "依郵務營業規章規定，下列何者非屬中華郵政公司經營之基本郵件業務？",
-   "options": [
-    "電子函件",
-    "掛號郵件",
-    "包裹",
-    "盲人文件"
-   ],
-   "answer": "B",
-   "explain": "基本郵件業務：\n1.信函、2.明信片、3.郵簡、4.印刷物、5.盲人文件、6.電子函件、7.小包、8.包裹\n→掛號郵件屬於特種郵件業務\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-8045-9823-ce3d1f6ae58c",
-   "kind": "訂正",
-   "number": "1"
   },
   {
    "id": "rc-39e2ace3-4688-81b3-b6e5-cfd8d71b9e1e",
@@ -908,21 +993,21 @@
    "number": "15"
   },
   {
-   "id": "rc-34b2ace3-4688-8072-b476-f97046f0cf84",
-   "point": "43",
-   "stem": "依郵務營業規章規定，寄往國外之欠資函件，若無法退還寄件人，且非信函及明信片時，應如何處理？",
+   "id": "rc-34b2ace3-4688-802e-90d7-d4e39c602b23",
+   "point": "48",
+   "stem": "依郵務營業規章規定，郵件因遺失、被竊、毀損、遞送延誤等事由所致之其他損失或損害，郵局應如何處理？",
    "options": [
-    "作欠資函件寄發",
-    "不予寄遞，於招領揭示期滿後，依無著郵件規定處理",
-    "逕予銷燬",
-    "退回原寄國郵政"
+    "應依實際損失給予補償",
+    "不予補償或賠償",
+    "僅補償其郵資差額",
+    "依郵政法規定賠償，但不補償"
    ],
    "answer": "B",
-   "explain": "寄往國外之欠資函件：\n→ 退還寄件人補足資費差額\n→ 無法退還時，除信函及明信片做欠資函件寄發外，其他函件不予寄遞，於招領揭示期滿後，依無著郵件規定處理\n大批交際之國際信函及明信片資費不足：\n→ 無法退還寄件人不付者，不予寄遞，於招領揭示滿期後，作無著郵件處理\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "explain": "若非郵件遺失、被竊、損毀、遞送延誤或掛號郵件未依本公司公告之處理規定遞送者之事由所致之其他損失或損害不予補償或賠償。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
    "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-8072-b476-f97046f0cf84",
+   "pageId": "34b2ace3-4688-802e-90d7-d4e39c602b23",
    "kind": "訂正",
-   "number": "43"
+   "number": "48"
   },
   {
    "id": "rc-34b2ace3-4688-80b6-b5a5-ec22538aca1d",
@@ -942,6 +1027,40 @@
    "number": "42"
   },
   {
+   "id": "rc-34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
+   "point": "25",
+   "stem": "依郵務營業規章規定，有關廣告回信郵件，下列敘述何者錯誤？",
+   "options": [
+    "寄件人對其所發未貼郵票之回信信封、明信片、徵詢函回答表件或刊在報章雜誌之空白回信卡片或貼紙，經回信人寄回時，代回信人交付郵資，並按件計付手續費者，為廣告回信",
+    "廣告回信應先向當地郵局申請轉送所屬各等郵局申請登記",
+    "申請廣告回信登記，應填申請書一份並預存郵資。預存郵資金額由郵局視實際情形酌定，並於取消登記 交還登記證三個月後，未積欠郵資者，全數退還",
+    "廣告回信用戶領到登記證後，應依照郵局同意之回信樣本及規定式樣印製回信信封、明信片或貼紙，其上並應加印登記證字號及交寄郵件種類"
+   ],
+   "answer": "C",
+   "explain": "廣告回信郵件\n📍寄件規範（§106)：\n1. 寄件人對其所發為貼郵票之回信信封、明信片、徵詢函回答表件或刊在報章雜誌之空白回信卡片或貼紙，經回信人寄回時，代回信人（申請廣告回信人）交付郵資，並按件計付手續費者。\n2. 應先向當地郵局申請轉送屬各等郵局申請登記\n3. 國際廣告回信業務依萬國郵政公約規定辦理\n📍申請規範(§107)：\n1. 填寫申請書二份\n2. 回信樣張二份   \n3. 預存郵資（金額由郵局視實際情形酌定）\n→取消登記交還登記證2個月後，未積欠郵資者，全數退還\n📍樣式規範（§108) →郵局同意\n1. 回信樣本及規定是樣印製回信信封、明信片或貼紙，其上並應加印登記字號及交際郵件種類。\n2. 回信信封、明信片得裝入信封郵寄，備供回信人填寫寄回\n3.貼紙得依式刊印於新聞紙、雜誌上，備供回填寫剪貼於空白信封或類似明信片之硬紙片上寄回\n\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
+   "kind": "訂正",
+   "number": "25"
+  },
+  {
+   "id": "rc-34b2ace3-4688-8045-9823-ce3d1f6ae58c",
+   "point": "1",
+   "stem": "依郵務營業規章規定，下列何者非屬中華郵政公司經營之基本郵件業務？",
+   "options": [
+    "電子函件",
+    "掛號郵件",
+    "包裹",
+    "盲人文件"
+   ],
+   "answer": "B",
+   "explain": "基本郵件業務：\n1.信函、2.明信片、3.郵簡、4.印刷物、5.盲人文件、6.電子函件、7.小包、8.包裹\n→掛號郵件屬於特種郵件業務\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
+   "srcSubject": "郵政法規",
+   "pageId": "34b2ace3-4688-8045-9823-ce3d1f6ae58c",
+   "kind": "訂正",
+   "number": "1"
+  },
+  {
    "id": "rc-3462ace3-4688-807b-9522-c219a6798712",
    "point": "重大公共建設融資經交通部核可，總額不得超過資金總額30%；資金含業主權益及各種準備金",
    "stem": "依簡易人壽保險法規定，中華郵政公司得經交通部核可，提供重大公共建設計畫之融資所需款項。但其提供總額， 不得超過「資金」總額百分之三十。前述所定「資金」，包括業主權益，以及下列何項之金額？",
@@ -957,6 +1076,40 @@
    "pageId": "3462ace3-4688-807b-9522-c219a6798712",
    "kind": "訂正",
    "number": "17"
+  },
+  {
+   "id": "rc-3482ace3-4688-8060-bff7-dca46743ef41",
+   "point": "12",
+   "stem": "甲授與經理權於乙、丙、丁、戊，為其經營管理商號之事務。下列敘述何者正確？",
+   "options": [
+    "經理權之授與，為要式行為，非有書面，不生效力",
+    "對經理權不得加以限制",
+    "對於商號事務之處理，如經理人中有二人之簽名，對於商號，即生效力",
+    "經理權之授與，應具有明示意思，始得生效"
+   ],
+   "answer": "C",
+   "explain": "",
+   "srcSubject": "民法",
+   "pageId": "3482ace3-4688-8060-bff7-dca46743ef41",
+   "kind": "訂正",
+   "number": "12"
+  },
+  {
+   "id": "rc-39d2ace3-4688-81c7-8dc1-f98f03da280c",
+   "point": "意思表示錯誤之撤銷：須非由表意人自己之過失所致；撤銷權自意思表示後一年消滅",
+   "stem": "依民法規定，關於因錯誤而為意思表示之撤銷，下列敘述何者錯誤？",
+   "options": [
+    "以錯誤係因表意人自己之過失所致者為限，表意人得撤銷之",
+    "當事人之資格，若交易上認為重要者，其錯誤視為意思表示內容之錯誤",
+    "撤銷權自意思表示後，經過一年而消滅",
+    "表意人撤銷意思表示時,對於信其意思表示為有效而受損害之相對人，應負賠償責任"
+   ],
+   "answer": "A",
+   "explain": "本題選「錯誤」的敘述。民法第 88 條第 1 項但書規定，以其錯誤「非由表意人自己之過失」者為限，始得撤銷，選項 A 恰好說反。B 為第 88 條第 2 項、C 為第 90 條、D 為第 91 條，均正確。",
+   "srcSubject": "民法",
+   "pageId": "39d2ace3-4688-81c7-8dc1-f98f03da280c",
+   "kind": "訂正",
+   "number": "意思表示錯誤之撤銷"
   },
   {
    "id": "rc-36c2ace3-4688-80f4-b7ae-e371dbe72e50",
@@ -991,23 +1144,6 @@
    "pageId": "34d2ace3-4688-80d5-b3e2-d92312339772",
    "kind": "訂正",
    "number": "114員(10)"
-  },
-  {
-   "id": "rc-3482ace3-4688-8060-bff7-dca46743ef41",
-   "point": "12",
-   "stem": "甲授與經理權於乙、丙、丁、戊，為其經營管理商號之事務。下列敘述何者正確？",
-   "options": [
-    "經理權之授與，為要式行為，非有書面，不生效力",
-    "對經理權不得加以限制",
-    "對於商號事務之處理，如經理人中有二人之簽名，對於商號，即生效力",
-    "經理權之授與，應具有明示意思，始得生效"
-   ],
-   "answer": "C",
-   "explain": "",
-   "srcSubject": "民法",
-   "pageId": "3482ace3-4688-8060-bff7-dca46743ef41",
-   "kind": "訂正",
-   "number": "12"
   }
  ]
 }
