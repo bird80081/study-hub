@@ -2592,5 +2592,35 @@
   "pos": "v.",
   "zh": "累積、堆積",
   "ex": "Undelivered letters accumulate quickly during the holiday season."
+ },
+ {
+  "w": "considerable",
+  "pos": "adj.",
+  "zh": "相當大的、可觀的（程度、數量）",
+  "ex": "The renovation caused a considerable delay in the delivery of parcels."
+ },
+ {
+  "w": "considerate",
+  "pos": "adj.",
+  "zh": "體貼的、替人著想的（形容人）",
+  "ex": "She is always considerate to elderly customers at the counter."
+ },
+ {
+  "w": "considering",
+  "pos": "prep.",
+  "zh": "考慮到…（後接名詞，非形容詞）",
+  "ex": "Considering the typhoon, the two-day delay was minor."
+ },
+ {
+  "w": "considered",
+  "pos": "adj.",
+  "zh": "經過深思熟慮的",
+  "ex": "The manager gave a considered response after reviewing the file."
+ },
+ {
+  "w": "competence",
+  "pos": "n.",
+  "zh": "能力、勝任；職權範圍",
+  "ex": "Handling international claims is beyond his competence."
  }
 ]
