@@ -1544,14 +1544,16 @@ function noteHit(x, g, q) {
   const t = q.trim().toLowerCase();
   return [x.point, x.value, x.note, g.group].filter(Boolean).join(" ").toLowerCase().includes(t);
 }
-let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = window.innerWidth >= 700;
+let notesView = "notes", longNotes = null, longOpen = null, longQuery = "", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = window.innerWidth >= 700;
 async function showNotesTab() {
   if (notesView === "essay") return showEssayView();
+  if (notesView === "long") return showLongNotes();
   if (!notes) notes = await (await fetch("data/notes.json", { cache: "no-store" })).json();
   $app.innerHTML = `
     <h1>筆記速查</h1>
     <div class="btn-row" style="margin-bottom:4px">
       <button class="small">📌 速查表</button>
+      <button class="small ghost" onclick="notesView='long';showNotesTab()">📖 長文筆記</button>
       <button class="small ghost" onclick="notesView='essay';showNotesTab()">✍️ 作文素材</button>
     </div>
     <p class="muted">數字、期間、金額速查表（來源：本機速記筆記）</p>
@@ -1598,12 +1600,62 @@ async function showNotesTab() {
     }).join("")}`;
 }
 
+// 長文筆記：Mac 端 scripts/sync_notes.py 預先把 筆記/*.md 渲染成 HTML 存進 notes-long.json，
+// 手機端不載 markdown 函式庫、離線可用。速查表（一問一答，適合背）與長文（有推導與 Why，
+// 適合檢討時讀）是兩種用途，互不取代，故並列在同一個「筆記」分頁下。
+const LONG_TAG = { "索引": "🧭", "背": "🎯", "查": "🔍", "診斷": "🩺" };
+async function showLongNotes() {
+  if (!longNotes) {
+    try { longNotes = await (await fetch("data/notes-long.json", { cache: "no-store" })).json(); }
+    catch { longNotes = []; }
+  }
+  const q = longQuery.trim().toLowerCase();
+  const hit = d => !q || (d.title + " " + d.text).toLowerCase().includes(q);
+  const list = longNotes.filter(hit);
+  const open = longOpen && list.some(d => d.file === longOpen) ? longNotes.find(d => d.file === longOpen) : null;
+  $app.innerHTML = `
+    <h1>筆記速查</h1>
+    <div class="btn-row" style="margin-bottom:4px">
+      <button class="small ghost" onclick="notesView='notes';showNotesTab()">📌 速查表</button>
+      <button class="small">📖 長文筆記</button>
+      <button class="small ghost" onclick="notesView='essay';showNotesTab()">✍️ 作文素材</button>
+    </div>
+    ${open ? `
+      <button class="small ghost" style="margin:8px 0" onclick="longOpen=null;showLongNotes()">← 回筆記列表</button>
+      <div class="card">
+        <div class="note-group" style="cursor:default">
+          <strong>${open.title}</strong>
+          <span class="muted">${LONG_TAG[open.tag] || ""} ${open.tag}</span>
+        </div>
+        <div class="md-body">${open.html}</div>
+      </div>`
+    : `
+      <p class="muted">本機速記筆記全文（來源：考試/筆記/*.md）。要一問一答的速查格式請切「📌 速查表」</p>
+      <input class="plan-input" id="long-q" placeholder="搜尋全部長文筆記…"
+        value="${longQuery.replace(/"/g, "&quot;")}" oninput="longQuery=this.value;showLongNotes();
+        const el=document.getElementById('long-q'); if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}"
+        style="width:100%;margin-bottom:12px">
+      ${list.length ? list.map(d => `
+        <div class="card" onclick="longOpen='${d.file.replace(/'/g, "\\'")}';showLongNotes()" style="cursor:pointer">
+          <div class="note-group">
+            <strong>${LONG_TAG[d.tag] || ""} ${d.title}</strong>
+            <span class="muted">${Math.round(d.text.length / 1000)}k ▸</span>
+          </div>
+          <div class="muted" style="font-size:0.8rem;margin-top:2px">${d.blurb}</div>
+          ${q ? `<div class="muted" style="font-size:0.78rem;margin-top:6px">…${
+            (i => i < 0 ? "" : d.text.slice(Math.max(0, i - 20), i + 60))(d.text.toLowerCase().indexOf(q))
+              .replace(/</g, "&lt;")}…</div>` : ""}
+        </div>`).join("") : `<p class="muted">找不到「${longQuery.replace(/</g, "&lt;")}」</p>`}
+    `}`;
+}
+
 async function showEssayView() {
   if (!essays) { try { essays = await (await fetch("data/essay.json", { cache: "no-store" })).json(); } catch { essays = []; } }
   $app.innerHTML = `
     <h1>筆記速查</h1>
     <div class="btn-row" style="margin-bottom:4px">
       <button class="small ghost" onclick="notesView='notes';showNotesTab()">📌 速查表</button>
+      <button class="small ghost" onclick="notesView='long';showNotesTab()">📖 長文筆記</button>
       <button class="small">✍️ 作文素材</button>
     </div>
     <p class="muted">每日 3 個素材：好句、好例子、替換詞——假日整篇作文前先來翻彈藥庫</p>

@@ -469,3 +469,32 @@ textarea:focus { outline: none; border-color: var(--accent); }
 }
 .q-passage summary { cursor: pointer; font-weight: 700; font-size: 0.85rem; color: var(--muted, #777); }
 .q-passage > div { max-height: 40vh; overflow-y: auto; margin-top: 6px; }
+
+/* 長文筆記（notes-long.json，Mac 端 sync_notes.py 預先渲染）
+   排版原則與速查表一致：表格固定欄寬＋自身橫捲，頁面本體不得橫向捲動 */
+.md-body { font-size: 0.88rem; line-height: 1.8; }
+.md-body h2 { font-size: 1.05rem; margin: 22px 0 8px; padding-left: 10px;
+  border-left: 3px solid var(--accent); }
+.md-body h3 { font-size: 0.95rem; margin: 18px 0 6px; }
+.md-body h4 { font-size: 0.88rem; margin: 14px 0 4px; color: var(--muted); }
+.md-body p { margin: 8px 0; }
+.md-body ul, .md-body ol { padding-left: 1.3em; margin: 8px 0; }
+.md-body li { margin: 4px 0; }
+.md-body hr { border: 0; border-top: 1px solid var(--line); margin: 22px 0; }
+.md-body blockquote { margin: 10px 0; padding: 8px 12px; border-left: 3px solid var(--accent);
+  background: var(--card2, rgba(120,90,60,0.06)); border-radius: 0 6px 6px 0;
+  color: var(--muted); font-size: 0.84rem; }
+.md-body blockquote p { margin: 4px 0; }
+.md-body code { background: var(--card2, rgba(120,90,60,0.10)); padding: 1px 4px;
+  border-radius: 4px; font-size: 0.85em; }
+.md-body pre { background: var(--card2, rgba(120,90,60,0.06)); border: 1px solid var(--line);
+  border-radius: 6px; padding: 10px 12px; overflow-x: auto; font-size: 0.78rem; line-height: 1.6; }
+.md-body pre code { background: none; padding: 0; }
+.md-tw { overflow-x: auto; margin: 10px 0; -webkit-overflow-scrolling: touch; }
+.md-tw table { border-collapse: collapse; width: 100%; min-width: 420px;
+  font-size: 0.8rem; table-layout: fixed; }
+.md-tw th, .md-tw td { padding: 6px 8px; text-align: left; vertical-align: top;
+  border-bottom: 1px solid var(--line); word-break: break-word; line-height: 1.6; }
+.md-tw th { font-size: 0.72rem; color: var(--muted); font-weight: 700; }
+.md-tw td:first-child { font-weight: 700; }
+.md-tw tr.md-warn td:first-child { color: var(--warn); }
