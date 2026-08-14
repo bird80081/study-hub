@@ -575,6 +575,7 @@ function showDrillQ() {
       <span class="muted">✔ ${drillRight}</span>
     </div>
     ${answered ? `<div class="q-num">${q.point}</div>` : ""}
+    ${q.retest ? `<div class="retest-tag">🔁 ${q.retest}</div>` : ""}
     <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.options.map((opt, i) => {
       const label = "ABCD"[i];
@@ -1601,17 +1602,22 @@ async function showNotesTab() {
       const el=document.getElementById('notes-q'); if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}"
       style="width:100%;margin-bottom:10px">
     ${notesQuery ? `<p class="muted">搜尋「${notesQuery}」——跨科目找，忽略上方科目選擇</p>` : ""}
-    ${notes.map((g, gi) => {
+    ${(() => { let lastLaw = null; return notes.map((g, gi) => {
       // 搜尋時跨全部科目找：找東西的人通常不記得它被歸在哪一科（郵政的罰則、民法的期間常互相記錯）
       if (!notesQuery && (g.subject || "郵政法規") !== notesSubject) return "";
       let items = notesWarnOnly ? g.items.filter(x => x.warn) : g.items;
       if (notesQuery) items = items.filter(x => noteHit(x, g, notesQuery));
       if (!items.length) return "";
       const open = notesQuery ? true : openGroups[gi] === true;
-      return `<div class="card">
+      // 分區標題：科目底下再切一層。郵政法規按法規主體（儲金、簡易人壽各自獨立），
+      // 民法等單一法規的科目按用途。少了這一層，「郵政法」與「新聞紙、雜誌」會並列在同一層，
+      // 看起來就是法規名和業務主題交錯。搜尋結果跨科目，改在右側標籤標示出處。
+      const head = !notesQuery && g.law && g.law !== lastLaw ? `<div class="note-law">${g.law}</div>` : "";
+      if (!notesQuery) lastLaw = g.law;
+      return head + `<div class="card">
         <div class="note-group" onclick="openGroups[${gi}]=${!open};showNotesTab()">
           <strong>${g.group}</strong>
-          <span class="muted">${notesQuery ? (g.subject || "郵政法規") + "・" : ""}${items.length} 條 ${open ? "▾" : "▸"}</span>
+          <span class="muted">${notesQuery ? (g.subject || "郵政法規") + "・" + (g.law ? g.law + "・" : "") : ""}${items.length} 條 ${open ? "▾" : "▸"}</span>
         </div>
         ${open ? (notesTable
           ? `<div class="note-table-wrap"><table class="note-table">
@@ -1630,7 +1636,7 @@ async function showNotesTab() {
             ${x.note ? `<div class="muted" style="font-size:0.8rem">${noteMd(x.note)}</div>` : ""}
           </div>`).join("")) : ""}
       </div>`;
-    }).join("")}`;
+    }).join(""); })()}`;
 }
 
 async function showEssayView() {

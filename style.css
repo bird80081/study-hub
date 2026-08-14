@@ -130,6 +130,13 @@ button:disabled { opacity: 0.35; cursor: default; }
 
 /* 題目 */
 .q-num { font-weight: 700; color: var(--accent); margin-bottom: 4px; font-size: 0.9rem; }
+/* 回收卷的原題重測標記：出現在題幹之前，讓她知道這題做過（見 出題硬規則 第 7 條分級例外）。
+   不得帶任何與正解有關的字樣——這是作答前就會看到的區塊。 */
+.retest-tag {
+  display: inline-block; margin-bottom: 6px; padding: 1px 8px;
+  border-radius: 10px; font-size: 0.75rem;
+  color: var(--accent); background: var(--accent-soft);
+}
 .q-stem { margin-bottom: 12px; white-space: pre-wrap; }
 .opt {
   display: block;
@@ -380,6 +387,19 @@ textarea:focus { outline: none; border-color: var(--accent); }
 .fc-ex { color: var(--muted); font-size: 0.9rem; font-style: italic; }
 
 /* ===== 筆記 ===== */
+/* 分區標題：科目與速查卡之間的第二層（郵政法規按法規主體，民法按用途）。
+   卡片自帶邊框與陰影，這一層改用紙膠帶色塊＋延伸細線分段，不再疊一個框。 */
+.note-law {
+  display: flex; align-items: center; gap: 8px;
+  margin: 20px 0 10px;
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; color: var(--muted);
+}
+.note-law::before {
+  content: ""; flex: none; width: 18px; height: 8px;
+  background: var(--tape); transform: rotate(-4deg);
+}
+.note-law::after { content: ""; flex: 1; border-top: 1px solid var(--line); }
+.note-law:nth-of-type(even)::before { background: var(--tape2); }
 .note-group { display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
 .note-item { padding: 9px 0; border-top: 1px dashed var(--line); margin-top: 9px; }
 .note-point { font-weight: 700; font-size: 0.88rem; }

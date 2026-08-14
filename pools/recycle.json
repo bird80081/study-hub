@@ -1,6 +1,6 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-14T23:30:54",
+ "generatedAt": "2026-08-14T23:58:26",
  "dueDate": "2026-08-15",
  "questions": [
   {
@@ -18,7 +18,8 @@
    "srcSubject": "英文",
    "pageId": "3b52ace3-4688-8158-a94c-dd4d2110212f",
    "kind": "英文",
-   "number": "模考0807-38 主詞動詞一致與時態"
+   "number": "模考0807-38 主詞動詞一致與時態",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
@@ -35,7 +36,8 @@
    "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81bc-9f7d-e940413a648f",
    "kind": "英文",
-   "number": "模考0807-15 eliminate"
+   "number": "模考0807-15 eliminate",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
@@ -52,7 +54,8 @@
    "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
    "kind": "英文",
-   "number": "模考0807-45 閱讀一：寫作手法"
+   "number": "模考0807-45 閱讀一：寫作手法",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
@@ -69,7 +72,8 @@
    "srcSubject": "英文",
    "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
    "kind": "英文",
-   "number": "模考0807-19 be sold as"
+   "number": "模考0807-19 be sold as",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
@@ -86,7 +90,8 @@
    "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81f4-ba2a-eeca344e9f94",
    "kind": "英文",
-   "number": "模考0807-13 estimate"
+   "number": "模考0807-13 estimate",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
@@ -103,7 +108,8 @@
    "srcSubject": "英文",
    "pageId": "3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
    "kind": "英文",
-   "number": "模考0807-9 notify"
+   "number": "模考0807-9 notify",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
@@ -120,7 +126,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8159-84a2-fa8859e2fe35",
    "kind": "英文",
-   "number": "模考0731-45 will（未來單純式）"
+   "number": "模考0731-45 will（未來單純式）",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-81e3-9504-e8300fb35aae",
@@ -137,7 +144,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-81e3-9504-e8300fb35aae",
    "kind": "英文",
-   "number": "模考0731-41 be sold as"
+   "number": "模考0731-41 be sold as",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-8172-9452-ffa997f7fea9",
@@ -154,7 +162,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8172-9452-ffa997f7fea9",
    "kind": "英文",
-   "number": "模考0731-40 stop + Ving"
+   "number": "模考0731-40 stop + Ving",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-8101-ad48-d7eb46b5cc45",
@@ -171,7 +180,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8101-ad48-d7eb46b5cc45",
    "kind": "英文",
-   "number": "模考0731-39 rescue dogs"
+   "number": "模考0731-39 rescue dogs",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-8107-be2e-f291a063a6d4",
@@ -188,7 +198,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8107-be2e-f291a063a6d4",
    "kind": "英文",
-   "number": "模考0731-37 share sth. with sb."
+   "number": "模考0731-37 share sth. with sb.",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-817f-bd75-c3db4c78ed98",
@@ -205,7 +216,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-817f-bd75-c3db4c78ed98",
    "kind": "英文",
-   "number": "模考0731-36 become happy"
+   "number": "模考0731-36 become happy",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
@@ -222,7 +234,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
    "kind": "英文",
-   "number": "模考0731-30 It depends on the traffic."
+   "number": "模考0731-30 It depends on the traffic.",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
@@ -239,7 +252,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
    "kind": "英文",
-   "number": "模考0731-19 persuade"
+   "number": "模考0731-19 persuade",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-814b-9e05-cfc34b812340",
@@ -256,7 +270,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-814b-9e05-cfc34b812340",
    "kind": "英文",
-   "number": "模考0731-16 departure"
+   "number": "模考0731-16 departure",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-814e-b7d1-ff293c41917c",
@@ -273,7 +288,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-814e-b7d1-ff293c41917c",
    "kind": "英文",
-   "number": "模考0731-11 instead"
+   "number": "模考0731-11 instead",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
@@ -290,7 +306,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
    "kind": "英文",
-   "number": "模考0731-10 emergency"
+   "number": "模考0731-10 emergency",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-815c-953a-ea1f9dc04f22",
@@ -307,7 +324,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-815c-953a-ea1f9dc04f22",
    "kind": "英文",
-   "number": "模考0731-6 population"
+   "number": "模考0731-6 population",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3ae2ace3-4688-81ad-931c-fe5eddb90735",
@@ -324,7 +342,8 @@
    "srcSubject": "英文",
    "pageId": "3ae2ace3-4688-81ad-931c-fe5eddb90735",
    "kind": "英文",
-   "number": "模考0731-5 unwillingly"
+   "number": "模考0731-5 unwillingly",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-81f9-aadb-f14b388748e7",
@@ -341,7 +360,8 @@
    "srcSubject": "國文",
    "pageId": "3bc2ace3-4688-81f9-aadb-f14b388748e7",
    "kind": "訂正",
-   "number": "模考0814-國17"
+   "number": "模考0814-國17",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-81de-a893-ed141253d8d4",
@@ -358,7 +378,8 @@
    "srcSubject": "國文",
    "pageId": "3bc2ace3-4688-81de-a893-ed141253d8d4",
    "kind": "訂正",
-   "number": "模考0814-國13"
+   "number": "模考0814-國13",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-8178-ac68-e79b4f265a78",
@@ -375,7 +396,8 @@
    "srcSubject": "國文",
    "pageId": "3bc2ace3-4688-8178-ac68-e79b4f265a78",
    "kind": "訂正",
-   "number": "模考0814-國7"
+   "number": "模考0814-國7",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-811e-bf92-c363ae39d6c5",
@@ -392,7 +414,8 @@
    "srcSubject": "國文",
    "pageId": "3bc2ace3-4688-811e-bf92-c363ae39d6c5",
    "kind": "訂正",
-   "number": "模考0814-國4"
+   "number": "模考0814-國4",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
@@ -409,7 +432,8 @@
    "srcSubject": "國文",
    "pageId": "3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
    "kind": "訂正",
-   "number": "模考0814-國1"
+   "number": "模考0814-國1",
+   "retest": "原題重測"
   },
   {
    "id": "ch050",
@@ -427,7 +451,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "借代詞語：桑梓",
-   "lastWrong": "2026-07-21"
+   "lastWrong": "2026-07-21",
+   "retest": "原題重測"
   },
   {
    "id": "ch056",
@@ -445,7 +470,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "字音辨正：載",
-   "lastWrong": "2026-07-21"
+   "lastWrong": "2026-07-21",
+   "retest": "原題重測"
   },
   {
    "id": "ch060",
@@ -463,7 +489,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "文意填空：菜根譚",
-   "lastWrong": "2026-07-21"
+   "lastWrong": "2026-07-21",
+   "retest": "原題重測"
   },
   {
    "id": "ch002",
@@ -481,7 +508,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "公文稱謂語",
-   "lastWrong": "2026-07-22"
+   "lastWrong": "2026-07-22",
+   "retest": "原題重測"
   },
   {
    "id": "ch064",
@@ -499,7 +527,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "地名判讀：錦官城",
-   "lastWrong": "2026-07-23"
+   "lastWrong": "2026-07-23",
+   "retest": "原題重測"
   },
   {
    "id": "ch010",
@@ -517,7 +546,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "詞語辨析：截止／截至",
-   "lastWrong": "2026-07-27"
+   "lastWrong": "2026-07-27",
+   "retest": "原題重測"
   },
   {
    "id": "ch042",
@@ -535,7 +565,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "公文統一用字：紀錄／記錄",
-   "lastWrong": "2026-07-28"
+   "lastWrong": "2026-07-28",
+   "retest": "原題重測"
   },
   {
    "id": "ch048",
@@ -553,7 +584,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "成語運用：戶限為穿",
-   "lastWrong": "2026-07-28"
+   "lastWrong": "2026-07-28",
+   "retest": "原題重測"
   },
   {
    "id": "ch035",
@@ -571,7 +603,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "文言詞義：星星（髮白）",
-   "lastWrong": "2026-07-29"
+   "lastWrong": "2026-07-29",
+   "retest": "原題重測"
   },
   {
    "id": "ch066",
@@ -589,7 +622,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "文意理解：捲簾面孔",
-   "lastWrong": "2026-07-29"
+   "lastWrong": "2026-07-29",
+   "retest": "原題重測"
   },
   {
    "id": "ch025",
@@ -607,7 +641,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "文學常識：詩中有畫",
-   "lastWrong": "2026-07-30"
+   "lastWrong": "2026-07-30",
+   "retest": "原題重測"
   },
   {
    "id": "ch089",
@@ -625,7 +660,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "成語運用：滄海桑田",
-   "lastWrong": "2026-08-03"
+   "lastWrong": "2026-08-03",
+   "retest": "原題重測"
   },
   {
    "id": "ch114",
@@ -643,7 +679,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "公文結構：公告",
-   "lastWrong": "2026-08-03"
+   "lastWrong": "2026-08-03",
+   "retest": "原題重測"
   },
   {
    "id": "ch046",
@@ -661,7 +698,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "題辭：哀輓女喪",
-   "lastWrong": "2026-08-04"
+   "lastWrong": "2026-08-04",
+   "retest": "原題重測"
   },
   {
    "id": "ch028",
@@ -679,7 +717,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "借代詞語：梨園弟子",
-   "lastWrong": "2026-08-06"
+   "lastWrong": "2026-08-06",
+   "retest": "原題重測"
   },
   {
    "id": "ch109",
@@ -697,7 +736,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "字形辨識：形近字",
-   "lastWrong": "2026-08-06"
+   "lastWrong": "2026-08-06",
+   "retest": "原題重測"
   },
   {
    "id": "ch070",
@@ -715,7 +755,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "師說：句讀之不知",
-   "lastWrong": "2026-08-10"
+   "lastWrong": "2026-08-10",
+   "retest": "原題重測"
   },
   {
    "id": "ch075",
@@ -733,7 +774,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "醉翁亭記：與民同樂",
-   "lastWrong": "2026-08-10"
+   "lastWrong": "2026-08-10",
+   "retest": "原題重測"
   },
   {
    "id": "ch098",
@@ -751,25 +793,8 @@
    "pageId": "",
    "kind": "國文",
    "number": "詞語辨析：其他與其它",
-   "lastWrong": "2026-08-10"
-  },
-  {
-   "id": "ch001",
-   "point": "公文期望語（上行）",
-   "stem": "機關對上級機關行文，於文末表達期望時，下列用語何者正確？",
-   "options": [
-    "請 查照",
-    "請 鑒核",
-    "請 照辦",
-    "請 知悉"
-   ],
-   "answer": "B",
-   "explain": "上行文（對上級）期望語用「請 鑒核」「請 核示」；「請 查照」用於平行文；「請 照辦」用於下行文。行文方向與期望語的對應是公文題必考。",
-   "srcSubject": "國文",
-   "pageId": "",
-   "kind": "國文",
-   "number": "公文期望語（上行）",
-   "lastWrong": "2026-08-12"
+   "lastWrong": "2026-08-10",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-81e7-9695-d87a2b4994bf",
@@ -786,7 +811,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-81e7-9695-d87a2b4994bf",
    "kind": "訂正",
-   "number": "模考0814-46"
+   "number": "模考0814-46",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-8123-8484-e5133caa10f5",
@@ -803,7 +829,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-8123-8484-e5133caa10f5",
    "kind": "訂正",
-   "number": "模考0814-43"
+   "number": "模考0814-43",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-814c-91bf-df509a0bc0d8",
@@ -820,7 +847,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-814c-91bf-df509a0bc0d8",
    "kind": "訂正",
-   "number": "模考0814-42"
+   "number": "模考0814-42",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-81b6-a6e0-e307008bfabd",
@@ -837,7 +865,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-81b6-a6e0-e307008bfabd",
    "kind": "訂正",
-   "number": "模考0814-37"
+   "number": "模考0814-37",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-810b-ad05-d837c5127a98",
@@ -854,7 +883,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-810b-ad05-d837c5127a98",
    "kind": "訂正",
-   "number": "模考0814-32"
+   "number": "模考0814-32",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-816f-997b-eb4efa272a93",
@@ -871,7 +901,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-816f-997b-eb4efa272a93",
    "kind": "訂正",
-   "number": "模考0814-28"
+   "number": "模考0814-28",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
@@ -888,24 +919,8 @@
    "srcSubject": "郵政法規",
    "pageId": "3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
    "kind": "訂正",
-   "number": "模考0814-8"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8140-bb06-d01e6ba78c62",
-   "point": "特約記帳戶之預存與結付",
-   "stem": "依郵務營業規章規定，與郵局簽訂特約記帳戶之寄件人，關於預存郵資與結付期限，下列敘述何者正確？",
-   "options": [
-    "應預存相當於三個月交寄郵件所需郵資之金額，逐季結算並於次季首月付清",
-    "應預存相當於一個月交寄郵件所需郵資之金額，逐月結算郵資並於次月二十日以前付清",
-    "應預存相當於一個月交寄郵件所需郵資之金額，逐月結算並於次月底前付清",
-    "無須預存，一律於每次交寄時當場交付郵資"
-   ],
-   "answer": "B",
-   "explain": "郵務營業規章第156條第1項：特約記帳戶應以相當於『一個月』交寄郵件所需郵資之金額預存於郵局，逐月結算郵資並於『次月二十日以前』付清。但於申請許可登記時聲明交寄時當場交付郵資者，或快捷郵件及包裹之訂約戶取具保證者，得經郵局同意免交預存郵資——免預存為例外而非原則。預存金數額依郵資增減隨時調整，於註銷登記郵資付清時退還。",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-8140-bb06-d01e6ba78c62",
-   "kind": "訂正",
-   "number": "模考0807-43"
+   "number": "模考0814-8",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-81d3-810d-f9c951618f3e",
@@ -922,7 +937,8 @@
    "srcSubject": "民法",
    "pageId": "3bc2ace3-4688-81d3-810d-f9c951618f3e",
    "kind": "訂正",
-   "number": "模考0814-19"
+   "number": "模考0814-19",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-815f-8f74-c8f383f5104c",
@@ -939,7 +955,8 @@
    "srcSubject": "民法",
    "pageId": "3bc2ace3-4688-815f-8f74-c8f383f5104c",
    "kind": "訂正",
-   "number": "模考0814-12"
+   "number": "模考0814-12",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-8159-9957-e7ee70b90569",
@@ -956,7 +973,8 @@
    "srcSubject": "民法",
    "pageId": "3bc2ace3-4688-8159-9957-e7ee70b90569",
    "kind": "訂正",
-   "number": "模考0814-8"
+   "number": "模考0814-8",
+   "retest": "原題重測"
   },
   {
    "id": "rc-3bc2ace3-4688-811a-be65-f2f32209b714",
@@ -973,7 +991,8 @@
    "srcSubject": "民法",
    "pageId": "3bc2ace3-4688-811a-be65-f2f32209b714",
    "kind": "訂正",
-   "number": "模考0814-7"
+   "number": "模考0814-7",
+   "retest": "原題重測"
   },
   {
    "id": "rc-39d2ace3-4688-81c7-8dc1-f98f03da280c",
@@ -990,7 +1009,8 @@
    "srcSubject": "民法",
    "pageId": "39d2ace3-4688-81c7-8dc1-f98f03da280c",
    "kind": "訂正",
-   "number": "意思表示錯誤之撤銷"
+   "number": "意思表示錯誤之撤銷",
+   "retest": "原題重測"
   }
  ]
 }
