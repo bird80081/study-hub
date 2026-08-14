@@ -22,7 +22,8 @@
 
 欄位說明：
 
-- `drill.count`＝今日刷題數；`drill.wrong`＝今日新錯題
+- `drill.count`＝今日刷題數；`drill.wrong`＝今日新錯題；**`drill.right`＝今日答對的題號**（`{id, subject, point}`，同日同題只記一次）
+  - `drill.right` 於 2026-08-14 新增。在此之前答對只是從錯題本移除、不留紀錄，匯出帶不出去，Mac 端就無法把 Notion 對應頁面自動標為已回收（8/12、8/14 各發生一次，91 題只能人工對帳）。回收卷每題都綁 pageId，有 id 即可自動銷帳。舊資料沒有此欄屬正常。
 - `pendingWrong`＝前幾天漏匯出的錯題（僅在有殘留時出現，一併排回收）
 - `exams`＝今日模考成績
 - `vocab.done` / `vocab.right`＝今日單字實際作答數與答對數（流水計數）

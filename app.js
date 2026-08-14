@@ -256,7 +256,8 @@ async function buildDayRecordText() {
   Object.values(vStages()).forEach(s => { if (dist[s] !== undefined) dist[s]++; });
   const vd = vocabDaily()[day] || { done: 0, right: 0 };
   const out = { type: "讀書紀錄", date: day,
-    drill: { count: drillDaily()[day] || 0, wrong: wrongToday },
+    drill: { count: drillDaily()[day] || 0, wrong: wrongToday,
+             right: (drillRightAll()[day] || []) },
     exams: attempts,
     vocab: { done: vd.done, right: vd.right },
     vocabStages: dist };
@@ -335,6 +336,11 @@ const LS_DRILL_CFG = "hub.drill.cfg.v1";
 const LS_DRILL_WRONG = "hub.drill.wrong.v1";
 const LS_DRILL_DAILY = "hub.drill.daily.v1";
 const LS_DRILL_STATE = "hub.drill.state.v1";
+// 答對的題號（依日期）。2026-08-14 新增：原本答對只是從錯題本移除，沒有留下任何
+// 「今天答對了哪些 id」的紀錄，匯出自然帶不出去——Mac 端就無法自動把 Notion 對應
+// 頁面標為已回收，91 題只能人工對帳（8/12、8/14 各發生一次）。回收卷每題都綁 pageId，
+// 有 id 就能自動銷帳。
+const LS_DRILL_RIGHT = "hub.drill.right.v1";
 function drillState() { try { return JSON.parse(localStorage.getItem(LS_DRILL_STATE)); } catch { return null; } }
 function saveDrillState() {
   if (!drillQ.length || drillIdx >= drillQ.length) return clearDrillState();
@@ -371,6 +377,7 @@ function migrateDrillWrong() {
   if (bad.length) { bad.forEach(k => delete seen[k]); localStorage.setItem(LS_DRILL_SEEN, JSON.stringify(seen)); }
 }
 function drillDaily() { try { return JSON.parse(localStorage.getItem(LS_DRILL_DAILY)) || {}; } catch { return {}; } }
+function drillRightAll() { try { return JSON.parse(localStorage.getItem(LS_DRILL_RIGHT)) || {}; } catch { return {}; } }
 
 async function showDrillTab() {
   if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
@@ -592,6 +599,13 @@ function pickDrill(label) {
   const wrongs = drillWrongAll();
   if (label === q.answer) {
     drillRight++;
+    // 記下答對的題號供匯出銷帳（同日同題只記一次，重複作答不重複計）
+    const rAll = drillRightAll();
+    const rDay = rAll[todayKey()] || (rAll[todayKey()] = []);
+    if (!rDay.some(x => x.id === q.id)) {
+      rDay.push({ id: q.id, subject: q.subject, point: q.point || "" });
+      localStorage.setItem(LS_DRILL_RIGHT, JSON.stringify(rAll));
+    }
     const idx = wrongs.findIndex(w => w.id === q.id);
     if (idx >= 0) { wrongs.splice(idx, 1); localStorage.setItem(LS_DRILL_WRONG, JSON.stringify(wrongs)); }
   } else {

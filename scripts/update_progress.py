@@ -23,6 +23,8 @@ def main():
     ap.add_argument("--date", default=datetime.date.today().isoformat(),
                     help="讀書紀錄日期（預設今天；可用 yesterday／昨天）")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--replace", action="store_true",
+                    help="目標日已有不同內容時仍以讀書紀錄為準覆寫（預設中止）")
     a = ap.parse_args()
     if a.date in ("yesterday", "昨天"):
         a.date = (datetime.date.today() - datetime.timedelta(days=1)).isoformat()
@@ -31,7 +33,11 @@ def main():
     if not recs:
         sys.exit(f"找不到 {a.date} 的讀書紀錄——先寫完紀錄再跑")
     text = open(recs[0]).read()
-    m = re.search(r"^## 明日建議\s*$(.*?)(?=^## |\Z)", text, re.M | re.S)
+    # 標題允許帶括號補述（如「## 明日建議（8/15 六，家事日／輕量）」）。
+    # 2026-08-14 修：session.py brief 也有同款 regex，兩邊都要求標題後不得有字元，
+    # 而 audit 用的是 substring 檢查——三處標準不一致，帶括號的標題能過稽核卻
+    # 讓 brief 讀不到、讓本腳本直接中止。統一放寬。
+    m = re.search(r"^## 明日建議[^\n]*$(.*?)(?=^## |\Z)", text, re.M | re.S)
     if not m:
         sys.exit(f"{os.path.basename(recs[0])} 沒有「## 明日建議」段落——補上再跑（session.py audit 會擋這個）")
     items = []
@@ -39,7 +45,9 @@ def main():
         ln = ln.strip()
         if not ln or ln.startswith("#"):          # 跳過子標題
             continue
-        x = re.sub(r"^[-*\d.、\s]+", "", ln).strip().strip("`")
+        # 只剝真正的清單標記，不要吃到內容開頭的數字：
+        # 原本 ^[-*\d.、\s]+ 會把「8/16（日）為第 3 場總檢討」啃成「/16（日）…」。
+        x = re.sub(r"^(?:[-*+]\s+|\d{1,2}[.、)]\s+)", "", ln).strip().strip("`")
         if not x or re.fullmatch(r"[^：:]{1,6}[：:]", x):   # 跳過「民法：」類分類行
             continue
         if x.startswith("（") and x.endswith("）"):        # 跳過純備註行，不是待辦
@@ -72,6 +80,20 @@ def main():
     except Exception:
         prog = {}
     old = prog.get(target)
+    # ⚠ 雙軌覆寫防護（2026-08-14 新增）：progress.json 有兩個寫入者——本腳本
+    # （解析讀書紀錄的明日建議）與 AI 收尾時直接手寫。原本一律整份取代，
+    # 誰後跑誰贏且無任何提示；2026-08-14 手寫的 19 條就會被本腳本的 5 條靜默蓋掉。
+    # 改為：目標日已有「非本腳本產生」的內容時中止，要覆寫須明講 --replace。
+    if isinstance(old, dict) and old.get("items") and old.get("items") != items and not a.replace:
+        extra = [x for x in old["items"] if x not in items]
+        print(f"✗ {target} 已有 {len(old['items'])} 項，與本次解析的 {len(items)} 項不同；"
+              f"其中 {len(extra)} 項不在明日建議裡（可能是收尾時手寫的）。")
+        for x in extra[:6]:
+            print(f"    · {x[:60]}")
+        if len(extra) > 6:
+            print(f"    （另有 {len(extra)-6} 項）")
+        sys.exit("未做任何變更。確定要以讀書紀錄為準覆寫請加 --replace；"
+                 "若手寫內容才是對的，請把它補進讀書紀錄的「## 明日建議」再跑。")
     if isinstance(old, dict) and old.get("items") == items:
         print("內容相同，不需改檔——補推未上傳的 commit（若有）")
         _push()
