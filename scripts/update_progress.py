@@ -15,6 +15,7 @@ import argparse, datetime, glob, json, os, re, subprocess, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROGRESS = os.path.join(ROOT, "data", "progress.json")
 RECORD_DIR = os.path.expanduser("~/Desktop/考試/讀書紀錄")
+MAX_ITEMS, MAX_AVG = 12, 45   # 每日待辦密度上限；歷史中位數約 10 項／45 字
 
 
 def main():
@@ -23,6 +24,8 @@ def main():
     ap.add_argument("--date", default=datetime.date.today().isoformat(),
                     help="讀書紀錄日期（預設今天；可用 yesterday／昨天）")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--long", action="store_true",
+                    help="略過待辦密度門檻（項數／平均字數上限）")
     ap.add_argument("--replace", action="store_true",
                     help="目標日已有不同內容時仍以讀書紀錄為準覆寫（預設中止）")
     a = ap.parse_args()
@@ -66,6 +69,17 @@ def main():
         items = [x for x in items if not any(k in x for k in DAILY_KEYS)]
     if not items:
         sys.exit("過濾固定事項後沒有剩餘項目——明日建議只有例行事項時不需同步")
+
+    # 待辦密度門檻（2026-08-14 新增）。清單從 7 月的 5 項/29 字漂到 8/13 的 37 項/77 字、
+    # 8/15 初稿更達 99 字每項，原因是把讀書紀錄的敘事整段寫進待辦。
+    # 待辦是「一句話、做得完、打得了勾」，理由留在讀書紀錄。
+    avg = sum(len(x) for x in items) // max(len(items), 1)
+    if (len(items) > MAX_ITEMS or avg > MAX_AVG) and not a.long:
+        print(f"✗ 待辦過長：{len(items)} 項（上限 {MAX_ITEMS}）、平均 {avg} 字（上限 {MAX_AVG}）")
+        for x in sorted(items, key=len, reverse=True)[:3]:
+            print(f"    最長：{x[:70]}…（{len(x)} 字）")
+        sys.exit("待辦是動作不是敘事——把理由搬回讀書紀錄、只留可打勾的動作再跑；"
+                 "確定要照原樣寫入請加 --long。")
 
     target = (datetime.date.fromisoformat(a.date) + datetime.timedelta(days=1)).isoformat()
     print(f"→ {target} 進度（{len(items)} 項）：")
