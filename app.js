@@ -1523,6 +1523,8 @@ function showVocabDone() {
 }
 
 /* ================= 筆記速查 ================= */
+// 表格模式在窄螢幕會把「內容」欄擠出畫面，而主要使用情境正是通勤手機。
+// 故預設依螢幕寬決定：窄螢幕條列、寬螢幕表格；使用者仍可自行切換。
 let notes = null, notesWarnOnly = false, openGroups = {}, notesQuery = "";
 const NOTE_ICON = { "郵政法規": "📮", "民法": "⚖️", "英文": "🔤", "國文": "📖" };
 // 科目清單由資料決定，不寫死——寫死的後果是新增科目的筆記進了 json 卻永遠點不到
@@ -1531,11 +1533,18 @@ function notesSubjects() {
   for (const g of notes || []) { const s = g.subject || "郵政法規"; if (!seen.includes(s)) seen.push(s); }
   return seen;
 }
+// 速記筆記是手寫 markdown 搬過來的，value/note 內含 **粗體** 標記共 25 處，
+// 原本直接當純文字印出星號。只處理粗體一種，先跳脫 HTML 再還原標記，避免 XSS。
+function noteMd(t) {
+  if (!t) return "";
+  return String(t).replace(/[&<>]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]))
+                  .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+}
 function noteHit(x, g, q) {
   const t = q.trim().toLowerCase();
   return [x.point, x.value, x.note, g.group].filter(Boolean).join(" ").toLowerCase().includes(t);
 }
-let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = true;
+let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = window.innerWidth >= 700;
 async function showNotesTab() {
   if (notesView === "essay") return showEssayView();
   if (!notes) notes = await (await fetch("data/notes.json", { cache: "no-store" })).json();
@@ -1574,15 +1583,15 @@ async function showNotesTab() {
               <thead><tr><th>考點</th><th>內容</th><th>備註</th></tr></thead>
               <tbody>${items.map(x => `<tr class="${x.warn ? "warn-row" : ""}">
                 <td>${x.warn ? "⚠ " : ""}${x.point}</td>
-                <td>${x.value}</td>
-                <td class="muted">${x.note || ""}</td>
+                <td>${noteMd(x.value)}</td>
+                <td class="muted">${noteMd(x.note)}</td>
               </tr>`).join("")}</tbody>
             </table></div>`
           : items.map(x => `
           <div class="note-item ${x.warn ? "warn-item" : ""}">
             <div class="note-point">${x.warn ? "⚠ " : ""}${x.point}</div>
-            <div class="note-value">${x.value}</div>
-            ${x.note ? `<div class="muted" style="font-size:0.8rem">${x.note}</div>` : ""}
+            <div class="note-value">${noteMd(x.value)}</div>
+            ${x.note ? `<div class="muted" style="font-size:0.8rem">${noteMd(x.note)}</div>` : ""}
           </div>`).join("")) : ""}
       </div>`;
     }).join("")}`;
