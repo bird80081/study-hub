@@ -1523,7 +1523,18 @@ function showVocabDone() {
 }
 
 /* ================= 筆記速查 ================= */
-let notes = null, notesWarnOnly = false, openGroups = {};
+let notes = null, notesWarnOnly = false, openGroups = {}, notesQuery = "";
+const NOTE_ICON = { "郵政法規": "📮", "民法": "⚖️", "英文": "🔤", "國文": "📖" };
+// 科目清單由資料決定，不寫死——寫死的後果是新增科目的筆記進了 json 卻永遠點不到
+function notesSubjects() {
+  const seen = [];
+  for (const g of notes || []) { const s = g.subject || "郵政法規"; if (!seen.includes(s)) seen.push(s); }
+  return seen;
+}
+function noteHit(x, g, q) {
+  const t = q.trim().toLowerCase();
+  return [x.point, x.value, x.note, g.group].filter(Boolean).join(" ").toLowerCase().includes(t);
+}
 let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = true;
 async function showNotesTab() {
   if (notesView === "essay") return showEssayView();
@@ -1536,21 +1547,27 @@ async function showNotesTab() {
     </div>
     <p class="muted">數字、期間、金額速查表（來源：本機速記筆記）</p>
     <div class="btn-row" style="margin-bottom:12px">
-      <button class="small ${notesSubject === "郵政法規" ? "" : "ghost"}" onclick="notesSubject='郵政法規';showNotesTab()">📮 郵政法規</button>
-      <button class="small ${notesSubject === "民法" ? "" : "ghost"}" onclick="notesSubject='民法';showNotesTab()">⚖️ 民法</button>
+      ${notesSubjects().map(sj => `<button class="small ${notesSubject === sj ? "" : "ghost"}" onclick="notesSubject='${sj}';showNotesTab()">${NOTE_ICON[sj] || "📄"} ${sj}</button>`).join("")}
       <button class="small ${notesWarnOnly ? "" : "ghost"}" onclick="notesWarnOnly=!notesWarnOnly;showNotesTab()">
         ${notesWarnOnly ? "顯示全部" : "只看 ⚠"}</button>
       <button class="small ghost" onclick="notesTable=!notesTable;showNotesTab()">${notesTable ? "☰ 條列" : "▦ 表格"}</button>
     </div>
+    <input class="plan-input" id="notes-q" placeholder="搜尋考點、內容、備註…（跨全部科目）"
+      value="${notesQuery.replace(/"/g, "&quot;")}" oninput="notesQuery=this.value;showNotesTab();
+      const el=document.getElementById('notes-q'); if(el){el.focus();el.setSelectionRange(el.value.length,el.value.length);}"
+      style="width:100%;margin-bottom:10px">
+    ${notesQuery ? `<p class="muted">搜尋「${notesQuery}」——跨科目找，忽略上方科目選擇</p>` : ""}
     ${notes.map((g, gi) => {
-      if ((g.subject || "郵政法規") !== notesSubject) return "";
-      const items = notesWarnOnly ? g.items.filter(x => x.warn) : g.items;
+      // 搜尋時跨全部科目找：找東西的人通常不記得它被歸在哪一科（郵政的罰則、民法的期間常互相記錯）
+      if (!notesQuery && (g.subject || "郵政法規") !== notesSubject) return "";
+      let items = notesWarnOnly ? g.items.filter(x => x.warn) : g.items;
+      if (notesQuery) items = items.filter(x => noteHit(x, g, notesQuery));
       if (!items.length) return "";
-      const open = openGroups[gi] === true;
+      const open = notesQuery ? true : openGroups[gi] === true;
       return `<div class="card">
         <div class="note-group" onclick="openGroups[${gi}]=${!open};showNotesTab()">
           <strong>${g.group}</strong>
-          <span class="muted">${items.length} 條 ${open ? "▾" : "▸"}</span>
+          <span class="muted">${notesQuery ? (g.subject || "郵政法規") + "・" : ""}${items.length} 條 ${open ? "▾" : "▸"}</span>
         </div>
         ${open ? (notesTable
           ? `<div class="note-table-wrap"><table class="note-table">
