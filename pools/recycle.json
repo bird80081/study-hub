@@ -1,25 +1,8 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-13T23:25:38",
- "dueDate": "2026-08-14",
+ "generatedAt": "2026-08-14T23:30:54",
+ "dueDate": "2026-08-15",
  "questions": [
-  {
-   "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
-   "point": "模考0807-45 閱讀一：寫作手法",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
-   "options": [
-    "By listing official regulations",
-    "By quoting a worker's comparison",
-    "By providing statistics",
-    "By asking readers a question"
-   ],
-   "answer": "B",
-   "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
-   "kind": "英文",
-   "number": "模考0807-45 閱讀一：寫作手法"
-  },
   {
    "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
    "point": "模考0807-38 主詞動詞一致與時態",
@@ -38,23 +21,6 @@
    "number": "模考0807-38 主詞動詞一致與時態"
   },
   {
-   "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
-   "point": "模考0807-19 be sold as",
-   "stem": "These second-hand boxes are _____ packing material at a very low price.",
-   "options": [
-    "sold as",
-    "sold for",
-    "selling as",
-    "sold to"
-   ],
-   "answer": "A",
-   "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
-   "kind": "英文",
-   "number": "模考0807-19 be sold as"
-  },
-  {
    "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
    "point": "模考0807-15 eliminate",
    "stem": "The new sorting machine helps _____ human error in the delivery process.",
@@ -70,6 +36,40 @@
    "pageId": "3b52ace3-4688-81bc-9f7d-e940413a648f",
    "kind": "英文",
    "number": "模考0807-15 eliminate"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
+   "point": "模考0807-45 閱讀一：寫作手法",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
+   "options": [
+    "By listing official regulations",
+    "By quoting a worker's comparison",
+    "By providing statistics",
+    "By asking readers a question"
+   ],
+   "answer": "B",
+   "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
+   "kind": "英文",
+   "number": "模考0807-45 閱讀一：寫作手法"
+  },
+  {
+   "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
+   "point": "模考0807-19 be sold as",
+   "stem": "These second-hand boxes are _____ packing material at a very low price.",
+   "options": [
+    "sold as",
+    "sold for",
+    "selling as",
+    "sold to"
+   ],
+   "answer": "A",
+   "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
+   "kind": "英文",
+   "number": "模考0807-19 be sold as"
   },
   {
    "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
@@ -106,6 +106,108 @@
    "number": "模考0807-9 notify"
   },
   {
+   "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
+   "point": "模考0731-45 will（未來單純式）",
+   "stem": "第 45 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "would",
+    "will be going to",
+    "X",
+    "will"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-8159-84a2-fa8859e2fe35",
+   "kind": "英文",
+   "number": "模考0731-45 will（未來單純式）"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-81e3-9504-e8300fb35aae",
+   "point": "模考0731-41 be sold as",
+   "stem": "第 41 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "on",
+    "in",
+    "of",
+    "as"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-81e3-9504-e8300fb35aae",
+   "kind": "英文",
+   "number": "模考0731-41 be sold as"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-8172-9452-ffa997f7fea9",
+   "point": "模考0731-40 stop + Ving",
+   "stem": "第 40 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "search",
+    "searched",
+    "searching",
+    "to search"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-8172-9452-ffa997f7fea9",
+   "kind": "英文",
+   "number": "模考0731-40 stop + Ving"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-8101-ad48-d7eb46b5cc45",
+   "point": "模考0731-39 rescue dogs",
+   "stem": "第 39 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "cure",
+    "excuse",
+    "court",
+    "rescue"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-8101-ad48-d7eb46b5cc45",
+   "kind": "英文",
+   "number": "模考0731-39 rescue dogs"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-8107-be2e-f291a063a6d4",
+   "point": "模考0731-37 share sth. with sb.",
+   "stem": "第 37 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "for",
+    "at",
+    "with",
+    "of"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-8107-be2e-f291a063a6d4",
+   "kind": "英文",
+   "number": "模考0731-37 share sth. with sb."
+  },
+  {
+   "id": "rc-3ae2ace3-4688-817f-bd75-c3db4c78ed98",
+   "point": "模考0731-36 become happy",
+   "stem": "第 36 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "happy",
+    "happiness",
+    "happily",
+    "happiest"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-817f-bd75-c3db4c78ed98",
+   "kind": "英文",
+   "number": "模考0731-36 become happy"
+  },
+  {
    "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
    "point": "模考0731-30 It depends on the traffic.",
    "stem": "A: How long does it take from here to the post office?\nB: ___",
@@ -121,6 +223,193 @@
    "pageId": "3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
    "kind": "英文",
    "number": "模考0731-30 It depends on the traffic."
+  },
+  {
+   "id": "rc-3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
+   "point": "模考0731-19 persuade",
+   "stem": "May spent a lot of time trying to ___ her mom to let her buy a new iPhone.",
+   "options": [
+    "recover",
+    "adopt",
+    "persuade",
+    "establish"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
+   "kind": "英文",
+   "number": "模考0731-19 persuade"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-814b-9e05-cfc34b812340",
+   "point": "模考0731-16 departure",
+   "stem": "Henry looked at the timetable at the airport to find out the ___ time of his flight.",
+   "options": [
+    "spoon",
+    "purchase",
+    "departure",
+    "snack"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-814b-9e05-cfc34b812340",
+   "kind": "英文",
+   "number": "模考0731-16 departure"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-814e-b7d1-ff293c41917c",
+   "point": "模考0731-11 instead",
+   "stem": "Lydia did not have tomatoes in her kitchen, so she used corn to make some soup ___.",
+   "options": [
+    "above",
+    "instead",
+    "after",
+    "along"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-814e-b7d1-ff293c41917c",
+   "kind": "英文",
+   "number": "模考0731-11 instead"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
+   "point": "模考0731-10 emergency",
+   "stem": "A Boeing 747 made an ___ landing earlier this morning because of the plane's mechanical problems.",
+   "options": [
+    "emergency",
+    "emotion",
+    "emphasis",
+    "empire"
+   ],
+   "answer": "A",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
+   "kind": "英文",
+   "number": "模考0731-10 emergency"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-815c-953a-ea1f9dc04f22",
+   "point": "模考0731-6 population",
+   "stem": "The ___ of Taiwan is over 23 million and more than 85% of the people have the right to vote for the president and the legislators.",
+   "options": [
+    "portion",
+    "population",
+    "pollution",
+    "calculation"
+   ],
+   "answer": "B",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-815c-953a-ea1f9dc04f22",
+   "kind": "英文",
+   "number": "模考0731-6 population"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-81ad-931c-fe5eddb90735",
+   "point": "模考0731-5 unwillingly",
+   "stem": "Amy was so focused on her novel that she ___ put her book down to help her mother run an errand.",
+   "options": [
+    "rapidly",
+    "genuinely",
+    "definitely",
+    "unwillingly"
+   ],
+   "answer": "D",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-81ad-931c-fe5eddb90735",
+   "kind": "英文",
+   "number": "模考0731-5 unwillingly"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81f9-aadb-f14b388748e7",
+   "point": "字音辨正：塞",
+   "stem": "「塞」字兼具動詞與名詞用法，讀音隨語體與詞性而異。下列「」中之字，讀音何者正確？",
+   "options": [
+    "邊塞之「塞」讀ㄙㄜˋ",
+    "敷衍塞責之「塞」讀ㄙㄞ",
+    "閉塞之「塞」讀ㄙㄞ",
+    "敷衍塞責之「塞」讀ㄙㄜˋ"
+   ],
+   "answer": "D",
+   "explain": "塞為多音字：作「填滿」動詞用時讀ㄙㄞ（塞車、塞住）；作「阻隔、應付」解之書面語讀ㄙㄜˋ（閉塞、堵塞、敷衍塞責）；作邊界名詞用讀ㄙㄞˋ（邊塞、要塞）。判斷動作：先判定詞性與語體——口語動作讀ㄙㄞ，書面抽象讀ㄙㄜˋ，地理名詞讀ㄙㄞˋ。",
+   "srcSubject": "國文",
+   "pageId": "3bc2ace3-4688-81f9-aadb-f14b388748e7",
+   "kind": "訂正",
+   "number": "模考0814-國17"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81de-a893-ed141253d8d4",
+   "point": "詞語辨析：權利與權力",
+   "stem": "「權利」與「權力」二詞音同而義異，公文書寫尤須辨明。下列文句「」中之詞語，何者使用正確？",
+   "options": [
+    "人民有請求補償之「權利」",
+    "消費者應主張自身「權力」",
+    "人民有請求補償之「權力」",
+    "行政機關行使「權利」處分"
+   ],
+   "answer": "A",
+   "explain": "權利指法律賦予個人得為主張之利益，主體多為人民；權力指支配、強制他人之力量，主體多為國家機關。判斷動作：看主體是「人民主張」還是「機關支配」。此組與反應／反映同屬同音異義詞，為歷屆高頻題型。",
+   "srcSubject": "國文",
+   "pageId": "3bc2ace3-4688-81de-a893-ed141253d8d4",
+   "kind": "訂正",
+   "number": "模考0814-國13"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-8178-ac68-e79b4f265a78",
+   "point": "詩詞意境：季節判讀",
+   "stem": "「無可奈何花落去，似曾相識燕歸來」所寫之季節為何？",
+   "options": [
+    "冬",
+    "夏",
+    "秋",
+    "春"
+   ],
+   "answer": "D",
+   "explain": "出自晏殊〈浣溪沙〉。落花與燕歸並見，為暮春景象——燕子春歸、繁花將盡，故寫春末。判斷動作：抓句中物候詞（燕歸、花落）定季節，不必先認出處。若見「梧桐更兼細雨」「黃花堆積」則屬秋（李清照〈聲聲慢〉），為同型題常見對照。",
+   "srcSubject": "國文",
+   "pageId": "3bc2ace3-4688-8178-ac68-e79b4f265a78",
+   "kind": "訂正",
+   "number": "模考0814-國7"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-811e-bf92-c363ae39d6c5",
+   "point": "論語為學歷程：不惑",
+   "stem": "《論語．為政》孔子自述為學歷程，「四十」之境界為何？",
+   "options": [
+    "耳順",
+    "而立",
+    "不惑",
+    "知天命"
+   ],
+   "answer": "C",
+   "explain": "原文為：吾十有五而志於學，三十而立，四十而不惑，五十而知天命，六十而耳順，七十而從心所欲不踰矩。8/13 曾誤將六十之「耳順」答為「不惑」，本題改由四十切入反向確認，判斷動作是先把六個年齡與六個詞按順序背成一串，再依題目所問之年齡取值。",
+   "srcSubject": "國文",
+   "pageId": "3bc2ace3-4688-811e-bf92-c363ae39d6c5",
+   "kind": "訂正",
+   "number": "模考0814-國4"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
+   "point": "醉翁亭記：蔚然之詞義",
+   "stem": "歐陽脩〈醉翁亭記〉：「其西南諸峰，林壑尤美，望之蔚然而深秀者，琅琊也。」文中「蔚然」之意為何？",
+   "options": [
+    "草木茂盛貌",
+    "山勢高聳貌",
+    "雲霧繚繞貌",
+    "泉水清澈貌"
+   ],
+   "answer": "A",
+   "explain": "「蔚然」形容草木茂盛，與「深秀」並言，寫琅琊山林之美。若解為雲霧或山勢，則與「林壑」之主語不合。同段「翼然」形容亭如鳥張翅，二字皆為狀貌之詞，宜併記。",
+   "srcSubject": "國文",
+   "pageId": "3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
+   "kind": "訂正",
+   "number": "模考0814-國1"
   },
   {
    "id": "ch050",
@@ -481,6 +770,210 @@
    "kind": "國文",
    "number": "公文期望語（上行）",
    "lastWrong": "2026-08-12"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81e7-9695-d87a2b4994bf",
+   "point": "i郵箱逾期未領之處理",
+   "stem": "掛號郵件經投入 i 郵箱後，關於收件人之待領期限及逾期未領之處理，下列敘述何者正確？",
+   "options": [
+    "二日",
+    "十五日",
+    "三日",
+    "五日"
+   ],
+   "answer": "A",
+   "explain": "郵務營業規章第221條第1項：收件人未於投入之次日起算二日內領取者，得於待領期限屆滿之次日起取出郵件，送交指定郵局招領並通知收件人；代收貨款郵件雖已繳款而逾期未領者亦同。第2項另定經取出送往郵局招領者，郵件招領期限應合併前述待領期限計算——即二日待領期不另行加計，此為易錯之處。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-81e7-9695-d87a2b4994bf",
+   "kind": "訂正",
+   "number": "模考0814-46"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-8123-8484-e5133caa10f5",
+   "point": "存證信函之申請查閱費",
+   "stem": "存證信函留存郵局之副本於保存期限內，寄件人申請查閱者，關於應交付之費用，下列敘述何者正確？",
+   "options": [
+    "按原交寄時之存證費全額交付查閱費",
+    "免費，但應交驗原執據",
+    "按申請時現行存證費全額交付查閱費",
+    "按申請時現行存證費半數交付查閱費"
+   ],
+   "answer": "D",
+   "explain": "郵務營業規章第117條第2項：應按申請時現行存證費半數交付查閱費或證明費。二個判準易錯——費率基準是「申請時現行」而非原交寄時，金額是「半數」而非全額。同條第1項另定申請時應交驗原執據，原執據遺失無法交驗者，提供本人身分證明文件；第3項定申請證明而內容不符者，郵局應拒絕證明，證明費不予退還。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-8123-8484-e5133caa10f5",
+   "kind": "訂正",
+   "number": "模考0814-43"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-814c-91bf-df509a0bc0d8",
+   "point": "國內快捷郵件之撤回費",
+   "stem": "寄件人申請撤回國內快捷郵件，該郵件已離開原寄局但尚未到達投遞局者，關於撤回費及已付資費，下列敘述何者正確？",
+   "options": [
+    "應付撤回費，已付資費全數退還",
+    "免付撤回費，扣除國內包裹往返資費後退還餘額",
+    "應付撤回費，已付資費不予退還",
+    "免付撤回費，已付資費全數退還"
+   ],
+   "answer": "B",
+   "explain": "郵務營業規章第72條之1第1項第2款。三階段須分辨：郵件尚在原寄局者，資費全數退還並免付撤回費（第1款）；已離開原寄局尚未到投遞局者，免付撤回費，扣除往返資費後退還餘額（第2款）；已到達投遞局尚未投遞者，應付撤回費，並扣除往返資費後退還餘額（第3款）。判準是「郵件走到哪一段」，愈接近投遞端，寄件人負擔愈重。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-814c-91bf-df509a0bc0d8",
+   "kind": "訂正",
+   "number": "模考0814-42"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81b6-a6e0-e307008bfabd",
+   "point": "補償金支付期限之計算",
+   "stem": "甲交寄之掛號包裹疑似遺失，於 6 月 10 日向郵局提出查詢，經查明應予補償。依郵件處理規則規定，郵局至遲應於何日以前支付補償金？",
+   "options": [
+    "12 月 11 日",
+    "9 月 10 日",
+    "9 月 11 日",
+    "8 月 11 日"
+   ],
+   "answer": "C",
+   "explain": "郵件處理規則第63條第1項：郵局應憑交寄執據或郵件封皮儘速支付補償金，至遲應自「查詢之次日起三個月內」為之。查詢日為 6 月 10 日，次日 6 月 11 日起算，三個月屆滿日為 9 月 11 日。本題之關鍵在「次日起算」而非「當日起算」——若自查詢當日起算則為 9 月 10 日，正是最主要之誘答。同條第2項另定國際郵件經查詢逾三個月未獲結果者，寄件人得以書面聲明後申請先予補償。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-81b6-a6e0-e307008bfabd",
+   "kind": "訂正",
+   "number": "模考0814-37"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-810b-ad05-d837c5127a98",
+   "point": "活生動物之禁寄與例外",
+   "stem": "依郵件處理規則規定，下列何者不屬於活生動物禁寄之例外？",
+   "options": [
+    "寄往日本包裹內不夾泥土之無害活紅蚯蚓",
+    "寄往國外之觀賞魚",
+    "蜜蜂、蠶、水蛭",
+    "立案機構互寄之寄生蟲"
+   ],
+   "answer": "B",
+   "explain": "郵件處理規則第37條第4款但書所列例外為：蜜蜂、蠶、水蛭、由立案機構互寄之寄生蟲或為消除害蟲之蟲類、寄往日本之包裹內裝不夾泥土之無害活紅蚯蚓。觀賞魚不在其列，仍屬禁寄。此款例外之共同特徵為「用途特定且經指明」，不得類推及於其他動物。禁寄物品於收寄後發現者，依第38條分款處理，第4款之物品退還寄件人。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-810b-ad05-d837c5127a98",
+   "kind": "訂正",
+   "number": "模考0814-32"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-816f-997b-eb4efa272a93",
+   "point": "保單價值準備金與借款組合",
+   "stem": "依簡易人壽保險法規定，下列情形中，以「保險費已付足一年以上」為要件者，共有幾項？\n甲、要保人以保險單為質申請借款\n乙、要保人終止契約後申請返還保單價值準備金\n丙、被保險人於契約生效後一年內故意自殺，要保人申請返還保單價值準備金\n丁、被保險人因犯罪處死致死，要保人申請返還保單價值準備金",
+   "options": [
+    "一項（甲）",
+    "三項（甲乙丙）",
+    "二項（甲乙）",
+    "四項（甲乙丙丁）"
+   ],
+   "answer": "D",
+   "explain": "第23條第1項定保單借款以保險費付足一年以上為要件，額度在保單價值準備金額內；第21條第1項定有第16條（解除）、第18條（終止）或第20條第1款（契約生效或復效後一年內故意自殺）、第3款（因犯罪處死、拒捕或越獄致死）情事，其保險費已付足一年以上者，要保人得申請返還應得之保單價值準備金，故乙、丙、丁均以同一期間為要件。另第21條第2項就第20條第2款（要保人故意致被保險人於死）定保險人應將保單價值準備金給付與應得之人。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-816f-997b-eb4efa272a93",
+   "kind": "訂正",
+   "number": "模考0814-28"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
+   "point": "郵政法罰鍰級距組合",
+   "stem": "依郵政法規定，下列各項違規行為中，其罰鍰級距為新臺幣二萬元以上十萬元以下者，共有幾項？\n甲、違反第七條規定，使用與郵政相同之文字表彰其營業\n乙、違反第六條規定，以遞送信函為營業\n丙、違反第十五條規定，發行與郵票類似之票證\n丁、規避、妨礙或拒絕主管機關依第二十八條所為之檢查",
+   "options": [
+    "四項（甲乙丙丁）",
+    "二項（甲丙）",
+    "三項（甲丙丁）",
+    "一項（甲）"
+   ],
+   "answer": "C",
+   "explain": "郵政法第41條（違反第7條）、第42條（違反第15條）、第43條（違反第28條）均為二萬元以上十萬元以下，故甲、丙、丁三項屬之。乙依第40條第1項為二十萬元以上一百萬元以下，級距最高，係因侵害專營權對郵政普及服務影響最大。另第40條第2項（違反第6條之1未標示名稱）亦為二萬元以上十萬元以下，惟須經令限期改正而屆期不改正始處罰。",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
+   "kind": "訂正",
+   "number": "模考0814-8"
+  },
+  {
+   "id": "rc-3b52ace3-4688-8140-bb06-d01e6ba78c62",
+   "point": "特約記帳戶之預存與結付",
+   "stem": "依郵務營業規章規定，與郵局簽訂特約記帳戶之寄件人，關於預存郵資與結付期限，下列敘述何者正確？",
+   "options": [
+    "應預存相當於三個月交寄郵件所需郵資之金額，逐季結算並於次季首月付清",
+    "應預存相當於一個月交寄郵件所需郵資之金額，逐月結算郵資並於次月二十日以前付清",
+    "應預存相當於一個月交寄郵件所需郵資之金額，逐月結算並於次月底前付清",
+    "無須預存，一律於每次交寄時當場交付郵資"
+   ],
+   "answer": "B",
+   "explain": "郵務營業規章第156條第1項：特約記帳戶應以相當於『一個月』交寄郵件所需郵資之金額預存於郵局，逐月結算郵資並於『次月二十日以前』付清。但於申請許可登記時聲明交寄時當場交付郵資者，或快捷郵件及包裹之訂約戶取具保證者，得經郵局同意免交預存郵資——免預存為例外而非原則。預存金數額依郵資增減隨時調整，於註銷登記郵資付清時退還。",
+   "srcSubject": "郵政法規",
+   "pageId": "3b52ace3-4688-8140-bb06-d01e6ba78c62",
+   "kind": "訂正",
+   "number": "模考0807-43"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81d3-810d-f9c951618f3e",
+   "point": "建物占有人與土地不當得利（實務見解）",
+   "stem": "甲向乙承租房屋並居住其中，該房屋坐落於丙所有之土地，且無合法使用權源。丙得否向甲請求返還相當於租金之不當得利？",
+   "options": [
+    "不得請求，甲僅占有房屋而非土地",
+    "得請求，但以甲為惡意占有人為限",
+    "得請求，因甲為土地之占有人",
+    "不得請求，應向房屋所有人乙請求"
+   ],
+   "answer": "C",
+   "explain": "最高法院111年度台上大字第932號民事大法庭裁定（115.6.12）：房屋之合法占有人（承租人）就房屋所坐落之土地，亦為土地之占有人；除善意占有人依民法第952條得為使用收益而不負返還義務外，應依不當得利之規定返還相當於租金之利益。故原則上得對承租人請求。「以惡意占有人為限」該項限制過窄——判斷順序是「先認定為土地占有人，再區辨善意惡意」，善意與否是後階段的免責事由，不是請求權成立要件。",
+   "srcSubject": "民法",
+   "pageId": "3bc2ace3-4688-81d3-810d-f9c951618f3e",
+   "kind": "訂正",
+   "number": "模考0814-19"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-815f-8f74-c8f383f5104c",
+   "point": "要物契約之成立",
+   "stem": "關於消費借貸契約之成立，下列敘述何者正確？",
+   "options": [
+    "須移轉金錢或其他代替物之所有權於他方，始生效力",
+    "當事人就借貸意思表示一致即為成立",
+    "非經訂立書面契約不生效力",
+    "須經公證始生效力"
+   ],
+   "answer": "A",
+   "explain": "消費借貸為要物契約，依民法第474條第1項須移轉金錢或其他代替物之所有權於他方，始生效力，僅有合意尚未成立。使用借貸（第464條）、寄託（第589條）亦同屬要物契約。惟第475條之1定消費借貸之預約，當事人得先為約定；預約成立後，貸與人於他方財產顯形減少時得撤銷其約定。書面與公證均非本契約之成立或生效要件。判斷動作：先問這個契約是諾成還是要物。",
+   "srcSubject": "民法",
+   "pageId": "3bc2ace3-4688-815f-8f74-c8f383f5104c",
+   "kind": "訂正",
+   "number": "模考0814-12"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-8159-9957-e7ee70b90569",
+   "point": "法人名譽之非財產上損害（實務見解）",
+   "stem": "甲公司遭乙散布不實訊息，致商譽受損。關於甲公司得為之請求，下列敘述何者正確？",
+   "options": [
+    "不得為任何請求，僅得依契約主張",
+    "得請求慰撫金，數額由法院酌定",
+    "不得請求慰撫金，但得請求回復名譽之適當處分",
+    "得請求慰撫金，但以法人為營利法人者為限"
+   ],
+   "answer": "C",
+   "explain": "最高法院112年度台上大字第544號大法庭裁定（114.6.20）：法人並無精神上痛苦可言，不得依民法第195條第1項前段請求非財產上損害（慰撫金）；惟名譽被侵害者，仍得依同項後段請求回復名譽之適當處分。應併記111年憲判字第2號判決與112年度台上字第1508號判決之意旨：不得判命被告登報道歉，得命刊載判決書全部或一部作為替代。",
+   "srcSubject": "民法",
+   "pageId": "3bc2ace3-4688-8159-9957-e7ee70b90569",
+   "kind": "訂正",
+   "number": "模考0814-8"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-811a-be65-f2f32209b714",
+   "point": "工作物所有人責任",
+   "stem": "甲所有之大樓外牆磁磚剝落，擊傷路人乙。關於甲之損害賠償責任，下列敘述何者正確？",
+   "options": [
+    "推定甲有過失，甲證明已盡相當注意者免責",
+    "乙須證明甲有過失，始得請求賠償",
+    "由該大樓之使用人負責，甲不負責任",
+    "甲無論有無過失均應負責"
+   ],
+   "answer": "A",
+   "explain": "民法第191條第1項：土地上之建築物或其他工作物所致他人權利之損害，由工作物之所有人負賠償責任。但其對於設置或保管並無欠缺，或損害非因設置或保管有欠缺，或於防止損害之發生已盡相當之注意者，不在此限。此為推定過失之中間責任，所有人得舉證免責。第2項另定所有人賠償後，對於損害原因應負責者有求償權。",
+   "srcSubject": "民法",
+   "pageId": "3bc2ace3-4688-811a-be65-f2f32209b714",
+   "kind": "訂正",
+   "number": "模考0814-7"
   },
   {
    "id": "rc-39d2ace3-4688-81c7-8dc1-f98f03da280c",
