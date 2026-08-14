@@ -108,6 +108,10 @@ a.item mark, .hit mark { background: var(--marker); color: var(--text); padding:
   padding: 12px 14px; overflow-x: auto; font-size: .8rem; line-height: 1.65;
 }
 .md-body pre code { background: none; padding: 0; }
+/* 筆記互引連結：由 sync_notes.py 改寫成 #檔名.md，點了走頁內路由 */
+.md-body a { color: var(--accent); text-decoration: none;
+  border-bottom: 1px solid var(--accent); padding-bottom: 1px; }
+.md-body a:hover { background: var(--accent-soft); }
 
 /* 表格：固定欄寬＋自身橫捲。中文可任意斷行，auto layout 會把末欄壓成一行一字 */
 .md-body .md-tw {
@@ -256,6 +260,16 @@ function drawer(open) {
 $("#open").addEventListener("click", () => drawer(true));
 $("#scrim").addEventListener("click", () => drawer(false));
 $("#q").addEventListener("input", e => renderNav(e.target.value));
+// 內文互引連結：直接攔截，不倚賴 hashchange（點到目前這篇時不會觸發）
+$("#body").addEventListener("click", e => {
+  const a = e.target.closest("a[href^='#']");
+  if (!a) return;
+  const t = decodeURIComponent(a.getAttribute("href").slice(1));
+  if (!t.endsWith(".md")) return;              // 章節錨點交給瀏覽器
+  e.preventDefault();
+  history.replaceState(null, "", "#" + encodeURIComponent(t));
+  renderDoc(t);
+});
 addEventListener("hashchange", () => {
   const h = decodeURIComponent(location.hash.slice(1));
   if (h && h.endsWith(".md")) { renderDoc(h); drawer(false); }
