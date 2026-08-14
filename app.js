@@ -331,6 +331,9 @@ function trendChart(days) {
 }
 
 /* ================= 每日刷題 ================= */
+// 批改檔快取：null 代表查過但沒有（避免每次重繪都重打網路）。
+// 宣告須早於 showExamTab（約 770 行）——const 有 TDZ，放後面會 ReferenceError。
+const reviewCache = {};
 const LS_DRILL_SEEN = "hub.drill.seen.v1";
 const LS_DRILL_CFG = "hub.drill.cfg.v1";
 const LS_DRILL_WRONG = "hub.drill.wrong.v1";
@@ -765,6 +768,15 @@ async function showExamTab() {
     });
   } catch {}
 
+  // 練習紀錄要顯示全卷總分，需先取回對應的批改檔（無批改檔者留空、照舊只顯示選擇題）
+  await Promise.all([...new Set(loadAttempts().map(a => a.id))]
+    .filter(id => id && !(id in reviewCache))
+    .map(async id => {
+      try {
+        const r = await fetch(`reviews/${id}.json`, { cache: "no-store" });
+        reviewCache[id] = r.ok ? await r.json() : null;
+      } catch { reviewCache[id] = null; }
+    }));
   $app.innerHTML = `
     <h1>試卷</h1>
     <p class="muted">全真卷照考程解鎖；練習卷隨時可考．作答中不顯示對錯</p>
@@ -790,7 +802,15 @@ async function showExamTab() {
           </div>
           ${open ? rows.map(x => `
             <div class="note-item">
-              <div class="note-point">${x.title} <span class="tag ${x.mcRight === x.mcTotal ? "ok" : "pend"}">選擇 ${x.mcScore}/${x.mcMax}．對 ${x.mcRight}/${x.mcTotal}</span></div>
+              <div class="note-point">${x.title} ${(() => {
+                // 有批改檔就顯示全卷總分——這裡原本只印選擇題，申論／作文批改
+                // 寫進 reviews/*.json 也看不到（2026-08-14 由茶兒指出：分數沒回寫回去）
+                const rv = reviewCache[x.id];
+                return rv
+                  ? `<span class="tag ${rv.pass ? "ok" : "pend"}">${rv.total}/${rv.totalMax} 全卷</span>
+                     <span class="tag pend">選擇 ${x.mcScore}/${x.mcMax}${rv.essays.length ? `．申論 ${rv.essays.reduce((t, e) => t + e.score, 0)}/${rv.essays.reduce((t, e) => t + e.max, 0)}` : ""}</span>`
+                  : `<span class="tag ${x.mcRight === x.mcTotal ? "ok" : "pend"}">選擇 ${x.mcScore}/${x.mcMax}．對 ${x.mcRight}/${x.mcTotal}</span>`;
+              })()}</div>
               ${x.wrongs.length ? `<div class="muted" style="font-size:0.8rem">✗ ${x.wrongs.map(w => `第${w.n}題 ${w.point}（你選 ${w.user}，答案 ${w.answer}）`).join("；")}</div>` : `<div class="muted" style="font-size:0.8rem">全對 🎉</div>`}
             </div>`).join("") : ""}
         </div>`;
