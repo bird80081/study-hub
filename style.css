@@ -474,7 +474,10 @@ textarea:focus { outline: none; border-color: var(--accent); }
    排版原則與速查表一致：表格固定欄寬＋自身橫捲，頁面本體不得橫向捲動 */
 .md-body { font-size: 0.88rem; line-height: 1.8; }
 .md-body h2 { font-size: 1.05rem; margin: 22px 0 8px; padding-left: 10px;
-  border-left: 3px solid var(--accent); }
+  border-left: 3px solid var(--accent);
+  /* 覆寫全域 h2 的 inline-block＋螢光筆：那是為 app 內短標題設計的，
+     長文標題一換行螢光筆只會吃到最後一行，看起來像壞掉 */
+  display: block; background: none; }
 .md-body h3 { font-size: 0.95rem; margin: 18px 0 6px; }
 .md-body h4 { font-size: 0.88rem; margin: 14px 0 4px; color: var(--muted); }
 .md-body p { margin: 8px 0; }

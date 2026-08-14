@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>筆記閱讀・隨身讀書館</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+/* 獨立長文閱讀頁。沿用 style.css 的手帳文具風變數，只改版面——
+   app 殼是 #app{max-width:560px} 的手機單欄，桌機讀長文會浪費一半螢幕。
+   三段式：側欄索引／閱讀欄／頁內目錄，依寬度逐段收合。 */
+body { min-height: 100vh; }
+
+/* 字體分工：文楷是 app 的聲音，用於標題與正文；表格與介面用系統黑體，
+   密集資料要的是字面寬度一致與 tabular-nums，不是手寫感 */
+.ui, .tw table, .chip, .crumb { font-family: "PingFang TC", "Noto Sans CJK TC", system-ui, sans-serif; }
+.tw table td, .tw table th { font-variant-numeric: tabular-nums; }
+
+.shell { display: grid; grid-template-columns: 264px minmax(0, 1fr) 208px; align-items: start; }
+
+/* ── 側欄 ── */
+.rail {
+  position: sticky; top: 0; height: 100vh; overflow-y: auto;
+  padding: 20px 16px 40px; background: var(--card); border-right: 1px solid var(--line);
+}
+.brand { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+.brand b { font-size: 1.05rem; }
+.brand a { font-size: .74rem; color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--line); }
+.brand a:hover { color: var(--accent); }
+.tagline { font-size: .72rem; color: var(--muted); margin-bottom: 14px; }
+.q {
+  width: 100%; padding: 9px 11px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--text); font: inherit; font-size: .85rem;
+}
+.q:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: transparent; }
+.grp { margin-top: 16px; }
+.grp > b {
+  display: block; font-size: .68rem; letter-spacing: .16em; color: var(--muted);
+  margin-bottom: 6px; padding-left: 2px;
+}
+/* 紙膠帶：分組標題的貼紙感，沿用 app 既有的 --tape 變數 */
+.grp > b::before {
+  content: ""; display: inline-block; width: 16px; height: 7px; margin-right: 6px;
+  background: var(--tape); transform: rotate(-4deg); vertical-align: middle;
+}
+.grp:nth-of-type(even) > b::before { background: var(--tape2); }
+a.item {
+  display: block; padding: 8px 10px; border-radius: 7px; text-decoration: none;
+  color: var(--text); font-size: .86rem; line-height: 1.5;
+  border-left: 3px solid transparent;
+}
+a.item:hover { background: var(--accent-soft); }
+a.item[aria-current="true"] { background: var(--accent-soft); border-left-color: var(--accent); font-weight: 700; }
+a.item em { display: block; font-style: normal; font-size: .72rem; color: var(--muted); margin-top: 2px; }
+a.item mark, .hit mark { background: var(--marker); color: var(--text); padding: 0 2px; border-radius: 2px; }
+.hit { font-size: .72rem; color: var(--muted); margin-top: 4px; line-height: 1.55; }
+.none { font-size: .8rem; color: var(--muted); padding: 14px 2px; }
+
+/* ── 閱讀欄 ── */
+.main { padding: 32px 44px 96px; min-width: 0; }
+.reading { max-width: 74ch; }
+.crumb { font-size: .72rem; color: var(--muted); margin-bottom: 10px; }
+.head { border-bottom: 2px solid var(--text); padding-bottom: 12px; margin-bottom: 24px; }
+.head h1 { font-size: 1.75rem; line-height: 1.35; text-wrap: balance; margin-bottom: 8px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: .74rem; color: var(--muted); }
+.chip { border: 1px solid var(--line); border-radius: 99px; padding: 2px 10px; }
+.chip.on { border-color: var(--accent); color: var(--accent); }
+
+/* ── 頁內目錄 ── */
+.toc { position: sticky; top: 0; max-height: 100vh; overflow-y: auto; padding: 34px 18px 40px 4px; }
+.toc b { display: block; font-size: .68rem; letter-spacing: .16em; color: var(--muted); margin-bottom: 8px; }
+.toc a {
+  display: block; padding: 4px 8px; font-size: .76rem; color: var(--muted);
+  text-decoration: none; border-left: 2px solid var(--line); line-height: 1.5;
+}
+.toc a:hover { color: var(--accent); border-left-color: var(--accent); }
+.toc a.on { color: var(--text); border-left-color: var(--accent); font-weight: 700; }
+
+/* ── 內文排版 ── */
+.md-body { font-size: .95rem; line-height: 1.85; }
+.md-body h2 {
+  font-size: 1.2rem; margin: 34px 0 10px; padding-left: 12px;
+  border-left: 4px solid var(--accent); scroll-margin-top: 20px;
+  /* 覆寫全域 h2 的 inline-block＋螢光筆漸層——長標題換行時只會標到最後一行。
+     這一頁的層級靠左側色條表達，螢光筆保留給 ⚠ 曾錯考點，語意才不會撞。 */
+  display: block; background: none; padding-right: 0;
+}
+.md-body h3 { font-size: 1.03rem; margin: 24px 0 8px; }
+.md-body h4 { font-size: .93rem; margin: 18px 0 6px; color: var(--muted); }
+.md-body p { margin: 10px 0; }
+.md-body ul, .md-body ol { padding-left: 1.4em; margin: 10px 0; }
+.md-body li { margin: 5px 0; }
+.md-body hr { border: 0; border-top: 1px solid var(--line); margin: 30px 0; }
+.md-body blockquote {
+  margin: 14px 0; padding: 12px 16px; background: var(--card);
+  border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; font-size: .9rem;
+}
+.md-body blockquote p { margin: 5px 0; }
+.md-body code {
+  background: var(--accent-soft); padding: 1px 5px; border-radius: 4px; font-size: .86em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.md-body pre {
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+  padding: 12px 14px; overflow-x: auto; font-size: .8rem; line-height: 1.65;
+}
+.md-body pre code { background: none; padding: 0; }
+
+/* 表格：固定欄寬＋自身橫捲。中文可任意斷行，auto layout 會把末欄壓成一行一字 */
+.md-body .md-tw {
+  overflow-x: auto; margin: 16px 0; border: 1px solid var(--line);
+  border-radius: 8px; background: var(--card); -webkit-overflow-scrolling: touch;
+}
+.md-body .md-tw table { border-collapse: collapse; width: 100%; min-width: 540px; font-size: .84rem; table-layout: fixed; }
+.md-body .md-tw th, .md-body .md-tw td {
+  padding: 9px 12px; text-align: left; vertical-align: top;
+  border-bottom: 1px solid var(--line); word-break: break-word; line-height: 1.65;
+}
+.md-body .md-tw th { background: var(--accent-soft); color: var(--accent); font-size: .74rem; letter-spacing: .05em; }
+.md-body .md-tw tr:last-child td { border-bottom: 0; }
+.md-body .md-tw td:first-child { font-weight: 700; }
+/* ⚠ 曾錯考點＝拿螢光筆畫起來的那些，用 app 既有的 --marker */
+.md-body .md-tw tr.md-warn td:first-child {
+  background: linear-gradient(transparent 58%, var(--marker) 58%, var(--marker) 94%, transparent 94%);
+}
+
+.drawer-btn { display: none; }
+
+/* ── RWD ── */
+@media (max-width: 1180px) {          /* 收掉頁內目錄，併回內文上方 */
+  .shell { grid-template-columns: 252px minmax(0, 1fr); }
+  .toc { display: none; }
+  .main { padding: 28px 32px 90px; }
+}
+@media (max-width: 820px) {           /* 側欄改抽屜 */
+  .shell { grid-template-columns: 1fr; }
+  .rail {
+    position: fixed; inset: 0 auto 0 0; width: min(86vw, 320px); z-index: 40;
+    transform: translateX(-100%); transition: transform .22s ease; box-shadow: 0 0 40px rgba(0,0,0,.18);
+  }
+  .rail.open { transform: none; }
+  .scrim { position: fixed; inset: 0; background: rgba(0,0,0,.34); z-index: 30; display: none; }
+  .scrim.on { display: block; }
+  .drawer-btn {
+    display: inline-flex; align-items: center; gap: 6px; margin-bottom: 14px;
+    padding: 7px 13px; border: 1px solid var(--line); border-radius: 8px;
+    background: var(--card); color: var(--text); font: inherit; font-size: .82rem; cursor: pointer;
+  }
+  .main { padding: 18px 18px 80px; }
+  .head h1 { font-size: 1.35rem; }
+  .md-body { font-size: .92rem; }
+  .md-body .md-tw table { min-width: 460px; font-size: .81rem; }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+<div class="scrim" id="scrim"></div>
+<div class="shell">
+
+  <aside class="rail ui" id="rail">
+    <div class="brand"><b>筆記閱讀</b><a href="index.html">← 回讀書館</a></div>
+    <p class="tagline" id="tagline">載入中…</p>
+    <input class="q" id="q" placeholder="搜尋全部筆記…" autocomplete="off" aria-label="搜尋筆記">
+    <nav id="nav"></nav>
+  </aside>
+
+  <main class="main">
+    <button class="drawer-btn ui" id="open">☰ 筆記目錄</button>
+    <div class="reading">
+      <p class="crumb" id="crumb"></p>
+      <div class="head"><h1 id="title">…</h1><div class="chips" id="chips"></div></div>
+      <div class="md-body" id="body"></div>
+    </div>
+  </main>
+
+  <aside class="toc ui" id="toc"></aside>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const GROUPS = [["索引", "索引"], ["背", "考場前背這幾份"], ["查", "查用．不背"], ["診斷", "診斷紀錄"]];
+let DOCS = [], cur = null;
+
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const hi = (s, q) => !q ? esc(s)
+  : esc(s).replace(new RegExp("(" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")", "gi"), "<mark>$1</mark>");
+
+function renderNav(q = "") {
+  const t = q.trim().toLowerCase();
+  const hit = d => !t || (d.title + " " + d.text).toLowerCase().includes(t);
+  const list = DOCS.filter(hit);
+  if (!list.length) { $("#nav").innerHTML = `<p class="none">找不到「${esc(q)}」</p>`; return; }
+  $("#nav").innerHTML = GROUPS.map(([key, label]) => {
+    const items = list.filter(d => d.tag === key);
+    if (!items.length) return "";
+    return `<div class="grp"><b>${label}</b>` + items.map(d => {
+      let frag = "";
+      if (t) {
+        const i = d.text.toLowerCase().indexOf(t);
+        if (i >= 0) frag = `<div class="hit">…${hi(d.text.slice(Math.max(0, i - 22), i + 52), q)}…</div>`;
+      }
+      return `<a class="item" href="#${encodeURIComponent(d.file)}"
+        aria-current="${d.file === cur ? "true" : "false"}">${hi(d.title, q)}
+        <em>${esc(d.blurb)}</em>${frag}</a>`;
+    }).join("") + `</div>`;
+  }).join("");
+}
+
+function renderDoc(file) {
+  const d = DOCS.find(x => x.file === file) || DOCS[0];
+  if (!d) return;
+  cur = d.file;
+  $("#crumb").textContent = `筆記 ／ ${d.tag}`;
+  $("#title").textContent = d.title;
+  $("#chips").innerHTML = `<span class="chip on">${esc(d.tag)}</span>
+    <span>${esc(d.blurb)}</span><span class="chip">${esc(d.file)}</span>`;
+  $("#body").innerHTML = d.html;
+
+  // 頁內目錄由 h2 現場生成——sync_notes.py 只負責渲染，錨點屬於這一頁的事
+  const hs = [...$("#body").querySelectorAll("h2")];
+  hs.forEach((h, i) => h.id = "s" + i);
+  $("#toc").innerHTML = hs.length
+    ? `<b>本篇章節</b>` + hs.map((h, i) => `<a href="#s${i}" data-i="${i}">${esc(h.textContent)}</a>`).join("")
+    : "";
+  renderNav($("#q").value);
+  window.scrollTo(0, 0);
+  spy();
+}
+
+// 目前讀到哪一節：捲動時把對應目錄項標起來
+let ticking = false;
+function spy() {
+  const hs = [...$("#body").querySelectorAll("h2")];
+  const links = [...$("#toc").querySelectorAll("a")];
+  if (!hs.length) return;
+  let idx = 0;
+  hs.forEach((h, i) => { if (h.getBoundingClientRect().top <= 90) idx = i; });
+  links.forEach((a, i) => a.classList.toggle("on", i === idx));
+}
+addEventListener("scroll", () => {
+  if (ticking) return;
+  ticking = true; requestAnimationFrame(() => { spy(); ticking = false; });
+}, { passive: true });
+
+function drawer(open) {
+  $("#rail").classList.toggle("open", open);
+  $("#scrim").classList.toggle("on", open);
+}
+$("#open").addEventListener("click", () => drawer(true));
+$("#scrim").addEventListener("click", () => drawer(false));
+$("#q").addEventListener("input", e => renderNav(e.target.value));
+addEventListener("hashchange", () => {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (h && h.endsWith(".md")) { renderDoc(h); drawer(false); }
+});
+addEventListener("keydown", e => {
+  if (e.key === "Escape") drawer(false);
+  if (e.key === "/" && document.activeElement !== $("#q")) { e.preventDefault(); $("#q").focus(); }
+});
+
+fetch("data/notes-long.json", { cache: "no-store" })
+  .then(r => r.json())
+  .then(list => {
+    DOCS = list;
+    const chars = DOCS.reduce((n, d) => n + d.text.length, 0);
+    $("#tagline").textContent = `${DOCS.length} 份筆記．約 ${Math.round(chars / 1000)}k 字．按 / 搜尋`;
+    const h = decodeURIComponent(location.hash.slice(1));
+    renderDoc(h && h.endsWith(".md") ? h : DOCS[0].file);
+  })
+  .catch(() => { $("#tagline").textContent = "讀不到 data/notes-long.json"; });
+</script>
+</body>
+</html>

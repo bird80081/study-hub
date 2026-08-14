@@ -1,6 +1,6 @@
 /* 離線快取：安裝時抓核心檔與題庫，之後網路優先、失敗用快取（公車斷網也能考） */
-const CACHE = "studyhub-v8";
-const CORE = ["./", "index.html", "style.css", "app.js", "manifest.json", "exams/index.json", "data/vocab.json", "data/notes.json"];
+const CACHE = "studyhub-v9";
+const CORE = ["./", "index.html", "style.css", "app.js", "manifest.json", "exams/index.json", "data/vocab.json", "data/notes.json", "notes.html", "data/notes-long.json"];
 
 self.addEventListener("install", e => {
   e.waitUntil(
