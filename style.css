@@ -434,11 +434,17 @@ textarea:focus { outline: none; border-color: var(--accent); }
 
 /* 筆記表格模式 */
 .note-table-wrap { overflow-x: auto; margin-top: 8px; -webkit-overflow-scrolling: touch; }
-.note-table { border-collapse: collapse; width: 100%; font-size: 0.82rem; }
+.note-table { border-collapse: collapse; width: 100%; font-size: 0.82rem; table-layout: fixed; }
+/* 固定欄寬：中文可任意斷行，auto layout 會把「備註」欄的最小寬度算成近乎零，
+   實測整欄被壓成一行一個字。三欄比例固定後才讀得下去。 */
+.note-table col.c-point { width: 26%; }
+.note-table col.c-value { width: 40%; }
+.note-table col.c-note  { width: 34%; }
 .note-table th, .note-table td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .note-table th { font-size: 0.75rem; color: var(--muted); font-weight: 700; white-space: nowrap; }
-.note-table td:first-child { font-weight: 700; white-space: nowrap; }
-.note-table td:nth-child(2) { min-width: 140px; }
+.note-table td { word-break: break-word; line-height: 1.55; }
+/* 原為 white-space: nowrap——長考點會把第一欄撐開，擠掉後兩欄，是欄寬崩壞的主因 */
+.note-table td:first-child { font-weight: 700; }
 .note-table .warn-row td:first-child { color: var(--warn); }
 
 /* 條文區塊 */

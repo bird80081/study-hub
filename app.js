@@ -1580,6 +1580,7 @@ async function showNotesTab() {
         </div>
         ${open ? (notesTable
           ? `<div class="note-table-wrap"><table class="note-table">
+              <colgroup><col class="c-point"><col class="c-value"><col class="c-note"></colgroup>
               <thead><tr><th>考點</th><th>內容</th><th>備註</th></tr></thead>
               <tbody>${items.map(x => `<tr class="${x.warn ? "warn-row" : ""}">
                 <td>${x.warn ? "⚠ " : ""}${x.point}</td>
