@@ -2305,5 +2305,77 @@
    "2": 102,
    "3": 17
   }
+ },
+ "2026-08-14": {
+  "date": "2026-08-14",
+  "drill": {
+   "count": 28,
+   "wrong": [
+    {
+     "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
+     "subject": "英文",
+     "point": "模考0807-38 主詞動詞一致與時態",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-14",
+     "userText": "has occurred"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
+     "subject": "英文",
+     "point": "模考0807-15 eliminate",
+     "stem": "The new sorting machine helps _____ human error in the delivery process.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-14",
+     "userText": "accumulate"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "title": "郵政法規仿真卷 B（全科第3場）",
+    "subject": "郵政法規",
+    "mcScore": 84,
+    "mcMax": 100,
+    "mcRight": 42,
+    "mcTotal": 50
+   },
+   {
+    "title": "英文仿真卷 B（全科第3場）",
+    "subject": "英文",
+    "mcScore": 58,
+    "mcMax": 100,
+    "mcRight": 29,
+    "mcTotal": 50
+   },
+   {
+    "title": "民法仿真卷 B（全科第3場）",
+    "subject": "民法",
+    "mcScore": 40,
+    "mcMax": 50,
+    "mcRight": 16,
+    "mcTotal": 20
+   },
+   {
+    "title": "國文仿真卷 B（全科第3場）",
+    "subject": "國文",
+    "mcScore": 30,
+    "mcMax": 40,
+    "mcRight": 15,
+    "mcTotal": 20
+   }
+  ],
+  "vocab": {
+   "done": 15,
+   "right": 15
+  },
+  "vocabStages": {
+   "0": 2,
+   "1": 12,
+   "2": 8,
+   "3": 0
+  }
  }
 }
