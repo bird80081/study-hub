@@ -122,9 +122,12 @@ a.item mark, .hit mark { background: var(--marker); color: var(--text); padding:
 .md-body .md-tw th { background: var(--accent-soft); color: var(--accent); font-size: .74rem; letter-spacing: .05em; }
 .md-body .md-tw tr:last-child td { border-bottom: 0; }
 .md-body .md-tw td:first-child { font-weight: 700; }
-/* ⚠ 曾錯考點＝拿螢光筆畫起來的那些，用 app 既有的 --marker */
-.md-body .md-tw tr.md-warn td:first-child {
-  background: linear-gradient(transparent 58%, var(--marker) 58%, var(--marker) 94%, transparent 94%);
+/* ⚠ 曾錯考點：螢光筆畫在「文字」上而非儲存格方框上。
+   box-decoration-break:clone 讓筆觸跟著每一行走，多行也不會斷成一塊色塊。 */
+.md-hl {
+  background: linear-gradient(transparent 55%, var(--marker) 55%, var(--marker) 92%, transparent 92%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  padding: 0 2px;
 }
 
 .drawer-btn { display: none; }

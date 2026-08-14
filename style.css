@@ -500,4 +500,10 @@ textarea:focus { outline: none; border-color: var(--accent); }
   border-bottom: 1px solid var(--line); word-break: break-word; line-height: 1.6; }
 .md-tw th { font-size: 0.72rem; color: var(--muted); font-weight: 700; }
 .md-tw td:first-child { font-weight: 700; }
-.md-tw tr.md-warn td:first-child { color: var(--warn); }
+/* ⚠ 曾錯考點：螢光筆畫在「文字」上而非儲存格方框上。
+   box-decoration-break:clone 讓筆觸跟著每一行走，多行也不會斷成一塊色塊。 */
+.md-hl {
+  background: linear-gradient(transparent 55%, var(--marker) 55%, var(--marker) 92%, transparent 92%);
+  -webkit-box-decoration-break: clone; box-decoration-break: clone;
+  padding: 0 2px;
+}
