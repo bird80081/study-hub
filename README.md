@@ -40,7 +40,7 @@ GitHub Pages 重新部署（約 1～2 分鐘）
 
 | Key | 裝什麼 |
 | :-- | :-- |
-| `hub.drill.wrong.v1` | 錯題本（`exported` 旗標標記是否已回流；`snap` 存題目快照供「只刷錯題」重建，兩者都不進匯出）|
+| `hub.drill.wrong.v1` | 錯題本（`exported` 旗標標記是否已回流；`snap` 存題目快照供「只刷錯題」重建。兩者本身都不進匯出，但 **2026-08-15 起 `snap.options` 會以 `options` 欄帶進匯出**——Mac 端建 Notion 條目時題庫查不到 id 就沒有選項可寫，該筆從此無源，稽核當日英文庫到期 71 題有 52 題如此）|
 | `hub.drill.daily.v1` | 每日刷題數 |
 | `hub.drill.seen.v1` | 每題出現次數（避免重複出題） |
 | `hub.drill.cfg.v1` / `hub.drill.state.v1` | 刷題設定、中斷續作 |

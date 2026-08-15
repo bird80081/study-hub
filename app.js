@@ -522,7 +522,13 @@ function drillSnap(q) { return { options: q.options, explain: q.explain }; }
 // （2026-08-10 稽核：訂正庫 39 筆可核對條目中有 8 筆因此標錯正解）。附上原文才對得回去。
 function stripWrong({ exported, snap, ...w }) {
   const t = snap && snap.options["ABCD".indexOf(w.user)];
-  return t ? { ...w, userText: t } : w;
+  // options 一併帶出（2026-08-15 新增）。原本 snap 整包被解構丟掉，Mac 端建英文庫條目時
+  // 只要題庫查不到 id 就沒有選項可寫，該筆從此無源——稽核當日英文庫到期 71 題有 52 題如此，
+  // 其中 39 題連本機三條救援路徑都還原不回題面。
+  // ⚠ snap.options 與 w.answer／w.user 是同一輪洗牌的結果，三者必須整組一起用，
+  //   不得把 options 拿去搭題庫順序的字母（2026-08-10 曾因此標錯 8 筆正解）。
+  const out = snap ? { ...w, options: snap.options } : { ...w };
+  return t ? { ...out, userText: t } : out;
 }
 function drillWrongToQ(w) {
   return { id: w.id, subject: w.subject, point: w.point, stem: w.stem,
