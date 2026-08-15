@@ -2734,7 +2734,8 @@
      "reason": "原正解採已被 112 台上大字 544 推翻之舊見解，使用者作答正確"
     }
    ],
-   "voidNote": "作廢題不計入 drill.wrong，故不影響 gen_recycle 的累計答錯次數分級（硬規則 7 回收卷例外）"
+   "voidNote": "作廢題不計入 drill.wrong，故不影響 gen_recycle 的累計答錯次數分級（硬規則 7 回收卷例外）",
+   "settledAt": "2026-08-15T10:05:00（補標：本日銷帳已於加鎖前執行）"
   },
   "exams": [],
   "vocab": {
