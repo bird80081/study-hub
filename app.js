@@ -516,7 +516,9 @@ function shuffleOptions(q) {
 // 錯題本自帶的題目快照。回收卷每天重產，隔天該題就從 pools/recycle.json 消失，
 // 只靠題庫撈會變成永遠刷不到的孤兒；快照讓錯題本不依賴題庫檔也能重建題目。
 // snap.options 與項目的 answer 是同一輪洗牌的結果，兩者必須一起寫入。
-function drillSnap(q) { return { options: q.options, explain: q.explain }; }
+// passage 一併存（2026-08-15）：文意選填／克漏字／閱讀的題幹只有「第 N 格」，
+// 文章在 passage 欄；不存進快照，「只刷錯題」重建出來的就是一題沒有本文的題目。
+function drillSnap(q) { return { options: q.options, explain: q.explain, passage: q.passage || "" }; }
 // 匯出用：拿掉內部欄位，並把「你選」補上選項原文。
 // user 是當輪洗牌後的字母，Notion 那邊的選項卻是照題庫原順序寫的，只給字母會對到別題選項
 // （2026-08-10 稽核：訂正庫 39 筆可核對條目中有 8 筆因此標錯正解）。附上原文才對得回去。
@@ -532,7 +534,8 @@ function stripWrong({ exported, snap, ...w }) {
 }
 function drillWrongToQ(w) {
   return { id: w.id, subject: w.subject, point: w.point, stem: w.stem,
-           options: w.snap.options, answer: w.answer, explain: w.snap.explain };
+           options: w.snap.options, answer: w.answer, explain: w.snap.explain,
+           passage: w.snap.passage || "" };
 }
 async function startDrillWrong() {
   if (!poolIndex) poolIndex = await (await fetch("pools/index.json", { cache: "no-store" })).json();
@@ -582,6 +585,7 @@ function showDrillQ() {
     </div>
     ${answered ? `<div class="q-num">${q.point}</div>` : ""}
     ${q.retest ? `<div class="retest-tag">🔁 ${q.retest}</div>` : ""}
+    ${passageBox(q)}
     <div class="q-stem">${linkifyEnglish(q.stem)}</div>
     ${q.options.map((opt, i) => {
       const label = "ABCD"[i];
