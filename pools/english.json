@@ -1872,6 +1872,97 @@
    ],
    "answer": "D",
    "explain": "apply to 表「適用於」，主詞為規定、費率等。apply for 表「申請」，主詞為人、受詞為職位或許可；apply with 與 apply on 皆非慣用搭配。"
+  },
+  {
+   "id": "en145",
+   "point": "連接詞：目的接原形",
+   "stem": "The supervisor rechecked every barcode ______ prevent misrouting during the night shift.",
+   "options": [
+    "because of",
+    "in order to",
+    "so that",
+    "despite"
+   ],
+   "answer": "B",
+   "explain": "空格後是原形動詞 prevent，只有 in order to／so as to／to 能接原形。so that 要接完整子句；because of 與 despite 要接名詞。判斷動作：先看空格後面是子句、原形還是名詞，再談語意。"
+  },
+  {
+   "id": "en146",
+   "point": "連接詞：unless 含否定",
+   "stem": "______ the customs form is filled out completely, the parcel cannot be shipped abroad.",
+   "options": [
+    "Unless",
+    "If",
+    "Because",
+    "So that"
+   ],
+   "answer": "A",
+   "explain": "中文先說一遍：「如果沒有完整填寫報關單，包裹就不能寄出國」——句中有「沒有」。unless 本身等於 if not，否定包在字裡；用 If 會漏掉否定，語意變成「填完整就不能寄」，矛盾。判斷動作：中文說出來，數有沒有「沒有」。"
+  },
+  {
+   "id": "en147",
+   "point": "連接詞：as long as 肯定條件",
+   "stem": "______ the tracking number is still valid, the counter can reprint the receipt for you.",
+   "options": [
+    "Unless",
+    "As far as",
+    "As long as",
+    "As soon as"
+   ],
+   "answer": "C",
+   "explain": "中文是「只要追蹤號碼還有效，櫃檯就能補印收據」——「只要」是肯定條件，用 as long as。unless 是「除非／如果沒有」，正負號相反。as far as 表範圍、as soon as 表時間，都不是條件類。"
+  },
+  {
+   "id": "en148",
+   "point": "連接詞：條件非目的",
+   "stem": "The refund will be issued this week ______ the damaged item is returned by Friday.",
+   "options": [
+    "so that",
+    "in order to",
+    "in spite of",
+    "as long as"
+   ],
+   "answer": "D",
+   "explain": "「只要週五前寄回損壞商品，本週就會退款」——退款以退回商品為條件，不是為了達成退回。so that 表目的，代回去會變成「為了讓商品被退回而退款」，因果顛倒。in order to 要接原形；in spite of 要接名詞。"
+  },
+  {
+   "id": "en149",
+   "point": "連接詞：讓步接名詞",
+   "stem": "______ the shortage of staff, every parcel was still sorted before midnight.",
+   "options": [
+    "Despite",
+    "Because of",
+    "Although",
+    "So that"
+   ],
+   "answer": "A",
+   "explain": "判斷動作：前半句讓人預期什麼？人手不足→預期會延遲。實際「仍在午夜前分揀完畢」→預期落空→讓步。空格後是名詞片語，讓步類接名詞的是 despite／in spite of；although 要接子句。主句的 still 是讓步的字面線索。"
+  },
+  {
+   "id": "en150",
+   "point": "連接詞：讓步接子句",
+   "stem": "______ the branch upgraded its scanners last year, staff still record fragile items by hand.",
+   "options": [
+    "Because",
+    "In spite of",
+    "Although",
+    "As soon as"
+   ],
+   "answer": "C",
+   "explain": "升級掃描器→預期人工紀錄減少；實際 still record by hand→預期落空→讓步。空格後是完整子句，讓步接子句用 although／though／even though；in spite of 要接名詞。用 because 會變成「因為升級所以仍手寫」，矛盾。"
+  },
+  {
+   "id": "en151",
+   "point": "片語：be supposed to",
+   "stem": "According to the notice, all counters ______ to close at six during the holiday.",
+   "options": [
+    "suppose",
+    "are supposed",
+    "supposing",
+    "have supposed"
+   ],
+   "answer": "B",
+   "explain": "be supposed to＋原形＝「應該、按規定要」，形狀固定：supposed 永遠有 -ed、永遠不主動，會變的只有前面的 be 動詞（is／are／was／were）。主動的 suppose 意思是「認為、猜想」，counters 是無生命主詞，不能「認為」任何事。判斷動作：中文想說「應該／要」就整組寫下 ___ supposed to，再決定 be 動詞。"
   }
  ]
 }
