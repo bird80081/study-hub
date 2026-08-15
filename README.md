@@ -62,9 +62,8 @@ GitHub Pages 重新部署（約 1～2 分鐘）
 | :-- | :-- | :-- |
 | `data/progress.json` | ✅ 首頁待辦 | 每日固定項目＋各日期的回收清單 |
 | `data/vocab.json` | ✅ | 單字庫（含詞性、例句、音檔對應） |
-| `data/notes.json` | ✅ | 筆記 |
+| `data/notes.json` | ✅ | 筆記速查（`subject` 科目 →`law` 分區 →`group` 組；英文文法通則的例句放 `ex`） |
 | `data/essay.json` | ✅ | 作文素材 |
-| `data/grammar.json` | ✅ | 文法重點 |
 | `pools/` `exams/` `reviews/` | ✅ | 題庫、考卷、詳解 |
 | `data/records.json` | ❌ **不讀** | 純歷史存檔，給日後回顧與分析用 |
 

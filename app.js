@@ -1200,7 +1200,6 @@ function speak(text) {
   }
   ttsSpeak(text);
 }
-let grammar = null, gOpen = {};
 const LS_VOCAB_CUSTOM = "hub.vocab.custom.v1";
 function customVocab() { try { return JSON.parse(localStorage.getItem(LS_VOCAB_CUSTOM)) || []; } catch { return []; } }
 function allVocab() {
@@ -1263,7 +1262,6 @@ function exportCustomWords() {
 async function showVocabTab() {
   if (!vocab) vocab = await (await fetch("data/vocab.json", { cache: "no-store" })).json();
   pruneCustomWords();
-  if (!grammar) { try { grammar = await (await fetch("data/grammar.json", { cache: "no-store" })).json(); } catch { grammar = []; } }
   const st = vStages();
   const av = allVocab();
   const mastered = av.filter(v => st[v.w] === 3).length;
@@ -1281,21 +1279,10 @@ async function showVocabTab() {
       </div>
       <div id="vocab-list" style="margin-top:8px"></div>
     </div>
-    <h2>文法重點</h2>
-    ${grammar.map((g, gi) => `
-    <div class="card">
-      <div class="note-group" onclick="gOpen[${gi}]=!gOpen[${gi}];showVocabTab()">
-        <strong>${g.group}</strong>
-        <span class="muted">${g.items.length} 則 ${gOpen[gi] ? "▾" : "▸"}</span>
-      </div>
-      ${gOpen[gi] ? g.items.map(it => `
-        <div class="note-item">
-          <div class="note-point">${it.topic}</div>
-          <div class="note-value" style="font-size:0.92rem">${it.rule}</div>
-          <div class="explain" style="margin-top:6px">${it.examples.join("\n")}</div>
-          <div class="muted" style="font-size:0.8rem;margin-top:4px">💡 ${it.trap}</div>
-        </div>`).join("") : ""}
-    </div>`).join("")}`;
+    <div class="card tappable" onclick="notesSubject='英文';notesView='notes';switchTab('notes')">
+      <strong>📖 英文文法 → 筆記分頁</strong>
+      <p class="muted" style="margin:4px 0 0">文法通則與 8/14 錯題速記都在筆記的英文科目底下。這一頁只管單字。</p>
+    </div>`;
   renderVocabList();
 }
 let vOpen = null, vListShow = false;
@@ -1577,7 +1564,12 @@ function noteMd(t) {
 }
 function noteHit(x, g, q) {
   const t = q.trim().toLowerCase();
-  return [x.point, x.value, x.note, g.group].filter(Boolean).join(" ").toLowerCase().includes(t);
+  return [x.point, x.value, x.note, g.group, ...(x.ex || [])].filter(Boolean).join(" ").toLowerCase().includes(t);
+}
+// ex：例句陣列，2026-08-15 從單字頁的 grammar.json 併過來時加的欄位。
+// 只有文法通則用得到，其他筆記靠 point/value 就夠，沒有此欄的條目維持原樣。
+function noteEx(x) {
+  return x.ex && x.ex.length ? `<div class="explain" style="font-size:0.85rem">${x.ex.map(noteMd).join("\n")}</div>` : "";
 }
 let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = window.innerWidth >= 700;
 async function showNotesTab() {
@@ -1625,7 +1617,7 @@ async function showNotesTab() {
               <thead><tr><th>考點</th><th>內容</th><th>備註</th></tr></thead>
               <tbody>${items.map(x => `<tr class="${x.warn ? "warn-row" : ""}">
                 <td>${x.warn ? "⚠ " : ""}${x.point}</td>
-                <td>${noteMd(x.value)}</td>
+                <td>${noteMd(x.value)}${noteEx(x)}</td>
                 <td class="muted">${noteMd(x.note)}</td>
               </tr>`).join("")}</tbody>
             </table></div>`
@@ -1633,6 +1625,7 @@ async function showNotesTab() {
           <div class="note-item ${x.warn ? "warn-item" : ""}">
             <div class="note-point">${x.warn ? "⚠ " : ""}${x.point}</div>
             <div class="note-value">${noteMd(x.value)}</div>
+            ${noteEx(x)}
             ${x.note ? `<div class="muted" style="font-size:0.8rem">${noteMd(x.note)}</div>` : ""}
           </div>`).join("")) : ""}
       </div>`;
