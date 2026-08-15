@@ -1,729 +1,729 @@
 {
-  "title": "英文仿真卷 A（全科第2場）",
-  "subject": "英文",
-  "minutes": 60,
-  "sections": [
-    {
-      "name": "字彙",
-      "count": 15,
-      "points": 2
-    },
-    {
-      "name": "文法",
-      "count": 15,
-      "points": 2
-    },
-    {
-      "name": "克漏字",
-      "count": 10,
-      "points": 2
-    },
-    {
-      "name": "閱讀",
-      "count": 10,
-      "points": 2
-    }
-  ],
-  "questions": [
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：unwillingly（回收）",
-      "stem": "Although the clerk was already off duty, he _____ returned to the counter to help the elderly customer.",
-      "options": [
-        "willing",
-        "willingly",
-        "unwilling",
-        "unwillingly"
-      ],
-      "answer": "D",
-      "explain": "unwillingly 為副詞，意為『不情願地』，修飾動詞 returned，符合『雖然已下班』的轉折語氣。willingly 語意相反；unwilling 與 willing 皆為形容詞，不能修飾動詞。第 1 場模考此字答錯，本題換為郵局櫃檯情境重出。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：population（回收）",
-      "stem": "The town's _____ has dropped sharply in the past decade, and many post offices there have been closed.",
-      "options": [
-        "pollution",
-        "popularity",
-        "publication",
-        "population"
-      ],
-      "answer": "D",
-      "explain": "population 意為『人口』，與 dropped sharply、post offices closed 語意相符。pollution 是污染、publication 是出版品、popularity 是受歡迎程度，三者皆為形近或音近誘答。第 1 場模考誤選 pollution，本題保留同組形近字重測。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：emergency（回收）",
-      "stem": "Due to engine trouble, the pilot was forced to make an _____ landing at the nearest airport.",
-      "options": [
-        "emergent",
-        "urgency",
-        "emerging",
-        "emergency"
-      ],
-      "answer": "D",
-      "explain": "emergency landing 為固定搭配，指『緊急降落』，emergency 在此作名詞當形容詞用。urgency 指緊迫性但無此搭配；emerging 意為新興的；emergent 雖有緊急之意，但不與 landing 搭配。第 1 場模考此題答錯，屬固定搭配須整組記憶。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：instead（回收）",
-      "stem": "The express delivery was not available that day, so we sent the documents by registered mail _____.",
-      "options": [
-        "besides",
-        "therefore",
-        "otherwise",
-        "instead"
-      ],
-      "answer": "D",
-      "explain": "instead 置於句尾意為『改為、作為替代』，呼應前句快捷不可用而改用掛號。besides 意為此外、otherwise 意為否則、therefore 意為因此，均不符替代語意。第 1 場模考此字錯在句尾用法，本題維持句尾位置重測。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：departure（回收）",
-      "stem": "Passengers are advised to check the _____ time on the screen, as the schedule may change without notice.",
-      "options": [
-        "depart",
-        "dependent",
-        "department",
-        "departure"
-      ],
-      "answer": "D",
-      "explain": "departure time 為固定搭配，指『出發時間』；departure 為名詞。depart 是動詞、department 是部門、dependent 是依賴的，三者為形近字誘答。第 1 場模考誤判此字，形近字組須一併記憶。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：recipient（回收）",
-      "stem": "The parcel could not be delivered because the _____ had moved to another city without leaving a new address.",
-      "options": [
-        "receipt",
-        "recipe",
-        "resident",
-        "recipient"
-      ],
-      "answer": "D",
-      "explain": "recipient 意為『收件人』，符合包裹無法投遞的情境。receipt 是收據、resident 是居民、recipe 是食譜，四字形近，為 8/1 複習時整理過的易混組，本題改以無法投遞情境重測。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：fragile",
-      "stem": "Please mark the box as _____ so that the handlers will know the contents may break easily.",
-      "options": [
-        "flexible",
-        "frantic",
-        "fertile",
-        "fragile"
-      ],
-      "answer": "D",
-      "explain": "fragile 意為『易碎的』，與 may break easily 直接呼應，郵件包裝上常見標示。flexible 是有彈性的、fertile 是肥沃的、frantic 是狂亂的，三者為字首形近誘答。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：sufficient",
-      "stem": "The postage you paid is not _____; an additional NT$15 is required before the letter can be sent.",
-      "options": [
-        "efficient",
-        "superficial",
-        "significant",
-        "sufficient"
-      ],
-      "answer": "D",
-      "explain": "sufficient 意為『足夠的』，與後句須補付郵資相符。efficient 是有效率的、significant 是重大的、superficial 是表面的。efficient 與 sufficient 僅一字母之差，為典型形近誘答。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：notify",
-      "stem": "The post office will _____ you by text message as soon as your package arrives at the pickup station.",
-      "options": [
-        "notice",
-        "notify",
-        "note",
-        "notation"
-      ],
-      "answer": "B",
-      "explain": "notify 為及物動詞，意為『通知（某人）』，可直接接受詞 you。notice 作動詞時意為注意到，語意不符；note 是記下；notation 是記號、標記法。notify sb. of sth. 亦為常見搭配。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：reliable",
-      "stem": "Because the courier has never lost a single item, the company considers him highly _____.",
-      "options": [
-        "reliable",
-        "reluctant",
-        "relevant",
-        "religious"
-      ],
-      "answer": "A",
-      "explain": "reliable 意為『可靠的』，與從未遺失任何物品之敘述相符。reluctant 是不情願的、relevant 是相關的、religious 是宗教的，四字皆以 rel- 開頭，為形近字組。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：resume",
-      "stem": "After the typhoon warning was lifted, mail delivery to the mountain area will _____ tomorrow morning.",
-      "options": [
-        "resume",
-        "consume",
-        "assume",
-        "presume"
-      ],
-      "answer": "A",
-      "explain": "resume 意為『恢復、重新開始』，符合颱風警報解除後恢復投遞之語意。assume 是假定、consume 是消耗、presume 是推測，四字同字根不同字首，為高頻形近組。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：priority",
-      "stem": "Registered letters are given _____ over ordinary mail during the busy season.",
-      "options": [
-        "priority",
-        "property",
-        "prosperity",
-        "publicity"
-      ],
-      "answer": "A",
-      "explain": "priority 意為『優先權』，give priority over 指優先於某物處理。property 是財產、prosperity 是繁榮、publicity 是宣傳，三者為字形相近之誘答。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：estimate",
-      "stem": "Could you _____ how long it will take for the parcel to reach Japan by sea mail?",
-      "options": [
-        "estimate",
-        "eliminate",
-        "illustrate",
-        "imitate"
-      ],
-      "answer": "A",
-      "explain": "estimate 意為『估計』，符合詢問所需時間之語意。eliminate 是消除、illustrate 是說明圖解、imitate 是模仿。注意本題問的是時間長度，若改問頻率則須用 how often 回答，此為第 1 場對話題之錯點延伸。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：complaint",
-      "stem": "The customer filed a formal _____ about the damaged goods and asked for compensation.",
-      "options": [
-        "compliment",
-        "complaint",
-        "complement",
-        "completion"
-      ],
-      "answer": "B",
-      "explain": "complaint 意為『抱怨、申訴』，file a complaint 為固定搭配。compliment 是讚美、complement 是補充物、completion 是完成，四字形近且 compliment 與 complaint 語意相反，為高鑑別度誘答。"
-    },
-    {
-      "section": "字彙",
-      "points": 2,
-      "point": "字彙：eliminate",
-      "stem": "The new sorting machine helps _____ human error in the delivery process.",
-      "options": [
-        "accumulate",
-        "exaggerate",
-        "estimate",
-        "eliminate"
-      ],
-      "answer": "D",
-      "explain": "eliminate 意為『消除、排除』，與減少人為錯誤之語意相符。accumulate 是累積（語意相反）、estimate 是估計、exaggerate 是誇大。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：become＋形容詞（回收）",
-      "stem": "When the customer heard that his lost parcel had been found, he became _____.",
-      "options": [
-        "happily",
-        "happiness",
-        "happy",
-        "to happy"
-      ],
-      "answer": "C",
-      "explain": "become 為連綴動詞，其後接形容詞作主詞補語，故用 happy。happily 是副詞、happiness 是名詞、to happy 不成結構。第 1 場模考文意選填此點答錯，連綴動詞後接形容詞為固定規則。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：share sth. with sb.（回收）",
-      "stem": "The manager asked the new clerks to _____ their ideas with the whole team.",
-      "options": [
-        "share",
-        "divide",
-        "separate",
-        "spread"
-      ],
-      "answer": "A",
-      "explain": "share sth. with sb. 為固定搭配，意為『與某人分享某事物』。divide 是分割、separate 是分開、spread 是散播，三者皆不與 with 構成此語意。第 1 場模考此搭配答錯，本題換為職場情境重出。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：stop＋V-ing vs stop to V（回收）",
-      "stem": "The postman was so tired that he stopped _____ a short rest under the tree.",
-      "options": [
-        "taking",
-        "to take",
-        "take",
-        "taken"
-      ],
-      "answer": "B",
-      "explain": "stop to V 意為『停下來去做某事』，此處停下來是為了休息，故用不定詞。stop + V-ing 意為『停止做某事』，若填 taking 則變成『停止休息』，與 so tired 之語意矛盾。此為 8/1 複習時的錯點，本題以疲勞情境測驗語意方向。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：be sold as（回收）",
-      "stem": "These second-hand boxes are _____ packing material at a very low price.",
-      "options": [
-        "sold as",
-        "sold for",
-        "selling as",
-        "sold to"
-      ],
-      "answer": "A",
-      "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：條件句主要子句時態（回收）",
-      "stem": "If the address is incomplete, the letter _____ back to the sender.",
-      "options": [
-        "will be going to return",
-        "is going to returned",
-        "will be returned",
-        "would return"
-      ],
-      "answer": "C",
-      "explain": "條件副詞子句用現在式表未來，主要子句用 will + 原形；信件是被退回，須用被動，故為 will be returned。will be going to 為錯誤結構（will 與 be going to 不可並用）、is going to returned 缺被動之 be、would return 為與現在事實相反之語氣且語態錯誤。第 1 場模考誤選 will be going to，本題保留該錯誤結構為誘答。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：used to V vs be used to V-ing",
-      "stem": "Having worked at the counter for ten years, she is used to _____ with all kinds of customers.",
-      "options": [
-        "deal",
-        "dealt",
-        "dealing",
-        "be dealing"
-      ],
-      "answer": "C",
-      "explain": "be used to + V-ing 意為『習慣於做某事』，此處 to 為介系詞，其後接動名詞。若為 used to + 原形動詞，則意為『過去經常』，與句首 Having worked for ten years 所表達的『已習慣』語意不合。此為兩結構之核心區辨。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：too...to 結構",
-      "stem": "The package was _____ heavy for one person to carry upstairs.",
-      "options": [
-        "so",
-        "too",
-        "very",
-        "much"
-      ],
-      "answer": "B",
-      "explain": "too + 形容詞 + for sb. + to V 表『太……以致某人不能……』，符合語意。so 須搭配 that 子句、very 無此結構、much 不修飾原級形容詞。注意 too...to 本身即含否定意味，句中不再加 not。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：not only...but also 倒裝",
-      "stem": "Not only _____ the parcel arrive late, but it was also damaged.",
-      "options": [
-        "did",
-        "was",
-        "had",
-        "does"
-      ],
-      "answer": "A",
-      "explain": "Not only 置於句首時，其後子句須用倒裝，即助動詞提前。原句動詞 arrive 為一般動詞過去式，故用助動詞 did + 原形 arrive。was 與 had 不符主動詞形式；does 時態錯誤，與後半句 was 不一致。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：與過去事實相反之假設語氣",
-      "stem": "If the sender _____ the correct postal code, the letter would have arrived on time.",
-      "options": [
-        "had written",
-        "wrote",
-        "writes",
-        "has written"
-      ],
-      "answer": "A",
-      "explain": "主要子句為 would have + 過去分詞，屬與過去事實相反之假設，故條件子句須用過去完成式 had written。此結構與第 1 場考過的 wish + 過去式（與現在事實相反）分屬不同時間點，須配對記憶。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：關係代名詞 whose",
-      "stem": "The customer _____ signature was missing on the form had to come back to the post office.",
-      "options": [
-        "who",
-        "which",
-        "whose",
-        "whom"
-      ],
-      "answer": "C",
-      "explain": "先行詞 customer 與 signature 為所有關係（顧客的簽名），故用所有格關係代名詞 whose。who 為主格、whom 為受格、which 用於事物。判斷關鍵是關係詞後緊接名詞且無冠詞。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：現在分詞與過去分詞之別",
-      "stem": "The clerk found the waiting area _____ with customers during the lunch hour.",
-      "options": [
-        "crowding",
-        "crowd",
-        "to crowd",
-        "crowded"
-      ],
-      "answer": "D",
-      "explain": "be crowded with 為固定用法，表『擠滿了』，此處以過去分詞作受詞補語，描述 waiting area 被擠滿的狀態。crowding 為主動進行、to crowd 與 crowd 皆不符受詞補語結構。此點與第 1 場考過的 interesting／interested 同屬分詞形容詞判斷。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：so...that 結果子句",
-      "stem": "The line at the counter was _____ long that many customers decided to come back later.",
-      "options": [
-        "too",
-        "very",
-        "so",
-        "such"
-      ],
-      "answer": "C",
-      "explain": "so + 形容詞 + that 子句表『如此……以致於』。too 須搭配 to V、very 不引導 that 子句、such 後接名詞片語（such a long line that...）。so 與 such 之後接詞性不同，為本題主要誘答。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：had better＋原形",
-      "stem": "You _____ insure the parcel, or you will not be compensated if it gets lost.",
-      "options": [
-        "had better",
-        "would rather not",
-        "had better to",
-        "are better"
-      ],
-      "answer": "A",
-      "explain": "had better + 原形動詞，表『最好……』，其後不加 to。would rather not 語意為寧可不，與後句語意矛盾；had better to 多加 to 為錯誤結構；are better 不成句型。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：疑問詞＋不定詞",
-      "stem": "The new employee was not sure _____ the customs declaration form.",
-      "options": [
-        "how fill in",
-        "how to fill in",
-        "how filling in",
-        "how does he fill in"
-      ],
-      "answer": "B",
-      "explain": "疑問詞 + to V 可作名詞片語當受詞，how to fill in 意為『如何填寫』。how fill in 缺結構、how filling in 詞性錯誤、how does he fill in 為直接問句語序，作受詞時須改為間接問句語序。此點與第 1 場考過的間接問句相通。"
-    },
-    {
-      "section": "文法",
-      "points": 2,
-      "point": "文法：by the time＋完成式",
-      "stem": "By the time the truck reached the sorting center, the last flight _____ already.",
-      "options": [
-        "leaves",
-        "has left",
-        "had left",
-        "was leaving"
-      ],
-      "answer": "C",
-      "explain": "By the time 引導的子句為過去式（reached）時，主要子句表更早發生之動作，須用過去完成式 had left。has left 為現在完成式，與過去時間點不符；leaves 時態錯誤；was leaving 無法表達先後關係。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字一：banned from",
-      "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 31 格：",
-      "options": [
-        "banned",
-        "allowed",
-        "removed",
-        "released"
-      ],
-      "answer": "A",
-      "explain": "空格後為 from international mail for safety reasons，語意為基於安全而『被禁止』寄送，故用 be banned from。allowed 語意相反；removed 指移除已存在之物；released 指釋放，皆不符。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字一：so that 表目的",
-      "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 32 格：",
-      "options": [
-        "so that",
-        "such that",
-        "in order",
-        "because of"
-      ],
-      "answer": "A",
-      "explain": "填充空隙的目的是使內容物運送中不會移動，故用表目的之 so that 引導子句。such that 用法不同且不接目的子句；in order 須加 to 或 that；because of 表原因且後接名詞。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字一：cause＋受詞＋to V",
-      "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
-      "options": [
-        "stuck",
-        "to be stuck",
-        "being stuck",
-        "stick"
-      ],
-      "answer": "B",
-      "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字一：關係代名詞 which 指前句內容",
-      "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 34 格：",
-      "options": [
-        "what",
-        "who",
-        "which",
-        "whose"
-      ],
-      "answer": "C",
-      "explain": "先行詞為 the tracking number（事物），關係代名詞用 which，於子句中作主詞。what 不可有先行詞；who 用於人；whose 為所有格，其後須接名詞。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字一：讓步連接詞 Although",
-      "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 35 格：",
-      "options": [
-        "Because",
-        "Since",
-        "Unless",
-        "Although"
-      ],
-      "answer": "D",
-      "explain": "前後語意為『雖然這些步驟看起來麻煩，但省下的時間遠多於花費的時間』，屬讓步關係，故用 Although。Because 與 Since 表原因、Unless 表除非，皆無法連接此轉折語意。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字二：however 轉折副詞",
-      "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 36 格：",
-      "options": [
-        "therefore",
-        "however",
-        "moreover",
-        "otherwise"
-      ],
-      "answer": "B",
-      "explain": "前句說明一般人的看法，後句 suggest the opposite 為相反結論，故用轉折副詞 however。therefore 表結果、moreover 表遞進、otherwise 表否則，均不符轉折語氣。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字二：比較級搭配 than",
-      "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 37 格：",
-      "options": [
-        "good",
-        "well",
-        "better",
-        "best"
-      ],
-      "answer": "C",
-      "explain": "空格後有 than，須用比較級；修飾動詞 performed 須用副詞 well 之比較級 better。good 為形容詞原級、well 為原級副詞、best 為最高級不與 than 連用。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字二：主詞動詞一致與時態",
-      "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
-      "options": [
-        "occurs",
-        "occur",
-        "occurring",
-        "has occurred"
-      ],
-      "answer": "B",
-      "explain": "主詞 mistakes 為複數，全段陳述普遍事實用現在簡單式，故用原形 occur。occurs 為單數動詞、occurring 缺助動詞、has occurred 主詞動詞不一致且時態不符。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字二：encourage＋受詞＋to V",
-      "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 39 格：",
-      "options": [
-        "walking",
-        "walk",
-        "to walk",
-        "walked"
-      ],
-      "answer": "C",
-      "explain": "encourage + 受詞 + to V 為固定句型，故用 to walk。此結構與 ask／advise／persuade sb. to V 同型，persuade 一字為第 1 場模考錯點，可一併記憶。"
-    },
-    {
-      "section": "克漏字",
-      "points": 2,
-      "point": "克漏字二：對比連接詞 but",
-      "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 40 格：",
-      "options": [
-        "so",
-        "or",
-        "for",
-        "but"
-      ],
-      "answer": "D",
-      "explain": "前句說改變不花成本，後句說效益數週內可衡量，兩句形成對比並列，故用 but。so 表結果、for 表理由、or 表選擇，皆不符語意關係。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀一：主旨",
-      "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 41 題：What is the main purpose of this passage?",
-      "options": [
-        "To explain how a dead letter office works and what makes it unusual",
-        "To warn people against sending valuable items by mail",
-        "To compare postal systems in different countries",
-        "To argue that opening others' mail should be illegal"
-      ],
-      "answer": "A",
-      "explain": "全文先說明無著郵件之定義與處理程序，再談其特別之處在於物品背後的故事，屬說明性質。文中未警告勿寄貴重物品，未比較各國制度優劣，亦未主張開拆郵件應屬違法——反而指出該情形為合法例外之一。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀一：細節（開拆之目的）",
-      "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 42 題：According to the passage, why are staff allowed to open dead letters?",
-      "options": [
-        "To check whether the contents are dangerous",
-        "To decide how much the items are worth",
-        "To look for an address inside the item",
-        "To collect samples for research"
-      ],
-      "answer": "C",
-      "explain": "文中明確指出開拆是 in the hope of finding an address inside，目的為尋找可供投遞的地址。檢查危險性、估價與研究採樣均未見於文中。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀一：NOT true",
-      "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 43 題：Which of the following is NOT true according to the passage?",
-      "options": [
-        "About one third of the opened items could be forwarded",
-        "Valuable goods are sold at auction after being stored for years",
-        "The money from the auction goes to the postal company",
-        "Items of no commercial value are destroyed after a fixed period"
-      ],
-      "answer": "C",
-      "explain": "文中說明拍賣所得 does not go to the postal company，而是移轉至國庫，故該敘述與原文相反。其餘三項均可在第二段找到對應依據。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀一：細節（保存最久之物）",
-      "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 44 題：What does the passage say about items such as wedding rings and handwritten diaries?",
-      "options": [
-        "They are usually claimed within a few weeks",
-        "They are rarely claimed but kept the longest",
-        "They are destroyed immediately for privacy reasons",
-        "They are returned to the sender without being opened"
-      ],
-      "answer": "B",
-      "explain": "末段指出這類物品 rarely claimed, yet they are kept the longest，即甚少被領回卻保存最久。其餘三項與原文敘述相反或未提及。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀一：寫作手法",
-      "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
-      "options": [
-        "By listing official regulations",
-        "By quoting a worker's comparison",
-        "By providing statistics",
-        "By asking readers a question"
-      ],
-      "answer": "B",
-      "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀二：標題",
-      "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 46 題：Which of the following is the best title for this passage?",
-      "options": [
-        "Why Rural Post Offices Are Closing",
-        "Letter Carriers as a Safety Net for the Elderly",
-        "The History of Mail Delivery in Japan",
-        "How to Train Nurses in Small Towns"
-      ],
-      "answer": "B",
-      "explain": "全文說明郵務士在送信之外兼任獨居長者的關懷確認，形成一張安全網，故此標題最貼近主旨。文中未談郵局關閉、未回顧投遞史，護理人員訓練僅出現在批評意見中，非全文重點。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀二：細節（採行原因）",
-      "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 47 題：Why did the town choose to use letter carriers instead of hiring more care workers?",
-      "options": [
-        "Letter carriers had medical training",
-        "Residents refused to accept care workers",
-        "Hiring more care workers was beyond the town's budget",
-        "The government required the town to do so"
-      ],
-      "answer": "C",
-      "explain": "第一段末句明確指出 Hiring additional care workers was beyond the town's budget，即預算不足。文中反而強調郵務士不提供醫療照護、未受護理訓練，其餘兩項亦未提及。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀二：細節（服務內容）",
-      "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 48 題：What do the letter carriers do under this program?",
-      "options": [
-        "They provide basic medical care at the door",
-        "They confirm the resident is well and report to a family member",
-        "They deliver medicine prescribed by local doctors",
-        "They drive residents to the nearest hospital"
-      ],
-      "answer": "B",
-      "explain": "第二段指出他們 do not provide medical care，僅確認住戶安好並向家屬回報簡短報告。送藥與接送就醫皆未見於文中。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀二：NOT true",
-      "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 49 題：Which of the following is NOT mentioned in the passage?",
-      "options": [
-        "The program began under an agreement signed in 2017",
-        "More than forty urgent cases were identified in three years",
-        "Similar programs have appeared in other countries",
-        "The program has been made compulsory for all residents"
-      ],
-      "answer": "D",
-      "explain": "文中說明住戶須 registered for the program，屬自願登記，並未提及強制全體住戶參加。其餘三項分別見於第二段與第三段。"
-    },
-    {
-      "section": "閱讀",
-      "points": 2,
-      "point": "閱讀二：作者立場",
-      "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 50 題：What is the author's attitude toward the program?",
-      "options": [
-        "Completely opposed",
-        "Balanced, presenting both criticism and support",
-        "Indifferent to the outcome",
-        "Convinced that it should replace all medical services"
-      ],
-      "answer": "B",
-      "explain": "末段同時陳述批評者（郵務士非受訓護理人員、可能造成遠方親屬的錯誤安心感）與支持者（無人確認的替代方案更糟）之觀點，未偏袒任一方，屬持平呈現。文中亦未主張此制度應取代醫療服務。"
-    }
-  ]
+ "title": "英文仿真卷 A（全科第2場）",
+ "subject": "英文",
+ "minutes": 60,
+ "sections": [
+  {
+   "name": "字彙",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "文法",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "克漏字",
+   "count": 10,
+   "points": 2
+  },
+  {
+   "name": "閱讀",
+   "count": 10,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：unwillingly（回收）",
+   "stem": "Clearly annoyed at being called back after his shift, the clerk _____ returned to the counter.",
+   "options": [
+    "willing",
+    "willingly",
+    "unwilling",
+    "unwillingly"
+   ],
+   "answer": "D",
+   "explain": "unwillingly 為副詞，意為『不情願地』，修飾動詞 returned；前句 Clearly annoyed 已明示不情願，語意方向唯一。willingly 語意相反；unwilling 與 willing 為形容詞，不能修飾動詞。（2026-08-15 更正：原題幹為 Although the clerk was already off duty…，該讓步語氣其實更支持 willingly『下班了仍願意回來幫忙』，兩個副詞皆說得通，正解不唯一；已改寫題幹使語意方向明確。若當時選 willingly，該作答具正當理由。）"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：population（回收）",
+   "stem": "The town's _____ has dropped sharply in the past decade, and many post offices there have been closed.",
+   "options": [
+    "pollution",
+    "popularity",
+    "publication",
+    "population"
+   ],
+   "answer": "D",
+   "explain": "population 意為『人口』，與 dropped sharply、post offices closed 語意相符。pollution 是污染、publication 是出版品、popularity 是受歡迎程度，三者皆為形近或音近誘答。第 1 場模考誤選 pollution，本題保留同組形近字重測。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：emergency（回收）",
+   "stem": "Due to engine trouble, the pilot was forced to make an _____ landing at the nearest airport.",
+   "options": [
+    "emergent",
+    "urgency",
+    "emerging",
+    "emergency"
+   ],
+   "answer": "D",
+   "explain": "emergency landing 為固定搭配，指『緊急降落』，emergency 在此作名詞當形容詞用。urgency 指緊迫性但無此搭配；emerging 意為新興的；emergent 雖有緊急之意，但不與 landing 搭配。第 1 場模考此題答錯，屬固定搭配須整組記憶。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：instead（回收）",
+   "stem": "The express delivery was not available that day, so we sent the documents by registered mail _____.",
+   "options": [
+    "besides",
+    "therefore",
+    "otherwise",
+    "instead"
+   ],
+   "answer": "D",
+   "explain": "instead 置於句尾意為『改為、作為替代』，呼應前句快捷不可用而改用掛號。besides 意為此外、otherwise 意為否則、therefore 意為因此，均不符替代語意。第 1 場模考此字錯在句尾用法，本題維持句尾位置重測。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：departure（回收）",
+   "stem": "Passengers are advised to check the _____ time on the screen, as the schedule may change without notice.",
+   "options": [
+    "depart",
+    "dependent",
+    "department",
+    "departure"
+   ],
+   "answer": "D",
+   "explain": "departure time 為固定搭配，指『出發時間』；departure 為名詞。depart 是動詞、department 是部門、dependent 是依賴的，三者為形近字誘答。第 1 場模考誤判此字，形近字組須一併記憶。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：recipient（回收）",
+   "stem": "The parcel could not be delivered because the _____ had moved to another city without leaving a new address.",
+   "options": [
+    "receipt",
+    "recipe",
+    "resident",
+    "recipient"
+   ],
+   "answer": "D",
+   "explain": "recipient 意為『收件人』，符合包裹無法投遞的情境。receipt 是收據、resident 是居民、recipe 是食譜，四字形近，為 8/1 複習時整理過的易混組，本題改以無法投遞情境重測。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：fragile",
+   "stem": "Please mark the box as _____ so that the handlers will know the contents may break easily.",
+   "options": [
+    "flexible",
+    "frantic",
+    "fertile",
+    "fragile"
+   ],
+   "answer": "D",
+   "explain": "fragile 意為『易碎的』，與 may break easily 直接呼應，郵件包裝上常見標示。flexible 是有彈性的、fertile 是肥沃的、frantic 是狂亂的，三者為字首形近誘答。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：sufficient",
+   "stem": "The postage you paid is not _____; an additional NT$15 is required before the letter can be sent.",
+   "options": [
+    "efficient",
+    "superficial",
+    "significant",
+    "sufficient"
+   ],
+   "answer": "D",
+   "explain": "sufficient 意為『足夠的』，與後句須補付郵資相符。efficient 是有效率的、significant 是重大的、superficial 是表面的。efficient 與 sufficient 僅一字母之差，為典型形近誘答。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：notify",
+   "stem": "The post office will _____ you by text message as soon as your package arrives at the pickup station.",
+   "options": [
+    "notice",
+    "notify",
+    "note",
+    "notation"
+   ],
+   "answer": "B",
+   "explain": "notify 為及物動詞，意為『通知（某人）』，可直接接受詞 you。notice 作動詞時意為注意到，語意不符；note 是記下；notation 是記號、標記法。notify sb. of sth. 亦為常見搭配。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：reliable",
+   "stem": "Because the courier has never lost a single item, the company considers him highly _____.",
+   "options": [
+    "reliable",
+    "reluctant",
+    "relevant",
+    "religious"
+   ],
+   "answer": "A",
+   "explain": "reliable 意為『可靠的』，與從未遺失任何物品之敘述相符。reluctant 是不情願的、relevant 是相關的、religious 是宗教的，四字皆以 rel- 開頭，為形近字組。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：resume",
+   "stem": "After the typhoon warning was lifted, mail delivery to the mountain area will _____ tomorrow morning.",
+   "options": [
+    "resume",
+    "consume",
+    "assume",
+    "presume"
+   ],
+   "answer": "A",
+   "explain": "resume 意為『恢復、重新開始』，符合颱風警報解除後恢復投遞之語意。assume 是假定、consume 是消耗、presume 是推測，四字同字根不同字首，為高頻形近組。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：priority",
+   "stem": "Registered letters are given _____ over ordinary mail during the busy season.",
+   "options": [
+    "priority",
+    "property",
+    "prosperity",
+    "publicity"
+   ],
+   "answer": "A",
+   "explain": "priority 意為『優先權』，give priority over 指優先於某物處理。property 是財產、prosperity 是繁榮、publicity 是宣傳，三者為字形相近之誘答。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：estimate",
+   "stem": "Could you _____ how long it will take for the parcel to reach Japan by sea mail?",
+   "options": [
+    "estimate",
+    "eliminate",
+    "illustrate",
+    "imitate"
+   ],
+   "answer": "A",
+   "explain": "estimate 意為『估計』，符合詢問所需時間之語意。eliminate 是消除、illustrate 是說明圖解、imitate 是模仿。注意本題問的是時間長度，若改問頻率則須用 how often 回答，此為第 1 場對話題之錯點延伸。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：complaint",
+   "stem": "The customer filed a formal _____ about the damaged goods and asked for compensation.",
+   "options": [
+    "compliment",
+    "complaint",
+    "complement",
+    "completion"
+   ],
+   "answer": "B",
+   "explain": "complaint 意為『抱怨、申訴』，file a complaint 為固定搭配。compliment 是讚美、complement 是補充物、completion 是完成，四字形近且 compliment 與 complaint 語意相反，為高鑑別度誘答。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：eliminate",
+   "stem": "The new sorting machine helps _____ human error in the delivery process.",
+   "options": [
+    "accumulate",
+    "exaggerate",
+    "estimate",
+    "eliminate"
+   ],
+   "answer": "D",
+   "explain": "eliminate 意為『消除、排除』，與減少人為錯誤之語意相符。accumulate 是累積（語意相反）、estimate 是估計、exaggerate 是誇大。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：become＋形容詞（回收）",
+   "stem": "When the customer heard that his lost parcel had been found, he became _____.",
+   "options": [
+    "happily",
+    "happiness",
+    "happy",
+    "to happy"
+   ],
+   "answer": "C",
+   "explain": "become 為連綴動詞，其後接形容詞作主詞補語，故用 happy。happily 是副詞、happiness 是名詞、to happy 不成結構。第 1 場模考文意選填此點答錯，連綴動詞後接形容詞為固定規則。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：share sth. with sb.（回收）",
+   "stem": "The manager asked the new clerks to _____ their ideas with the whole team.",
+   "options": [
+    "share",
+    "divide",
+    "separate",
+    "spread"
+   ],
+   "answer": "A",
+   "explain": "share sth. with sb. 為固定搭配，意為『與某人分享某事物』。divide 是分割、separate 是分開、spread 是散播，三者皆不與 with 構成此語意。第 1 場模考此搭配答錯，本題換為職場情境重出。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：stop＋V-ing vs stop to V（回收）",
+   "stem": "The postman was so tired that he stopped _____ a short rest under the tree.",
+   "options": [
+    "taking",
+    "to take",
+    "take",
+    "taken"
+   ],
+   "answer": "B",
+   "explain": "stop to V 意為『停下來去做某事』，此處停下來是為了休息，故用不定詞。stop + V-ing 意為『停止做某事』，若填 taking 則變成『停止休息』，與 so tired 之語意矛盾。此為 8/1 複習時的錯點，本題以疲勞情境測驗語意方向。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：be sold as（回收）",
+   "stem": "These second-hand boxes are _____ packing material at a very low price.",
+   "options": [
+    "sold as",
+    "sold for",
+    "selling as",
+    "sold to"
+   ],
+   "answer": "A",
+   "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：條件句主要子句時態（回收）",
+   "stem": "If the address is incomplete, the letter _____ back to the sender.",
+   "options": [
+    "will be going to return",
+    "is going to returned",
+    "will be returned",
+    "would return"
+   ],
+   "answer": "C",
+   "explain": "條件副詞子句用現在式表未來，主要子句用 will + 原形；信件是被退回，須用被動，故為 will be returned。will be going to 為錯誤結構（will 與 be going to 不可並用）、is going to returned 缺被動之 be、would return 為與現在事實相反之語氣且語態錯誤。第 1 場模考誤選 will be going to，本題保留該錯誤結構為誘答。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：used to V vs be used to V-ing",
+   "stem": "Having worked at the counter for ten years, she is used to _____ with all kinds of customers.",
+   "options": [
+    "deal",
+    "dealt",
+    "dealing",
+    "be dealing"
+   ],
+   "answer": "C",
+   "explain": "be used to + V-ing 意為『習慣於做某事』，此處 to 為介系詞，其後接動名詞。若為 used to + 原形動詞，則意為『過去經常』，與句首 Having worked for ten years 所表達的『已習慣』語意不合。此為兩結構之核心區辨。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：too...to 結構",
+   "stem": "The package was _____ heavy for one person to carry upstairs.",
+   "options": [
+    "so",
+    "too",
+    "very",
+    "much"
+   ],
+   "answer": "B",
+   "explain": "too + 形容詞 + for sb. + to V 表『太……以致某人不能……』，符合語意。so 須搭配 that 子句、very 無此結構、much 不修飾原級形容詞。注意 too...to 本身即含否定意味，句中不再加 not。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：not only...but also 倒裝",
+   "stem": "Not only _____ the parcel arrive late, but it was also damaged.",
+   "options": [
+    "did",
+    "was",
+    "had",
+    "does"
+   ],
+   "answer": "A",
+   "explain": "Not only 置於句首時，其後子句須用倒裝，即助動詞提前。原句動詞 arrive 為一般動詞過去式，故用助動詞 did + 原形 arrive。was 與 had 不符主動詞形式；does 時態錯誤，與後半句 was 不一致。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：與過去事實相反之假設語氣",
+   "stem": "If the sender _____ the correct postal code, the letter would have arrived on time.",
+   "options": [
+    "had written",
+    "wrote",
+    "writes",
+    "has written"
+   ],
+   "answer": "A",
+   "explain": "主要子句為 would have + 過去分詞，屬與過去事實相反之假設，故條件子句須用過去完成式 had written。此結構與第 1 場考過的 wish + 過去式（與現在事實相反）分屬不同時間點，須配對記憶。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：關係代名詞 whose",
+   "stem": "The customer _____ signature was missing on the form had to come back to the post office.",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "whom"
+   ],
+   "answer": "C",
+   "explain": "先行詞 customer 與 signature 為所有關係（顧客的簽名），故用所有格關係代名詞 whose。who 為主格、whom 為受格、which 用於事物。判斷關鍵是關係詞後緊接名詞且無冠詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：現在分詞與過去分詞之別",
+   "stem": "The clerk found the waiting area _____ with customers during the lunch hour.",
+   "options": [
+    "crowding",
+    "crowd",
+    "to crowd",
+    "crowded"
+   ],
+   "answer": "D",
+   "explain": "be crowded with 為固定用法，表『擠滿了』，此處以過去分詞作受詞補語，描述 waiting area 被擠滿的狀態。crowding 為主動進行、to crowd 與 crowd 皆不符受詞補語結構。此點與第 1 場考過的 interesting／interested 同屬分詞形容詞判斷。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：so...that 結果子句",
+   "stem": "The line at the counter was _____ long that many customers decided to come back later.",
+   "options": [
+    "too",
+    "very",
+    "so",
+    "such"
+   ],
+   "answer": "C",
+   "explain": "so + 形容詞 + that 子句表『如此……以致於』。too 須搭配 to V、very 不引導 that 子句、such 後接名詞片語（such a long line that...）。so 與 such 之後接詞性不同，為本題主要誘答。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：had better＋原形",
+   "stem": "You _____ insure the parcel, or you will not be compensated if it gets lost.",
+   "options": [
+    "had better",
+    "would rather not",
+    "had better to",
+    "are better"
+   ],
+   "answer": "A",
+   "explain": "had better + 原形動詞，表『最好……』，其後不加 to。would rather not 語意為寧可不，與後句語意矛盾；had better to 多加 to 為錯誤結構；are better 不成句型。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：疑問詞＋不定詞",
+   "stem": "The new employee was not sure _____ the customs declaration form.",
+   "options": [
+    "how fill in",
+    "how to fill in",
+    "how filling in",
+    "how does he fill in"
+   ],
+   "answer": "B",
+   "explain": "疑問詞 + to V 可作名詞片語當受詞，how to fill in 意為『如何填寫』。how fill in 缺結構、how filling in 詞性錯誤、how does he fill in 為直接問句語序，作受詞時須改為間接問句語序。此點與第 1 場考過的間接問句相通。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：by the time＋完成式",
+   "stem": "By the time the truck reached the sorting center, the last flight _____ already.",
+   "options": [
+    "leaves",
+    "has left",
+    "had left",
+    "was leaving"
+   ],
+   "answer": "C",
+   "explain": "By the time 引導的子句為過去式（reached）時，主要子句表更早發生之動作，須用過去完成式 had left。has left 為現在完成式，與過去時間點不符；leaves 時態錯誤；was leaving 無法表達先後關係。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：banned from",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 31 格：",
+   "options": [
+    "banned",
+    "allowed",
+    "removed",
+    "released"
+   ],
+   "answer": "A",
+   "explain": "空格後為 from international mail for safety reasons，語意為基於安全而『被禁止』寄送，故用 be banned from。allowed 語意相反；removed 指移除已存在之物；released 指釋放，皆不符。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：so that 表目的",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 32 格：",
+   "options": [
+    "so that",
+    "such that",
+    "in order",
+    "because of"
+   ],
+   "answer": "A",
+   "explain": "填充空隙的目的是使內容物運送中不會移動，故用表目的之 so that 引導子句。such that 用法不同且不接目的子句；in order 須加 to 或 that；because of 表原因且後接名詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：cause＋受詞＋to V",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
+   "options": [
+    "stuck",
+    "to be stuck",
+    "being stuck",
+    "stick"
+   ],
+   "answer": "B",
+   "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：關係代名詞 which 指前句內容",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 34 格：",
+   "options": [
+    "what",
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": "C",
+   "explain": "先行詞為 the tracking number（事物），關係代名詞用 which，於子句中作主詞。what 不可有先行詞；who 用於人；whose 為所有格，其後須接名詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：讓步連接詞 Although",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 35 格：",
+   "options": [
+    "Because",
+    "Since",
+    "Unless",
+    "Although"
+   ],
+   "answer": "D",
+   "explain": "前後語意為『雖然這些步驟看起來麻煩，但省下的時間遠多於花費的時間』，屬讓步關係，故用 Although。Because 與 Since 表原因、Unless 表除非，皆無法連接此轉折語意。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：however 轉折副詞",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 36 格：",
+   "options": [
+    "therefore",
+    "however",
+    "moreover",
+    "otherwise"
+   ],
+   "answer": "B",
+   "explain": "前句說明一般人的看法，後句 suggest the opposite 為相反結論，故用轉折副詞 however。therefore 表結果、moreover 表遞進、otherwise 表否則，均不符轉折語氣。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：比較級搭配 than",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 37 格：",
+   "options": [
+    "good",
+    "well",
+    "better",
+    "best"
+   ],
+   "answer": "C",
+   "explain": "空格後有 than，須用比較級；修飾動詞 performed 須用副詞 well 之比較級 better。good 為形容詞原級、well 為原級副詞、best 為最高級不與 than 連用。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：主詞動詞一致與時態",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
+   "options": [
+    "occurs",
+    "occur",
+    "occurring",
+    "has occurred"
+   ],
+   "answer": "B",
+   "explain": "主詞 mistakes 為複數，全段陳述普遍事實用現在簡單式，故用原形 occur。occurs 為單數動詞、occurring 缺助動詞、has occurred 主詞動詞不一致且時態不符。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：encourage＋受詞＋to V",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 39 格：",
+   "options": [
+    "walking",
+    "walk",
+    "to walk",
+    "walked"
+   ],
+   "answer": "C",
+   "explain": "encourage + 受詞 + to V 為固定句型，故用 to walk。此結構與 ask／advise／persuade sb. to V 同型，persuade 一字為第 1 場模考錯點，可一併記憶。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：對比連接詞 but",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 40 格：",
+   "options": [
+    "so",
+    "or",
+    "for",
+    "but"
+   ],
+   "answer": "D",
+   "explain": "前句說改變不花成本，後句說效益數週內可衡量，兩句形成對比並列，故用 but。so 表結果、for 表理由、or 表選擇，皆不符語意關係。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：主旨",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 41 題：What is the main purpose of this passage?",
+   "options": [
+    "To explain how a dead letter office works and what makes it unusual",
+    "To warn people against sending valuable items by mail",
+    "To compare postal systems in different countries",
+    "To argue that opening others' mail should be illegal"
+   ],
+   "answer": "A",
+   "explain": "全文先說明無著郵件之定義與處理程序，再談其特別之處在於物品背後的故事，屬說明性質。文中未警告勿寄貴重物品，未比較各國制度優劣，亦未主張開拆郵件應屬違法——反而指出該情形為合法例外之一。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（開拆之目的）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 42 題：According to the passage, why are staff allowed to open dead letters?",
+   "options": [
+    "To check whether the contents are dangerous",
+    "To decide how much the items are worth",
+    "To look for an address inside the item",
+    "To collect samples for research"
+   ],
+   "answer": "C",
+   "explain": "文中明確指出開拆是 in the hope of finding an address inside，目的為尋找可供投遞的地址。檢查危險性、估價與研究採樣均未見於文中。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：NOT true",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 43 題：Which of the following is NOT true according to the passage?",
+   "options": [
+    "About one third of the opened items could be forwarded",
+    "Valuable goods are sold at auction after being stored for years",
+    "The money from the auction goes to the postal company",
+    "Items of no commercial value are destroyed after a fixed period"
+   ],
+   "answer": "C",
+   "explain": "文中說明拍賣所得 does not go to the postal company，而是移轉至國庫，故該敘述與原文相反。其餘三項均可在第二段找到對應依據。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（保存最久之物）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 44 題：What does the passage say about items such as wedding rings and handwritten diaries?",
+   "options": [
+    "They are usually claimed within a few weeks",
+    "They are rarely claimed but kept the longest",
+    "They are destroyed immediately for privacy reasons",
+    "They are returned to the sender without being opened"
+   ],
+   "answer": "B",
+   "explain": "末段指出這類物品 rarely claimed, yet they are kept the longest，即甚少被領回卻保存最久。其餘三項與原文敘述相反或未提及。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：寫作手法",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
+   "options": [
+    "By listing official regulations",
+    "By quoting a worker's comparison",
+    "By providing statistics",
+    "By asking readers a question"
+   ],
+   "answer": "B",
+   "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：標題",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 46 題：Which of the following is the best title for this passage?",
+   "options": [
+    "Why Rural Post Offices Are Closing",
+    "Letter Carriers as a Safety Net for the Elderly",
+    "The History of Mail Delivery in Japan",
+    "How to Train Nurses in Small Towns"
+   ],
+   "answer": "B",
+   "explain": "全文說明郵務士在送信之外兼任獨居長者的關懷確認，形成一張安全網，故此標題最貼近主旨。文中未談郵局關閉、未回顧投遞史，護理人員訓練僅出現在批評意見中，非全文重點。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（採行原因）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 47 題：Why did the town choose to use letter carriers instead of hiring more care workers?",
+   "options": [
+    "Letter carriers had medical training",
+    "Residents refused to accept care workers",
+    "Hiring more care workers was beyond the town's budget",
+    "The government required the town to do so"
+   ],
+   "answer": "C",
+   "explain": "第一段末句明確指出 Hiring additional care workers was beyond the town's budget，即預算不足。文中反而強調郵務士不提供醫療照護、未受護理訓練，其餘兩項亦未提及。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（服務內容）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 48 題：What do the letter carriers do under this program?",
+   "options": [
+    "They provide basic medical care at the door",
+    "They confirm the resident is well and report to a family member",
+    "They deliver medicine prescribed by local doctors",
+    "They drive residents to the nearest hospital"
+   ],
+   "answer": "B",
+   "explain": "第二段指出他們 do not provide medical care，僅確認住戶安好並向家屬回報簡短報告。送藥與接送就醫皆未見於文中。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：NOT true",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 49 題：Which of the following is NOT mentioned in the passage?",
+   "options": [
+    "The program began under an agreement signed in 2017",
+    "More than forty urgent cases were identified in three years",
+    "Similar programs have appeared in other countries",
+    "The program has been made compulsory for all residents"
+   ],
+   "answer": "D",
+   "explain": "文中說明住戶須 registered for the program，屬自願登記，並未提及強制全體住戶參加。其餘三項分別見於第二段與第三段。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：作者立場",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA small town in northern Japan has found an unusual solution to a common problem. With its population aging and many residents living alone, local officials worried that elderly people might fall ill without anyone noticing. Hiring additional care workers was beyond the town's budget.\n\nThe answer came from an existing service: the daily mail round. Under an agreement signed in 2017, letter carriers now spend a few extra minutes at the homes of residents who have registered for the program. They do not provide medical care. They simply confirm that the person is well and send a short report to a family member, often someone living hundreds of kilometers away.\n\nThe cost is modest, and the results have been encouraging. In its first three years, the program identified more than forty cases in which a resident needed urgent help. Similar schemes have since appeared in rural areas of several other countries. Critics point out that letter carriers are not trained nurses and that the service may create false confidence among distant relatives. Supporters reply that the alternative — no one checking at all — is far worse.\n\n第 50 題：What is the author's attitude toward the program?",
+   "options": [
+    "Completely opposed",
+    "Balanced, presenting both criticism and support",
+    "Indifferent to the outcome",
+    "Convinced that it should replace all medical services"
+   ],
+   "answer": "B",
+   "explain": "末段同時陳述批評者（郵務士非受訓護理人員、可能造成遠方親屬的錯誤安心感）與支持者（無人確認的替代方案更糟）之觀點，未偏袒任一方，屬持平呈現。文中亦未主張此制度應取代醫療服務。"
+  }
+ ]
 }
