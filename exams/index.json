@@ -176,5 +176,23 @@
   "summary": "選擇 20＋作文 1（60 分）．全科第 2 場用卷",
   "type": "full",
   "round": 2
+ },
+ {
+  "id": "minfa-mini-0816",
+  "file": "minfa-mini-0816.json",
+  "title": "民法迷你卷：共有物與分割",
+  "subject": "民法",
+  "minutes": 25,
+  "summary": "選擇 14 題．8/16 新題，需作答一次才會進 Notion 複習循環",
+  "type": "practice"
+ },
+ {
+  "id": "english-mini-0816",
+  "file": "english-mini-0816.json",
+  "title": "英文迷你卷：to 的身分判斷",
+  "subject": "英文",
+  "minutes": 15,
+  "summary": "選擇 11 題．8/16 新題，需作答一次才會進 Notion 複習循環",
+  "type": "practice"
  }
 ]

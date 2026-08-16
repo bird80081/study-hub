@@ -1,0 +1,179 @@
+{
+ "title": "英文迷你卷：to 的身分判斷（8/16 新題）",
+ "subject": "英文",
+ "minutes": 15,
+ "sections": [
+  {
+   "name": "選擇",
+   "count": 11,
+   "points": 5
+  }
+ ],
+ "questions": [
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "介系詞 to：look forward to",
+   "stem": "We look forward to ______ from you about the new delivery schedule.",
+   "options": [
+    "hearing",
+    "hear",
+    "to hear",
+    "heard"
+   ],
+   "answer": "A",
+   "explain": "look forward to 的 to 是介系詞，不是不定詞記號。判斷動作：把 to 後面換成 it 唸唸看——We look forward to it. 通，代表這個位置吃名詞，所以動詞要名詞化成 V-ing。介系詞後面接 V-ing 不是獨立規則，是名詞位置逼動詞變形。",
+   "id": "en152"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "介系詞 to：object to",
+   "stem": "Several customers objected to ______ an extra fee for weekend delivery.",
+   "options": [
+    "paying",
+    "pay",
+    "to pay",
+    "paid"
+   ],
+   "answer": "A",
+   "explain": "object to 的 to 是介系詞。it 測試：They objected to it. 通 → 吃名詞 → V-ing。介系詞 to 是有限清單（look forward to／object to／be opposed to／devote oneself to），認得清單就不必每次跑測試；清單以外的 to 預設是不定詞。",
+   "id": "en153"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "used to：前面沒有 be 動詞",
+   "stem": "Before the scanners arrived, the clerk used to ______ every parcel by hand.",
+   "options": [
+    "weighing",
+    "to weigh",
+    "weighed",
+    "weigh"
+   ],
+   "answer": "D",
+   "explain": "used to ＋原形＝過去經常（現在不了）。判斷動作第一步永遠是看 used 前面有沒有 be 動詞：沒有 be → 原形，到此結束，不必再想主詞。這一題若誤判成 be used to（習慣於）就會填 weighing。",
+   "id": "en154"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "be used to：主詞是人",
+   "stem": "The night-shift sorters are used to ______ under constant time pressure.",
+   "options": [
+    "work",
+    "working",
+    "to work",
+    "worked"
+   ],
+   "answer": "B",
+   "explain": "有 be 動詞（are）＋主詞是人（sorters）→ 「習慣於」→ 此時 to 是介系詞 → V-ing。⚠ 這一組是 it 測試唯一失效的地方：are used to it 唸得通，但 be used to 兩種身分都通，測不出來，必須改看主詞是人還是物。",
+   "id": "en155"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "be used to：主詞是物",
+   "stem": "This machine is used to ______ letters by postal code.",
+   "options": [
+    "sort",
+    "sorting",
+    "to sort",
+    "sorted"
+   ],
+   "answer": "A",
+   "explain": "有 be 動詞但主詞是物（machine）→ 被動語態「被用來做…」→ 這裡的 to 是不定詞 → 原形。與上一題成對：同樣是 be used to，人填 V-ing、物填原形。機器不會「習慣」，語意上也能排除 sorting。",
+   "id": "en156"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "介系詞 to：devote oneself to",
+   "stem": "The branch has devoted itself to ______ the waiting time at the counter.",
+   "options": [
+    "reduce",
+    "reduced",
+    "to reduce",
+    "reducing"
+   ],
+   "answer": "D",
+   "explain": "devote oneself to 的 to 是介系詞（devoted itself to it 通）→ V-ing。這個片語自帶反身代名詞（itself／himself／themselves），看到 devote 先確認反身代名詞在不在，再處理 to。",
+   "id": "en157"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "形式受詞：make it ＋形容詞＋for sb.＋to V",
+   "stem": "The missing postal code made it impossible for the sorting centre ______ the parcel on time.",
+   "options": [
+    "deliver",
+    "delivering",
+    "to deliver",
+    "delivered"
+   ],
+   "answer": "C",
+   "explain": "make ＋ it ＋形容詞＝形式受詞句型，it 只是佔位，真正的受詞是後面整串不定詞片語，故用 to V。⚠ 與使役 make 分流（對照 en104：The heavy rain made the carrier postpone…，填原形）：只看 make 後面第一個字是不是 it，是就走 to V。第二個訊號是 for ＋名詞——for 是不定詞意義主詞的標記，sorting centre 前面有 for，它是介系詞的受詞而不是 make 的受詞，所以「make ＋受詞＋原形」的架構在這句根本不存在。",
+   "id": "en158"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "動詞＋受詞＋to V：advise",
+   "stem": "Clerks advise senders ______ the receipt until the parcel is delivered.",
+   "options": [
+    "keeping",
+    "to keep",
+    "keep",
+    "kept"
+   ],
+   "answer": "B",
+   "explain": "「動詞＋人＋動詞」的結構，要問前面那個動詞是不是使役（make／let／have）或感官（see／hear／watch）——是就填原形，其餘一律 to V。advise 兩者都不是，故 to keep。這一格填原形是把 advise 誤當使役。",
+   "id": "en159"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "助動詞類＋原形：would rather",
+   "stem": "The customer would rather ______ for the next collection than pay the express fee.",
+   "options": [
+    "to wait",
+    "waiting",
+    "waited",
+    "wait"
+   ],
+   "answer": "D",
+   "explain": "would rather 後面直接接動詞、中間沒有人，屬助動詞類 → 原形。判斷動作：看到「動詞＋人＋空格」是 to V／原形二選一的結構題；「動詞＋空格」中間沒有人，才是助動詞類。另注意句中 than 後面也用原形 pay，前後對稱。",
+   "id": "en160"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "介系詞 to：be opposed to",
+   "stem": "The union is opposed to ______ counter service to public holidays.",
+   "options": [
+    "extend",
+    "extending",
+    "to extend",
+    "extended"
+   ],
+   "answer": "B",
+   "explain": "be opposed to 的 to 是介系詞 → V-ing。⚠ 這題有 be 動詞、主詞也是人，形狀很像 be used to，但 be opposed to 不是三胞胎，它永遠是介系詞，沒有「被用來」那種被動語態的讀法。分辨靠片語本身，不是靠 be 動詞。",
+   "id": "en161"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "stop ＋ V-ing（停止正在做的事）",
+   "stem": "The office finally stopped ______ paper receipts after the online system went live.",
+   "options": [
+    "issue",
+    "to issue",
+    "issuing",
+    "issued"
+   ],
+   "answer": "C",
+   "explain": "判斷動作：把 to 換成 in order to 唸——「停下來為了開紙本收據」不通，因為 after the online system went live 是停止的理由，不是目的。故用 V-ing（停止原本在做的事）。若填 to issue，意思變成「停下手邊的事去開收據」，與線上系統上線的語境矛盾。",
+   "id": "en162"
+  }
+ ]
+}
