@@ -194,5 +194,23 @@
   "minutes": 15,
   "summary": "選擇 11 題．8/16 新題，需作答一次才會進 Notion 複習循環",
   "type": "practice"
+ },
+ {
+  "id": "postal-mini-0817a",
+  "file": "postal-mini-0817a.json",
+  "title": "郵政迷你卷：主題庫補漏（郵政法／規章／處理規則）",
+  "subject": "郵政法規",
+  "minutes": 15,
+  "summary": "選擇 12 題．主題庫到期補漏，取自既有題庫非新題",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-0817b",
+  "file": "postal-mini-0817b.json",
+  "title": "郵政迷你卷：主題庫補漏（儲匯法）",
+  "subject": "郵政法規",
+  "minutes": 10,
+  "summary": "選擇 5 題．主題庫到期補漏，取自既有題庫非新題",
+  "type": "practice"
  }
 ]
