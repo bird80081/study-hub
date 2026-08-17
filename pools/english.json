@@ -2106,6 +2106,45 @@
    ],
    "answer": "C",
    "explain": "判斷動作：把 to 換成 in order to 唸——「停下來為了開紙本收據」不通，因為 after the online system went live 是停止的理由，不是目的。故用 V-ing（停止原本在做的事）。若填 to issue，意思變成「停下手邊的事去開收據」，與線上系統上線的語境矛盾。"
+  },
+  {
+   "id": "en163",
+   "point": "claim（領取／申請理賠）",
+   "stem": "The recipient must ______ the parcel in person and show a valid ID.",
+   "options": [
+    "claim",
+    "complain",
+    "climb",
+    "clarify"
+   ],
+   "answer": "A",
+   "explain": "判斷動作：claim 的核心是「主張自己有權拿到」。郵政語境兩個常用義——領取（claim a parcel／baggage claim）與申請理賠（claim compensation／file a claim）。complain 須接 about 表抱怨、clarify 是澄清論點、climb 是攀爬，三者都與「本人親自領件並出示證件」不合。⚠ 易混：勿把此字記成「證明」，記憶錨用 claim a parcel。"
+  },
+  {
+   "id": "en164",
+   "point": "be held up（被耽誤、卡住）",
+   "stem": "Owing to the strike, the parcels were held ______ at the sorting center for three days.",
+   "options": [
+    "on",
+    "off",
+    "up",
+    "out"
+   ],
+   "answer": "C",
+   "explain": "判斷動作：hold 這組片語動詞不能照字面推，要記情境錨。be held up＝被耽誤、卡住（parcels held up at customs／traffic was held up），郵政語境高頻。hold on 是電話別掛、稍等；hold out 是撐著不放（hold out for a better offer）；hold off 是暫緩或還沒來（hold off the decision／the rain held off）。句中 for three days 指被卡住的期間，只有「被耽誤」說得通。"
+  },
+  {
+   "id": "en165",
+   "point": "look into（調查）",
+   "stem": "The company promised to look ______ the complaint about the missing parcel.",
+   "options": [
+    "after",
+    "into",
+    "for",
+    "up"
+   ],
+   "answer": "B",
+   "explain": "判斷動作：先看受詞是「一件事」還是「一個東西」。受詞為問題、申訴、事件時用 look into（調查）；要找東西或人用 look for；照顧人或事務用 look after；查單字、號碼、資料用 look up。本句受詞是 complaint（一件申訴），公司承諾的是調查，不是尋找。"
   }
  ]
 }
