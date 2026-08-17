@@ -250,8 +250,13 @@ async function buildDayRecordText() {
   // 補件：前幾天漏匯出的錯題。今天的已在 drill.wrong，這裡只收跨日殘留，
   // 免得同一份匯出裡出現兩次一樣的題目。
   const pending = all.filter(w => !w.exported && w.date !== day).map(strip);
+  // id 與 wrongs 一併帶出（2026-08-17 新增）。原本只取分數欄，`recordAttempt` 存的
+  // 逐題 wrongs（題號／考點／你選／正解）被整包丟掉——試卷的錯題因此永遠留在手機上，
+  // 除非另外去成績頁按「匯出作答紀錄」。症狀是迷你卷刷完了，Mac 端只看得到「9/12」，
+  // 排不出回收、也對不回主題庫是哪個考點沒過。與 8/14 補 `drill.right` 同型的漏洞。
   const attempts = loadAttempts().filter(a => a.date === day)
-    .map(a => ({ title: a.title, subject: a.subject, mcScore: a.mcScore, mcMax: a.mcMax, mcRight: a.mcRight, mcTotal: a.mcTotal }));
+    .map(a => ({ id: a.id, title: a.title, subject: a.subject, mcScore: a.mcScore,
+                 mcMax: a.mcMax, mcRight: a.mcRight, mcTotal: a.mcTotal, wrongs: a.wrongs || [] }));
   const dist = { 0: 0, 1: 0, 2: 0, 3: 0 };
   Object.values(vStages()).forEach(s => { if (dist[s] !== undefined) dist[s]++; });
   const vd = vocabDaily()[day] || { done: 0, right: 0 };
