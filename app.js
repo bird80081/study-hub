@@ -478,18 +478,38 @@ async function loadPool(subject) {
   poolCache[subject] = pool;
   return pool;
 }
+// 今天已作答過的題號（答對＋答錯都算）。答對記在 hub.drill.right.v1[今日]，
+// 答錯留在錯題本且 date 為今日；兩邊合起來才是「今天碰過」的完整集合。
+function drillDoneToday() {
+  const day = todayKey();
+  return new Set([
+    ...(drillRightAll()[day] || []).map(r => r.id),
+    ...drillWrongAll().filter(w => w.date === day).map(w => w.id),
+  ]);
+}
+// 回收卷取題：卷序不動，先出今天還沒碰過的；整卷都做完了才允許從卷頭重刷
+//（此時重刷是使用者自己按第二輪，不是系統推不動）。
+function recycleOrder(questions, doneToday) {
+  const fresh = questions.filter(q => !doneToday.has(q.id));
+  return fresh.length ? fresh : questions;
+}
 async function startDrill() {
   const cfg = readDrillForm();
   if (!cfg.subjects.length) { toast("至少勾一科"); return; }
   localStorage.setItem(LS_DRILL_CFG, JSON.stringify(cfg));
   const seen = drillSeen();
+  const doneToday = drillDoneToday();
   const picked = [];
   for (const subj of cfg.subjects) {
     const pool = await loadPool(subj);
     // 回收卷照卷序出：產生器已依拉分順位排好，昨日錯題排在前面。套 seen 排序會把
     // 「昨天做過」的壓到最後，刷不完時第一個被犧牲的正是最該回收的題——2026-08-11
     // 40 題卷刷 30 題，跳過的 10 題全是昨日錯題。
-    const sorted = subj === "今日回收" ? pool.questions
+    // 卷序保留，但跳過「今天已作答過」的：原本每輪都從卷頭 slice(0, per)，一輪 20 題
+    // 就是同樣的前 20 題刷到底，永遠推不到卷尾——2026-08-17 作答 115 次只涵蓋 60 題，
+    // 逾四成是重複（茶兒當日回報「好多重複的題目」）。用當日已答集合而非 seen，
+    // 是為了不重蹈 8/11：seen 是累計值，會把昨日錯題判為做過而壓掉。
+    const sorted = subj === "今日回收" ? recycleOrder(pool.questions, doneToday)
       : pool.questions
         .map(q => ({ q, k: (seen[q.id] || 0) + Math.random() * 0.9 }))
         .sort((a, b) => a.k - b.k)
