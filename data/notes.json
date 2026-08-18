@@ -2150,6 +2150,56 @@
  },
  {
   "subject": "英文",
+  "law": "連接詞與介系詞",
+  "group": "to 的身分判斷（迷你卷 4 錯）",
+  "items": [
+   {
+    "point": "先問 to 是誰",
+    "value": "看到 to，先問它是**介系詞**還是**不定詞記號**——介系詞後面吃名詞／V-ing，不定詞後面吃原形。這一步沒做就選字，四題全會錯。",
+    "note": "it 測試：把 to 後面換成 it 唸唸看。「They objected to it.」通順 → 介系詞 → 填 V-ing。",
+    "warn": true
+   },
+   {
+    "point": "介系詞 to 清單（背這四個就夠）",
+    "value": "look forward to／object to／be opposed to／devote oneself to —— 一律接 **V-ing**。清單以外的 to 預設是不定詞，不必每題跑 it 測試。",
+    "ex": [
+     "✓ We look forward to hearing from you.",
+     "✓ Several customers objected to paying an extra fee.（8/17 選 pay ✗）",
+     "✓ The branch has devoted itself to reducing the waiting time.（8/17 選 to reduce ✗）"
+    ],
+    "note": "devote 的辨識鉤子：自帶反身代名詞（itself／himself／themselves），看到它就知道是片語不是 devote + to V。",
+    "warn": true
+   },
+   {
+    "point": "be used to：先看主詞是人還是物",
+    "value": "**人**＝習慣於（to 是介系詞 → V-ing）；**物**＝被用來（被動語態，to 是不定詞 → 原形）。同一個 be used to，兩種填法。",
+    "ex": [
+     "✓ The clerk is used to sorting letters by hand.（人＝習慣）",
+     "✓ This machine is used to sort letters by postal code.（物＝被用來，8/17 選 to sort ✗）"
+    ],
+    "note": "機器不會「習慣」，語意上也排得掉。填 to sort 等於在 be used to 後面又多一個 to。",
+    "warn": true
+   },
+   {
+    "point": "動詞＋人＋動詞：只有使役和感官接原形",
+    "value": "使役 make／let／have 與感官 see／hear／watch／feel ＋ 人 ＋ **原形**；其餘一律 ＋ 人 ＋ **to V**（advise／encourage／allow／ask／tell／want／expect／remind）。",
+    "ex": [
+     "✓ Clerks advise senders to keep the receipt.（8/17 選 keeping ✗）",
+     "✓ The manager made him rewrite the form.（使役，原形）",
+     "✓ We encourage customers to use registered mail."
+    ],
+    "note": "填原形＝把 advise 當成使役動詞了。先問「這個動詞在不在使役／感官那兩張小清單裡」，不在就 to V。",
+    "warn": true
+   },
+   {
+    "point": "整卷回顧",
+    "value": "11 題全考同一件事，錯的 4 題正好四種判準各失守一種——不是單字不會，是判斷流程沒定型。",
+    "note": "第 1 題 look forward to 對、第 5 題 be used to 錯，代表流程已經有一半。先補介系詞 to 清單，至少回收兩題。"
+   }
+  ]
+ },
+ {
+  "subject": "英文",
   "law": "詞類與句型",
   "group": "錯題速記（8/14）",
   "items": [
@@ -2209,13 +2259,14 @@
    },
    {
     "point": "不定詞與動名詞",
-    "value": "look forward to、be used to、object to 的 to 是介系詞，後接 V-ing；decide、plan、hope 後接 to V；enjoy、finish、avoid、mind 後接 V-ing。",
+    "value": "look forward to、object to、be opposed to、devote oneself to 的 to 是介系詞，後接 V-ing；decide、plan、hope 後接 to V；enjoy、finish、avoid、mind 後接 V-ing。⚠ **be used to 要先看主詞**：人＝習慣於（接 V-ing），物＝被用來（被動語態，接原形）。",
     "ex": [
      "✓ I look forward to hearing from you.",
      "✗ I look forward to hear from you.",
-     "✓ He finished sorting the mail before noon."
+     "✓ The clerk is used to sorting the mail by hand.（人＝習慣，V-ing）",
+     "✓ This machine is used to sort letters by postal code.（物＝被用來，原形）"
     ],
-    "note": "look forward to ＋ V-ing 是歷屆最愛考的陷阱，to 不是不定詞！"
+    "note": "look forward to ＋ V-ing 是歷屆最愛考的陷阱，to 不是不定詞！⚠ 原本這條只寫「be used to 後接 V-ing」，漏了主詞是物的情形——2026-08-18 迷你卷第 5 題照這條寫就會錯。完整判斷流程見「to 的身分判斷」那組。"
    }
   ]
  },
