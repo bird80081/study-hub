@@ -1,0 +1,126 @@
+{
+ "title": "英文迷你卷：字彙回收＋新題（8/18）",
+ "subject": "英文",
+ "minutes": 11,
+ "sections": [
+  {
+   "name": "選擇",
+   "count": 8,
+   "points": 5
+  }
+ ],
+ "questions": [
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：entitled（改寫自 模考0814-2）",
+   "stem": "Passengers whose flights are cancelled are ______ to a full refund under the airline's policy.",
+   "options": [
+    "entitled",
+    "entrusted",
+    "entered",
+    "entangled"
+   ],
+   "answer": "A",
+   "explain": "be entitled to ＋ 名詞＝有權獲得、依規定可以拿到。entrust 是「託付」（entrust sb. with sth.），跟「有權」無關；enter 沒有這個搭配；entangle 是「纏住」。判斷動作：看到 be ___ to ＋「可以拿到的東西」（refund、compensation、benefits），一律 entitled。⚠ 本考點 8/14、8/18 兩度答錯，情境已由郵件補償換成航班退款，換情境仍要答得出來才算會。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：property（改寫）",
+   "stem": "Passengers are reminded not to leave personal ______ unattended in the waiting area.",
+   "options": [
+    "property",
+    "properly",
+    "prosperity",
+    "priority"
+   ],
+   "answer": "A",
+   "explain": "property 為名詞「財物、財產」，personal property＝個人財物。properly 是副詞「適當地」，詞性不合（空格前有形容詞 personal，要接名詞）；prosperity 是「繁榮」；priority 是「優先」。判斷動作：先看詞性——空格夾在形容詞與 unattended 之間，只能是名詞，先刪掉副詞那個，再從剩下三個名詞挑語意。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：willingly（改寫）",
+   "stem": "Although the deadline was tight, the whole team ______ stayed late to finish the report.",
+   "options": [
+    "willingly",
+    "willfully",
+    "wistfully",
+    "warily"
+   ],
+   "answer": "A",
+   "explain": "willingly＝出於自願地、心甘情願地，與前句「雖然期限很趕」的讓步語氣相合。willfully 是「任性地、故意地」（含負面），wistfully 是「惆悵地」，warily 是「警戒地」。判斷動作：字彙題先讀 Although／But 這類轉折詞定出情緒方向——這裡要的是正面的自願，三個干擾項都是別的情緒。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：complement（改寫）",
+   "stem": "The new sorting machine is designed to ______ the existing system, not to replace it.",
+   "options": [
+    "complement",
+    "compliment",
+    "complicate",
+    "comprehend"
+   ],
+   "answer": "A",
+   "explain": "complement＝互補、補足（使更完整）；句末 not to replace it 已經把語意方向指出來——是「補強」不是「取代」。compliment 是「稱讚」（只差一個字母，最常互混，記法：complement 的 e 來自 complete「完整」）；complicate 是「使複雜」；comprehend 是「理解」。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：publication（改寫）",
+   "stem": "The company announced that the ______ of the annual report has been postponed to next month.",
+   "options": [
+    "publication",
+    "publicity",
+    "publisher",
+    "republic"
+   ],
+   "answer": "A",
+   "explain": "publication＝出版、發行（行為或出版品本身），the publication of ＋ 刊物＝某刊物的發行。publicity 是「宣傳、知名度」；publisher 是「出版商」（是人或機構，不能被 postpone）；republic 是「共和國」。判斷動作：the ___ of the annual report 空格要的是「動作名詞」，被延期的是事件不是人。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：verify",
+   "stem": "Before releasing the parcel, the clerk must ______ the recipient's identity documents.",
+   "options": [
+    "verify",
+    "clarify",
+    "notify",
+    "justify"
+   ],
+   "answer": "A",
+   "explain": "verify＝查核、驗證（確認某事屬實）。clarify 是「澄清（說明使清楚）」，對象是說法不是證件；notify 是「通知」，後面接人並常配 of；justify 是「證明…正當」。判斷動作：後面接的是文件、資料、身分這類「可被核對的東西」就是 verify。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "字彙：eligible",
+   "stem": "Only customers who have held the account for six months are ______ for the preferential rate.",
+   "options": [
+    "eligible",
+    "legible",
+    "fragile",
+    "flexible"
+   ],
+   "answer": "A",
+   "explain": "be eligible for ＋ 名詞＝符合資格取得。legible 是「字跡清楚可辨認的」（拼字近似，最易誤選）；fragile 是「易碎的」；flexible 是「有彈性的」。⚠ 與 entitled 成對記：eligible 強調「符合條件」，entitled 強調「依規定有權」，兩者常在同一份考卷出現。"
+  },
+  {
+   "section": "選擇",
+   "points": 5,
+   "point": "文法：分詞構句的主詞一致",
+   "stem": "______ the address carefully, the clerk found that the postal code was missing.",
+   "options": [
+    "Having checked",
+    "Being checked",
+    "To be checked",
+    "Checked"
+   ],
+   "answer": "A",
+   "explain": "分詞構句的隱藏主詞必須與主要子句的主詞一致。主要子句主詞是 the clerk，是「檢查」這個動作的執行者，故用主動的完成分詞 Having checked（先檢查、才發現，時間有先後）。被動形式的分詞會變成「地址被檢查」，主詞就對不上人；不定詞在句首表目的，與後半的「發現」語意不合。判斷動作：分詞構句先問一句「這個動作是誰做的」，答案必須是主要子句的主詞。"
+  }
+ ]
+}

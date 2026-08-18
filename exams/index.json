@@ -1,5 +1,14 @@
 [
  {
+  "id": "english-mini-0818",
+  "file": "english-mini-0818.json",
+  "title": "英文迷你卷：字彙回收＋新題",
+  "subject": "英文",
+  "minutes": 11,
+  "summary": "選擇 8 題．待改寫 5 題陷阱改寫＋新題 3 題",
+  "type": "practice"
+ },
+ {
   "id": "minfa-mini-0818",
   "file": "minfa-mini-0818.json",
   "title": "民法迷你卷：主題庫到期",
