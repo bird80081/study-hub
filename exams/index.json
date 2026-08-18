@@ -1,5 +1,14 @@
 [
  {
+  "id": "minfa-issue-01",
+  "file": "minfa-issue-01.json",
+  "title": "民法迷你卷：爭點辨識（申論前置）",
+  "subject": "民法",
+  "minutes": 12,
+  "summary": "選擇 9 題．案例→爭點四選一，練申論的爭點句與制度歸類",
+  "type": "practice"
+ },
+ {
   "id": "english-mini-0818",
   "file": "english-mini-0818.json",
   "title": "英文迷你卷：字彙回收＋新題",
