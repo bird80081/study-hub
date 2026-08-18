@@ -4,8 +4,8 @@
   "file": "minfa-mini-0818.json",
   "title": "民法迷你卷：主題庫到期",
   "subject": "民法",
-  "minutes": 18,
-  "summary": "選擇 10 題．主題庫到期補漏，取自既有題庫非新題",
+  "minutes": 17,
+  "summary": "選擇 13 題．主題庫到期補漏，既有題庫 10 題＋旅遊契約新題 3 題",
   "type": "practice"
  },
  {
@@ -13,8 +13,8 @@
   "file": "postal-mini-0818a.json",
   "title": "郵政迷你卷：主題庫到期（郵政法／規章／處理規則）",
   "subject": "郵政法規",
-  "minutes": 10,
-  "summary": "選擇 8 題．主題庫到期補漏，取自既有題庫非新題",
+  "minutes": 18,
+  "summary": "選擇 14 題．主題庫到期補漏，既有題庫 8 題＋新題 6 題",
   "type": "practice"
  },
  {
@@ -22,8 +22,8 @@
   "file": "postal-mini-0818b.json",
   "title": "郵政迷你卷：主題庫到期（儲匯法）",
   "subject": "郵政法規",
-  "minutes": 8,
-  "summary": "選擇 4 題．單一法源成輪（硬規則 1），不與其他郵政法源混卷",
+  "minutes": 9,
+  "summary": "選擇 7 題．單一法源成輪（硬規則 1），既有題庫 4 題＋新題 3 題",
   "type": "practice"
  },
  {
