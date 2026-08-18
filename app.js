@@ -789,7 +789,7 @@ async function showExamTab() {
       if (!row && all[e.id] && all[e.id].finished) {
         const ss = all[e.id];
         row = { id: e.id, title: e.title, subject: e.subject,
-                date: new Date(ss.submitted).toISOString().slice(0, 10),
+                date: dayKeyOf(ss.submitted),
                 text: ss.mcMax ? `選擇題 ${ss.mcScore} / ${ss.mcMax} 分` : `選擇題 ${ss.mcScore} 分（待批改）`,
                 pct: ss.mcMax ? Math.round(ss.mcScore / ss.mcMax * 100) : null };
       }
@@ -1163,7 +1163,10 @@ function resultRow(q, i) {
 function exportResult() {
   const out = {
     exam: exam.title, subject: exam.subject,
-    date: new Date(sess.submitted).toISOString().slice(0, 10),
+    // ⚠ 一律用 dayKeyOf（本地日期）。原本是 toISOString().slice(0,10)＝UTC，
+    // 台灣早上 8 點前交的卷會被記成前一天——2026-08-18 早上通勤做的四份迷你卷全被標成 8/17，
+    // 由茶兒發現。drill 那條路徑 早就改用 dayKeyOf，試卷這兩處（此行與成績趨勢）漏改。
+    date: dayKeyOf(sess.submitted),
     usedMinutes: sess.usedMinutes !== undefined ? sess.usedMinutes : Math.round((sess.submitted - sess.started) / 60000),
     flagged: exam.questions.map((q, i) => (sess.flags || [])[i] ? { n: i + 1, point: q.point || q.section, stem: q.stem } : null).filter(Boolean),
     mcScore: sess.mcScore, mcRight: `${sess.mcRight}/${sess.mcTotal}`,
