@@ -293,5 +293,14 @@
   "minutes": 15,
   "type": "practice",
   "summary": "選擇 14 題．選文精讀 5 題（桃花源記／師說／醉翁亭記）＋未練考點 9 題"
+ },
+ {
+  "id": "theme-mini-0820",
+  "file": "theme-mini-0820.json",
+  "title": "主題迷你卷：主題庫到期（8/20）",
+  "subject": "郵政法規",
+  "minutes": 14,
+  "summary": "選擇 10 題．旅遊契約／未來郵件・親收／郵政法第4條用詞定義／普及服務專營，選自既有題庫",
+  "type": "practice"
  }
 ]
