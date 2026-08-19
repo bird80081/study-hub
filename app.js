@@ -172,6 +172,22 @@ async function showHomeTab() {
       <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocabRound(),300)">🔤 來一輪單字</button>`;
   } catch {}
 
+  // 國文選文入口（2026-08-19 加）：選文一直同步在長文筆記裡，但手機上藏在
+  // 筆記分頁→「長文筆記」→收合的「☰ 筆記目錄」→往下捲，三層之後才看得到，
+  // 茶兒連問兩次「國文選文為什麼我沒有看到」。選文是每週插件、沒有到期日會叫它，
+  // 不放在每天會打開的首頁就等於不存在——與 8/18 記的「三個插件缺管道」同一型。
+  let prose = "";
+  try {
+    const pl = await (await fetch("data/notes-long.json", { cache: "no-store" })).json();
+    const picks = pl.filter(x => x.tag === "讀");
+    if (picks.length) prose = `<div class="card">
+      <strong>📖 國文選文</strong> <span class="muted">每週 2 篇．已建 ${picks.length} 篇</span>
+      <div class="btn-row">${picks.map(p =>
+        `<button class="ghost" onclick="location.href='notes.html#${encodeURIComponent(p.file)}'">${
+          escapeHtml(p.title.split("　")[0])}</button>`).join("")}</div>
+    </div>`;
+  } catch {}
+
   $app.innerHTML = `
     <p class="greet">${greeting()}</p>
     <div class="card countdown-card warm">
@@ -192,6 +208,7 @@ async function showHomeTab() {
         </div>
       </div>`;
     })()}
+    ${prose}
     <div class="h2-row">
       <h2>今日進度 <span class="muted" style="font-weight:400">${doneCount}/${plan.length}</span></h2>
       <span><button class="small ghost" onclick="showHomeTab()" title="重新抓最新進度">⟳ ${new Date().toTimeString().slice(0,5)}</button> ${planEditing ? `<button class="small ghost" onclick="cancelPlanEdit()">↩ 返回</button> ` : ""}<button class="small ghost" onclick="togglePlanEdit()">${planEditing ? "完成" : "編輯"}</button></span>
