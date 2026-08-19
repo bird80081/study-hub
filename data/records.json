@@ -3784,5 +3784,349 @@
    "2": 93,
    "3": 33
   }
+ },
+ "2026-08-19": {
+  "date": "2026-08-19",
+  "drill": {
+   "count": 31,
+   "wrong": [
+    {
+     "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
+     "subject": "英文",
+     "point": "模考0807-15 eliminate",
+     "stem": "The new sorting machine helps _____ human error in the delivery process.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-19",
+     "options": [
+      "exaggerate",
+      "accumulate",
+      "estimate",
+      "eliminate"
+     ],
+     "userText": "estimate"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
+     "subject": "英文",
+     "point": "模考0731-10 emergency",
+     "stem": "A Boeing 747 made an ___ landing earlier this morning because of the plane's mechanical problems.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-19",
+     "options": [
+      "emotion",
+      "emergency",
+      "empire",
+      "emphasis"
+     ],
+     "userText": "empire"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8152-8d00-f3cc6194af84",
+     "subject": "郵政法規",
+     "point": "國內快捷郵件撤回費之計算",
+     "stem": "甲交寄國內快捷郵件後申請撤回，該郵件已到達投遞局但尚未投遞。依郵務營業規章規定，其撤回費及已付資費應如何處理？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-19",
+     "options": [
+      "已付資費不予退還，並應付撤回費",
+      "扣除國內包裹往返資費後退還餘額，並免付撤回費",
+      "應付撤回費，其已付資費扣除國內包裹往返資費後退還餘額；原付資費不足扣抵者，免予補收包裹資費",
+      "已付資費全數退還，並免付撤回費"
+     ],
+     "userText": "已付資費不予退還，並應付撤回費"
+    },
+    {
+     "id": "rc-3b52ace3-4688-810b-bd58-e1ff58c3250b",
+     "subject": "郵政法規",
+     "point": "修正施行前契約之分級給付",
+     "stem": "某簡易人壽保險契約係於本法修正施行前訂立，被保險人於本法修正施行後、契約有效期間屆滿七個月時死亡。依簡易人壽保險法規定，受益人得領受之保險給付為何？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-19",
+     "options": [
+      "保險金額四分之一",
+      "所納之全部保險費",
+      "保險金額之半數",
+      "全部保險金額"
+     ],
+     "userText": "保險金額四分之一"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8101-9f3a-d0cf95fcf6a5",
+     "subject": "郵政法規",
+     "point": "補償請求權與補償金請求權之時效比較",
+     "stem": "依郵政法規定，關於郵件補償相關期間，下列敘述何者正確？（比較題）",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-19",
+     "options": [
+      "補償請求權與補償金請求權均自郵件交寄之日起算，前者六個月、後者五年",
+      "補償請求權自郵件交寄之次日起算六個月；補償金請求權自受領補償人收到通知之次日起算五年",
+      "補償請求權自郵件交寄之日起逾六個月不行使而消滅；補償金請求權自受領補償人收到通知之日起逾五年不行使而消滅",
+      "補償請求權自郵件交寄之日起逾三個月不行使而消滅；補償金請求權自通知之日起逾二年不行使而消滅"
+     ],
+     "userText": "補償請求權自郵件交寄之次日起算六個月；補償金請求權自受領補償人收到通知之次日起算五年"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81a4-9e7e-ef153fa8bb0b",
+     "subject": "民法",
+     "point": "§818：應有部分為抽象比例，各共有人按其應有部分，對共有物之「全部」有使用收益之權，非特定部分",
+     "stem": "甲乙丙共有 D 地，應有部分各三分之一，未訂立任何契約。關於甲之使用收益權，下列敘述何者正確？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-19",
+     "options": [
+      "按應有部分，對共有物之全部有使用收益之權",
+      "僅得使用共有物三分之一之特定部分",
+      "須經乙丙過半數同意始得使用",
+      "得使用全部並收取全部孳息"
+     ],
+     "userText": "得使用全部並收取全部孳息"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8132-9dab-c7f56c1a19d8",
+     "subject": "民法",
+     "point": "租賃物修繕義務之歸屬",
+     "stem": "甲承租乙之房屋，居住期間屋頂漏水須修繕，該漏水非可歸責於甲。依民法規定，下列敘述何者錯誤？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-19",
+     "options": [
+      "承租人得定相當期限催告出租人修繕，出租人不於期限內修繕者，承租人得終止契約",
+      "出租人為保存租賃物所為之必要行為，承租人得拒絕之",
+      "租賃物之修繕，除契約另有訂定或另有習慣外，由出租人負擔",
+      "承租人得自行修繕而請求出租人償還其費用或於租金中扣除"
+     ],
+     "userText": "承租人得定相當期限催告出租人修繕，出租人不於期限內修繕者，承租人得終止契約"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
+     "subject": "英文",
+     "point": "模考0807-45 閱讀一：寫作手法"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
+     "subject": "英文",
+     "point": "模考0807-38 主詞動詞一致與時態"
+    },
+    {
+     "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
+     "subject": "英文",
+     "point": "模考0807-19 be sold as"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
+     "subject": "英文",
+     "point": "模考0807-13 estimate"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
+     "subject": "英文",
+     "point": "模考0807-9 notify"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
+     "subject": "英文",
+     "point": "模考0731-45 will（未來單純式）"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81e3-9504-e8300fb35aae",
+     "subject": "英文",
+     "point": "模考0731-41 be sold as"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
+     "subject": "英文",
+     "point": "模考0731-30 It depends on the traffic."
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
+     "subject": "英文",
+     "point": "模考0731-19 persuade"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-814b-9e05-cfc34b812340",
+     "subject": "英文",
+     "point": "模考0731-16 departure"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-814e-b7d1-ff293c41917c",
+     "subject": "英文",
+     "point": "模考0731-11 instead"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-815c-953a-ea1f9dc04f22",
+     "subject": "英文",
+     "point": "模考0731-6 population"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81ad-931c-fe5eddb90735",
+     "subject": "英文",
+     "point": "模考0731-5 unwillingly"
+    },
+    {
+     "id": "rc-3bf2ace3-4688-81d3-bec1-c0bbf1d02864",
+     "subject": "國文",
+     "point": "錯別字辨識"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81f9-aadb-f14b388748e7",
+     "subject": "國文",
+     "point": "字音辨正：塞"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81de-a893-ed141253d8d4",
+     "subject": "國文",
+     "point": "詞語辨析：權利與權力"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
+     "subject": "國文",
+     "point": "醉翁亭記：蔚然之詞義"
+    },
+    {
+     "id": "rc-3b52ace3-4688-816c-8ba6-d6cd80978550",
+     "subject": "郵政法規",
+     "point": "偽造郵資符誌之處罰"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81a5-b3cf-cd6c2accf8b1",
+     "subject": "民法",
+     "point": "留置權之成立要件"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81ad-8b6b-fd623f6ae50f",
+     "subject": "民法",
+     "point": "加工物所有權之歸屬"
+    },
+    {
+     "id": "rc-3b52ace3-4688-811b-8de7-d03cec9bd487",
+     "subject": "民法",
+     "point": "停止條件與解除條件之區別"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81ca-8bc5-ecdde7069819",
+     "subject": "民法",
+     "point": "§824-1Ⅰ：共有人自共有物分割之「效力發生時」起取得分得部分之所有權；協議成立≠效力發生"
+    },
+    {
+     "id": "rc-3c02ace3-4688-8198-bd29-ef0dd5dc16d1",
+     "subject": "民法",
+     "point": "§821：各共有人得就共有物之全部為本於所有權之請求；但回復共有物之請求，僅得為共有人全體之利益為之"
+    },
+    {
+     "id": "rc-3b52ace3-4688-810c-8514-fdcbb7b683bb",
+     "subject": "民法",
+     "point": "委任報酬之請求"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "id": "postal-mini-0818b",
+    "title": "郵政迷你卷：主題庫到期（儲匯法）",
+    "subject": "郵政法規",
+    "mcScore": 35,
+    "mcMax": 35,
+    "mcRight": 7,
+    "mcTotal": 7,
+    "wrongs": []
+   },
+   {
+    "id": "postal-mini-0818a",
+    "title": "郵政迷你卷：主題庫到期（郵政法／規章／處理規則）",
+    "subject": "郵政法規",
+    "mcScore": 65,
+    "mcMax": 70,
+    "mcRight": 13,
+    "mcTotal": 14,
+    "wrongs": [
+     {
+      "n": 11,
+      "point": "廣告回信之登記 ⚠",
+      "user": "B",
+      "answer": "A"
+     }
+    ]
+   },
+   {
+    "id": "minfa-mini-0818",
+    "title": "民法迷你卷：主題庫到期",
+    "subject": "民法",
+    "mcScore": 48,
+    "mcMax": 52,
+    "mcRight": 12,
+    "mcTotal": 13,
+    "wrongs": [
+     {
+      "n": 13,
+      "point": "旅遊契約各項請求權之時效",
+      "user": "B",
+      "answer": "A"
+     }
+    ]
+   },
+   {
+    "id": "english-mini-0818",
+    "title": "英文迷你卷：字彙回收＋新題（8/18）",
+    "subject": "英文",
+    "mcScore": 25,
+    "mcMax": 40,
+    "mcRight": 5,
+    "mcTotal": 8,
+    "wrongs": [
+     {
+      "n": 4,
+      "point": "字彙：complement（改寫）",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 5,
+      "point": "字彙：publication（改寫）",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 8,
+      "point": "文法：分詞構句的主詞一致",
+      "user": "C",
+      "answer": "A"
+     }
+    ]
+   },
+   {
+    "id": "minfa-issue-01",
+    "title": "民法迷你卷：爭點辨識（申論前置）",
+    "subject": "民法",
+    "mcScore": 32,
+    "mcMax": 36,
+    "mcRight": 8,
+    "mcTotal": 9,
+    "wrongs": [
+     {
+      "n": 4,
+      "point": "爭點辨識：善意占有人之必要費用",
+      "user": "C",
+      "answer": "A"
+     }
+    ]
+   }
+  ],
+  "vocab": {
+   "done": 15,
+   "right": 15
+  },
+  "vocabStages": {
+   "0": 19,
+   "1": 89,
+   "2": 93,
+   "3": 37
+  }
  }
 }
