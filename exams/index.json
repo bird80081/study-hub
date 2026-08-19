@@ -257,5 +257,20 @@
   "minutes": 10,
   "summary": "選擇 5 題．主題庫到期補漏，取自既有題庫非新題",
   "type": "practice"
+ },
+ {
+  "id": "minfa-teacher-0801a",
+  "file": "minfa-teacher-0801a.json",
+  "title": "民法選擇：8/1 徐師精選題目練習（上，第1～19題）"
+ },
+ {
+  "id": "minfa-teacher-0801b",
+  "file": "minfa-teacher-0801b.json",
+  "title": "民法選擇：8/1 徐師精選題目練習（下，第20～38題）"
+ },
+ {
+  "id": "minfa-teacher-0801-essay",
+  "file": "minfa-teacher-0801-essay.json",
+  "title": "民法申論：8/1 徐師精選題目練習（實例題 5 題）"
  }
 ]
