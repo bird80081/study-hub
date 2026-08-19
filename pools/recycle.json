@@ -1,236 +1,8 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-18T21:46:11",
- "dueDate": "2026-08-19",
+ "generatedAt": "2026-08-19T23:11:05",
+ "dueDate": "2026-08-20",
  "questions": [
-  {
-   "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
-   "point": "模考0807-45 閱讀一：寫作手法",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
-   "options": [
-    "By listing official regulations",
-    "By quoting a worker's comparison",
-    "By providing statistics",
-    "By asking readers a question"
-   ],
-   "answer": "B",
-   "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
-   "kind": "英文",
-   "number": "模考0807-45 閱讀一：寫作手法",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
-   "point": "模考0807-38 主詞動詞一致與時態",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
-   "options": [
-    "occurs",
-    "occur",
-    "occurring",
-    "has occurred"
-   ],
-   "answer": "B",
-   "explain": "主詞 mistakes 為複數，全段陳述普遍事實用現在簡單式，故用原形 occur。occurs 為單數動詞、occurring 缺助動詞、has occurred 主詞動詞不一致且時態不符。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8158-a94c-dd4d2110212f",
-   "kind": "英文",
-   "number": "模考0807-38 主詞動詞一致與時態",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
-   "point": "模考0807-19 be sold as",
-   "stem": "These second-hand boxes are _____ packing material at a very low price.",
-   "options": [
-    "sold as",
-    "sold for",
-    "selling as",
-    "sold to"
-   ],
-   "answer": "A",
-   "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
-   "kind": "英文",
-   "number": "模考0807-19 be sold as",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81bc-9f7d-e940413a648f",
-   "point": "模考0807-15 eliminate",
-   "stem": "The new sorting machine helps _____ human error in the delivery process.",
-   "options": [
-    "accumulate",
-    "exaggerate",
-    "estimate",
-    "eliminate"
-   ],
-   "answer": "D",
-   "explain": "eliminate 意為『消除、排除』，與減少人為錯誤之語意相符。accumulate 是累積（語意相反）、estimate 是估計、exaggerate 是誇大。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81bc-9f7d-e940413a648f",
-   "kind": "英文",
-   "number": "模考0807-15 eliminate",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
-   "point": "模考0807-13 estimate",
-   "stem": "Could you _____ how long it will take for the parcel to reach Japan by sea mail?",
-   "options": [
-    "estimate",
-    "eliminate",
-    "illustrate",
-    "imitate"
-   ],
-   "answer": "A",
-   "explain": "estimate 意為『估計』，符合詢問所需時間之語意。eliminate 是消除、illustrate 是說明圖解、imitate 是模仿。注意本題問的是時間長度，若改問頻率則須用 how often 回答，此為第 1 場對話題之錯點延伸。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81f4-ba2a-eeca344e9f94",
-   "kind": "英文",
-   "number": "模考0807-13 estimate",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
-   "point": "模考0807-9 notify",
-   "stem": "The post office will _____ you by text message as soon as your package arrives at the pickup station.",
-   "options": [
-    "notice",
-    "notify",
-    "note",
-    "notation"
-   ],
-   "answer": "B",
-   "explain": "notify 為及物動詞，意為『通知（某人）』，可直接接受詞 you。notice 作動詞時意為注意到，語意不符；note 是記下；notation 是記號、標記法。notify sb. of sth. 亦為常見搭配。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
-   "kind": "英文",
-   "number": "模考0807-9 notify",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
-   "point": "模考0731-45 will（未來單純式）",
-   "stem": "第 45 格：請依段落前後文意，選出最適當的答案。",
-   "options": [
-    "would",
-    "will be going to",
-    "X",
-    "will"
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-8159-84a2-fa8859e2fe35",
-   "kind": "英文",
-   "number": "模考0731-45 will（未來單純式）",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-81e3-9504-e8300fb35aae",
-   "point": "模考0731-41 be sold as",
-   "stem": "第 41 格：請依段落前後文意，選出最適當的答案。",
-   "options": [
-    "on",
-    "in",
-    "of",
-    "as"
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-81e3-9504-e8300fb35aae",
-   "kind": "英文",
-   "number": "模考0731-41 be sold as",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
-   "point": "模考0731-30 It depends on the traffic.",
-   "stem": "A: How long does it take from here to the post office?\nB: ___",
-   "options": [
-    "500 miles long.",
-    "The longer, the better.",
-    "Every ten minutes.",
-    "It depends on the traffic."
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
-   "kind": "英文",
-   "number": "模考0731-30 It depends on the traffic.",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
-   "point": "模考0731-19 persuade",
-   "stem": "May spent a lot of time trying to ___ her mom to let her buy a new iPhone.",
-   "options": [
-    "recover",
-    "adopt",
-    "persuade",
-    "establish"
-   ],
-   "answer": "C",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
-   "kind": "英文",
-   "number": "模考0731-19 persuade",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-814b-9e05-cfc34b812340",
-   "point": "模考0731-16 departure",
-   "stem": "Henry looked at the timetable at the airport to find out the ___ time of his flight.",
-   "options": [
-    "spoon",
-    "purchase",
-    "departure",
-    "snack"
-   ],
-   "answer": "C",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-814b-9e05-cfc34b812340",
-   "kind": "英文",
-   "number": "模考0731-16 departure",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-814e-b7d1-ff293c41917c",
-   "point": "模考0731-11 instead",
-   "stem": "Lydia did not have tomatoes in her kitchen, so she used corn to make some soup ___.",
-   "options": [
-    "above",
-    "instead",
-    "after",
-    "along"
-   ],
-   "answer": "B",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-814e-b7d1-ff293c41917c",
-   "kind": "英文",
-   "number": "模考0731-11 instead",
-   "retest": "原題重測"
-  },
   {
    "id": "rc-3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
    "point": "模考0731-10 emergency",
@@ -251,136 +23,136 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3ae2ace3-4688-815c-953a-ea1f9dc04f22",
-   "point": "模考0731-6 population",
-   "stem": "The ___ of Taiwan is over 23 million and more than 85% of the people have the right to vote for the president and the legislators.",
+   "id": "rc-3c12ace3-4688-8108-ba33-e9e4b7de68ae",
+   "point": "模考0818-8",
+   "stem": "______ the address carefully, the clerk found that the postal code was missing.",
    "options": [
-    "portion",
-    "population",
-    "pollution",
-    "calculation"
-   ],
-   "answer": "B",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-815c-953a-ea1f9dc04f22",
-   "kind": "英文",
-   "number": "模考0731-6 population",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-81ad-931c-fe5eddb90735",
-   "point": "模考0731-5 unwillingly",
-   "stem": "Amy was so focused on her novel that she ___ put her book down to help her mother run an errand.",
-   "options": [
-    "rapidly",
-    "genuinely",
-    "definitely",
-    "unwillingly"
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-81ad-931c-fe5eddb90735",
-   "kind": "英文",
-   "number": "模考0731-5 unwillingly",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bf2ace3-4688-81d3-bec1-c0bbf1d02864",
-   "point": "錯別字辨識",
-   "stem": "下列詞語，用字完全正確的選項是：",
-   "options": [
-    "一股作氣",
-    "興高彩烈",
-    "委屈求全",
-    "貌合神離"
-   ],
-   "answer": "D",
-   "explain": "「貌合神離」用字正確。其餘三項均為錯字：「一股作氣」應作「一鼓作氣」（擊鼓振作士氣，出《左傳．曹劌論戰》）；「興高彩烈」應作「興高采烈」（采為神采）；「委屈求全」應作「委曲求全」（曲為曲從遷就，非委屈之屈）。（2026-08-15 更正：原選項『彼此連繫』並非錯字——教育部重編國語辭典修訂本收有「連繫」ㄌㄧㄢˊ ㄒㄧˋ 一詞，與正解並列為用字正確，正解不唯一；原解析『考試以聯繫為準』屬未查證的推測。）",
-   "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3bf2ace3-4688-81d3-bec1-c0bbf1d02864",
-   "kind": "訂正",
-   "number": "錯別字辨識",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-81f9-aadb-f14b388748e7",
-   "point": "字音辨正：塞",
-   "stem": "「塞」字兼具動詞與名詞用法，讀音隨語體與詞性而異。下列「」中之字，讀音何者正確？",
-   "options": [
-    "邊塞之「塞」讀ㄙㄜˋ",
-    "敷衍塞責之「塞」讀ㄙㄞ",
-    "閉塞之「塞」讀ㄙㄞ",
-    "敷衍塞責之「塞」讀ㄙㄜˋ"
-   ],
-   "answer": "D",
-   "explain": "塞為多音字：作「填滿」動詞用時讀ㄙㄞ（塞車、塞住）；作「阻隔、應付」解之書面語讀ㄙㄜˋ（閉塞、堵塞、敷衍塞責）；作邊界名詞用讀ㄙㄞˋ（邊塞、要塞）。判斷動作：先判定詞性與語體——口語動作讀ㄙㄞ，書面抽象讀ㄙㄜˋ，地理名詞讀ㄙㄞˋ。",
-   "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3bc2ace3-4688-81f9-aadb-f14b388748e7",
-   "kind": "訂正",
-   "number": "模考0814-國17",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-81de-a893-ed141253d8d4",
-   "point": "詞語辨析：權利與權力",
-   "stem": "「權利」與「權力」二詞音同而義異，公文書寫尤須辨明。下列文句「」中之詞語，何者使用正確？",
-   "options": [
-    "人民有請求補償之「權利」",
-    "消費者應主張自身「權力」",
-    "人民有請求補償之「權力」",
-    "行政機關行使「權利」處分"
+    "Having checked",
+    "Being checked",
+    "To be checked",
+    "Checked"
    ],
    "answer": "A",
-   "explain": "權利指法律賦予個人得為主張之利益，主體多為人民；權力指支配、強制他人之力量，主體多為國家機關。判斷動作：看主體是「人民主張」還是「機關支配」。此組與反應／反映同屬同音異義詞，為歷屆高頻題型。",
+   "explain": "分詞構句的隱藏主詞必須與主要子句的主詞一致。主要子句主詞是 the clerk，是「檢查」這個動作的執行者，故用主動的完成分詞 Having checked（先檢查、才發現，時間有先後）。被動形式的分詞會變成「地址被檢查」，主詞就對不上人；不定詞在句首表目的，與後半的「發現」語意不合。判斷動作：分詞構句先問一句「這個動作是誰做的」，答案必須是主要子句的主詞。",
    "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3bc2ace3-4688-81de-a893-ed141253d8d4",
-   "kind": "訂正",
-   "number": "模考0814-國13",
+   "srcSubject": "英文",
+   "pageId": "3c12ace3-4688-8108-ba33-e9e4b7de68ae",
+   "kind": "英文",
+   "number": "模考0818-8",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
-   "point": "醉翁亭記：蔚然之詞義",
-   "stem": "歐陽脩〈醉翁亭記〉：「其西南諸峰，林壑尤美，望之蔚然而深秀者，琅琊也。」文中「蔚然」之意為何？",
+   "id": "rc-3c12ace3-4688-81d5-abd3-d799e7f75270",
+   "point": "模考0818-4",
+   "stem": "The new sorting machine is designed to ______ the existing system, not to replace it.",
    "options": [
-    "草木茂盛貌",
-    "山勢高聳貌",
-    "雲霧繚繞貌",
-    "泉水清澈貌"
+    "complement",
+    "compliment",
+    "complicate",
+    "comprehend"
    ],
    "answer": "A",
-   "explain": "「蔚然」形容草木茂盛，與「深秀」並言，寫琅琊山林之美。若解為雲霧或山勢，則與「林壑」之主語不合。同段「翼然」形容亭如鳥張翅，二字皆為狀貌之詞，宜併記。",
+   "explain": "complement＝互補、補足（使更完整）；句末 not to replace it 已經把語意方向指出來——是「補強」不是「取代」。compliment 是「稱讚」（只差一個字母，最常互混，記法：complement 的 e 來自 complete「完整」）；complicate 是「使複雜」；comprehend 是「理解」。",
    "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3bc2ace3-4688-81d1-a73c-c4332e3e6cc4",
-   "kind": "訂正",
-   "number": "模考0814-國1",
+   "srcSubject": "英文",
+   "pageId": "3c12ace3-4688-81d5-abd3-d799e7f75270",
+   "kind": "英文",
+   "number": "模考0818-4",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3b52ace3-4688-816c-8ba6-d6cd80978550",
-   "point": "偽造郵資符誌之處罰",
-   "stem": "甲意圖供行使之用，偽造表示郵資已付之符誌，尚未行使即為警查獲。依郵政法規定，甲之處罰為何？",
+   "id": "rc-3c02ace3-4688-8136-aa4d-d494742dda22",
+   "point": "Could you tell me ______ ?（how long the parcel will take to arrive）",
+   "stem": "Could you tell me ______?",
    "options": [
-    "處三年以下有期徒刑，得併科新臺幣三萬元以下罰金",
-    "處六月以上五年以下有期徒刑，得併科新臺幣三萬元以下罰金",
-    "處一年以下有期徒刑、拘役或新臺幣九千元以下罰金",
-    "處新臺幣二萬元以上十萬元以下罰鍰"
+    "where is the nearest post office",
+    "where the nearest post office is",
+    "the nearest post office is where",
+    "where does the nearest post office"
    ],
    "answer": "B",
-   "explain": "郵政法第36條第1項：意圖供行使之用而偽造、變造郵政認知證、國際回信郵票券或其他表示郵資已付符誌者，處六月以上五年以下有期徒刑，得併科新臺幣三萬元以下罰金。三年以下有期徒刑者為同條第2項之『行使』或意圖供行使而收集、交付於人；一年以下有期徒刑、拘役或九千元以下罰金者為同條第3項之塗用膠類等意圖重複行使。三者刑度依行為態樣分層，為本題誘答設計。",
+   "explain": "間接問句採「疑問詞＋主詞＋動詞」的直述句語序：where the nearest post office is。A 是直接問句語序，置於 tell me 之後不合文法。",
    "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-816c-8ba6-d6cd80978550",
-   "kind": "訂正",
-   "number": "模考0807-8",
+   "srcSubject": "英文",
+   "pageId": "3c02ace3-4688-8136-aa4d-d494742dda22",
+   "kind": "英文",
+   "number": "Could you tell me ______ ?（how long the parcel will take to arrive）",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c02ace3-4688-81e6-8e6b-edc9f8f597e8",
+   "point": "Clerks advise senders ______ the receipt until the parcel is delivered.",
+   "stem": "Clerks advise senders ______ the receipt until the parcel is delivered.",
+   "options": [
+    "keeping",
+    "to keep",
+    "keep",
+    "kept"
+   ],
+   "answer": "B",
+   "explain": "「動詞＋人＋動詞」的結構，要問前面那個動詞是不是使役（make／let／have）或感官（see／hear／watch）——是就填原形，其餘一律 to V。advise 兩者都不是，故 to keep。這一格填原形是把 advise 誤當使役。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c02ace3-4688-81e6-8e6b-edc9f8f597e8",
+   "kind": "英文",
+   "number": "Clerks advise senders ______ the receipt until the parcel is delivered.",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c02ace3-4688-81bc-9692-c164ec1aac34",
+   "point": "The branch has devoted itself to ______ the waiting time at the counter.",
+   "stem": "The branch has devoted itself to ______ the waiting time at the counter.",
+   "options": [
+    "reduce",
+    "reduced",
+    "to reduce",
+    "reducing"
+   ],
+   "answer": "D",
+   "explain": "devote oneself to 的 to 是介系詞（devoted itself to it 通）→ V-ing。這個片語自帶反身代名詞（itself／himself／themselves），看到 devote 先確認反身代名詞在不在，再處理 to。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c02ace3-4688-81bc-9692-c164ec1aac34",
+   "kind": "英文",
+   "number": "The branch has devoted itself to ______ the waiting time at the counter.",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c02ace3-4688-8112-af5a-e24bf11023a8",
+   "point": "This machine is used to ______ letters by postal code.",
+   "stem": "This machine is used to ______ letters by postal code.",
+   "options": [
+    "sort",
+    "sorting",
+    "to sort",
+    "sorted"
+   ],
+   "answer": "A",
+   "explain": "有 be 動詞但主詞是物（machine）→ 被動語態「被用來做…」→ 這裡的 to 是不定詞 → 原形。與上一題成對：同樣是 be used to，人填 V-ing、物填原形。機器不會「習慣」，語意上也能排除 sorting。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c02ace3-4688-8112-af5a-e24bf11023a8",
+   "kind": "英文",
+   "number": "This machine is used to ______ letters by postal code.",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c02ace3-4688-81ce-9a48-c74c42dfd9de",
+   "point": "Several customers objected to ______ an extra fee for weekend delivery.",
+   "stem": "Several customers objected to ______ an extra fee for weekend delivery.",
+   "options": [
+    "paying",
+    "pay",
+    "to pay",
+    "paid"
+   ],
+   "answer": "A",
+   "explain": "object to 的 to 是介系詞。it 測試：They objected to it. 通 → 吃名詞 → V-ing。介系詞 to 是有限清單（look forward to／object to／be opposed to／devote oneself to），認得清單就不必每次跑測試；清單以外的 to 預設是不定詞。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c02ace3-4688-81ce-9a48-c74c42dfd9de",
+   "kind": "英文",
+   "number": "Several customers objected to ______ an extra fee for weekend delivery.",
    "retest": "原題重測"
   },
   {
@@ -432,7 +204,7 @@
     "補償請求權自郵件交寄之日起逾三個月不行使而消滅；補償金請求權自通知之日起逾二年不行使而消滅"
    ],
    "answer": "B",
-   "explain": "郵政法第34條：補償請求權自『郵件交寄之日』起逾六個月消滅；同法第35條：補償金請求權自『受領補償人收到通知之日』起逾五年消滅。兩者皆為『之日』起算，非『次日』——次日起算者為郵件處理規則第60條之查詢期限（交寄之次日起六個月、國際快捷四個月）與第63條補償金支付期限（查詢之次日起三個月），此為本卷刻意設計之起算日互換誘答。另須注意兩者起算點不同：一為交寄日、一為收到通知日。",
+   "explain": "郵政法第34條：補償請求權自『郵件交寄之日』起逾六個月消滅；同法第35條：補償金請求權自『受領補償人收到通知之日』起逾五年消滅。兩者皆為『之日』起算，非『次日』——次日起算者為郵件處理規則第60條之查詢期限（交寄之次日起六個月、國際快捷四個月）與第63條補償金支付期限（查詢之次日起三個月），此為本卷刻意設計之起算日互換誘答。另須注意兩者起算點不同：一為交寄日、一為收到通知日。\n\n⚠ 2026-08-19 茶兒提疑義，查證後補充：本題 (B) 錯在**條文用語**，不在算法。民法§119、§120Ⅱ「以日、星期、月或年定期間者，其始日不算入」，郵政法未特別訂定，故「自交寄之日起六個月」實際計算就是從交寄之次日起算——(B) 與 (C) 的計算結果相同。要背的是條文寫「之日」（郵政法§34、§35）還是寫「次日」（郵件處理規則§60 查詢期限、§63 支付期限），**不要用「哪個算法對」去判斷，兩個算法一樣**。",
    "passage": "",
    "srcSubject": "郵政法規",
    "pageId": "3b52ace3-4688-8101-9f3a-d0cf95fcf6a5",
@@ -441,79 +213,79 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3b52ace3-4688-81a5-b3cf-cd6c2accf8b1",
-   "point": "留置權之成立要件",
-   "stem": "依民法規定，關於留置權之成立，下列敘述何者錯誤？",
+   "id": "rc-3c12ace3-4688-816a-96e3-de1f8ee7a61e",
+   "point": "廣告回信之登記",
+   "stem": "依郵務營業規章規定，關於廣告回信之登記，下列敘述何者錯誤？",
    "options": [
-    "債權人占有屬於其債務人之動產，而其債權之發生與該動產有牽連關係者，得於未受清償前留置該動產",
-    "債權已屆清償期，始得留置",
-    "動產之留置違反公共秩序或善良風俗者，不得留置",
-    "債務人無支付能力時，債權人仍須待債權屆清償期，始得主張留置"
+    "登記事項變更應於變更之日起十日內申請",
+    "申請時應檢附回信樣張二份",
+    "連續三年未使用者得撤銷其登記",
+    "取消登記交還登記證滿二個月且未欠費者全數退還預存郵資\n答案：A"
+   ],
+   "answer": "A",
+   "explain": "廣告回信之地址變更應「立即」申請，不是十日內；「變更之日起十日內」是新聞紙、雜誌登記事項變更的期限，兩者最易互混。其餘三項（樣張二份、連續三年未使用得撤銷、交還登記證滿二個月未欠費全數退還）均正確。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c12ace3-4688-816a-96e3-de1f8ee7a61e",
+   "kind": "訂正",
+   "number": "模考0818-11",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-81cd-aeb0-e730fdab60a9",
+   "point": "欠資郵件處理程序：先退還寄件人補付→無法退還→招領揭示期滿→無著郵件",
+   "stem": "依郵務營業規章規定，有關欠資郵件之處理，下列何者不正確？",
+   "options": [
+    "未付郵資者，契約自始不成立，退還寄件人",
+    "未付足郵資者，於投遞時向收件人收取欠資差額及欠資手續費",
+    "寄往國外之欠資函件，退還寄件人補足資費差額",
+    "大批交寄之國際明信片，資費不足者，逕以無著郵件處理"
    ],
    "answer": "D",
-   "explain": "民法第928條定留置權之積極要件（占有債務人動產、債權與該動產有牽連關係、債權已屆清償期），第930條定消極要件（違反公序良俗或與債權人所承擔之義務或債務人交付前後所為之指示相牴觸者不得留置）。惟第931條第1項明定：債務人無支付能力時，債權人縱於其債權未屆清償期前，亦有留置權，此為清償期要件之重要例外。",
+   "explain": "D 為不正確：營業規章§180Ⅱ 規定大批交寄之國際信函及明信片資費不足，須『無法退還寄件人補付者』始不予寄遞，並於招領揭示期滿後作無著郵件處理，並非逕以無著郵件處理，中間兩道程序（退還補付、招領揭示期滿）不可略。B 依§178Ⅱ、C 依§180Ⅰ 均正確。本題為反向題（問『不正確』），作答選 A 屬看漏題幹否定詞＋條文程序未記全。",
    "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3b52ace3-4688-81a5-b3cf-cd6c2accf8b1",
+   "srcSubject": "郵政法規",
+   "pageId": "3ae2ace3-4688-81cd-aeb0-e730fdab60a9",
    "kind": "訂正",
-   "number": "模考0807-18",
+   "number": "模考0731-45",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3b52ace3-4688-81ad-8b6b-fd623f6ae50f",
-   "point": "加工物所有權之歸屬",
-   "stem": "甲未經乙同意，以乙所有之木材（價值 1 萬元）雕刻成藝術品，加工所增之價值為 8 萬元。依民法規定，該藝術品之所有權歸屬為何？",
+   "id": "rc-3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
+   "point": "簡易壽險續期保費：催告十日內＋自當期繳費日起算三個月寬限期間",
+   "stem": "依簡易人壽保險法規定，續期保險費自繳費日起一個月未交付者，保險人應予催告，並自何日起算三個月為寬限期間？",
    "options": [
-    "屬乙所有，甲得請求償還加工費用",
-    "屬甲所有，因加工所增之價值顯逾材料之價值",
-    "由甲乙按價值比例共有",
-    "屬甲所有，且甲無庸對乙為任何補償"
+    "自催告日起算",
+    "自當期繳費日起算",
+    "自當期繳費日次日起算",
+    "自次期繳費日起算"
    ],
    "answer": "B",
-   "explain": "民法第814條：加工於他人之動產者，其加工物之所有權屬於材料所有人；但因加工所增之價值顯逾材料之價值者，其加工物之所有權屬於加工人。本題增值 8 萬元顯逾材料 1 萬元，故歸甲。惟依第816條，因前開規定喪失權利而受損害者，得依關於不當得利之規定請求償還價額，故甲仍應對乙償還價額，末項免除補償之敘述錯誤。",
+   "explain": "簡易人壽保險法§13Ⅰ：續期保險費自繳費日起一個月未交付者，保險人應於十日內催告，並自『當期繳費日』起算三個月為寬限期間，寬限期間屆滿仍未交付者契約效力停止。起算點是當期繳費日本身，不是次日、也不是催告日。配套記：§14 停效後二年內得申請恢復效力。",
    "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3b52ace3-4688-81ad-8b6b-fd623f6ae50f",
+   "srcSubject": "郵政法規",
+   "pageId": "3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
    "kind": "訂正",
-   "number": "模考0807-17",
+   "number": "模考0731-25",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3b52ace3-4688-811b-8de7-d03cec9bd487",
-   "point": "停止條件與解除條件之區別",
-   "stem": "甲與乙約定：「若乙於今年考取郵政升等考試，甲即贈與乙機車一部。」依民法規定，關於該贈與契約，下列敘述何者正確？",
+   "id": "rc-39e2ace3-4688-8194-8805-f23e66e6a1d1",
+   "point": "延誤補償之計算",
+   "stem": "某甲交寄限時掛號附回執小包 1 件，其資費共 102 元（小包資費 60 元、掛號資費 20 元、限時資費 7 元、普通回執費 15 元），因郵局投遞人員未依中華郵政公司公告之處理規定遞送，其可向郵局請求補償之金額為新臺幣多少元？",
    "options": [
-    "附停止條件，於條件成就時始發生效力",
-    "附解除條件，條件成就時契約失其效力",
-    "為附始期之法律行為，期限屆至時生效",
-    "條件未成就前契約無效"
+    "575 元",
+    "102 元",
+    "87 元",
+    "80 元"
    ],
-   "answer": "A",
-   "explain": "民法第99條第1項：附停止條件之法律行為，於條件成就時發生效力。考取與否為將來成否不確定之事實，且效力繫於其成就，屬停止條件。附解除條件者依同條第2項於條件成就時失其效力，方向相反。條件與期限之別在於將來事實是否確定發生——期限必然到來，條件則不確定。另須注意條件未成就前契約已成立，僅效力尚未發生，非無效。",
+   "answer": "C",
+   "explain": "未依規定遞送依「所收取之全部資費」補償，但不含報值費、保價費、代收貨款費及「回執費」：102 − 15 ＝ 87 元（⚠ 速查表：曾漏扣項目，本題考排除回執費）。",
    "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3b52ace3-4688-811b-8de7-d03cec9bd487",
+   "srcSubject": "郵政法規",
+   "pageId": "39e2ace3-4688-8194-8805-f23e66e6a1d1",
    "kind": "訂正",
-   "number": "模考0807-2",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c02ace3-4688-81ca-8bc5-ecdde7069819",
-   "point": "§824-1Ⅰ：共有人自共有物分割之「效力發生時」起取得分得部分之所有權；協議成立≠效力發生",
-   "stem": "依民法規定，共有人自何時起取得分得部分之所有權？",
-   "options": [
-    "共有物分割之效力發生時",
-    "分割協議成立時",
-    "分割訴訟起訴時",
-    "共有關係成立時"
-   ],
-   "answer": "A",
-   "explain": "民法§824-1第1項：共有人自共有物分割之「效力發生時」起，取得其分得部分之所有權。⚠ 協議成立不等於效力發生——協議只生債權效力，物權變動另須具備要件：不動產須辦畢登記（§758）、動產須交付（§761）；裁判分割則以判決確定時發生效力。錯因是把債權行為的成立時點當成物權變動時點，這是共有分割最常考的一格。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c02ace3-4688-81ca-8bc5-ecdde7069819",
-   "kind": "訂正",
-   "number": "模考0817-14",
+   "number": "延誤補償之計算",
    "retest": "原題重測"
   },
   {
@@ -536,25 +308,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c02ace3-4688-8198-bd29-ef0dd5dc16d1",
-   "point": "§821：各共有人得就共有物之全部為本於所有權之請求；但回復共有物之請求，僅得為共有人全體之利益為之",
-   "stem": "甲乙丙共有 C 屋，遭丁無權占有。關於甲得單獨為之之請求，下列敘述何者正確？",
-   "options": [
-    "須全體共有人共同起訴始得請求",
-    "僅得就自己應有部分請求返還",
-    "得請求丁向甲一人返還全部",
-    "得請求返還全部，但須為共有人全體之利益"
-   ],
-   "answer": "D",
-   "explain": "民法§821：各共有人對於第三人，得就共有物之「全部」為本於所有權之請求；但回復共有物之請求，僅得為共有人全體之利益為之。所以甲可以單獨起訴（A 錯）、請求範圍是全部而非自己的應有部分（B 錯），但返還的對象必須是共有人全體，不能請求向甲一人返還（C 錯）。錯因是把但書讀成起訴要件——但書限制的是「返還給誰」，不是「誰能告」。另注意本條與§820（管理）無涉：對外主張所有權不是管理行為，不必湊多數決。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c02ace3-4688-8198-bd29-ef0dd5dc16d1",
-   "kind": "訂正",
-   "number": "模考0817-5",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3b52ace3-4688-8132-9dab-c7f56c1a19d8",
    "point": "租賃物修繕義務之歸屬",
    "stem": "甲承租乙之房屋，居住期間屋頂漏水須修繕，該漏水非可歸責於甲。依民法規定，下列敘述何者錯誤？",
@@ -574,22 +327,326 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3b52ace3-4688-810c-8514-fdcbb7b683bb",
-   "point": "委任報酬之請求",
-   "stem": "甲受乙委任處理事務，雙方未約定報酬。依民法規定，下列敘述何者正確？",
+   "id": "rc-3c12ace3-4688-819d-96b2-e09f0b75095b",
+   "point": "爭點辨識：善意占有人之必要費用",
+   "stem": "丙取得相機後支出修理費五千元。嗣後認定丙應將相機返還甲，丙欲向甲請求該筆費用。本題爭點為何？",
    "options": [
-    "委任為有償契約，甲當然得請求報酬",
-    "甲僅得請求必要費用，不得請求報酬，縱有約定亦同",
-    "非有約定或依習慣或依委任事務之性質應給與報酬者，受任人不得請求報酬",
-    "報酬應於委任成立時即行給付"
+    "善意占有人得否請求償還必要費用",
+    "甲是否不法毀損丙之物",
+    "丙是否成立無因管理",
+    "甲是否受有不當得利\n答案：A"
    ],
-   "answer": "C",
-   "explain": "民法第547條：報酬縱未約定，如依習慣或依委任事務之性質，應給與報酬者，受任人得請求報酬——反面言之，無約定、無習慣且事務性質上不應給與報酬者，即不得請求。委任原則上為無償契約，此與承攬以報酬為必要之點不同。另依第548條第1項，受任人應於委任關係終止及為明確報告顛末後，始得請求給付報酬，非於成立時給付。",
+   "answer": "A",
+   "explain": "修理費屬保存占有物之必要費用，善意占有人得向回復請求人請求償還（已就占有物取得孳息者不在此限）。⚠ 此處最常誤用「不法毀損他人之物得請求賠償減少之價額」那一條——那是「你弄壞我的東西賠我錢」，當事人與方向與本題完全相反。判斷動作：先問「現在是誰對誰、要的是什麼」，再挑制度。",
    "passage": "",
    "srcSubject": "民法",
-   "pageId": "3b52ace3-4688-810c-8514-fdcbb7b683bb",
+   "pageId": "3c12ace3-4688-819d-96b2-e09f0b75095b",
    "kind": "訂正",
-   "number": "模考0807-10",
+   "number": "爭點0818-4",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c12ace3-4688-81bf-b319-ee0eefcf1e12",
+   "point": "旅遊契約各項請求權之時效",
+   "stem": "依民法規定，旅遊契約之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，其消滅時效為何？",
+   "options": [
+    "自旅遊終了或應終了時起一年",
+    "自旅遊終了或應終了時起二年",
+    "自契約成立時起一年",
+    "自請求權可行使時起十五年\n答案：A"
+   ],
+   "answer": "A",
+   "explain": "民法第514條之12：本節之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，均自旅遊終了或應終了時起一年間不行使而消滅。三種請求權共用同一時效與同一起算點，起算點是「旅遊終了或應終了時」而非契約成立時，這是本條唯一的陷阱。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c12ace3-4688-81bf-b319-ee0eefcf1e12",
+   "kind": "訂正",
+   "number": "模考0818-13",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81e4-97e3-c6ced0d1adac",
+   "point": "選擇之債之選擇權歸屬",
+   "stem": "甲乙約定甲應交付 A 車或 B 車其中一部與乙，但未約定由何人選擇。嗣選擇權人遲未選擇。依民法規定，下列敘述何者正確？",
+   "options": [
+    "選擇權屬於債務人甲",
+    "選擇權屬於債權人乙",
+    "選擇權屬於法院，由法院指定",
+    "給付標的不確定，契約無效"
+   ],
+   "answer": "A",
+   "explain": "民法第208條：於數宗給付中得選定其一者，其選擇權屬於債務人，但法律另有規定或契約另有訂定者不在此限。故未約定時推由債務人甲選擇。選擇之債之標的雖於選擇前尚未特定，惟給付內容可得確定，契約有效，非無效。另依第210條，選擇權定有行使期間而不行使者，其選擇權移屬於他方當事人。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3b52ace3-4688-81e4-97e3-c6ced0d1adac",
+   "kind": "訂正",
+   "number": "模考0807-5",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-8135-b828-f3d2f98b173d",
+   "point": "106內升36",
+   "stem": "有關過失責任，下列敘述何者錯誤？",
+   "options": [
+    "故意或重大過失之責任，可預先免除",
+    "過失之責任，依事件之特性而有輕重，如其事件非予債務人以利益者，應從輕酌定",
+    "應與處理自己事務為同一注意者，如有重大過失，仍應負責",
+    "債務人之代理人或使用人，關於債之履行有故意或過失時，債務人應負同一責任"
+   ],
+   "answer": "A",
+   "explain": "",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-8135-b828-f3d2f98b173d",
+   "kind": "訂正",
+   "number": "106內升36",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-819d-80be-cc79a4dc29f6",
+   "point": "106內升48",
+   "stem": "有關債之消滅，下列敘述何者正確？",
+   "options": [
+    "第三人持真正存摺而蓋用偽造之印章於取款條上提取存款，應係民法第 310 條第 2 款債權之準占有人",
+    "金融機關以定型化契約條款約定，如已盡善良管理人之注意義務，以肉眼辨認仍不能發見蓋於取款條上之印 章係屬偽造即可免責，此為無效之約定",
+    "債之一部消滅者，債務人得請求返還或塗銷負債之字據",
+    "除法律另有規定外，清償地原則上於債務人之住所地為之"
+   ],
+   "answer": "B",
+   "explain": "",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-819d-80be-cc79a4dc29f6",
+   "kind": "訂正",
+   "number": "106內升48",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-81a7-b540-d1db32f40f84",
+   "point": "106內升34",
+   "stem": "有關民法上代理人之資格，下列敘述何者正確？",
+   "options": [
+    "代理人須為完全行為能力人",
+    "授予代理權必須以授權書為之",
+    "受監護宣告之人，精神恢復正常仍可為代理人",
+    "限制行為能力人得為代理人"
+   ],
+   "answer": "D",
+   "explain": "",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-81a7-b540-d1db32f40f84",
+   "kind": "訂正",
+   "number": "106內升34",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-81b0-8fcf-d0d89dfb52ba",
+   "point": "106內升7",
+   "stem": "租賃契約之期限，依民法規定不得逾幾年？",
+   "options": [
+    "10 年",
+    "30 年",
+    "15 年",
+    "20 年"
+   ],
+   "answer": "D",
+   "explain": "⚖️ §449\n租賃契約之期限，不得逾二十年。逾二十年者，縮短為二十年。\n前項期限，當事人得更新之。\n租用基地建築房屋者，不是用第一項規定。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-81b0-8fcf-d0d89dfb52ba",
+   "kind": "訂正",
+   "number": "106內升7",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-81d0-9da5-f37c802a3c40",
+   "point": "106內升33",
+   "stem": "有關住所之敘述，下列何者錯誤？",
+   "options": [
+    "依一定事實，足認以久住之意思，並設定戶籍於該地，即為住所",
+    "一人同時不得有兩住所",
+    "住所無可考者，其居所視為住所",
+    "無行為能力人，以其法定代理人之住所為住所"
+   ],
+   "answer": "A",
+   "explain": "",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-81d0-9da5-f37c802a3c40",
+   "kind": "訂正",
+   "number": "106內升33",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-81ed-8470-dc7882b23c16",
+   "point": "106內升39",
+   "stem": "有關物品之運送，因喪失、毀損或遲到而生之賠償請求權，自運送終了，或應終了之時起，多久時間不 行使而消滅？",
+   "options": [
+    "6 個月",
+    "1年",
+    "2年",
+    "15 年"
+   ],
+   "answer": "B",
+   "explain": "⚖️ §666\n對於承攬運送人因運送物之喪失、毀損或遲到所生之損害賠償請求權，自運送物交付或應交付之時起，一年間不行使而消滅。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-81ed-8470-dc7882b23c16",
+   "kind": "訂正",
+   "number": "106內升39",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-38d2ace3-4688-81ee-adf4-fc6bc0c7678c",
+   "point": "債權讓與通知與對抗債務人",
+   "stem": "有關債權讓與，下列敘述何者錯誤？",
+   "options": [
+    "債權之讓與，非經讓與人或受讓人通知債務人，債權讓與在當事人間仍為有效，僅對債務人不生效力",
+    "讓與債權時，該債權之擔保及其他從屬之權利，隨同移轉於受讓人。但與讓與人有不可分離之關係者，不在 此限",
+    "讓與人將債權證明文件，交付予受讓人，為債權讓與之生效要件",
+    "債務人於受通知時，所得對抗讓與人之事由，皆得以之對抗受讓人"
+   ],
+   "answer": "C",
+   "explain": "",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "38d2ace3-4688-81ee-adf4-fc6bc0c7678c",
+   "kind": "訂正",
+   "number": "106內升50",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33c2ace3-4688-801c-bd74-fa167aec67c4",
+   "point": "債各契約效力與瑕疵責任",
+   "stem": "甲未經乙許可，將向乙借得之自行車，以自己之名出賣與知情之丙，甲與丙之買賣契約，其效力為何？",
+   "options": [
+    "無效",
+    "有效",
+    "效力未定",
+    "得撤銷"
+   ],
+   "answer": "B",
+   "explain": "出賣他人之物，其「債權行為」（買賣契約）仍屬有效——負擔行為不以有處分權為必要；效力未定的是移轉所有權之「物權行為」（第 118 條無權處分）。丙知情亦不影響債權契約效力。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33c2ace3-4688-801c-bd74-fa167aec67c4",
+   "kind": "訂正",
+   "number": "112內升(19)",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33c2ace3-4688-8005-9900-e7a87252644c",
+   "point": "112內升(18)",
+   "stem": "甲遭乙在網路上散布謠言惡意侵害其名譽，遂依法向乙請求除去網路上散布之言論，其請求權之消滅時效期間為多少？",
+   "options": [
+    "15 年",
+    "5 年",
+    "2 年",
+    "無期間"
+   ],
+   "answer": "D",
+   "explain": "第 18 條人格權受侵害之「除去侵害請求權」屬人格權本身之防衛權能，通說認不罹於消滅時效。注意與第 197 條侵權「損害賠償」請求權（2 年／10 年）區辨。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33c2ace3-4688-8005-9900-e7a87252644c",
+   "kind": "訂正",
+   "number": "112內升(18)",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33c2ace3-4688-80bd-94f8-e04fcd16337f",
+   "point": "112內升(15)",
+   "stem": "下列何者不屬於普通抵押權之特性？",
+   "options": [
+    "要物性",
+    "從屬性",
+    "不可分性",
+    "物上代位性"
+   ],
+   "answer": "A",
+   "explain": "抵押權不移轉標的物之占有（第 860 條），設定以書面＋登記為之，無「要物性」。從屬性（隨債權存在）、不可分性（第 868 條）、物上代位性（第 881 條）均為其特性。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33c2ace3-4688-80bd-94f8-e04fcd16337f",
+   "kind": "訂正",
+   "number": "112內升(15)",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33c2ace3-4688-80c2-81f5-f0dcbd6f5ffc",
+   "point": "債各契約效力與瑕疵責任",
+   "stem": "下列何者不屬於不動產所有權移轉之要件？",
+   "options": [
+    "登記",
+    "書面",
+    "讓與合意",
+    "交付"
+   ],
+   "answer": "D",
+   "explain": "第 758 條：不動產物權依法律行為而變動者，非經「登記」不生效力，並應以「書面」為之，加上讓與合意共三要件。「交付」是動產物權變動之要件（第 761 條），非不動產。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33c2ace3-4688-80c2-81f5-f0dcbd6f5ffc",
+   "kind": "訂正",
+   "number": "112內升(14)",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33c2ace3-4688-800f-b6a6-fd7152624b24",
+   "point": "112內升(13)",
+   "stem": "下列何者不屬於用益物權？",
+   "options": [
+    "典權",
+    "不動產役權",
+    "留置權",
+    "農育權"
+   ],
+   "answer": "C",
+   "explain": "用益物權（就物之使用收益）：地上權、農育權、不動產役權、典權。留置權與抵押權、質權同屬「擔保物權」。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33c2ace3-4688-800f-b6a6-fd7152624b24",
+   "kind": "訂正",
+   "number": "112內升(13)",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33c2ace3-4688-8058-af14-d641c7501997",
+   "point": "112內升(10)",
+   "stem": "樹上之果實，性質上為下列何者？",
+   "options": [
+    "動產",
+    "土地之成分",
+    "從物",
+    "定著物"
+   ],
+   "answer": "B",
+   "explain": "第 66 條第 2 項：不動產之出產物，尚未分離者，為該不動產之部分。樹上未摘之果實為土地（不動產）之成分，分離後始為獨立動產。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33c2ace3-4688-8058-af14-d641c7501997",
+   "kind": "訂正",
+   "number": "112內升(10)",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-33b2ace3-4688-80bd-ac8c-f0516d6c38c0",
+   "point": "112內升(1)",
+   "stem": "甲將其所有之 A 地及建造於 A 地上之 B 屋，先後將 A 地讓與乙、將 B 屋讓與丙時，在 B 屋得使用期限內，丙、乙間發生下列何種法律關係？",
+   "options": [
+    "視為有租賃關係",
+    "推定有租賃關係",
+    "視為有法定地上權",
+    "推定有法定地上權"
+   ],
+   "answer": "B",
+   "explain": "民法第 425 條之 1：土地及其上房屋同屬一人，僅將土地或僅將房屋所有讓與他人，或分別讓與相異之人時，於房屋得使用期限內，「推定」有租賃關係——是推定而非視為，得舉反證推翻。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "33b2ace3-4688-80bd-ac8c-f0516d6c38c0",
+   "kind": "訂正",
+   "number": "112內升(1)",
    "retest": "原題重測"
   }
  ]
