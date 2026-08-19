@@ -1,0 +1,210 @@
+{
+ "title": "英文迷你卷：判斷動作總複習（8/20）",
+ "subject": "英文",
+ "minutes": 14,
+ "sections": [
+  {
+   "name": "選擇",
+   "count": 14,
+   "points": 4
+  }
+ ],
+ "questions": [
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "considerate 形近字",
+   "stem": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.",
+   "options": [
+    "considerable",
+    "considerate",
+    "considering",
+    "considered"
+   ],
+   "answer": "B",
+   "explain": "空格描述人「體貼、顧慮他人感受」，considerate 專用於形容人的性格。considerable 指「相當多的」，修飾數量或程度；considering 作介系詞表「就……而言」，後須接名詞；considered 作形容詞指「深思熟慮後的」，修飾意見或決定而非人。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "receive 形近誤選",
+   "stem": "Customers who ____ a damaged parcel should report it within seven days of delivery.",
+   "options": [
+    "reduce",
+    "recall",
+    "receive",
+    "remain"
+   ],
+   "answer": "C",
+   "explain": "主詞為顧客、受詞為包裹，需要「收到」之意。reduce 指減少，受詞須為可量化的事物；recall 指召回商品或回想，主詞多為製造商；remain 為不及物動詞，後面不能直接接受詞。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：動名詞當主詞",
+   "stem": "_____ is my favorite pastime.",
+   "options": [
+    "Listen music",
+    "Listening music",
+    "To listen music",
+    "Listening to music"
+   ],
+   "answer": "D",
+   "explain": "動名詞片語當主詞，且 listen 為不及物動詞須接 to：Listening to music。（112 歷屆）"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：不可數名詞 much",
+   "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
+   "options": [
+    "much",
+    "many",
+    "a few",
+    "several"
+   ],
+   "answer": "A",
+   "explain": "advice 為不可數名詞，量的修飾用 much；many、a few、several 只能修飾可數複數名詞。information、furniture 同屬此類——曾錯考點。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：suggest＋動名詞",
+   "stem": "The clerk suggested _____ the fragile items with bubble wrap before shipping.",
+   "options": [
+    "wrapping",
+    "wrap",
+    "to wrap",
+    "wrapped"
+   ],
+   "answer": "A",
+   "explain": "suggest 後接動名詞 V-ing（suggest doing），不接不定詞。同類動詞：mind、enjoy、finish、avoid、consider——與 mind＋V-ing 為同一組考點。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：with＋受詞＋分詞",
+   "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
+   "options": [
+    "involved",
+    "involving",
+    "to involve",
+    "which involve"
+   ],
+   "answer": "A",
+   "explain": "with＋受詞＋分詞的獨立結構：factors 是「被牽涉」的，用過去分詞 involved（be involved in）。（112 歷屆）"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：被動語態",
+   "stem": "All parcels ______ carefully before they are loaded onto the truck.",
+   "options": [
+    "inspect",
+    "are inspected",
+    "inspecting",
+    "have inspected"
+   ],
+   "answer": "B",
+   "explain": "包裹是「被檢查」，需用被動語態 are inspected。主詞 parcels 與 inspect 為被動關係，A、C、D 皆為主動形式。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：分詞形容詞 interesting",
+   "stem": "Justin bought a new book which he found very _____ and he finished reading it in one day.",
+   "options": [
+    "disinterested",
+    "interested",
+    "interest",
+    "interesting"
+   ],
+   "answer": "D",
+   "explain": "修飾「書」用現在分詞 interesting（令人感興趣的）；interested 用於人（感到興趣的）。（112 歷屆）"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "字彙：addicted",
+   "stem": "James is so _____ to video games that he plays them for 8 hours almost every day!",
+   "options": [
+    "blamed",
+    "addicted",
+    "offended",
+    "frightened"
+   ],
+   "answer": "B",
+   "explain": "be addicted to 對……上癮（固定搭配 to）。offended 被冒犯、frightened 受驚嚇。（112 歷屆）"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "字彙：glance",
+   "stem": "I only took a quick _____ at the notice board, so I missed the details of the schedule change.",
+   "options": [
+    "glance",
+    "term",
+    "stroll",
+    "circuit"
+   ],
+   "answer": "A",
+   "explain": "glance 一瞥（take a glance at 匆匆看一眼），與 quick 及後句 missed the details 呼應。term 期間／術語、stroll 漫步、circuit 環道。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "字彙：retail",
+   "stem": "Mobile payments are now widely accepted in _____ stores across the country.",
+   "options": [
+    "retail",
+    "curtail",
+    "detail",
+    "entail"
+   ],
+   "answer": "A",
+   "explain": "retail 零售（retail store 零售商店）。curtail 縮減、detail 細節、entail 使必需——三者皆與 -tail 結尾形近，屬形似字誘答。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：關係代名詞所有格",
+   "stem": "The applicant ______ resume impressed the manager was hired immediately.",
+   "options": [
+    "who",
+    "whom",
+    "whose",
+    "which"
+   ],
+   "answer": "C",
+   "explain": "空格後接名詞 resume，表「他的履歷」，需用所有格關係代名詞 whose。who 作主詞、whom 作受詞、which 用於事物，皆不可直接接名詞表所有。"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：名詞子句疑問詞 how",
+   "stem": "It is difficult to imagine _____ our personal and business affairs could be carried on without smartphones.",
+   "options": [
+    "why",
+    "how",
+    "what",
+    "when"
+   ],
+   "answer": "B",
+   "explain": "語意：難以想像事務「如何」在沒有手機下運作——用 how 引導名詞子句；what 在子句中缺乏對應缺格。（112 歷屆）"
+  },
+  {
+   "section": "選擇",
+   "points": 4,
+   "point": "文法：關係代名詞 which 指事件",
+   "stem": "At the age of ten, Michael lost his parents, _____ he considered the most traumatic in his life.",
+   "options": [
+    "which",
+    "who",
+    "whom",
+    "when"
+   ],
+   "answer": "A",
+   "explain": "先行詞是「失去雙親」這件事（非人），非限定用法用 which。（112 歷屆）"
+  }
+ ]
+}

@@ -302,5 +302,14 @@
   "minutes": 14,
   "summary": "選擇 10 題．旅遊契約／未來郵件・親收／郵政法第4條用詞定義／普及服務專營，選自既有題庫",
   "type": "practice"
+ },
+ {
+  "id": "english-mini-0820",
+  "file": "english-mini-0820.json",
+  "title": "英文迷你卷：判斷動作總複習（8/20）",
+  "subject": "英文",
+  "minutes": 14,
+  "summary": "選擇 14 題．形近字／詞性判斷／分詞構句／介系詞 to／連接詞五組判準各 2～3 題，含曾錯 7 題",
+  "type": "practice"
  }
 ]
