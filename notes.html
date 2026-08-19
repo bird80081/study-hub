@@ -189,7 +189,12 @@ a.item mark, .hit mark { background: var(--marker); color: var(--text); padding:
 
 <script>
 const $ = s => document.querySelector(s);
-const GROUPS = [["索引", "索引"], ["背", "考場前背這幾份"], ["查", "查用．不背"], ["診斷", "診斷紀錄"]];
+// ⚠ 2026-08-19：本表原本漏了「讀」，選文（醉翁亭記 8/12、師說 8/18）同步進 notes-long.json
+// 後在頁面上**完全沒有入口**——資料在、看不到，茶兒問「國文選文為什麼我沒有看到」才發現。
+// 與「判定作廢≠退出輪替」同型：上站與有入口是兩個動作，只做前者等於沒做。
+// 下方 renderNav 另加「未列入本表的 tag 一律附在最後」的保險，日後新增分類不會再靜靜消失。
+const GROUPS = [["索引", "索引"], ["背", "考場前背這幾份"], ["讀", "選文精讀"],
+                ["查", "查用．不背"], ["診斷", "診斷紀錄"]];
 let DOCS = [], cur = null;
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -201,7 +206,10 @@ function renderNav(q = "") {
   const hit = d => !t || (d.title + " " + d.text).toLowerCase().includes(t);
   const list = DOCS.filter(hit);
   if (!list.length) { $("#nav").innerHTML = `<p class="none">找不到「${esc(q)}」</p>`; return; }
-  $("#nav").innerHTML = GROUPS.map(([key, label]) => {
+  const extra = [...new Set(list.map(d => d.tag))]
+    .filter(k => !GROUPS.some(([g]) => g === k))
+    .map(k => [k, k]);                     // 保險：沒登記的分類也要有入口，不得靜靜消失
+  $("#nav").innerHTML = GROUPS.concat(extra).map(([key, label]) => {
     const items = list.filter(d => d.tag === key);
     if (!items.length) return "";
     return `<div class="grp"><b>${label}</b>` + items.map(d => {
