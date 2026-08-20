@@ -4129,5 +4129,368 @@
    "2": 93,
    "3": 37
   }
+ },
+ "2026-08-20": {
+  "date": "2026-08-20",
+  "drill": {
+   "count": 34,
+   "wrong": [
+    {
+     "id": "rc-3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
+     "subject": "英文",
+     "point": "模考0731-10 emergency",
+     "stem": "A Boeing 747 made an ___ landing earlier this morning because of the plane's mechanical problems.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-20",
+     "options": [
+      "empire",
+      "emergency",
+      "emotion",
+      "emphasis"
+     ],
+     "userText": "emphasis"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8101-9f3a-d0cf95fcf6a5",
+     "subject": "郵政法規",
+     "point": "補償請求權與補償金請求權之時效比較",
+     "stem": "依郵政法規定，關於郵件補償相關期間，下列敘述何者正確？（比較題）",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-20",
+     "options": [
+      "補償請求權自郵件交寄之次日起算六個月；補償金請求權自受領補償人收到通知之次日起算五年",
+      "補償請求權自郵件交寄之日起逾六個月不行使而消滅；補償金請求權自受領補償人收到通知之日起逾五年不行使而消滅",
+      "補償請求權與補償金請求權均自郵件交寄之日起算，前者六個月、後者五年",
+      "補償請求權自郵件交寄之日起逾三個月不行使而消滅；補償金請求權自通知之日起逾二年不行使而消滅"
+     ],
+     "userText": "補償請求權自郵件交寄之次日起算六個月；補償金請求權自受領補償人收到通知之次日起算五年"
+    },
+    {
+     "id": "rc-3c12ace3-4688-8108-ba33-e9e4b7de68ae",
+     "subject": "英文",
+     "point": "模考0818-8",
+     "stem": "______ the address carefully, the clerk found that the postal code was missing.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-20",
+     "options": [
+      "To be checked",
+      "Having checked",
+      "Checked",
+      "Being checked"
+     ],
+     "userText": "To be checked"
+    },
+    {
+     "id": "rc-3c12ace3-4688-81d5-abd3-d799e7f75270",
+     "subject": "英文",
+     "point": "模考0818-4",
+     "stem": "The new sorting machine is designed to ______ the existing system, not to replace it.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-20",
+     "options": [
+      "complement",
+      "compliment",
+      "complicate",
+      "comprehend"
+     ],
+     "userText": "comprehend"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81e6-8e6b-edc9f8f597e8",
+     "subject": "英文",
+     "point": "Clerks advise senders ______ the receipt until the parcel is delivered.",
+     "stem": "Clerks advise senders ______ the receipt until the parcel is delivered.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-20",
+     "options": [
+      "kept",
+      "keeping",
+      "keep",
+      "to keep"
+     ],
+     "userText": "keeping"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81bc-9692-c164ec1aac34",
+     "subject": "英文",
+     "point": "The branch has devoted itself to ______ the waiting time at the counter.",
+     "stem": "The branch has devoted itself to ______ the waiting time at the counter.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-20",
+     "options": [
+      "to reduce",
+      "reduced",
+      "reduce",
+      "reducing"
+     ],
+     "userText": "to reduce"
+    },
+    {
+     "id": "rc-3c02ace3-4688-8112-af5a-e24bf11023a8",
+     "subject": "英文",
+     "point": "This machine is used to ______ letters by postal code.",
+     "stem": "This machine is used to ______ letters by postal code.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-20",
+     "options": [
+      "sort",
+      "sorted",
+      "to sort",
+      "sorting"
+     ],
+     "userText": "sorting"
+    },
+    {
+     "id": "rc-3c12ace3-4688-816a-96e3-de1f8ee7a61e",
+     "subject": "郵政法規",
+     "point": "廣告回信之登記",
+     "stem": "依郵務營業規章規定，關於廣告回信之登記，下列敘述何者錯誤？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-20",
+     "options": [
+      "取消登記交還登記證滿二個月且未欠費者全數退還預存郵資\n答案：A",
+      "登記事項變更應於變更之日起十日內申請",
+      "申請時應檢附回信樣張二份",
+      "連續三年未使用者得撤銷其登記"
+     ],
+     "userText": "申請時應檢附回信樣張二份"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81cd-aeb0-e730fdab60a9",
+     "subject": "郵政法規",
+     "point": "欠資郵件處理程序：先退還寄件人補付→無法退還→招領揭示期滿→無著郵件",
+     "stem": "依郵務營業規章規定，有關欠資郵件之處理，下列何者不正確？",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-20",
+     "options": [
+      "未付郵資者，契約自始不成立，退還寄件人",
+      "未付足郵資者，於投遞時向收件人收取欠資差額及欠資手續費",
+      "寄往國外之欠資函件，退還寄件人補足資費差額",
+      "大批交寄之國際明信片，資費不足者，逕以無著郵件處理"
+     ],
+     "userText": "寄往國外之欠資函件，退還寄件人補足資費差額"
+    },
+    {
+     "id": "rc-3c12ace3-4688-819d-96b2-e09f0b75095b",
+     "subject": "民法",
+     "point": "爭點辨識：善意占有人之必要費用",
+     "stem": "丙取得相機後支出修理費五千元。嗣後認定丙應將相機返還甲，丙欲向甲請求該筆費用。本題爭點為何？",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-20",
+     "options": [
+      "甲是否受有不當得利\n答案：A",
+      "善意占有人得否請求償還必要費用",
+      "甲是否不法毀損丙之物",
+      "丙是否成立無因管理"
+     ],
+     "userText": "丙是否成立無因管理"
+    },
+    {
+     "id": "rc-3c12ace3-4688-81bf-b319-ee0eefcf1e12",
+     "subject": "民法",
+     "point": "旅遊契約各項請求權之時效",
+     "stem": "依民法規定，旅遊契約之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，其消滅時效為何？",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-20",
+     "options": [
+      "自契約成立時起一年",
+      "自旅遊終了或應終了時起一年",
+      "自請求權可行使時起十五年\n答案：A",
+      "自旅遊終了或應終了時起二年"
+     ],
+     "userText": "自旅遊終了或應終了時起二年"
+    },
+    {
+     "id": "rc-38d2ace3-4688-819d-80be-cc79a4dc29f6",
+     "subject": "民法",
+     "point": "106內升48",
+     "stem": "有關債之消滅，下列敘述何者正確？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-20",
+     "options": [
+      "金融機關以定型化契約條款約定，如已盡善良管理人之注意義務，以肉眼辨認仍不能發見蓋於取款條上之印 章係屬偽造即可免責，此為無效之約定",
+      "第三人持真正存摺而蓋用偽造之印章於取款條上提取存款，應係民法第 310 條第 2 款債權之準占有人",
+      "債之一部消滅者，債務人得請求返還或塗銷負債之字據",
+      "除法律另有規定外，清償地原則上於債務人之住所地為之"
+     ],
+     "userText": "除法律另有規定外，清償地原則上於債務人之住所地為之"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81d0-9da5-f37c802a3c40",
+     "subject": "民法",
+     "point": "106內升33",
+     "stem": "有關住所之敘述，下列何者錯誤？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-20",
+     "options": [
+      "無行為能力人，以其法定代理人之住所為住所",
+      "一人同時不得有兩住所",
+      "住所無可考者，其居所視為住所",
+      "依一定事實，足認以久住之意思，並設定戶籍於該地，即為住所"
+     ],
+     "userText": "一人同時不得有兩住所"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81ed-8470-dc7882b23c16",
+     "subject": "民法",
+     "point": "106內升39",
+     "stem": "有關物品之運送，因喪失、毀損或遲到而生之賠償請求權，自運送終了，或應終了之時起，多久時間不 行使而消滅？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-20",
+     "options": [
+      "15 年",
+      "6 個月",
+      "1年",
+      "2年"
+     ],
+     "userText": "2年"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3c02ace3-4688-8136-aa4d-d494742dda22",
+     "subject": "英文",
+     "point": "Could you tell me ______ ?（how long the parcel will take to arrive）"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81ce-9a48-c74c42dfd9de",
+     "subject": "英文",
+     "point": "Several customers objected to ______ an extra fee for weekend delivery."
+    },
+    {
+     "id": "rc-3b52ace3-4688-8152-8d00-f3cc6194af84",
+     "subject": "郵政法規",
+     "point": "國內快捷郵件撤回費之計算"
+    },
+    {
+     "id": "rc-3b52ace3-4688-810b-bd58-e1ff58c3250b",
+     "subject": "郵政法規",
+     "point": "修正施行前契約之分級給付"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
+     "subject": "郵政法規",
+     "point": "簡易壽險續期保費：催告十日內＋自當期繳費日起算三個月寬限期間"
+    },
+    {
+     "id": "rc-39e2ace3-4688-8194-8805-f23e66e6a1d1",
+     "subject": "郵政法規",
+     "point": "延誤補償之計算"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81a4-9e7e-ef153fa8bb0b",
+     "subject": "民法",
+     "point": "§818：應有部分為抽象比例，各共有人按其應有部分，對共有物之「全部」有使用收益之權，非特定部分"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8132-9dab-c7f56c1a19d8",
+     "subject": "民法",
+     "point": "租賃物修繕義務之歸屬"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81e4-97e3-c6ced0d1adac",
+     "subject": "民法",
+     "point": "選擇之債之選擇權歸屬"
+    },
+    {
+     "id": "rc-38d2ace3-4688-8135-b828-f3d2f98b173d",
+     "subject": "民法",
+     "point": "106內升36"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81a7-b540-d1db32f40f84",
+     "subject": "民法",
+     "point": "106內升34"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81b0-8fcf-d0d89dfb52ba",
+     "subject": "民法",
+     "point": "106內升7"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81ee-adf4-fc6bc0c7678c",
+     "subject": "民法",
+     "point": "債權讓與通知與對抗債務人"
+    },
+    {
+     "id": "rc-33c2ace3-4688-801c-bd74-fa167aec67c4",
+     "subject": "民法",
+     "point": "債各契約效力與瑕疵責任"
+    },
+    {
+     "id": "rc-33c2ace3-4688-8005-9900-e7a87252644c",
+     "subject": "民法",
+     "point": "112內升(18)"
+    },
+    {
+     "id": "rc-33c2ace3-4688-80bd-94f8-e04fcd16337f",
+     "subject": "民法",
+     "point": "112內升(15)"
+    },
+    {
+     "id": "rc-33c2ace3-4688-80c2-81f5-f0dcbd6f5ffc",
+     "subject": "民法",
+     "point": "債各契約效力與瑕疵責任"
+    },
+    {
+     "id": "rc-33c2ace3-4688-800f-b6a6-fd7152624b24",
+     "subject": "民法",
+     "point": "112內升(13)"
+    },
+    {
+     "id": "rc-33c2ace3-4688-8058-af14-d641c7501997",
+     "subject": "民法",
+     "point": "112內升(10)"
+    },
+    {
+     "id": "rc-33b2ace3-4688-80bd-ac8c-f0516d6c38c0",
+     "subject": "民法",
+     "point": "112內升(1)"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "id": "theme-mini-0820",
+    "title": "主題迷你卷：主題庫到期（8/20）",
+    "subject": "郵政法規",
+    "mcScore": 36,
+    "mcMax": 40,
+    "mcRight": 9,
+    "mcTotal": 10,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "旅客運送損害賠償時效",
+      "user": "A",
+      "answer": "B"
+     }
+    ]
+   }
+  ],
+  "vocab": {
+   "done": 0,
+   "right": 0
+  },
+  "vocabStages": {
+   "0": 19,
+   "1": 89,
+   "2": 93,
+   "3": 37
+  }
  }
 }
