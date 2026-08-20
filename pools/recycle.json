@@ -1,27 +1,8 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-19T23:11:05",
- "dueDate": "2026-08-20",
+ "generatedAt": "2026-08-20T21:54:59",
+ "dueDate": "2026-08-21",
  "questions": [
-  {
-   "id": "rc-3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
-   "point": "模考0731-10 emergency",
-   "stem": "A Boeing 747 made an ___ landing earlier this morning because of the plane's mechanical problems.",
-   "options": [
-    "emergency",
-    "emotion",
-    "emphasis",
-    "empire"
-   ],
-   "answer": "A",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-81e5-b5ec-ed595b21bef6",
-   "kind": "英文",
-   "number": "模考0731-10 emergency",
-   "retest": "原題重測"
-  },
   {
    "id": "rc-3c12ace3-4688-8108-ba33-e9e4b7de68ae",
    "point": "模考0818-8",
@@ -58,25 +39,6 @@
    "pageId": "3c12ace3-4688-81d5-abd3-d799e7f75270",
    "kind": "英文",
    "number": "模考0818-4",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c02ace3-4688-8136-aa4d-d494742dda22",
-   "point": "Could you tell me ______ ?（how long the parcel will take to arrive）",
-   "stem": "Could you tell me ______?",
-   "options": [
-    "where is the nearest post office",
-    "where the nearest post office is",
-    "the nearest post office is where",
-    "where does the nearest post office"
-   ],
-   "answer": "B",
-   "explain": "間接問句採「疑問詞＋主詞＋動詞」的直述句語序：where the nearest post office is。A 是直接問句語序，置於 tell me 之後不合文法。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c02ace3-4688-8136-aa4d-d494742dda22",
-   "kind": "英文",
-   "number": "Could you tell me ______ ?（how long the parcel will take to arrive）",
    "retest": "原題重測"
   },
   {
@@ -137,79 +99,136 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c02ace3-4688-81ce-9a48-c74c42dfd9de",
-   "point": "Several customers objected to ______ an extra fee for weekend delivery.",
-   "stem": "Several customers objected to ______ an extra fee for weekend delivery.",
+   "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
+   "point": "模考0807-33 cause＋受詞＋to V",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
    "options": [
-    "paying",
-    "pay",
-    "to pay",
-    "paid"
-   ],
-   "answer": "A",
-   "explain": "object to 的 to 是介系詞。it 測試：They objected to it. 通 → 吃名詞 → V-ing。介系詞 to 是有限清單（look forward to／object to／be opposed to／devote oneself to），認得清單就不必每次跑測試；清單以外的 to 預設是不定詞。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c02ace3-4688-81ce-9a48-c74c42dfd9de",
-   "kind": "英文",
-   "number": "Several customers objected to ______ an extra fee for weekend delivery.",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8152-8d00-f3cc6194af84",
-   "point": "國內快捷郵件撤回費之計算",
-   "stem": "甲交寄國內快捷郵件後申請撤回，該郵件已到達投遞局但尚未投遞。依郵務營業規章規定，其撤回費及已付資費應如何處理？",
-   "options": [
-    "已付資費全數退還，並免付撤回費",
-    "扣除國內包裹往返資費後退還餘額，並免付撤回費",
-    "應付撤回費，其已付資費扣除國內包裹往返資費後退還餘額；原付資費不足扣抵者，免予補收包裹資費",
-    "已付資費不予退還，並應付撤回費"
-   ],
-   "answer": "C",
-   "explain": "郵務營業規章第72條之1第1項就國內快捷郵件撤回分三階段：郵件尚在原寄局者，資費全數退還並免付撤回費；已離開原寄局但尚未到達投遞局者，扣除國內包裹往返資費後退還餘額並免付撤回費；已到達投遞局尚未投遞者，應付撤回費並扣除國內包裹往返資費後退還餘額。三階段之關鍵分界為『是否已到達投遞局』——到達後始須付撤回費。末項『資費不予退還並應付撤回費』係國際包裹或國際快捷已離開我國境內之處理（第54條、第72條之2），屬跨條混淆。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-8152-8d00-f3cc6194af84",
-   "kind": "訂正",
-   "number": "模考0807-45",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-810b-bd58-e1ff58c3250b",
-   "point": "修正施行前契約之分級給付",
-   "stem": "某簡易人壽保險契約係於本法修正施行前訂立，被保險人於本法修正施行後、契約有效期間屆滿七個月時死亡。依簡易人壽保險法規定，受益人得領受之保險給付為何？",
-   "options": [
-    "所納之全部保險費",
-    "保險金額四分之一",
-    "保險金額之半數",
-    "全部保險金額"
-   ],
-   "answer": "C",
-   "explain": "簡易人壽保險法第19條就本法修正施行前訂立之契約分四級：未滿三個月死亡者領受所納全部保險費；滿三個月未滿六個月領受保險金額四分之一；滿六個月未滿九個月領受半數；滿九個月領受全部保險金額。七個月落在『滿六個月未滿九個月』區間，故為半數。本題為區間落點判斷，須注意各級距為『滿…未滿…』之閉開區間。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-810b-bd58-e1ff58c3250b",
-   "kind": "訂正",
-   "number": "模考0807-28",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8101-9f3a-d0cf95fcf6a5",
-   "point": "補償請求權與補償金請求權之時效比較",
-   "stem": "依郵政法規定，關於郵件補償相關期間，下列敘述何者正確？（比較題）",
-   "options": [
-    "補償請求權自郵件交寄之次日起算六個月；補償金請求權自受領補償人收到通知之次日起算五年",
-    "補償請求權自郵件交寄之日起逾六個月不行使而消滅；補償金請求權自受領補償人收到通知之日起逾五年不行使而消滅",
-    "補償請求權與補償金請求權均自郵件交寄之日起算，前者六個月、後者五年",
-    "補償請求權自郵件交寄之日起逾三個月不行使而消滅；補償金請求權自通知之日起逾二年不行使而消滅"
+    "stuck",
+    "to be stuck",
+    "being stuck",
+    "stick"
    ],
    "answer": "B",
-   "explain": "郵政法第34條：補償請求權自『郵件交寄之日』起逾六個月消滅；同法第35條：補償金請求權自『受領補償人收到通知之日』起逾五年消滅。兩者皆為『之日』起算，非『次日』——次日起算者為郵件處理規則第60條之查詢期限（交寄之次日起六個月、國際快捷四個月）與第63條補償金支付期限（查詢之次日起三個月），此為本卷刻意設計之起算日互換誘答。另須注意兩者起算點不同：一為交寄日、一為收到通知日。\n\n⚠ 2026-08-19 茶兒提疑義，查證後補充：本題 (B) 錯在**條文用語**，不在算法。民法§119、§120Ⅱ「以日、星期、月或年定期間者，其始日不算入」，郵政法未特別訂定，故「自交寄之日起六個月」實際計算就是從交寄之次日起算——(B) 與 (C) 的計算結果相同。要背的是條文寫「之日」（郵政法§34、§35）還是寫「次日」（郵件處理規則§60 查詢期限、§63 支付期限），**不要用「哪個算法對」去判斷，兩個算法一樣**。",
+   "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。",
    "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-8101-9f3a-d0cf95fcf6a5",
-   "kind": "訂正",
-   "number": "模考0807-7",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-816e-891d-e05bb13e0d81",
+   "kind": "英文",
+   "number": "模考0807-33 cause＋受詞＋to V",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b52ace3-4688-8116-970c-f7ca309ff28f",
+   "point": "模考0807-29 疑問詞＋不定詞",
+   "stem": "The new employee was not sure _____ the customs declaration form.",
+   "options": [
+    "how fill in",
+    "how to fill in",
+    "how filling in",
+    "how does he fill in"
+   ],
+   "answer": "B",
+   "explain": "疑問詞 + to V 可作名詞片語當受詞，how to fill in 意為『如何填寫』。how fill in 缺結構、how filling in 詞性錯誤、how does he fill in 為直接問句語序，作受詞時須改為間接問句語序。此點與第 1 場考過的間接問句相通。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-8116-970c-f7ca309ff28f",
+   "kind": "英文",
+   "number": "模考0807-29 疑問詞＋不定詞",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b52ace3-4688-8149-ba33-f79ed9bd3627",
+   "point": "模考0807-26 現在分詞與過去分詞之別",
+   "stem": "The clerk found the waiting area _____ with customers during the lunch hour.",
+   "options": [
+    "crowding",
+    "crowd",
+    "to crowd",
+    "crowded"
+   ],
+   "answer": "D",
+   "explain": "be crowded with 為固定用法，表『擠滿了』，此處以過去分詞作受詞補語，描述 waiting area 被擠滿的狀態。crowding 為主動進行、to crowd 與 crowd 皆不符受詞補語結構。此點與第 1 場考過的 interesting／interested 同屬分詞形容詞判斷。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-8149-ba33-f79ed9bd3627",
+   "kind": "英文",
+   "number": "模考0807-26 現在分詞與過去分詞之別",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b52ace3-4688-8194-9438-f7842e088e78",
+   "point": "模考0807-25 關係代名詞 whose",
+   "stem": "The customer _____ signature was missing on the form had to come back to the post office.",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "whom"
+   ],
+   "answer": "C",
+   "explain": "先行詞 customer 與 signature 為所有關係（顧客的簽名），故用所有格關係代名詞 whose。who 為主格、whom 為受格、which 用於事物。判斷關鍵是關係詞後緊接名詞且無冠詞。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-8194-9438-f7842e088e78",
+   "kind": "英文",
+   "number": "模考0807-25 關係代名詞 whose",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b52ace3-4688-818d-a693-e78bb8f4462c",
+   "point": "模考0807-21 used to V vs be used to V-ing",
+   "stem": "Having worked at the counter for ten years, she is used to _____ with all kinds of customers.",
+   "options": [
+    "deal",
+    "dealt",
+    "dealing",
+    "be dealing"
+   ],
+   "answer": "C",
+   "explain": "be used to + V-ing 意為『習慣於做某事』，此處 to 為介系詞，其後接動名詞。若為 used to + 原形動詞，則意為『過去經常』，與句首 Having worked for ten years 所表達的『已習慣』語意不合。此為兩結構之核心區辨。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-818d-a693-e78bb8f4462c",
+   "kind": "英文",
+   "number": "模考0807-21 used to V vs be used to V-ing",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b52ace3-4688-81ce-a77b-cabf827cfcfd",
+   "point": "模考0807-18 stop＋V-ing vs stop to V",
+   "stem": "The postman was so tired that he stopped _____ a short rest under the tree.",
+   "options": [
+    "taking",
+    "to take",
+    "take",
+    "taken"
+   ],
+   "answer": "B",
+   "explain": "stop to V 意為『停下來去做某事』，此處停下來是為了休息，故用不定詞。stop + V-ing 意為『停止做某事』，若填 taking 則變成『停止休息』，與 so tired 之語意矛盾。此為 8/1 複習時的錯點，本題以疲勞情境測驗語意方向。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3b52ace3-4688-81ce-a77b-cabf827cfcfd",
+   "kind": "英文",
+   "number": "模考0807-18 stop＋V-ing vs stop to V",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3ae2ace3-4688-8172-9452-ffa997f7fea9",
+   "point": "模考0731-40 stop + Ving",
+   "stem": "第 40 格：請依段落前後文意，選出最適當的答案。",
+   "options": [
+    "search",
+    "searched",
+    "searching",
+    "to search"
+   ],
+   "answer": "C",
+   "explain": "歷屆真卷題，逐題檢討時補充解析。",
+   "passage": "We should always try to help others. When we help others, we usually become __36__. One time a girl shared a glass of milk __37__ a poor boy. Several years __38__, the boy became a doctor and saved her life. Animals can also be of great help. They can even save our lives! Brave __39__ dogs help to look for people under rocks after an earthquake hits. They don't stop __40__, even though they may get hurt. Maybe we don't have much money to help people, however, we can begin helping others by giving our seats to people in need on the bus or MRT.",
+   "srcSubject": "英文",
+   "pageId": "3ae2ace3-4688-8172-9452-ffa997f7fea9",
+   "kind": "英文",
+   "number": "模考0731-40 stop + Ving",
    "retest": "原題重測"
   },
   {
@@ -220,7 +239,7 @@
     "登記事項變更應於變更之日起十日內申請",
     "申請時應檢附回信樣張二份",
     "連續三年未使用者得撤銷其登記",
-    "取消登記交還登記證滿二個月且未欠費者全數退還預存郵資\n答案：A"
+    "取消登記交還登記證滿二個月且未欠費者全數退還預存郵資"
    ],
    "answer": "A",
    "explain": "廣告回信之地址變更應「立即」申請，不是十日內；「變更之日起十日內」是新聞紙、雜誌登記事項變更的期限，兩者最易互混。其餘三項（樣張二份、連續三年未使用得撤銷、交還登記證滿二個月未欠費全數退還）均正確。",
@@ -251,82 +270,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
-   "point": "簡易壽險續期保費：催告十日內＋自當期繳費日起算三個月寬限期間",
-   "stem": "依簡易人壽保險法規定，續期保險費自繳費日起一個月未交付者，保險人應予催告，並自何日起算三個月為寬限期間？",
-   "options": [
-    "自催告日起算",
-    "自當期繳費日起算",
-    "自當期繳費日次日起算",
-    "自次期繳費日起算"
-   ],
-   "answer": "B",
-   "explain": "簡易人壽保險法§13Ⅰ：續期保險費自繳費日起一個月未交付者，保險人應於十日內催告，並自『當期繳費日』起算三個月為寬限期間，寬限期間屆滿仍未交付者契約效力停止。起算點是當期繳費日本身，不是次日、也不是催告日。配套記：§14 停效後二年內得申請恢復效力。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3ae2ace3-4688-81cd-b851-c7f039b2b0f8",
-   "kind": "訂正",
-   "number": "模考0731-25",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-39e2ace3-4688-8194-8805-f23e66e6a1d1",
-   "point": "延誤補償之計算",
-   "stem": "某甲交寄限時掛號附回執小包 1 件，其資費共 102 元（小包資費 60 元、掛號資費 20 元、限時資費 7 元、普通回執費 15 元），因郵局投遞人員未依中華郵政公司公告之處理規定遞送，其可向郵局請求補償之金額為新臺幣多少元？",
-   "options": [
-    "575 元",
-    "102 元",
-    "87 元",
-    "80 元"
-   ],
-   "answer": "C",
-   "explain": "未依規定遞送依「所收取之全部資費」補償，但不含報值費、保價費、代收貨款費及「回執費」：102 − 15 ＝ 87 元（⚠ 速查表：曾漏扣項目，本題考排除回執費）。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "39e2ace3-4688-8194-8805-f23e66e6a1d1",
-   "kind": "訂正",
-   "number": "延誤補償之計算",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c02ace3-4688-81a4-9e7e-ef153fa8bb0b",
-   "point": "§818：應有部分為抽象比例，各共有人按其應有部分，對共有物之「全部」有使用收益之權，非特定部分",
-   "stem": "甲乙丙共有 D 地，應有部分各三分之一，未訂立任何契約。關於甲之使用收益權，下列敘述何者正確？",
-   "options": [
-    "按應有部分，對共有物之全部有使用收益之權",
-    "僅得使用共有物三分之一之特定部分",
-    "須經乙丙過半數同意始得使用",
-    "得使用全部並收取全部孳息"
-   ],
-   "answer": "A",
-   "explain": "民法§818：各共有人，除契約另有約定外，按其應有部分，對於共有物之「全部」有使用收益之權。應有部分是抽象的比例，不是地上劃一塊給你（B 錯）——要有特定範圍必須另訂分管契約，本題明寫「未訂立任何契約」。使用收益是共有人本於所有權的固有權能，不必再取得多數決同意（C 錯）；但收益仍受應有部分比例限制，不得獨吞全部孳息（D 錯）。判斷動作：先確認有沒有分管契約，沒有就一律回到「抽象比例、及於全部」。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c02ace3-4688-81a4-9e7e-ef153fa8bb0b",
-   "kind": "訂正",
-   "number": "模考0817-6",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8132-9dab-c7f56c1a19d8",
-   "point": "租賃物修繕義務之歸屬",
-   "stem": "甲承租乙之房屋，居住期間屋頂漏水須修繕，該漏水非可歸責於甲。依民法規定，下列敘述何者錯誤？",
-   "options": [
-    "租賃物之修繕，除契約另有訂定或另有習慣外，由出租人負擔",
-    "承租人得定相當期限催告出租人修繕，出租人不於期限內修繕者，承租人得終止契約",
-    "承租人得自行修繕而請求出租人償還其費用或於租金中扣除",
-    "出租人為保存租賃物所為之必要行為，承租人得拒絕之"
-   ],
-   "answer": "D",
-   "explain": "民法第429條第1項定修繕義務原則由出租人負擔；第430條定承租人得定期催告，逾期未修繕者得終止契約或自行修繕請求償還費用或於租金中扣除。至於第429條第2項明定：出租人為保存租賃物所為之必要行為，『承租人不得拒絕』，故末項與條文相反。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3b52ace3-4688-8132-9dab-c7f56c1a19d8",
-   "kind": "訂正",
-   "number": "模考0807-11",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3c12ace3-4688-819d-96b2-e09f0b75095b",
    "point": "爭點辨識：善意占有人之必要費用",
    "stem": "丙取得相機後支出修理費五千元。嗣後認定丙應將相機返還甲，丙欲向甲請求該筆費用。本題爭點為何？",
@@ -334,7 +277,7 @@
     "善意占有人得否請求償還必要費用",
     "甲是否不法毀損丙之物",
     "丙是否成立無因管理",
-    "甲是否受有不當得利\n答案：A"
+    "甲是否受有不當得利"
    ],
    "answer": "A",
    "explain": "修理費屬保存占有物之必要費用，善意占有人得向回復請求人請求償還（已就占有物取得孳息者不在此限）。⚠ 此處最常誤用「不法毀損他人之物得請求賠償減少之價額」那一條——那是「你弄壞我的東西賠我錢」，當事人與方向與本題完全相反。判斷動作：先問「現在是誰對誰、要的是什麼」，再挑制度。",
@@ -353,7 +296,7 @@
     "自旅遊終了或應終了時起一年",
     "自旅遊終了或應終了時起二年",
     "自契約成立時起一年",
-    "自請求權可行使時起十五年\n答案：A"
+    "自請求權可行使時起十五年"
    ],
    "answer": "A",
    "explain": "民法第514條之12：本節之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，均自旅遊終了或應終了時起一年間不行使而消滅。三種請求權共用同一時效與同一起算點，起算點是「旅遊終了或應終了時」而非契約成立時，這是本條唯一的陷阱。",
@@ -362,44 +305,6 @@
    "pageId": "3c12ace3-4688-81bf-b319-ee0eefcf1e12",
    "kind": "訂正",
    "number": "模考0818-13",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81e4-97e3-c6ced0d1adac",
-   "point": "選擇之債之選擇權歸屬",
-   "stem": "甲乙約定甲應交付 A 車或 B 車其中一部與乙，但未約定由何人選擇。嗣選擇權人遲未選擇。依民法規定，下列敘述何者正確？",
-   "options": [
-    "選擇權屬於債務人甲",
-    "選擇權屬於債權人乙",
-    "選擇權屬於法院，由法院指定",
-    "給付標的不確定，契約無效"
-   ],
-   "answer": "A",
-   "explain": "民法第208條：於數宗給付中得選定其一者，其選擇權屬於債務人，但法律另有規定或契約另有訂定者不在此限。故未約定時推由債務人甲選擇。選擇之債之標的雖於選擇前尚未特定，惟給付內容可得確定，契約有效，非無效。另依第210條，選擇權定有行使期間而不行使者，其選擇權移屬於他方當事人。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3b52ace3-4688-81e4-97e3-c6ced0d1adac",
-   "kind": "訂正",
-   "number": "模考0807-5",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-38d2ace3-4688-8135-b828-f3d2f98b173d",
-   "point": "106內升36",
-   "stem": "有關過失責任，下列敘述何者錯誤？",
-   "options": [
-    "故意或重大過失之責任，可預先免除",
-    "過失之責任，依事件之特性而有輕重，如其事件非予債務人以利益者，應從輕酌定",
-    "應與處理自己事務為同一注意者，如有重大過失，仍應負責",
-    "債務人之代理人或使用人，關於債之履行有故意或過失時，債務人應負同一責任"
-   ],
-   "answer": "A",
-   "explain": "",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "38d2ace3-4688-8135-b828-f3d2f98b173d",
-   "kind": "訂正",
-   "number": "106內升36",
    "retest": "原題重測"
   },
   {
@@ -419,44 +324,6 @@
    "pageId": "38d2ace3-4688-819d-80be-cc79a4dc29f6",
    "kind": "訂正",
    "number": "106內升48",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-38d2ace3-4688-81a7-b540-d1db32f40f84",
-   "point": "106內升34",
-   "stem": "有關民法上代理人之資格，下列敘述何者正確？",
-   "options": [
-    "代理人須為完全行為能力人",
-    "授予代理權必須以授權書為之",
-    "受監護宣告之人，精神恢復正常仍可為代理人",
-    "限制行為能力人得為代理人"
-   ],
-   "answer": "D",
-   "explain": "",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "38d2ace3-4688-81a7-b540-d1db32f40f84",
-   "kind": "訂正",
-   "number": "106內升34",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-38d2ace3-4688-81b0-8fcf-d0d89dfb52ba",
-   "point": "106內升7",
-   "stem": "租賃契約之期限，依民法規定不得逾幾年？",
-   "options": [
-    "10 年",
-    "30 年",
-    "15 年",
-    "20 年"
-   ],
-   "answer": "D",
-   "explain": "⚖️ §449\n租賃契約之期限，不得逾二十年。逾二十年者，縮短為二十年。\n前項期限，當事人得更新之。\n租用基地建築房屋者，不是用第一項規定。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "38d2ace3-4688-81b0-8fcf-d0d89dfb52ba",
-   "kind": "訂正",
-   "number": "106內升7",
    "retest": "原題重測"
   },
   {
@@ -498,155 +365,22 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-38d2ace3-4688-81ee-adf4-fc6bc0c7678c",
-   "point": "債權讓與通知與對抗債務人",
-   "stem": "有關債權讓與，下列敘述何者錯誤？",
+   "id": "rc-3c22ace3-4688-81df-8baa-f4c0b9f9418f",
+   "point": "旅客運送之傷害或遲到賠償請求權為二年（§623Ⅱ）；與物品運送一年（§623Ⅰ）、運送費及墊款二年（§127⑦）成組比較",
+   "stem": "依民法規定，旅客運送因傷害或遲到而生之賠償請求權，自運送終了或應終了之時起，多久間不行使而消滅？",
    "options": [
-    "債權之讓與，非經讓與人或受讓人通知債務人，債權讓與在當事人間仍為有效，僅對債務人不生效力",
-    "讓與債權時，該債權之擔保及其他從屬之權利，隨同移轉於受讓人。但與讓與人有不可分離之關係者，不在 此限",
-    "讓與人將債權證明文件，交付予受讓人，為債權讓與之生效要件",
-    "債務人於受通知時，所得對抗讓與人之事由，皆得以之對抗受讓人"
-   ],
-   "answer": "C",
-   "explain": "",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "38d2ace3-4688-81ee-adf4-fc6bc0c7678c",
-   "kind": "訂正",
-   "number": "106內升50",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33c2ace3-4688-801c-bd74-fa167aec67c4",
-   "point": "債各契約效力與瑕疵責任",
-   "stem": "甲未經乙許可，將向乙借得之自行車，以自己之名出賣與知情之丙，甲與丙之買賣契約，其效力為何？",
-   "options": [
-    "無效",
-    "有效",
-    "效力未定",
-    "得撤銷"
-   ],
-   "answer": "B",
-   "explain": "出賣他人之物，其「債權行為」（買賣契約）仍屬有效——負擔行為不以有處分權為必要；效力未定的是移轉所有權之「物權行為」（第 118 條無權處分）。丙知情亦不影響債權契約效力。（112 歷屆）",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "33c2ace3-4688-801c-bd74-fa167aec67c4",
-   "kind": "訂正",
-   "number": "112內升(19)",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33c2ace3-4688-8005-9900-e7a87252644c",
-   "point": "112內升(18)",
-   "stem": "甲遭乙在網路上散布謠言惡意侵害其名譽，遂依法向乙請求除去網路上散布之言論，其請求權之消滅時效期間為多少？",
-   "options": [
-    "15 年",
-    "5 年",
+    "1 年",
     "2 年",
-    "無期間"
-   ],
-   "answer": "D",
-   "explain": "第 18 條人格權受侵害之「除去侵害請求權」屬人格權本身之防衛權能，通說認不罹於消滅時效。注意與第 197 條侵權「損害賠償」請求權（2 年／10 年）區辨。（112 歷屆）",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "33c2ace3-4688-8005-9900-e7a87252644c",
-   "kind": "訂正",
-   "number": "112內升(18)",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33c2ace3-4688-80bd-94f8-e04fcd16337f",
-   "point": "112內升(15)",
-   "stem": "下列何者不屬於普通抵押權之特性？",
-   "options": [
-    "要物性",
-    "從屬性",
-    "不可分性",
-    "物上代位性"
-   ],
-   "answer": "A",
-   "explain": "抵押權不移轉標的物之占有（第 860 條），設定以書面＋登記為之，無「要物性」。從屬性（隨債權存在）、不可分性（第 868 條）、物上代位性（第 881 條）均為其特性。（112 歷屆）",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "33c2ace3-4688-80bd-94f8-e04fcd16337f",
-   "kind": "訂正",
-   "number": "112內升(15)",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33c2ace3-4688-80c2-81f5-f0dcbd6f5ffc",
-   "point": "債各契約效力與瑕疵責任",
-   "stem": "下列何者不屬於不動產所有權移轉之要件？",
-   "options": [
-    "登記",
-    "書面",
-    "讓與合意",
-    "交付"
-   ],
-   "answer": "D",
-   "explain": "第 758 條：不動產物權依法律行為而變動者，非經「登記」不生效力，並應以「書面」為之，加上讓與合意共三要件。「交付」是動產物權變動之要件（第 761 條），非不動產。（112 歷屆）",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "33c2ace3-4688-80c2-81f5-f0dcbd6f5ffc",
-   "kind": "訂正",
-   "number": "112內升(14)",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33c2ace3-4688-800f-b6a6-fd7152624b24",
-   "point": "112內升(13)",
-   "stem": "下列何者不屬於用益物權？",
-   "options": [
-    "典權",
-    "不動產役權",
-    "留置權",
-    "農育權"
-   ],
-   "answer": "C",
-   "explain": "用益物權（就物之使用收益）：地上權、農育權、不動產役權、典權。留置權與抵押權、質權同屬「擔保物權」。（112 歷屆）",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "33c2ace3-4688-800f-b6a6-fd7152624b24",
-   "kind": "訂正",
-   "number": "112內升(13)",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33c2ace3-4688-8058-af14-d641c7501997",
-   "point": "112內升(10)",
-   "stem": "樹上之果實，性質上為下列何者？",
-   "options": [
-    "動產",
-    "土地之成分",
-    "從物",
-    "定著物"
+    "5 年",
+    "15 年"
    ],
    "answer": "B",
-   "explain": "第 66 條第 2 項：不動產之出產物，尚未分離者，為該不動產之部分。樹上未摘之果實為土地（不動產）之成分，分離後始為獨立動產。（112 歷屆）",
+   "explain": "民法§623 兩項成對：第Ⅰ項物品運送之喪失、毀損或遲到＝一年；第Ⅱ項旅客運送之傷害或遲到＝二年。起算點兩項相同，都是「自運送終了或應終了之時起」。\n⚠ 本人 2026-08-20 選（A）1 年，正是把物品那一項的期間套到旅客身上；同日回收卷的 106內升39（物品運送）反向錯選 2 年——兩題錯法互為鏡像，代表記的是「有一年也有二年」而沒綁到主體。\n判斷動作：先問「運的是物還是人」——物＝1 年、人＝2 年（人身法益期間較長）。第三個易混項是運送費及運送人所墊款之請求權，屬§127 二年短期時效（見 106內升37），性質是報酬非賠償，勿併入。",
    "passage": "",
    "srcSubject": "民法",
-   "pageId": "33c2ace3-4688-8058-af14-d641c7501997",
+   "pageId": "3c22ace3-4688-81df-8baa-f4c0b9f9418f",
    "kind": "訂正",
-   "number": "112內升(10)",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-33b2ace3-4688-80bd-ac8c-f0516d6c38c0",
-   "point": "112內升(1)",
-   "stem": "甲將其所有之 A 地及建造於 A 地上之 B 屋，先後將 A 地讓與乙、將 B 屋讓與丙時，在 B 屋得使用期限內，丙、乙間發生下列何種法律關係？",
-   "options": [
-    "視為有租賃關係",
-    "推定有租賃關係",
-    "視為有法定地上權",
-    "推定有法定地上權"
-   ],
-   "answer": "B",
-   "explain": "民法第 425 條之 1：土地及其上房屋同屬一人，僅將土地或僅將房屋所有讓與他人，或分別讓與相異之人時，於房屋得使用期限內，「推定」有租賃關係——是推定而非視為，得舉反證推翻。（112 歷屆）",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "33b2ace3-4688-80bd-ac8c-f0516d6c38c0",
-   "kind": "訂正",
-   "number": "112內升(1)",
+   "number": "主題0820-1",
    "retest": "原題重測"
   }
  ]
