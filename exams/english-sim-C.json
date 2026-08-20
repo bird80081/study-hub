@@ -1,0 +1,729 @@
+{
+ "title": "英文仿真卷 C（全科第4場）",
+ "subject": "英文",
+ "minutes": 60,
+ "sections": [
+  {
+   "name": "字彙",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "文法",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "克漏字",
+   "count": 10,
+   "points": 2
+  },
+  {
+   "name": "閱讀",
+   "count": 10,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：reimburse",
+   "stem": "Employees who pay for postage out of their own pocket may apply to be ______ within thirty days.",
+   "options": [
+    "reminded",
+    "removed",
+    "reimbursed",
+    "renewed"
+   ],
+   "answer": "C",
+   "explain": "reimburse 指「償還（代墊的款項）」，與 apply、within thirty days 的行政程序語境相合。remind 是提醒、renew 是更新展期、remove 是移除，三者都與「把錢還給墊付的人」無關。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：surcharge",
+   "stem": "A fuel ______ is added to international parcels when oil prices rise sharply.",
+   "options": [
+    "surcharge",
+    "surplus",
+    "survey",
+    "surrender"
+   ],
+   "answer": "A",
+   "explain": "surcharge 指在原本費率之外「另加收的費用」，正是燃油附加費的說法。surplus 是剩餘、surrender 是交出投降、survey 是調查，三者都不是收費項目。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：perishable",
+   "stem": "______ goods such as fresh flowers must be sent by the fastest service available.",
+   "options": [
+    "Profitable",
+    "Perishable",
+    "Preferable",
+    "Portable"
+   ],
+   "answer": "B",
+   "explain": "perishable 指「易腐壞的」，與鮮花、最快速服務的語境一致。portable 是可攜帶的、profitable 是有利可圖的、preferable 是較可取的，都無法解釋為何必須用最快的服務。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：waive",
+   "stem": "The post office agreed to ______ the storage fee because the delay was its own fault.",
+   "options": [
+    "wave",
+    "waive",
+    "weigh",
+    "widen"
+   ],
+   "answer": "B",
+   "explain": "waive 指「放棄（權利）、免收（費用）」，因錯在郵局故免收保管費。wave 是揮手、weigh 是秤重、widen 是加寬，均與免收費用無關；⚠ waive 與 wave 拼字僅差一個字母，須靠句意判斷。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：discrepancy",
+   "stem": "The clerk found a ______ between the declared weight and the actual weight of the box.",
+   "options": [
+    "discrepancy",
+    "description",
+    "dependency",
+    "discipline"
+   ],
+   "answer": "A",
+   "explain": "discrepancy 指兩項資料之間的「不一致、出入」，申報重量與實際重量對不上即是。dependency 是依賴、description 是描述、discipline 是紀律或學科，都無法表達兩數字兜不攏。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：itinerary",
+   "stem": "The courier checked his ______ to see which district he had to cover next.",
+   "options": [
+    "interview",
+    "inventory",
+    "initiative",
+    "itinerary"
+   ],
+   "answer": "D",
+   "explain": "itinerary 指「行程表、路線安排」，投遞員查看下一個負責區域即用此字。inventory 是庫存清單、interview 是面談、initiative 是主動或倡議，都不是行程安排。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：mandatory",
+   "stem": "Identity checks are ______ for anyone collecting a registered letter.",
+   "options": [
+    "mandatory",
+    "ordinary",
+    "voluntary",
+    "temporary"
+   ],
+   "answer": "A",
+   "explain": "mandatory 指「強制的、必須的」，領取掛號信須驗證身分即為強制規定。voluntary 是自願的（語意相反）、temporary 是暫時的、ordinary 是普通的，都不能表達「一律必須」。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：retain",
+   "stem": "Senders are advised to ______ the receipt until the parcel has been delivered.",
+   "options": [
+    "retire",
+    "retain",
+    "return",
+    "retreat"
+   ],
+   "answer": "B",
+   "explain": "retain 指「保留、留存」，收據應留存至包裹送達為止。retire 是退休、retreat 是撤退、return 是退還（把收據交回去，與句意相反）。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：liable",
+   "stem": "The carrier is not ______ for damage caused by poor packaging by the sender.",
+   "options": [
+    "likely",
+    "living",
+    "liable",
+    "lively"
+   ],
+   "answer": "C",
+   "explain": "be liable for 指「對……負法律責任」，運送人對寄件人包裝不良所致毀損不負責。likely 是可能的（be likely to V）、living 是活的、lively 是活潑的，皆不表法律責任。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：streamline",
+   "stem": "The new sorting system was introduced to ______ the delivery process and cut waiting time.",
+   "options": [
+    "straighten",
+    "stretch",
+    "streamline",
+    "strengthen"
+   ],
+   "answer": "C",
+   "explain": "streamline 指「簡化流程、使更有效率」，與縮短等候時間相呼應。strengthen 是加強、straighten 是弄直、stretch 是伸展，都不是流程精簡。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：custody",
+   "stem": "Once the parcel leaves the counter, it is in the ______ of the postal service.",
+   "options": [
+    "currency",
+    "custody",
+    "curiosity",
+    "courtesy"
+   ],
+   "answer": "B",
+   "explain": "custody 指「保管、看管」，包裹交寄後即由郵政保管。curiosity 是好奇、currency 是貨幣、courtesy 是禮貌，均與保管責任無關。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：intact",
+   "stem": "Although the outer box was torn, the contents arrived completely ______.",
+   "options": [
+    "intense",
+    "intended",
+    "internal",
+    "intact"
+   ],
+   "answer": "D",
+   "explain": "intact 指「完好無損的」，與外箱破損形成對比（Although 已指出前後相反）。intense 是強烈的、internal 是內部的、intended 是預期的，都無法與「外箱破了」構成讓步對比。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：complement（換方向重測）",
+   "stem": "The mobile app is designed to ______ the counter service, so that customers may choose whichever suits them.",
+   "options": [
+    "duplicate",
+    "substitute",
+    "outnumber",
+    "complement"
+   ],
+   "answer": "D",
+   "explain": "complement 指「補足、相輔相成」，句末 whichever suits them 表示兩者並存供選擇，故非取代。substitute 是替代、duplicate 是重複做同一件事、outnumber 是數量超過，都不是互補。⚠ 曾錯考點：記法為 complement 的 e 來自 complete「使完整」；本次刻意不以 compliment 當誘答，改測語意方向本身。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：emergency（換句型重測）",
+   "stem": "In case of an ______, staff should guide customers to the nearest exit.",
+   "options": [
+    "entirety",
+    "emergency",
+    "eligibility",
+    "efficiency"
+   ],
+   "answer": "B",
+   "explain": "emergency 指「緊急情況」，in case of an emergency 為固定用法。efficiency 是效率、entirety 是全部、eligibility 是資格，均不合。⚠ 曾錯考點且連錯兩次、每次選不同的錯答，代表此字尚未進入記憶，宜回單字庫背誦而非只做題。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：publication（換句型重測）",
+   "stem": "The annual report is scheduled for ______ at the end of next month.",
+   "options": [
+    "publicity",
+    "publication",
+    "publishing house",
+    "publisher"
+   ],
+   "answer": "B",
+   "explain": "空格接在介系詞 for 之後、指「發行這個動作／事件」，故用動作名詞 publication。publicity 是宣傳或知名度（狀態）、publisher 與 publishing house 都是指人或機構，被排定時程的是事件不是人。⚠ 曾錯考點，本次已避開 the ___ of 句型。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：be committed to＋V-ing（介系詞 to）",
+   "stem": "The company is committed to ______ delivery times in rural areas.",
+   "options": [
+    "shortening",
+    "be shortened",
+    "have shortened",
+    "shorten"
+   ],
+   "answer": "A",
+   "explain": "be committed to 的 to 是介系詞，後面必須接名詞或動名詞，故用 shortening。原形 shorten 是把 to 誤當不定詞記號；be shortened 與 have shortened 同樣不是名詞形。⚠ 判斷動作：看到 to 先問它是介系詞還是不定詞記號——前面若是 be＋形容詞或名詞（committed / opposed / dedicated / used）多為介系詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：contribute to＋V-ing（介系詞 to）",
+   "stem": "Poor handwriting on envelopes contributes to ______ mail to the wrong address.",
+   "options": [
+    "sending",
+    "send",
+    "sent",
+    "be sent"
+   ],
+   "answer": "A",
+   "explain": "contribute to 的 to 是介系詞，後接動名詞 sending。原形 send 誤把 to 當不定詞記號；sent 是過去分詞、be sent 是被動原形，兩者都不能直接放在介系詞後面。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：remind＋受詞＋to V",
+   "stem": "The notice reminds customers ______ their identification when collecting registered mail.",
+   "options": [
+    "bringing",
+    "to bring",
+    "bring",
+    "brought"
+   ],
+   "answer": "B",
+   "explain": "remind 屬於「動詞＋受詞＋to V」句型（同類還有 advise、encourage、require），故用 to bring。bringing 與 brought 不能接在受詞之後表示要求；原形 bring 是把 remind 誤當使役動詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：be used to V（被動：被用來）",
+   "stem": "Barcodes ______ to track every parcel from acceptance to delivery.",
+   "options": [
+    "are using",
+    "used",
+    "are used",
+    "are used to"
+   ],
+   "answer": "C",
+   "explain": "此處是被動語態 be used＋不定詞 to V，意為「被用來做某事」，故 are used 後面接原句既有的 to track。are used to 會多出一個 to、且會被誤讀成「習慣於」；used 少了被動；are using 主動語態與 barcodes 這個主詞不合。⚠ 曾錯考點：be used to＋原形（被用來）與 be used to＋V-ing（習慣於）差在 to 的身分。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：分詞構句（主動，主詞為物）",
+   "stem": "______ heavy rain on the mountain road, the mail truck arrived three hours late.",
+   "options": [
+    "Meet",
+    "To meet",
+    "Met",
+    "Having met"
+   ],
+   "answer": "D",
+   "explain": "分詞構句的隱藏主詞須與主要子句主詞一致，此處主詞是 the mail truck（物），是「遇上」大雨的一方，故用主動的完成分詞 Having met，表示先遇雨、才導致遲到。Met 為被動、To meet 表目的、原形 Meet 不能作分詞。⚠ 判斷動作：先跨過逗號找主要子句的主詞，再問這個動作是它做的還是它被做。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：分詞構句（被動，主詞為物）",
+   "stem": "______ in a waterproof bag, the documents survived the flood without damage.",
+   "options": [
+    "Sealed",
+    "Having sealed",
+    "To seal",
+    "Sealing"
+   ],
+   "answer": "A",
+   "explain": "主要子句主詞是 the documents，文件是「被密封」的一方，故用過去分詞 Sealed 表被動。Sealing 與 Having sealed 都是主動，會變成文件自己去封別的東西；To seal 表目的，與後半的結果不合。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：假設語氣之倒裝（省略 if）",
+   "stem": "______ the sender written the postal code correctly, the parcel would have arrived on time.",
+   "options": [
+    "Would",
+    "Had",
+    "If",
+    "Has"
+   ],
+   "answer": "B",
+   "explain": "與過去事實相反的假設句省略 if 時，須將 had 提前形成倒裝 Had＋主詞＋過去分詞。Has 時態不合；If 後面不能直接接主詞＋written 這種缺助動詞的形式；Would 不用於條件子句。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：關係代名詞 what",
+   "stem": "______ the customer complained about was the long queue at the counter.",
+   "options": [
+    "Whose",
+    "What",
+    "That",
+    "Which"
+   ],
+   "answer": "B",
+   "explain": "空格引導的名詞子句缺少 complained about 的受詞，且句中沒有先行詞，故用兼具先行詞功能的 what。That 引導的名詞子句結構須完整、不缺成分；Which 與 Whose 都需要先行詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：複合關係代名詞 whoever",
+   "stem": "______ signs for the package is responsible for handing it to the addressee.",
+   "options": [
+    "Whoever",
+    "Whenever",
+    "However",
+    "Whomever"
+   ],
+   "answer": "A",
+   "explain": "空格在名詞子句中當主詞（signs 的主詞），故用主格的 whoever。Whomever 是受格；Whenever 與 However 是副詞用法，不能當主詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：強調句型 It is ... that",
+   "stem": "It was the missing postal code ______ caused the delay, not the address itself.",
+   "options": [
+    "which",
+    "where",
+    "that",
+    "what"
+   ],
+   "answer": "C",
+   "explain": "It is/was ... that 為強調句型，被強調的部分無論是人是物一律用 that。what 不能用於此句型；which 在此非關係子句用法；where 用於強調地點副詞，與此處強調主詞不符。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：the number of 之單複數",
+   "stem": "The number of complaints about late delivery ______ dropped since the new system started.",
+   "options": [
+    "have",
+    "has",
+    "are",
+    "were"
+   ],
+   "answer": "B",
+   "explain": "the number of＋複數名詞作主詞時，中心語是單數的 the number，故動詞用單數 has。a number of（許多）才接複數動詞；are 與 were 也把主詞誤判為複數。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：no sooner ... than 之倒裝",
+   "stem": "No sooner ______ the counter opened than a long line formed outside.",
+   "options": [
+    "was",
+    "did",
+    "had",
+    "has"
+   ],
+   "answer": "C",
+   "explain": "No sooner 置句首須倒裝，且該句型固定用過去完成式搭配 than 引導的過去式子句，故用 had。did 與 has 時態不合；was 無法與過去分詞 opened 構成此句型的主動語意。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：動名詞完成式 having＋p.p.",
+   "stem": "The clerk apologized for ______ the customer's phone number down incorrectly.",
+   "options": [
+    "to write",
+    "wrote",
+    "having written",
+    "have written"
+   ],
+   "answer": "C",
+   "explain": "for 後接動名詞，且道歉的是先前已發生的動作，故用完成式動名詞 having written。have written 未變為動名詞；to write 不能接在介系詞後；wrote 是過去式動詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：對比連接詞 whereas",
+   "stem": "Express items are delivered within one day, ______ ordinary mail may take up to three days.",
+   "options": [
+    "whereas",
+    "unless",
+    "therefore",
+    "because"
+   ],
+   "answer": "A",
+   "explain": "前後兩句是速度上的對比，故用表對比的連接詞 whereas。therefore 表結果、because 表原因、unless 表否定條件，三者都無法連接兩個相互對照的事實。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：不定詞表結果 only to V",
+   "stem": "The customer rushed to the post office, only ______ that it had already closed.",
+   "options": [
+    "found",
+    "find",
+    "finding",
+    "to find"
+   ],
+   "answer": "D",
+   "explain": "only to V 表示「結果卻……」的意外結果，故用 to find。finding 為分詞、found 為過去式或過去分詞、find 為原形，皆無法構成 only to V 這個固定結構。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：分詞構句",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nDrones are no longer a novelty in the delivery business. __31__ tested for several years in remote areas, they are now used to carry light parcels to islands and mountain villages. A drone can reach a place __32__ a truck would need half a day to arrive. The machines are especially useful in emergencies, when medicine must be delivered __33__ quickly as possible. Still, the technology has clear limits. Bad weather grounds the fleet, and the batteries allow only short flights, __34__ means that a network of charging stations is necessary. Most postal operators therefore treat drones as a supplement to their existing services rather __35__ a replacement for them.\n\n第 31 格：",
+   "options": [
+    "Having been tested",
+    "To test",
+    "Test",
+    "Having tested"
+   ],
+   "answer": "A",
+   "explain": "主詞 they 指無人機，是「被測試」的一方，且測試發生在現在使用之前，故用完成式被動分詞 Having been tested。Having tested 是主動，會變成無人機去測試別的東西；To test 表目的；原形不能作分詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：關係副詞 where",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nDrones are no longer a novelty in the delivery business. __31__ tested for several years in remote areas, they are now used to carry light parcels to islands and mountain villages. A drone can reach a place __32__ a truck would need half a day to arrive. The machines are especially useful in emergencies, when medicine must be delivered __33__ quickly as possible. Still, the technology has clear limits. Bad weather grounds the fleet, and the batteries allow only short flights, __34__ means that a network of charging stations is necessary. Most postal operators therefore treat drones as a supplement to their existing services rather __35__ a replacement for them.\n\n第 32 格：",
+   "options": [
+    "what",
+    "when",
+    "where",
+    "which"
+   ],
+   "answer": "C",
+   "explain": "先行詞 a place 是地點，且後面子句結構完整，故用關係副詞 where。which 須在子句中擔任主詞或受詞，此處無空缺；what 不接先行詞；when 用於時間。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：as ... as 原級比較",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nDrones are no longer a novelty in the delivery business. __31__ tested for several years in remote areas, they are now used to carry light parcels to islands and mountain villages. A drone can reach a place __32__ a truck would need half a day to arrive. The machines are especially useful in emergencies, when medicine must be delivered __33__ quickly as possible. Still, the technology has clear limits. Bad weather grounds the fleet, and the batteries allow only short flights, __34__ means that a network of charging stations is necessary. Most postal operators therefore treat drones as a supplement to their existing services rather __35__ a replacement for them.\n\n第 33 格：",
+   "options": [
+    "so",
+    "very",
+    "more",
+    "as"
+   ],
+   "answer": "D",
+   "explain": "as ... as possible 為固定用法，表示「盡可能地……」，故填 as。so 用於 so ... that 或否定句的原級比較；very 不能構成比較結構；more 須搭配 than。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：非限定關係代名詞 which 指前句",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nDrones are no longer a novelty in the delivery business. __31__ tested for several years in remote areas, they are now used to carry light parcels to islands and mountain villages. A drone can reach a place __32__ a truck would need half a day to arrive. The machines are especially useful in emergencies, when medicine must be delivered __33__ quickly as possible. Still, the technology has clear limits. Bad weather grounds the fleet, and the batteries allow only short flights, __34__ means that a network of charging stations is necessary. Most postal operators therefore treat drones as a supplement to their existing services rather __35__ a replacement for them.\n\n第 34 格：",
+   "options": [
+    "it",
+    "what",
+    "that",
+    "which"
+   ],
+   "answer": "D",
+   "explain": "逗號後引導非限定關係子句、指涉前面整件事（電池只能短程飛行），故用 which。that 不能引導非限定子句；it 會造成兩個子句沒有連接詞；what 不指涉前面的內容。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：rather than 之搭配",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nDrones are no longer a novelty in the delivery business. __31__ tested for several years in remote areas, they are now used to carry light parcels to islands and mountain villages. A drone can reach a place __32__ a truck would need half a day to arrive. The machines are especially useful in emergencies, when medicine must be delivered __33__ quickly as possible. Still, the technology has clear limits. Bad weather grounds the fleet, and the batteries allow only short flights, __34__ means that a network of charging stations is necessary. Most postal operators therefore treat drones as a supplement to their existing services rather __35__ a replacement for them.\n\n第 35 格：",
+   "options": [
+    "that",
+    "as",
+    "than",
+    "then"
+   ],
+   "answer": "C",
+   "explain": "rather than 為固定搭配，表示「而不是」，前面已出現 rather。as 會與前面的 as a supplement 重複而不成句；then 是副詞「然後」；that 無法構成此搭配。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：被動語態",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 36 格：",
+   "options": [
+    "offering",
+    "offer",
+    "have offered",
+    "are offered"
+   ],
+   "answer": "D",
+   "explain": "主詞 reusable boxes 是被提供給顧客的一方，故用被動語態 are offered。offer 與 have offered 都是主動，會變成箱子去提供別人；offering 不能單獨作動詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：require＋受詞＋to V",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 37 格：",
+   "options": [
+    "changing",
+    "changed",
+    "to change",
+    "change"
+   ],
+   "answer": "C",
+   "explain": "require 屬「動詞＋受詞＋to V」句型，故用 to change。changing 與 changed 不能接在受詞後表示要求；原形 change 是把 require 誤當使役動詞。⚠ 與 remind、advise、encourage 同組，一起記。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：條件連接詞 as long as",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 38 格：",
+   "options": [
+    "so that",
+    "as long as",
+    "even if",
+    "in case"
+   ],
+   "answer": "B",
+   "explain": "空格後是顧客願意加入的前提條件（不花錢、不花時間），故用表肯定條件的 as long as。in case 表以防萬一、even if 表讓步、so that 表目的，都與「只要……就願意」的條件關係不符。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：代名詞 those",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 39 格：",
+   "options": [
+    "ones",
+    "those",
+    "them",
+    "that"
+   ],
+   "answer": "B",
+   "explain": "空格後有 who 引導的關係子句修飾，指「自備容器的那些人」，故用 those。them 不能被關係子句修飾；ones 須有前文提及的可數名詞可代；that 指單數且通常代物。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：讓步連接詞 While",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 40 格：",
+   "options": [
+    "Unless",
+    "Because",
+    "While",
+    "Since"
+   ],
+   "answer": "C",
+   "explain": "前半句「成果令人鼓舞」與後半句「仍然依賴穩定供應」構成讓步關係，故用 While（雖然）。Because 與 Since 表原因，會使前後變成因果；Unless 表否定條件，語意不合。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：主旨",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 41 題：What is the main idea of the passage?",
+   "options": [
+    "Postal codes were designed by clerks who wanted easier working conditions.",
+    "Postal codes were unpopular because citizens could not remember numbers.",
+    "Postal codes were introduced mainly to reduce the number of postal employees.",
+    "Postal codes succeeded because machines read digits more reliably than handwriting."
+   ],
+   "answer": "D",
+   "explain": "第二段點明改用郵遞區號的理由是機器判讀數字比手寫地名可靠，這是全文主軸。減少人力是結果而非目的，且第三段明言職位並未淨減少；民眾記不住只是初期批評；設計者非基層人員。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（早期宣傳）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 42 題：According to the passage, the early campaigns in the 1960s mainly aimed to",
+   "options": [
+    "train postal clerks to operate the new sorting machines",
+    "compare the speed of machines with that of human sorters",
+    "advertise the cinemas where the short films were shown",
+    "convince the public to accept and use the new numbers"
+   ],
+   "answer": "D",
+   "explain": "第一段末指出宣傳「focused less on efficiency than on persuasion」，以卡通與短片說明號碼如何運作，目的在說服民眾接受。訓練員工、比較速度均非宣傳目的；電影院只是播放場所。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：語意判斷（clerical）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 43 題：In the second paragraph, \"mechanical rather than clerical\" means that the change was driven by",
+   "options": [
+    "the demands of customers rather than those of managers",
+    "the cost of machines rather than the cost of paper",
+    "the needs of machines rather than the needs of office staff",
+    "the speed of trains rather than the speed of clerks"
+   ],
+   "answer": "C",
+   "explain": "該句對比 mechanical（機器面）與 clerical（文書人員面），下文隨即說明機器判讀數字的可靠性，故指改革出於機器需求而非文書作業需求。成本、火車速度、顧客需求文中皆未作為對比項。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：NOT true",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 44 題：Which of the following is NOT true according to the passage?",
+   "options": [
+    "All sorting jobs disappeared once the machines were installed.",
+    "A misread place name could send a letter far from its destination.",
+    "Cartoon characters were used to explain the new system.",
+    "Machines rejected some items that still needed human handling."
+   ],
+   "answer": "A",
+   "explain": "第三段明白指出雖然人工分揀人力減少，但新增了維護機器與處理機器退件的職位，消失的是辨認地名這項技能而非整個職位，故「所有分揀工作都消失」與原文不符。其餘三項文中均有依據。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：推論（作者對批評者的看法）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 45 題：What does the author suggest about the critics' predictions?",
+   "options": [
+    "They were based on figures collected from experienced sorters.",
+    "They were confirmed by the closure of sorting offices across the country.",
+    "They were correct about employment but wrong about public acceptance.",
+    "They were proved wrong on the loss of jobs, though a valued skill was indeed lost."
+   ],
+   "answer": "D",
+   "explain": "第三段開頭即說「就業影響並非批評者所預測」，隨後說明新職位出現，但辨認地名的技能確實消失，故批評者對失業的預測落空、對失去某種東西則有部分成真。其餘選項與原文相反或文中無據。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：標題",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 46 題：Which of the following is the best title for the passage?",
+   "options": [
+    "How to Make Postal Savings Systems Profitable",
+    "Why Commercial Banks Are More Efficient Than Post Offices",
+    "The History of Savings Accounts in Japan and France",
+    "The Post Office as the Last Bank in Town"
+   ],
+   "answer": "D",
+   "explain": "全文主軸是商業銀行撤出偏鄉後，郵局成為當地唯一可辦理金融業務的據點。效率比較、如何獲利、儲蓄帳戶史都只是局部或文中未談的內容。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（銀行關閉分行之因）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 47 題：According to the passage, commercial banks closed rural branches because",
+   "options": [
+    "the branches were considered too expensive to operate",
+    "the government ordered them to leave rural districts",
+    "most rural residents had moved to larger cities",
+    "post offices offered the same services more cheaply"
+   ],
+   "answer": "A",
+   "explain": "第一段明言 judging them too costly to run，即認為經營成本過高。政府命令、郵局競爭、人口外移文中皆未提及為原因。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（郵局留下之因）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 48 題：Why have post offices remained in rural areas?",
+   "options": [
+    "They were built before the commercial banks arrived.",
+    "They are obliged to serve every address.",
+    "They earn more profit than commercial banks do.",
+    "They receive deposits only from wealthy households."
+   ],
+   "answer": "B",
+   "explain": "第一段末以關係子句說明郵局 are required to serve every address，即負有普及服務義務故留下。獲利較高與第三段所述相反；只收富裕家庭存款、興建時間先後皆非文中內容。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：NOT true",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 49 題：Which of the following is NOT mentioned in the passage?",
+   "options": [
+    "Postal banks charge higher interest on loans than commercial banks do.",
+    "Households without bank accounts increase after a post office closes.",
+    "Postal savings systems in Japan and France hold deposits from many households.",
+    "Postal banks are seldom profitable."
+   ],
+   "answer": "A",
+   "explain": "文中未談及郵政機構的放款利率。日本與法國的郵政儲金、郵政銀行少有獲利、郵局關閉後無帳戶家庭增加，三項均見於原文。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：作者立場",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 50 題：What is the author's attitude toward postal banking?",
+   "options": [
+    "Broadly sympathetic, while acknowledging the criticism",
+    "Completely neutral, presenting no evidence either way",
+    "Uncertain, because no reliable figures exist",
+    "Strongly opposed, because it wastes public money"
+   ],
+   "answer": "A",
+   "explain": "作者並列批評與支持兩方說法，但末句以「難以反駁的數字」收尾，指出郵局關閉後無帳戶家庭增加，語氣傾向肯定郵政金融的社會功能，同時承認獲利不佳的批評。強烈反對、完全中立、無可靠數據均與末句不符。"
+  }
+ ]
+}
