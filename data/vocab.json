@@ -2622,5 +2622,83 @@
   "pos": "n.",
   "zh": "能力、勝任；職權範圍",
   "ex": "Handling international claims is beyond his competence."
+ },
+ {
+  "w": "reimburse",
+  "pos": "v.",
+  "zh": "償還、核退（費用）",
+  "ex": "The company will reimburse employees for any postage they pay out of their own pocket."
+ },
+ {
+  "w": "surcharge",
+  "pos": "n.",
+  "zh": "附加費、額外收費",
+  "ex": "A fuel surcharge is added to international parcels when oil prices rise sharply."
+ },
+ {
+  "w": "perishable",
+  "pos": "adj.",
+  "zh": "易腐壞的、不耐久放的",
+  "ex": "Perishable goods such as fresh flowers must be sent by the fastest service available."
+ },
+ {
+  "w": "waive",
+  "pos": "v.",
+  "zh": "免除、放棄（費用或權利）",
+  "ex": "The post office agreed to waive the storage fee because the delay was its own fault."
+ },
+ {
+  "w": "discrepancy",
+  "pos": "n.",
+  "zh": "差異、不一致（帳目或數據上的出入）",
+  "ex": "The clerk found a discrepancy between the declared weight and the actual weight of the box."
+ },
+ {
+  "w": "itinerary",
+  "pos": "n.",
+  "zh": "行程表、路線表",
+  "ex": "The courier checked his itinerary to see which district he had to cover next."
+ },
+ {
+  "w": "mandatory",
+  "pos": "adj.",
+  "zh": "強制的、必須遵行的",
+  "ex": "Identity checks are mandatory for anyone collecting a registered letter."
+ },
+ {
+  "w": "liable",
+  "pos": "adj.",
+  "zh": "負有法律責任的（be liable for）",
+  "ex": "The carrier is not liable for damage caused by poor packaging by the sender."
+ },
+ {
+  "w": "intact",
+  "pos": "adj.",
+  "zh": "完好無損的、原封未動的",
+  "ex": "Although the outer box was torn, the contents arrived completely intact."
+ },
+ {
+  "w": "complement",
+  "pos": "v.",
+  "zh": "補足、與…相輔相成（⚠ 勿與 compliment 稱讚混淆）",
+  "ex": "The mobile app is designed to complement the counter service, not to replace it."
+ },
+ {
+  "w": "publication",
+  "pos": "n.",
+  "zh": "發行、出版（⚠ 勿與 publicity 宣傳混淆）",
+  "ex": "The annual report is scheduled for publication at the end of next month."
+ },
+ {
+  "w": "retain",
+  "pos": "v.",
+  "zh": "保留、留存",
+  "ex": "Please retain the receipt until the parcel has been delivered."
+ },
+ {
+  "w": "custody",
+  "pos": "n.",
+  "zh": "保管、監管（in the custody of）",
+  "ex": "The parcel remains in the custody of the post office until it is signed for."
  }
 ]
