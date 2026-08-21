@@ -280,16 +280,16 @@
   {
    "section": "文法",
    "points": 2,
-   "point": "文法：be used to V（被動：被用來）",
-   "stem": "Barcodes ______ to track every parcel from acceptance to delivery.",
+   "point": "文法：wish＋過去式（與現在事實相反）",
+   "stem": "This parcel has no return address at all. I wish I ______ who sent it.",
    "options": [
-    "are using",
-    "used",
-    "are used",
-    "are used to"
+    "will know",
+    "knew",
+    "have known",
+    "would have known"
    ],
-   "answer": "C",
-   "explain": "此處是被動語態 be used＋不定詞 to V，意為「被用來做某事」，故 are used 後面接原句既有的 to track。are used to 會多出一個 to、且會被誤讀成「習慣於」；used 少了被動；are using 主動語態與 barcodes 這個主詞不合。⚠ 曾錯考點：be used to＋原形（被用來）與 be used to＋V-ing（習慣於）差在 to 的身分。"
+   "answer": "B",
+   "explain": "wish 之後表與現在事實相反的願望，用過去式（be 動詞用 were）；「不知道是誰寄的」為現在事實，故用 knew。will know 為單純未來、have known 為完成式、would have known 屬與過去事實相反，皆不合。⚠ 真卷 112 第 19 題同型（I wish I could remember his name）。"
   },
   {
    "section": "文法",
