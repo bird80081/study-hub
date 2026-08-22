@@ -29,7 +29,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：weigh",
-   "stem": "Before mailing the box, the clerk asked me to ______ it on the scale at the counter.",
+   "stem": "Before posting the recipe online, she asked me to ______ the flour on the kitchen scale.",
    "options": [
     "wait",
     "wave",
@@ -43,7 +43,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：remind",
-   "stem": "Please ______ me to pick up the parcel on my way home; I always forget.",
+   "stem": "Please ______ me to water the plants before we leave; I always forget.",
    "options": [
     "remember",
     "remind",
@@ -57,7 +57,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：available",
-   "stem": "The express service is not ______ on Sundays, so you will have to wait until Monday.",
+   "stem": "The swimming pool is not ______ on Sundays, so you will have to go on Monday.",
    "options": [
     "capable",
     "possible",
@@ -71,7 +71,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：crowded",
-   "stem": "The post office was so ______ this morning that I waited nearly an hour.",
+   "stem": "The night market was so ______ last weekend that we could hardly walk.",
    "options": [
     "crowded",
     "crowd",
@@ -85,7 +85,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：complain",
-   "stem": "Several customers ______ about the long queue, so the manager opened another counter.",
+   "stem": "Several neighbours ______ about the noise, so the café closed its terrace at ten.",
    "options": [
     "explained",
     "contained",
@@ -99,7 +99,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：valuable",
-   "stem": "Because the ring was ______, she chose to send it as an insured parcel.",
+   "stem": "Because the violin was ______, he kept it in a locked case at all times.",
    "options": [
     "invaluable",
     "valueless",
@@ -113,7 +113,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：complement（換句型重測）",
-   "stem": "The new self-service kiosks are meant to ______ the counter staff, not to take their place.",
+   "stem": "The online course is meant to ______ classroom teaching, not to take its place.",
    "options": [
     "complement",
     "compliment",
@@ -127,7 +127,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：careless",
-   "stem": "It was ______ of him to write the address without checking the postal code.",
+   "stem": "It was ______ of him to copy the phone number without checking a single digit.",
    "options": [
     "careful",
     "careless",
@@ -141,7 +141,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：announce",
-   "stem": "The company will ______ the new delivery schedule at the end of this month.",
+   "stem": "The school will ______ the new timetable at the end of this month.",
    "options": [
     "advance",
     "advise",
@@ -169,7 +169,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：reduce",
-   "stem": "Using reusable boxes can greatly ______ the amount of packaging waste.",
+   "stem": "Using a refillable bottle can greatly ______ the amount of plastic waste.",
    "options": [
     "produce",
     "reduce",
@@ -211,7 +211,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：suitable",
-   "stem": "This envelope is not ______ for sending fragile items; please use a padded one.",
+   "stem": "This soil is not ______ for growing herbs; try a lighter one with more sand.",
    "options": [
     "possible",
     "capable",
@@ -225,7 +225,7 @@
    "section": "字彙",
    "points": 2,
    "point": "字彙：seldom",
-   "stem": "He ______ uses the post office nowadays because almost everything is done online.",
+   "stem": "He ______ watches television nowadays because almost everything is online.",
    "options": [
     "already",
     "seldom",
@@ -239,7 +239,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：主詞動詞一致（a number of）",
-   "stem": "A number of residents ______ asked for an extra delivery slot in the evening.",
+   "stem": "A number of residents ______ asked for an extra rubbish collection in summer.",
    "options": [
     "has",
     "having",
@@ -281,7 +281,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：mind + V-ing",
-   "stem": "The parcel is quite heavy. Would you mind ______ me carry it to the counter?",
+   "stem": "This box is quite heavy. Would you mind ______ me carry it upstairs?",
    "options": [
     "to help",
     "helping",
@@ -309,7 +309,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：分詞構句（被動，主詞為物）",
-   "stem": "______ with plenty of bubble wrap, the glass vase arrived without a single crack.",
+   "stem": "______ with plenty of straw, the glass jars survived the journey without a single crack.",
    "options": [
     "Packing",
     "To pack",
@@ -323,7 +323,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：be fed up with",
-   "stem": "Many residents are fed up ______ having their parcels left in the rain.",
+   "stem": "Many residents are fed up ______ having their bins emptied so late in the day.",
    "options": [
     "with",
     "of",
@@ -337,7 +337,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：take 表花費時間",
-   "stem": "It ______ about three days for a registered letter to reach a remote village.",
+   "stem": "It ______ about three days for a seed of this kind to sprout in warm soil.",
    "options": [
     "spends",
     "takes",
@@ -351,7 +351,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：名詞子句之連接詞 how",
-   "stem": "It is hard to imagine ______ people managed to send messages before the postal system existed.",
+   "stem": "It is hard to imagine ______ people managed to find their way before printed maps existed.",
    "options": [
     "which",
     "what",
@@ -365,7 +365,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：wish＋過去式（與現在事實相反）",
-   "stem": "This envelope has no sender's name. I wish there ______ some way to find out who sent it.",
+   "stem": "This photograph has no date on the back. I wish there ______ some way to find out when it was taken.",
    "options": [
     "were",
     "is",
@@ -379,7 +379,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：when + 過去分詞（省略主詞與 be）",
-   "stem": "When ______ about the delay, the clerk apologized at once and offered a refund.",
+   "stem": "When ______ about the mistake, the waiter apologized at once and offered a refund.",
    "options": [
     "asking",
     "to ask",
@@ -393,7 +393,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：No sooner ... than 之倒裝",
-   "stem": "No sooner ______ the doors opened than a long line formed inside the lobby.",
+   "stem": "No sooner ______ the gates opened than a long line formed outside the hall.",
    "options": [
     "did",
     "had",
@@ -407,7 +407,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：be interested in",
-   "stem": "Few young people today seem to be interested ______ collecting stamps.",
+   "stem": "Few young people today seem to be interested ______ collecting coins.",
    "options": [
     "on",
     "for",
@@ -421,7 +421,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：過去簡單式與現在完成式之別",
-   "stem": "I ______ my old classmate at the post office yesterday; we talked for almost an hour.",
+   "stem": "I ______ my old classmate at the market yesterday; we talked for almost an hour.",
    "options": [
     "met",
     "have met",
@@ -435,7 +435,7 @@
    "section": "文法",
    "points": 2,
    "point": "文法：片語動詞 get on",
-   "stem": "The two clerks have worked together for years and ______ very well.",
+   "stem": "The two researchers have worked together for years and ______ very well.",
    "options": [
     "get over",
     "get up",
@@ -449,21 +449,21 @@
    "section": "克漏字",
    "points": 2,
    "point": "克漏字一：時態並列",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 31 格：",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 31 格：",
    "options": [
-    "leaving",
-    "were left",
-    "have left",
-    "are leaving"
+    "carrying",
+    "was carried",
+    "has carried",
+    "is carrying"
    ],
    "answer": "B",
-   "explain": "與前面 were written 並列（Some were written ... and __ in a drawer），主詞 Some（letters）是**被**留在抽屜裡，故用被動 were left。leaving 為主動分詞、have left 為主動完成式、are leaving 為現在進行，皆與並列結構及被動語意不合。"
+   "explain": "與前面 was cultivated 並列（Coffee was first cultivated ... and __ to the rest of the world），主詞 Coffee 是**被**帶到世界各地，故用被動 was carried。carrying 為主動分詞、has carried 為主動完成式、is carrying 為現在進行，皆與並列結構及被動語意不合。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字一：關係副詞 where",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 32 格：",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 32 格：",
    "options": [
     "which",
     "that",
@@ -471,13 +471,13 @@
     "where"
    ],
    "answer": "D",
-   "explain": "先行詞 a special office 是**地點**，且後面子句 staff try to find... 結構完整，故用關係副詞 where。which/that 為關係代名詞，會使子句缺主詞或受詞；what 不能有先行詞。判斷動作：先看子句缺不缺成分——不缺就用關係副詞。"
+   "explain": "先行詞 a narrow band 為**地點**，且後面子句 the climate stays warm 結構完整，故用關係副詞 where。which/that 為關係代名詞，會使子句缺主詞或受詞；what 不能有先行詞。判斷動作：先看子句缺不缺成分——不缺就用關係副詞。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字一：轉折連接詞",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 33 格：",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 33 格：",
    "options": [
     "Still",
     "Therefore",
@@ -485,13 +485,13 @@
     "Otherwise"
    ],
    "answer": "A",
-   "explain": "前句說「只有一半送得到」、後句說「辦公室仍持續運作」，前後**語意相反**，故用轉折語 Still（仍然、儘管如此）。Therefore 表結果、Similarly 表類比、Otherwise 表否則，方向皆不合。判斷動作：先讀前後兩句的方向是順接還是逆接。"
+   "explain": "前句說「行情起伏大、一季歉收就能毀掉小農場」、後句說「種植戶仍持續增加」，前後**語意相反**，故用轉折語 Still（儘管如此）。Therefore 表結果、Similarly 表類比、Otherwise 表否則，方向皆不合。判斷動作：先讀前後兩句是順接還是逆接。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字一：連接詞 as",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 34 格：",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 34 格：",
    "options": [
     "so",
     "but",
@@ -499,13 +499,13 @@
     "or"
    ],
    "answer": "C",
-   "explain": "空格前為「最難處理的是沒有回郵地址的手寫信」，空格後為「沒有任何線索可追」——後者是前者的**原因**，用 as（因為）。so 表結果（方向相反）、but 表轉折、or 表選擇。"
+   "explain": "空格前為「許多人被精品豆的高價吸引」，空格後為「這些豆子可賣到普通咖啡的數倍價錢」——後者是前者的**原因**，用 as（因為）。so 表結果（方向相反）、but 表轉折、or 表選擇。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字一：原因連接詞 because",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 35 格：",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 35 格：",
    "options": [
     "although",
     "because",
@@ -513,13 +513,13 @@
     "whether"
    ],
    "answer": "B",
-   "explain": "「這類信件變少」與「越來越少人手寫」是**因果**關係，用 because。although 表讓步、unless 表除非、whether 表是否，皆不合。⚠ 本題與第 34 格同樣測因果，但連接詞不同——as 與 because 皆可表原因，此處四個選項中只有 because 成立。"
+   "explain": "「別無更好的選擇」與「那個海拔幾乎種不了別的作物」是**因果**關係，用 because。although 表讓步、unless 表除非、whether 表是否。⚠ 本題與第 34 格同樣測因果，但四個選項中只有 because 成立。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字二：關係代名詞主格",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 36 格：",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 36 格：",
    "options": [
     "where",
     "whose",
@@ -527,13 +527,13 @@
     "which"
    ],
    "answer": "D",
-   "explain": "先行詞 a code 是**物**，且後面子句 __ is sent to his phone **缺主詞**，故用主格關係代名詞 which。where 為關係副詞（子句須完整）、whose 表所有格、what 不能有先行詞。判斷動作：**先看子句缺不缺主詞或受詞**——缺就用關係代名詞。"
+   "explain": "先行詞 a wireless network 是**物**，且後面子句 __ is free to everyone **缺主詞**，故用主格關係代名詞 which。where 為關係副詞（子句須完整）、whose 表所有格、what 不能有先行詞。判斷動作：**先看子句缺不缺主詞或受詞**——缺就用關係代名詞。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字二：條件連接詞 as long as",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 37 格：",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 37 格：",
    "options": [
     "as long as",
     "as far as",
@@ -541,13 +541,13 @@
     "as well as"
    ],
    "answer": "A",
-   "explain": "語意為「**只要**顧客兩天內取件，系統就運作良好」，表**條件**，用 as long as。as far as 表範圍或程度（as far as I know）、as soon as 表時間「一……就……」、as well as 表「以及」。⚠ 這四個 as 開頭的片語你 8/21 在此失分，**判斷動作：先問這句在講條件、範圍、時間還是並列**。"
+   "explain": "語意為「**只要**館舍開得夠晚，這個做法就行得通」，表**條件**，用 as long as。as far as 表範圍或程度（as far as I know）、as soon as 表時間「一……就……」、as well as 表「以及」。⚠ 這四個 as 開頭的片語你 8/21 在此失分，**判斷動作：先問這句在講條件、範圍、時間還是並列**。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字二：主詞動詞一致",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 38 格：",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 38 格：",
    "options": [
     "are",
     "were",
@@ -561,7 +561,7 @@
    "section": "克漏字",
    "points": 2,
    "point": "克漏字二：代名詞 those",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 39 格：",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 39 格：",
    "options": [
     "them",
     "those",
@@ -569,13 +569,13 @@
     "they"
    ],
    "answer": "B",
-   "explain": "空格後接關係子句 who work long hours，需要一個能被關係子句修飾的**代名詞先行詞**，用 those（指「……的人們」）。them 為受格且不接關係子句、these 指近處具體事物、they 為主格。⚠ **those who ＝「凡是……的人」**，是固定用法，你 8/21 在此失分。"
+   "explain": "空格後接關係子句 who have no quiet room，需要一個能被關係子句修飾的**代名詞先行詞**，用 those（指「……的人們」）。them 為受格且不接關係子句、these 指近處具體事物、they 為主格。⚠ **those who ＝「凡是……的人」**，是固定用法，你 8/21 在此失分。"
   },
   {
    "section": "克漏字",
    "points": 2,
    "point": "克漏字二：讓步連接詞 Although",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 40 格：",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 40 格：",
    "options": [
     "Because",
     "Since",
@@ -583,147 +583,147 @@
     "Although"
    ],
    "answer": "D",
-   "explain": "前半「科技持續普及」與後半「多數城鎮仍保留人工櫃檯」語意**相反**，故用讓步連接詞 Although。Because 與 Since 表原因、Unless 表除非，方向皆不合。⚠ 與第 33、35 格對照：同一篇文章中連接詞的方向判斷是反覆出現的考點，**先讀懂前後兩句的關係再選字**。"
+   "explain": "前半「書架比從前短了」與後半「來館人數卻是二十年來最多」語意**相反**，故用讓步連接詞 Although。Because 與 Since 表原因、Unless 表除非，方向皆不合。⚠ 與第 33 格對照：連接詞的方向判斷是反覆出現的考點，**先讀懂前後兩句的關係再選字**。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀一：細節（偏遠地區之效果）",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 41 題：According to the passage, what unplanned effect did regular mail delivery have in remote areas?",
+   "point": "閱讀一：細節（早期使用者之反應）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen recommendation systems first appeared, they were welcomed as a convenience. A shop that remembered what you had bought could save you the trouble of searching, and early users reported that they discovered music and books they would never have found alone.\n\nThe trouble began when the same systems were applied to news. A shop that shows you more of what you like is helpful; a news feed that does the same is not. Readers were shown the stories they were most likely to click, and clicking, it turned out, has little to do with importance. Within a few years, two people in the same city could open the same application and see almost nothing in common.\n\nSome engineers now argue that the systems were never designed to inform anyone, and that blaming them for failing to do so misses the point. Others reply that a tool used by billions cannot hide behind its original purpose. Both sides agree on one thing: the technology is here to stay, and the argument about what it owes its users is only beginning.\n\n第 41 題：According to the passage, how did early users respond to recommendation systems?",
    "options": [
-    "Villages received their letters faster than cities did.",
-    "Elderly residents began writing more letters.",
-    "Carriers became an informal safety net for residents.",
-    "Postal services saved money on delivery routes."
+    "They complained that the systems remembered too much.",
+    "They preferred to search for products themselves.",
+    "They found music and books they would not have found alone.",
+    "They asked for the systems to be applied to news."
    ],
    "answer": "C",
-   "explain": "第一段末句明言：In several countries they became, without any training or extra pay, an informal safety net（成為非正式的安全網）。B、C 全文未提；D 是第二段 1990 年代重新規劃路線的目的，並非「未經計畫的效果」。判斷動作：題目問 unplanned effect，回到出現 no one had planned 的那一句往下讀。"
+   "explain": "第一段末句明言：early users reported that they **discovered music and books they would never have found alone**。B、C 與原文相反（文中說系統省去搜尋之麻煩）；D 是第二段才發生的事，且非使用者要求。判斷動作：題目問 early users，回到出現 early users 的那一句往下讀。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀一：語意判斷（on paper）",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 42 題：In the second paragraph, \"on paper\" is closest in meaning to",
+   "point": "閱讀一：語意判斷（has little to do with）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen recommendation systems first appeared, they were welcomed as a convenience. A shop that remembered what you had bought could save you the trouble of searching, and early users reported that they discovered music and books they would never have found alone.\n\nThe trouble began when the same systems were applied to news. A shop that shows you more of what you like is helpful; a news feed that does the same is not. Readers were shown the stories they were most likely to click, and clicking, it turned out, has little to do with importance. Within a few years, two people in the same city could open the same application and see almost nothing in common.\n\nSome engineers now argue that the systems were never designed to inform anyone, and that blaming them for failing to do so misses the point. Others reply that a tool used by billions cannot hide behind its original purpose. Both sides agree on one thing: the technology is here to stay, and the argument about what it owes its users is only beginning.\n\n第 42 題：In the second paragraph, \"has little to do with\" is closest in meaning to",
    "options": [
-    "according to the official measurement",
-    "in written reports to the government",
-    "on the printed delivery schedule",
-    "in letters sent by residents"
+    "is largely unrelated to",
+    "is strongly influenced by",
+    "is measured in terms of",
+    "is much smaller than"
    ],
    "answer": "A",
-   "explain": "on paper 為慣用語，指「就帳面／表面數據而言」，與實際情形相對。該句說停下來與居民說話的郵差「on paper 看起來是路線上最慢的員工」——因為效率只用 letters per hour 衡量。⚠ 慣用語題不要照字面拆解，要看它在句中扮演的對比角色。"
+   "explain": "have little to do with 為慣用語，指「與……幾乎無關」。該句說讀者被餵給最可能點擊的報導，而「點擊與重要性幾乎無關」——正是在指出點閱率不能代表新聞價值。⚠ 慣用語題不要照字面拆解 little 或 do，要看它在句中扮演的角色。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀一：細節（1990 年代之衡量標準）",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 43 題：Why were some carriers warned about their performance in the 1990s?",
+   "point": "閱讀一：細節（新聞與購物之差異）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen recommendation systems first appeared, they were welcomed as a convenience. A shop that remembered what you had bought could save you the trouble of searching, and early users reported that they discovered music and books they would never have found alone.\n\nThe trouble began when the same systems were applied to news. A shop that shows you more of what you like is helpful; a news feed that does the same is not. Readers were shown the stories they were most likely to click, and clicking, it turned out, has little to do with importance. Within a few years, two people in the same city could open the same application and see almost nothing in common.\n\nSome engineers now argue that the systems were never designed to inform anyone, and that blaming them for failing to do so misses the point. Others reply that a tool used by billions cannot hide behind its original purpose. Both sides agree on one thing: the technology is here to stay, and the argument about what it owes its users is only beginning.\n\n第 43 題：Why does the author say the systems work differently for news than for shopping?",
    "options": [
-    "They refused to follow the redesigned delivery routes.",
-    "They charged residents a fee without permission.",
-    "They delivered letters to the wrong addresses.",
-    "Efficiency was measured only by the number of letters delivered per hour."
+    "News applications are used by fewer people than shops.",
+    "News stories are harder for a system to classify.",
+    "Shops update their recommendations more often.",
+    "What people click on is not necessarily what matters."
    ],
    "answer": "D",
-   "explain": "第二段：efficiency was measured only in letters per hour，故停下來交談者在數據上顯得最慢，因而被警告。B、C、D 文中均無依據。⚠ 這類題的誘答常是「聽起來合理但文中沒說」，**判斷動作是回文找出處，找不到就不選**。"
+   "explain": "第二段：Readers were shown the stories they were most likely to click, **and clicking, it turned out, has little to do with importance**——購物推薦「投其所好」是幫助，新聞推薦「投其所好」卻不是，關鍵就在點擊與重要性脫鉤。B、C、D 文中均無依據。⚠ 這類題的誘答常是「聽起來合理但文中沒說」，**回文找出處，找不到就不選**。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀一：推論（作者對現行制度之態度）",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 44 題：What does the passage suggest about the check-in service?",
+   "point": "閱讀一：推論（工程師之立場）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen recommendation systems first appeared, they were welcomed as a convenience. A shop that remembered what you had bought could save you the trouble of searching, and early users reported that they discovered music and books they would never have found alone.\n\nThe trouble began when the same systems were applied to news. A shop that shows you more of what you like is helpful; a news feed that does the same is not. Readers were shown the stories they were most likely to click, and clicking, it turned out, has little to do with importance. Within a few years, two people in the same city could open the same application and see almost nothing in common.\n\nSome engineers now argue that the systems were never designed to inform anyone, and that blaming them for failing to do so misses the point. Others reply that a tool used by billions cannot hide behind its original purpose. Both sides agree on one thing: the technology is here to stay, and the argument about what it owes its users is only beginning.\n\n第 44 題：What can be inferred about the engineers mentioned in the last paragraph?",
    "options": [
-    "It has failed to attract enough customers to continue.",
-    "It formalizes something carriers had already been doing informally.",
-    "It was introduced before the delivery routes were redesigned.",
-    "It requires carriers to receive several months of training."
+    "They believe the systems should be shut down entirely.",
+    "They think the systems are being judged by a standard they were not built to meet.",
+    "They accept full responsibility for the state of the news.",
+    "They expect the technology to disappear within a few years."
    ],
    "answer": "B",
-   "explain": "第三段說服務受歡迎，且郵差指出諷刺之處——他們現在**因為做同樣的事而領錢**，過去卻因此被批評。可推知這項服務是把原本非正式的行為制度化。B 與 The service is popular 相反；C 時序顛倒（1990 年代重劃在前）；D 文中未提訓練，第一段反而說 without any training。"
+   "explain": "末段：engineers argue the systems **were never designed to inform anyone**, and blaming them for failing to do so **misses the point**——即認為外界拿「是否使人知情」這個標準來評價，本就不是系統的設計目的。B 文中未提；C 與其立場相反；D 與 the technology is here to stay 相反。"
   },
   {
    "section": "閱讀",
    "points": 2,
    "point": "閱讀一：主旨",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 45 題：What is the main idea of the passage?",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen recommendation systems first appeared, they were welcomed as a convenience. A shop that remembered what you had bought could save you the trouble of searching, and early users reported that they discovered music and books they would never have found alone.\n\nThe trouble began when the same systems were applied to news. A shop that shows you more of what you like is helpful; a news feed that does the same is not. Readers were shown the stories they were most likely to click, and clicking, it turned out, has little to do with importance. Within a few years, two people in the same city could open the same application and see almost nothing in common.\n\nSome engineers now argue that the systems were never designed to inform anyone, and that blaming them for failing to do so misses the point. Others reply that a tool used by billions cannot hide behind its original purpose. Both sides agree on one thing: the technology is here to stay, and the argument about what it owes its users is only beginning.\n\n第 45 題：What is the main idea of the passage?",
    "options": [
-    "Mail carriers in remote villages are paid less than those in cities.",
-    "Technology has made the work of mail carriers much easier.",
-    "A side effect of mail delivery was first ignored, then punished, and finally sold as a service.",
-    "Postal services should stop measuring the efficiency of their workers."
+    "Recommendation systems should be replaced by human editors.",
+    "People in the same city no longer read any news at all.",
+    "A tool that works well for shopping created a new problem when applied to news.",
+    "Engineers and critics have reached agreement on how to fix the systems."
    ],
    "answer": "C",
-   "explain": "三段各為一個階段：無人計畫地形成（第一段）→ 因效率標準而被懲罰（第二段）→ 制度化成收費服務（第三段）。A 完整涵蓋這條時間線。B 全文未比較薪資；C 未談科技；D 是過度延伸的主張，作者僅陳述經過並未提出此建議。⚠ **主旨題要涵蓋全文所有段落**，只對到其中一段的選項是常見誘答。"
+   "explain": "三段各一階段：作為購物工具受歡迎（第一段）→ 套用到新聞後產生問題（第二段）→ 責任歸屬之爭議未決（第三段）。A 完整涵蓋這條線。B 文中未提替代方案；C 過度誇大（原文說「看到的內容幾乎沒有交集」，不是不看新聞）；D 與末段「爭論才剛開始」相反。⚠ **主旨題要涵蓋全文所有段落**，只對到其中一段的是常見誘答。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀二：細節（明信片之全盛期）",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 46 題：According to the passage, what made postcards so useful between 1890 and 1930?",
+   "point": "閱讀二：細節（作者認為的主因）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 46 題：According to the author, what is the more important reason appliances are no longer repaired?",
    "options": [
-    "Postcards were printed with attractive pictures.",
-    "Cities had several mail deliveries each day.",
-    "Telephones had not yet been invented.",
-    "The postal service delivered them free of charge."
+    "Their overall quality has fallen sharply.",
+    "They are designed in ways that make repair impractical.",
+    "Owners prefer to buy new models more often.",
+    "Repairmen have moved into better-paid work."
    ],
    "answer": "B",
-   "explain": "第一段：In large cities there were several deliveries a day，因而早上寄、中午前就能收到回覆。B 是第三段所述**後來**的價值；C 錯——第二段明言電話當時已存在但昂貴；D 文中未提免費。"
+   "explain": "第一段末句：this is often blamed on falling quality, **but the more important change** is that products are built in a way that **makes repair impractical rather than impossible**。B 正是作者明白指為次要的說法；C、D 文中未提。⚠ **文章明說「常被歸咎於 X，但更重要的是 Y」時，X 必是誘答**。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀二：細節（衰退之真正原因）",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 47 題：What does the author say was the real cause of the postcard's decline?",
+   "point": "閱讀二：細節（製造方式之例）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 47 題：Which of the following is mentioned as making repair harder?",
    "options": [
-    "The rising price of printing postcards",
-    "The spread of the telephone into every home",
-    "A change in what travellers wanted to send",
-    "The fall in the number of daily deliveries"
+    "Producing appliances in a smaller number of factories",
+    "Shortening the warranty period to one year",
+    "Refusing to sell appliances to repair shops",
+    "Selling a cheap component only inside an expensive module"
    ],
    "answer": "D",
-   "explain": "第二段：The real cause was the reduction in the number of daily deliveries。C 正是作者明白否定的說法（not the telephone, as is often assumed）；B、D 文中無此因果。⚠ **文章明說「常被誤以為是 X，其實是 Y」時，X 必是誘答**。"
+   "explain": "第二段列三種做法：零件用**黏合**而非螺絲、診斷碼**不公開**、**兩美元的零件只以八十美元的模組出售**。B、C、D 文中均未提及。判斷動作：細節題直接回段落逐項核對，不要憑印象。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀二：推論（明信片今日之價值）",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 48 題：What can be inferred about postcards today?",
+   "point": "閱讀二：推論（新規定之影響）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 48 題：What does the passage suggest about the new rules?",
    "options": [
-    "They are valued more as objects than as a means of communication.",
-    "They are delivered faster than they were in the 1920s.",
-    "They are mainly used to invite friends to dinner.",
-    "They have almost completely disappeared."
+    "They have already begun to change the situation for repair shops.",
+    "They have been rejected by most governments.",
+    "They have caused appliance prices to fall.",
+    "They apply only to washing machines."
    ],
    "answer": "A",
-   "explain": "第三段：valued not for speed but for the picture on the front and the postmark on the back，且 The message itself became almost beside the point（訊息本身幾乎無關緊要）——可推知其價值在於**物件本身**而非傳遞訊息。B 與第二段投遞次數減少相反；C 是 1890–1930 年的用途；D 錯——文中說 Postcards survived。"
+   "explain": "末段：修理店關了二十年之後，**report that the phone has started ringing again**（電話又開始響了）——可推知新規定已開始產生作用。B 與 Several governments have begun to respond 相反；C 廠商是**警告價格會上漲**，且尚未發生；D 文中未限於洗衣機。"
   },
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀二：語意判斷（beside the point）",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 49 題：In the last paragraph, \"beside the point\" means",
+   "point": "閱讀二：語意判斷（does not appear on the price tag）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 49 題：In the second paragraph, \"in a form that does not appear on the price tag\" means the cost is",
    "options": [
-    "written on the side",
-    "difficult to read",
-    "not important",
-    "printed in small type"
+    "paid by the manufacturer instead of the buyer",
+    "printed in small type on the label",
+    "real but hidden from the buyer at the time of purchase",
+    "refunded to the buyer after a few years"
    ],
    "answer": "C",
-   "explain": "beside the point 為慣用語「不相干、不重要」。全句說明信片的價值轉為圖片與郵戳，訊息本身幾乎不重要了。B、C、D 均為照字面拆解 beside 與 point 的誤解。⚠ 與第 42 題 on paper 同一類——**慣用語看在句中的功能，不拆字面**。"
+   "explain": "該句說這些做法對廠商較便宜，成本**轉嫁給擁有者，但以不會出現在標價上的形式**——即買的時候看不到，日後透過無法維修、提早換新才付出。B 與「轉嫁給擁有者」相反；C、D 為照字面拆解 price tag 的誤解。⚠ 與第 42 題同一類——**慣用表達看它在句中的功能，不拆字面**。"
   },
   {
    "section": "閱讀",
    "points": 2,
    "point": "閱讀二：標題",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 50 題：Which of the following is the best title for the passage?",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 50 題：Which of the following is the best title for the passage?",
    "options": [
-    "The History of Printing in Europe",
-    "Why the Postcard Stopped Being Fast",
-    "How the Telephone Changed the Home",
-    "The Best Places to Buy Postcards"
+    "The Rising Price of Household Appliances",
+    "Why Things Stopped Being Worth Fixing",
+    "How Washing Machines Are Manufactured",
+    "The Best Way to Choose a Repair Shop"
    ],
    "answer": "B",
-   "explain": "全文主線是明信片**如何失去速度優勢、又如何轉變用途**，A 最貼近。B 印刷史只是第一段一句帶過；C 電話在文中是被否定的原因，非主題；D 全文未涉及購買。⚠ **標題題與主旨題同法**：涵蓋全文、且要是文章真正論證的那件事。"
+   "explain": "全文主線是**產品為何變得不值得修、以及規範如何開始扭轉**，A 最貼近。B 價格只在末段作為廠商警告出現一句；C 全文未談製造流程；D 全文未涉及如何挑選修理店。⚠ **標題題與主旨題同法**：要涵蓋全文，且必須是文章真正在論證的那件事。"
   }
  ]
 }
