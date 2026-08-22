@@ -40,6 +40,16 @@
   "round": 4
  },
  {
+  "id": "postal-sim-D",
+  "file": "postal-sim-D.json",
+  "title": "郵政法規仿真卷 D",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50．全科第 5 場用卷",
+  "type": "full",
+  "round": 5
+ },
+ {
   "id": "minfa-issue-01",
   "file": "minfa-issue-01.json",
   "title": "民法迷你卷：爭點辨識（申論前置）",
