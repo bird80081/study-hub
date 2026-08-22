@@ -60,6 +60,16 @@
   "round": 5
  },
  {
+  "id": "minfa-sim-D",
+  "file": "minfa-sim-D.json",
+  "title": "民法仿真卷 D",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 5 場用卷",
+  "type": "full",
+  "round": 5
+ },
+ {
   "id": "minfa-issue-01",
   "file": "minfa-issue-01.json",
   "title": "民法迷你卷：爭點辨識（申論前置）",
