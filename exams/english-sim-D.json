@@ -1,0 +1,729 @@
+{
+ "title": "英文仿真卷 D（全科第5場）",
+ "subject": "英文",
+ "minutes": 60,
+ "sections": [
+  {
+   "name": "字彙",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "文法",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "克漏字",
+   "count": 10,
+   "points": 2
+  },
+  {
+   "name": "閱讀",
+   "count": 10,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：weigh",
+   "stem": "Before mailing the box, the clerk asked me to ______ it on the scale at the counter.",
+   "options": [
+    "wait",
+    "wave",
+    "weigh",
+    "wear"
+   ],
+   "answer": "C",
+   "explain": "weigh 為動詞「秤重」，與 scale（磅秤）搭配。wait 等待、wave 揮手、wear 穿戴，皆與量重無關。⚠ weigh（動詞）與 weight（名詞）常混——句中 me to ____ it 需要動詞，故用 weigh。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：remind",
+   "stem": "Please ______ me to pick up the parcel on my way home; I always forget.",
+   "options": [
+    "remember",
+    "remind",
+    "memorize",
+    "recall"
+   ],
+   "answer": "B",
+   "explain": "remind 為「提醒（某人）」，句型 remind sb to V。remember 是自己記得、memorize 是背誦記住、recall 是回想起來——三者主體都是自己，無法「提醒別人」。判斷動作：看到 ____ me to V，主體是別人在提醒我，用 remind。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：available",
+   "stem": "The express service is not ______ on Sundays, so you will have to wait until Monday.",
+   "options": [
+    "capable",
+    "possible",
+    "reachable",
+    "available"
+   ],
+   "answer": "D",
+   "explain": "available 指「可獲得的、可利用的」，服務、商品、時段皆可用。capable 用於人「有能力的」（be capable of）、possible 修飾事情本身而非服務、reachable 指聯絡得上。此句主詞是 service，最自然者為 available。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：crowded",
+   "stem": "The post office was so ______ this morning that I waited nearly an hour.",
+   "options": [
+    "crowded",
+    "crowd",
+    "crowding",
+    "crowds"
+   ],
+   "answer": "A",
+   "explain": "空格在 so ____ that 之間，需形容詞；crowded 為形容詞「擁擠的」。crowd 是名詞或動詞、crowds 是名詞複數、crowding 是動名詞或現在分詞，均不合此位置。判斷動作：**so ... that 中間放形容詞或副詞**。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：complain",
+   "stem": "Several customers ______ about the long queue, so the manager opened another counter.",
+   "options": [
+    "explained",
+    "contained",
+    "complained",
+    "remained"
+   ],
+   "answer": "C",
+   "explain": "complain about 為「抱怨某事」之固定搭配，與後句「經理加開櫃檯」因果相符。explain 解釋、contain 包含、remain 保持，皆與 about 搭配不自然且語意不合。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：valuable",
+   "stem": "Because the ring was ______, she chose to send it as an insured parcel.",
+   "options": [
+    "invaluable",
+    "valueless",
+    "worthless",
+    "valuable"
+   ],
+   "answer": "D",
+   "explain": "valuable 指「貴重的、值錢的」，與「保價郵件」相符。⚠ 三個誘答是陷阱：**invaluable 是「無價的、極珍貴的」**（in- 在此非否定，反而更強）、valueless 與 worthless 都是「毫無價值」。本題選 valuable 即可，但 invaluable 的字義要記住，真卷常以此設陷。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：complement（換句型重測）",
+   "stem": "The new self-service kiosks are meant to ______ the counter staff, not to take their place.",
+   "options": [
+    "complement",
+    "compliment",
+    "complicate",
+    "compete"
+   ],
+   "answer": "A",
+   "explain": "complement 為「補足、與……相輔相成」，與後半 not to take their place（不是取代）呼應。**compliment 是「稱讚」**——兩字僅一個字母之差，是你反覆錯過的一組。complicate 使複雜、compete 競爭，語意皆不合。判斷動作：看句子講的是「補足」還是「稱讚」。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：careless",
+   "stem": "It was ______ of him to write the address without checking the postal code.",
+   "options": [
+    "careful",
+    "careless",
+    "carefree",
+    "caring"
+   ],
+   "answer": "B",
+   "explain": "careless 為「粗心的」，與「沒查郵遞區號就寫地址」相符。careful 小心的（語意相反）、carefree 無憂無慮的、caring 關懷體貼的。⚠ 字尾 -less 表「缺少」、-ful 表「充滿」，是判斷方向的第一步。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：announce",
+   "stem": "The company will ______ the new delivery schedule at the end of this month.",
+   "options": [
+    "advance",
+    "advise",
+    "admire",
+    "announce"
+   ],
+   "answer": "D",
+   "explain": "announce 為「宣布、公告」，受詞為 schedule（時程）相當自然。advance 推進、advise 建議（advise sb to V）、admire 欽佩，均不與 schedule 直接搭配。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：emergency（換方向重測）",
+   "stem": "Keep this number on your phone; you may need it in case of an ______.",
+   "options": [
+    "emphasis",
+    "empire",
+    "emergency",
+    "employment"
+   ],
+   "answer": "C",
+   "explain": "in case of an emergency 為固定用法「萬一發生緊急狀況」。emphasis 強調、empire 帝國、employment 僱用——三者與 in case of 完全不搭。⚠ 這組 em- 開頭的形近字你錯過兩次（8/07、8/21），**判斷動作是先看整句在講什麼情境，再挑字，不要只看字首**。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：reduce",
+   "stem": "Using reusable boxes can greatly ______ the amount of packaging waste.",
+   "options": [
+    "produce",
+    "reduce",
+    "introduce",
+    "reproduce"
+   ],
+   "answer": "B",
+   "explain": "reduce 為「減少」，與 waste（廢棄物）搭配最合理。produce 生產、introduce 介紹引進、reproduce 複製繁殖——三者都是 -duce 家族，字形相近但語意不同。判斷動作：看句子要的是「變少」還是「做出來」。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：familiar",
+   "stem": "After working here for ten years, she is quite ______ with every street in this district.",
+   "options": [
+    "familiar",
+    "similar",
+    "famous",
+    "formal"
+   ],
+   "answer": "A",
+   "explain": "be familiar with 為「熟悉某事物」之固定搭配。similar 相似的（be similar to）、famous 有名的（be famous for）、formal 正式的。⚠ 三個誘答字形都接近，**分辨關鍵在後面接的介系詞**：familiar **with**、similar **to**、famous **for**。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：publication（換方向重測）",
+   "stem": "The magazine has been in ______ for over fifty years and still sells well.",
+   "options": [
+    "publicity",
+    "public",
+    "publisher",
+    "publication"
+   ],
+   "answer": "D",
+   "explain": "in publication 指「持續發行、出版中」，publication 為表示「發行」這個動作或事件的名詞。**publicity 是「宣傳、知名度」**、public 是形容詞或指大眾、publisher 是出版者（人）。⚠ 這組你錯過兩次，判斷動作：先問空格要的是**動作／事件**（publication）還是**宣傳**（publicity）。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：suitable",
+   "stem": "This envelope is not ______ for sending fragile items; please use a padded one.",
+   "options": [
+    "possible",
+    "capable",
+    "suitable",
+    "available"
+   ],
+   "answer": "C",
+   "explain": "be suitable for 為「適合於」。possible 指事情有可能發生、capable 用於人或機器有能力、available 指可取得。此句主詞是 envelope（物），要表達「不適合」，用 suitable。⚠ suitable 正是 109 真卷考過的字，屬真卷難度層級。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "字彙：seldom",
+   "stem": "He ______ uses the post office nowadays because almost everything is done online.",
+   "options": [
+    "already",
+    "seldom",
+    "always",
+    "hardly ever than"
+   ],
+   "answer": "B",
+   "explain": "seldom 為頻率副詞「很少」，與後句「幾乎都線上處理」相符。already 已經（語意不合）、always 總是（方向相反）、hardly ever than 不成句。⚠ seldom 本身已含否定意味，句中不再加 not。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：主詞動詞一致（a number of）",
+   "stem": "A number of residents ______ asked for an extra delivery slot in the evening.",
+   "options": [
+    "has",
+    "having",
+    "is",
+    "have"
+   ],
+   "answer": "D",
+   "explain": "**a number of** + 複數名詞＝「許多……」，中心語是後面的複數名詞 residents，故動詞用複數 have。⚠ 對照 **the number of** + 複數名詞＝「……的數目」，中心語是 the number（單數），動詞用 has。判斷動作：**看冠詞是 a 還是 the**——a number of 看後面的名詞，the number of 看 number 本身。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：關係代名詞 which 指前面整句",
+   "stem": "She missed the last bus, ______ meant she had to walk home in the rain.",
+   "options": [
+    "which",
+    "that",
+    "what",
+    "it"
+   ],
+   "answer": "A",
+   "explain": "先行詞是**前面整個句子**（她錯過末班車這件事）時，關係代名詞用 **which**，且前面須有逗號（非限定用法）。that 不能引導非限定子句、what 本身含先行詞不能再有先行詞、it 是代名詞不能連接兩個子句。⚠ 真卷 112 第 25 題即考同一結構。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：比較句中的所有格",
+   "stem": "Her handwriting is much neater than ______.",
+   "options": [
+    "her sister",
+    "her sister does",
+    "her sister's",
+    "her sister's is neat"
+   ],
+   "answer": "C",
+   "explain": "比較的兩造必須對等：Her handwriting（字跡）要對上 her sister's（＝her sister's handwriting），故用**所有格**代替重複的名詞。her sister 是人，與「字跡」不對等；her sister does 用於比較動作；D 選項句構重複。⚠ 真卷 112 第 27 題同型（as good as your mother's）。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：mind + V-ing",
+   "stem": "The parcel is quite heavy. Would you mind ______ me carry it to the counter?",
+   "options": [
+    "to help",
+    "helping",
+    "help",
+    "helped"
+   ],
+   "answer": "B",
+   "explain": "mind 之後接**動名詞**（V-ing），Would you mind V-ing? 為固定請求句型。⚠ 同類必接 V-ing 的動詞：enjoy、finish、avoid、practice、suggest、consider。真卷 112 第 22 題同型（Do you mind opening it?）。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：動名詞作主詞",
+   "stem": "______ in line for an hour is not my idea of a good morning.",
+   "options": [
+    "Wait",
+    "To waiting",
+    "Waited",
+    "Waiting"
+   ],
+   "answer": "D",
+   "explain": "句首缺主詞，動詞轉為名詞用法有兩種：動名詞（V-ing）或不定詞（to V）。此處 Waiting 為動名詞當主詞。Wait 是原形動詞不能當主詞、To waiting 文法不成立（to 之後不接 V-ing 作此用）、Waited 是過去式或過去分詞。⚠ 真卷 112 第 23 題同型。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：分詞構句（被動，主詞為物）",
+   "stem": "______ with plenty of bubble wrap, the glass vase arrived without a single crack.",
+   "options": [
+    "Packing",
+    "To pack",
+    "Packed",
+    "Being pack"
+   ],
+   "answer": "C",
+   "explain": "分詞構句的邏輯主詞是 the glass vase（花瓶），花瓶是**被**包裝的，故用**過去分詞** Packed 表被動。Packing 是主動（花瓶自己包東西，不合理）、To pack 表目的、Being pack 文法錯誤。⚠⚠ **這個結構你已連續錯四次（8/18、8/20、8/21）**，判斷動作只有一步：**問「主詞是做這個動作，還是被做」——被做就用 p.p.**，主詞是物幾乎都是被做。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：be fed up with",
+   "stem": "Many residents are fed up ______ having their parcels left in the rain.",
+   "options": [
+    "with",
+    "of",
+    "for",
+    "about"
+   ],
+   "answer": "A",
+   "explain": "be fed up **with** 為固定搭配，意為「受夠了、厭煩」，之後接名詞或動名詞。⚠ 真卷 112 第 29 題即考本片語。同類易混：be tired **of**、be bored **with/of**、be angry **about**（事）／**with**（人）。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：take 表花費時間",
+   "stem": "It ______ about three days for a registered letter to reach a remote village.",
+   "options": [
+    "spends",
+    "takes",
+    "costs",
+    "needs"
+   ],
+   "answer": "B",
+   "explain": "表「花費時間」用 **It takes + 時間 + for sb/sth + to V**。spend 的主詞須為**人**（He spends two hours...）、cost 主詞為**物**且用於花費**金錢**、need 語意不合此句型。⚠ 真卷 112 第 18 題同型。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：名詞子句之連接詞 how",
+   "stem": "It is hard to imagine ______ people managed to send messages before the postal system existed.",
+   "options": [
+    "which",
+    "what",
+    "whether",
+    "how"
+   ],
+   "answer": "D",
+   "explain": "空格引導名詞子句作 imagine 的受詞，子句 people managed to send messages 結構**完整**（主詞、動詞、受詞齊備），故需**副詞性**連接詞 how（方式）。which、what 均為代名詞性質，會使子句缺成分；whether 表「是否」，語意不合。⚠ 真卷 112 第 16 題同型。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：wish＋過去式（與現在事實相反）",
+   "stem": "This envelope has no sender's name. I wish there ______ some way to find out who sent it.",
+   "options": [
+    "were",
+    "is",
+    "will be",
+    "would have been"
+   ],
+   "answer": "A",
+   "explain": "wish 之後表**與現在事實相反**的願望，動詞用過去式；be 動詞在正式用法一律用 **were**（不分人稱）。is 是直述現在、will be 是單純未來、would have been 屬與**過去**事實相反。⚠ 真卷 112 第 19 題同型（I wish I could remember his name）。你 8/21 在此結構失分，本題改以 there be 句型與 were 測同一判準。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：when + 過去分詞（省略主詞與 be）",
+   "stem": "When ______ about the delay, the clerk apologized at once and offered a refund.",
+   "options": [
+    "asking",
+    "to ask",
+    "asked",
+    "ask"
+   ],
+   "answer": "C",
+   "explain": "副詞子句與主句主詞相同（the clerk）時，可省略主詞與 be 動詞；店員是**被**詢問，故用過去分詞 asked（＝When he was asked）。asking 為主動、to ask 表目的、ask 為原形。⚠ 真卷 112 第 24 題同型（When told about the bad news...）。與第 21 題同一個判斷動作：主動還是被動。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：No sooner ... than 之倒裝",
+   "stem": "No sooner ______ the doors opened than a long line formed inside the lobby.",
+   "options": [
+    "did",
+    "had",
+    "was",
+    "has"
+   ],
+   "answer": "B",
+   "explain": "No sooner ... than 表「一……就……」，No sooner 置句首須**倒裝**，且主要子句用**過去完成式**、than 子句用過去簡單式，故用 had（had the doors opened）。⚠ 同組倒裝結構一起記：**Hardly/Scarcely ... when**、**Not until ...**、**Had + S + p.p.（省略 if 的假設語氣）**。你 8/21 在倒裝連錯兩題，這一組要一次練完。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：be interested in",
+   "stem": "Few young people today seem to be interested ______ collecting stamps.",
+   "options": [
+    "on",
+    "for",
+    "with",
+    "in"
+   ],
+   "answer": "D",
+   "explain": "be interested **in** 為固定搭配，之後接名詞或動名詞。⚠ 真卷 112 第 21 題同型（I'm not interested in any sports）。同類介系詞搭配：be good **at**、be famous **for**、be afraid **of**、be married **to**。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：過去簡單式與現在完成式之別",
+   "stem": "I ______ my old classmate at the post office yesterday; we talked for almost an hour.",
+   "options": [
+    "met",
+    "have met",
+    "had met",
+    "have been meeting"
+   ],
+   "answer": "A",
+   "explain": "句中有明確過去時間 **yesterday**，須用過去簡單式 met。現在完成式不與明確過去時間點連用；had met 為過去完成（需另一個更晚的過去時點）；have been meeting 為現在完成進行。⚠ 判斷動作：**先找時間副詞**——看到 yesterday／last week／ago，直接排除完成式。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "文法：片語動詞 get on",
+   "stem": "The two clerks have worked together for years and ______ very well.",
+   "options": [
+    "get over",
+    "get up",
+    "get on",
+    "get through"
+   ],
+   "answer": "C",
+   "explain": "get on (well) with sb 為「相處融洽」。get over 克服、get up 起床、get through 通過或接通電話。⚠ 真卷 112 第 30 題同型。片語動詞要整組記，不能只看主動詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：時態並列",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 31 格：",
+   "options": [
+    "leaving",
+    "were left",
+    "have left",
+    "are leaving"
+   ],
+   "answer": "B",
+   "explain": "與前面 were written 並列（Some were written ... and __ in a drawer），主詞 Some（letters）是**被**留在抽屜裡，故用被動 were left。leaving 為主動分詞、have left 為主動完成式、are leaving 為現在進行，皆與並列結構及被動語意不合。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：關係副詞 where",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 32 格：",
+   "options": [
+    "which",
+    "that",
+    "what",
+    "where"
+   ],
+   "answer": "D",
+   "explain": "先行詞 a special office 是**地點**，且後面子句 staff try to find... 結構完整，故用關係副詞 where。which/that 為關係代名詞，會使子句缺主詞或受詞；what 不能有先行詞。判斷動作：先看子句缺不缺成分——不缺就用關係副詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：轉折連接詞",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 33 格：",
+   "options": [
+    "Still",
+    "Therefore",
+    "Similarly",
+    "Otherwise"
+   ],
+   "answer": "A",
+   "explain": "前句說「只有一半送得到」、後句說「辦公室仍持續運作」，前後**語意相反**，故用轉折語 Still（仍然、儘管如此）。Therefore 表結果、Similarly 表類比、Otherwise 表否則，方向皆不合。判斷動作：先讀前後兩句的方向是順接還是逆接。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：連接詞 as",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 34 格：",
+   "options": [
+    "so",
+    "but",
+    "as",
+    "or"
+   ],
+   "answer": "C",
+   "explain": "空格前為「最難處理的是沒有回郵地址的手寫信」，空格後為「沒有任何線索可追」——後者是前者的**原因**，用 as（因為）。so 表結果（方向相反）、but 表轉折、or 表選擇。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：原因連接詞 because",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nEvery year, thousands of letters arrive at the post office with an address that no longer exists. Some were written years ago and __31__ in a drawer until someone finally posted them. Others carry an address that has been changed by the city government. Because these letters cannot be delivered, they are sent to a special office __32__ staff try to find the sender or the receiver. The work is slow, and only about half of the letters ever reach anyone. __33__, the office keeps going, partly because a single delivered letter can matter a great deal to the person waiting for it. Staff members say the hardest cases are handwritten notes with no return address, __34__ there is nothing to trace. In recent years the number of such letters has fallen, __35__ fewer people write by hand at all.\n\n第 35 格：",
+   "options": [
+    "although",
+    "because",
+    "unless",
+    "whether"
+   ],
+   "answer": "B",
+   "explain": "「這類信件變少」與「越來越少人手寫」是**因果**關係，用 because。although 表讓步、unless 表除非、whether 表是否，皆不合。⚠ 本題與第 34 格同樣測因果，但連接詞不同——as 與 because 皆可表原因，此處四個選項中只有 because 成立。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：關係代名詞主格",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 36 格：",
+   "options": [
+    "where",
+    "whose",
+    "what",
+    "which"
+   ],
+   "answer": "D",
+   "explain": "先行詞 a code 是**物**，且後面子句 __ is sent to his phone **缺主詞**，故用主格關係代名詞 which。where 為關係副詞（子句須完整）、whose 表所有格、what 不能有先行詞。判斷動作：**先看子句缺不缺主詞或受詞**——缺就用關係代名詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：條件連接詞 as long as",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 37 格：",
+   "options": [
+    "as long as",
+    "as far as",
+    "as soon as",
+    "as well as"
+   ],
+   "answer": "A",
+   "explain": "語意為「**只要**顧客兩天內取件，系統就運作良好」，表**條件**，用 as long as。as far as 表範圍或程度（as far as I know）、as soon as 表時間「一……就……」、as well as 表「以及」。⚠ 這四個 as 開頭的片語你 8/21 在此失分，**判斷動作：先問這句在講條件、範圍、時間還是並列**。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：主詞動詞一致",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 38 格：",
+   "options": [
+    "are",
+    "were",
+    "is",
+    "being"
+   ],
+   "answer": "C",
+   "explain": "主詞是 the opposite（單數），且全文為現在式敘述，故用 is。are 為複數、were 為過去、being 非限定動詞不能當主要動詞。判斷動作：先圈出主詞中心語再定單複數與時態。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：代名詞 those",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 39 格：",
+   "options": [
+    "them",
+    "those",
+    "these",
+    "they"
+   ],
+   "answer": "B",
+   "explain": "空格後接關係子句 who work long hours，需要一個能被關係子句修飾的**代名詞先行詞**，用 those（指「……的人們」）。them 為受格且不接關係子句、these 指近處具體事物、they 為主格。⚠ **those who ＝「凡是……的人」**，是固定用法，你 8/21 在此失分。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：讓步連接詞 Although",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany towns have started placing lockers outside their post offices. A customer who is not at home during the day can have a parcel delivered to a locker and pick it up later. To open the locker, the customer enters a code __36__ is sent to his or her phone. The system works well __37__ the customer collects the parcel within two days; after that, the parcel is returned to the counter to make room for others. Some critics argue that the machines will one day replace postal workers, but so far the opposite __38__ true: the lockers handle the simple cases, leaving staff free for the difficult ones. Lockers are especially useful for __39__ who work long hours or live alone. __40__ the technology continues to spread, most towns still keep at least one staffed counter open.\n\n第 40 格：",
+   "options": [
+    "Because",
+    "Since",
+    "Unless",
+    "Although"
+   ],
+   "answer": "D",
+   "explain": "前半「科技持續普及」與後半「多數城鎮仍保留人工櫃檯」語意**相反**，故用讓步連接詞 Although。Because 與 Since 表原因、Unless 表除非，方向皆不合。⚠ 與第 33、35 格對照：同一篇文章中連接詞的方向判斷是反覆出現的考點，**先讀懂前後兩句的關係再選字**。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（偏遠地區之效果）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 41 題：According to the passage, what unplanned effect did regular mail delivery have in remote areas?",
+   "options": [
+    "Villages received their letters faster than cities did.",
+    "Elderly residents began writing more letters.",
+    "Carriers became an informal safety net for residents.",
+    "Postal services saved money on delivery routes."
+   ],
+   "answer": "C",
+   "explain": "第一段末句明言：In several countries they became, without any training or extra pay, an informal safety net（成為非正式的安全網）。B、C 全文未提；D 是第二段 1990 年代重新規劃路線的目的，並非「未經計畫的效果」。判斷動作：題目問 unplanned effect，回到出現 no one had planned 的那一句往下讀。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：語意判斷（on paper）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 42 題：In the second paragraph, \"on paper\" is closest in meaning to",
+   "options": [
+    "according to the official measurement",
+    "in written reports to the government",
+    "on the printed delivery schedule",
+    "in letters sent by residents"
+   ],
+   "answer": "A",
+   "explain": "on paper 為慣用語，指「就帳面／表面數據而言」，與實際情形相對。該句說停下來與居民說話的郵差「on paper 看起來是路線上最慢的員工」——因為效率只用 letters per hour 衡量。⚠ 慣用語題不要照字面拆解，要看它在句中扮演的對比角色。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（1990 年代之衡量標準）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 43 題：Why were some carriers warned about their performance in the 1990s?",
+   "options": [
+    "They refused to follow the redesigned delivery routes.",
+    "They charged residents a fee without permission.",
+    "They delivered letters to the wrong addresses.",
+    "Efficiency was measured only by the number of letters delivered per hour."
+   ],
+   "answer": "D",
+   "explain": "第二段：efficiency was measured only in letters per hour，故停下來交談者在數據上顯得最慢，因而被警告。B、C、D 文中均無依據。⚠ 這類題的誘答常是「聽起來合理但文中沒說」，**判斷動作是回文找出處，找不到就不選**。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：推論（作者對現行制度之態度）",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 44 題：What does the passage suggest about the check-in service?",
+   "options": [
+    "It has failed to attract enough customers to continue.",
+    "It formalizes something carriers had already been doing informally.",
+    "It was introduced before the delivery routes were redesigned.",
+    "It requires carriers to receive several months of training."
+   ],
+   "answer": "B",
+   "explain": "第三段說服務受歡迎，且郵差指出諷刺之處——他們現在**因為做同樣的事而領錢**，過去卻因此被批評。可推知這項服務是把原本非正式的行為制度化。B 與 The service is popular 相反；C 時序顛倒（1990 年代重劃在前）；D 文中未提訓練，第一段反而說 without any training。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：主旨",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nFor most of the twentieth century, the mail carrier was one of the few people who visited every house in a village on a regular basis. In remote areas this had an effect that no one had planned. Carriers noticed when curtains stayed closed, when milk bottles were not taken in, when an elderly resident did not come to the door. In several countries they became, without any training or extra pay, an informal safety net.\n\nPostal services were slow to recognize this. When delivery routes were redesigned in the 1990s to save money, efficiency was measured only in letters per hour. Carriers who stopped to speak with residents appeared, on paper, to be the slowest workers on the route. Several were warned about their performance.\n\nAttitudes have since changed. A number of postal services now sell a formal check-in service: for a small monthly fee, a carrier will knock, exchange a few words, and report back to a family member. The service is popular, though some carriers point out the irony — they are now paid to do what they were once criticized for doing.\n\n第 45 題：What is the main idea of the passage?",
+   "options": [
+    "Mail carriers in remote villages are paid less than those in cities.",
+    "Technology has made the work of mail carriers much easier.",
+    "A side effect of mail delivery was first ignored, then punished, and finally sold as a service.",
+    "Postal services should stop measuring the efficiency of their workers."
+   ],
+   "answer": "C",
+   "explain": "三段各為一個階段：無人計畫地形成（第一段）→ 因效率標準而被懲罰（第二段）→ 制度化成收費服務（第三段）。A 完整涵蓋這條時間線。B 全文未比較薪資；C 未談科技；D 是過度延伸的主張，作者僅陳述經過並未提出此建議。⚠ **主旨題要涵蓋全文所有段落**，只對到其中一段的選項是常見誘答。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（明信片之全盛期）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 46 題：According to the passage, what made postcards so useful between 1890 and 1930?",
+   "options": [
+    "Postcards were printed with attractive pictures.",
+    "Cities had several mail deliveries each day.",
+    "Telephones had not yet been invented.",
+    "The postal service delivered them free of charge."
+   ],
+   "answer": "B",
+   "explain": "第一段：In large cities there were several deliveries a day，因而早上寄、中午前就能收到回覆。B 是第三段所述**後來**的價值；C 錯——第二段明言電話當時已存在但昂貴；D 文中未提免費。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（衰退之真正原因）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 47 題：What does the author say was the real cause of the postcard's decline?",
+   "options": [
+    "The rising price of printing postcards",
+    "The spread of the telephone into every home",
+    "A change in what travellers wanted to send",
+    "The fall in the number of daily deliveries"
+   ],
+   "answer": "D",
+   "explain": "第二段：The real cause was the reduction in the number of daily deliveries。C 正是作者明白否定的說法（not the telephone, as is often assumed）；B、D 文中無此因果。⚠ **文章明說「常被誤以為是 X，其實是 Y」時，X 必是誘答**。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：推論（明信片今日之價值）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 48 題：What can be inferred about postcards today?",
+   "options": [
+    "They are valued more as objects than as a means of communication.",
+    "They are delivered faster than they were in the 1920s.",
+    "They are mainly used to invite friends to dinner.",
+    "They have almost completely disappeared."
+   ],
+   "answer": "A",
+   "explain": "第三段：valued not for speed but for the picture on the front and the postmark on the back，且 The message itself became almost beside the point（訊息本身幾乎無關緊要）——可推知其價值在於**物件本身**而非傳遞訊息。B 與第二段投遞次數減少相反；C 是 1890–1930 年的用途；D 錯——文中說 Postcards survived。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：語意判斷（beside the point）",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 49 題：In the last paragraph, \"beside the point\" means",
+   "options": [
+    "written on the side",
+    "difficult to read",
+    "not important",
+    "printed in small type"
+   ],
+   "answer": "C",
+   "explain": "beside the point 為慣用語「不相干、不重要」。全句說明信片的價值轉為圖片與郵戳，訊息本身幾乎不重要了。B、C、D 均為照字面拆解 beside 與 point 的誤解。⚠ 與第 42 題 on paper 同一類——**慣用語看在句中的功能，不拆字面**。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：標題",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nThe postcard was once the fastest way to send a short message, and for about forty years it was also the cheapest. Between 1890 and 1930, billions were printed. In large cities there were several deliveries a day, and it was possible to send a card in the morning inviting a friend to dinner that evening, and to receive a reply before noon.\n\nWhat ended this was not the telephone, as is often assumed. Telephones were expensive and, in many homes, shared with neighbours well into the 1950s. The real cause was the reduction in the number of daily deliveries. Once a city dropped from four deliveries a day to one, a postcard could no longer carry a message that needed an answer the same day, and its main advantage disappeared.\n\nPostcards survived, but their purpose changed. They became something a traveller sends from a distant place — valued not for speed but for the picture on the front and the postmark on the back. The message itself became almost beside the point.\n\n第 50 題：Which of the following is the best title for the passage?",
+   "options": [
+    "The History of Printing in Europe",
+    "Why the Postcard Stopped Being Fast",
+    "How the Telephone Changed the Home",
+    "The Best Places to Buy Postcards"
+   ],
+   "answer": "B",
+   "explain": "全文主線是明信片**如何失去速度優勢、又如何轉變用途**，A 最貼近。B 印刷史只是第一段一句帶過；C 電話在文中是被否定的原因，非主題；D 全文未涉及購買。⚠ **標題題與主旨題同法**：涵蓋全文、且要是文章真正論證的那件事。"
+  }
+ ]
+}
