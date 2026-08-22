@@ -4493,5 +4493,908 @@
    "2": 93,
    "3": 37
   }
+ },
+ "2026-08-22": {
+  "date": "2026-08-22",
+  "drill": {
+   "count": 106,
+   "wrong": [
+    {
+     "id": "rc-3bc2ace3-4688-816d-9d2d-f4525d7478f1",
+     "subject": "英文",
+     "point": "模考0814-22",
+     "stem": "Filling out the customs form correctly _____ delays at the border.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-22",
+     "options": [
+      "have prevented",
+      "prevents",
+      "prevent",
+      "are preventing"
+     ],
+     "userText": "prevent"
+    },
+    {
+     "id": "rc-3c12ace3-4688-81d5-abd3-d799e7f75270",
+     "subject": "英文",
+     "point": "模考0818-4",
+     "stem": "The new sorting machine is designed to ______ the existing system, not to replace it.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "complement",
+      "comprehend",
+      "compliment",
+      "complicate"
+     ],
+     "userText": "complicate"
+    },
+    {
+     "id": "rc-3c12ace3-4688-81bf-b319-ee0eefcf1e12",
+     "subject": "民法",
+     "point": "旅遊契約各項請求權之時效",
+     "stem": "依民法規定，旅遊契約之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，其消滅時效為何？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-22",
+     "options": [
+      "自旅遊終了或應終了時起二年",
+      "自旅遊終了或應終了時起一年",
+      "自契約成立時起一年",
+      "自請求權可行使時起十五年"
+     ],
+     "userText": "自旅遊終了或應終了時起二年"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81ed-8470-dc7882b23c16",
+     "subject": "民法",
+     "point": "106內升39",
+     "stem": "有關物品之運送，因喪失、毀損或遲到而生之賠償請求權，自運送終了，或應終了之時起，多久時間不 行使而消滅？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "1年",
+      "6 個月",
+      "2年",
+      "15 年"
+     ],
+     "userText": "2年"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81fe-a63d-cad9cba1fc44",
+     "subject": "英文",
+     "point": "模考0821-48",
+     "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 48 題：Why have post offices remained in rural areas?",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "They are obliged to serve every address.",
+      "They receive deposits only from wealthy households.",
+      "They earn more profit than commercial banks do.",
+      "They were built before the commercial banks arrived."
+     ],
+     "userText": "They were built before the commercial banks arrived."
+    },
+    {
+     "id": "rc-3c42ace3-4688-811c-a72e-ca8080c5b99c",
+     "subject": "國文",
+     "point": "古文詞義：其恕乎之「恕」",
+     "stem": "《論語．衛靈公》：「子貢問曰：『有一言而可以終身行之者乎？』子曰：『其恕乎！己所不欲，勿施於人。』」句中「恕」字意謂下列何者？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "推己及人，將心比心",
+      "寬赦他人之過錯",
+      "饒恕罪責，不加追究",
+      "忠厚老實，不計得失"
+     ],
+     "userText": "饒恕罪責，不加追究"
+    },
+    {
+     "id": "rc-3c42ace3-4688-817c-92d8-f63c5650b200",
+     "subject": "英文",
+     "point": "模考0821-46",
+     "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 46 題：Which of the following is the best title for the passage?",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-22",
+     "options": [
+      "The History of Savings Accounts in Japan and France",
+      "The Post Office as the Last Bank in Town",
+      "How to Make Postal Savings Systems Profitable",
+      "Why Commercial Banks Are More Efficient Than Post Offices"
+     ],
+     "userText": "The History of Savings Accounts in Japan and France"
+    },
+    {
+     "id": "rc-3c42ace3-4688-812b-86f9-c4943284fae6",
+     "subject": "英文",
+     "point": "模考0821-45",
+     "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 45 題：What does the author suggest about the critics' predictions?",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-22",
+     "options": [
+      "They were correct about employment but wrong about public acceptance.",
+      "They were proved wrong on the loss of jobs, though a valued skill was indeed lost.",
+      "They were based on figures collected from experienced sorters.",
+      "They were confirmed by the closure of sorting offices across the country."
+     ],
+     "userText": "They were based on figures collected from experienced sorters."
+    },
+    {
+     "id": "rc-3c42ace3-4688-81d8-a973-dddc8cb678d8",
+     "subject": "郵政法規",
+     "point": "續期保險費之催告與寬限期間",
+     "stem": "續期保險費自繳費日起一個月未交付者，保險人應於幾日內催告？寬限期間自何時起算、為期多久？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "十日內催告；自當期繳費日起算三個月",
+      "十日內催告；自催告到達日起算一個月",
+      "三十日內催告；自當期繳費日起算二個月",
+      "十五日內催告；自催告到達日起算三個月"
+     ],
+     "userText": "十五日內催告；自催告到達日起算三個月"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81e7-b86c-e68843d87be8",
+     "subject": "英文",
+     "point": "模考0821-39",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 39 格：",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-22",
+     "options": [
+      "ones",
+      "them",
+      "that",
+      "those"
+     ],
+     "userText": "them"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81bd-8e53-d3234ae837f2",
+     "subject": "英文",
+     "point": "模考0821-38",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 38 格：",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "as long as",
+      "even if",
+      "so that",
+      "in case"
+     ],
+     "userText": "even if"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8122-bf3c-febba49765df",
+     "subject": "英文",
+     "point": "模考0821-30",
+     "stem": "The customer rushed to the post office, only ______ that it had already closed.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-22",
+     "options": [
+      "finding",
+      "to find",
+      "found",
+      "find"
+     ],
+     "userText": "finding"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8162-8056-f9efbcf79201",
+     "subject": "英文",
+     "point": "模考0821-27",
+     "stem": "No sooner ______ the counter opened than a long line formed outside.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "has",
+      "did",
+      "had",
+      "was"
+     ],
+     "userText": "has"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8103-a08c-e2c07bb74fe1",
+     "subject": "郵政法規",
+     "point": "查詢期限與補償金支付期限之比較",
+     "stem": "依郵件處理規則規定，郵件查詢期限與補償金支付期限之起算及長度，下列何者正確？（比較題）",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "查詢自交寄次日起三個月；補償金自查詢次日起六個月內支付",
+      "二者均自交寄次日起六個月",
+      "查詢自交寄次日起六個月；補償金自查詢次日起三個月內支付",
+      "查詢自交寄之日起六個月；補償金自提供憑據之日起三個月內支付"
+     ],
+     "userText": "查詢自交寄之日起六個月；補償金自提供憑據之日起三個月內支付"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81b4-a79c-ff9b40cb1ff1",
+     "subject": "國文",
+     "point": "公文種類：函之適用",
+     "stem": "各機關處理一般公務時，相互行文所使用之公文種類為下列何者？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "函",
+      "令",
+      "公告",
+      "呈"
+     ],
+     "userText": "呈"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8157-8421-facf2f7e97f5",
+     "subject": "英文",
+     "point": "模考0821-19",
+     "stem": "This parcel has no return address at all. I wish I ______ who sent it.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "have known",
+      "would have known",
+      "knew",
+      "will know"
+     ],
+     "userText": "will know"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81a6-aa09-d08a258d2f33",
+     "subject": "英文",
+     "point": "模考0814-50",
+     "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 50 題：What is the author's attitude toward drone delivery?",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "Cautiously positive: useful on certain routes but not a general solution",
+      "Strongly opposed: the risks outweigh any benefit",
+      "Highly enthusiastic: drones will soon replace traditional delivery",
+      "Completely neutral: the author gives no evaluation"
+     ],
+     "userText": "Highly enthusiastic: drones will soon replace traditional delivery"
+    },
+    {
+     "id": "rc-3c42ace3-4688-813f-8bf0-df6bf33ea1ef",
+     "subject": "民法",
+     "point": "旅遊契約請求權之時效",
+     "stem": "依民法規定，旅遊契約之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，其時效為何？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "自契約成立時起一年",
+      "自請求權可行使時起十五年",
+      "自旅遊終了或應終了時起一年",
+      "自旅遊終了或應終了時起二年"
+     ],
+     "userText": "自旅遊終了或應終了時起二年"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8118-a794-d7652590bb08",
+     "subject": "國文",
+     "point": "字音辨正：載",
+     "stem": "下列「載」字的讀音，何者與其他三者不同？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "滿「載」而歸",
+      "「載」歌載舞",
+      "千「載」難逢",
+      "「載」重貨車"
+     ],
+     "userText": "「載」歌載舞"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81cc-8b36-eaceec549966",
+     "subject": "民法",
+     "point": "租賃物之保存行為與修繕",
+     "stem": "甲向乙承租房屋，乙為修補漏水之屋頂而須進入屋內施作。甲以妨礙生活為由拒絕。甲得否拒絕？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "得拒絕，租賃期間承租人有排他使用權",
+      "得拒絕，但應補償出租人損失",
+      "不得拒絕，該行為為保存租賃物之必要行為",
+      "須經法院裁定始得進入"
+     ],
+     "userText": "得拒絕，租賃期間承租人有排他使用權"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81cb-b585-e581b94b0d40",
+     "subject": "民法",
+     "point": "期間之起算與末日",
+     "stem": "依民法規定，以日、星期、月或年定期間者，其起算方式為何？",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "由當事人自行約定，法律未設規定",
+      "始日算入",
+      "始日不算入",
+      "一律自次月一日起算"
+     ],
+     "userText": "始日算入"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81d2-9290-d9ca82155f2f",
+     "subject": "英文",
+     "point": "模考0814-16",
+     "stem": "Registered mail _____ to be delivered within three working days.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-22",
+     "options": [
+      "supposes",
+      "has supposed",
+      "is supposing",
+      "is supposed"
+     ],
+     "userText": "has supposed"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8110-9831-c31d551e0a7f",
+     "subject": "英文",
+     "point": "模考0814-12",
+     "stem": "The recipient must sign the return receipt to _____ delivery of the parcel.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "accompany",
+      "accumulate",
+      "acknowledge",
+      "accomplish"
+     ],
+     "userText": "accomplish"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8193-a0a5-fb4cead7da1b",
+     "subject": "英文",
+     "point": "模考0814-11",
+     "stem": "An _____ postal code helps the sorting machine process letters faster.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "accustomed",
+      "acceptable",
+      "accurate",
+      "accessible"
+     ],
+     "userText": "accustomed"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8178-8be4-eb841c2bc1dd",
+     "subject": "英文",
+     "point": "模考0814-10",
+     "stem": "The claim must be filed before the six-month period _____.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-22",
+     "options": [
+      "explores",
+      "expires",
+      "exposes",
+      "expands"
+     ],
+     "userText": "expands"
+    },
+    {
+     "id": "rc-3b82ace3-4688-81dc-be2e-fd8fe38518f6",
+     "subject": "英文",
+     "point": "字彙：crucial",
+     "stem": "Accurate addressing is ______ to on-time delivery.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-22",
+     "options": [
+      "cruel",
+      "crude",
+      "curious",
+      "crucial"
+     ],
+     "userText": "cruel"
+    },
+    {
+     "id": "rc-3b82ace3-4688-819d-8690-fb9a820eb69f",
+     "subject": "英文",
+     "point": "文法：比較級之修飾語",
+     "stem": "The new sorting machine is ______ faster than the old one.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "much",
+      "so",
+      "too",
+      "very"
+     ],
+     "userText": "very"
+    },
+    {
+     "id": "rc-3b82ace3-4688-8161-a9c3-f311d3a02783",
+     "subject": "英文",
+     "point": "文法：It is＋形容詞＋of sb. to V",
+     "stem": "It was very careless ______ him to write the wrong postal code.",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "of",
+      "with",
+      "for",
+      "to"
+     ],
+     "userText": "for"
+    },
+    {
+     "id": "rc-3c42ace3-4688-812f-8d26-d1920d26650b",
+     "subject": "國文",
+     "point": "提稱語：適用對象",
+     "stem": "下列提稱語，何者不適用於長輩或長官？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-22",
+     "options": [
+      "惠鑒",
+      "賜鑒",
+      "鈞鑒",
+      "尊鑒"
+     ],
+     "userText": "賜鑒"
+    },
+    {
+     "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
+     "subject": "英文",
+     "point": "模考0807-33 cause＋受詞＋to V",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-22",
+     "options": [
+      "being stuck",
+      "stuck",
+      "to be stuck",
+      "stick"
+     ],
+     "userText": "being stuck"
+    },
+    {
+     "id": "rc-3b82ace3-4688-8166-937b-da740b2cee95",
+     "subject": "民法",
+     "point": "動產物權讓與之生效",
+     "stem": "依民法規定，動產物權之讓與，非將動產如何，不生效力？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-22",
+     "options": [
+      "訂立書面",
+      "公證",
+      "登記",
+      "交付"
+     ],
+     "userText": "訂立書面"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8101-ad48-d7eb46b5cc45",
+     "subject": "英文",
+     "point": "模考0731-39 rescue dogs",
+     "stem": "第 39 格：請依段落前後文意，選出最適當的答案。",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-22",
+     "options": [
+      "excuse",
+      "cure",
+      "court",
+      "rescue"
+     ],
+     "userText": "court"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3c12ace3-4688-8108-ba33-e9e4b7de68ae",
+     "subject": "英文",
+     "point": "模考0818-8"
+    },
+    {
+     "id": "rc-3c12ace3-4688-816a-96e3-de1f8ee7a61e",
+     "subject": "郵政法規",
+     "point": "廣告回信之登記"
+    },
+    {
+     "id": "rc-3c12ace3-4688-819d-96b2-e09f0b75095b",
+     "subject": "民法",
+     "point": "爭點辨識：善意占有人之必要費用"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81e6-8e6b-edc9f8f597e8",
+     "subject": "英文",
+     "point": "Clerks advise senders ______ the receipt until the parcel is delivered."
+    },
+    {
+     "id": "rc-3c02ace3-4688-81bc-9692-c164ec1aac34",
+     "subject": "英文",
+     "point": "The branch has devoted itself to ______ the waiting time at the counter."
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81cd-aeb0-e730fdab60a9",
+     "subject": "郵政法規",
+     "point": "欠資郵件處理程序：先退還寄件人補付→無法退還→招領揭示期滿→無著郵件"
+    },
+    {
+     "id": "rc-3c02ace3-4688-8112-af5a-e24bf11023a8",
+     "subject": "英文",
+     "point": "This machine is used to ______ letters by postal code."
+    },
+    {
+     "id": "rc-3c42ace3-4688-812e-9ed5-c78f097188a4",
+     "subject": "郵政法規",
+     "point": "解除契約後要保人之請求範圍"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8120-8974-fbad52d317d9",
+     "subject": "英文",
+     "point": "模考0821-43"
+    },
+    {
+     "id": "rc-38d2ace3-4688-819d-80be-cc79a4dc29f6",
+     "subject": "民法",
+     "point": "106內升48"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81df-a9c7-ccd8b74fb981",
+     "subject": "英文",
+     "point": "模考0821-41"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8127-8de3-e30080217fd3",
+     "subject": "郵政法規",
+     "point": "受監護宣告者為被保險人之效力"
+    },
+    {
+     "id": "rc-38d2ace3-4688-81d0-9da5-f37c802a3c40",
+     "subject": "民法",
+     "point": "106內升33"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81c5-94bb-e3ef1296e95b",
+     "subject": "英文",
+     "point": "模考0821-28"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8172-8642-c45973460cbc",
+     "subject": "郵政法規",
+     "point": "代收貨款無法投遞之退費"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81b8-b29b-ccd49de1ecf0",
+     "subject": "英文",
+     "point": "模考0821-24"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81a7-bbea-cd73172acc62",
+     "subject": "英文",
+     "point": "模考0821-22"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81b8-b31f-e79346c7284c",
+     "subject": "英文",
+     "point": "模考0821-21"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8107-a282-fcd769ad6e19",
+     "subject": "民法",
+     "point": "連帶債務之成立"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81be-8d67-cb540470dc1a",
+     "subject": "郵政法規",
+     "point": "國內明信片之紙質規格"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81db-a4ee-d1eb8e484bdb",
+     "subject": "英文",
+     "point": "模考0814-45"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8129-a02b-cc9ba012f41d",
+     "subject": "英文",
+     "point": "模考0814-40"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81fa-91db-cba380998585",
+     "subject": "英文",
+     "point": "模考0814-39"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81fd-afed-c36990a2323b",
+     "subject": "郵政法規",
+     "point": "郵件與郵政資產之保全"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8199-852d-d81c0b0ef167",
+     "subject": "民法",
+     "point": "善意占有人之必要費用"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81ba-80e5-fa2bff9be788",
+     "subject": "英文",
+     "point": "模考0814-37"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-816b-8fb5-deaef9fea184",
+     "subject": "英文",
+     "point": "模考0814-36"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81dd-b9bf-d73d0fc5c1a9",
+     "subject": "郵政法規",
+     "point": "偽造與行使郵資符誌之刑度"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81a6-8948-db1a9733e268",
+     "subject": "英文",
+     "point": "模考0814-33"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8145-9aec-d7963bfeeb94",
+     "subject": "英文",
+     "point": "模考0814-30"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8162-b616-f4ad56e82416",
+     "subject": "英文",
+     "point": "模考0814-28"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81fd-b856-edf5bae2f39f",
+     "subject": "郵政法規",
+     "point": "補償後發現原寄郵件之處理"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81c3-8cee-ed0d05158005",
+     "subject": "英文",
+     "point": "模考0814-26"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-819c-89e6-df92f2945ee3",
+     "subject": "英文",
+     "point": "模考0814-24"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8167-ab69-efa744bb44eb",
+     "subject": "英文",
+     "point": "模考0814-23"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81e7-9695-d87a2b4994bf",
+     "subject": "郵政法規",
+     "point": "i郵箱逾期未領之處理"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8171-bc88-c5689bf9d851",
+     "subject": "英文",
+     "point": "模考0814-21"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8123-8484-e5133caa10f5",
+     "subject": "郵政法規",
+     "point": "存證信函之申請查閱費"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81ee-a65d-c0458a972523",
+     "subject": "英文",
+     "point": "模考0814-18"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-814c-91bf-df509a0bc0d8",
+     "subject": "郵政法規",
+     "point": "國內快捷郵件之撤回費"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8185-b43c-df24b7180ffe",
+     "subject": "民法",
+     "point": "繼承回復請求權之時效"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81b6-a6e0-e307008bfabd",
+     "subject": "郵政法規",
+     "point": "補償金支付期限之計算"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81fe-bb39-e0246f7d6fc5",
+     "subject": "英文",
+     "point": "模考0814-5"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-810b-ad05-d837c5127a98",
+     "subject": "郵政法規",
+     "point": "活生動物之禁寄與例外"
+    },
+    {
+     "id": "rc-3c22ace3-4688-81df-8baa-f4c0b9f9418f",
+     "subject": "民法",
+     "point": "旅客運送之傷害或遲到賠償請求權為二年（§623Ⅱ）；與物品運送一年（§623Ⅰ）、運送費及墊款二年（§127⑦）成組比較"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81d0-9e7e-ea7ea9c33ae6",
+     "subject": "英文",
+     "point": "模考0807-47 閱讀二：細節（採行原因）"
+    },
+    {
+     "id": "rc-3b52ace3-4688-817a-9888-e0adff99480c",
+     "subject": "英文",
+     "point": "模考0807-39 encourage＋受詞＋to V"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-816f-997b-eb4efa272a93",
+     "subject": "郵政法規",
+     "point": "保單價值準備金與借款組合"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81e0-9fff-ee7f58b8bcd7",
+     "subject": "英文",
+     "point": "模考0807-36 however 轉折副詞"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8159-9957-e7ee70b90569",
+     "subject": "民法",
+     "point": "法人名譽之非財產上損害（實務見解）"
+    },
+    {
+     "id": "rc-3b82ace3-4688-8110-8167-f2747a4ac4b3",
+     "subject": "郵政法規",
+     "point": "簡易壽險契約生效日"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8116-970c-f7ca309ff28f",
+     "subject": "英文",
+     "point": "模考0807-29 疑問詞＋不定詞"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81dd-ba62-de7be7335392",
+     "subject": "英文",
+     "point": "模考0807-28 had better＋原形"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-811a-be65-f2f32209b714",
+     "subject": "民法",
+     "point": "工作物所有人責任"
+    },
+    {
+     "id": "rc-3b52ace3-4688-817e-a249-ed514f2b8d4d",
+     "subject": "英文",
+     "point": "模考0807-27 so...that 結果子句"
+    },
+    {
+     "id": "rc-39e2ace3-4688-81a6-9e4d-e9c7103793a6",
+     "subject": "郵政法規",
+     "point": "匯兌業務依據"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8149-ba33-f79ed9bd3627",
+     "subject": "英文",
+     "point": "模考0807-26 現在分詞與過去分詞之別"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8194-9438-f7842e088e78",
+     "subject": "英文",
+     "point": "模考0807-25 關係代名詞 whose"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81f0-ba47-e36fda0eae8c",
+     "subject": "英文",
+     "point": "模考0807-23 not only...but also 倒裝"
+    },
+    {
+     "id": "rc-39d2ace3-4688-8101-8d6b-d53dc273d215",
+     "subject": "郵政法規",
+     "point": "郵件之遞送：僅設受信設備時，掛號及欠資郵件仍應按址投遞洽收件人"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8170-ac9b-cfb854b16215",
+     "subject": "英文",
+     "point": "模考0807-22 too...to 結構"
+    },
+    {
+     "id": "rc-3b52ace3-4688-818d-a693-e78bb8f4462c",
+     "subject": "英文",
+     "point": "模考0807-21 used to V vs be used to V-ing"
+    },
+    {
+     "id": "rc-39d2ace3-4688-81b9-a57e-c8ff2d0bae08",
+     "subject": "郵政法規",
+     "point": "補償金支付期限：至遲自查詢之次日起三個月內為之"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8121-b1a0-c4104bc4aaf4",
+     "subject": "英文",
+     "point": "模考0807-20 條件句主要子句時態"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8112-9f96-c3172a73a7d6",
+     "subject": "國文",
+     "point": "古文詞義：空乏其身之「空乏」"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81ce-a77b-cabf827cfcfd",
+     "subject": "英文",
+     "point": "模考0807-18 stop＋V-ing vs stop to V"
+    },
+    {
+     "id": "rc-3b82ace3-4688-81ed-a5c5-e12603b90c80",
+     "subject": "民法",
+     "point": "區分所有建築物"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8195-9c82-c2779a0d6609",
+     "subject": "英文",
+     "point": "模考0807-5 departure"
+    },
+    {
+     "id": "rc-38d2ace3-4688-8104-9aa7-c639bb5a2ac0",
+     "subject": "郵政法規",
+     "point": "郵政法第36條不同項之偽造、變造與行使罰則差異"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8172-9452-ffa997f7fea9",
+     "subject": "英文",
+     "point": "模考0731-40 stop + Ving"
+    },
+    {
+     "id": "rc-39d2ace3-4688-8044-a022-df80eebad1f9",
+     "subject": "民法",
+     "point": "8"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8107-be2e-f291a063a6d4",
+     "subject": "英文",
+     "point": "模考0731-37 share sth. with sb."
+    },
+    {
+     "id": "rc-3862ace3-4688-819e-8fee-f8b855904997",
+     "subject": "郵政法規",
+     "point": "郵政法小包與普及服務國內包裹之重量限制比較。"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-817f-bd75-c3db4c78ed98",
+     "subject": "英文",
+     "point": "模考0731-36 become happy"
+    }
+   ]
+  },
+  "exams": [],
+  "vocab": {
+   "done": 0,
+   "right": 0
+  },
+  "vocabStages": {
+   "0": 19,
+   "1": 89,
+   "2": 93,
+   "3": 37
+  }
  }
 }
