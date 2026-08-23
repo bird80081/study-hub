@@ -1,0 +1,29 @@
+{
+  "title": "英文迷你卷：到期錯題改寫（8/24）",
+  "subject": "英文",
+  "minutes": 25,
+  "sections": [{"name": "選擇", "count": 21, "points": 2}],
+  "questions": [
+    {"section":"選擇","points":2,"point":"wait與weigh","stem":"The clerk will ______ the parcel before calculating the postage.","options":["wait","wave","warn","weigh"],"answer":"D","explain":"weigh 表示秤重；wait 表示等待。包裹在計算郵資前應先秤重。"},
+    {"section":"選擇","points":2,"point":"recall與remind","stem":"Please ______ me to bring the proof of payment tomorrow.","options":["recall","repeat","remind","return"],"answer":"C","explain":"remind someone to do something 表示提醒某人做某事；recall 是回想。"},
+    {"section":"選擇","points":2,"point":"available用法","stem":"The new tracking service is now ______ to customers nationwide.","options":["available","reachable","similar","familiar"],"answer":"A","explain":"be available to 表示可供某人使用；reachable 著重能夠到達或聯絡。"},
+    {"section":"選擇","points":2,"point":"similar與familiar","stem":"This procedure is ______ to the one we followed last year.","options":["similar","familiar","available","careful"],"answer":"A","explain":"be similar to 表示與……相似；familiar 通常用 be familiar with。"},
+    {"section":"選擇","points":2,"point":"publication詞性","stem":"The ______ of the annual report was delayed for two weeks.","options":["publish","publisher","publication","published"],"answer":"C","explain":"定冠詞 The 後需要名詞；publication 表示出版或出版物。publisher 是出版者。"},
+    {"section":"選擇","points":2,"point":"careful語意","stem":"Be ______ when entering the account number, because one wrong digit may delay the transfer.","options":["careless","carefully","care","careful"],"answer":"D","explain":"be 後接形容詞，且語意為輸入帳號時應小心，故用 careful。"},
+    {"section":"選擇","points":2,"point":"compensation辨析","stem":"Customers may apply for ______ when an insured parcel is lost.","options":["competition","composition","comprehension","compensation"],"answer":"D","explain":"compensation 表示補償；competition 是競爭，composition 是作文或組成，comprehension 是理解。"},
+    {"section":"選擇","points":2,"point":"subscription辨析","stem":"Your magazine ______ will expire at the end of this month.","options":["submission","subsidy","subscription","substitution"],"answer":"C","explain":"subscription 表示訂閱；submission 是提交，subsidy 是補助。"},
+    {"section":"選擇","points":2,"point":"proof of payment","stem":"Applicants must attach ______ before requesting a refund.","options":["a proof of pay","proof of payment","a payment proofing","proof to payment"],"answer":"B","explain":"proof of payment 是付款證明的固定用語；proof 作證明之意時常作不可數名詞。"},
+    {"section":"選擇","points":2,"point":"assure受詞","stem":"The manager ______ the customer that the parcel would be traced immediately.","options":["assured","ensured","insured","secured"],"answer":"A","explain":"assure someone that... 表示向某人保證；ensure 後通常直接接受確保之事。"},
+    {"section":"選擇","points":2,"point":"被動不定詞","stem":"All registered items must ______ before they leave the office.","options":["scan","be scanning","have scan","be scanned"],"answer":"D","explain":"郵件是被掃描，must 後用被動不定詞 be scanned。"},
+    {"section":"選擇","points":2,"point":"被動分詞構句","stem":"______ by heavy rain, several deliveries arrived late.","options":["Delayed","Delaying","To delay","Having delay"],"answer":"A","explain":"deliveries 與 delay 為被動關係，分詞構句用過去分詞 Delayed。"},
+    {"section":"選擇","points":2,"point":"wish過去式","stem":"I wish the post office ______ open later on weekdays.","options":["stays","will stay","has stayed","stayed"],"answer":"D","explain":"wish 表示與現在事實相反的願望時，後接過去式。"},
+    {"section":"選擇","points":2,"point":"even if讓步","stem":"The clerk must verify the identity ______ the customer is in a hurry.","options":["as long as","because","so that","even if"],"answer":"D","explain":"語意是即使顧客趕時間仍須核對身分，需用讓步連接詞 even if。"},
+    {"section":"選擇","points":2,"point":"關係詞where","stem":"The village ______ the mobile post office stops has no bank branch.","options":["which","where","what","whose"],"answer":"B","explain":"先行詞是地點，關係詞在子句中作地點副詞，故用 where。"},
+    {"section":"選擇","points":2,"point":"關係詞which","stem":"The service ______ was introduced last month has reduced waiting time.","options":["where","when","which","what"],"answer":"C","explain":"先行詞 service 是物，關係詞在子句中作主詞，故用 which。"},
+    {"section":"選擇","points":2,"point":"轉折連接詞","stem":"The parcel was correctly addressed; ______, it was sent to the wrong office.","options":["therefore","however","because","for example"],"answer":"B","explain":"前後語意相反，應用 however 表示轉折；therefore 表示結果。"},
+    {"section":"選擇","points":2,"point":"因果連接詞","stem":"The road was closed, ______ the delivery vehicle had to take another route.","options":["but","so","although","unless"],"answer":"B","explain":"道路封閉造成車輛改道，後句是結果，故用 so。"},
+    {"section":"選擇","points":2,"point":"whether用法","stem":"The clerk checked ______ the address had been written correctly.","options":["whether","despite","during","unless"],"answer":"A","explain":"check whether... 表示確認是否……，whether 引導名詞子句。"},
+    {"section":"選擇","points":2,"point":"閱讀細節定位","stem":"A notice states: 'The counter closes at 5 p.m., but parcels placed in the lobby box before 6 p.m. will still be collected today.' Which statement is correct?","options":["The counter closes at 6 p.m.","No parcel is collected after 5 p.m.","A parcel posted in the lobby box at 5:30 p.m. is collected today.","The lobby box is available only before 5 p.m."],"answer":"C","explain":"公告明示大廳郵筒在下午六時前投入仍會當日收取；櫃檯關閉時間仍是下午五時。"},
+    {"section":"選擇","points":2,"point":"閱讀主旨判斷","stem":"A short report explains that rural post offices remain open despite low profits because residents rely on them for cash withdrawals, bill payments, and savings. What is the main idea?","options":["Rural branches earn the highest profits.","Postal services support financial access in rural areas.","Residents prefer paying every bill in cash.","Commercial banks are required to serve every village."],"answer":"B","explain":"全文重點是鄉村郵局提供基本金融服務、維持金融可近性；低獲利只是背景。"}
+  ]
+}
