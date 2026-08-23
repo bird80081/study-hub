@@ -1,6 +1,6 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-23T23:05:16",
+ "generatedAt": "2026-08-23T23:13:02",
  "dueDate": "2026-08-24",
  "questions": [
   {
@@ -58,6 +58,424 @@
    "pageId": "3ae2ace3-4688-8159-84a2-fa8859e2fe35",
    "kind": "英文",
    "number": "模考0731-45 will（未來單純式）",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-817d-9707-ddf291724504",
+   "point": "模考0823-49",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 49 題：Why does the author mention a component that costs two dollars?",
+   "options": [
+    "To show that spare parts have become cheaper over time",
+    "To explain why manufacturers oppose the new rules",
+    "To give an example of how repair is made uneconomic",
+    "To compare the price of old and new appliances"
+   ],
+   "answer": "C",
+   "explain": "第二段列舉三種做法（黏合、診斷碼不公開、便宜零件只以昂貴模組出售），「兩美元的零件只能以八十美元的模組買到」正是其中一例，用來說明**修理如何被弄得不划算**。B 與原文相反；C 是末段廠商的反應，與此例無關；D 全文未比較新舊家電價格。⚠ 真卷 112 第 48 題即為同一問法（Why does the article mention the buildings in England and in California?）。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-817d-9707-ddf291724504",
+   "kind": "英文",
+   "number": "模考0823-49",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81c0-bcc6-ca836061cd35",
+   "point": "模考0823-47",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 47 題：Which of the following is mentioned as making repair harder?",
+   "options": [
+    "Producing appliances in a smaller number of factories",
+    "Shortening the warranty period to one year",
+    "Refusing to sell appliances to repair shops",
+    "Selling a cheap component only inside an expensive module"
+   ],
+   "answer": "D",
+   "explain": "第二段列三種做法：零件用**黏合**而非螺絲、診斷碼**不公開**、**兩美元的零件只以八十美元的模組出售**。B、C、D 文中均未提及。判斷動作：細節題直接回段落逐項核對，不要憑印象。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-81c0-bcc6-ca836061cd35",
+   "kind": "英文",
+   "number": "模考0823-47",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-817c-a963-ef7e856699af",
+   "point": "模考0823-45",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nIn 1945, an American engineer named Percy Spencer was standing beside a machine that produced radar waves. He noticed that a chocolate bar in his pocket had melted. It was a warm room, and most people would have thought no more about it, but Spencer had spent years working with such machines and was curious.\n\nHe tried again the next day, this time with a bag of corn kernels. They popped. He then placed an egg near the machine, and it burst. Within a year his company had built a cooking box that used the same waves. It stood almost six feet tall, weighed as much as a small car, and cost more than most families earned in a year. Only restaurants and ships bought it.\n\nThe machine that sits in kitchens today took another twenty years to arrive. What changed was not the science, which was understood from the start, but the price of the parts. By 1975, more American homes had a microwave oven than a dishwasher. Spencer himself received two dollars for the patent, the standard payment his company made to any employee who invented something.\n\n第 45 題：What is the main idea of the passage?",
+   "options": [
+    "Radar technology was originally developed for cooking food.",
+    "Companies should pay inventors more than they currently do.",
+    "An accidental discovery became a household object only when its parts grew cheap.",
+    "Restaurants and ships were the first to adopt new technology."
+   ],
+   "answer": "C",
+   "explain": "三段各一階段：意外發現（第一段）→ 早期機器昂貴笨重、僅少數場所使用（第二段）→ 零件降價後才進入家庭（第三段）。A 完整涵蓋。B 因果顛倒；C 是可延伸的主張但非全文論點；D 只對到第二段的一個細節。⚠ **主旨題要涵蓋全文所有段落**。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-817c-a963-ef7e856699af",
+   "kind": "英文",
+   "number": "模考0823-45",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8135-858e-c90a8208b8bd",
+   "point": "模考0823-43",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nIn 1945, an American engineer named Percy Spencer was standing beside a machine that produced radar waves. He noticed that a chocolate bar in his pocket had melted. It was a warm room, and most people would have thought no more about it, but Spencer had spent years working with such machines and was curious.\n\nHe tried again the next day, this time with a bag of corn kernels. They popped. He then placed an egg near the machine, and it burst. Within a year his company had built a cooking box that used the same waves. It stood almost six feet tall, weighed as much as a small car, and cost more than most families earned in a year. Only restaurants and ships bought it.\n\nThe machine that sits in kitchens today took another twenty years to arrive. What changed was not the science, which was understood from the start, but the price of the parts. By 1975, more American homes had a microwave oven than a dishwasher. Spencer himself received two dollars for the patent, the standard payment his company made to any employee who invented something.\n\n第 43 題：Why did the kitchen microwave take another twenty years to appear?",
+   "options": [
+    "The science was not yet understood.",
+    "Restaurants opposed its sale to homes.",
+    "Spencer refused to sell the patent.",
+    "The parts remained too expensive."
+   ],
+   "answer": "D",
+   "explain": "第三段：What changed was **not the science, which was understood from the start, but the price of the parts**。B 正是作者明白否定的說法；C、D 文中無依據。⚠ **文章出現「不是 X，而是 Y」時，X 必是誘答**。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8135-858e-c90a8208b8bd",
+   "kind": "英文",
+   "number": "模考0823-43",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8131-878f-e24e18583c3d",
+   "point": "模考0823-40",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 40 格：",
+   "options": [
+    "Because",
+    "Since",
+    "Unless",
+    "Although"
+   ],
+   "answer": "D",
+   "explain": "前半「書架比從前短了」與後半「來館人數卻是二十年來最多」語意**相反**，故用讓步連接詞 Although。Because 與 Since 表原因、Unless 表除非，方向皆不合。⚠ 與第 33 格對照：連接詞的方向判斷是反覆出現的考點，**先讀懂前後兩句的關係再選字**。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8131-878f-e24e18583c3d",
+   "kind": "英文",
+   "number": "模考0823-40",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8148-aa3c-f02639c2f065",
+   "point": "模考0823-36",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 36 格：",
+   "options": [
+    "where",
+    "whose",
+    "what",
+    "which"
+   ],
+   "answer": "D",
+   "explain": "先行詞 a wireless network 是**物**，且後面子句 __ is free to everyone **缺主詞**，故用主格關係代名詞 which。where 為關係副詞（子句須完整）、whose 表所有格、what 不能有先行詞。判斷動作：**先看子句缺不缺主詞或受詞**——缺就用關係代名詞。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8148-aa3c-f02639c2f065",
+   "kind": "英文",
+   "number": "模考0823-36",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-818b-b649-fcd9b7201d43",
+   "point": "模考0823-35",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 35 格：",
+   "options": [
+    "although",
+    "because",
+    "unless",
+    "whether"
+   ],
+   "answer": "B",
+   "explain": "「別無更好的選擇」與「那個海拔幾乎種不了別的作物」是**因果**關係，用 because。although 表讓步、unless 表除非、whether 表是否。⚠ 本題與第 34 格同樣測因果，但四個選項中只有 because 成立。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-818b-b649-fcd9b7201d43",
+   "kind": "英文",
+   "number": "模考0823-35",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8108-b649-c8d102f7465c",
+   "point": "模考0823-34",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 34 格：",
+   "options": [
+    "so",
+    "but",
+    "as",
+    "or"
+   ],
+   "answer": "C",
+   "explain": "空格前為「許多人被精品豆的高價吸引」，空格後為「這些豆子可賣到普通咖啡的數倍價錢」——後者是前者的**原因**，用 as（因為）。so 表結果（方向相反）、but 表轉折、or 表選擇。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8108-b649-c8d102f7465c",
+   "kind": "英文",
+   "number": "模考0823-34",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81ea-9d5d-d6eb45ae22d8",
+   "point": "模考0823-33",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 33 格：",
+   "options": [
+    "Still",
+    "Therefore",
+    "Similarly",
+    "Otherwise"
+   ],
+   "answer": "A",
+   "explain": "前句說「行情起伏大、一季歉收就能毀掉小農場」、後句說「種植戶仍持續增加」，前後**語意相反**，故用轉折語 Still（儘管如此）。Therefore 表結果、Similarly 表類比、Otherwise 表否則，方向皆不合。判斷動作：先讀前後兩句是順接還是逆接。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-81ea-9d5d-d6eb45ae22d8",
+   "kind": "英文",
+   "number": "模考0823-33",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8155-8d98-c69bdda3b1dc",
+   "point": "模考0823-32",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 32 格：",
+   "options": [
+    "which",
+    "that",
+    "what",
+    "where"
+   ],
+   "answer": "D",
+   "explain": "先行詞 a narrow band 為**地點**，且後面子句 the climate stays warm 結構完整，故用關係副詞 where。which/that 為關係代名詞，會使子句缺主詞或受詞；what 不能有先行詞。判斷動作：先看子句缺不缺成分——不缺就用關係副詞。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8155-8d98-c69bdda3b1dc",
+   "kind": "英文",
+   "number": "模考0823-32",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81b0-8424-c24fff2444ae",
+   "point": "模考0823-30",
+   "stem": "The two researchers have worked together for years and ______ very well.",
+   "options": [
+    "get over",
+    "get up",
+    "get on",
+    "get through"
+   ],
+   "answer": "C",
+   "explain": "get on (well) with sb 為「相處融洽」。get over 克服、get up 起床、get through 通過或接通電話。⚠ 真卷 112 第 30 題同型。片語動詞要整組記，不能只看主動詞。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-81b0-8424-c24fff2444ae",
+   "kind": "英文",
+   "number": "模考0823-30",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8147-a77a-cabcea552854",
+   "point": "模考0823-26",
+   "stem": "When ______ about the mistake, the waiter apologized at once and offered a refund.",
+   "options": [
+    "asking",
+    "to ask",
+    "asked",
+    "ask"
+   ],
+   "answer": "C",
+   "explain": "副詞子句與主句主詞相同（the clerk）時，可省略主詞與 be 動詞；店員是**被**詢問，故用過去分詞 asked（＝When he was asked）。asking 為主動、to ask 表目的、ask 為原形。⚠ 真卷 112 第 24 題同型（When told about the bad news...）。與第 21 題同一個判斷動作：主動還是被動。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8147-a77a-cabcea552854",
+   "kind": "英文",
+   "number": "模考0823-26",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8124-b8b8-e2cc526a8016",
+   "point": "模考0823-25",
+   "stem": "This photograph has no date on the back. I wish there ______ some way to find out when it was taken.",
+   "options": [
+    "were",
+    "is",
+    "will be",
+    "would have been"
+   ],
+   "answer": "A",
+   "explain": "wish 之後表**與現在事實相反**的願望，動詞用過去式；be 動詞在正式用法一律用 **were**（不分人稱）。is 是直述現在、will be 是單純未來、would have been 屬與**過去**事實相反。⚠ 真卷 112 第 19 題同型（I wish I could remember his name）。你 8/21 在此結構失分，本題改以 there be 句型與 were 測同一判準。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8124-b8b8-e2cc526a8016",
+   "kind": "英文",
+   "number": "模考0823-25",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81d1-a981-cd145fd61897",
+   "point": "模考0823-20",
+   "stem": "______ in line for an hour is not my idea of a good morning.",
+   "options": [
+    "Wait",
+    "To waiting",
+    "Waited",
+    "Waiting"
+   ],
+   "answer": "D",
+   "explain": "句首缺主詞，動詞轉為名詞用法有兩種：動名詞（V-ing）或不定詞（to V）。此處 Waiting 為動名詞當主詞。Wait 是原形動詞不能當主詞、To waiting 文法不成立（to 之後不接 V-ing 作此用）、Waited 是過去式或過去分詞。⚠ 真卷 112 第 23 題同型。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-81d1-a981-cd145fd61897",
+   "kind": "英文",
+   "number": "模考0823-20",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-818f-b6c1-d8307adca713",
+   "point": "模考0823-19",
+   "stem": "This box is quite heavy. Would you mind ______ me carry it upstairs?",
+   "options": [
+    "to help",
+    "helping",
+    "help",
+    "helped"
+   ],
+   "answer": "B",
+   "explain": "mind 之後接**動名詞**（V-ing），Would you mind V-ing? 為固定請求句型。⚠ 同類必接 V-ing 的動詞：enjoy、finish、avoid、practice、suggest、consider。真卷 112 第 22 題同型（Do you mind opening it?）。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-818f-b6c1-d8307adca713",
+   "kind": "英文",
+   "number": "模考0823-19",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8197-9c72-e19c2f91d5a4",
+   "point": "模考0823-16",
+   "stem": "A number of residents ______ asked for an extra rubbish collection in summer.",
+   "options": [
+    "has",
+    "having",
+    "is",
+    "have"
+   ],
+   "answer": "D",
+   "explain": "**a number of** + 複數名詞＝「許多……」，中心語是後面的複數名詞 residents，故動詞用複數 have。⚠ 對照 **the number of** + 複數名詞＝「……的數目」，中心語是 the number（單數），動詞用 has。判斷動作：**看冠詞是 a 還是 the**——a number of 看後面的名詞，the number of 看 number 本身。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8197-9c72-e19c2f91d5a4",
+   "kind": "英文",
+   "number": "模考0823-16",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8145-9b70-cc0c4f15c438",
+   "point": "模考0823-13",
+   "stem": "The magazine has been in ______ for over fifty years and still sells well.",
+   "options": [
+    "publicity",
+    "public",
+    "publisher",
+    "publication"
+   ],
+   "answer": "D",
+   "explain": "in publication 指「持續發行、出版中」，publication 為表示「發行」這個動作或事件的名詞。**publicity 是「宣傳、知名度」**、public 是形容詞或指大眾、publisher 是出版者（人）。⚠ 這組你錯過兩次，判斷動作：先問空格要的是**動作／事件**（publication）還是**宣傳**（publicity）。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8145-9b70-cc0c4f15c438",
+   "kind": "英文",
+   "number": "模考0823-13",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8153-816c-fce64abc6832",
+   "point": "模考0823-12",
+   "stem": "After working here for ten years, she is quite ______ with every street in this district.",
+   "options": [
+    "familiar",
+    "similar",
+    "famous",
+    "formal"
+   ],
+   "answer": "A",
+   "explain": "be familiar with 為「熟悉某事物」之固定搭配。similar 相似的（be similar to）、famous 有名的（be famous for）、formal 正式的。⚠ 三個誘答字形都接近，**分辨關鍵在後面接的介系詞**：familiar **with**、similar **to**、famous **for**。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8153-816c-fce64abc6832",
+   "kind": "英文",
+   "number": "模考0823-12",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81c1-8b0c-e1c7acff90c9",
+   "point": "模考0823-8",
+   "stem": "It was ______ of him to copy the phone number without checking a single digit.",
+   "options": [
+    "careful",
+    "careless",
+    "carefree",
+    "caring"
+   ],
+   "answer": "B",
+   "explain": "careless 為「粗心的」，與「沒查郵遞區號就寫地址」相符。careful 小心的（語意相反）、carefree 無憂無慮的、caring 關懷體貼的。⚠ 字尾 -less 表「缺少」、-ful 表「充滿」，是判斷方向的第一步。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-81c1-8b0c-e1c7acff90c9",
+   "kind": "英文",
+   "number": "模考0823-8",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81d3-bed0-e7878ce01b54",
+   "point": "模考0823-3",
+   "stem": "The swimming pool is not ______ on Sundays, so you will have to go on Monday.",
+   "options": [
+    "capable",
+    "possible",
+    "reachable",
+    "available"
+   ],
+   "answer": "D",
+   "explain": "available 指「可獲得的、可利用的」，服務、商品、時段皆可用。capable 用於人「有能力的」（be capable of）、possible 修飾事情本身而非服務、reachable 指聯絡得上。此句主詞是 service，最自然者為 available。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-81d3-bed0-e7878ce01b54",
+   "kind": "英文",
+   "number": "模考0823-3",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8119-be1f-d66e7f3e7bb3",
+   "point": "模考0823-2",
+   "stem": "Please ______ me to water the plants before we leave; I always forget.",
+   "options": [
+    "remember",
+    "remind",
+    "memorize",
+    "recall"
+   ],
+   "answer": "B",
+   "explain": "remind 為「提醒（某人）」，句型 remind sb to V。remember 是自己記得、memorize 是背誦記住、recall 是回想起來——三者主體都是自己，無法「提醒別人」。判斷動作：看到 ____ me to V，主體是別人在提醒我，用 remind。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8119-be1f-d66e7f3e7bb3",
+   "kind": "英文",
+   "number": "模考0823-2",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8107-9f1f-c52a4be9d5c5",
+   "point": "模考0823-1",
+   "stem": "Before posting the recipe online, she asked me to ______ the flour on the kitchen scale.",
+   "options": [
+    "wait",
+    "wave",
+    "weigh",
+    "wear"
+   ],
+   "answer": "C",
+   "explain": "weigh 為動詞「秤重」，與 scale（磅秤）搭配。wait 等待、wave 揮手、wear 穿戴，皆與量重無關。⚠ weigh（動詞）與 weight（名詞）常混——句中 me to ____ it 需要動詞，故用 weigh。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c52ace3-4688-8107-9f1f-c52a4be9d5c5",
+   "kind": "英文",
+   "number": "模考0823-1",
    "retest": "原題重測"
   },
   {
