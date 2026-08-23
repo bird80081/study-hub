@@ -741,13 +741,12 @@ function saveSession() {
 }
 // 卷內容被換掉時（出題端重出整卷）必須清掉舊作答再開，否則 openExam 會直接
 // 續作舊 session——答案陣列長度相同不會報錯，但每個答案對應的已是另一題。
+// 清除邏輯與 retakeExam 相同，差別只在這裡會問一次：試卷列表上的卷可能還在
+// 進行中，誤觸就毀掉整份作答；成績畫面的「再練一次」則是已完卷後的刻意行為。
 function restartExam(id) {
   if (!confirm("重新作答會清除這份卷已作答的內容與成績，確定？")) return;
-  const all = loadSessions();
-  delete all[id];
-  localStorage.setItem(LS_SESS, JSON.stringify(all));
   toast("已清除舊作答");
-  openExam(id);
+  retakeExam(id);
 }
 async function showExamTab() {
   const res = await fetch("exams/index.json", { cache: "no-store" });
@@ -1046,8 +1045,20 @@ function showPauseScreen() {
       </div>
     </div>`;
 }
+// 用時計算的唯一出口。pausedTotal 一旦被寫壞（見 resumeExam 的註解），扣掉它會
+// 得到負值或天文數字，而這個值會一路進匯出、成績檔與速度趨勢。算出界外值時退回
+// 不扣暫停的毛時間——寧可高估幾分鐘，也不要讓垃圾數字混進趨勢。
+function usedMinutesOf(s) {
+  const gross = Math.round((s.submitted - s.started) / 60000);
+  const net = Math.round((s.submitted - s.started - (s.pausedTotal || 0)) / 60000);
+  return (net < 0 || net > 24 * 60) ? gross : net;
+}
 function resumeExam() {
-  sess.pausedTotal += Date.now() - sess.pausedAt;
+  // 2026-08-23 修：原本無條件累加。pausedAt 為 null 時 `Date.now() - null`
+  // 等於 Date.now()（null 在算術運算中轉成 0），pausedTotal 會被灌進一個完整
+  // 的 epoch 時間戳，usedMinutes 隨即變成 -2979 萬分鐘。頁面重載後狀態不一致
+  // 而按到「繼續作答」即會踩到，民法仿真卷 D 當日實際發生。
+  if (sess.pausedAt) sess.pausedTotal += Date.now() - sess.pausedAt;
   sess.pausedAt = null;
   saveSession();
   showQuestion();
@@ -1102,7 +1113,7 @@ function grade() {
   if (sess.pausedAt) { sess.pausedTotal += Date.now() - sess.pausedAt; sess.pausedAt = null; }
   sess.finished = true;
   sess.submitted = Date.now();
-  sess.usedMinutes = Math.round((sess.submitted - sess.started - sess.pausedTotal) / 60000);
+  sess.usedMinutes = usedMinutesOf(sess);
   let got = 0, mcTotal = 0, mcRight = 0, essayFull = 0;
   exam.questions.forEach((q, i) => {
     if (q.essay) { essayFull += q.points; return; }
