@@ -5401,9 +5401,372 @@
  "2026-08-23": {
   "date": "2026-08-23",
   "drill": {
-   "count": 0,
-   "wrong": [],
-   "right": []
+   "count": 48,
+   "wrong": [
+    {
+     "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
+     "subject": "英文",
+     "point": "模考0807-38 主詞動詞一致與時態",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-23",
+     "options": [
+      "occurs",
+      "occur",
+      "occurring",
+      "has occurred"
+     ],
+     "userText": "occurs"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81a6-aa09-d08a258d2f33",
+     "subject": "英文",
+     "point": "模考0814-50",
+     "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 50 題：What is the author's attitude toward drone delivery?",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-23",
+     "options": [
+      "Cautiously positive: useful on certain routes but not a general solution",
+      "Strongly opposed: the risks outweigh any benefit",
+      "Highly enthusiastic: drones will soon replace traditional delivery",
+      "Completely neutral: the author gives no evaluation"
+     ],
+     "userText": "Highly enthusiastic: drones will soon replace traditional delivery"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8178-8be4-eb841c2bc1dd",
+     "subject": "英文",
+     "point": "模考0814-10",
+     "stem": "The claim must be filed before the six-month period _____.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-23",
+     "options": [
+      "exposes",
+      "expires",
+      "explores",
+      "expands"
+     ],
+     "userText": "exposes"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8122-bf3c-febba49765df",
+     "subject": "英文",
+     "point": "模考0821-30",
+     "stem": "The customer rushed to the post office, only ______ that it had already closed.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-23",
+     "options": [
+      "to find",
+      "find",
+      "found",
+      "finding"
+     ],
+     "userText": "finding"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8157-8421-facf2f7e97f5",
+     "subject": "英文",
+     "point": "模考0821-19",
+     "stem": "This parcel has no return address at all. I wish I ______ who sent it.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-23",
+     "options": [
+      "have known",
+      "would have known",
+      "will know",
+      "knew"
+     ],
+     "userText": "will know"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81e2-8366-fedf0780b446",
+     "subject": "英文",
+     "point": "模考0814-2",
+     "stem": "Customers who use registered mail are _____ to compensation if the item is lost.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-23",
+     "options": [
+      "entitled",
+      "entrusted",
+      "entertained",
+      "entered"
+     ],
+     "userText": "entrusted"
+    },
+    {
+     "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
+     "subject": "英文",
+     "point": "模考0807-19 be sold as",
+     "stem": "These second-hand boxes are _____ packing material at a very low price.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-23",
+     "options": [
+      "sold for",
+      "sold as",
+      "sold to",
+      "selling as"
+     ],
+     "userText": "sold to"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
+     "subject": "英文",
+     "point": "模考0731-45 will（未來單純式）",
+     "stem": "第 45 格：請依段落前後文意，選出最適當的答案。",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-23",
+     "options": [
+      "X",
+      "will be going to",
+      "would",
+      "will"
+     ],
+     "userText": "would"
+    },
+    {
+     "id": "rc-3c42ace3-4688-811c-a72e-ca8080c5b99c",
+     "subject": "國文",
+     "point": "古文詞義：其恕乎之「恕」",
+     "stem": "《論語．衛靈公》：「子貢問曰：『有一言而可以終身行之者乎？』子曰：『其恕乎！己所不欲，勿施於人。』」句中「恕」字意謂下列何者？",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-23",
+     "options": [
+      "寬赦他人之過錯",
+      "推己及人，將心比心",
+      "饒恕罪責，不加追究",
+      "忠厚老實，不計得失"
+     ],
+     "userText": "饒恕罪責，不加追究"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8103-a08c-e2c07bb74fe1",
+     "subject": "郵政法規",
+     "point": "查詢期限與補償金支付期限之比較",
+     "stem": "依郵件處理規則規定，郵件查詢期限與補償金支付期限之起算及長度，下列何者正確？（比較題）",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-23",
+     "options": [
+      "查詢自交寄之日起六個月；補償金自提供憑據之日起三個月內支付",
+      "二者均自交寄次日起六個月",
+      "查詢自交寄次日起六個月；補償金自查詢次日起三個月內支付",
+      "查詢自交寄次日起三個月；補償金自查詢次日起六個月內支付"
+     ],
+     "userText": "查詢自交寄之日起六個月；補償金自提供憑據之日起三個月內支付"
+    },
+    {
+     "id": "rc-34b2ace3-4688-8072-b476-f97046f0cf84",
+     "subject": "郵政法規",
+     "point": "43",
+     "stem": "依郵務營業規章規定，寄往國外之欠資函件，若無法退還寄件人，且非信函及明信片時，應如何處理？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-23",
+     "options": [
+      "作欠資函件寄發",
+      "退回原寄國郵政",
+      "不予寄遞，於招領揭示期滿後，依無著郵件規定處理",
+      "逕予銷燬"
+     ],
+     "userText": "作欠資函件寄發"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3c42ace3-4688-81fe-a63d-cad9cba1fc44",
+     "subject": "英文",
+     "point": "模考0821-48"
+    },
+    {
+     "id": "rc-3c42ace3-4688-817c-92d8-f63c5650b200",
+     "subject": "英文",
+     "point": "模考0821-46"
+    },
+    {
+     "id": "rc-3c42ace3-4688-812b-86f9-c4943284fae6",
+     "subject": "英文",
+     "point": "模考0821-45"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81e7-b86c-e68843d87be8",
+     "subject": "英文",
+     "point": "模考0821-39"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81bd-8e53-d3234ae837f2",
+     "subject": "英文",
+     "point": "模考0821-38"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8162-8056-f9efbcf79201",
+     "subject": "英文",
+     "point": "模考0821-27"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81d2-9290-d9ca82155f2f",
+     "subject": "英文",
+     "point": "模考0814-16"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8110-9831-c31d551e0a7f",
+     "subject": "英文",
+     "point": "模考0814-12"
+    },
+    {
+     "id": "rc-3b82ace3-4688-819d-8690-fb9a820eb69f",
+     "subject": "英文",
+     "point": "文法：比較級之修飾語"
+    },
+    {
+     "id": "rc-3b82ace3-4688-8161-a9c3-f311d3a02783",
+     "subject": "英文",
+     "point": "文法：It is＋形容詞＋of sb. to V"
+    },
+    {
+     "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
+     "subject": "英文",
+     "point": "模考0807-33 cause＋受詞＋to V"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
+     "subject": "英文",
+     "point": "模考0807-45 閱讀一：寫作手法"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
+     "subject": "英文",
+     "point": "模考0807-13 estimate"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8192-a04c-f9c398b8d8e0",
+     "subject": "英文",
+     "point": "模考0807-12 priority"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
+     "subject": "英文",
+     "point": "模考0807-9 notify"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81da-91cf-e29e7e23a4fe",
+     "subject": "英文",
+     "point": "模考0807-1 unwillingly"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81e3-9504-e8300fb35aae",
+     "subject": "英文",
+     "point": "模考0731-41 be sold as"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
+     "subject": "英文",
+     "point": "模考0731-30 It depends on the traffic."
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
+     "subject": "英文",
+     "point": "模考0731-19 persuade"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-814b-9e05-cfc34b812340",
+     "subject": "英文",
+     "point": "模考0731-16 departure"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-814e-b7d1-ff293c41917c",
+     "subject": "英文",
+     "point": "模考0731-11 instead"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-815c-953a-ea1f9dc04f22",
+     "subject": "英文",
+     "point": "模考0731-6 population"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-81ad-931c-fe5eddb90735",
+     "subject": "英文",
+     "point": "模考0731-5 unwillingly"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81b4-a79c-ff9b40cb1ff1",
+     "subject": "國文",
+     "point": "公文種類：函之適用"
+    },
+    {
+     "id": "rc-3c42ace3-4688-8118-a794-d7652590bb08",
+     "subject": "國文",
+     "point": "字音辨正：載"
+    },
+    {
+     "id": "rc-3c42ace3-4688-812f-8d26-d1920d26650b",
+     "subject": "國文",
+     "point": "提稱語：適用對象"
+    },
+    {
+     "id": "rc-3bf2ace3-4688-81d3-bec1-c0bbf1d02864",
+     "subject": "國文",
+     "point": "錯別字辨識"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81d8-a973-dddc8cb678d8",
+     "subject": "郵政法規",
+     "point": "續期保險費之催告與寬限期間"
+    },
+    {
+     "id": "rc-3b52ace3-4688-8193-983d-d0ea4c623009",
+     "subject": "郵政法規",
+     "point": "查詢期限之比較"
+    },
+    {
+     "id": "rc-34b2ace3-4688-802e-90d7-d4e39c602b23",
+     "subject": "郵政法規",
+     "point": "48"
+    },
+    {
+     "id": "rc-34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
+     "subject": "郵政法規",
+     "point": "25"
+    },
+    {
+     "id": "rc-34b2ace3-4688-8045-9823-ce3d1f6ae58c",
+     "subject": "郵政法規",
+     "point": "1"
+    },
+    {
+     "id": "rc-3c42ace3-4688-813f-8bf0-df6bf33ea1ef",
+     "subject": "民法",
+     "point": "旅遊契約請求權之時效"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81cc-8b36-eaceec549966",
+     "subject": "民法",
+     "point": "租賃物之保存行為與修繕"
+    },
+    {
+     "id": "rc-3c42ace3-4688-81cb-b585-e581b94b0d40",
+     "subject": "民法",
+     "point": "期間之起算與末日"
+    },
+    {
+     "id": "rc-3b82ace3-4688-8166-937b-da740b2cee95",
+     "subject": "民法",
+     "point": "動產物權讓與之生效"
+    },
+    {
+     "id": "rc-34d2ace3-4688-80d5-b3e2-d92312339772",
+     "subject": "民法",
+     "point": "114員(10)"
+    }
+   ]
   },
   "exams": [
    {
@@ -5413,7 +5776,46 @@
     "mcMax": 40,
     "mcRight": 14,
     "mcTotal": 20,
-    "note": "作文 38/60，全卷 66/100。原題〈平凡裡的不平凡〉撞已練軸線，紙本改寫 100 年真卷題〈事在人為〉。"
+    "note": "作文 38/60，全卷 66/100。原題〈平凡裡的不平凡〉撞已練軸線，紙本改寫 100 年真卷題〈事在人為〉。",
+    "id": "chinese-sim-D",
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "成語運用：曾幾何時",
+      "user": "D",
+      "answer": "C"
+     },
+     {
+      "n": 2,
+      "point": "古文詞義：越國以鄙遠之「鄙」",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 7,
+      "point": "公文用字：期望語之選用",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 10,
+      "point": "錯別字辨識：草菅人命",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 12,
+      "point": "古文詞義：王無罪歲之「罪」",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 15,
+      "point": "古文詞義：君子喻於義之「喻」",
+      "user": "D",
+      "answer": "B"
+     }
+    ]
    },
    {
     "title": "郵政法規仿真卷 D（全科第5場）",
@@ -5422,7 +5824,52 @@
     "mcMax": 100,
     "mcRight": 43,
     "mcTotal": 50,
-    "note": "標記不確定 2 題全錯，命中率累計 6/6。"
+    "note": "標記不確定 2 題全錯，命中率累計 6/6。",
+    "id": "postal-sim-D",
+    "wrongs": [
+     {
+      "n": 7,
+      "point": "主管機關實施檢查與規避之處罰",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 25,
+      "point": "保險人不負給付責任之事由",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 35,
+      "point": "已遞交郵件不得退回之種類",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 39,
+      "point": "包裹內容易於自然變質之處置",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 42,
+      "point": "混合交寄郵件之重量限制",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 44,
+      "point": "國際郵件存局候領之期間",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 49,
+      "point": "改投與改寄之資費負擔",
+      "user": "A",
+      "answer": "B"
+     }
+    ]
    },
    {
     "title": "英文仿真卷 D（全科第5場）",
@@ -5431,7 +5878,142 @@
     "mcMax": 100,
     "mcRight": 28,
     "mcTotal": 50,
-    "note": "四科唯一不及格。克漏字 4/10 為最大洞，6 題錯有 5 題屬關係詞／連接詞邏輯方向。"
+    "note": "四科唯一不及格。克漏字 4/10 為最大洞，6 題錯有 5 題屬關係詞／連接詞邏輯方向。",
+    "id": "english-sim-D",
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "字彙：weigh",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 2,
+      "point": "字彙：remind",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 3,
+      "point": "字彙：available",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 8,
+      "point": "字彙：careless",
+      "user": "A",
+      "answer": "B"
+     },
+     {
+      "n": 12,
+      "point": "字彙：familiar",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 13,
+      "point": "字彙：publication（換方向重測）",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 16,
+      "point": "文法：主詞動詞一致（a number of）",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 19,
+      "point": "文法：mind + V-ing",
+      "user": "A",
+      "answer": "B"
+     },
+     {
+      "n": 20,
+      "point": "文法：動名詞作主詞",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 25,
+      "point": "文法：wish＋過去式（與現在事實相反）",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 26,
+      "point": "文法：when + 過去分詞（省略主詞與 be）",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 30,
+      "point": "文法：片語動詞 get on",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 32,
+      "point": "克漏字一：關係副詞 where",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 33,
+      "point": "克漏字一：轉折連接詞",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 34,
+      "point": "克漏字一：連接詞 as",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 35,
+      "point": "克漏字一：原因連接詞 because",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 36,
+      "point": "克漏字二：關係代名詞主格",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 40,
+      "point": "克漏字二：讓步連接詞 Although",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 43,
+      "point": "閱讀一：細節（家用機器延後之原因）",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 45,
+      "point": "閱讀一：主旨",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 47,
+      "point": "閱讀二：細節（製造方式之例）",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 49,
+      "point": "閱讀二：作者提及某例之用意",
+      "user": "B",
+      "answer": "C"
+     }
+    ]
    },
    {
     "title": "民法仿真卷 D（全科第5場）",
@@ -5440,7 +6022,40 @@
     "mcMax": 50,
     "mcRight": 15,
     "mcTotal": 20,
-    "note": "申論 33/50，全卷 70.5/100。本卷當日因出題口吻不符真卷而全卷重出；用時因 resumeExam 計時 bug 作廢不採計。"
+    "note": "申論 33/50，全卷 70.5/100。本卷當日因出題口吻不符真卷而全卷重出；用時因 resumeExam 計時 bug 作廢不採計。",
+    "id": "minfa-sim-D",
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "要式契約之種類",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 3,
+      "point": "抵押權之標的",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 16,
+      "point": "代位繼承與繼承順序",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 17,
+      "point": "期間之起算與末日",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 18,
+      "point": "旅遊費用返還請求權之時效",
+      "user": "C",
+      "answer": "A"
+     }
+    ]
    }
   ],
   "vocab": {
