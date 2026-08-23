@@ -739,6 +739,16 @@ function saveSession() {
   all[sess.examId] = sess;
   localStorage.setItem(LS_SESS, JSON.stringify(all));
 }
+// 卷內容被換掉時（出題端重出整卷）必須清掉舊作答再開，否則 openExam 會直接
+// 續作舊 session——答案陣列長度相同不會報錯，但每個答案對應的已是另一題。
+function restartExam(id) {
+  if (!confirm("重新作答會清除這份卷已作答的內容與成績，確定？")) return;
+  const all = loadSessions();
+  delete all[id];
+  localStorage.setItem(LS_SESS, JSON.stringify(all));
+  toast("已清除舊作答");
+  openExam(id);
+}
 async function showExamTab() {
   const res = await fetch("exams/index.json", { cache: "no-store" });
   exams = await res.json();
@@ -750,8 +760,9 @@ async function showExamTab() {
     const status = !st ? "" : st.finished
       ? `<span class="tag ok">已完卷 ${st.scoreText || ""}</span>`
       : `<span class="tag pend">進行中</span>`;
+    const redo = st ? `<button class="ghost" style="padding:2px 8px;font-size:0.8em;margin-left:6px" onclick="event.stopPropagation();restartExam('${e.id}')">重考</button>` : "";
     return `<div class="card tappable" onclick="openExam('${e.id}')">
-      <strong>${e.title}</strong> ${status}
+      <strong>${e.title}</strong> ${status}${redo}
       <div class="muted">${e.subject}．限時 ${e.minutes} 分鐘．${e.summary}</div>
     </div>`;
   };
@@ -772,8 +783,9 @@ async function showExamTab() {
         const status = !st ? "" : st.finished
           ? `<span class="tag ok">已完卷 ${st.scoreText || ""}</span>`
           : `<span class="tag pend">進行中</span>`;
+        const redo = st ? `<button class="ghost" style="padding:2px 8px;font-size:0.8em;margin-left:6px" onclick="event.stopPropagation();restartExam('${exam.id}')">重考</button>` : "";
         return `<div class="trend-subj" onclick="openExam('${exam.id}')">
-          <span>${subj}卷 ${status}</span><span class="muted">限時 ${exam.minutes} 分 ›</span>
+          <span>${subj}卷 ${status}${redo}</span><span class="muted">限時 ${exam.minutes} 分 ›</span>
         </div>`;
       }
       return `<div class="trend-subj" style="cursor:default;opacity:0.6">
