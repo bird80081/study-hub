@@ -5405,7 +5405,44 @@
    "wrong": [],
    "right": []
   },
-  "exams": [],
+  "exams": [
+   {
+    "title": "國文仿真卷 D（全科第5場）",
+    "subject": "國文",
+    "mcScore": 28,
+    "mcMax": 40,
+    "mcRight": 14,
+    "mcTotal": 20,
+    "note": "作文 38/60，全卷 66/100。原題〈平凡裡的不平凡〉撞已練軸線，紙本改寫 100 年真卷題〈事在人為〉。"
+   },
+   {
+    "title": "郵政法規仿真卷 D（全科第5場）",
+    "subject": "郵政法規",
+    "mcScore": 86,
+    "mcMax": 100,
+    "mcRight": 43,
+    "mcTotal": 50,
+    "note": "標記不確定 2 題全錯，命中率累計 6/6。"
+   },
+   {
+    "title": "英文仿真卷 D（全科第5場）",
+    "subject": "英文",
+    "mcScore": 56,
+    "mcMax": 100,
+    "mcRight": 28,
+    "mcTotal": 50,
+    "note": "四科唯一不及格。克漏字 4/10 為最大洞，6 題錯有 5 題屬關係詞／連接詞邏輯方向。"
+   },
+   {
+    "title": "民法仿真卷 D（全科第5場）",
+    "subject": "民法",
+    "mcScore": 37.5,
+    "mcMax": 50,
+    "mcRight": 15,
+    "mcTotal": 20,
+    "note": "申論 33/50，全卷 70.5/100。本卷當日因出題口吻不符真卷而全卷重出；用時因 resumeExam 計時 bug 作廢不採計。"
+   }
+  ],
   "vocab": {
    "done": 15,
    "right": 12
