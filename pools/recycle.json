@@ -1,293 +1,8 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-22T23:25:27",
- "dueDate": "2026-08-23",
+ "generatedAt": "2026-08-23T23:05:16",
+ "dueDate": "2026-08-24",
  "questions": [
-  {
-   "id": "rc-3c42ace3-4688-81fe-a63d-cad9cba1fc44",
-   "point": "模考0821-48",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 48 題：Why have post offices remained in rural areas?",
-   "options": [
-    "They were built before the commercial banks arrived.",
-    "They are obliged to serve every address.",
-    "They earn more profit than commercial banks do.",
-    "They receive deposits only from wealthy households."
-   ],
-   "answer": "B",
-   "explain": "第一段末以關係子句說明郵局 are required to serve every address，即負有普及服務義務故留下。獲利較高與第三段所述相反；只收富裕家庭存款、興建時間先後皆非文中內容。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-81fe-a63d-cad9cba1fc44",
-   "kind": "英文",
-   "number": "模考0821-48",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-817c-92d8-f63c5650b200",
-   "point": "模考0821-46",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nIn several countries, the local post office is the only place within walking distance where a resident can withdraw cash, pay a bill, or open a savings account. Commercial banks have closed thousands of rural branches over the past two decades, judging them too costly to run. Post offices, which are required to serve every address, have stayed.\n\nThis has given postal banking an unexpected role. In Japan and France, postal savings systems hold deposits from millions of households that would otherwise have no account at all. The sums involved are small by banking standards, but the social effect is large: a pension can be collected, a fee can be paid, and a small business can keep its cash somewhere safe.\n\nCritics point out that postal banks are rarely profitable and that their survival depends on public funding. Supporters reply that profitability is the wrong measure, because the service exists precisely where profit is impossible. The debate is unlikely to end soon, but one figure is hard to argue with: in districts where the post office has closed, the number of households without any bank account rises within a year.\n\n第 46 題：Which of the following is the best title for the passage?",
-   "options": [
-    "How to Make Postal Savings Systems Profitable",
-    "Why Commercial Banks Are More Efficient Than Post Offices",
-    "The History of Savings Accounts in Japan and France",
-    "The Post Office as the Last Bank in Town"
-   ],
-   "answer": "D",
-   "explain": "全文主軸是商業銀行撤出偏鄉後，郵局成為當地唯一可辦理金融業務的據點。效率比較、如何獲利、儲蓄帳戶史都只是局部或文中未談的內容。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-817c-92d8-f63c5650b200",
-   "kind": "英文",
-   "number": "模考0821-46",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-812b-86f9-c4943284fae6",
-   "point": "模考0821-45",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen postal codes were first introduced, few people believed they would last. Critics said that ordinary citizens would never remember a string of numbers, and that writing them on every envelope was a waste of time. The early campaigns in the 1960s therefore focused less on efficiency than on persuasion: cartoon characters appeared on posters, and short films were shown in cinemas explaining how the numbers worked.\n\nThe reason behind the change was mechanical rather than clerical. Sorting machines of that period could read printed digits far more reliably than handwritten place names, and a single misread name could send a letter to the wrong end of the country. By turning an address into a code, the postal service allowed machines to do in seconds what had taken a trained clerk several minutes.\n\nThe effect on employment was not what critics had predicted. Although fewer workers were needed to sort letters by hand, new posts were created to maintain the machines and to handle items the machines rejected. What disappeared was not the job but a particular skill: the ability to recognize thousands of place names at a glance, once the pride of every experienced sorter.\n\n第 45 題：What does the author suggest about the critics' predictions?",
-   "options": [
-    "They were based on figures collected from experienced sorters.",
-    "They were confirmed by the closure of sorting offices across the country.",
-    "They were correct about employment but wrong about public acceptance.",
-    "They were proved wrong on the loss of jobs, though a valued skill was indeed lost."
-   ],
-   "answer": "D",
-   "explain": "第三段開頭即說「就業影響並非批評者所預測」，隨後說明新職位出現，但辨認地名的技能確實消失，故批評者對失業的預測落空、對失去某種東西則有部分成真。其餘選項與原文相反或文中無據。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-812b-86f9-c4943284fae6",
-   "kind": "英文",
-   "number": "模考0821-45",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-81e7-b86c-e68843d87be8",
-   "point": "模考0821-39",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 39 格：",
-   "options": [
-    "ones",
-    "those",
-    "them",
-    "that"
-   ],
-   "answer": "B",
-   "explain": "空格後有 who 引導的關係子句修飾，指「自備容器的那些人」，故用 those。them 不能被關係子句修飾；ones 須有前文提及的可數名詞可代；that 指單數且通常代物。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-81e7-b86c-e68843d87be8",
-   "kind": "英文",
-   "number": "模考0821-39",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-81bd-8e53-d3234ae837f2",
-   "point": "模考0821-38",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPackaging waste has become a serious problem for postal services around the world. In many countries, reusable boxes __36__ to customers at no extra cost. A customer packs the goods, sends the parcel, and the receiver returns the empty box to any branch. The idea is simple, but it requires people __37__ their habits. Surveys show that customers are willing to join such a scheme __38__ it costs them nothing and takes no extra time. Some offices also offer a small discount to __39__ who bring their own containers. __40__ the results so far are encouraging, the scheme still depends on a steady supply of clean, undamaged boxes.\n\n第 38 格：",
-   "options": [
-    "so that",
-    "as long as",
-    "even if",
-    "in case"
-   ],
-   "answer": "B",
-   "explain": "空格後是顧客願意加入的前提條件（不花錢、不花時間），故用表肯定條件的 as long as。in case 表以防萬一、even if 表讓步、so that 表目的，都與「只要……就願意」的條件關係不符。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-81bd-8e53-d3234ae837f2",
-   "kind": "英文",
-   "number": "模考0821-38",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-8122-bf3c-febba49765df",
-   "point": "模考0821-30",
-   "stem": "The customer rushed to the post office, only ______ that it had already closed.",
-   "options": [
-    "found",
-    "find",
-    "finding",
-    "to find"
-   ],
-   "answer": "D",
-   "explain": "only to V 表示「結果卻……」的意外結果，故用 to find。finding 為分詞、found 為過去式或過去分詞、find 為原形，皆無法構成 only to V 這個固定結構。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-8122-bf3c-febba49765df",
-   "kind": "英文",
-   "number": "模考0821-30",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-8162-8056-f9efbcf79201",
-   "point": "模考0821-27",
-   "stem": "No sooner ______ the counter opened than a long line formed outside.",
-   "options": [
-    "was",
-    "did",
-    "had",
-    "has"
-   ],
-   "answer": "C",
-   "explain": "No sooner 置句首須倒裝，且該句型固定用過去完成式搭配 than 引導的過去式子句，故用 had。did 與 has 時態不合；was 無法與過去分詞 opened 構成此句型的主動語意。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-8162-8056-f9efbcf79201",
-   "kind": "英文",
-   "number": "模考0821-27",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-8157-8421-facf2f7e97f5",
-   "point": "模考0821-19",
-   "stem": "This parcel has no return address at all. I wish I ______ who sent it.",
-   "options": [
-    "will know",
-    "knew",
-    "have known",
-    "would have known"
-   ],
-   "answer": "B",
-   "explain": "wish 之後表與現在事實相反的願望，用過去式（be 動詞用 were）；「不知道是誰寄的」為現在事實，故用 knew。will know 為單純未來、have known 為完成式、would have known 屬與過去事實相反，皆不合。⚠ 真卷 112 第 19 題同型（I wish I could remember his name）。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c42ace3-4688-8157-8421-facf2f7e97f5",
-   "kind": "英文",
-   "number": "模考0821-19",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-81a6-aa09-d08a258d2f33",
-   "point": "模考0814-50",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nFor villages separated from the nearest town by mountains or water, delivering mail has always been slow and expensive. In recent years several postal services have begun testing drones on these routes. A flight that takes twenty minutes can replace a road journey of two hours, and the cost per delivery falls sharply once the route is used regularly.\n\nThe early trials, however, revealed problems that had little to do with the aircraft. Weather was the most obvious one: strong winds ground the fleet for days at a time, and a service that works only in fair weather cannot replace a postman. Regulations were another. In most countries, drones may not be flown beyond the operator's line of sight without special permission, which limits routes to a few kilometres unless the rules are relaxed.\n\nPublic reaction has been mixed. Residents welcomed faster delivery of medicine and documents, but some complained about noise, and others worried that a drone landing in an open field was easier to steal from than a locked postal van. In one trial, the postal service responded by delivering only to fixed landing stations near village centres rather than to individual homes.\n\nMost operators now describe drones as a supplement rather than a replacement. On the routes where they work, they work very well; the difficulty is that such routes are fewer than the early enthusiasm suggested.\n\n第 50 題：What is the author's attitude toward drone delivery?",
-   "options": [
-    "Cautiously positive: useful on certain routes but not a general solution",
-    "Strongly opposed: the risks outweigh any benefit",
-    "Highly enthusiastic: drones will soon replace traditional delivery",
-    "Completely neutral: the author gives no evaluation"
-   ],
-   "answer": "A",
-   "explain": "末段「在可行的路線上表現很好，困難在於這類路線比早期熱情所預期的少」即為謹慎肯定之立場。B 過度負面，C 與 supplement rather than a replacement 相反，D 則忽略末段明確的評價語句。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3bc2ace3-4688-81a6-aa09-d08a258d2f33",
-   "kind": "英文",
-   "number": "模考0814-50",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-81d2-9290-d9ca82155f2f",
-   "point": "模考0814-16",
-   "stem": "Registered mail _____ to be delivered within three working days.",
-   "options": [
-    "is supposed",
-    "supposes",
-    "is supposing",
-    "has supposed"
-   ],
-   "answer": "A",
-   "explain": "be supposed to V 表「應該、按規定要」，形式為被動，主詞為受該規定拘束者。has supposed、supposes 為主動，語意變成「郵件認為」，不合理；is supposing 更無此用法。8/13 此點誤選 has supposed，判斷動作：看到 supposed to 就先確認前面是不是 be 動詞。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3bc2ace3-4688-81d2-9290-d9ca82155f2f",
-   "kind": "英文",
-   "number": "模考0814-16",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-8110-9831-c31d551e0a7f",
-   "point": "模考0814-12",
-   "stem": "The recipient must sign the return receipt to _____ delivery of the parcel.",
-   "options": [
-    "accumulate",
-    "accompany",
-    "acknowledge",
-    "accomplish"
-   ],
-   "answer": "C",
-   "explain": "acknowledge 承認、確認收訖，正是回執（return receipt）之功能。accomplish 完成、accompany 陪伴、accumulate 累積。四字同以 acc- 起首，判斷線索在 sign the receipt 這個動作的目的是「確認收到」。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3bc2ace3-4688-8110-9831-c31d551e0a7f",
-   "kind": "英文",
-   "number": "模考0814-12",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-8178-8be4-eb841c2bc1dd",
-   "point": "模考0814-10",
-   "stem": "The claim must be filed before the six-month period _____.",
-   "options": [
-    "expands",
-    "exposes",
-    "expires",
-    "explores"
-   ],
-   "answer": "C",
-   "explain": "expire 到期、屆滿，主詞多為 period、contract、passport。explore 探索、expand 擴大、expose 暴露。本題語境即補償請求權之六個月期間屆滿，與 file a claim（提出請求）搭配。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3bc2ace3-4688-8178-8be4-eb841c2bc1dd",
-   "kind": "英文",
-   "number": "模考0814-10",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b82ace3-4688-819d-8690-fb9a820eb69f",
-   "point": "文法：比較級之修飾語",
-   "stem": "The new sorting machine is ______ faster than the old one.",
-   "options": [
-    "very",
-    "too",
-    "much",
-    "so"
-   ],
-   "answer": "C",
-   "explain": "",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b82ace3-4688-819d-8690-fb9a820eb69f",
-   "kind": "英文",
-   "number": "文法：比較級之修飾語",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b82ace3-4688-8161-a9c3-f311d3a02783",
-   "point": "文法：It is＋形容詞＋of sb. to V",
-   "stem": "It was very careless ______ him to write the wrong postal code.",
-   "options": [
-    "for",
-    "of",
-    "to",
-    "with"
-   ],
-   "answer": "B",
-   "explain": "",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b82ace3-4688-8161-a9c3-f311d3a02783",
-   "kind": "英文",
-   "number": "文法：It is＋形容詞＋of sb. to V",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-816e-891d-e05bb13e0d81",
-   "point": "模考0807-33 cause＋受詞＋to V",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nSending a parcel overseas is easier than it used to be, but a few steps still deserve attention. First, check whether the item is on the list of prohibited goods. Batteries, perfumes, and certain liquids are __31__ from international mail for safety reasons. Second, pack the item properly. Post offices recommend using a sturdy box and filling the empty space with soft material, __32__ the contents will not move during transport. Third, complete the customs declaration form carefully. An incomplete form may cause the parcel __33__ at customs for weeks. Finally, keep the receipt. It contains the tracking number, __34__ allows you to follow the parcel online. If the parcel is lost, the receipt is also the only document that can prove you sent it. __35__ these steps look troublesome, they save far more time than they cost.\n\n第 33 格：",
-   "options": [
-    "stuck",
-    "to be stuck",
-    "being stuck",
-    "stick"
-   ],
-   "answer": "B",
-   "explain": "cause + 受詞 + to V 為固定句型，且包裹是被卡住，須用被動，故為 to be stuck。stuck 與 stick 缺不定詞結構；being stuck 為動名詞，不符 cause 之句型要求。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-816e-891d-e05bb13e0d81",
-   "kind": "英文",
-   "number": "模考0807-33 cause＋受詞＋to V",
-   "retest": "原題重測"
-  },
   {
    "id": "rc-3bc2ace3-4688-81e2-8366-fedf0780b446",
    "point": "模考0814-2",
@@ -305,44 +20,6 @@
    "pageId": "3bc2ace3-4688-81e2-8366-fedf0780b446",
    "kind": "英文",
    "number": "模考0814-2",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81b5-9582-cc2fa3309809",
-   "point": "模考0807-45 閱讀一：寫作手法",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a letter cannot be delivered and cannot be returned, it becomes what postal workers call a \"dead letter.\" Most countries operate a special office to handle such mail. Staff there are authorized to open the items — one of the few situations in which opening someone else's mail is lawful — in the hope of finding an address inside.\n\nThe results are often surprising. A dead letter office in one country reported that nearly a third of the items it opened contained enough information to be forwarded successfully. Among the rest, items of no commercial value are destroyed after a fixed period, while valuable goods are stored for years before being sold at auction. The money raised does not go to the postal company; in most systems it is transferred to the national treasury.\n\nWhat makes the work unusual is not the sorting but the stories. Staff describe finding wedding rings, handwritten diaries, and letters addressed simply to \"Mother.\" Such items are rarely claimed, yet they are kept the longest. As one worker put it, the office is less a warehouse than a lost-and-found for things people did not know they had lost.\n\n第 45 題：How does the author end the passage?",
-   "options": [
-    "By listing official regulations",
-    "By quoting a worker's comparison",
-    "By providing statistics",
-    "By asking readers a question"
-   ],
-   "answer": "B",
-   "explain": "末句以 As one worker put it 引述員工的話，將該辦公室比喻為失物招領處，屬引用他人比喻作結。統計數字出現於第二段而非結尾；文中未列法規條文，亦未以問句作結。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81b5-9582-cc2fa3309809",
-   "kind": "英文",
-   "number": "模考0807-45 閱讀一：寫作手法",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8158-a94c-dd4d2110212f",
-   "point": "模考0807-38 主詞動詞一致與時態",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nMany people believe that working longer hours always leads to better results. Recent studies, __36__, suggest the opposite. Researchers found that employees who took short breaks every ninety minutes performed __37__ than those who worked straight through the afternoon. The reason is simple: attention is a limited resource. When it runs out, mistakes __38__ more frequently, and the time spent correcting them often exceeds the time saved. Some companies have therefore begun to encourage staff __39__ away from their desks at regular intervals. The change costs nothing, __40__ the benefits are measurable within weeks.\n\n第 38 格：",
-   "options": [
-    "occurs",
-    "occur",
-    "occurring",
-    "has occurred"
-   ],
-   "answer": "B",
-   "explain": "主詞 mistakes 為複數，全段陳述普遍事實用現在簡單式，故用原形 occur。occurs 為單數動詞、occurring 缺助動詞、has occurred 主詞動詞不一致且時態不符。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8158-a94c-dd4d2110212f",
-   "kind": "英文",
-   "number": "模考0807-38 主詞動詞一致與時態",
    "retest": "原題重測"
   },
   {
@@ -365,82 +42,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3b52ace3-4688-81f4-ba2a-eeca344e9f94",
-   "point": "模考0807-13 estimate",
-   "stem": "Could you _____ how long it will take for the parcel to reach Japan by sea mail?",
-   "options": [
-    "estimate",
-    "eliminate",
-    "illustrate",
-    "imitate"
-   ],
-   "answer": "A",
-   "explain": "estimate 意為『估計』，符合詢問所需時間之語意。eliminate 是消除、illustrate 是說明圖解、imitate 是模仿。注意本題問的是時間長度，若改問頻率則須用 how often 回答，此為第 1 場對話題之錯點延伸。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81f4-ba2a-eeca344e9f94",
-   "kind": "英文",
-   "number": "模考0807-13 estimate",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8192-a04c-f9c398b8d8e0",
-   "point": "模考0807-12 priority",
-   "stem": "Registered letters are given _____ over ordinary mail during the busy season.",
-   "options": [
-    "priority",
-    "property",
-    "prosperity",
-    "publicity"
-   ],
-   "answer": "A",
-   "explain": "priority 意為『優先權』，give priority over 指優先於某物處理。property 是財產、prosperity 是繁榮、publicity 是宣傳，三者為字形相近之誘答。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-8192-a04c-f9c398b8d8e0",
-   "kind": "英文",
-   "number": "模考0807-12 priority",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
-   "point": "模考0807-9 notify",
-   "stem": "The post office will _____ you by text message as soon as your package arrives at the pickup station.",
-   "options": [
-    "notice",
-    "notify",
-    "note",
-    "notation"
-   ],
-   "answer": "B",
-   "explain": "notify 為及物動詞，意為『通知（某人）』，可直接接受詞 you。notice 作動詞時意為注意到，語意不符；note 是記下；notation 是記號、標記法。notify sb. of sth. 亦為常見搭配。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81f8-88e3-ebe67fc7e76a",
-   "kind": "英文",
-   "number": "模考0807-9 notify",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-81da-91cf-e29e7e23a4fe",
-   "point": "模考0807-1 unwillingly",
-   "stem": "Clearly annoyed at being called back after his shift, the clerk _____ returned to the counter.",
-   "options": [
-    "willing",
-    "willingly",
-    "unwilling",
-    "unwillingly"
-   ],
-   "answer": "D",
-   "explain": "unwillingly 為副詞，意為『不情願地』，修飾動詞 returned；前句 Clearly annoyed 已明示不情願，語意方向唯一。willingly 語意相反；unwilling 與 willing 為形容詞，不能修飾動詞。（2026-08-15 更正：原題幹為 Although the clerk was already off duty…，該讓步語氣其實更支持 willingly『下班了仍願意回來幫忙』，兩個副詞皆說得通，正解不唯一；已改寫題幹使語意方向明確。若當時選 willingly，該作答具正當理由。）",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-81da-91cf-e29e7e23a4fe",
-   "kind": "英文",
-   "number": "模考0807-1 unwillingly",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
    "point": "模考0731-45 will（未來單純式）",
    "stem": "第 45 格：請依段落前後文意，選出最適當的答案。",
@@ -460,459 +61,402 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3ae2ace3-4688-81e3-9504-e8300fb35aae",
-   "point": "模考0731-41 be sold as",
-   "stem": "第 41 格：請依段落前後文意，選出最適當的答案。",
+   "id": "rc-3c52ace3-4688-8161-8f58-fb726686847a",
+   "point": "錯別字辨識：草菅人命",
+   "stem": "下列文句，何者用字有誤？",
    "options": [
-    "on",
-    "in",
-    "of",
-    "as"
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-81e3-9504-e8300fb35aae",
-   "kind": "英文",
-   "number": "模考0731-41 be sold as",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
-   "point": "模考0731-30 It depends on the traffic.",
-   "stem": "A: How long does it take from here to the post office?\nB: ___",
-   "options": [
-    "500 miles long.",
-    "The longer, the better.",
-    "Every ten minutes.",
-    "It depends on the traffic."
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-8125-b77b-cb3c1b42a4b0",
-   "kind": "英文",
-   "number": "模考0731-30 It depends on the traffic.",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
-   "point": "模考0731-19 persuade",
-   "stem": "May spent a lot of time trying to ___ her mom to let her buy a new iPhone.",
-   "options": [
-    "recover",
-    "adopt",
-    "persuade",
-    "establish"
+    "他做事一絲不苟",
+    "此事已迫在眉睫",
+    "為官者不可草管人命",
+    "兩人相敬如賓"
    ],
    "answer": "C",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-8125-991f-fb70b5f9cd1e",
-   "kind": "英文",
-   "number": "模考0731-19 persuade",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-814b-9e05-cfc34b812340",
-   "point": "模考0731-16 departure",
-   "stem": "Henry looked at the timetable at the airport to find out the ___ time of his flight.",
-   "options": [
-    "spoon",
-    "purchase",
-    "departure",
-    "snack"
-   ],
-   "answer": "C",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-814b-9e05-cfc34b812340",
-   "kind": "英文",
-   "number": "模考0731-16 departure",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-814e-b7d1-ff293c41917c",
-   "point": "模考0731-11 instead",
-   "stem": "Lydia did not have tomatoes in her kitchen, so she used corn to make some soup ___.",
-   "options": [
-    "above",
-    "instead",
-    "after",
-    "along"
-   ],
-   "answer": "B",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-814e-b7d1-ff293c41917c",
-   "kind": "英文",
-   "number": "模考0731-11 instead",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-815c-953a-ea1f9dc04f22",
-   "point": "模考0731-6 population",
-   "stem": "The ___ of Taiwan is over 23 million and more than 85% of the people have the right to vote for the president and the legislators.",
-   "options": [
-    "portion",
-    "population",
-    "pollution",
-    "calculation"
-   ],
-   "answer": "B",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-815c-953a-ea1f9dc04f22",
-   "kind": "英文",
-   "number": "模考0731-6 population",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-81ad-931c-fe5eddb90735",
-   "point": "模考0731-5 unwillingly",
-   "stem": "Amy was so focused on her novel that she ___ put her book down to help her mother run an errand.",
-   "options": [
-    "rapidly",
-    "genuinely",
-    "definitely",
-    "unwillingly"
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-81ad-931c-fe5eddb90735",
-   "kind": "英文",
-   "number": "模考0731-5 unwillingly",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-811c-a72e-ca8080c5b99c",
-   "point": "古文詞義：其恕乎之「恕」",
-   "stem": "《論語．衛靈公》：「子貢問曰：『有一言而可以終身行之者乎？』子曰：『其恕乎！己所不欲，勿施於人。』」句中「恕」字意謂下列何者？",
-   "options": [
-    "寬赦他人之過錯",
-    "推己及人，將心比心",
-    "忠厚老實，不計得失",
-    "饒恕罪責，不加追究"
-   ],
-   "answer": "B",
-   "explain": "儒家之「恕」為推己及人，以自己之心度他人之心，故下句即以「己所不欲，勿施於人」釋之，非今語「寬恕、饒恕」之意。⚠ 古今異義字為真卷主力（112 之「乍」「晦」「罔」「陪」皆同型），判斷動作是先看下文如何解釋該字。",
+   "explain": "應為「草**菅**人命」。菅為一種野草，草菅人命謂視人命如野草般輕賤。⚠ 「管」是管理、管子，與詞義無關。其餘三句用字均正確。",
    "passage": "",
    "srcSubject": "國文",
-   "pageId": "3c42ace3-4688-811c-a72e-ca8080c5b99c",
+   "pageId": "3c52ace3-4688-8161-8f58-fb726686847a",
    "kind": "訂正",
-   "number": "模考0821-11",
+   "number": "模考0823-國10",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c42ace3-4688-81b4-a79c-ff9b40cb1ff1",
-   "point": "公文種類：函之適用",
-   "stem": "各機關處理一般公務時，相互行文所使用之公文種類為下列何者？",
+   "id": "rc-3c52ace3-4688-81de-8075-def28ae48a74",
+   "point": "公文用字：期望語之選用",
+   "stem": "行文於下級機關時，公文結語之期望語應使用下列何者？",
    "options": [
-    "令",
-    "公告",
-    "呈",
-    "函"
-   ],
-   "answer": "D",
-   "explain": "函適用於各機關間之公務往復，上行、平行、下行皆可。令用於公布法規、發布人事；公告用於周知公眾；呈用於對總統有所呈請。",
-   "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3c42ace3-4688-81b4-a79c-ff9b40cb1ff1",
-   "kind": "訂正",
-   "number": "模考0821-7",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-8118-a794-d7652590bb08",
-   "point": "字音辨正：載",
-   "stem": "下列「載」字的讀音，何者與其他三者不同？",
-   "options": [
-    "千「載」難逢",
-    "「載」重貨車",
-    "「載」歌載舞",
-    "滿「載」而歸"
+    "希查照辦理",
+    "敬請鑒核",
+    "請鑒核示遵",
+    "謹陳核示"
    ],
    "answer": "A",
-   "explain": "「千載難逢」之「載」指年，讀ㄗㄞˇ；載歌載舞、滿載而歸、載重貨車皆讀ㄗㄞˋ。判斷動作：作「年」解時讀ㄗㄞˇ，其餘多讀ㄗㄞˋ。",
+   "explain": "對**下級機關**用「希查照」「希照辦」「希轉行照辦」等；對**上級機關**用「請鑒核」「請核示」「敬請鑒核」；對**平行機關**用「請查照」「請查照惠辦」。⚠ 判斷動作只有一步：**先定行文方向（上行、平行、下行），再選期望語**，用錯即為公文之大忌。",
    "passage": "",
    "srcSubject": "國文",
-   "pageId": "3c42ace3-4688-8118-a794-d7652590bb08",
+   "pageId": "3c52ace3-4688-81de-8075-def28ae48a74",
    "kind": "訂正",
-   "number": "模考0821-5",
+   "number": "模考0823-國7",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c42ace3-4688-812f-8d26-d1920d26650b",
-   "point": "提稱語：適用對象",
-   "stem": "下列提稱語，何者不適用於長輩或長官？",
+   "id": "rc-3c52ace3-4688-8192-bc6c-f7dba6c403be",
+   "point": "古文詞義：君子喻於義之「喻」",
+   "stem": "《論語．里仁》：「君子喻於義，小人喻於利。」其中「喻」一字係指：",
    "options": [
-    "鈞鑒",
-    "惠鑒",
-    "尊鑒",
-    "賜鑒"
+    "比喻譬喻",
+    "明白通曉",
+    "告知曉諭",
+    "喜好偏愛"
    ],
    "answer": "B",
-   "explain": "惠鑒用於平輩，故不適用於長輩或長官；鈞鑒、尊鑒、賜鑒皆可用於尊長。此題直接採用 112 年真卷第 4 題及其官方答案，避免以語感判斷提稱語。",
+   "explain": "「喻」於此為「明白、通曉」之意；全句謂君子所通曉者在義，小人所通曉者在利。⚠ 真卷 109 第 6 題、112 第 15 題均引《論語》命題，來源有先例。判斷動作：**「喻」的今義（比喻）與古義（明白）不同**，古今異義是真卷主力，先看上下文能否講通。",
    "passage": "",
    "srcSubject": "國文",
-   "pageId": "3c42ace3-4688-812f-8d26-d1920d26650b",
+   "pageId": "3c52ace3-4688-8192-bc6c-f7dba6c403be",
    "kind": "訂正",
-   "number": "模考0821-4",
+   "number": "模考0823-國15",
    "retest": "原題重測"
   },
   {
-   "id": "rc-3bf2ace3-4688-81d3-bec1-c0bbf1d02864",
-   "point": "錯別字辨識",
-   "stem": "下列詞語，用字完全正確的選項是：",
+   "id": "rc-3c52ace3-4688-8133-829a-cefc9c5cf1be",
+   "point": "古文詞義：王無罪歲之「罪」",
+   "stem": "《孟子．梁惠王上》：「王無罪歲，斯天下之民至焉。」句中「罪」字意謂下列何者？",
    "options": [
-    "一股作氣",
-    "興高彩烈",
-    "委屈求全",
-    "貌合神離"
-   ],
-   "answer": "D",
-   "explain": "「貌合神離」用字正確。其餘三項均為錯字：「一股作氣」應作「一鼓作氣」（擊鼓振作士氣，出《左傳．曹劌論戰》）；「興高彩烈」應作「興高采烈」（采為神采）；「委屈求全」應作「委曲求全」（曲為曲從遷就，非委屈之屈）。（2026-08-15 更正：原選項『彼此連繫』並非錯字——教育部重編國語辭典修訂本收有「連繫」ㄌㄧㄢˊ ㄒㄧˋ 一詞，與正解並列為用字正確，正解不唯一；原解析『考試以聯繫為準』屬未查證的推測。）",
-   "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3bf2ace3-4688-81d3-bec1-c0bbf1d02864",
-   "kind": "訂正",
-   "number": "錯別字辨識",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-81d8-a973-dddc8cb678d8",
-   "point": "續期保險費之催告與寬限期間",
-   "stem": "續期保險費自繳費日起一個月未交付者，保險人應於幾日內催告？寬限期間自何時起算、為期多久？",
-   "options": [
-    "十五日內催告；自催告到達日起算三個月",
-    "三十日內催告；自當期繳費日起算二個月",
-    "十日內催告；自當期繳費日起算三個月",
-    "十日內催告；自催告到達日起算一個月"
-   ],
-   "answer": "C",
-   "explain": "第 13 條第 1 項：保險人應於十日內催告，並自當期繳費日起算三個月為寬限期間，屆滿仍未交付者契約效力停止。⚠ 曾錯考點：寬限期間之起算點是當期繳費日，不是催告到達日。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c42ace3-4688-81d8-a973-dddc8cb678d8",
-   "kind": "訂正",
-   "number": "模考0821-47",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-8103-a08c-e2c07bb74fe1",
-   "point": "查詢期限與補償金支付期限之比較",
-   "stem": "依郵件處理規則規定，郵件查詢期限與補償金支付期限之起算及長度，下列何者正確？（比較題）",
-   "options": [
-    "查詢自交寄之日起六個月；補償金自提供憑據之日起三個月內支付",
-    "二者均自交寄次日起六個月",
-    "查詢自交寄次日起三個月；補償金自查詢次日起六個月內支付",
-    "查詢自交寄次日起六個月；補償金自查詢次日起三個月內支付"
-   ],
-   "answer": "D",
-   "explain": "查詢期限為自交寄次日起六個月，國際快捷為四個月；補償金應自查詢次日起三個月內支付。⚠ 曾錯考點：支付期限之起算點是「查詢次日」，不是提供憑據之日；且處理規則用「次日」，郵政法第 34 條、第 35 條用「之日」。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c42ace3-4688-8103-a08c-e2c07bb74fe1",
-   "kind": "訂正",
-   "number": "模考0821-27",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-8193-983d-d0ea4c623009",
-   "point": "查詢期限之比較",
-   "stem": "甲於 115 年 6 月 10 日交寄國際快捷郵件一件，乙於同日交寄國內掛號函件一件，兩件均未送達。依郵件處理規則規定，關於查詢期限，下列敘述何者正確？（比較題）",
-   "options": [
-    "兩者均自交寄之次日起算六個月",
-    "國際快捷自交寄之日起算四個月，國內掛號自交寄之日起算六個月",
-    "國際快捷自交寄之次日起算四個月，國內掛號自交寄之次日起算六個月",
-    "國際快捷自交寄之次日起算三個月，國內掛號自交寄之次日起算六個月"
-   ],
-   "answer": "C",
-   "explain": "郵件處理規則第60條：掛號郵件之查詢期限自交寄之『次日』起算六個月，但國際快捷郵件自交寄之次日起算四個月。兩者起算日相同（次日），差別在期間長短。須與郵政法第34條補償請求權自『郵件交寄之日』起六個月區辨——查詢期限算次日、補償請求權算當日，為起算日互換之核心考點。逾查詢期限者，郵局得不予提供查詢並不負補償責任。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3b52ace3-4688-8193-983d-d0ea4c623009",
-   "kind": "訂正",
-   "number": "模考0807-38",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-34b2ace3-4688-802e-90d7-d4e39c602b23",
-   "point": "48",
-   "stem": "依郵務營業規章規定，郵件因遺失、被竊、毀損、遞送延誤等事由所致之其他損失或損害，郵局應如何處理？",
-   "options": [
-    "應依實際損失給予補償",
-    "不予補償或賠償",
-    "僅補償其郵資差額",
-    "依郵政法規定賠償，但不補償"
-   ],
-   "answer": "B",
-   "explain": "若非郵件遺失、被竊、損毀、遞送延誤或掛號郵件未依本公司公告之處理規定遞送者之事由所致之其他損失或損害不予補償或賠償。\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-802e-90d7-d4e39c602b23",
-   "kind": "訂正",
-   "number": "48",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-34b2ace3-4688-8072-b476-f97046f0cf84",
-   "point": "43",
-   "stem": "依郵務營業規章規定，寄往國外之欠資函件，若無法退還寄件人，且非信函及明信片時，應如何處理？",
-   "options": [
-    "作欠資函件寄發",
-    "不予寄遞，於招領揭示期滿後，依無著郵件規定處理",
-    "逕予銷燬",
-    "退回原寄國郵政"
-   ],
-   "answer": "B",
-   "explain": "寄往國外之欠資函件：\n→ 退還寄件人補足資費差額\n→ 無法退還時，除信函及明信片做欠資函件寄發外，其他函件不予寄遞，於招領揭示期滿後，依無著郵件規定處理\n大批交際之國際信函及明信片資費不足：\n→ 無法退還寄件人不付者，不予寄遞，於招領揭示滿期後，作無著郵件處理\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-8072-b476-f97046f0cf84",
-   "kind": "訂正",
-   "number": "43",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
-   "point": "25",
-   "stem": "依郵務營業規章規定，有關廣告回信郵件，下列敘述何者錯誤？",
-   "options": [
-    "寄件人對其所發未貼郵票之回信信封、明信片、徵詢函回答表件或刊在報章雜誌之空白回信卡片或貼紙，經回信人寄回時，代回信人交付郵資，並按件計付手續費者，為廣告回信",
-    "廣告回信應先向當地郵局申請轉送所屬各等郵局申請登記",
-    "申請廣告回信登記，應填申請書一份並預存郵資。預存郵資金額由郵局視實際情形酌定，並於取消登記 交還登記證三個月後，未積欠郵資者，全數退還",
-    "廣告回信用戶領到登記證後，應依照郵局同意之回信樣本及規定式樣印製回信信封、明信片或貼紙，其上並應加印登記證字號及交寄郵件種類"
-   ],
-   "answer": "C",
-   "explain": "廣告回信郵件\n📍寄件規範（§106)：\n1. 寄件人對其所發為貼郵票之回信信封、明信片、徵詢函回答表件或刊在報章雜誌之空白回信卡片或貼紙，經回信人寄回時，代回信人（申請廣告回信人）交付郵資，並按件計付手續費者。\n2. 應先向當地郵局申請轉送屬各等郵局申請登記\n3. 國際廣告回信業務依萬國郵政公約規定辦理\n📍申請規範(§107)：\n1. 填寫申請書二份\n2. 回信樣張二份   \n3. 預存郵資（金額由郵局視實際情形酌定）\n→取消登記交還登記證2個月後，未積欠郵資者，全數退還\n📍樣式規範（§108) →郵局同意\n1. 回信樣本及規定是樣印製回信信封、明信片或貼紙，其上並應加印登記字號及交際郵件種類。\n2. 回信信封、明信片得裝入信封郵寄，備供回信人填寫寄回\n3.貼紙得依式刊印於新聞紙、雜誌上，備供回填寫剪貼於空白信封或類似明信片之硬紙片上寄回\n\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-80b5-b4ec-dd9b3aa250d1",
-   "kind": "訂正",
-   "number": "25",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-34b2ace3-4688-8045-9823-ce3d1f6ae58c",
-   "point": "1",
-   "stem": "依郵務營業規章規定，下列何者非屬中華郵政公司經營之基本郵件業務？",
-   "options": [
-    "電子函件",
-    "掛號郵件",
-    "包裹",
-    "盲人文件"
-   ],
-   "answer": "B",
-   "explain": "基本郵件業務：\n1.信函、2.明信片、3.郵簡、4.印刷物、5.盲人文件、6.電子函件、7.小包、8.包裹\n→掛號郵件屬於特種郵件業務\n2026-07-04 批次更新：今日已進行 Notion 到期補回、考古題訂正與弱點回收；本題列入今日已複習題庫。下次改以混合題或考古題口吻抽考。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "34b2ace3-4688-8045-9823-ce3d1f6ae58c",
-   "kind": "訂正",
-   "number": "1",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-813f-8bf0-df6bf33ea1ef",
-   "point": "旅遊契約請求權之時效",
-   "stem": "依民法規定，旅遊契約之增加、減少或退還費用請求權、損害賠償請求權及墊付費用償還請求權，其時效為何？",
-   "options": [
-    "自契約成立時起一年",
-    "自旅遊終了或應終了時起一年",
-    "自請求權可行使時起十五年",
-    "自旅遊終了或應終了時起二年"
-   ],
-   "answer": "B",
-   "explain": "民法第 514 條之 12：三種請求權均自旅遊終了或應終了時起一年間不行使而消滅。⚠ 曾連續兩日答錯考點，錯在期間（誤為二年）；起算點為旅遊終了而非契約成立。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c42ace3-4688-813f-8bf0-df6bf33ea1ef",
-   "kind": "訂正",
-   "number": "模考0821-7",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-81cc-8b36-eaceec549966",
-   "point": "租賃物之保存行為與修繕",
-   "stem": "甲向乙承租房屋，乙為修補漏水之屋頂而須進入屋內施作。甲以妨礙生活為由拒絕。甲得否拒絕？",
-   "options": [
-    "得拒絕，租賃期間承租人有排他使用權",
-    "不得拒絕，該行為為保存租賃物之必要行為",
-    "須經法院裁定始得進入",
-    "得拒絕，但應補償出租人損失"
-   ],
-   "answer": "B",
-   "explain": "民法第 429 條第 2 項明定出租人為保存租賃物所為之必要行為，承租人不得拒絕，故「得拒絕」為錯誤敘述。第 430 條則規定承租人得定相當期限催告修繕，不於期限內修繕者得終止契約或自行修繕請求償還。⚠ 曾錯考點：本題問「錯誤」，須先圈定問的是正問或反問。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c42ace3-4688-81cc-8b36-eaceec549966",
-   "kind": "訂正",
-   "number": "模考0821-6",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c42ace3-4688-81cb-b585-e581b94b0d40",
-   "point": "期間之起算與末日",
-   "stem": "依民法規定，以日、星期、月或年定期間者，其起算方式為何？",
-   "options": [
-    "一律自次月一日起算",
-    "由當事人自行約定，法律未設規定",
-    "始日算入",
-    "始日不算入"
-   ],
-   "answer": "D",
-   "explain": "民法第 120 條第 2 項：以日、星期、月或年定期間者，其始日不算入。另第 121 條第 2 項規定，期間不以星期、月或年之始日起算者，以最後之星期、月或年與起算日相當日之前一日為期間之末日。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c42ace3-4688-81cb-b585-e581b94b0d40",
-   "kind": "訂正",
-   "number": "模考0821-4",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b82ace3-4688-8166-937b-da740b2cee95",
-   "point": "動產物權讓與之生效",
-   "stem": "依民法規定，動產物權之讓與，非將動產如何，不生效力？",
-   "options": [
-    "交付",
-    "登記",
-    "公證",
-    "訂立書面"
+    "歸咎於",
+    "犯罪行為",
+    "刑罰處分",
+    "罪過責任"
    ],
    "answer": "A",
-   "explain": "動產物權之讓與，非將動產交付，不生效力（§761Ⅰ）；不動產物權變動始以登記為要件。",
+   "explain": "「罪」於此作**動詞**用，意即「歸咎、責怪」；王無罪歲謂君王不要把過錯推給年成不好。⚠ 真卷 109 第 10 題即引《孟子》命題，來源有先例。判斷動作：**名詞出現在動詞位置（前有「無」、後帶受詞「歲」），即為活用**。",
    "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3b82ace3-4688-8166-937b-da740b2cee95",
+   "srcSubject": "國文",
+   "pageId": "3c52ace3-4688-8133-829a-cefc9c5cf1be",
    "kind": "訂正",
-   "number": "動產物權讓與之生效",
+   "number": "模考0823-國12",
    "retest": "原題重測"
   },
   {
-   "id": "rc-34d2ace3-4688-80d5-b3e2-d92312339772",
-   "point": "114員(10)",
-   "stem": "有關給付遲延之效力，下列敘述何者正確？",
+   "id": "rc-3c52ace3-4688-8165-a230-dc6aff08ac9e",
+   "point": "古文詞義：越國以鄙遠之「鄙」",
+   "stem": "《左傳．僖公三十年》：「越國以鄙遠，君知其難也。」句中「鄙」字意謂下列何者？",
    "options": [
-    "遲延後之給付，於債權人無利益者，債權人得拒絕其給付",
-    "債權人不得請求賠償遲延所生之損害",
-    "債務人在遲延中，對於不可抗力所生之損害，無庸負責",
-    "縱不可歸責於債務人事由致給付遲延，債務人仍負遲延責任"
+    "鄙視輕賤",
+    "以之為邊邑",
+    "邊遠粗俗",
+    "自謙之詞"
+   ],
+   "answer": "B",
+   "explain": "「鄙」於此為**意動用法**，意即「以（遠地）為邊邑」；全句謂越過別國而把遠地當作自己的邊邑，是很困難的。⚠ 真卷 112 第 17 題即引本篇考「陪」字，來源有先例。判斷動作：**名詞放在動詞位置又帶受詞，多為意動或使動用法**，不能照名詞義解。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c52ace3-4688-8165-a230-dc6aff08ac9e",
+   "kind": "訂正",
+   "number": "模考0823-國2",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8188-ac92-e9c653d8a9e8",
+   "point": "成語運用：曾幾何時",
+   "stem": "「曾幾何時」一語，用以形容下列何者？",
+   "options": [
+    "時間所剩無幾",
+    "曾經有過幾次",
+    "時間過去不久",
+    "不知何時開始"
+   ],
+   "answer": "C",
+   "explain": "曾幾何時：曾，乃；幾何，多少。謂時間過去沒有多久，多用於今昔對照之語境。⚠ 常被誤解為「不知何時」或「時間不多了」，關鍵在「幾何」是問**多少時間**，不是問**何時**。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c52ace3-4688-8188-ac92-e9c653d8a9e8",
+   "kind": "訂正",
+   "number": "模考0823-國1",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8181-ae1a-d1001b735843",
+   "point": "改投與改寄之資費負擔",
+   "stem": "依郵務營業規章規定，關於改投與改寄郵件之資費，下列敘述何者正確？",
+   "options": [
+    "改投與改寄之函件均免納資費，包裹始另付資費",
+    "改投之郵件原則免納資費；改寄之印刷物、小包則須另付自寄達地改寄新寄達地之資費",
+    "改投之郵件另付資費；改寄之函件免納資費",
+    "改投之郵件須另付資費；改寄之郵件免納資費"
+   ],
+   "answer": "B",
+   "explain": "郵務營業規章第 794 條第 1 項：除另有規定外，**改投之郵件免納資費**。第 795 條：**改寄**之郵件——函件中信函、明信片、郵簡、盲人文件免付資費，**印刷物、小包另付**自寄達地改寄新寄達地之資費；包裹按寄達地寄往新寄達地之資費另付。⚠ 判斷動作：先分改投（同投遞區域，原則免費）或改寄（跨區轉寄，原則另付），再看郵件種類。\n【批改註記】作答時標記「不確定」且答錯——標記命中率累計 6/6，此訊號可信任。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-8181-ae1a-d1001b735843",
+   "kind": "訂正",
+   "number": "模考0823-郵49",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8142-88d4-fed56309c125",
+   "point": "國際郵件存局候領之期間",
+   "stem": "存局候領之國際郵件，其候領期間為何？",
+   "options": [
+    "自候領之次日起算二個月",
+    "自候領之次日起算十五日",
+    "自候領之次日起算一個月",
+    "自候領之日起算三個月"
    ],
    "answer": "A",
-   "explain": "解析：\n（Ａ）正確，根據《民法》第232條規定：「遲延後之給付，於債權人無利益者，債權人得拒絕其給付，並得請求賠償因不履行而生之損害。」\n→白話文解釋：例如訂購了除夕夜的年夜飯，但餐廳直接到大年初三才送到。這時該給付已無意義（無利益），法律賦予拒絕收貨並要求賠償的權利。\n（Ｂ）錯誤，根據《民法》第231條第1項之規定：「債務人遲延者，債權人得請求賠償因遲延而生之損害。」除了原本的給付外，債務人還可以針對延遲這段期間造成的損失（如租金損失、利息等）要求賠償。\n（Ｃ）錯誤，根據《民法》第231條第2項規定：「債務人在遲延中，對於不可抗力而生之損害，亦應負責。」\n→法律邏輯：債務人本應如期交貨，若因遲延未交而剛好遇到天災（不可抗力）導致東西壞掉，法律認為如果債務人如期履行，可能就不會發生這種損失，因此債務人要負「加中責任」\n（Ｄ）錯誤，根據《民法》第230條之規定：「因不可歸則於債務人之事由，至未給付者，不負遲延責任。」\n→白話文解釋：給付延遲責任的成立前提是債務人有「故意或過失」。如果完全是因為不可歸責於他的原因（例如突發的法律禁止令），則不構成法律上的給付延遲。",
+   "explain": "郵務營業規章第 868 條第 2 項：國際郵件存局候領期間，以**候領之次日起算二個月**為限，逾期未領者依無法投遞郵件之規定處理。同條第 1 項另定自候領之次日起算**十五日內免付保管費**。⚠ 免費保管期（15 日）與候領期間（2 個月）是兩個不同的數字，常被合併誤記。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-8142-88d4-fed56309c125",
+   "kind": "訂正",
+   "number": "模考0823-郵44",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8183-9114-d350483c0bf0",
+   "point": "混合交寄郵件之重量限制",
+   "stem": "不同費率之郵件併裝為一件，於封面註明「混合交寄」字樣後寄遞者，其總重量之限制為何？",
+   "options": [
+    "不得逾其中最低限重之郵件重量",
+    "不得逾二公斤",
+    "各類郵件限重合計之總和",
+    "不得逾其中最高限重之郵件重量"
+   ],
+   "answer": "D",
+   "explain": "郵務營業規章第 632 條第 1 項：不同費率之郵件得併裝為一件，於封面註明「混合交寄」字樣後寄遞，其總重量**不得逾其中最高限重之郵件重量**。⚠ 未註明「混合交寄」而按較低費率付資者，依**較高費率、按全件重量**向收件人補收欠資及欠資手續費（同條第 3 項），罰則設計是「就高不就低」。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-8183-9114-d350483c0bf0",
+   "kind": "訂正",
+   "number": "模考0823-郵42",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8179-a94e-dd2403887993",
+   "point": "包裹內容易於自然變質之處置",
+   "stem": "依郵件處理規則規定，中華郵政公司於包裹轉運期間發現內容易於自然變質或消滅時，關於其處置，下列敘述何者正確？",
+   "options": [
+    "應先通知寄件人，經其同意後始得變賣",
+    "應先招領揭示一個月，屆期無人領取始得變賣",
+    "應逕行銷燬，不得變賣",
+    "為寄件人之利益，得不經通知或其他手續，立即變賣之"
+   ],
+   "answer": "D",
+   "explain": "第 16 條：發現內容易於自然變質或消滅時，**為寄件人之利益，得不經通知或其他手續，立即變賣之**；無法變賣時得銷燬之，並以拍照或其他適當方法存證備查；變賣價款扣除費用後，賸餘款項通知寄件人領取。⚠ 「立即變賣」是原則、「銷燬」是變賣不能時之備位，順序不可顛倒。招領揭示一個月是第 58 條無著郵件之程序，屬另一情形。\n【批改註記】作答時標記「不確定」且答錯——標記命中率累計 6/6，此訊號可信任。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-8179-a94e-dd2403887993",
+   "kind": "訂正",
+   "number": "模考0823-郵39",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81a4-9789-e6a2f981eed2",
+   "point": "已遞交郵件不得退回之種類",
+   "stem": "依郵件處理規則規定，已遞交之郵件不得交由郵局退回者，不包括下列何者？",
+   "options": [
+    "有拆過痕跡之函件",
+    "報值或保價郵件",
+    "未經拆開之非掛號印刷物",
+    "包裹"
+   ],
+   "answer": "C",
+   "explain": "第 57 條列三款不得交由郵局退回者：有拆過痕跡之函件、報值或保價郵件、包裹。**未經拆開之非掛號印刷物不在其列。** ⚠ 理由在舉證：已拆過的函件、已按報值保價計價的郵件與包裹，事後退回將無從確認內容與價值是否變動。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-81a4-9789-e6a2f981eed2",
+   "kind": "訂正",
+   "number": "模考0823-郵35",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-817f-ab38-c4a5e33d1352",
+   "point": "保險人不負給付責任之事由",
+   "stem": "依簡易人壽保險法規定，下列何種情形保險人仍應負給付保險金額之責任？",
+   "options": [
+    "被保險人在契約發生效力後一年以內故意自殺",
+    "要保人故意致被保險人於死",
+    "被保險人因犯罪處死致死",
+    "被保險人於契約發生效力後滿一年後故意自殺"
+   ],
+   "answer": "D",
+   "explain": "第 20 條列四款不負給付責任之事由，其中第 1 款限於「保險契約發生效力或恢復效力後**一年以內**故意自殺」。**逾一年之故意自殺不在免責之列**，保險人仍應給付。⚠ 判斷動作：先看是否為條列四款、再看第 1 款有無「一年以內」之時間限制。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-817f-ab38-c4a5e33d1352",
+   "kind": "訂正",
+   "number": "模考0823-郵25",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81c1-a6cf-c62e1c092df4",
+   "point": "主管機關實施檢查與規避之處罰",
+   "stem": "主管機關派員進入違反郵政法之場所實施檢查時，該場所之使用人規避、妨礙或拒絕檢查者，其法律效果為何？",
+   "options": [
+    "處新臺幣二十萬元以上一百萬元以下罰鍰",
+    "處拘役或新臺幣九萬元以下罰金",
+    "僅得命其限期改正，不得處罰",
+    "處新臺幣二萬元以上十萬元以下罰鍰，並得按次連續處罰"
+   ],
+   "answer": "D",
+   "explain": "郵政法第 28 條課予不得規避、妨礙或拒絕之義務，第 43 條定其罰則：處新臺幣二萬元以上十萬元以下罰鍰，並得按次連續處罰。⚠ 二十萬至一百萬元是第 40 條違反專營規定之罰鍰；拘役或九萬元以下罰金是第 38 條無故開拆他人郵件之**刑罰**，性質不同。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3c52ace3-4688-81c1-a6cf-c62e1c092df4",
+   "kind": "訂正",
+   "number": "模考0823-郵7",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-813a-9422-e5bb13d3cde6",
+   "point": "不可抗力不予補償時之資費退還",
+   "stem": "國際掛號函件因不可抗力致全部遺失而不予補償者，依郵件處理規則寄件人得請求退還何項費用？",
+   "options": [
+    "已付各項資費，包括保價費",
+    "一律不予退還",
+    "僅得退還普通郵資",
+    "已付各項資費，但保價費不包括在內"
+   ],
+   "answer": "D",
+   "explain": "郵件處理規則第66條。原則退還已付各項資費，但明文將保價費排除。此與第67條之體例一致：包裹、快捷、報值、保價郵件全部遺失應予補償者，於給與補償金時並退還其郵資，但保價費、報值費不予退還。二條的共同邏輯是——保價費、報值費係為「提高補償額度」而付，該對價已經提供，故不隨之退還。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-813a-9422-e5bb13d3cde6",
+   "kind": "訂正",
+   "number": "模考0814-36",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
+   "point": "郵政法罰鍰級距組合",
+   "stem": "依郵政法規定，下列各項違規行為中，其罰鍰級距為新臺幣二萬元以上十萬元以下者，共有幾項？\n甲、違反第七條規定，使用與郵政相同之文字表彰其營業\n乙、違反第六條規定，以遞送信函為營業\n丙、違反第十五條規定，發行與郵票類似之票證\n丁、規避、妨礙或拒絕主管機關依第二十八條所為之檢查",
+   "options": [
+    "四項（甲乙丙丁）",
+    "二項（甲丙）",
+    "三項（甲丙丁）",
+    "一項（甲）"
+   ],
+   "answer": "C",
+   "explain": "郵政法第41條（違反第7條）、第42條（違反第15條）、第43條（違反第28條）均為二萬元以上十萬元以下，故甲、丙、丁三項屬之。乙依第40條第1項為二十萬元以上一百萬元以下，級距最高，係因侵害專營權對郵政普及服務影響最大。另第40條第2項（違反第6條之1未標示名稱）亦為二萬元以上十萬元以下，惟須經令限期改正而屆期不改正始處罰。",
+   "passage": "",
+   "srcSubject": "郵政法規",
+   "pageId": "3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
+   "kind": "訂正",
+   "number": "模考0814-8",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81b7-a954-da97b3e2ecdc",
+   "point": "代位繼承與繼承順序",
+   "stem": "甲未婚，父母均已死亡，其兄乙先於甲死亡，乙之子 B 尚生存。甲死亡時，其祖父 C 亦生存。甲之遺產應由何人繼承？",
+   "options": [
+    "祖父 C",
+    "B 與 C 共同繼承",
+    "B",
+    "歸屬國庫"
+   ],
+   "answer": "C",
+   "explain": "民法第 1138 條繼承順序：直系血親卑親屬、父母、兄弟姊妹、祖父母。甲之兄乙為第三順位，乙先於甲死亡，其子 B 依第 1140 條代位繼承乙之應繼分。⚠ 第三順位有人（含代位繼承人）時，第四順位之祖父母即不得繼承。判斷動作：先定順位，再問該順位有無代位繼承人，有就輪不到下一順位。",
    "passage": "",
    "srcSubject": "民法",
-   "pageId": "34d2ace3-4688-80d5-b3e2-d92312339772",
+   "pageId": "3c52ace3-4688-81b7-a954-da97b3e2ecdc",
    "kind": "訂正",
-   "number": "114員(10)",
+   "number": "模考0823-民16",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-816d-96fc-c80bdbb65128",
+   "point": "形成權之種類",
+   "stem": "下列何者不屬於形成權？",
+   "options": [
+    "終止權",
+    "撤銷權",
+    "解除權",
+    "損害賠償請求權"
+   ],
+   "answer": "A",
+   "explain": "⚠ 本題為反向問法。損害賠償請求權屬請求權，非形成權。撤銷權、解除權、終止權均為形成權，依權利人一方之意思表示即生法律關係變動之效果，無須相對人同意。判斷動作：問「我一個人說了算嗎」——說了算的是形成權，須對方給付的是請求權。\n【批改註記】本題答對但作答時標「不確定」，依出題硬規則 17 改判：不算通過，不標熟、不降頻，下次換問法再測。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c52ace3-4688-816d-96fc-c80bdbb65128",
+   "kind": "訂正",
+   "number": "模考0823-民6",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-81b3-ad3f-d0d112d95cb2",
+   "point": "抵押權之標的",
+   "stem": "下列何者不得為普通抵押權之標的？",
+   "options": [
+    "動產",
+    "土地",
+    "房屋",
+    "地上權"
+   ],
+   "answer": "A",
+   "explain": "民法第 860 條：普通抵押權之標的為債務人或第三人「不動產」。動產擔保於民法上為質權（第 884 條）或留置權。⚠ 地上權、農育權、典權得為抵押權標的（第 882 條）。判斷動作：先分不動產或動產，動產一律不是抵押權。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c52ace3-4688-81b3-ad3f-d0d112d95cb2",
+   "kind": "訂正",
+   "number": "模考0823-民3",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c52ace3-4688-8192-baf1-f0cb29cdb8a5",
+   "point": "要式契約之種類",
+   "stem": "下列何者為要式契約？",
+   "options": [
+    "買賣契約",
+    "終身定期金契約",
+    "租賃契約",
+    "使用借貸契約"
+   ],
+   "answer": "B",
+   "explain": "民法第 730 條：終身定期金契約之訂立，應以書面為之，屬要式契約。⚠ 買賣、租賃、使用借貸均為不要式契約（租賃期限逾一年者應以字據訂立，未以字據訂立僅視為不定期限租賃，非契約無效）。判斷動作：先問法律有無「應以書面為之」之明文，有才是要式。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c52ace3-4688-8192-baf1-f0cb29cdb8a5",
+   "kind": "訂正",
+   "number": "模考0823-民1",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-81d3-810d-f9c951618f3e",
+   "point": "建物占有人與土地不當得利（實務見解）",
+   "stem": "甲向乙承租房屋並居住其中，該房屋坐落於丙所有之土地，且無合法使用權源。丙得否向甲請求返還相當於租金之不當得利？",
+   "options": [
+    "不得請求，甲僅占有房屋而非土地",
+    "得請求，但以甲為惡意占有人為限",
+    "得請求，因甲為土地之占有人",
+    "不得請求，應向房屋所有人乙請求"
+   ],
+   "answer": "C",
+   "explain": "最高法院111年度台上大字第932號民事大法庭裁定（115.6.12）：房屋之合法占有人（承租人）就房屋所坐落之土地，亦為土地之占有人；除善意占有人依民法第952條得為使用收益而不負返還義務外，應依不當得利之規定返還相當於租金之利益。故原則上得對承租人請求。「以惡意占有人為限」該項限制過窄——判斷順序是「先認定為土地占有人，再區辨善意惡意」，善意與否是後階段的免責事由，不是請求權成立要件。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3bc2ace3-4688-81d3-810d-f9c951618f3e",
+   "kind": "訂正",
+   "number": "模考0814-19",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3bc2ace3-4688-815f-8f74-c8f383f5104c",
+   "point": "要物契約之成立",
+   "stem": "關於消費借貸契約之成立，下列敘述何者正確？",
+   "options": [
+    "須移轉金錢或其他代替物之所有權於他方，始生效力",
+    "當事人就借貸意思表示一致即為成立",
+    "非經訂立書面契約不生效力",
+    "須經公證始生效力"
+   ],
+   "answer": "A",
+   "explain": "消費借貸為要物契約，依民法第474條第1項須移轉金錢或其他代替物之所有權於他方，始生效力，僅有合意尚未成立。使用借貸（第464條）、寄託（第589條）亦同屬要物契約。惟第475條之1定消費借貸之預約，當事人得先為約定；預約成立後，貸與人於他方財產顯形減少時得撤銷其約定。書面與公證均非本契約之成立或生效要件。判斷動作：先問這個契約是諾成還是要物。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3bc2ace3-4688-815f-8f74-c8f383f5104c",
+   "kind": "訂正",
+   "number": "模考0814-12",
    "retest": "原題重測"
   }
  ]
