@@ -1,440 +1,480 @@
 [
-  {
-    "id": "english-mini-0824-rewrite",
-    "file": "english-mini-0824-rewrite.json",
-    "title": "英文迷你卷：到期錯題改寫（8/24）",
-    "subject": "英文",
-    "minutes": 25,
-    "summary": "選擇21題．到期錯題換情境與問法，卷內不重複",
-    "type": "practice"
-  },
-  {
-    "id": "minfa-mini-0824-rewrite",
-    "file": "minfa-mini-0824-rewrite.json",
-    "title": "民法迷你卷：到期錯題改寫（8/24）",
-    "subject": "民法",
-    "minutes": 15,
-    "summary": "選擇10題．到期錯題換情境與問法，卷內不重複",
-    "type": "practice"
-  },
-  {
-    "id": "postal-mini-0824-rewrite",
-    "file": "postal-mini-0824-rewrite.json",
-    "title": "郵政法規迷你卷：到期錯題改寫（8/24）",
-    "subject": "郵政法規",
-    "minutes": 12,
-    "summary": "選擇8題．到期錯題換情境與問法，卷內不重複",
-    "type": "practice"
-  },
-  {
-    "id": "chinese-mini-0824-rewrite",
-    "file": "chinese-mini-0824-rewrite.json",
-    "title": "國文迷你卷：到期錯題改寫（8/24）",
-    "subject": "國文",
-    "minutes": 8,
-    "summary": "選擇5題．到期錯題換情境與問法，卷內不重複",
-    "type": "practice"
-  },
-  {
-    "id": "minfa-sim-C",
-    "file": "minfa-sim-C.json",
-    "title": "民法仿真卷 C",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20＋申論 2．全科第 4 場用卷",
-    "type": "full",
-    "round": 4
-  },
-  {
-    "id": "postal-sim-C",
-    "file": "postal-sim-C.json",
-    "title": "郵政法規仿真卷 C",
-    "subject": "郵政法規",
-    "minutes": 60,
-    "summary": "選擇 50．全科第 4 場用卷",
-    "type": "full",
-    "round": 4
-  },
-  {
-    "id": "english-sim-C",
-    "file": "english-sim-C.json",
-    "title": "英文仿真卷 C",
-    "subject": "英文",
-    "minutes": 60,
-    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 4 場用卷",
-    "type": "full",
-    "round": 4
-  },
-  {
-    "id": "chinese-sim-C",
-    "file": "chinese-sim-C.json",
-    "title": "國文仿真卷 C",
-    "subject": "國文",
-    "minutes": 90,
-    "summary": "選擇 20＋作文 1．全科第 4 場用卷",
-    "type": "full",
-    "round": 4
-  },
-  {
-    "id": "postal-sim-D",
-    "file": "postal-sim-D.json",
-    "title": "郵政法規仿真卷 D",
-    "subject": "郵政法規",
-    "minutes": 60,
-    "summary": "選擇 50．全科第 5 場用卷",
-    "type": "full",
-    "round": 5
-  },
-  {
-    "id": "english-sim-D",
-    "file": "english-sim-D.json",
-    "title": "英文仿真卷 D",
-    "subject": "英文",
-    "minutes": 60,
-    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 5 場用卷",
-    "type": "full",
-    "round": 5
-  },
-  {
-    "id": "minfa-sim-D",
-    "file": "minfa-sim-D.json",
-    "title": "民法仿真卷 D",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20＋申論 2．全科第 5 場用卷",
-    "type": "full",
-    "round": 5
-  },
-  {
-    "id": "chinese-sim-D",
-    "file": "chinese-sim-D.json",
-    "title": "國文仿真卷 D",
-    "subject": "國文",
-    "minutes": 90,
-    "summary": "選擇 20＋作文 1．全科第 5 場用卷",
-    "type": "full",
-    "round": 5
-  },
-  {
-    "id": "minfa-issue-01",
-    "file": "minfa-issue-01.json",
-    "title": "民法迷你卷：爭點辨識（申論前置）",
-    "subject": "民法",
-    "minutes": 12,
-    "summary": "選擇 9 題．案例→爭點四選一，練申論的爭點句與制度歸類",
-    "type": "practice"
-  },
-  {
-    "id": "english-mini-0818",
-    "file": "english-mini-0818.json",
-    "title": "英文迷你卷：字彙回收＋新題",
-    "subject": "英文",
-    "minutes": 11,
-    "summary": "選擇 8 題．待改寫 5 題陷阱改寫＋新題 3 題",
-    "type": "practice"
-  },
-  {
-    "id": "minfa-mini-0818",
-    "file": "minfa-mini-0818.json",
-    "title": "民法迷你卷：主題庫到期",
-    "subject": "民法",
-    "minutes": 17,
-    "summary": "選擇 13 題．主題庫到期補漏，既有題庫 10 題＋旅遊契約新題 3 題",
-    "type": "practice"
-  },
-  {
-    "id": "postal-mini-0818a",
-    "file": "postal-mini-0818a.json",
-    "title": "郵政迷你卷：主題庫到期（郵政法／規章／處理規則）",
-    "subject": "郵政法規",
-    "minutes": 18,
-    "summary": "選擇 14 題．主題庫到期補漏，既有題庫 8 題＋新題 6 題",
-    "type": "practice"
-  },
-  {
-    "id": "postal-mini-0818b",
-    "file": "postal-mini-0818b.json",
-    "title": "郵政迷你卷：主題庫到期（儲匯法）",
-    "subject": "郵政法規",
-    "minutes": 9,
-    "summary": "選擇 7 題．單一法源成輪（硬規則 1），既有題庫 4 題＋新題 3 題",
-    "type": "practice"
-  },
-  {
-    "id": "minfa-sim-B",
-    "file": "minfa-sim-B.json",
-    "title": "民法仿真卷 B",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20＋申論 2．全科第 3 場用卷",
-    "type": "full",
-    "round": 3
-  },
-  {
-    "id": "postal-sim-B",
-    "file": "postal-sim-B.json",
-    "title": "郵政法規仿真卷 B",
-    "subject": "郵政法規",
-    "minutes": 60,
-    "summary": "選擇 50 題．全科第 3 場用卷",
-    "type": "full",
-    "round": 3
-  },
-  {
-    "id": "english-sim-B",
-    "file": "english-sim-B.json",
-    "title": "英文仿真卷 B",
-    "subject": "英文",
-    "minutes": 60,
-    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 3 場用卷",
-    "type": "full",
-    "round": 3
-  },
-  {
-    "id": "chinese-sim-B",
-    "file": "chinese-sim-B.json",
-    "title": "國文仿真卷 B",
-    "subject": "國文",
-    "minutes": 90,
-    "summary": "選擇 20＋作文 1（60 分）．全科第 3 場用卷",
-    "type": "full",
-    "round": 3
-  },
-  {
-    "id": "minfa-trial-0711",
-    "file": "minfa-trial-0711.json",
-    "title": "民法試營運卷（7/11）",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20 題＋申論 2 題．工具試營運用，正式卷 7/31",
-    "type": "practice"
-  },
-  {
-    "id": "postal-mini-01",
-    "file": "postal-mini-01.json",
-    "title": "郵政法規迷你卷 01",
-    "subject": "郵政法規",
-    "minutes": 20,
-    "summary": "選擇 15 題．速查表核心數字＋⚠ 曾錯考點回收",
-    "type": "practice"
-  },
-  {
-    "id": "chinese-112-full",
-    "file": "chinese-112-full.json",
-    "title": "112 國文真卷",
-    "subject": "國文",
-    "minutes": 90,
-    "summary": "選擇 20＋作文 1（60 分）．全科第 7 場用卷",
-    "type": "full",
-    "round": 7
-  },
-  {
-    "id": "postal-112-full",
-    "file": "postal-112-full.json",
-    "title": "112 郵政法規真卷",
-    "subject": "郵政法規",
-    "minutes": 60,
-    "summary": "選擇 50 題．全科第 7 場用卷",
-    "type": "full",
-    "round": 7
-  },
-  {
-    "id": "english-112-full",
-    "file": "english-112-full.json",
-    "title": "112 英文真卷",
-    "subject": "英文",
-    "minutes": 60,
-    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 7 場用卷",
-    "type": "full",
-    "round": 7
-  },
-  {
-    "id": "minfa-112-full",
-    "file": "minfa-112-full.json",
-    "title": "112 民法真卷",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20＋申論 2．全科第 7 場用卷",
-    "type": "full",
-    "round": 7
-  },
-  {
-    "id": "postal-109-full",
-    "file": "postal-109-full.json",
-    "title": "109 郵政法規真卷",
-    "subject": "郵政法規",
-    "minutes": 60,
-    "summary": "選擇 50 題．全科第 1 場用卷",
-    "type": "full",
-    "round": 1
-  },
-  {
-    "id": "minfa-109-full",
-    "file": "minfa-109-full.json",
-    "title": "109 民法真卷",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20＋申論 2．全科第 1 場用卷",
-    "type": "full",
-    "round": 1
-  },
-  {
-    "id": "english-109-full",
-    "file": "english-109-full.json",
-    "title": "109 英文真卷",
-    "subject": "英文",
-    "minutes": 60,
-    "summary": "字彙20＋對話15＋文意選填15．全科第 1 場用卷",
-    "type": "full",
-    "round": 1
-  },
-  {
-    "id": "chinese-109-full",
-    "file": "chinese-109-full.json",
-    "title": "109 國文真卷",
-    "subject": "國文",
-    "minutes": 90,
-    "summary": "選擇 20＋作文 1．全科第 1 場用卷",
-    "type": "full",
-    "round": 1
-  },
-  {
-    "id": "minfa-sim-A",
-    "file": "minfa-sim-A.json",
-    "title": "民法仿真卷 A",
-    "subject": "民法",
-    "minutes": 90,
-    "summary": "選擇 20 題＋申論 2 題．全科第 2 場用卷",
-    "type": "full",
-    "round": 2
-  },
-  {
-    "id": "postal-sim-A",
-    "file": "postal-sim-A.json",
-    "title": "郵政法規仿真卷 A",
-    "subject": "郵政法規",
-    "minutes": 60,
-    "summary": "選擇 50 題．全科第 2 場用卷",
-    "type": "full",
-    "round": 2
-  },
-  {
-    "id": "english-sim-A",
-    "file": "english-sim-A.json",
-    "title": "英文仿真卷 A",
-    "subject": "英文",
-    "minutes": 60,
-    "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 2 場用卷",
-    "type": "full",
-    "round": 2
-  },
-  {
-    "id": "chinese-sim-A",
-    "file": "chinese-sim-A.json",
-    "title": "國文仿真卷 A",
-    "subject": "國文",
-    "minutes": 90,
-    "summary": "選擇 20＋作文 1（60 分）．全科第 2 場用卷",
-    "type": "full",
-    "round": 2
-  },
-  {
-    "id": "minfa-mini-0816",
-    "file": "minfa-mini-0816.json",
-    "title": "民法迷你卷：共有物與分割",
-    "subject": "民法",
-    "minutes": 25,
-    "summary": "選擇 14 題．8/16 新題，需作答一次才會進 Notion 複習循環",
-    "type": "practice"
-  },
-  {
-    "id": "english-mini-0816",
-    "file": "english-mini-0816.json",
-    "title": "英文迷你卷：to 的身分判斷",
-    "subject": "英文",
-    "minutes": 15,
-    "summary": "選擇 11 題．8/16 新題，需作答一次才會進 Notion 複習循環",
-    "type": "practice"
-  },
-  {
-    "id": "postal-mini-0817a",
-    "file": "postal-mini-0817a.json",
-    "title": "郵政迷你卷：主題庫補漏（郵政法／規章／處理規則）",
-    "subject": "郵政法規",
-    "minutes": 15,
-    "summary": "選擇 12 題．主題庫到期補漏，取自既有題庫非新題",
-    "type": "practice"
-  },
-  {
-    "id": "postal-mini-0817b",
-    "file": "postal-mini-0817b.json",
-    "title": "郵政迷你卷：主題庫補漏（儲匯法）",
-    "subject": "郵政法規",
-    "minutes": 10,
-    "summary": "選擇 5 題．主題庫到期補漏，取自既有題庫非新題",
-    "type": "practice"
-  },
-  {
-    "id": "minfa-teacher-0801a",
-    "file": "minfa-teacher-0801a.json",
-    "title": "民法選擇：8/1 徐師精選題目練習（上，第1～19題）",
-    "subject": "民法",
-    "minutes": 25,
-    "type": "practice",
-    "summary": "選擇 19 題．8/1 徐師總複習課精選題（第1～19題），親屬繼承為主，閉書重測"
-  },
-  {
-    "id": "minfa-teacher-0801b",
-    "file": "minfa-teacher-0801b.json",
-    "title": "民法選擇：8/1 徐師精選題目練習（下，第20～38題）",
-    "subject": "民法",
-    "minutes": 25,
-    "type": "practice",
-    "summary": "選擇 19 題．8/1 徐師總複習課精選題（第20～38題），親屬繼承為主，閉書重測"
-  },
-  {
-    "id": "minfa-teacher-0801-essay",
-    "file": "minfa-teacher-0801-essay.json",
-    "title": "民法申論：8/1 徐師精選題目練習（實例題 5 題）",
-    "subject": "民法",
-    "minutes": 120,
-    "type": "practice",
-    "summary": "申論 5 題．共有物分割補償、借名登記、添附、輔助宣告、收養直系姻親"
-  },
-  {
-    "id": "chinese-mini-0820",
-    "file": "chinese-mini-0820.json",
-    "title": "國文迷你卷：選文精讀＋未練考點（8/20）",
-    "subject": "國文",
-    "minutes": 15,
-    "type": "practice",
-    "summary": "選擇 14 題．選文精讀 5 題（桃花源記／師說／醉翁亭記）＋未練考點 9 題"
-  },
-  {
-    "id": "theme-mini-0820",
-    "file": "theme-mini-0820.json",
-    "title": "主題迷你卷：主題庫到期（8/20）",
-    "subject": "郵政法規",
-    "minutes": 14,
-    "summary": "選擇 10 題．旅遊契約／未來郵件・親收／郵政法第4條用詞定義／普及服務專營，選自既有題庫",
-    "type": "practice"
-  },
-  {
-    "id": "english-mini-0820",
-    "file": "english-mini-0820.json",
-    "title": "英文迷你卷：判斷動作總複習（8/20）",
-    "subject": "英文",
-    "minutes": 14,
-    "summary": "選擇 14 題．形近字／詞性判斷／分詞構句／介系詞 to／連接詞五組判準各 2～3 題，含曾錯 7 題",
-    "type": "practice"
-  },
-  {
-    "id": "english-mini-04",
-    "file": "english-mini-04.json",
-    "title": "英文迷你卷 04（8/25 錯題改寫）",
-    "subject": "英文",
-    "minutes": 20,
-    "summary": "選擇 15 題．多次答錯題換方向改寫，避開 8/25 自動回收卷重複考點",
-    "type": "practice"
-  }
+ {
+  "id": "minfa-sim-E",
+  "file": "minfa-sim-E.json",
+  "title": "民法仿真卷 E",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 6 場用卷",
+  "type": "full",
+  "round": 6
+ },
+ {
+  "id": "postal-sim-E",
+  "file": "postal-sim-E.json",
+  "title": "郵政法規仿真卷 E",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50．全科第 6 場用卷",
+  "type": "full",
+  "round": 6
+ },
+ {
+  "id": "english-sim-E",
+  "file": "english-sim-E.json",
+  "title": "英文仿真卷 E",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 6 場用卷",
+  "type": "full",
+  "round": 6
+ },
+ {
+  "id": "chinese-sim-E",
+  "file": "chinese-sim-E.json",
+  "title": "國文仿真卷 E",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1．全科第 6 場用卷",
+  "type": "full",
+  "round": 6
+ },
+ {
+  "id": "english-mini-0824-rewrite",
+  "file": "english-mini-0824-rewrite.json",
+  "title": "英文迷你卷：到期錯題改寫（8/24）",
+  "subject": "英文",
+  "minutes": 25,
+  "summary": "選擇21題．到期錯題換情境與問法，卷內不重複",
+  "type": "practice"
+ },
+ {
+  "id": "minfa-mini-0824-rewrite",
+  "file": "minfa-mini-0824-rewrite.json",
+  "title": "民法迷你卷：到期錯題改寫（8/24）",
+  "subject": "民法",
+  "minutes": 15,
+  "summary": "選擇10題．到期錯題換情境與問法，卷內不重複",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-0824-rewrite",
+  "file": "postal-mini-0824-rewrite.json",
+  "title": "郵政法規迷你卷：到期錯題改寫（8/24）",
+  "subject": "郵政法規",
+  "minutes": 12,
+  "summary": "選擇8題．到期錯題換情境與問法，卷內不重複",
+  "type": "practice"
+ },
+ {
+  "id": "chinese-mini-0824-rewrite",
+  "file": "chinese-mini-0824-rewrite.json",
+  "title": "國文迷你卷：到期錯題改寫（8/24）",
+  "subject": "國文",
+  "minutes": 8,
+  "summary": "選擇5題．到期錯題換情境與問法，卷內不重複",
+  "type": "practice"
+ },
+ {
+  "id": "minfa-sim-C",
+  "file": "minfa-sim-C.json",
+  "title": "民法仿真卷 C",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 4 場用卷",
+  "type": "full",
+  "round": 4
+ },
+ {
+  "id": "postal-sim-C",
+  "file": "postal-sim-C.json",
+  "title": "郵政法規仿真卷 C",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50．全科第 4 場用卷",
+  "type": "full",
+  "round": 4
+ },
+ {
+  "id": "english-sim-C",
+  "file": "english-sim-C.json",
+  "title": "英文仿真卷 C",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 4 場用卷",
+  "type": "full",
+  "round": 4
+ },
+ {
+  "id": "chinese-sim-C",
+  "file": "chinese-sim-C.json",
+  "title": "國文仿真卷 C",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1．全科第 4 場用卷",
+  "type": "full",
+  "round": 4
+ },
+ {
+  "id": "postal-sim-D",
+  "file": "postal-sim-D.json",
+  "title": "郵政法規仿真卷 D",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50．全科第 5 場用卷",
+  "type": "full",
+  "round": 5
+ },
+ {
+  "id": "english-sim-D",
+  "file": "english-sim-D.json",
+  "title": "英文仿真卷 D",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 5 場用卷",
+  "type": "full",
+  "round": 5
+ },
+ {
+  "id": "minfa-sim-D",
+  "file": "minfa-sim-D.json",
+  "title": "民法仿真卷 D",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 5 場用卷",
+  "type": "full",
+  "round": 5
+ },
+ {
+  "id": "chinese-sim-D",
+  "file": "chinese-sim-D.json",
+  "title": "國文仿真卷 D",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1．全科第 5 場用卷",
+  "type": "full",
+  "round": 5
+ },
+ {
+  "id": "minfa-issue-01",
+  "file": "minfa-issue-01.json",
+  "title": "民法迷你卷：爭點辨識（申論前置）",
+  "subject": "民法",
+  "minutes": 12,
+  "summary": "選擇 9 題．案例→爭點四選一，練申論的爭點句與制度歸類",
+  "type": "practice"
+ },
+ {
+  "id": "english-mini-0818",
+  "file": "english-mini-0818.json",
+  "title": "英文迷你卷：字彙回收＋新題",
+  "subject": "英文",
+  "minutes": 11,
+  "summary": "選擇 8 題．待改寫 5 題陷阱改寫＋新題 3 題",
+  "type": "practice"
+ },
+ {
+  "id": "minfa-mini-0818",
+  "file": "minfa-mini-0818.json",
+  "title": "民法迷你卷：主題庫到期",
+  "subject": "民法",
+  "minutes": 17,
+  "summary": "選擇 13 題．主題庫到期補漏，既有題庫 10 題＋旅遊契約新題 3 題",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-0818a",
+  "file": "postal-mini-0818a.json",
+  "title": "郵政迷你卷：主題庫到期（郵政法／規章／處理規則）",
+  "subject": "郵政法規",
+  "minutes": 18,
+  "summary": "選擇 14 題．主題庫到期補漏，既有題庫 8 題＋新題 6 題",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-0818b",
+  "file": "postal-mini-0818b.json",
+  "title": "郵政迷你卷：主題庫到期（儲匯法）",
+  "subject": "郵政法規",
+  "minutes": 9,
+  "summary": "選擇 7 題．單一法源成輪（硬規則 1），既有題庫 4 題＋新題 3 題",
+  "type": "practice"
+ },
+ {
+  "id": "minfa-sim-B",
+  "file": "minfa-sim-B.json",
+  "title": "民法仿真卷 B",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 3 場用卷",
+  "type": "full",
+  "round": 3
+ },
+ {
+  "id": "postal-sim-B",
+  "file": "postal-sim-B.json",
+  "title": "郵政法規仿真卷 B",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50 題．全科第 3 場用卷",
+  "type": "full",
+  "round": 3
+ },
+ {
+  "id": "english-sim-B",
+  "file": "english-sim-B.json",
+  "title": "英文仿真卷 B",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 3 場用卷",
+  "type": "full",
+  "round": 3
+ },
+ {
+  "id": "chinese-sim-B",
+  "file": "chinese-sim-B.json",
+  "title": "國文仿真卷 B",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1（60 分）．全科第 3 場用卷",
+  "type": "full",
+  "round": 3
+ },
+ {
+  "id": "minfa-trial-0711",
+  "file": "minfa-trial-0711.json",
+  "title": "民法試營運卷（7/11）",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20 題＋申論 2 題．工具試營運用，正式卷 7/31",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-01",
+  "file": "postal-mini-01.json",
+  "title": "郵政法規迷你卷 01",
+  "subject": "郵政法規",
+  "minutes": 20,
+  "summary": "選擇 15 題．速查表核心數字＋⚠ 曾錯考點回收",
+  "type": "practice"
+ },
+ {
+  "id": "chinese-112-full",
+  "file": "chinese-112-full.json",
+  "title": "112 國文真卷",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1（60 分）．全科第 7 場用卷",
+  "type": "full",
+  "round": 7
+ },
+ {
+  "id": "postal-112-full",
+  "file": "postal-112-full.json",
+  "title": "112 郵政法規真卷",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50 題．全科第 7 場用卷",
+  "type": "full",
+  "round": 7
+ },
+ {
+  "id": "english-112-full",
+  "file": "english-112-full.json",
+  "title": "112 英文真卷",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 7 場用卷",
+  "type": "full",
+  "round": 7
+ },
+ {
+  "id": "minfa-112-full",
+  "file": "minfa-112-full.json",
+  "title": "112 民法真卷",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 7 場用卷",
+  "type": "full",
+  "round": 7
+ },
+ {
+  "id": "postal-109-full",
+  "file": "postal-109-full.json",
+  "title": "109 郵政法規真卷",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50 題．全科第 1 場用卷",
+  "type": "full",
+  "round": 1
+ },
+ {
+  "id": "minfa-109-full",
+  "file": "minfa-109-full.json",
+  "title": "109 民法真卷",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20＋申論 2．全科第 1 場用卷",
+  "type": "full",
+  "round": 1
+ },
+ {
+  "id": "english-109-full",
+  "file": "english-109-full.json",
+  "title": "109 英文真卷",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙20＋對話15＋文意選填15．全科第 1 場用卷",
+  "type": "full",
+  "round": 1
+ },
+ {
+  "id": "chinese-109-full",
+  "file": "chinese-109-full.json",
+  "title": "109 國文真卷",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1．全科第 1 場用卷",
+  "type": "full",
+  "round": 1
+ },
+ {
+  "id": "minfa-sim-A",
+  "file": "minfa-sim-A.json",
+  "title": "民法仿真卷 A",
+  "subject": "民法",
+  "minutes": 90,
+  "summary": "選擇 20 題＋申論 2 題．全科第 2 場用卷",
+  "type": "full",
+  "round": 2
+ },
+ {
+  "id": "postal-sim-A",
+  "file": "postal-sim-A.json",
+  "title": "郵政法規仿真卷 A",
+  "subject": "郵政法規",
+  "minutes": 60,
+  "summary": "選擇 50 題．全科第 2 場用卷",
+  "type": "full",
+  "round": 2
+ },
+ {
+  "id": "english-sim-A",
+  "file": "english-sim-A.json",
+  "title": "英文仿真卷 A",
+  "subject": "英文",
+  "minutes": 60,
+  "summary": "字彙15＋文法15＋克漏字10＋閱讀10．全科第 2 場用卷",
+  "type": "full",
+  "round": 2
+ },
+ {
+  "id": "chinese-sim-A",
+  "file": "chinese-sim-A.json",
+  "title": "國文仿真卷 A",
+  "subject": "國文",
+  "minutes": 90,
+  "summary": "選擇 20＋作文 1（60 分）．全科第 2 場用卷",
+  "type": "full",
+  "round": 2
+ },
+ {
+  "id": "minfa-mini-0816",
+  "file": "minfa-mini-0816.json",
+  "title": "民法迷你卷：共有物與分割",
+  "subject": "民法",
+  "minutes": 25,
+  "summary": "選擇 14 題．8/16 新題，需作答一次才會進 Notion 複習循環",
+  "type": "practice"
+ },
+ {
+  "id": "english-mini-0816",
+  "file": "english-mini-0816.json",
+  "title": "英文迷你卷：to 的身分判斷",
+  "subject": "英文",
+  "minutes": 15,
+  "summary": "選擇 11 題．8/16 新題，需作答一次才會進 Notion 複習循環",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-0817a",
+  "file": "postal-mini-0817a.json",
+  "title": "郵政迷你卷：主題庫補漏（郵政法／規章／處理規則）",
+  "subject": "郵政法規",
+  "minutes": 15,
+  "summary": "選擇 12 題．主題庫到期補漏，取自既有題庫非新題",
+  "type": "practice"
+ },
+ {
+  "id": "postal-mini-0817b",
+  "file": "postal-mini-0817b.json",
+  "title": "郵政迷你卷：主題庫補漏（儲匯法）",
+  "subject": "郵政法規",
+  "minutes": 10,
+  "summary": "選擇 5 題．主題庫到期補漏，取自既有題庫非新題",
+  "type": "practice"
+ },
+ {
+  "id": "minfa-teacher-0801a",
+  "file": "minfa-teacher-0801a.json",
+  "title": "民法選擇：8/1 徐師精選題目練習（上，第1～19題）",
+  "subject": "民法",
+  "minutes": 25,
+  "type": "practice",
+  "summary": "選擇 19 題．8/1 徐師總複習課精選題（第1～19題），親屬繼承為主，閉書重測"
+ },
+ {
+  "id": "minfa-teacher-0801b",
+  "file": "minfa-teacher-0801b.json",
+  "title": "民法選擇：8/1 徐師精選題目練習（下，第20～38題）",
+  "subject": "民法",
+  "minutes": 25,
+  "type": "practice",
+  "summary": "選擇 19 題．8/1 徐師總複習課精選題（第20～38題），親屬繼承為主，閉書重測"
+ },
+ {
+  "id": "minfa-teacher-0801-essay",
+  "file": "minfa-teacher-0801-essay.json",
+  "title": "民法申論：8/1 徐師精選題目練習（實例題 5 題）",
+  "subject": "民法",
+  "minutes": 120,
+  "type": "practice",
+  "summary": "申論 5 題．共有物分割補償、借名登記、添附、輔助宣告、收養直系姻親"
+ },
+ {
+  "id": "chinese-mini-0820",
+  "file": "chinese-mini-0820.json",
+  "title": "國文迷你卷：選文精讀＋未練考點（8/20）",
+  "subject": "國文",
+  "minutes": 15,
+  "type": "practice",
+  "summary": "選擇 14 題．選文精讀 5 題（桃花源記／師說／醉翁亭記）＋未練考點 9 題"
+ },
+ {
+  "id": "theme-mini-0820",
+  "file": "theme-mini-0820.json",
+  "title": "主題迷你卷：主題庫到期（8/20）",
+  "subject": "郵政法規",
+  "minutes": 14,
+  "summary": "選擇 10 題．旅遊契約／未來郵件・親收／郵政法第4條用詞定義／普及服務專營，選自既有題庫",
+  "type": "practice"
+ },
+ {
+  "id": "english-mini-0820",
+  "file": "english-mini-0820.json",
+  "title": "英文迷你卷：判斷動作總複習（8/20）",
+  "subject": "英文",
+  "minutes": 14,
+  "summary": "選擇 14 題．形近字／詞性判斷／分詞構句／介系詞 to／連接詞五組判準各 2～3 題，含曾錯 7 題",
+  "type": "practice"
+ },
+ {
+  "id": "english-mini-04",
+  "file": "english-mini-04.json",
+  "title": "英文迷你卷 04（8/25 錯題改寫）",
+  "subject": "英文",
+  "minutes": 20,
+  "summary": "選擇 15 題．多次答錯題換方向改寫，避開 8/25 自動回收卷重複考點",
+  "type": "practice"
+ }
 ]

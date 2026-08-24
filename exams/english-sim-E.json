@@ -1,0 +1,729 @@
+{
+ "title": "英文仿真卷 E",
+ "subject": "英文",
+ "minutes": 60,
+ "sections": [
+  {
+   "name": "字彙",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "文法",
+   "count": 15,
+   "points": 2
+  },
+  {
+   "name": "克漏字",
+   "count": 10,
+   "points": 2
+  },
+  {
+   "name": "閱讀",
+   "count": 10,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "retrieve",
+   "stem": "If a parcel is placed in the wrong locker, the clerk can ______ it with a master key.",
+   "options": [
+    "relieve",
+    "retrieve",
+    "reserve",
+    "resolve"
+   ],
+   "answer": "B",
+   "explain": "retrieve 取回、找回。relieve 減輕（痛苦），reserve 預訂、保留，resolve 解決（問題）。判斷動作：受詞是具體物品且情境為「拿回來」，選 retrieve。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "legible",
+   "stem": "Please write the postal code clearly; the address must be ______ to the sorting machine.",
+   "options": [
+    "literal",
+    "lateral",
+    "legible",
+    "liberal"
+   ],
+   "answer": "C",
+   "explain": "legible 字跡清楚可辨認的。literal 字面上的，lateral 側面的，liberal 開明的、慷慨的。線索在 write clearly 與 sorting machine，指的是「讀得出來」。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "postpone",
+   "stem": "Because of the typhoon, the branch decided to ______ the customer seminar until next month.",
+   "options": [
+    "postpone",
+    "dispose",
+    "propose",
+    "suppose"
+   ],
+   "answer": "A",
+   "explain": "postpone 延期。propose 提議，dispose 處置（dispose of），suppose 假定。線索是 until next month——時間被往後移。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "exempt",
+   "stem": "Documents for the blind are ______ from postage under the current regulations.",
+   "options": [
+    "exert",
+    "exceed",
+    "extend",
+    "exempt"
+   ],
+   "answer": "D",
+   "explain": "be exempt from 免除、豁免（資費、稅捐）。exert 施加（力量、影響），exceed 超過，extend 延長。固定搭配 exempt FROM 是判斷關鍵。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "prompt",
+   "stem": "Customers appreciate the ______ delivery of registered mail, usually within one working day.",
+   "options": [
+    "promising",
+    "promote",
+    "prompt",
+    "prominent"
+   ],
+   "answer": "C",
+   "explain": "prompt 迅速的、及時的。promote 是動詞（升遷、促銷），promising 有前途的，prominent 顯著的、傑出的。空格在冠詞與名詞之間須為形容詞，先用詞性刪掉 promote。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "negligible",
+   "stem": "The difference between the two rates is ______, amounting to less than one dollar per item.",
+   "options": [
+    "negligible",
+    "notable",
+    "navigable",
+    "negotiable"
+   ],
+   "answer": "A",
+   "explain": "negligible 微不足道的、可忽略的。navigable 可航行的，notable 值得注意的（語意相反），negotiable 可協商的。後半句 less than one dollar 已把答案的方向指出來。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "compile",
+   "stem": "The office will ______ a list of undeliverable items at the end of each month.",
+   "options": [
+    "compel",
+    "compile",
+    "comprise",
+    "compose"
+   ],
+   "answer": "B",
+   "explain": "compile 彙編、整理（清單、資料）。compel 強迫，compose 組成、創作，comprise 由……構成。受詞是 a list，最自然的動詞是 compile。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "expire（回收）",
+   "stem": "Your prepaid postage card will ______ at the end of December and cannot be used afterwards.",
+   "options": [
+    "expand",
+    "expose",
+    "explore",
+    "expire"
+   ],
+   "answer": "D",
+   "explain": "expire 到期、失效。expand 擴張，explore 探索，expose 暴露。⚠ 本考點 8/14 曾錯（模考0814-10），當時情境為 claim must be filed before the six-month period expires；本次換為預付卡到期，判斷動作相同：看到「時效終點＋不能再用」就是 expire。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "allocate",
+   "stem": "Each branch will ______ additional staff to the counter during the holiday season.",
+   "options": [
+    "allege",
+    "alleviate",
+    "allocate",
+    "elevate"
+   ],
+   "answer": "C",
+   "explain": "allocate 分配、調配（人力、資源）。allege 宣稱，alleviate 減輕，elevate 提升。allocate A to B 為固定結構，句中 to the counter 即為線索。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "comply",
+   "stem": "All packaging must ______ with the size limits announced by the company.",
+   "options": [
+    "apply",
+    "comply",
+    "reply",
+    "imply"
+   ],
+   "answer": "B",
+   "explain": "comply with 遵守（規定、標準）。apply for 申請、apply to 適用於，imply 暗示，reply to 回覆。四個字都能接 with 以外的介系詞，唯獨「遵守」用 comply with。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "entitle（回收）",
+   "stem": "Holders of the annual pass are ______ to a discount on all domestic parcels.",
+   "options": [
+    "entitled",
+    "entered",
+    "entrusted",
+    "entertained"
+   ],
+   "answer": "A",
+   "explain": "be entitled to 有權享有、有資格取得。entered 進入，entrusted 委託，entertained 招待。⚠ 本考點 8/14 曾錯（模考0814-2），當時為 customers who use registered mail are entitled to…；判斷動作是「be + p.p. + TO + 名詞＝有權享有」。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "eliminate（回收）",
+   "stem": "The new sorting system will ______ most of the errors caused by manual handling.",
+   "options": [
+    "eliminate",
+    "illuminate",
+    "accumulate",
+    "estimate"
+   ],
+   "answer": "A",
+   "explain": "eliminate 消除、去除。accumulate 累積（方向相反），illuminate 照亮，estimate 估計。⚠ 本考點 8/7 曾誤選 accumulate（模考0807-15）；判斷動作：受詞是 errors 這類不想要的東西，動詞方向必為「減少」。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "inquire",
+   "stem": "Several customers came to ______ about the delay of their international parcels.",
+   "options": [
+    "acquire",
+    "require",
+    "inquire",
+    "conquer"
+   ],
+   "answer": "C",
+   "explain": "inquire about 詢問。acquire 取得，require 要求、需要，conquer 征服。介系詞 about 是關鍵——acquire 與 require 後接受詞而非 about。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "remittance",
+   "stem": "The receipt shows the date on which the ______ was sent to the payee abroad.",
+   "options": [
+    "reminder",
+    "remembrance",
+    "remainder",
+    "remittance"
+   ],
+   "answer": "D",
+   "explain": "remittance 匯款（金額）。reminder 提醒物，remainder 剩餘部分，remembrance 紀念、回憶。線索是 sent to the payee abroad——收款人與匯出，指的是匯款。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "beneficiary",
+   "stem": "If the insured person dies, the insurance money will be paid to the named ______.",
+   "options": [
+    "benefactor",
+    "beneficiary",
+    "benevolent",
+    "beneficial"
+   ],
+   "answer": "B",
+   "explain": "beneficiary 受益人。benefactor 捐助者、施惠者（方向相反），beneficial 有益的（形容詞），benevolent 仁慈的（形容詞）。空格前有 the named，須為名詞，先用詞性刪掉兩個形容詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "分詞構句：完成式",
+   "stem": "______ all the documents, the clerk began to process the application.",
+   "options": [
+    "Have checked",
+    "Having checked",
+    "Been checked",
+    "To have checked"
+   ],
+   "answer": "B",
+   "explain": "分詞構句表先後順序時用完成式 Having + p.p.：先檢查完文件，才開始辦理。主詞 the clerk 是主動檢查的人，故用主動形。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "關係代名詞 whose",
+   "stem": "The customer ______ parcel was damaged has filed a claim.",
+   "options": [
+    "whose",
+    "whom",
+    "who",
+    "which"
+   ],
+   "answer": "A",
+   "explain": "空格後為名詞 parcel，且語意為「那位顧客的包裹」，須用所有格關係代名詞 whose。判斷動作只有一步：關係詞後面直接接名詞，就是 whose。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "假設語氣：與過去事實相反",
+   "stem": "If the sender ______ the correct postal code, the parcel would not have been delayed.",
+   "options": [
+    "writes",
+    "wrote",
+    "had written",
+    "has written"
+   ],
+   "answer": "C",
+   "explain": "主句為 would not have been，屬與過去事實相反的假設，if 子句須用過去完成式 had + p.p.。三型要成組記：與現在相反用過去式、與過去相反用過去完成式、與未來相反用 should/were to。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "倒裝：Not until",
+   "stem": "Not until the following morning ______ that the address was incomplete.",
+   "options": [
+    "we noticed",
+    "had we noticed",
+    "we did notice",
+    "did we notice"
+   ],
+   "answer": "D",
+   "explain": "否定副詞片語 Not until 置於句首時，主句須倒裝為「助動詞＋主詞＋原形動詞」。主句時態為過去，故用 did we notice。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "比較級之修飾語",
+   "stem": "The new machine sorts letters ______ faster than the old one.",
+   "options": [
+    "very",
+    "so",
+    "much",
+    "too"
+   ],
+   "answer": "C",
+   "explain": "修飾比較級用 much、far、a lot、even 等；very 只能修飾原級（very fast）。so 與 too 亦不修飾比較級。判斷動作：看到 -er 或 more 就把 very 刪掉。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "動名詞與不定詞之語意差別",
+   "stem": "On his way to the post office, he stopped ______ a cup of coffee.",
+   "options": [
+    "to buy",
+    "buying",
+    "buy",
+    "bought"
+   ],
+   "answer": "A",
+   "explain": "stop to V 表「停下來去做某事」，stop V-ing 表「停止正在做的事」。句意為途中停下來買咖啡，故用 to buy。同型還有 remember/forget/regret + to V 與 V-ing。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "wish＋過去式（回收）",
+   "stem": "This branch is always crowded on Mondays. I wish there ______ more counters open.",
+   "options": [
+    "are",
+    "were",
+    "will be",
+    "have been"
+   ],
+   "answer": "B",
+   "explain": "wish 表與現在事實相反的願望時，後接過去式，be 動詞一律用 were。⚠ 本考點 8/21、8/23、8/24 連續三次答錯（模考0821-19、模考0823-25 及改寫題）。判斷動作：看到 wish 就先問「這是不是與現在事實相反」，是就把動詞往過去推一格。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "名詞子句：what 與 that",
+   "stem": "The manager explained ______ had caused the delay in delivery.",
+   "options": [
+    "that",
+    "which",
+    "whether",
+    "what"
+   ],
+   "answer": "D",
+   "explain": "空格後 had caused 缺主詞，須用兼作主詞的 what（＝the thing that）。that 引導名詞子句時後面須為完整句；whether 表「是否」，語意不合。判斷動作：先看子句缺不缺成分——缺主詞或受詞就用 what。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "現在完成進行式",
+   "stem": "The sorting staff ______ overtime since the beginning of the month.",
+   "options": [
+    "work",
+    "worked",
+    "have been working",
+    "will work"
+   ],
+   "answer": "C",
+   "explain": "since + 時間點須搭配完成式；動作自月初持續至今且仍在進行，用現在完成進行式 have been working。since 是本題唯一線索，看到它就排除單純現在式與未來式。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "even if 讓步（回收）",
+   "stem": "The parcel must be weighed again ______ the sender has already paid the postage.",
+   "options": [
+    "as long as",
+    "even if",
+    "so that",
+    "in case"
+   ],
+   "answer": "B",
+   "explain": "前後兩句語意相衝突（已付郵資，仍須再秤），須用讓步連接詞 even if。as long as 表條件、so that 表目的、in case 表以防萬一。⚠ 本考點 8/24 答錯（改寫0824-英14），判斷動作只有一步：先問前後兩句是相衝突還是同方向，衝突就找讓步詞。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "使役動詞：have + O + p.p.",
+   "stem": "You should have the damaged box ______ before sending it out again.",
+   "options": [
+    "repaired",
+    "repairing",
+    "repair",
+    "to repair"
+   ],
+   "answer": "A",
+   "explain": "have + 受詞 + p.p. 表「使某物被處理」，受詞 the damaged box 是被修理的對象，故用過去分詞 repaired。若受詞是人且主動做事，才用原形（have someone repair it）。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "介系詞 by 與 until",
+   "stem": "Applications must be submitted ______ Friday; late forms will not be accepted.",
+   "options": [
+    "by",
+    "until",
+    "since",
+    "during"
+   ],
+   "answer": "A",
+   "explain": "by 表「在……之前完成」（動作一次完成），until 表「持續到……為止」（狀態持續）。submit 是一次性動作且有截止意味，故用 by。看到 deadline 就選 by，看到 wait、stay、remain 才選 until。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "not only 置句首之倒裝",
+   "stem": "Not only ______ the service faster, but it also costs less.",
+   "options": [
+    "it is",
+    "is",
+    "does it",
+    "has it"
+   ],
+   "answer": "B",
+   "explain": "Not only 置於句首時前半句須倒裝。主要動詞為 be 動詞時，直接把 be 動詞提到主詞前：Not only is the service faster。若為一般動詞才用 does/did 助動詞倒裝。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "provided that 條件",
+   "stem": "You may collect the item at any branch, ______ you bring a valid ID.",
+   "options": [
+    "owing to",
+    "in spite of",
+    "regardless of",
+    "provided that"
+   ],
+   "answer": "D",
+   "explain": "provided that ＝ if，引導條件子句，後接完整句。in spite of、regardless of、owing to 均為介系詞片語，後面只能接名詞，先用詞性即可刪去三個。"
+  },
+  {
+   "section": "文法",
+   "points": 2,
+   "point": "主詞動詞一致：the number of（回收）",
+   "stem": "The number of complaints about late delivery ______ dropped sharply this year.",
+   "options": [
+    "have",
+    "are",
+    "has",
+    "were"
+   ],
+   "answer": "C",
+   "explain": "the number of + 複數名詞視為單數（數目本身），動詞用單數；a number of + 複數名詞才視為複數。⚠ 本考點 8/7、8/23 兩度出現（模考0807-38、模考0823-16）。判斷動作：先找真主詞——這裡是 The number，不是 complaints。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：第31格（關係副詞 where）",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nA small post office in a mountain village has become an unlikely tourist stop. The building itself is plain, but it stands at the point __31__ two old trade routes once met. Visitors come to post letters bearing a special postmark, __32__ is issued only at this branch. The postmaster, who has worked there for thirty years, says the mail volume tripled after a travel programme mentioned the place. __33__ the extra work, he welcomes the change: the branch had been on a list of offices to be closed. Local shops have also benefited, __34__ many visitors stay for lunch. The village council is now considering a small museum, __35__ the interest lasts beyond this season.\n\n第 31 格：",
+   "options": [
+    "where",
+    "which",
+    "that",
+    "what"
+   ],
+   "answer": "A",
+   "explain": "空格後 two old trade routes once met 為完整句且先行詞 the point 表地點，須用關係副詞 where。判斷動作：先看關係詞後面缺不缺成分——完整句就用關係副詞，缺主詞或受詞才用關係代名詞。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：第32格（非限定 which）",
+   "stem": "【克漏字（一）】請依上文回答。\n\n第 32 格：",
+   "options": [
+    "that",
+    "which",
+    "what",
+    "who"
+   ],
+   "answer": "B",
+   "explain": "空格前有逗號為非限定用法，that 不可用於非限定子句；先行詞為物（a special postmark），故用 which。what 不接先行詞、who 用於人。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：第33格（Despite 讓步）",
+   "stem": "【克漏字（一）】請依上文回答。\n\n第 33 格：",
+   "options": [
+    "Despite",
+    "Thanks to",
+    "Because of",
+    "According to"
+   ],
+   "answer": "A",
+   "explain": "空格後為名詞片語 the extra work，須用介系詞；後半句 he welcomes the change 與「額外工作」語意相反，故用表讓步的 Despite。Because of 與 Thanks to 表原因，方向相反。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：第34格（as 表原因）",
+   "stem": "【克漏字（一）】請依上文回答。\n\n第 34 格：",
+   "options": [
+    "so",
+    "but",
+    "or",
+    "as"
+   ],
+   "answer": "D",
+   "explain": "「商家同蒙其利」與「許多遊客留下來吃午餐」為結果與原因的關係，空格後為原因，須用 as（＝because）。so 引導的是結果，前後順序正好相反。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字一：第35格（if 條件）",
+   "stem": "【克漏字（一）】請依上文回答。\n\n第 35 格：",
+   "options": [
+    "although",
+    "unless",
+    "if",
+    "whether"
+   ],
+   "answer": "C",
+   "explain": "語意為「如果這股興趣延續到本季之後」，屬條件而非讓步或否定條件。unless 意為「除非不」，代入後語意相反；whether 引導名詞子句，此處為副詞子句。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：第36格（現在完成式）",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nHandwriting on envelopes is disappearing, and sorting machines are part of the reason. For decades the machines __36__ unable to read anything but printed characters, so letters addressed by hand were pulled aside and sorted by people. Newer systems can now read most handwriting, __37__ the ones written in a hurry. The result is faster delivery, but also fewer jobs at sorting centres. Some workers have been retrained __38__ maintain the machines that replaced them. Postal unions argue that the savings should be shared, __39__ management points to the falling volume of letters overall. Neither side disputes the basic fact: a task once done by thousands __40__ now done by a few dozen.\n\n第 36 格：",
+   "options": [
+    "are",
+    "were",
+    "have been",
+    "had been"
+   ],
+   "answer": "B",
+   "explain": "For decades 搭配過去的敘述且下一句用 were pulled aside（過去式），全段時序在過去，故用 were。若用 have been 則表示狀態延續到現在，與後文「Newer systems can now read」相矛盾。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：第37格（including 介系詞）",
+   "stem": "【克漏字（二）】請依上文回答。\n\n第 37 格：",
+   "options": [
+    "included",
+    "to include",
+    "include",
+    "including"
+   ],
+   "answer": "D",
+   "explain": "空格後為名詞片語 the ones written in a hurry，須用介系詞 including（包括）。included 為過去分詞，須置於名詞之後（the ones included）；include 為動詞，該句已有主要動詞 can read。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：第38格（to V 表目的）",
+   "stem": "【克漏字（二）】請依上文回答。\n\n第 38 格：",
+   "options": [
+    "for",
+    "to",
+    "so",
+    "that"
+   ],
+   "answer": "B",
+   "explain": "「接受再訓練」的目的是「維護機器」，用不定詞 to maintain 表目的。for 後須接名詞或動名詞，so 須接完整子句（so that they can maintain），that 在此無法引導目的。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：第39格（while 對比）",
+   "stem": "【克漏字（二）】請依上文回答。\n\n第 39 格：",
+   "options": [
+    "since",
+    "because",
+    "while",
+    "unless"
+   ],
+   "answer": "C",
+   "explain": "工會主張與資方主張兩相對立，空格連接的是對比關係，用 while（然而、相對地）。because 與 since 表原因，unless 表否定條件，代入後前後句的對立關係就消失了。"
+  },
+  {
+   "section": "克漏字",
+   "points": 2,
+   "point": "克漏字二：第40格（被動語態，回收）",
+   "stem": "【克漏字（二）】請依上文回答。\n\n第 40 格：",
+   "options": [
+    "is",
+    "does",
+    "has",
+    "was"
+   ],
+   "answer": "A",
+   "explain": "主詞 a task 是被完成的對象，done 為過去分詞，須搭配 be 動詞構成被動；now 指現在，故用 is。⚠ 本卷「主詞是動作承受者就用被動」已在文法段考過一次（be to be scanned），此處為同一判斷動作換段落再測。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：主旨",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen the first pillar box was installed on a British street in 1852, the idea was considered slightly improper. Until then, a letter had to be handed to a clerk at a receiving house, who checked it and took the fee. A box on a corner meant that anyone could post a letter at any hour, without being seen and without explaining themselves. Critics warned that servants would write to unsuitable people and that the boxes would fill with rubbish.\n\nNeither fear proved serious. What did happen was a sharp rise in the number of letters, particularly short ones. People began writing notes they would not have bothered to carry to a receiving house: a change of plan, a reminder, a single line of thanks. The postal service, which had expected the boxes to save clerks time, found instead that it needed more of them.\n\nThe design settled quickly. A cylinder resists weather better than a cube, and a narrow slot keeps out rain. Colour took longer. The first boxes were painted green so as not to spoil the view, but people walked past without seeing them, and after a decade of complaints the service repainted every box red.\n\n第 41 題：What is the main point of the passage?",
+   "options": [
+    "How a small change in access altered the way people wrote",
+    "Why cylindrical containers are better than square ones",
+    "How the postal service reduced its staff costs",
+    "Why green is an unsuitable colour for street furniture"
+   ],
+   "answer": "A",
+   "explain": "全文主線是「郵筒讓寄信變得隨時可為」所帶來的書寫行為改變（短信大增）。形狀與顏色為第三段的細節，非主旨；且第二段明言人手需求不減反增，選項三與原文相反。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（反對理由）",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 42 題：What did critics fear about the new boxes?",
+   "options": [
+    "That letters would be lost in bad weather",
+    "That servants would write to unsuitable people",
+    "That clerks would lose their jobs",
+    "That the fee could no longer be collected"
+   ],
+   "answer": "B",
+   "explain": "第一段末句明列兩項疑慮：僕役會寫信給不適當的人、郵筒會塞滿垃圾。天候、失業與資費問題均未出現在該段。細節題的定位動作：找出提出疑慮的那一句，逐一比對選項。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（人力變化）",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 43 題：What happened to the number of clerks needed?",
+   "options": [
+    "It fell as expected",
+    "It stayed the same",
+    "The passage does not say",
+    "It rose"
+   ],
+   "answer": "D",
+   "explain": "第二段末句 found instead that it needed more of them——原本預期省下人力，結果反而需要更多。instead 是轉折信號，通常正是答案所在。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：字義推斷（settled）",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 44 題：In the last paragraph, “The design settled quickly” means that the design",
+   "options": [
+    "sank into the ground",
+    "was frequently changed",
+    "was decided without much difficulty",
+    "was copied by other countries"
+   ],
+   "answer": "C",
+   "explain": "settle 在此為「定案、確定下來」，與下文「顏色卻花了較久」形成對照——形狀很快定案，顏色沒有。若解為「經常變動」，正好與 quickly 及後文的對照關係矛盾。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀一：細節（改漆紅色之原因）",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 45 題：Why were the boxes repainted red?",
+   "options": [
+    "People could not see the green boxes",
+    "Green paint had become expensive",
+    "Red paint lasted longer in the rain",
+    "Red was the colour of the royal family"
+   ],
+   "answer": "A",
+   "explain": "末句明言 people walked past without seeing them，抱怨十年後才全面改漆紅色。耐久性、成本與皇室顏色皆為未提及之資訊——閱讀題不選原文沒有依據的選項。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：主旨",
+   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nEvery few years a government announces that it will move a department out of the capital. The reasons given are always the same: cheaper offices, jobs for a region that needs them, and officials who will be closer to the people they serve. The reasons against are also familiar, and are usually raised by the staff who would have to move.\n\nThe record is mixed. Departments that were moved as a whole, with their senior staff, have generally worked well; those that left their leadership behind have not. In the second case the junior offices become processing centres, decisions continue to be made in the capital, and within a decade a new head office quietly reappears there. The saving turns out to be smaller than promised, because the cost of travel replaces the cost of rent.\n\nWhat the successful moves share is less obvious than location. They were given a reason to exist in the new place — a nearby university, an industry the department regulates, a port. Where that link was absent, the department was simply somewhere else, and being somewhere else is not a purpose.\n\n第 46 題：What is the author's main argument?",
+   "options": [
+    "Moving departments out of the capital always fails",
+    "Relocation succeeds only when the new site gives the department a purpose",
+    "Governments should stop announcing relocations",
+    "Staff objections are the main cause of failure"
+   ],
+   "answer": "B",
+   "explain": "末段點題：成功的搬遷共同點在於新地點提供了存在的理由（鄰近大學、受管制的產業、港口）。作者並未主張「一定失敗」或「不該再搬」，第二段已明言 The record is mixed。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（失敗型態）",
+   "stem": "【閱讀測驗（二）】請依上文回答。\n\n第 47 題：According to the passage, what happens when senior staff stay in the capital?",
+   "options": [
+    "The department is closed within a decade",
+    "Junior offices become processing centres",
+    "Rents rise in the new location",
+    "The department gains new powers"
+   ],
+   "answer": "B",
+   "explain": "第二段明述：留下領導層者，基層辦公室變成處理中心、決策仍在首都、十年內新總部悄悄重現。選項一誤讀——重現的是總部，不是關閉部門。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：細節（節省為何不如預期）",
+   "stem": "【閱讀測驗（二）】請依上文回答。\n\n第 48 題：Why is the saving smaller than promised?",
+   "options": [
+    "Salaries have to be increased",
+    "New buildings must be constructed",
+    "Travel costs replace rent costs",
+    "Fewer staff agree to move"
+   ],
+   "answer": "C",
+   "explain": "第二段末句直接給出理由：the cost of travel replaces the cost of rent。薪資、興建與人員意願雖為常見想像，但原文未提，屬於「憑常識補上去」的典型誤答。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：作者態度（回收）",
+   "stem": "【閱讀測驗（二）】請依上文回答。\n\n第 49 題：What is the author's attitude toward relocation policies?",
+   "options": [
+    "Conditionally positive",
+    "Enthusiastically supportive",
+    "Strongly opposed",
+    "Completely indifferent"
+   ],
+   "answer": "A",
+   "explain": "作者承認搬遷可以成功，但附上條件（新地點須有存在的理由），屬有條件的肯定。⚠ 本題型 8/14 曾錯（模考0814-50 作者立場）。判斷動作：態度題先找轉折與條件句——出現 mixed、only when、where…absent 這類字眼，答案就在「有條件」那一格，不會是極端選項。"
+  },
+  {
+   "section": "閱讀",
+   "points": 2,
+   "point": "閱讀二：句意理解（末句）",
+   "stem": "【閱讀測驗（二）】請依上文回答。\n\n第 50 題：What does the last sentence mean?",
+   "options": [
+    "Being far from the capital improves service",
+    "Departments should remain in the capital",
+    "Location is the most important factor",
+    "A new location by itself is not a reason for existing"
+   ],
+   "answer": "D",
+   "explain": "being somewhere else is not a purpose——只是換個地方，並不構成存在的目的，呼應該段「須有連結」的主張。選項二、三、四都把作者的條件式主張讀成了單一立場。"
+  }
+ ]
+}
