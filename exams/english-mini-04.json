@@ -1,149 +1,224 @@
 {
-  "title": "英文迷你卷 04（8/25 錯題改寫）",
-  "subject": "英文",
-  "minutes": 20,
-  "sections": [
-    {
-      "name": "選擇",
-      "count": 15,
-      "points": 2
-    }
-  ],
-  "questions": [
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "complaint",
-      "stem": "After repeated delivery delays, the office received several customer ______.",
-      "options": ["compliments", "completions", "complaints", "components"],
-      "answer": "C",
-      "explain": "A complaint is a statement that something is unsatisfactory. Customer complaints are therefore reports of dissatisfaction about the delays; compliments are expressions of praise."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "population",
-      "stem": "The island's ______ has declined as many young residents have moved away.",
-      "options": ["publication", "population", "pollution", "popularity"],
-      "answer": "B",
-      "explain": "Population means the people living in a particular place. The movement of residents away from the island causes its population to decline."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "eliminate",
-      "stem": "The revised checklist is designed to ______ avoidable sorting errors.",
-      "options": ["estimate", "establish", "entertain", "eliminate"],
-      "answer": "D",
-      "explain": "Eliminate means to remove or get rid of something. A checklist is intended to remove avoidable errors, not merely estimate them."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "emergency",
-      "stem": "Keep this exit clear so that it can be used in an ______.",
-      "options": ["emergency", "empire", "emphasis", "employee"],
-      "answer": "A",
-      "explain": "An emergency is a sudden dangerous situation requiring immediate action. The fixed expression is 'in an emergency.'"
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "crucial",
-      "stem": "Accurate addressing is ______ to timely delivery.",
-      "options": ["casual", "curious", "crucial", "current"],
-      "answer": "C",
-      "explain": "Crucial means extremely important. The pattern 'be crucial to + noun' shows that accurate addressing is essential to timely delivery."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "rescue dogs",
-      "stem": "After the earthquake, trained ______ searched the damaged buildings for survivors.",
-      "options": ["guide dogs", "rescue dogs", "watchdogs", "stray dogs"],
-      "answer": "B",
-      "explain": "Rescue dogs are trained to locate and assist people in danger. Guide dogs assist people with visual impairments, while watchdogs guard property."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "accurate",
-      "stem": "Please check that the recipient's address is ______ before printing the label.",
-      "options": ["available", "familiar", "formal", "accurate"],
-      "answer": "D",
-      "explain": "Accurate means correct and free from errors. An address must be accurate before it is printed on a mailing label."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "complement",
-      "stem": "The new mobile service ______ the existing counter service by providing access after hours.",
-      "options": ["complements", "compliments", "complies", "completes"],
-      "answer": "A",
-      "explain": "Complement means to add a useful quality that improves or completes something. The mobile service adds after-hours access to the existing service; compliment means to praise."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "主詞動詞一致",
-      "stem": "A number of damaged parcels ______ reported this morning.",
-      "options": ["was", "were", "has", "is"],
-      "answer": "B",
-      "explain": "'A number of + plural noun' takes a plural verb. Because the parcels receive the action, the plural passive form 'were reported' is required."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "expire",
-      "stem": "The discount coupon will ______ at the end of the month.",
-      "options": ["expose", "explore", "expire", "expand"],
-      "answer": "C",
-      "explain": "Expire means to come to the end of its period of validity. A coupon expires when it can no longer be used."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "作者態度",
-      "stem": "A rural postal service tested electric bicycles on several delivery routes. The bicycles reduced fuel costs and performed well on short, level roads. However, their limited battery range made them unsuitable for remote mountain routes. Officials therefore plan to expand the program only in areas where the routes and charging facilities are suitable.\n\nWhat is the writer's attitude toward the use of electric bicycles?",
-      "options": ["Completely opposed because they cannot serve every route", "Uncertain because no benefit has been demonstrated", "Highly enthusiastic and in favor of replacing all vehicles", "Cautiously supportive because they are useful only in suitable areas"],
-      "answer": "D",
-      "explain": "The passage reports clear benefits but also a practical limitation, and it supports expansion only where conditions are suitable. This is a cautiously supportive attitude rather than complete enthusiasm or opposition."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "only to V",
-      "stem": "Mina hurried to the post office, only ______ that it had closed early.",
-      "options": ["to find", "finding", "found", "find"],
-      "answer": "A",
-      "explain": "'Only to + verb' expresses an unexpected or disappointing result. Mina hurried there but unexpectedly found the office closed."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "compensation",
-      "stem": "Because the insured parcel was lost, the customer filed a claim for ______.",
-      "options": ["subscription", "competition", "compensation", "permission"],
-      "answer": "C",
-      "explain": "Compensation is money paid for loss or damage. The collocation 'file a claim for compensation' fits the loss of an insured parcel."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "subscription",
-      "stem": "A one-year ______ to the magazine includes twelve monthly issues.",
-      "options": ["submission", "subscription", "substitution", "description"],
-      "answer": "B",
-      "explain": "A subscription is an arrangement to receive a publication regularly for a period of time. Twelve monthly issues make up a one-year subscription."
-    },
-    {
-      "section": "選擇",
-      "points": 2,
-      "point": "whether子句",
-      "stem": "The clerk checked ______ the parcel required a customs declaration.",
-      "options": ["during", "despite", "unless", "whether"],
-      "answer": "D",
-      "explain": "Whether introduces a noun clause expressing two possibilities: the parcel either required a declaration or it did not. Prepositions such as during and despite cannot directly introduce this complete clause."
-    }
-  ]
+ "title": "英文迷你卷 04（8/25 錯題改寫）",
+ "subject": "英文",
+ "minutes": 20,
+ "sections": [
+  {
+   "name": "選擇",
+   "count": 15,
+   "points": 2
+  }
+ ],
+ "questions": [
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "complaint",
+   "stem": "After repeated delivery delays, the office received several customer ______.",
+   "options": [
+    "compliments",
+    "completions",
+    "complaints",
+    "components"
+   ],
+   "answer": "C",
+   "explain": "A complaint is a statement that something is unsatisfactory. Customer complaints are therefore reports of dissatisfaction about the delays; compliments are expressions of praise."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "population",
+   "stem": "The island's ______ has declined as many young residents have moved away.",
+   "options": [
+    "publication",
+    "population",
+    "pollution",
+    "popularity"
+   ],
+   "answer": "B",
+   "explain": "Population means the people living in a particular place. The movement of residents away from the island causes its population to decline."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "eliminate",
+   "stem": "The revised checklist is designed to ______ avoidable sorting errors.",
+   "options": [
+    "estimate",
+    "establish",
+    "entertain",
+    "eliminate"
+   ],
+   "answer": "D",
+   "explain": "Eliminate means to remove or get rid of something. A checklist is intended to remove avoidable errors, not merely estimate them."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "emergency",
+   "stem": "Keep this exit clear so that it can be used in an ______.",
+   "options": [
+    "emergency",
+    "empire",
+    "emphasis",
+    "employee"
+   ],
+   "answer": "A",
+   "explain": "An emergency is a sudden dangerous situation requiring immediate action. The fixed expression is 'in an emergency.'"
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "crucial",
+   "stem": "Accurate addressing is ______ to timely delivery.",
+   "options": [
+    "casual",
+    "curious",
+    "crucial",
+    "current"
+   ],
+   "answer": "C",
+   "explain": "Crucial means extremely important. The pattern 'be crucial to + noun' shows that accurate addressing is essential to timely delivery."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "rescue dogs",
+   "stem": "After the earthquake, trained ______ searched the damaged buildings for survivors.",
+   "options": [
+    "guide dogs",
+    "rescue dogs",
+    "watchdogs",
+    "stray dogs"
+   ],
+   "answer": "B",
+   "explain": "Rescue dogs are trained to locate and assist people in danger. Guide dogs assist people with visual impairments, while watchdogs guard property."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "accurate",
+   "stem": "Please check that the recipient's address is ______ before printing the label.",
+   "options": [
+    "available",
+    "familiar",
+    "formal",
+    "accurate"
+   ],
+   "answer": "D",
+   "explain": "Accurate means correct and free from errors. An address must be accurate before it is printed on a mailing label."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "complement",
+   "stem": "The new mobile service ______ the existing counter service by adding after-hours access, rather than replacing it.",
+   "options": [
+    "complements",
+    "compliments",
+    "complies",
+    "completes"
+   ],
+   "answer": "A",
+   "explain": "Complement means to add a useful quality that improves or completes something. The mobile service adds after-hours access to the existing service; compliment means to praise. Note the contrast with 'rather than replacing it': the two services work side by side, so 'complements' (adds a useful quality) is the only fit; 'completes' would mean the counter service was previously unfinished."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "主詞動詞一致",
+   "stem": "A number of damaged parcels ______ reported this morning.",
+   "options": [
+    "was",
+    "were",
+    "has",
+    "is"
+   ],
+   "answer": "B",
+   "explain": "'A number of + plural noun' takes a plural verb. Because the parcels receive the action, the plural passive form 'were reported' is required."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "expire",
+   "stem": "The discount coupon will ______ at the end of the month.",
+   "options": [
+    "expose",
+    "explore",
+    "expire",
+    "expand"
+   ],
+   "answer": "C",
+   "explain": "Expire means to come to the end of its period of validity. A coupon expires when it can no longer be used."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "作者態度",
+   "stem": "A rural postal service tested electric bicycles on several delivery routes. The bicycles reduced fuel costs and performed well on short, level roads. However, their limited battery range made them unsuitable for remote mountain routes. Officials therefore plan to expand the program only in areas where the routes and charging facilities are suitable.\n\nWhat is the writer's attitude toward the use of electric bicycles?",
+   "options": [
+    "Completely opposed because they cannot serve every route",
+    "Uncertain because no benefit has been demonstrated",
+    "Highly enthusiastic and in favor of replacing all vehicles",
+    "Cautiously supportive because they are useful only in suitable areas"
+   ],
+   "answer": "D",
+   "explain": "The passage reports clear benefits but also a practical limitation, and it supports expansion only where conditions are suitable. This is a cautiously supportive attitude rather than complete enthusiasm or opposition."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "only to V",
+   "stem": "Mina hurried to the post office, only ______ that it had closed early.",
+   "options": [
+    "to find",
+    "finding",
+    "found",
+    "find"
+   ],
+   "answer": "A",
+   "explain": "'Only to + verb' expresses an unexpected or disappointing result. Mina hurried there but unexpectedly found the office closed."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "compensation",
+   "stem": "Because the insured parcel was lost, the customer filed a claim for ______.",
+   "options": [
+    "subscription",
+    "competition",
+    "compensation",
+    "permission"
+   ],
+   "answer": "C",
+   "explain": "Compensation is money paid for loss or damage. The collocation 'file a claim for compensation' fits the loss of an insured parcel."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "subscription",
+   "stem": "A one-year ______ to the magazine includes twelve monthly issues.",
+   "options": [
+    "submission",
+    "subscription",
+    "substitution",
+    "description"
+   ],
+   "answer": "B",
+   "explain": "A subscription is an arrangement to receive a publication regularly for a period of time. Twelve monthly issues make up a one-year subscription."
+  },
+  {
+   "section": "選擇",
+   "points": 2,
+   "point": "whether子句",
+   "stem": "The clerk checked ______ the parcel required a customs declaration.",
+   "options": [
+    "during",
+    "despite",
+    "unless",
+    "whether"
+   ],
+   "answer": "D",
+   "explain": "Whether introduces a noun clause expressing two possibilities: the parcel either required a declaration or it did not. Prepositions such as during and despite cannot directly introduce this complete clause."
+  }
+ ]
 }

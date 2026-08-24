@@ -126,16 +126,16 @@
   {
    "section": "字彙",
    "points": 2,
-   "point": "expire（回收）",
-   "stem": "Your prepaid postage card will ______ at the end of December and cannot be used afterwards.",
+   "point": "publication 詞性（回收）",
+   "stem": "The ______ of the new rate table has been postponed until the audit is complete.",
    "options": [
-    "expand",
-    "expose",
-    "explore",
-    "expire"
+    "publicity",
+    "publisher",
+    "publication",
+    "publishing"
    ],
-   "answer": "D",
-   "explain": "expire 到期、失效。expand 擴張，explore 探索，expose 暴露。⚠ 本考點 8/14 曾錯（模考0814-10），當時情境為 claim must be filed before the six-month period expires；本次換為預付卡到期，判斷動作相同：看到「時效終點＋不能再用」就是 expire。"
+   "answer": "C",
+   "explain": "publication 出版、公布（動作名詞），符合「新資費表的公布被延後」。publicity 宣傳、知名度，publisher 出版者（人），publishing 為動名詞或形容詞。⚠ 本考點 8/18 曾誤選 publicity（模考0818-5），8/24 改寫題答對；本次再換情境驗證。判斷動作：the ___ of + 事物，要的是動作名詞不是人。"
   },
   {
    "section": "字彙",
@@ -182,16 +182,16 @@
   {
    "section": "字彙",
    "points": 2,
-   "point": "eliminate（回收）",
-   "stem": "The new sorting system will ______ most of the errors caused by manual handling.",
+   "point": "assure／ensure 受詞（回收）",
+   "stem": "The supervisor ______ the waiting customers that extra counters would open shortly.",
    "options": [
-    "eliminate",
-    "illuminate",
-    "accumulate",
-    "estimate"
+    "ensured",
+    "assured",
+    "insured",
+    "secured"
    ],
-   "answer": "A",
-   "explain": "eliminate 消除、去除。accumulate 累積（方向相反），illuminate 照亮，estimate 估計。⚠ 本考點 8/7 曾誤選 accumulate（模考0807-15）；判斷動作：受詞是 errors 這類不想要的東西，動詞方向必為「減少」。"
+   "answer": "B",
+   "explain": "assure + 人 + that 子句＝向某人保證；ensure 後接事情（ensure that…）不接人；insure 是投保；secure 是取得或保全。⚠ 本考點 8/14 錯、8/18 回測判準未到位、8/24 改寫題答對；中文都譯作「確保」，英文以「受詞是人還是事」分流。判斷動作：看空格後緊接的是不是「人」。"
   },
   {
    "section": "字彙",
@@ -435,7 +435,7 @@
    "section": "文法",
    "points": 2,
    "point": "主詞動詞一致：the number of（回收）",
-   "stem": "The number of complaints about late delivery ______ dropped sharply this year.",
+   "stem": "The number of undelivered items in the warehouse ______ fallen below fifty for the first time.",
    "options": [
     "have",
     "are",
@@ -443,7 +443,7 @@
     "were"
    ],
    "answer": "C",
-   "explain": "the number of + 複數名詞視為單數（數目本身），動詞用單數；a number of + 複數名詞才視為複數。⚠ 本考點 8/7、8/23 兩度出現（模考0807-38、模考0823-16）。判斷動作：先找真主詞——這裡是 The number，不是 complaints。"
+   "explain": "the number of + 複數名詞視為單數（數目本身），動詞用單數；a number of + 複數名詞才視為複數。⚠ 本考點 8/7、8/23 兩度出現（模考0807-38、模考0823-16），8/21 仿真卷 C 亦考過同一組，本次換情境再測。判斷動作：先找真主詞——這裡是 The number，不是 items。"
   },
   {
    "section": "克漏字",
