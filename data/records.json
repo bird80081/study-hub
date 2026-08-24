@@ -6069,5 +6069,688 @@
    "2": 90,
    "3": 42
   }
+ },
+ "2026-08-24": {
+  "date": "2026-08-24",
+  "drill": {
+   "count": 43,
+   "wrong": [
+    {
+     "id": "rc-3c52ace3-4688-817d-9707-ddf291724504",
+     "subject": "英文",
+     "point": "模考0823-49",
+     "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 49 題：Why does the author mention a component that costs two dollars?",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-24",
+     "options": [
+      "To show that spare parts have become cheaper over time",
+      "To explain why manufacturers oppose the new rules",
+      "To give an example of how repair is made uneconomic",
+      "To compare the price of old and new appliances"
+     ],
+     "userText": "To show that spare parts have become cheaper over time"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8135-858e-c90a8208b8bd",
+     "subject": "英文",
+     "point": "模考0823-43",
+     "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nIn 1945, an American engineer named Percy Spencer was standing beside a machine that produced radar waves. He noticed that a chocolate bar in his pocket had melted. It was a warm room, and most people would have thought no more about it, but Spencer had spent years working with such machines and was curious.\n\nHe tried again the next day, this time with a bag of corn kernels. They popped. He then placed an egg near the machine, and it burst. Within a year his company had built a cooking box that used the same waves. It stood almost six feet tall, weighed as much as a small car, and cost more than most families earned in a year. Only restaurants and ships bought it.\n\nThe machine that sits in kitchens today took another twenty years to arrive. What changed was not the science, which was understood from the start, but the price of the parts. By 1975, more American homes had a microwave oven than a dishwasher. Spencer himself received two dollars for the patent, the standard payment his company made to any employee who invented something.\n\n第 43 題：Why did the kitchen microwave take another twenty years to appear?",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "The science was not yet understood.",
+      "Restaurants opposed its sale to homes.",
+      "Spencer refused to sell the patent.",
+      "The parts remained too expensive."
+     ],
+     "userText": "Restaurants opposed its sale to homes."
+    },
+    {
+     "id": "rc-3c52ace3-4688-8131-878f-e24e18583c3d",
+     "subject": "英文",
+     "point": "模考0823-40",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 40 格：",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "Since",
+      "Because",
+      "Unless",
+      "Although"
+     ],
+     "userText": "Unless"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8148-aa3c-f02639c2f065",
+     "subject": "英文",
+     "point": "模考0823-36",
+     "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nPublic libraries were once judged by the number of books on their shelves. Many are now measured by something else: the number of hours people spend inside them. A library card gives access to a quiet desk, a power socket, and a wireless network __36__ is free to everyone. The idea works __37__ the building stays open late enough to be useful; a library that closes at five in the afternoon serves almost nobody who has a job. Some critics argue that a library without books has lost its purpose, but so far the opposite __38__ true: branches that added desks and sockets also lent more books than before. The service matters most to __39__ who have no quiet room of their own. __40__ the shelves are shorter than they used to be, most libraries report more visitors than at any time in the past twenty years.\n\n第 36 格：",
+     "user": "B",
+     "answer": "C",
+     "date": "2026-08-24",
+     "options": [
+      "whose",
+      "what",
+      "which",
+      "where"
+     ],
+     "userText": "what"
+    },
+    {
+     "id": "rc-3c52ace3-4688-818b-b649-fcd9b7201d43",
+     "subject": "英文",
+     "point": "模考0823-35",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 35 格：",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "whether",
+      "unless",
+      "although",
+      "because"
+     ],
+     "userText": "although"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8108-b649-c8d102f7465c",
+     "subject": "英文",
+     "point": "模考0823-34",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 34 格：",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-24",
+     "options": [
+      "or",
+      "as",
+      "so",
+      "but"
+     ],
+     "userText": "so"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81ea-9d5d-d6eb45ae22d8",
+     "subject": "英文",
+     "point": "模考0823-33",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 33 格：",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-24",
+     "options": [
+      "Still",
+      "Therefore",
+      "Otherwise",
+      "Similarly"
+     ],
+     "userText": "Otherwise"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8155-8d98-c69bdda3b1dc",
+     "subject": "英文",
+     "point": "模考0823-32",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 32 格：",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "what",
+      "that",
+      "which",
+      "where"
+     ],
+     "userText": "what"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81b0-8424-c24fff2444ae",
+     "subject": "英文",
+     "point": "模考0823-30",
+     "stem": "The two researchers have worked together for years and ______ very well.",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-24",
+     "options": [
+      "get on",
+      "get through",
+      "get up",
+      "get over"
+     ],
+     "userText": "get over"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8147-a77a-cabcea552854",
+     "subject": "英文",
+     "point": "模考0823-26",
+     "stem": "When ______ about the mistake, the waiter apologized at once and offered a refund.",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "to ask",
+      "ask",
+      "asking",
+      "asked"
+     ],
+     "userText": "ask"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8124-b8b8-e2cc526a8016",
+     "subject": "英文",
+     "point": "模考0823-25",
+     "stem": "This photograph has no date on the back. I wish there ______ some way to find out when it was taken.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-24",
+     "options": [
+      "is",
+      "would have been",
+      "were",
+      "will be"
+     ],
+     "userText": "is"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81d1-a981-cd145fd61897",
+     "subject": "英文",
+     "point": "模考0823-20",
+     "stem": "______ in line for an hour is not my idea of a good morning.",
+     "user": "C",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "Wait",
+      "Waited",
+      "To waiting",
+      "Waiting"
+     ],
+     "userText": "To waiting"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8153-816c-fce64abc6832",
+     "subject": "英文",
+     "point": "模考0823-12",
+     "stem": "After working here for ten years, she is quite ______ with every street in this district.",
+     "user": "C",
+     "answer": "B",
+     "date": "2026-08-24",
+     "options": [
+      "similar",
+      "familiar",
+      "formal",
+      "famous"
+     ],
+     "userText": "formal"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81c1-8b0c-e1c7acff90c9",
+     "subject": "英文",
+     "point": "模考0823-8",
+     "stem": "It was ______ of him to copy the phone number without checking a single digit.",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "caring",
+      "careful",
+      "carefree",
+      "careless"
+     ],
+     "userText": "caring"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8107-9f1f-c52a4be9d5c5",
+     "subject": "英文",
+     "point": "模考0823-1",
+     "stem": "Before posting the recipe online, she asked me to ______ the flour on the kitchen scale.",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-24",
+     "options": [
+      "wear",
+      "weigh",
+      "wait",
+      "wave"
+     ],
+     "userText": "wave"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8161-8f58-fb726686847a",
+     "subject": "國文",
+     "point": "錯別字辨識：草菅人命",
+     "stem": "下列文句，何者用字有誤？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-24",
+     "options": [
+      "他做事一絲不苟",
+      "兩人相敬如賓",
+      "為官者不可草管人命",
+      "此事已迫在眉睫"
+     ],
+     "userText": "他做事一絲不苟"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81de-8075-def28ae48a74",
+     "subject": "國文",
+     "point": "公文用字：期望語之選用",
+     "stem": "行文於下級機關時，公文結語之期望語應使用下列何者？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-24",
+     "options": [
+      "希查照辦理",
+      "敬請鑒核",
+      "請鑒核示遵",
+      "謹陳核示"
+     ],
+     "userText": "敬請鑒核"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8192-bc6c-f7dba6c403be",
+     "subject": "國文",
+     "point": "古文詞義：君子喻於義之「喻」",
+     "stem": "《論語．里仁》：「君子喻於義，小人喻於利。」其中「喻」一字係指：",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "告知曉諭",
+      "比喻譬喻",
+      "喜好偏愛",
+      "明白通曉"
+     ],
+     "userText": "告知曉諭"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8165-a230-dc6aff08ac9e",
+     "subject": "國文",
+     "point": "古文詞義：越國以鄙遠之「鄙」",
+     "stem": "《左傳．僖公三十年》：「越國以鄙遠，君知其難也。」句中「鄙」字意謂下列何者？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-24",
+     "options": [
+      "鄙視輕賤",
+      "以之為邊邑",
+      "自謙之詞",
+      "邊遠粗俗"
+     ],
+     "userText": "鄙視輕賤"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8188-ac92-e9c653d8a9e8",
+     "subject": "國文",
+     "point": "成語運用：曾幾何時",
+     "stem": "「曾幾何時」一語，用以形容下列何者？",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-24",
+     "options": [
+      "時間所剩無幾",
+      "曾經有過幾次",
+      "不知何時開始",
+      "時間過去不久"
+     ],
+     "userText": "曾經有過幾次"
+    },
+    {
+     "id": "rc-3c52ace3-4688-817f-ab38-c4a5e33d1352",
+     "subject": "郵政法規",
+     "point": "保險人不負給付責任之事由",
+     "stem": "依簡易人壽保險法規定，下列何種情形保險人仍應負給付保險金額之責任？",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-24",
+     "options": [
+      "被保險人在契約發生效力後一年以內故意自殺",
+      "被保險人於契約發生效力後滿一年後故意自殺",
+      "被保險人因犯罪處死致死",
+      "要保人故意致被保險人於死"
+     ],
+     "userText": "被保險人在契約發生效力後一年以內故意自殺"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-813a-9422-e5bb13d3cde6",
+     "subject": "郵政法規",
+     "point": "不可抗力不予補償時之資費退還",
+     "stem": "國際掛號函件因不可抗力致全部遺失而不予補償者，依郵件處理規則寄件人得請求退還何項費用？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-24",
+     "options": [
+      "已付各項資費，但保價費不包括在內",
+      "一律不予退還",
+      "僅得退還普通郵資",
+      "已付各項資費，包括保價費"
+     ],
+     "userText": "一律不予退還"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81b3-ad3f-d0d112d95cb2",
+     "subject": "民法",
+     "point": "抵押權之標的",
+     "stem": "下列何者不得為普通抵押權之標的？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-24",
+     "options": [
+      "地上權",
+      "土地",
+      "動產",
+      "房屋"
+     ],
+     "userText": "地上權"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3bc2ace3-4688-81e2-8366-fedf0780b446",
+     "subject": "英文",
+     "point": "模考0814-2"
+    },
+    {
+     "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
+     "subject": "英文",
+     "point": "模考0807-19 be sold as"
+    },
+    {
+     "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
+     "subject": "英文",
+     "point": "模考0731-45 will（未來單純式）"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81c0-bcc6-ca836061cd35",
+     "subject": "英文",
+     "point": "模考0823-47"
+    },
+    {
+     "id": "rc-3c52ace3-4688-817c-a963-ef7e856699af",
+     "subject": "英文",
+     "point": "模考0823-45"
+    },
+    {
+     "id": "rc-3c52ace3-4688-818f-b6c1-d8307adca713",
+     "subject": "英文",
+     "point": "模考0823-19"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8197-9c72-e19c2f91d5a4",
+     "subject": "英文",
+     "point": "模考0823-16"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8145-9b70-cc0c4f15c438",
+     "subject": "英文",
+     "point": "模考0823-13"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81d3-bed0-e7878ce01b54",
+     "subject": "英文",
+     "point": "模考0823-3"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8119-be1f-d66e7f3e7bb3",
+     "subject": "英文",
+     "point": "模考0823-2"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8133-829a-cefc9c5cf1be",
+     "subject": "國文",
+     "point": "古文詞義：王無罪歲之「罪」"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8181-ae1a-d1001b735843",
+     "subject": "郵政法規",
+     "point": "改投與改寄之資費負擔"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8142-88d4-fed56309c125",
+     "subject": "郵政法規",
+     "point": "國際郵件存局候領之期間"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8183-9114-d350483c0bf0",
+     "subject": "郵政法規",
+     "point": "混合交寄郵件之重量限制"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8179-a94e-dd2403887993",
+     "subject": "郵政法規",
+     "point": "包裹內容易於自然變質之處置"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81a4-9789-e6a2f981eed2",
+     "subject": "郵政法規",
+     "point": "已遞交郵件不得退回之種類"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81c1-a6cf-c62e1c092df4",
+     "subject": "郵政法規",
+     "point": "主管機關實施檢查與規避之處罰"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
+     "subject": "郵政法規",
+     "point": "郵政法罰鍰級距組合"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81b7-a954-da97b3e2ecdc",
+     "subject": "民法",
+     "point": "代位繼承與繼承順序"
+    },
+    {
+     "id": "rc-3c52ace3-4688-816d-96fc-c80bdbb65128",
+     "subject": "民法",
+     "point": "形成權之種類"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "id": "english-mini-0824-rewrite",
+    "title": "英文迷你卷：到期錯題改寫（8/24）",
+    "subject": "英文",
+    "mcScore": 30,
+    "mcMax": 42,
+    "mcRight": 15,
+    "mcTotal": 21,
+    "wrongs": [
+     {
+      "n": 7,
+      "point": "compensation辨析",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 8,
+      "point": "subscription辨析",
+      "user": "D",
+      "answer": "C"
+     },
+     {
+      "n": 13,
+      "point": "wish過去式",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 14,
+      "point": "even if讓步",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 19,
+      "point": "whether用法",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 20,
+      "point": "閱讀細節定位",
+      "user": "A",
+      "answer": "C"
+     }
+    ]
+   },
+   {
+    "id": "postal-mini-0824-rewrite",
+    "title": "郵政法規迷你卷：到期錯題改寫（8/24）",
+    "subject": "郵政法規",
+    "mcScore": 6,
+    "mcMax": 16,
+    "mcRight": 3,
+    "mcTotal": 8,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "保價郵件補償",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 2,
+      "point": "特約記帳預存",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 4,
+      "point": "簡壽罰鍰",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 5,
+      "point": "補償雙時效",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 7,
+      "point": "查詢支付期間",
+      "user": "C",
+      "answer": "B"
+     }
+    ]
+   },
+   {
+    "id": "minfa-mini-0824-rewrite",
+    "title": "民法迷你卷：到期錯題改寫（8/24）",
+    "subject": "民法",
+    "mcScore": 16,
+    "mcMax": 20,
+    "mcRight": 8,
+    "mcTotal": 10,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "物品運送時效",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 4,
+      "point": "買賣瑕疵期間",
+      "user": "C",
+      "answer": "D"
+     }
+    ]
+   },
+   {
+    "id": "chinese-mini-0824-rewrite",
+    "title": "國文迷你卷：到期錯題改寫（8/24）",
+    "subject": "國文",
+    "mcScore": 6,
+    "mcMax": 10,
+    "mcRight": 3,
+    "mcTotal": 5,
+    "wrongs": [
+     {
+      "n": 3,
+      "point": "曾幾何時",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 4,
+      "point": "鄙字活用",
+      "user": "B",
+      "answer": "C"
+     }
+    ]
+   },
+   {
+    "id": "minfa-teacher-0801a",
+    "title": "民法選擇：8/1 徐師精選題目練習（上，第1～19題）",
+    "subject": "民法",
+    "mcScore": 33,
+    "mcMax": 57,
+    "mcRight": 11,
+    "mcTotal": 19,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "同時死亡推定與繼承順序",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 3,
+      "point": "剩餘財產差額分配之計算 ⚠",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 4,
+      "point": "受扶養權利之要件（直系血親尊親屬之特則）",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 11,
+      "point": "喪失繼承權之要件（故意）與代位繼承",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 14,
+      "point": "受輔助宣告人之行為能力（準用第85條）",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 15,
+      "point": "法律行為之無效（通謀虛偽對善意第三人）",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 16,
+      "point": "特留分之比例（配偶與兄弟姊妹）",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 19,
+      "point": "代理之範圍與受詐欺之判斷主體",
+      "user": "D",
+      "answer": "B"
+     }
+    ]
+   }
+  ],
+  "vocab": {
+   "done": 15,
+   "right": 13
+  },
+  "vocabStages": {
+   "0": 22,
+   "1": 95,
+   "2": 92,
+   "3": 43
+  }
  }
 }
