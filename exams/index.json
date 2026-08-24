@@ -427,5 +427,14 @@
     "minutes": 14,
     "summary": "選擇 14 題．形近字／詞性判斷／分詞構句／介系詞 to／連接詞五組判準各 2～3 題，含曾錯 7 題",
     "type": "practice"
+  },
+  {
+    "id": "english-mini-04",
+    "file": "english-mini-04.json",
+    "title": "英文迷你卷 04（8/25 錯題改寫）",
+    "subject": "英文",
+    "minutes": 20,
+    "summary": "選擇 15 題．多次答錯題換方向改寫，避開 8/25 自動回收卷重複考點",
+    "type": "practice"
   }
 ]
