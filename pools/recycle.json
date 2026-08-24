@@ -1,65 +1,8 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-23T23:13:02",
- "dueDate": "2026-08-24",
+ "generatedAt": "2026-08-24T22:55:06",
+ "dueDate": "2026-08-25",
  "questions": [
-  {
-   "id": "rc-3bc2ace3-4688-81e2-8366-fedf0780b446",
-   "point": "模考0814-2",
-   "stem": "Customers who use registered mail are _____ to compensation if the item is lost.",
-   "options": [
-    "entered",
-    "entertained",
-    "entrusted",
-    "entitled"
-   ],
-   "answer": "D",
-   "explain": "be entitled to N/V 表「有權享有」，為固定搭配。entertain 娛樂、enter 進入、entrust 委託（entrust sb. with sth.）。四字同以 ent- 起首，屬形近字組。8/13 此字誤選 entertained，本題保留搭配結構、改換主詞與條件子句重測。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3bc2ace3-4688-81e2-8366-fedf0780b446",
-   "kind": "英文",
-   "number": "模考0814-2",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3b52ace3-4688-818c-ac4d-f1b21f843269",
-   "point": "模考0807-19 be sold as",
-   "stem": "These second-hand boxes are _____ packing material at a very low price.",
-   "options": [
-    "sold as",
-    "sold for",
-    "selling as",
-    "sold to"
-   ],
-   "answer": "A",
-   "explain": "be sold as 意為『被當作……出售』，as 表身分或用途。sold for 後接價格、selling as 語態錯誤（箱子是被賣）、sold to 後接買方。第 1 場模考此搭配答錯，須依 as／for／to 所接內容判斷。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3b52ace3-4688-818c-ac4d-f1b21f843269",
-   "kind": "英文",
-   "number": "模考0807-19 be sold as",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3ae2ace3-4688-8159-84a2-fa8859e2fe35",
-   "point": "模考0731-45 will（未來單純式）",
-   "stem": "第 45 格：請依段落前後文意，選出最適當的答案。",
-   "options": [
-    "would",
-    "will be going to",
-    "X",
-    "will"
-   ],
-   "answer": "D",
-   "explain": "歷屆真卷題，逐題檢討時補充解析。",
-   "passage": "When we talk about \"soft drinks,\" we usually think of cola. In the beginning, cola was sold __41__ medicine because it had medical benefits. __42__ the years, people kept finding new uses for cola around the house. __43__, cola can be used for cleaning and cooking. The acid in cola can get dirty pots clean. Also, if you __44__ some cola to your meat, the soda in it can make it soft. However, if you drink too much of it, you __45__ get fat or get a cavity because there is a lot of sugar in it.",
-   "srcSubject": "英文",
-   "pageId": "3ae2ace3-4688-8159-84a2-fa8859e2fe35",
-   "kind": "英文",
-   "number": "模考0731-45 will（未來單純式）",
-   "retest": "原題重測"
-  },
   {
    "id": "rc-3c52ace3-4688-817d-9707-ddf291724504",
    "point": "模考0823-49",
@@ -77,44 +20,6 @@
    "pageId": "3c52ace3-4688-817d-9707-ddf291724504",
    "kind": "英文",
    "number": "模考0823-49",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-81c0-bcc6-ca836061cd35",
-   "point": "模考0823-47",
-   "stem": "【閱讀測驗（二）】請依下文回答第 46～50 題。\n\nA washing machine bought in 1975 was expected to last twenty years, and when it broke, the owner called a repairman. Today the same appliance lasts about seven, and the repairman is difficult to find. This is often blamed on falling quality, but the more important change is a different one: many products are now built in a way that makes repair impractical rather than impossible.\n\nParts are glued instead of screwed. Diagnostic codes are kept private. A component that costs two dollars may be sold only as part of a module costing eighty. None of this is illegal, and none of it is strictly necessary; it is simply cheaper for the manufacturer, and the cost is passed to the owner in a form that does not appear on the price tag.\n\nSeveral governments have begun to respond. New rules require makers to supply spare parts for a fixed number of years and to publish repair manuals. Manufacturers warn that prices will rise. Repair shops, which had been closing for two decades, report that the phone has started ringing again.\n\n第 47 題：Which of the following is mentioned as making repair harder?",
-   "options": [
-    "Producing appliances in a smaller number of factories",
-    "Shortening the warranty period to one year",
-    "Refusing to sell appliances to repair shops",
-    "Selling a cheap component only inside an expensive module"
-   ],
-   "answer": "D",
-   "explain": "第二段列三種做法：零件用**黏合**而非螺絲、診斷碼**不公開**、**兩美元的零件只以八十美元的模組出售**。B、C、D 文中均未提及。判斷動作：細節題直接回段落逐項核對，不要憑印象。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-81c0-bcc6-ca836061cd35",
-   "kind": "英文",
-   "number": "模考0823-47",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-817c-a963-ef7e856699af",
-   "point": "模考0823-45",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nIn 1945, an American engineer named Percy Spencer was standing beside a machine that produced radar waves. He noticed that a chocolate bar in his pocket had melted. It was a warm room, and most people would have thought no more about it, but Spencer had spent years working with such machines and was curious.\n\nHe tried again the next day, this time with a bag of corn kernels. They popped. He then placed an egg near the machine, and it burst. Within a year his company had built a cooking box that used the same waves. It stood almost six feet tall, weighed as much as a small car, and cost more than most families earned in a year. Only restaurants and ships bought it.\n\nThe machine that sits in kitchens today took another twenty years to arrive. What changed was not the science, which was understood from the start, but the price of the parts. By 1975, more American homes had a microwave oven than a dishwasher. Spencer himself received two dollars for the patent, the standard payment his company made to any employee who invented something.\n\n第 45 題：What is the main idea of the passage?",
-   "options": [
-    "Radar technology was originally developed for cooking food.",
-    "Companies should pay inventors more than they currently do.",
-    "An accidental discovery became a household object only when its parts grew cheap.",
-    "Restaurants and ships were the first to adopt new technology."
-   ],
-   "answer": "C",
-   "explain": "三段各一階段：意外發現（第一段）→ 早期機器昂貴笨重、僅少數場所使用（第二段）→ 零件降價後才進入家庭（第三段）。A 完整涵蓋。B 因果顛倒；C 是可延伸的主張但非全文論點；D 只對到第二段的一個細節。⚠ **主旨題要涵蓋全文所有段落**。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-817c-a963-ef7e856699af",
-   "kind": "英文",
-   "number": "模考0823-45",
    "retest": "原題重測"
   },
   {
@@ -327,63 +232,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c52ace3-4688-818f-b6c1-d8307adca713",
-   "point": "模考0823-19",
-   "stem": "This box is quite heavy. Would you mind ______ me carry it upstairs?",
-   "options": [
-    "to help",
-    "helping",
-    "help",
-    "helped"
-   ],
-   "answer": "B",
-   "explain": "mind 之後接**動名詞**（V-ing），Would you mind V-ing? 為固定請求句型。⚠ 同類必接 V-ing 的動詞：enjoy、finish、avoid、practice、suggest、consider。真卷 112 第 22 題同型（Do you mind opening it?）。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-818f-b6c1-d8307adca713",
-   "kind": "英文",
-   "number": "模考0823-19",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-8197-9c72-e19c2f91d5a4",
-   "point": "模考0823-16",
-   "stem": "A number of residents ______ asked for an extra rubbish collection in summer.",
-   "options": [
-    "has",
-    "having",
-    "is",
-    "have"
-   ],
-   "answer": "D",
-   "explain": "**a number of** + 複數名詞＝「許多……」，中心語是後面的複數名詞 residents，故動詞用複數 have。⚠ 對照 **the number of** + 複數名詞＝「……的數目」，中心語是 the number（單數），動詞用 has。判斷動作：**看冠詞是 a 還是 the**——a number of 看後面的名詞，the number of 看 number 本身。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-8197-9c72-e19c2f91d5a4",
-   "kind": "英文",
-   "number": "模考0823-16",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-8145-9b70-cc0c4f15c438",
-   "point": "模考0823-13",
-   "stem": "The magazine has been in ______ for over fifty years and still sells well.",
-   "options": [
-    "publicity",
-    "public",
-    "publisher",
-    "publication"
-   ],
-   "answer": "D",
-   "explain": "in publication 指「持續發行、出版中」，publication 為表示「發行」這個動作或事件的名詞。**publicity 是「宣傳、知名度」**、public 是形容詞或指大眾、publisher 是出版者（人）。⚠ 這組你錯過兩次，判斷動作：先問空格要的是**動作／事件**（publication）還是**宣傳**（publicity）。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-8145-9b70-cc0c4f15c438",
-   "kind": "英文",
-   "number": "模考0823-13",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3c52ace3-4688-8153-816c-fce64abc6832",
    "point": "模考0823-12",
    "stem": "After working here for ten years, she is quite ______ with every street in this district.",
@@ -422,44 +270,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c52ace3-4688-81d3-bed0-e7878ce01b54",
-   "point": "模考0823-3",
-   "stem": "The swimming pool is not ______ on Sundays, so you will have to go on Monday.",
-   "options": [
-    "capable",
-    "possible",
-    "reachable",
-    "available"
-   ],
-   "answer": "D",
-   "explain": "available 指「可獲得的、可利用的」，服務、商品、時段皆可用。capable 用於人「有能力的」（be capable of）、possible 修飾事情本身而非服務、reachable 指聯絡得上。此句主詞是 service，最自然者為 available。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-81d3-bed0-e7878ce01b54",
-   "kind": "英文",
-   "number": "模考0823-3",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-8119-be1f-d66e7f3e7bb3",
-   "point": "模考0823-2",
-   "stem": "Please ______ me to water the plants before we leave; I always forget.",
-   "options": [
-    "remember",
-    "remind",
-    "memorize",
-    "recall"
-   ],
-   "answer": "B",
-   "explain": "remind 為「提醒（某人）」，句型 remind sb to V。remember 是自己記得、memorize 是背誦記住、recall 是回想起來——三者主體都是自己，無法「提醒別人」。判斷動作：看到 ____ me to V，主體是別人在提醒我，用 remind。",
-   "passage": "",
-   "srcSubject": "英文",
-   "pageId": "3c52ace3-4688-8119-be1f-d66e7f3e7bb3",
-   "kind": "英文",
-   "number": "模考0823-2",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3c52ace3-4688-8107-9f1f-c52a4be9d5c5",
    "point": "模考0823-1",
    "stem": "Before posting the recipe online, she asked me to ______ the flour on the kitchen scale.",
@@ -476,6 +286,25 @@
    "pageId": "3c52ace3-4688-8107-9f1f-c52a4be9d5c5",
    "kind": "英文",
    "number": "模考0823-1",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3b82ace3-4688-81c9-8431-e19adad9efae",
+   "point": "文法：be supposed to",
+   "stem": "Registered mail ______ to be delivered within three working days.",
+   "options": [
+    "supposes",
+    "is supposed",
+    "is supposing",
+    "has supposed"
+   ],
+   "answer": "B",
+   "explain": "",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3b82ace3-4688-81c9-8431-e19adad9efae",
+   "kind": "英文",
+   "number": "文法：be supposed to",
    "retest": "原題重測"
   },
   {
@@ -536,25 +365,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c52ace3-4688-8133-829a-cefc9c5cf1be",
-   "point": "古文詞義：王無罪歲之「罪」",
-   "stem": "《孟子．梁惠王上》：「王無罪歲，斯天下之民至焉。」句中「罪」字意謂下列何者？",
-   "options": [
-    "歸咎於",
-    "犯罪行為",
-    "刑罰處分",
-    "罪過責任"
-   ],
-   "answer": "A",
-   "explain": "「罪」於此作**動詞**用，意即「歸咎、責怪」；王無罪歲謂君王不要把過錯推給年成不好。⚠ 真卷 109 第 10 題即引《孟子》命題，來源有先例。判斷動作：**名詞出現在動詞位置（前有「無」、後帶受詞「歲」），即為活用**。",
-   "passage": "",
-   "srcSubject": "國文",
-   "pageId": "3c52ace3-4688-8133-829a-cefc9c5cf1be",
-   "kind": "訂正",
-   "number": "模考0823-國12",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3c52ace3-4688-8165-a230-dc6aff08ac9e",
    "point": "古文詞義：越國以鄙遠之「鄙」",
    "stem": "《左傳．僖公三十年》：「越國以鄙遠，君知其難也。」句中「鄙」字意謂下列何者？",
@@ -593,101 +403,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c52ace3-4688-8181-ae1a-d1001b735843",
-   "point": "改投與改寄之資費負擔",
-   "stem": "依郵務營業規章規定，關於改投與改寄郵件之資費，下列敘述何者正確？",
-   "options": [
-    "改投與改寄之函件均免納資費，包裹始另付資費",
-    "改投之郵件原則免納資費；改寄之印刷物、小包則須另付自寄達地改寄新寄達地之資費",
-    "改投之郵件另付資費；改寄之函件免納資費",
-    "改投之郵件須另付資費；改寄之郵件免納資費"
-   ],
-   "answer": "B",
-   "explain": "郵務營業規章第 794 條第 1 項：除另有規定外，**改投之郵件免納資費**。第 795 條：**改寄**之郵件——函件中信函、明信片、郵簡、盲人文件免付資費，**印刷物、小包另付**自寄達地改寄新寄達地之資費；包裹按寄達地寄往新寄達地之資費另付。⚠ 判斷動作：先分改投（同投遞區域，原則免費）或改寄（跨區轉寄，原則另付），再看郵件種類。\n【批改註記】作答時標記「不確定」且答錯——標記命中率累計 6/6，此訊號可信任。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c52ace3-4688-8181-ae1a-d1001b735843",
-   "kind": "訂正",
-   "number": "模考0823-郵49",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-8142-88d4-fed56309c125",
-   "point": "國際郵件存局候領之期間",
-   "stem": "存局候領之國際郵件，其候領期間為何？",
-   "options": [
-    "自候領之次日起算二個月",
-    "自候領之次日起算十五日",
-    "自候領之次日起算一個月",
-    "自候領之日起算三個月"
-   ],
-   "answer": "A",
-   "explain": "郵務營業規章第 868 條第 2 項：國際郵件存局候領期間，以**候領之次日起算二個月**為限，逾期未領者依無法投遞郵件之規定處理。同條第 1 項另定自候領之次日起算**十五日內免付保管費**。⚠ 免費保管期（15 日）與候領期間（2 個月）是兩個不同的數字，常被合併誤記。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c52ace3-4688-8142-88d4-fed56309c125",
-   "kind": "訂正",
-   "number": "模考0823-郵44",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-8183-9114-d350483c0bf0",
-   "point": "混合交寄郵件之重量限制",
-   "stem": "不同費率之郵件併裝為一件，於封面註明「混合交寄」字樣後寄遞者，其總重量之限制為何？",
-   "options": [
-    "不得逾其中最低限重之郵件重量",
-    "不得逾二公斤",
-    "各類郵件限重合計之總和",
-    "不得逾其中最高限重之郵件重量"
-   ],
-   "answer": "D",
-   "explain": "郵務營業規章第 632 條第 1 項：不同費率之郵件得併裝為一件，於封面註明「混合交寄」字樣後寄遞，其總重量**不得逾其中最高限重之郵件重量**。⚠ 未註明「混合交寄」而按較低費率付資者，依**較高費率、按全件重量**向收件人補收欠資及欠資手續費（同條第 3 項），罰則設計是「就高不就低」。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c52ace3-4688-8183-9114-d350483c0bf0",
-   "kind": "訂正",
-   "number": "模考0823-郵42",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-8179-a94e-dd2403887993",
-   "point": "包裹內容易於自然變質之處置",
-   "stem": "依郵件處理規則規定，中華郵政公司於包裹轉運期間發現內容易於自然變質或消滅時，關於其處置，下列敘述何者正確？",
-   "options": [
-    "應先通知寄件人，經其同意後始得變賣",
-    "應先招領揭示一個月，屆期無人領取始得變賣",
-    "應逕行銷燬，不得變賣",
-    "為寄件人之利益，得不經通知或其他手續，立即變賣之"
-   ],
-   "answer": "D",
-   "explain": "第 16 條：發現內容易於自然變質或消滅時，**為寄件人之利益，得不經通知或其他手續，立即變賣之**；無法變賣時得銷燬之，並以拍照或其他適當方法存證備查；變賣價款扣除費用後，賸餘款項通知寄件人領取。⚠ 「立即變賣」是原則、「銷燬」是變賣不能時之備位，順序不可顛倒。招領揭示一個月是第 58 條無著郵件之程序，屬另一情形。\n【批改註記】作答時標記「不確定」且答錯——標記命中率累計 6/6，此訊號可信任。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c52ace3-4688-8179-a94e-dd2403887993",
-   "kind": "訂正",
-   "number": "模考0823-郵39",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-81a4-9789-e6a2f981eed2",
-   "point": "已遞交郵件不得退回之種類",
-   "stem": "依郵件處理規則規定，已遞交之郵件不得交由郵局退回者，不包括下列何者？",
-   "options": [
-    "有拆過痕跡之函件",
-    "報值或保價郵件",
-    "未經拆開之非掛號印刷物",
-    "包裹"
-   ],
-   "answer": "C",
-   "explain": "第 57 條列三款不得交由郵局退回者：有拆過痕跡之函件、報值或保價郵件、包裹。**未經拆開之非掛號印刷物不在其列。** ⚠ 理由在舉證：已拆過的函件、已按報值保價計價的郵件與包裹，事後退回將無從確認內容與價值是否變動。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c52ace3-4688-81a4-9789-e6a2f981eed2",
-   "kind": "訂正",
-   "number": "模考0823-郵35",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3c52ace3-4688-817f-ab38-c4a5e33d1352",
    "point": "保險人不負給付責任之事由",
    "stem": "依簡易人壽保險法規定，下列何種情形保險人仍應負給付保險金額之責任？",
@@ -707,25 +422,6 @@
    "retest": "原題重測"
   },
   {
-   "id": "rc-3c52ace3-4688-81c1-a6cf-c62e1c092df4",
-   "point": "主管機關實施檢查與規避之處罰",
-   "stem": "主管機關派員進入違反郵政法之場所實施檢查時，該場所之使用人規避、妨礙或拒絕檢查者，其法律效果為何？",
-   "options": [
-    "處新臺幣二十萬元以上一百萬元以下罰鍰",
-    "處拘役或新臺幣九萬元以下罰金",
-    "僅得命其限期改正，不得處罰",
-    "處新臺幣二萬元以上十萬元以下罰鍰，並得按次連續處罰"
-   ],
-   "answer": "D",
-   "explain": "郵政法第 28 條課予不得規避、妨礙或拒絕之義務，第 43 條定其罰則：處新臺幣二萬元以上十萬元以下罰鍰，並得按次連續處罰。⚠ 二十萬至一百萬元是第 40 條違反專營規定之罰鍰；拘役或九萬元以下罰金是第 38 條無故開拆他人郵件之**刑罰**，性質不同。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3c52ace3-4688-81c1-a6cf-c62e1c092df4",
-   "kind": "訂正",
-   "number": "模考0823-郵7",
-   "retest": "原題重測"
-  },
-  {
    "id": "rc-3bc2ace3-4688-813a-9422-e5bb13d3cde6",
    "point": "不可抗力不予補償時之資費退還",
    "stem": "國際掛號函件因不可抗力致全部遺失而不予補償者，依郵件處理規則寄件人得請求退還何項費用？",
@@ -742,63 +438,6 @@
    "pageId": "3bc2ace3-4688-813a-9422-e5bb13d3cde6",
    "kind": "訂正",
    "number": "模考0814-36",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
-   "point": "郵政法罰鍰級距組合",
-   "stem": "依郵政法規定，下列各項違規行為中，其罰鍰級距為新臺幣二萬元以上十萬元以下者，共有幾項？\n甲、違反第七條規定，使用與郵政相同之文字表彰其營業\n乙、違反第六條規定，以遞送信函為營業\n丙、違反第十五條規定，發行與郵票類似之票證\n丁、規避、妨礙或拒絕主管機關依第二十八條所為之檢查",
-   "options": [
-    "四項（甲乙丙丁）",
-    "二項（甲丙）",
-    "三項（甲丙丁）",
-    "一項（甲）"
-   ],
-   "answer": "C",
-   "explain": "郵政法第41條（違反第7條）、第42條（違反第15條）、第43條（違反第28條）均為二萬元以上十萬元以下，故甲、丙、丁三項屬之。乙依第40條第1項為二十萬元以上一百萬元以下，級距最高，係因侵害專營權對郵政普及服務影響最大。另第40條第2項（違反第6條之1未標示名稱）亦為二萬元以上十萬元以下，惟須經令限期改正而屆期不改正始處罰。",
-   "passage": "",
-   "srcSubject": "郵政法規",
-   "pageId": "3bc2ace3-4688-8181-923c-c0b2c37d1ae3",
-   "kind": "訂正",
-   "number": "模考0814-8",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-81b7-a954-da97b3e2ecdc",
-   "point": "代位繼承與繼承順序",
-   "stem": "甲未婚，父母均已死亡，其兄乙先於甲死亡，乙之子 B 尚生存。甲死亡時，其祖父 C 亦生存。甲之遺產應由何人繼承？",
-   "options": [
-    "祖父 C",
-    "B 與 C 共同繼承",
-    "B",
-    "歸屬國庫"
-   ],
-   "answer": "C",
-   "explain": "民法第 1138 條繼承順序：直系血親卑親屬、父母、兄弟姊妹、祖父母。甲之兄乙為第三順位，乙先於甲死亡，其子 B 依第 1140 條代位繼承乙之應繼分。⚠ 第三順位有人（含代位繼承人）時，第四順位之祖父母即不得繼承。判斷動作：先定順位，再問該順位有無代位繼承人，有就輪不到下一順位。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c52ace3-4688-81b7-a954-da97b3e2ecdc",
-   "kind": "訂正",
-   "number": "模考0823-民16",
-   "retest": "原題重測"
-  },
-  {
-   "id": "rc-3c52ace3-4688-816d-96fc-c80bdbb65128",
-   "point": "形成權之種類",
-   "stem": "下列何者不屬於形成權？",
-   "options": [
-    "終止權",
-    "撤銷權",
-    "解除權",
-    "損害賠償請求權"
-   ],
-   "answer": "A",
-   "explain": "⚠ 本題為反向問法。損害賠償請求權屬請求權，非形成權。撤銷權、解除權、終止權均為形成權，依權利人一方之意思表示即生法律關係變動之效果，無須相對人同意。判斷動作：問「我一個人說了算嗎」——說了算的是形成權，須對方給付的是請求權。\n【批改註記】本題答對但作答時標「不確定」，依出題硬規則 17 改判：不算通過，不標熟、不降頻，下次換問法再測。",
-   "passage": "",
-   "srcSubject": "民法",
-   "pageId": "3c52ace3-4688-816d-96fc-c80bdbb65128",
-   "kind": "訂正",
-   "number": "模考0823-民6",
    "retest": "原題重測"
   },
   {
