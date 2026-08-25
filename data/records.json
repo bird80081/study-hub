@@ -6753,5 +6753,374 @@
    "2": 92,
    "3": 43
   }
+ },
+ "2026-08-25": {
+  "drill": {
+   "count": 27,
+   "wrong": [
+    {
+     "id": "rc-3c52ace3-4688-818b-b649-fcd9b7201d43",
+     "subject": "英文",
+     "point": "模考0823-35",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nCoffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.\n\n第 35 格：",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-25",
+     "options": [
+      "because",
+      "although",
+      "unless",
+      "whether"
+     ],
+     "userText": "although"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8147-a77a-cabcea552854",
+     "subject": "英文",
+     "point": "模考0823-26",
+     "stem": "When ______ about the mistake, the waiter apologized at once and offered a refund.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-25",
+     "options": [
+      "asking",
+      "to ask",
+      "asked",
+      "ask"
+     ],
+     "userText": "asking"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8124-b8b8-e2cc526a8016",
+     "subject": "英文",
+     "point": "模考0823-25",
+     "stem": "This photograph has no date on the back. I wish there ______ some way to find out when it was taken.",
+     "user": "A",
+     "answer": "B",
+     "date": "2026-08-25",
+     "options": [
+      "is",
+      "were",
+      "will be",
+      "would have been"
+     ],
+     "userText": "is"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8188-ac92-e9c653d8a9e8",
+     "subject": "國文",
+     "point": "成語運用：曾幾何時",
+     "stem": "「曾幾何時」一語，用以形容下列何者？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-25",
+     "options": [
+      "不知何時開始",
+      "時間所剩無幾",
+      "曾經有過幾次",
+      "時間過去不久"
+     ],
+     "userText": "不知何時開始"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8192-baf1-f0cb29cdb8a5",
+     "subject": "民法",
+     "point": "要式契約之種類",
+     "stem": "下列何者為要式契約？",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-25",
+     "options": [
+      "租賃契約",
+      "買賣契約",
+      "終身定期金契約",
+      "使用借貸契約"
+     ],
+     "userText": "租賃契約"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3c52ace3-4688-817d-9707-ddf291724504",
+     "subject": "英文",
+     "point": "模考0823-49"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8135-858e-c90a8208b8bd",
+     "subject": "英文",
+     "point": "模考0823-43"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8131-878f-e24e18583c3d",
+     "subject": "英文",
+     "point": "模考0823-40"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8148-aa3c-f02639c2f065",
+     "subject": "英文",
+     "point": "模考0823-36"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8108-b649-c8d102f7465c",
+     "subject": "英文",
+     "point": "模考0823-34"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81ea-9d5d-d6eb45ae22d8",
+     "subject": "英文",
+     "point": "模考0823-33"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8155-8d98-c69bdda3b1dc",
+     "subject": "英文",
+     "point": "模考0823-32"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81b0-8424-c24fff2444ae",
+     "subject": "英文",
+     "point": "模考0823-30"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81d1-a981-cd145fd61897",
+     "subject": "英文",
+     "point": "模考0823-20"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8153-816c-fce64abc6832",
+     "subject": "英文",
+     "point": "模考0823-12"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81c1-8b0c-e1c7acff90c9",
+     "subject": "英文",
+     "point": "模考0823-8"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8107-9f1f-c52a4be9d5c5",
+     "subject": "英文",
+     "point": "模考0823-1"
+    },
+    {
+     "id": "rc-3b82ace3-4688-81c9-8431-e19adad9efae",
+     "subject": "英文",
+     "point": "文法：be supposed to"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8161-8f58-fb726686847a",
+     "subject": "國文",
+     "point": "錯別字辨識：草菅人命"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81de-8075-def28ae48a74",
+     "subject": "國文",
+     "point": "公文用字：期望語之選用"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8192-bc6c-f7dba6c403be",
+     "subject": "國文",
+     "point": "古文詞義：君子喻於義之「喻」"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8165-a230-dc6aff08ac9e",
+     "subject": "國文",
+     "point": "古文詞義：越國以鄙遠之「鄙」"
+    },
+    {
+     "id": "rc-3c52ace3-4688-817f-ab38-c4a5e33d1352",
+     "subject": "郵政法規",
+     "point": "保險人不負給付責任之事由"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-813a-9422-e5bb13d3cde6",
+     "subject": "郵政法規",
+     "point": "不可抗力不予補償時之資費退還"
+    },
+    {
+     "id": "rc-3c52ace3-4688-81b3-ad3f-d0d112d95cb2",
+     "subject": "民法",
+     "point": "抵押權之標的"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-81d3-810d-f9c951618f3e",
+     "subject": "民法",
+     "point": "建物占有人與土地不當得利（實務見解）"
+    },
+    {
+     "id": "rc-3bc2ace3-4688-815f-8f74-c8f383f5104c",
+     "subject": "民法",
+     "point": "要物契約之成立"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "id": "english-mini-04",
+    "title": "英文迷你卷 04（8/25 錯題改寫）",
+    "subject": "英文",
+    "mcScore": 20,
+    "mcMax": 30,
+    "mcRight": 10,
+    "mcTotal": 15,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "complaint",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 2,
+      "point": "population",
+      "user": "A",
+      "answer": "B"
+     },
+     {
+      "n": 12,
+      "point": "only to V",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 14,
+      "point": "subscription",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 15,
+      "point": "whether子句",
+      "user": "C",
+      "answer": "D"
+     }
+    ]
+   },
+   {
+    "id": "minfa-teacher-0801b",
+    "title": "民法選擇：8/1 徐師精選題目練習（下，第20～38題）",
+    "subject": "民法",
+    "mcScore": 36,
+    "mcMax": 57,
+    "mcRight": 12,
+    "mcTotal": 19,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "期間之起算與末日（§120Ⅱ、§121）⚠",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 6,
+      "point": "離婚生效時點之比較 ⚠",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 8,
+      "point": "認領之效力與親屬關係",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 9,
+      "point": "扶養義務之發生與消滅",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 13,
+      "point": "拋棄繼承後之應繼分變動",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 15,
+      "point": "法定單純承認之事由（§1163）",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 17,
+      "point": "繼承債務之清償責任 ⚠",
+      "user": "D",
+      "answer": "B"
+     }
+    ]
+   },
+   {
+    "id": "chinese-mini-0820",
+    "title": "國文迷你卷：選文精讀＋未練考點（8/20）",
+    "subject": "國文",
+    "mcScore": 52,
+    "mcMax": 56,
+    "mcRight": 13,
+    "mcTotal": 14,
+    "wrongs": [
+     {
+      "n": 5,
+      "point": "醉翁亭記：醉翁之意",
+      "user": "D",
+      "answer": "B"
+     }
+    ]
+   },
+   {
+    "id": "english-mini-0820",
+    "title": "英文迷你卷：判斷動作總複習（8/20）",
+    "subject": "英文",
+    "mcScore": 32,
+    "mcMax": 56,
+    "mcRight": 8,
+    "mcTotal": 14,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "considerate 形近字",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 3,
+      "point": "文法：動名詞當主詞",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 4,
+      "point": "文法：不可數名詞 much",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 5,
+      "point": "文法：suggest＋動名詞",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 6,
+      "point": "文法：with＋受詞＋分詞",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 8,
+      "point": "文法：分詞形容詞 interesting",
+      "user": "B",
+      "answer": "D"
+     }
+    ]
+   }
+  ],
+  "vocab": {
+   "done": 0,
+   "right": 0
+  },
+  "vocabStages": {
+   "0": 22,
+   "1": 95,
+   "2": 92,
+   "3": 43
+  }
  }
 }
