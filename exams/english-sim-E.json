@@ -267,15 +267,15 @@
    "section": "文法",
    "points": 2,
    "point": "假設語氣：與過去事實相反",
-   "stem": "If the sender ______ the correct postal code, the parcel would not have been delayed.",
+   "stem": "If the sender had written the correct postal code, the parcel ______ on time.",
    "options": [
-    "writes",
-    "wrote",
-    "had written",
-    "has written"
+    "would arrive",
+    "would have arrived",
+    "will arrive",
+    "had arrived"
    ],
-   "answer": "C",
-   "explain": "主句為 would not have been，屬與過去事實相反的假設，if 子句須用過去完成式 had + p.p.。三型要成組記：與現在相反用過去式、與過去相反用過去完成式、與未來相反用 should/were to。"
+   "answer": "B",
+   "explain": "與過去事實相反的假設：If 子句用 had + p.p.，主句用 would/could/might have + p.p.。本題 if 子句已給 had written，主句須為 would have arrived。⚠ 對照與現在事實相反：If 子句過去式，主句 would + 原形。"
   },
   {
    "section": "文法",
@@ -295,15 +295,15 @@
    "section": "文法",
    "points": 2,
    "point": "比較級之修飾語",
-   "stem": "The new machine sorts letters ______ faster than the old one.",
+   "stem": "Sorting mail by machine is ______ more efficient than sorting it by hand.",
    "options": [
     "very",
-    "so",
-    "much",
-    "too"
+    "too",
+    "far",
+    "so"
    ],
    "answer": "C",
-   "explain": "修飾比較級用 much、far、a lot、even 等；very 只能修飾原級（very fast）。so 與 too 亦不修飾比較級。判斷動作：看到 -er 或 more 就把 very 刪掉。"
+   "explain": "比較級前的加強語只能用 much / far / even / still / a lot / a great deal，不能用 very / too / so。本題 more efficient 為比較級，故選 far。⚠ very 只修飾原級（very efficient），修飾比較級一律錯。"
   },
   {
    "section": "文法",
@@ -616,16 +616,16 @@
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀一：細節（人力變化）",
-   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 43 題：What happened to the number of clerks needed?",
+   "point": "閱讀一：NOT true（未提及者）",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 43 題：Which of the following is NOT mentioned as a result of installing the pillar boxes?",
    "options": [
-    "It fell as expected",
-    "It stayed the same",
-    "The passage does not say",
-    "It rose"
+    "A rise in the number of short letters",
+    "A need for more clerks rather than fewer",
+    "A reduction in the postage fee",
+    "The ability to post a letter at any hour"
    ],
-   "answer": "D",
-   "explain": "第二段末句 found instead that it needed more of them——原本預期省下人力，結果反而需要更多。instead 是轉折信號，通常正是答案所在。"
+   "answer": "C",
+   "explain": "第二段提到短信大增、郵局反而需要更多 clerks；第一段提到任何時間都能投遞。資費調降全文未提，故(C)為未提及者。⚠ NOT true 題的解法：逐一回文定位，找得到出處的排除，剩下的即為答案；不可憑常識推斷。"
   },
   {
    "section": "閱讀",
@@ -672,16 +672,16 @@
   {
    "section": "閱讀",
    "points": 2,
-   "point": "閱讀二：細節（失敗型態）",
-   "stem": "【閱讀測驗（二）】請依上文回答。\n\n第 47 題：According to the passage, what happens when senior staff stay in the capital?",
+   "point": "閱讀二：NOT true（失敗型態）",
+   "stem": "【閱讀測驗（二）】請依上文回答。\n\n第 47 題：According to the passage, which of the following is NOT true of relocations that left senior staff in the capital?",
    "options": [
-    "The department is closed within a decade",
     "Junior offices become processing centres",
-    "Rents rise in the new location",
-    "The department gains new powers"
+    "Decisions continue to be made in the capital",
+    "A new head office reappears in the capital within a decade",
+    "The department gains new regulatory powers"
    ],
-   "answer": "B",
-   "explain": "第二段明述：留下領導層者，基層辦公室變成處理中心、決策仍在首都、十年內新總部悄悄重現。選項一誤讀——重現的是總部，不是關閉部門。"
+   "answer": "D",
+   "explain": "第二段明言：junior offices 淪為 processing centres、決策仍留在首都、十年內新總部悄悄重現。取得新管制權限全文未提，故(D)為非真。⚠ 本題三個真選項全部集中在同一段，先鎖定段落再逐句刪去最省時。"
   },
   {
    "section": "閱讀",
