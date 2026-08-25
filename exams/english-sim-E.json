@@ -28,212 +28,212 @@
   {
    "section": "字彙",
    "points": 2,
-   "point": "retrieve",
-   "stem": "If a parcel is placed in the wrong locker, the clerk can ______ it with a master key.",
+   "point": "reluctant 不情願",
+   "stem": "Although the pay was good, she was ______ to leave her hometown and move abroad.",
+   "options": [
+    "reluctant",
+    "eager",
+    "grateful",
+    "curious"
+   ],
+   "answer": "A",
+   "explain": "reluctant 指不情願、勉強。前半句 Although the pay was good 表讓步，後半須為負面態度。eager（渴望）、grateful（感激）、curious（好奇）皆與讓步語氣不合。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "genuine 真誠",
+   "stem": "His apology sounded ______; you could tell he really regretted what he had said.",
+   "options": [
+    "artificial",
+    "genuine",
+    "formal",
+    "brief"
+   ],
+   "answer": "B",
+   "explain": "genuine 指真誠、發自內心。後半句 really regretted 是線索。artificial（虛假）語義相反；formal（正式）、brief（簡短）與「後悔」無關。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "abundant 豐沛",
+   "stem": "Rainfall here is ______ in summer, so farmers rarely worry about water.",
+   "options": [
+    "scarce",
+    "sudden",
+    "abundant",
+    "mild"
+   ],
+   "answer": "C",
+   "explain": "abundant 指充足、豐沛。後句 rarely worry about water 反推雨量多。scarce（稀少）語義相反，是最強誘答。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "vague 含糊",
+   "stem": "His directions were so ______ that we got lost twice before finding the place.",
+   "options": [
+    "precise",
+    "polite",
+    "urgent",
+    "vague"
+   ],
+   "answer": "D",
+   "explain": "vague 指含糊不清。so...that 句型的結果 got lost 指向指路不清楚。precise（精確）語義相反。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "reliable 可靠",
+   "stem": "After breaking down three times, the old car could no longer be considered ______.",
+   "options": [
+    "reliable",
+    "valuable",
+    "fashionable",
+    "comfortable"
+   ],
+   "answer": "A",
+   "explain": "reliable 指可靠、值得信賴。break down（拋錨）三次直接對應「不再可靠」。其餘三字與「拋錨」無邏輯關聯。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "modest 謙虛",
+   "stem": "Despite winning the award, he remained ______ and gave the credit to his team.",
+   "options": [
+    "arrogant",
+    "modest",
+    "anxious",
+    "generous"
+   ],
+   "answer": "B",
+   "explain": "modest 指謙虛。gave the credit to his team（把功勞歸於團隊）是關鍵線索。arrogant（傲慢）語義相反；generous 指慷慨（多用於財物分享），此處歸功於人用 modest 才精確。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "thrive 茁壯",
+   "stem": "With enough sunlight and water, these plants will ______ even in poor soil.",
+   "options": [
+    "wither",
+    "shrink",
+    "thrive",
+    "decay"
+   ],
+   "answer": "C",
+   "explain": "thrive 指茁壯生長。even in poor soil（即使土壤貧瘠）表轉折，須為正面結果。wither（枯萎）、decay（腐爛）方向相反。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "cautious 謹慎",
+   "stem": "Ever since the accident, he has been extremely ______ when crossing the street.",
+   "options": [
+    "careless",
+    "cheerful",
+    "confident",
+    "cautious"
+   ],
+   "answer": "D",
+   "explain": "cautious 指謹慎小心。Ever since the accident 表事故留下的影響。careless（粗心）語義相反；注意 cautious 與 careless 字形相近但意思相反。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "relieve 緩解",
+   "stem": "A hot bath may help ______ the pain in your back after a long day.",
    "options": [
     "relieve",
-    "retrieve",
-    "reserve",
-    "resolve"
-   ],
-   "answer": "B",
-   "explain": "retrieve 取回、找回。relieve 減輕（痛苦），reserve 預訂、保留，resolve 解決（問題）。判斷動作：受詞是具體物品且情境為「拿回來」，選 retrieve。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "legible",
-   "stem": "Please write the postal code clearly; the address must be ______ to the sorting machine.",
-   "options": [
-    "literal",
-    "lateral",
-    "legible",
-    "liberal"
-   ],
-   "answer": "C",
-   "explain": "legible 字跡清楚可辨認的。literal 字面上的，lateral 側面的，liberal 開明的、慷慨的。線索在 write clearly 與 sorting machine，指的是「讀得出來」。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "postpone",
-   "stem": "Because of the typhoon, the branch decided to ______ the customer seminar until next month.",
-   "options": [
-    "postpone",
-    "dispose",
-    "propose",
-    "suppose"
+    "increase",
+    "ignore",
+    "cause"
    ],
    "answer": "A",
-   "explain": "postpone 延期。propose 提議，dispose 處置（dispose of），suppose 假定。線索是 until next month——時間被往後移。"
+   "explain": "relieve 指減輕、緩解（疼痛、壓力）。help + 原形動詞，熱水澡的作用是減輕而非加劇。⚠ relieve（緩解）與 relief（名詞）詞性要分清。"
   },
   {
    "section": "字彙",
    "points": 2,
-   "point": "exempt",
-   "stem": "Documents for the blind are ______ from postage under the current regulations.",
+   "point": "adapt 適應",
+   "stem": "It took the exchange student several months to ______ to the local climate and food.",
    "options": [
-    "exert",
-    "exceed",
-    "extend",
-    "exempt"
+    "refer",
+    "adapt",
+    "object",
+    "belong"
+   ],
+   "answer": "B",
+   "explain": "adapt to 指適應（新環境）。several months 暗示調適過程。refer to（提及）、object to（反對）、belong to（屬於）雖同接 to，語義均不合。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "crucial 關鍵",
+   "stem": "Getting enough sleep before an exam is ______ to keeping your mind clear.",
+   "options": [
+    "harmful",
+    "optional",
+    "crucial",
+    "similar"
+   ],
+   "answer": "C",
+   "explain": "crucial 指至關重要。be crucial to + N/V-ing 為固定用法。optional（可有可無）與語境相反，是最常見誤選。"
+  },
+  {
+   "section": "字彙",
+   "points": 2,
+   "point": "eventually 最終",
+   "stem": "He failed the driving test three times, but ______ he passed and got his license.",
+   "options": [
+    "rarely",
+    "hardly",
+    "barely",
+    "eventually"
    ],
    "answer": "D",
-   "explain": "be exempt from 免除、豁免（資費、稅捐）。exert 施加（力量、影響），exceed 超過，extend 延長。固定搭配 exempt FROM 是判斷關鍵。"
+   "explain": "eventually 指最終、終於。but 表轉折，前面三次失敗、後面通過，須用表「最後」的副詞。rarely（很少）、hardly／barely（幾乎不）皆為否定副詞，會使句意矛盾。"
   },
   {
    "section": "字彙",
    "points": 2,
-   "point": "prompt",
-   "stem": "Customers appreciate the ______ delivery of registered mail, usually within one working day.",
+   "point": "tempt 引誘",
+   "stem": "The smell of fresh bread ______ her to buy a whole loaf though she had just eaten.",
    "options": [
-    "promising",
-    "promote",
-    "prompt",
-    "prominent"
-   ],
-   "answer": "C",
-   "explain": "prompt 迅速的、及時的。promote 是動詞（升遷、促銷），promising 有前途的，prominent 顯著的、傑出的。空格在冠詞與名詞之間須為形容詞，先用詞性刪掉 promote。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "negligible",
-   "stem": "The difference between the two rates is ______, amounting to less than one dollar per item.",
-   "options": [
-    "negligible",
-    "notable",
-    "navigable",
-    "negotiable"
+    "tempted",
+    "forced",
+    "warned",
+    "reminded"
    ],
    "answer": "A",
-   "explain": "negligible 微不足道的、可忽略的。navigable 可航行的，notable 值得注意的（語意相反），negotiable 可協商的。後半句 less than one dollar 已把答案的方向指出來。"
+   "explain": "tempt sb. to V 指引誘某人做某事。though she had just eaten 顯示非必要的購買，屬受誘惑。forced（強迫）語氣過強；warned（警告）、reminded（提醒）語義不合。"
   },
   {
    "section": "字彙",
    "points": 2,
-   "point": "compile",
-   "stem": "The office will ______ a list of undeliverable items at the end of each month.",
+   "point": "sincere 誠摯",
+   "stem": "Her ______ concern for the elderly neighbor moved everyone in the building.",
    "options": [
-    "compel",
-    "compile",
-    "comprise",
-    "compose"
+    "sudden",
+    "sincere",
+    "silent",
+    "strange"
    ],
    "answer": "B",
-   "explain": "compile 彙編、整理（清單、資料）。compel 強迫，compose 組成、創作，comprise 由……構成。受詞是 a list，最自然的動詞是 compile。"
+   "explain": "sincere 指誠摯的。moved everyone（感動眾人）須由真誠而來。四個選項皆以 s 開頭且形近，屬字形誘答，須逐一代入語義判斷。"
   },
   {
    "section": "字彙",
    "points": 2,
-   "point": "publication 詞性（回收）",
-   "stem": "The ______ of the new rate table has been postponed until the audit is complete.",
+   "point": "grieve 哀悼",
+   "stem": "The whole town ______ over the loss of the young firefighter.",
    "options": [
-    "publicity",
-    "publisher",
-    "publication",
-    "publishing"
+    "rejoiced",
+    "argued",
+    "grieved",
+    "wondered"
    ],
    "answer": "C",
-   "explain": "publication 出版、公布（動作名詞），符合「新資費表的公布被延後」。publicity 宣傳、知名度，publisher 出版者（人），publishing 為動名詞或形容詞。⚠ 本考點 8/18 曾誤選 publicity（模考0818-5），8/24 改寫題答對；本次再換情境驗證。判斷動作：the ___ of + 事物，要的是動作名詞不是人。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "allocate",
-   "stem": "Each branch will ______ additional staff to the counter during the holiday season.",
-   "options": [
-    "allege",
-    "alleviate",
-    "allocate",
-    "elevate"
-   ],
-   "answer": "C",
-   "explain": "allocate 分配、調配（人力、資源）。allege 宣稱，alleviate 減輕，elevate 提升。allocate A to B 為固定結構，句中 to the counter 即為線索。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "comply",
-   "stem": "All packaging must ______ with the size limits announced by the company.",
-   "options": [
-    "apply",
-    "comply",
-    "reply",
-    "imply"
-   ],
-   "answer": "B",
-   "explain": "comply with 遵守（規定、標準）。apply for 申請、apply to 適用於，imply 暗示，reply to 回覆。四個字都能接 with 以外的介系詞，唯獨「遵守」用 comply with。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "entitle（回收）",
-   "stem": "Holders of the annual pass are ______ to a discount on all domestic parcels.",
-   "options": [
-    "entitled",
-    "entered",
-    "entrusted",
-    "entertained"
-   ],
-   "answer": "A",
-   "explain": "be entitled to 有權享有、有資格取得。entered 進入，entrusted 委託，entertained 招待。⚠ 本考點 8/14 曾錯（模考0814-2），當時為 customers who use registered mail are entitled to…；判斷動作是「be + p.p. + TO + 名詞＝有權享有」。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "assure／ensure 受詞（回收）",
-   "stem": "The supervisor ______ the waiting customers that extra counters would open shortly.",
-   "options": [
-    "ensured",
-    "assured",
-    "insured",
-    "secured"
-   ],
-   "answer": "B",
-   "explain": "assure + 人 + that 子句＝向某人保證；ensure 後接事情（ensure that…）不接人；insure 是投保；secure 是取得或保全。⚠ 本考點 8/14 錯、8/18 回測判準未到位、8/24 改寫題答對；中文都譯作「確保」，英文以「受詞是人還是事」分流。判斷動作：看空格後緊接的是不是「人」。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "inquire",
-   "stem": "Several customers came to ______ about the delay of their international parcels.",
-   "options": [
-    "acquire",
-    "require",
-    "inquire",
-    "conquer"
-   ],
-   "answer": "C",
-   "explain": "inquire about 詢問。acquire 取得，require 要求、需要，conquer 征服。介系詞 about 是關鍵——acquire 與 require 後接受詞而非 about。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "remittance",
-   "stem": "The receipt shows the date on which the ______ was sent to the payee abroad.",
-   "options": [
-    "reminder",
-    "remembrance",
-    "remainder",
-    "remittance"
-   ],
-   "answer": "D",
-   "explain": "remittance 匯款（金額）。reminder 提醒物，remainder 剩餘部分，remembrance 紀念、回憶。線索是 sent to the payee abroad——收款人與匯出，指的是匯款。"
-  },
-  {
-   "section": "字彙",
-   "points": 2,
-   "point": "beneficiary",
-   "stem": "If the insured person dies, the insurance money will be paid to the named ______.",
-   "options": [
-    "benefactor",
-    "beneficiary",
-    "benevolent",
-    "beneficial"
-   ],
-   "answer": "B",
-   "explain": "beneficiary 受益人。benefactor 捐助者、施惠者（方向相反），beneficial 有益的（形容詞），benevolent 仁慈的（形容詞）。空格前有 the named，須為名詞，先用詞性刪掉兩個形容詞。"
+   "explain": "grieve over 指為……哀傷、哀悼。the loss of（喪生）為線索。rejoice（歡欣）語義相反。⚠ 同場景常見字：condolences（弔唁）、mourn（哀悼）。"
   },
   {
    "section": "文法",
