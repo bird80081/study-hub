@@ -40,6 +40,15 @@
   "round": 6
  },
  {
+  "id": "minfa-mini-0828-family",
+  "file": "minfa-mini-0828-family.json",
+  "title": "民法迷你卷：親屬繼承補強（8/28）",
+  "subject": "民法",
+  "minutes": 12,
+  "summary": "選擇10題．8/25 錯題與徐師重點換情境重測，第 7 場後加練",
+  "type": "practice"
+ },
+ {
   "id": "english-mini-0824-rewrite",
   "file": "english-mini-0824-rewrite.json",
   "title": "英文迷你卷：到期錯題改寫（8/24）",
