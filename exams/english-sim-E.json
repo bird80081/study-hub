@@ -239,7 +239,7 @@
    "section": "文法",
    "points": 2,
    "point": "分詞構句：完成式",
-   "stem": "______ all the documents, the clerk began to process the application.",
+   "stem": "______ all the answers, the student handed in the exam paper.",
    "options": [
     "Have checked",
     "Having checked",
@@ -253,7 +253,7 @@
    "section": "文法",
    "points": 2,
    "point": "關係代名詞 whose",
-   "stem": "The customer ______ parcel was damaged has filed a claim.",
+   "stem": "The passenger ______ luggage was damaged has filed a claim.",
    "options": [
     "whose",
     "whom",
@@ -267,7 +267,7 @@
    "section": "文法",
    "points": 2,
    "point": "假設語氣：與過去事實相反",
-   "stem": "If the sender had written the correct postal code, the parcel ______ on time.",
+   "stem": "If the driver had taken the earlier train, he ______ on time.",
    "options": [
     "would arrive",
     "would have arrived",
@@ -295,7 +295,7 @@
    "section": "文法",
    "points": 2,
    "point": "比較級之修飾語",
-   "stem": "Sorting mail by machine is ______ more efficient than sorting it by hand.",
+   "stem": "Reviewing code with an AI tool is ______ more efficient than doing it alone.",
    "options": [
     "very",
     "too",
@@ -309,7 +309,7 @@
    "section": "文法",
    "points": 2,
    "point": "動名詞與不定詞之語意差別",
-   "stem": "On his way to the post office, he stopped ______ a cup of coffee.",
+   "stem": "On his way to the station, he stopped ______ a cup of coffee.",
    "options": [
     "to buy",
     "buying",
@@ -323,7 +323,7 @@
    "section": "文法",
    "points": 2,
    "point": "wish＋過去式（回收）",
-   "stem": "This branch is always crowded on Mondays. I wish there ______ more counters open.",
+   "stem": "This café is always crowded on Mondays. I wish there ______ more tables available.",
    "options": [
     "are",
     "were",
@@ -337,7 +337,7 @@
    "section": "文法",
    "points": 2,
    "point": "名詞子句：what 與 that",
-   "stem": "The manager explained ______ had caused the delay in delivery.",
+   "stem": "The developer explained ______ had caused the app to crash.",
    "options": [
     "that",
     "which",
@@ -365,7 +365,7 @@
    "section": "文法",
    "points": 2,
    "point": "even if 讓步（回收）",
-   "stem": "The parcel must be weighed again ______ the sender has already paid the postage.",
+   "stem": "The luggage must be weighed again ______ the passenger has already checked in.",
    "options": [
     "as long as",
     "even if",
@@ -435,7 +435,7 @@
    "section": "文法",
    "points": 2,
    "point": "主詞動詞一致：the number of（回收）",
-   "stem": "The number of undelivered items in the warehouse ______ fallen below fifty for the first time.",
+   "stem": "The number of users who deleted the app ______ fallen below fifty for the first time.",
    "options": [
     "have",
     "are",
@@ -449,7 +449,7 @@
    "section": "克漏字",
    "points": 2,
    "point": "克漏字一：第31格（關係副詞 where）",
-   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nA small post office in a mountain village has become an unlikely tourist stop. The building itself is plain, but it stands at the point __31__ two old trade routes once met. Visitors come to post letters bearing a special postmark, __32__ is issued only at this branch. The postmaster, who has worked there for thirty years, says the mail volume tripled after a travel programme mentioned the place. __33__ the extra work, he welcomes the change: the branch had been on a list of offices to be closed. Local shops have also benefited, __34__ many visitors stay for lunch. The village council is now considering a small museum, __35__ the interest lasts beyond this season.\n\n第 31 格：",
+   "stem": "【克漏字（一）】請依下文回答第 31～35 題。\n\nFree translation apps have changed the way people travel. A tourist can now stand in a market __31__ no one speaks her language and still buy what she needs. The app produces a sentence, __32__ is usually good enough to be understood. Language schools report a drop in enrolment. __33__ this trend, some teachers are surprisingly calm about it, __34__ the students who remain tend to want something the app cannot give: the ability to hold a conversation, to catch a joke, to sound like themselves. Demand may recover in a different form, they say, __35__ that distinction becomes clearer to the public.\n\n第 31 格：",
    "options": [
     "where",
     "which",
@@ -519,7 +519,7 @@
    "section": "克漏字",
    "points": 2,
    "point": "克漏字二：第36格（現在完成式）",
-   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nHandwriting on envelopes is disappearing, and sorting machines are part of the reason. For decades the machines __36__ unable to read anything but printed characters, so letters addressed by hand were pulled aside and sorted by people. Newer systems can now read most handwriting, __37__ the ones written in a hurry. The result is faster delivery, but also fewer jobs at sorting centres. Some workers have been retrained __38__ maintain the machines that replaced them. Postal unions argue that the savings should be shared, __39__ management points to the falling volume of letters overall. Neither side disputes the basic fact: a task once done by thousands __40__ now done by a few dozen.\n\n第 36 格：",
+   "stem": "【克漏字（二）】請依下文回答第 36～40 題。\n\nHandwriting is disappearing from classrooms, and laptops are part of the reason. For decades note-taking tools __36__ unable to keep up with speech, so students who wrote by hand had to summarise as they listened. Newer devices can now capture every word, __37__ the ones spoken too fast to follow. The result is a fuller record, but also a shallower memory. Some teachers now ask students to write summaries by hand __38__ force themselves to select what matters. Researchers argue that typing captures more, __39__ handwriting captures better. What is lost when a lecture __40__ recorded in full may not be obvious until the exam.\n\n第 36 格：",
    "options": [
     "are",
     "were",
@@ -589,71 +589,71 @@
    "section": "閱讀",
    "points": 2,
    "point": "閱讀一：主旨",
-   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen the first pillar box was installed on a British street in 1852, the idea was considered slightly improper. Until then, a letter had to be handed to a clerk at a receiving house, who checked it and took the fee. A box on a corner meant that anyone could post a letter at any hour, without being seen and without explaining themselves. Critics warned that servants would write to unsuitable people and that the boxes would fill with rubbish.\n\nNeither fear proved serious. What did happen was a sharp rise in the number of letters, particularly short ones. People began writing notes they would not have bothered to carry to a receiving house: a change of plan, a reminder, a single line of thanks. The postal service, which had expected the boxes to save clerks time, found instead that it needed more of them.\n\nThe design settled quickly. A cylinder resists weather better than a cube, and a narrow slot keeps out rain. Colour took longer. The first boxes were painted green so as not to spoil the view, but people walked past without seeing them, and after a decade of complaints the service repainted every box red.\n\n第 41 題：What is the main point of the passage?",
+   "stem": "【閱讀測驗（一）】請依下文回答第 41～45 題。\n\nWhen a large bank replaced its telephone help line with an automated assistant, managers expected two things: shorter waiting times and a smaller support team. The first came true within months. The second did not.\n\nCritics had warned that customers would simply refuse to talk to a machine. That fear proved unfounded; most callers were happy to let software handle a forgotten password or a balance enquiry. What changed was the mix of calls that reached human staff. The easy questions disappeared, and what remained were disputes, fraud reports and problems the assistant had already failed to solve. Each of these took longer than an average call had taken before, and required someone senior enough to make a decision.\n\nThe bank now employs more people on its help line than it did before, though they do different work. Training has been rewritten around judgement rather than procedure, and the assistant is measured not by how many calls it ends, but by how cleanly it hands the difficult ones over.\n\n第 41 題：What is the main point of the passage?",
    "options": [
-    "How a small change in access altered the way people wrote",
-    "Why cylindrical containers are better than square ones",
-    "How the postal service reduced its staff costs",
-    "Why green is an unsuitable colour for street furniture"
+    "How automation changed the kind of work left for people",
+    "Why customers dislike speaking to machines",
+    "How a bank reduced the cost of its help line",
+    "Why automated assistants cannot answer questions"
    ],
    "answer": "A",
-   "explain": "全文主線是「郵筒讓寄信變得隨時可為」所帶來的書寫行為改變（短信大增）。形狀與顏色為第三段的細節，非主旨；且第二段明言人手需求不減反增，選項三與原文相反。"
+   "explain": "全文主軸是「自動化沒有讓人變少，而是改變了留給人做的工作內容」——簡單問題被機器吸走，剩下的都是需要判斷的難題。(C)與事實相反（人力反而增加）；(B)第二段明白否定；(D)過度推論，文中只說有些問題助理解決不了。⚠ 主旨題要找貫穿全文的那條線，不是某一段的細節。"
   },
   {
    "section": "閱讀",
    "points": 2,
    "point": "閱讀一：細節（反對理由）",
-   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 42 題：What did critics fear about the new boxes?",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 42 題：What did critics fear about the automated assistant?",
    "options": [
-    "That letters would be lost in bad weather",
-    "That servants would write to unsuitable people",
-    "That clerks would lose their jobs",
-    "That the fee could no longer be collected"
+    "That waiting times would become longer",
+    "That customers would refuse to talk to a machine",
+    "That staff would lose their jobs",
+    "That fraud reports would increase"
    ],
    "answer": "B",
-   "explain": "第一段末句明列兩項疑慮：僕役會寫信給不適當的人、郵筒會塞滿垃圾。天候、失業與資費問題均未出現在該段。細節題的定位動作：找出提出疑慮的那一句，逐一比對選項。"
+   "explain": "第二段首句：Critics had warned that customers would simply refuse to talk to a machine，且下一句立即說 That fear proved unfounded。(C)是管理階層原本的預期（smaller support team），不是批評者的擔憂——兩者容易混淆，回文定位才能分清是誰說的。"
   },
   {
    "section": "閱讀",
    "points": 2,
    "point": "閱讀一：NOT true（未提及者）",
-   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 43 題：Which of the following is NOT mentioned as a result of installing the pillar boxes?",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 43 題：Which of the following is NOT mentioned in the passage?",
    "options": [
-    "A rise in the number of short letters",
-    "A need for more clerks rather than fewer",
-    "A reduction in the postage fee",
-    "The ability to post a letter at any hour"
+    "Waiting times became shorter",
+    "The bank now employs more help-line staff than before",
+    "The assistant is cheaper to run than human staff",
+    "Calls handled by people take longer than before"
    ],
    "answer": "C",
-   "explain": "第二段提到短信大增、郵局反而需要更多 clerks；第一段提到任何時間都能投遞。資費調降全文未提，故(C)為未提及者。⚠ NOT true 題的解法：逐一回文定位，找得到出處的排除，剩下的即為答案；不可憑常識推斷。"
+   "explain": "成本高低全文未提——文中只談等待時間、人數與通話長度，沒有比較營運成本。(A)見第一段 The first came true；(B)見第三段；(D)見第二段 took longer than an average call had taken before。⚠ NOT 題逐一回文定位，找得到出處的排除，剩下的即為答案，不可憑常識推斷「機器比較便宜」。"
   },
   {
    "section": "閱讀",
    "points": 2,
    "point": "閱讀一：字義推斷（settled）",
-   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 44 題：In the last paragraph, “The design settled quickly” means that the design",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 44 題：In the last paragraph, “hands the difficult ones over” means that the assistant",
    "options": [
-    "sank into the ground",
-    "was frequently changed",
-    "was decided without much difficulty",
-    "was copied by other countries"
+    "gives up on them entirely",
+    "solves them more slowly",
+    "passes them to a human colleague",
+    "records them for later review"
    ],
    "answer": "C",
-   "explain": "settle 在此為「定案、確定下來」，與下文「顏色卻花了較久」形成對照——形狀很快定案，顏色沒有。若解為「經常變動」，正好與 quickly 及後文的對照關係矛盾。"
+   "explain": "hand over 為片語動詞，指移交、交接。全句在說評量助理的標準不是結束多少通電話，而是把難題「交接」得多乾淨——承接前文人機分工的主軸。⚠ 片語動詞在閱讀題常以字義推斷形式出現，先看上下文的功能，再選最貼近的解釋。"
   },
   {
    "section": "閱讀",
    "points": 2,
    "point": "閱讀一：細節（改漆紅色之原因）",
-   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 45 題：Why were the boxes repainted red?",
+   "stem": "【閱讀測驗（一）】請依上文回答。\n\n第 45 題：Why does the help line now need more senior staff?",
    "options": [
-    "People could not see the green boxes",
-    "Green paint had become expensive",
-    "Red paint lasted longer in the rain",
-    "Red was the colour of the royal family"
+    "Because the remaining calls require judgement",
+    "Because the assistant often breaks down",
+    "Because training has become much shorter",
+    "Because customers call more often than before"
    ],
    "answer": "A",
-   "explain": "末句明言 people walked past without seeing them，抱怨十年後才全面改漆紅色。耐久性、成本與皇室顏色皆為未提及之資訊——閱讀題不選原文沒有依據的選項。"
+   "explain": "第二段末：required someone senior enough to make a decision；第三段亦言 Training has been rewritten around judgement rather than procedure。(C)方向相反，訓練是改寫而非縮短；(B)(D)文中皆未提及。"
   },
   {
    "section": "閱讀",
