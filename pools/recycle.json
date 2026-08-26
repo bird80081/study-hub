@@ -1,8 +1,122 @@
 {
  "subject": "今日回收",
- "generatedAt": "2026-08-25T23:41:07",
- "dueDate": "2026-08-26",
+ "generatedAt": "2026-08-26T23:19:49",
+ "dueDate": "2026-08-27",
  "questions": [
+  {
+   "id": "rc-3c72ace3-4688-81c2-97a4-c8bccd25a4b7",
+   "point": "Justin bought a new book which he found very _____ and he finished reading it in one day.\n(A) disinterested\n(B) interested\n(C) interest\n(D) interesting",
+   "stem": "Justin bought a new book which he found very _____ and he finished reading it in one day.",
+   "options": [
+    "disinterested",
+    "interested",
+    "interest",
+    "interesting"
+   ],
+   "answer": "D",
+   "explain": "修飾「書」用現在分詞 interesting（令人感興趣的）；interested 用於人（感到興趣的）。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c72ace3-4688-81c2-97a4-c8bccd25a4b7",
+   "kind": "英文",
+   "number": "Justin bought a new book which he found very _____ and he finished reading it in one day.\n(A) disinterested\n(B) interested\n(C) interest\n(D) interesting",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-817e-8d57-fadd9f3fdb9f",
+   "point": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.\n(A) involved\n(B) involving\n(C) to involve\n(D) which involve",
+   "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
+   "options": [
+    "involved",
+    "involving",
+    "to involve",
+    "which involve"
+   ],
+   "answer": "A",
+   "explain": "with＋受詞＋分詞的獨立結構：factors 是「被牽涉」的，用過去分詞 involved（be involved in）。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c72ace3-4688-817e-8d57-fadd9f3fdb9f",
+   "kind": "英文",
+   "number": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.\n(A) involved\n(B) involving\n(C) to involve\n(D) which involve",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-81ff-b04a-ef3108eda1c3",
+   "point": "The clerk suggested _____ the fragile items with bubble wrap before shipping.\n(A) wrapping\n(B) wrap\n(C) to wrap\n(D) wrapped",
+   "stem": "The clerk suggested _____ the fragile items with bubble wrap before shipping.",
+   "options": [
+    "wrapping",
+    "wrap",
+    "to wrap",
+    "wrapped"
+   ],
+   "answer": "A",
+   "explain": "suggest 後接動名詞 V-ing（suggest doing），不接不定詞。同類動詞：mind、enjoy、finish、avoid、consider——與 mind＋V-ing 為同一組考點。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c72ace3-4688-81ff-b04a-ef3108eda1c3",
+   "kind": "英文",
+   "number": "The clerk suggested _____ the fragile items with bubble wrap before shipping.\n(A) wrapping\n(B) wrap\n(C) to wrap\n(D) wrapped",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-8112-89d4-d2d0fb6ccaa1",
+   "point": "The senior clerk gave me _____ useful advice on handling registered mail.\n(A) much\n(B) many\n(C) a few\n(D) several",
+   "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
+   "options": [
+    "much",
+    "many",
+    "a few",
+    "several"
+   ],
+   "answer": "A",
+   "explain": "advice 為不可數名詞，量的修飾用 much；many、a few、several 只能修飾可數複數名詞。information、furniture 同屬此類——曾錯考點。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c72ace3-4688-8112-89d4-d2d0fb6ccaa1",
+   "kind": "英文",
+   "number": "The senior clerk gave me _____ useful advice on handling registered mail.\n(A) much\n(B) many\n(C) a few\n(D) several",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-81d1-923b-d217540596aa",
+   "point": "_____ is my favorite pastime.\n(A) Listen music\n(B) Listening music\n(C) To listen music\n(D) Listening to music",
+   "stem": "_____ is my favorite pastime.",
+   "options": [
+    "Listen music",
+    "Listening music",
+    "To listen music",
+    "Listening to music"
+   ],
+   "answer": "D",
+   "explain": "動名詞片語當主詞，且 listen 為不及物動詞須接 to：Listening to music。（112 歷屆）",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c72ace3-4688-81d1-923b-d217540596aa",
+   "kind": "英文",
+   "number": "_____ is my favorite pastime.\n(A) Listen music\n(B) Listening music\n(C) To listen music\n(D) Listening to music",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-8132-a188-c5f2ac4c95ad",
+   "point": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.\n(A) considerable\n(B) considerate\n(C) considering\n(D) considered",
+   "stem": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.",
+   "options": [
+    "considerable",
+    "considerate",
+    "considering",
+    "considered"
+   ],
+   "answer": "B",
+   "explain": "空格描述人「體貼、顧慮他人感受」，considerate 專用於形容人的性格。considerable 指「相當多的」，修飾數量或程度；considering 作介系詞表「就……而言」，後須接名詞；considered 作形容詞指「深思熟慮後的」，修飾意見或決定而非人。",
+   "passage": "",
+   "srcSubject": "英文",
+   "pageId": "3c72ace3-4688-8132-a188-c5f2ac4c95ad",
+   "kind": "英文",
+   "number": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.\n(A) considerable\n(B) considerate\n(C) considering\n(D) considered",
+   "retest": "原題重測"
+  },
   {
    "id": "rc-3c72ace3-4688-818e-8063-f7e9cda0b02f",
    "point": "模考0823-25",
@@ -14,7 +128,7 @@
     "would have been"
    ],
    "answer": "B",
-   "explain": "wish 之後表與現在事實相反的願望，動詞用過去式；be 動詞在正式用法一律用 were（不分人稱）。is 是直述現在、will be 是單純未來、would have been 屬與過去事實相反。",
+   "explain": "wish 之後表**與現在事實相反**的願望，動詞用過去式；be 動詞在正式用法一律用 **were**（不分人稱）。is 是直述現在、will be 是單純未來、would have been 屬與**過去**事實相反。⚠ 真卷 112 第 19 題同型（I wish I could remember his name）。你 8/21 在此結構失分，本題改以 there be 句型與 were 測同一判準。",
    "passage": "",
    "srcSubject": "英文",
    "pageId": "3c72ace3-4688-818e-8063-f7e9cda0b02f",
@@ -33,7 +147,7 @@
     "ask"
    ],
    "answer": "C",
-   "explain": "副詞子句與主句主詞相同時，可省略主詞與 be 動詞；waiter 是被詢問，故用過去分詞 asked（＝When he was asked）。asking 為主動、to ask 表目的、ask 為原形。",
+   "explain": "副詞子句與主句主詞相同（the clerk）時，可省略主詞與 be 動詞；店員是**被**詢問，故用過去分詞 asked（＝When he was asked）。asking 為主動、to ask 表目的、ask 為原形。⚠ 真卷 112 第 24 題同型（When told about the bad news...）。與第 21 題同一個判斷動作：主動還是被動。",
    "passage": "",
    "srcSubject": "英文",
    "pageId": "3c72ace3-4688-813d-834d-c9a4e8cc67e7",
@@ -52,12 +166,145 @@
     "whether"
    ],
    "answer": "A",
-   "explain": "「別無更好的選擇」與「那個海拔幾乎種不了別的作物」是因果關係，用 because。although 表讓步、unless 表除非、whether 表是否。",
+   "explain": "「別無更好的選擇」與「那個海拔幾乎種不了別的作物」是**因果**關係，用 because。although 表讓步、unless 表除非、whether 表是否。⚠ 本題與第 34 格同樣測因果，但四個選項中只有 because 成立。",
    "passage": "",
    "srcSubject": "英文",
    "pageId": "3c72ace3-4688-8181-a221-ccd23b5e24c5",
    "kind": "英文",
    "number": "模考0823-35",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-811b-9282-e6080baabaa8",
+   "point": "成語中的數字虛實",
+   "stem": "下列成語中的數字，何者為確指之數？",
+   "options": [
+    "三令五申",
+    "千頭萬緒",
+    "九死一生",
+    "五十步笑百步"
+   ],
+   "answer": "D",
+   "explain": "選 A：三令五申｜「五十步笑百步」出自《孟子》，指戰場上退五十步者譏笑退百步者，五十與百為實指之距離。(A)(B)(C)之數字均為虛指，形容次數多、頭緒繁雜、極危險。⚠ 判斷訣竅：能還原成具體情境者為實指。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c82ace3-4688-811b-9282-e6080baabaa8",
+   "kind": "訂正",
+   "number": "模考0826-國12",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8116-8cbc-f392a805bf31",
+   "point": "古文詞義：生我劬勞之「劬勞」",
+   "stem": "《詩經．小雅．蓼莪》：「哀哀父母，生我劬勞。」句中「劬勞」意謂下列何者？",
+   "options": [
+    "憂愁悲傷",
+    "辛苦勞累",
+    "殷切期盼",
+    "生活貧困"
+   ],
+   "answer": "B",
+   "explain": "【答對但標不確定，依硬規則 17 不算通過，須換問法重測】「劬」音ㄑㄩˊ，勞苦之意；劬勞即辛勞。〈蓼莪〉為思念父母、感念養育之恩的名篇，「哀哀父母，生我劬勞」謂父母生養自己備極辛勞。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c82ace3-4688-8116-8cbc-f392a805bf31",
+   "kind": "訂正",
+   "number": "模考0826-國11",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8184-9938-f1ac6a174379",
+   "point": "古文文意：陋室銘之交遊",
+   "stem": "劉禹錫〈陋室銘〉：「談笑有鴻儒，往來無白丁。」這兩句旨在表現：",
+   "options": [
+    "主人交遊之高雅",
+    "居室之簡陋窘迫",
+    "賓客往來之眾多",
+    "主人孤高而不合群"
+   ],
+   "answer": "A",
+   "explain": "選 C：賓客往來之眾多｜鴻儒指博學之士，白丁指未有功名之平民。二句以來往之人襯托主人品味，呼應全篇「斯是陋室，惟吾德馨」——室雖陋而德不陋。並非寫窘迫、人多或孤高。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c82ace3-4688-8184-9938-f1ac6a174379",
+   "kind": "訂正",
+   "number": "模考0826-國9",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8192-8754-e8b0ab87256f",
+   "point": "詩詞季節判讀",
+   "stem": "下列詩句所描寫的季節，何者為秋？",
+   "options": [
+    "綠槐高柳咽新蟬",
+    "忽如一夜春風來，千樹萬樹梨花開",
+    "接天蓮葉無窮碧",
+    "露從今夜白，月是故鄉明"
+   ],
+   "answer": "D",
+   "explain": "選 A：綠槐高柳咽新蟬｜「露從今夜白」點出節氣白露，屬秋。(A)新蟬鳴、綠槐高柳為夏。(B)出自岑參〈白雪歌〉，以梨花喻雪，實寫冬。(C)蓮葉接天為夏。⚠ 判季節看物候關鍵詞：蟬、蓮為夏；露、雁、菊為秋；梅、雪為冬。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c82ace3-4688-8192-8754-e8b0ab87256f",
+   "kind": "訂正",
+   "number": "模考0826-國8",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-814d-bfa8-f54012e78ebf",
+   "point": "字音辨正：胼手胝足",
+   "stem": "下列「」內的字，何者讀音正確？",
+   "options": [
+    "「莘」莘學子：ㄒㄧㄣ",
+    "「稱」職：ㄔㄥ",
+    "「熾」熱：ㄓˋ",
+    "「胼」手胝足：ㄆㄧㄢˊ"
+   ],
+   "answer": "D",
+   "explain": "選 A：「莘」莘學子：ㄒㄧㄣ｜胼手胝足之「胼」讀ㄆㄧㄢˊ，指手掌腳底因勞動生繭。(A)莘莘學子之「莘」讀ㄕㄣ。(B)稱職之「稱」讀ㄔㄣˋ，取相稱之義。(C)熾熱之「熾」讀ㄔˋ。⚠ 破音字判斷先看語義：稱讚讀ㄔㄥ，相稱讀ㄔㄣˋ。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c82ace3-4688-814d-bfa8-f54012e78ebf",
+   "kind": "訂正",
+   "number": "模考0826-國3",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8142-94d4-c9999c8a1da3",
+   "point": "錯別字辨識：明察秋毫",
+   "stem": "下列詞語空格內應填入的字，何者正確？",
+   "options": [
+    "一「股」作氣",
+    "走「頭」無路",
+    "明「察」秋毫",
+    "名「符」其實"
+   ],
+   "answer": "C",
+   "explain": "選 B：走「頭」無路｜明察秋毫，出自《孟子》，指視力能見鳥獸秋日新生之細毛，喻觀察入微，用「察」字。(A)應為「一鼓作氣」，取擊鼓進軍之意。(B)應為「走投無路」，投指投奔。(D)應為「名副其實」，副為相稱之意。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c82ace3-4688-8142-94d4-c9999c8a1da3",
+   "kind": "訂正",
+   "number": "模考0826-國2",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-8137-a73d-e39316364dbe",
+   "point": "醉翁亭記：醉翁之意",
+   "stem": "歐陽脩〈醉翁亭記〉：「醉翁之意不在酒，在乎山水之間也。」此語後世多用以比喻？",
+   "options": [
+    "飲酒須節制，重在情趣",
+    "本意不在此，而別有所圖或別有寄託",
+    "借酒澆愁，排遣愁緒",
+    "山水風光勝於美酒佳餚"
+   ],
+   "answer": "B",
+   "explain": "原句謂作者飲酒之樂實在山水，後世引申為「表面所為與真正意圖不同」，多指別有用心或另有寄託。用時可為中性或含貶義，須依語境判斷。",
+   "passage": "",
+   "srcSubject": "國文",
+   "pageId": "3c72ace3-4688-8137-a73d-e39316364dbe",
+   "kind": "訂正",
+   "number": "練習0825-國5",
    "retest": "原題重測"
   },
   {
@@ -96,6 +343,272 @@
    "pageId": "3c52ace3-4688-8192-baf1-f0cb29cdb8a5",
    "kind": "訂正",
    "number": "模考0823-民1",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8174-843e-cbe577c2ea0f",
+   "point": "收養之無效事由",
+   "stem": "下列收養行為，何者無效？",
+   "options": [
+    "夫妻收養子女未共同為之",
+    "除夫妻共同收養外，同時為二人之養子女",
+    "有配偶之人被收養，未得其配偶同意",
+    "滿七歲之未成年人被收養，未得法定代理人同意"
+   ],
+   "answer": "B",
+   "explain": "選 A：夫妻收養子女未共同為之｜第1075條：除夫妻共同收養外，一人不得同時為二人之養子女；違反者依第1079條之4為無效。(A)(C)(D)分別違反第1074、1076、1076條之2第2項，依第1079條之5均為「得撤銷」而非無效。⚠ 條號背不下來時記：「同時當兩家養子女」與「近親、輩分不相當」才是無效。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-8174-843e-cbe577c2ea0f",
+   "kind": "訂正",
+   "number": "模考0826-民18",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8132-9876-c65100495e03",
+   "point": "盜贓遺失物之回復請求",
+   "stem": "下列原屬甲所有之盜贓或遺失物，何者情形甲得向善意之現占有人請求回復？",
+   "options": [
+    "遭竊喪失占有已滿三年，現由善意丙占有之汽車",
+    "兩日前遺失，被善意丁拾得之錢包",
+    "遺失於餐館被善意戊拾得，三十個月後始發現之鑽戒",
+    "遺留於高鐵座位，被善意乘客庚取走之現金五千元"
+   ],
+   "answer": "B",
+   "explain": "選 D：遺留於高鐵座位，被善意乘客庚取走之現金五千元｜第949條第1項：占有物如係盜贓、遺失物或其他非基於原占有人之意思而喪失其占有者，原占有人自喪失占有之時起二年以內，得向善意受讓之現占有人請求回復其物。(A)三年、(C)三十個月均已逾二年。(D)錯：第951條，盜贓遺失物如係金錢或未記載權利人之有價證券，不得向善意受讓之現占有人請求回復。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-8132-9876-c65100495e03",
+   "kind": "訂正",
+   "number": "模考0826-民16",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8188-b936-d63ce79cc5ba",
+   "point": "承攬瑕疵發見期間",
+   "stem": "關於承攬人瑕疵擔保之期間，下列敘述何者正確？",
+   "options": [
+    "非土地上工作物之瑕疵逾一年始發見者，不得主張",
+    "建築物或重大修繕之瑕疵發見期間為十五年",
+    "承攬人故意不告知瑕疵者，一年之期間延為三年",
+    "瑕疵發見期間不得以特約延長"
+   ],
+   "answer": "A",
+   "explain": "（答對，但作答時標記不確定）｜【答對但標不確定，依硬規則 17 不算通過，須換問法重測】第498條第1項：瑕疵自工作交付後經過一年始發見者，不得主張。(B)錯：第499條，建築物或其他土地上之工作物或為此等工作物之重大修繕者，期間為五年。(C)錯：第500條，故意不告知者一年延為五年、五年延為十年。(D)錯：第501條，該等期間得以契約加長。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-8188-b936-d63ce79cc5ba",
+   "kind": "訂正",
+   "number": "模考0826-民10",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-81a0-a522-d9ebd0d2ea70",
+   "point": "物之瑕疵擔保責任",
+   "stem": "關於出賣人之物之瑕疵擔保責任，下列敘述何者正確？",
+   "options": [
+    "買受人於契約成立時知有瑕疵，出賣人仍負擔保之責",
+    "出賣人應擔保其物於締約時無減少價值之瑕疵",
+    "種類之買賣有瑕疵者，買受人僅得解約或減少價金",
+    "買受人因重大過失不知有瑕疵，出賣人未保證者不負擔保責任"
+   ],
+   "answer": "D",
+   "explain": "選 B：出賣人應擔保其物於締約時無減少價值之瑕疵｜第355條第2項：買受人因重大過失而不知有瑕疵者，出賣人如未保證其無瑕疵時，不負擔保之責。(A)錯：同條第1項，知有瑕疵者出賣人不負擔保責任。(B)錯：第354條第1項以「危險移轉時」為準，非締約時。(C)錯：第364條，種類買賣買受人得請求另行交付無瑕疵之物。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-81a0-a522-d9ebd0d2ea70",
+   "kind": "訂正",
+   "number": "模考0826-民9",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8105-96a4-d8a6a82d0d03",
+   "point": "自始客觀不能與締約上過失",
+   "stem": "甲將電動車出售予乙，價金 120 萬元，乙先付定金 20 萬元。該車已於契約成立前焚燬，甲訂約時可得而知。乙得對甲主張何種權利？",
+   "options": [
+    "請求加倍返還定金",
+    "請求交付同型電動車",
+    "請求賠償信賴契約有效所受之損害",
+    "請求解除契約並賠償履行利益"
+   ],
+   "answer": "C",
+   "explain": "選 D：請求解除契約並賠償履行利益｜標的於契約成立前已滅失＝自始客觀不能，契約無效（第246條第1項本文）。第247條第1項：契約因以不能之給付為標的而無效，當事人於訂約時知其不能或可得而知者，對於非因過失而信契約為有效致受損害之他方，負賠償責任——賠償範圍為信賴利益。⚠ 契約既無效，即無加倍返還定金（第249條）或解除契約可言，履行利益亦不得請求。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-8105-96a4-d8a6a82d0d03",
+   "kind": "訂正",
+   "number": "模考0826-民8",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-8175-a22e-feedbfee8bc7",
+   "point": "損害賠償之方法與範圍",
+   "stem": "關於損害賠償，下列敘述何者正確？",
+   "options": [
+    "除法律或契約另有訂定外，應回復損害發生前之原狀",
+    "被害人與有過失者，法院應免除賠償金額",
+    "非因故意或重大過失所致者，法院應減輕其賠償",
+    "僅須填補所受損害，無庸賠償所失利益"
+   ],
+   "answer": "A",
+   "explain": "選 B：被害人與有過失者，法院應免除賠償金額｜第213條第1項：負損害賠償責任者，除法律另有規定或契約另有訂定外，應回復他方損害發生前之原狀。(B)錯：第217條第1項為「得減輕或免除」。(C)錯：第218條為「得減輕」。(D)錯：第216條第1項包括所受損害及所失利益。⚠「得」與「應」是本條群最常見的誘答點。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-8175-a22e-feedbfee8bc7",
+   "kind": "訂正",
+   "number": "模考0826-民7",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c82ace3-4688-81a4-9720-ee0a26b27e37",
+   "point": "消滅時效之效力與拋棄",
+   "stem": "關於消滅時效，下列敘述何者正確？",
+   "options": [
+    "時效完成後，債權人即不得請求給付",
+    "時效消滅後仍為給付者，得以不知時效請求返還",
+    "時效期間不得以法律行為加長或減短，亦不得預先拋棄其利益",
+    "因請求而中斷者，縱未於六個月內起訴仍生中斷效力"
+   ],
+   "answer": "C",
+   "explain": "選 D：因請求而中斷者，縱未於六個月內起訴仍生中斷效力｜第147條：時效期間不得以法律行為加長或減短之，並不得預先拋棄時效之利益。(A)錯：時效完成僅生抗辯權，債務人「得拒絕給付」（第144條第1項），請求權本身不消滅。(B)錯：第144條第2項明定不得請求返還。(D)錯：第130條，請求後六個月內不起訴，視為不中斷。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c82ace3-4688-81a4-9720-ee0a26b27e37",
+   "kind": "訂正",
+   "number": "模考0826-民4",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-816e-8d8a-d15a0d1e1df4",
+   "point": "繼承債務之清償責任 ⚠",
+   "stem": "下列有關繼承權利義務關係之敘述，何者正確？",
+   "options": [
+    "父親乙死亡時，有17歲的唯一繼承人甲，未開具遺產清冊陳報法院，又將乙之遺產全數用來償還舅舅丙先前出借的2,000萬元，導致鄰居丁有600萬元的債權未獲清償，則甲不得以所得遺產為限，幫乙清償債務",
+    "戊以抵押貸款的方式購買A屋，向庚銀行借款1,200萬元，餘900萬元尚未償還；戊還欠朋友辛600萬元；戊死亡後，庚優先於辛受償",
+    "繼承事發生後，繼承人以所得遺產幫死者償還債務，而各繼承人應按人數平均分擔此義務",
+    "繼承人有開具遺產清冊卻未依法定順序幫死者償還債務，對於受超額給付不當受領之債權人，其得請求返還其不當受領之數額"
+   ],
+   "answer": "B",
+   "explain": "抵押權為擔保物權，抵押權人就抵押物賣得價金有優先受償之權，故庚優先於普通債權人辛，該項正確。其餘：第1162條之2第2項但書明定繼承人為**無行為能力人或限制行為能力人**者，不負超過所得遺產之責任，17歲之甲仍以所得遺產為限；繼承人相互間對被繼承人之債務，除法律另有規定或另有約定外，按其**應繼分比例**負擔（第1153條第2項），非按人數平均；第1161條第3項明文規定**繼承人對於不當受領之債權人或受遺贈人，不得請求返還**，得請求返還者為受有損害之債權人（同條第2項）。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-816e-8d8a-d15a0d1e1df4",
+   "kind": "訂正",
+   "number": "練習0825-民17",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-813b-a4d4-f82c2ca04179",
+   "point": "法定單純承認之事由（§1163）",
+   "stem": "被繼承人甲死亡時，有子女乙、丙、丁、戊四人為繼承人，甲對庚有200萬元債務尚未清償。下列何者並非就繼承債務負無限責任？",
+   "options": [
+    "繼承開始後，乙將向甲所借之金條、鑽戒統統藏到自己的保險箱，不告訴其他人",
+    "繼承開始後，丙在提出之遺產清冊上，刻意缺少記入甲部分的股票和存款，差到一個位數之多",
+    "繼承開始後，丁將所保管甲之遺囑，塗改為對丁有利，再提出予親屬會議",
+    "繼承開始後，戊將所保管甲之古董花瓶全數偷偷出售，避免庚得知"
+   ],
+   "answer": "C",
+   "explain": "第1163條所定不得主張限定責任者僅三款：隱匿**遺產**情節重大、在**遺產清冊**為虛偽之記載情節重大、意圖詐害被繼承人之債權人之權利而為**遺產之處分**。塗改**遺囑**並不在其中，而屬第1145條第1項第4款偽造、變造遺囑之**喪失繼承權**事由，兩者法律效果不同，故該項並非負無限責任。其餘三者依序該當隱匿遺產、遺產清冊虛偽記載、詐害債權人而處分遺產。判斷動作：先分辨動的是「遺產」還是「遺囑」。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-813b-a4d4-f82c2ca04179",
+   "kind": "訂正",
+   "number": "練習0825-民15",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-81cf-9938-d1668bc28e48",
+   "point": "拋棄繼承後之應繼分變動",
+   "stem": "被繼承人甲死亡時，留有遺產600萬元。其配偶乙，子女丙、丁，兄戊，妹己與祖母庚尚在世。下列敘述何者正確？",
+   "options": [
+    "丙拋棄繼承時，丁應可繼承300萬元",
+    "丙、丁均拋棄繼承時，乙應可繼承400萬元",
+    "乙拋棄繼承，丁應可繼承200萬元",
+    "丙、丁、戊、己均拋棄繼承，庚應可繼承300萬元"
+   ],
+   "answer": "A",
+   "explain": "丙拋棄後，繼承人為配偶乙與子女丁，配偶與第一順序繼承人同為繼承時應繼分平均（第1144條第1款），故各得300萬元，該項正確。其餘：丙、丁均拋棄時，第一順序無人，父母（第二順序）亦不在，由第三順序兄弟姊妹戊、己與配偶乙共同繼承，配偶應繼分為二分之一即300萬元，非400萬元；乙拋棄後由丙、丁各得300萬元，非200萬元；丙、丁、戊、己均拋棄時，由第四順序祖母庚與配偶乙繼承，配偶應繼分為三分之二即400萬元，庚僅得200萬元。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-81cf-9938-d1668bc28e48",
+   "kind": "訂正",
+   "number": "練習0825-民13",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-8140-bd64-d60a6efd7106",
+   "point": "扶養義務之發生與消滅",
+   "stem": "甲夫、乙妻育有成年子女丙、未成年子女丁。下列敘述何者正確？",
+   "options": [
+    "甲與乙離婚後，因乙擔任丁之親權人，甲不必負擔對丁之扶養義務",
+    "甲與乙分居後，因無共同家庭生活，甲不必負擔對乙之扶養義務",
+    "甲、乙死亡後，因丙已與戊女結婚，丙不必負擔對丁之扶養義務",
+    "甲、乙退休後，因丙已有穩定工作賺有薪資，乙不必負擔對丙之扶養義務"
+   ],
+   "answer": "D",
+   "explain": "第1117條第1項：受扶養權利者以不能維持生活而無謀生能力者為限；丙已有穩定工作並有薪資，不符受扶養要件，父母自不必扶養，故該項正確。其餘：父母對未成年子女之扶養義務**不因結婚經撤銷或離婚而受影響**（第1116條之2），也與由誰擔任親權人無關；夫妻互負扶養義務（第1116條之1），不因分居而消滅；兄弟姊妹互負扶養義務（第1114條第3款），不因其中一方結婚而免除。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-8140-bd64-d60a6efd7106",
+   "kind": "訂正",
+   "number": "練習0825-民9",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-81ae-a1ef-d36951eb99ae",
+   "point": "認領之效力與親屬關係",
+   "stem": "甲男為非婚生子女，乙男為其血緣上生父。關於乙認領甲之效力，下列敘述何者正確？",
+   "options": [
+    "認領後，乙之妻丙與甲之間，發生一親等直系血親關係",
+    "認領後，甲須先扶養乙，方得繼承乙之遺產",
+    "認領後，原從母姓的甲，得由其母與乙以書面約定改稱乙之姓",
+    "認領後，乙之父丁與甲之間，發生二親等直系姻親關係"
+   ],
+   "answer": "C",
+   "explain": "第1069條：非婚生子女經認領者，其效力溯及於出生時，甲即取得婚生子女之地位。第1059條第2項：子女經出生登記後，於未成年前，得由父母以書面約定變更為父姓或母姓，故得由生母與生父約定改從父姓。其餘均屬親屬種類判斷錯誤：乙之妻丙與甲之間為**一親等直系姻親**（配偶之血親），非血親；乙之父丁與甲之間為**二親等直系血親**（祖孫），非姻親。又繼承權不以曾盡扶養義務為要件。判斷動作：認領後與生父之血親成為血親，與生父之配偶才是姻親。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-81ae-a1ef-d36951eb99ae",
+   "kind": "訂正",
+   "number": "練習0825-民8",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-81a2-8e08-d3e69d868779",
+   "point": "離婚生效時點之比較 ⚠",
+   "stem": "2026年所發生之離婚事件，下列何者最先確定離婚之效力？",
+   "options": [
+    "甲夫、乙妻於2月1日經法院起訴離婚，3月6日判決確定，4月8日完成戶政登記",
+    "丙夫、丁妻於3月3日經法院調解離婚，5月5日完成戶政登記",
+    "戊夫、己妻於4月4日協議離婚，5月4日完成戶政登記",
+    "庚夫、辛妻於1月2日起訴離婚，12月12日經法院判決離婚"
+   ],
+   "answer": "B",
+   "explain": "三種離婚的生效時點不同：裁判離婚為形成判決，於**判決確定時**生效；經法院調解或和解成立者，依第1052條之1於**調解或和解成立時**婚姻關係即消滅，戶政登記僅為職權通知事項；兩願離婚依第1050條須作成書面、二人以上證人簽名並**向戶政機關為離婚登記**，於登記時生效。故各選項生效日依序為3月6日、3月3日、5月4日、12月12日（判決尚須確定），以調解離婚之3月3日最早。判斷動作：先辨明是判決、調解和解、還是兩願，再套各自的生效時點。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-81a2-8e08-d3e69d868779",
+   "kind": "訂正",
+   "number": "練習0825-民6",
+   "retest": "原題重測"
+  },
+  {
+   "id": "rc-3c72ace3-4688-817b-8c74-e65b7d47bb3a",
+   "point": "期間之起算與末日（§120Ⅱ、§121）⚠",
+   "stem": "民事訴訟法第138條規定，文書之寄存送達自寄存之日起，經10日發生效力。如於7月1日午前11時寄存者，其送達效力何時發生？",
+   "options": [
+    "7月11日午後24時起",
+    "7月10日午後24時起",
+    "7月11日午前11時起",
+    "7月12日午前11時起"
+   ],
+   "answer": "A",
+   "explain": "民法第119條：法令所定期間，除有特別訂定外，依本章計算。第120條第2項：以日、星期、月或年定期間者，**其始日不算入**，故7月1日不計，自7月2日起算。第121條第1項：以日定期間者，以期間**末日之終止**為期間之終止，第10日為7月11日，該日終了即7月11日午後24時。常見錯誤是採「滿24小時制」而算成7月11日午前11時，或誤把始日算入而提前一日。",
+   "passage": "",
+   "srcSubject": "民法",
+   "pageId": "3c72ace3-4688-817b-8c74-e65b7d47bb3a",
+   "kind": "訂正",
+   "number": "練習0825-民1",
    "retest": "原題重測"
   },
   {
