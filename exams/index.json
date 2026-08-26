@@ -40,6 +40,15 @@
   "round": 6
  },
  {
+  "id": "english-vocab-drill-0826",
+  "file": "english-vocab-drill-0826.json",
+  "title": "英文字彙：情境取字（不給選項）",
+  "subject": "英文",
+  "minutes": 15,
+  "summary": "填空20題．不給四選一，練「看情境取字」；8/26 錯的十字＋真卷高頻字",
+  "type": "practice"
+ },
+ {
   "id": "minfa-mini-0828-family",
   "file": "minfa-mini-0828-family.json",
   "title": "民法迷你卷：親屬繼承補強（8/28）",
