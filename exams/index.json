@@ -49,6 +49,15 @@
   "type": "practice"
  },
  {
+  "id": "postal-mini-0827-review",
+  "file": "postal-mini-0827-review.json",
+  "title": "郵政法規：第6場錯點重測（8/27）",
+  "subject": "郵政法規",
+  "minutes": 10,
+  "summary": "選擇8題．第6場錯點換情境重測；原第33題答案已更正",
+  "type": "practice"
+ },
+ {
   "id": "minfa-mini-0828-family",
   "file": "minfa-mini-0828-family.json",
   "title": "民法迷你卷：親屬繼承補強（8/28）",
