@@ -7123,5 +7123,397 @@
    "2": 92,
    "3": 43
   }
+ },
+ "2026-08-27": {
+  "date": "2026-08-27",
+  "drill": {
+   "count": 37,
+   "wrong": [
+    {
+     "id": "rc-3c72ace3-4688-817e-8d57-fadd9f3fdb9f",
+     "subject": "英文",
+     "point": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.\n(A) involved\n(B) involving\n(C) to involve\n(D) which involve",
+     "stem": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-27",
+     "options": [
+      "involved",
+      "which involve",
+      "involving",
+      "to involve"
+     ],
+     "userText": "which involve"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8112-89d4-d2d0fb6ccaa1",
+     "subject": "英文",
+     "point": "The senior clerk gave me _____ useful advice on handling registered mail.\n(A) much\n(B) many\n(C) a few\n(D) several",
+     "stem": "The senior clerk gave me _____ useful advice on handling registered mail.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-27",
+     "options": [
+      "several",
+      "many",
+      "much",
+      "a few"
+     ],
+     "userText": "several"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8132-a188-c5f2ac4c95ad",
+     "subject": "英文",
+     "point": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.\n(A) considerable\n(B) considerate\n(C) considering\n(D) considered",
+     "stem": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-27",
+     "options": [
+      "considerable",
+      "considering",
+      "considerate",
+      "considered"
+     ],
+     "userText": "considered"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8181-a221-ccd23b5e24c5",
+     "subject": "英文",
+     "point": "模考0823-35",
+     "stem": "【克漏字（一）】請依下文回答第 31～35 題。Coffee was first cultivated in the highlands of Ethiopia and __31__ to the rest of the world by traders. Today it is grown in more than fifty countries, almost all of them in a narrow band __32__ the climate stays warm and wet for most of the year. Growing coffee, however, is not an easy business. Prices rise and fall sharply from season to season, and a single bad harvest can ruin a small farm. __33__, the number of growers continues to increase. Many are drawn by the high prices paid for specialty beans, __34__ these can sell for several times the price of ordinary coffee. Others simply have no better option, __35__ few other crops grow well at that altitude.第 35 格：",
+     "user": "B",
+     "answer": "D",
+     "date": "2026-08-27",
+     "options": [
+      "unless",
+      "although",
+      "whether",
+      "because"
+     ],
+     "userText": "although"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8116-8cbc-f392a805bf31",
+     "subject": "國文",
+     "point": "古文詞義：生我劬勞之「劬勞」",
+     "stem": "《詩經．小雅．蓼莪》：「哀哀父母，生我劬勞。」句中「劬勞」意謂下列何者？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-27",
+     "options": [
+      "辛苦勞累",
+      "憂愁悲傷",
+      "生活貧困",
+      "殷切期盼"
+     ],
+     "userText": "殷切期盼"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8192-8754-e8b0ab87256f",
+     "subject": "國文",
+     "point": "詩詞季節判讀",
+     "stem": "下列詩句所描寫的季節，何者為秋？",
+     "user": "A",
+     "answer": "D",
+     "date": "2026-08-27",
+     "options": [
+      "綠槐高柳咽新蟬",
+      "忽如一夜春風來，千樹萬樹梨花開",
+      "接天蓮葉無窮碧",
+      "露從今夜白，月是故鄉明"
+     ],
+     "userText": "綠槐高柳咽新蟬"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8142-94d4-c9999c8a1da3",
+     "subject": "國文",
+     "point": "錯別字辨識：明察秋毫",
+     "stem": "下列詞語空格內應填入的字，何者正確？",
+     "user": "D",
+     "answer": "C",
+     "date": "2026-08-27",
+     "options": [
+      "一「股」作氣",
+      "走「頭」無路",
+      "明「察」秋毫",
+      "名「符」其實"
+     ],
+     "userText": "名「符」其實"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8174-843e-cbe577c2ea0f",
+     "subject": "民法",
+     "point": "收養之無效事由",
+     "stem": "下列收養行為，何者無效？",
+     "user": "D",
+     "answer": "B",
+     "date": "2026-08-27",
+     "options": [
+      "夫妻收養子女未共同為之",
+      "除夫妻共同收養外，同時為二人之養子女",
+      "有配偶之人被收養，未得其配偶同意",
+      "滿七歲之未成年人被收養，未得法定代理人同意"
+     ],
+     "userText": "滿七歲之未成年人被收養，未得法定代理人同意"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8188-b936-d63ce79cc5ba",
+     "subject": "民法",
+     "point": "承攬瑕疵發見期間",
+     "stem": "關於承攬人瑕疵擔保之期間，下列敘述何者正確？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-27",
+     "options": [
+      "非土地上工作物之瑕疵逾一年始發見者，不得主張",
+      "建築物或重大修繕之瑕疵發見期間為十五年",
+      "承攬人故意不告知瑕疵者，一年之期間延為三年",
+      "瑕疵發見期間不得以特約延長"
+     ],
+     "userText": "建築物或重大修繕之瑕疵發見期間為十五年"
+    },
+    {
+     "id": "rc-3c72ace3-4688-813b-a4d4-f82c2ca04179",
+     "subject": "民法",
+     "point": "法定單純承認之事由（§1163）",
+     "stem": "被繼承人甲死亡時，有子女乙、丙、丁、戊四人為繼承人，甲對庚有200萬元債務尚未清償。下列何者並非就繼承債務負無限責任？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-27",
+     "options": [
+      "繼承開始後，丁將所保管甲之遺囑，塗改為對丁有利，再提出予親屬會議",
+      "繼承開始後，戊將所保管甲之古董花瓶全數偷偷出售，避免庚得知",
+      "繼承開始後，丙在提出之遺產清冊上，刻意缺少記入甲部分的股票和存款，差到一個位數之多",
+      "繼承開始後，乙將向甲所借之金條、鑽戒統統藏到自己的保險箱，不告訴其他人"
+     ],
+     "userText": "繼承開始後，戊將所保管甲之古董花瓶全數偷偷出售，避免庚得知"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81ae-a1ef-d36951eb99ae",
+     "subject": "民法",
+     "point": "認領之效力與親屬關係",
+     "stem": "甲男為非婚生子女，乙男為其血緣上生父。關於乙認領甲之效力，下列敘述何者正確？",
+     "user": "B",
+     "answer": "A",
+     "date": "2026-08-27",
+     "options": [
+      "認領後，原從母姓的甲，得由其母與乙以書面約定改稱乙之姓",
+      "認領後，甲須先扶養乙，方得繼承乙之遺產",
+      "認領後，乙之父丁與甲之間，發生二親等直系姻親關係",
+      "認領後，乙之妻丙與甲之間，發生一親等直系血親關係"
+     ],
+     "userText": "認領後，甲須先扶養乙，方得繼承乙之遺產"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3c72ace3-4688-81c2-97a4-c8bccd25a4b7",
+     "subject": "英文",
+     "point": "Justin bought a new book which he found very _____ and he finished reading it in one day.\n(A) disinterested\n(B) interested\n(C) interest\n(D) interesting"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81ff-b04a-ef3108eda1c3",
+     "subject": "英文",
+     "point": "The clerk suggested _____ the fragile items with bubble wrap before shipping.\n(A) wrapping\n(B) wrap\n(C) to wrap\n(D) wrapped"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81d1-923b-d217540596aa",
+     "subject": "英文",
+     "point": "_____ is my favorite pastime.\n(A) Listen music\n(B) Listening music\n(C) To listen music\n(D) Listening to music"
+    },
+    {
+     "id": "rc-3c72ace3-4688-818e-8063-f7e9cda0b02f",
+     "subject": "英文",
+     "point": "模考0823-25"
+    },
+    {
+     "id": "rc-3c72ace3-4688-813d-834d-c9a4e8cc67e7",
+     "subject": "英文",
+     "point": "模考0823-26"
+    },
+    {
+     "id": "rc-3c82ace3-4688-811b-9282-e6080baabaa8",
+     "subject": "國文",
+     "point": "成語中的數字虛實"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8184-9938-f1ac6a174379",
+     "subject": "國文",
+     "point": "古文文意：陋室銘之交遊"
+    },
+    {
+     "id": "rc-3c82ace3-4688-814d-bfa8-f54012e78ebf",
+     "subject": "國文",
+     "point": "字音辨正：胼手胝足"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8137-a73d-e39316364dbe",
+     "subject": "國文",
+     "point": "醉翁亭記：醉翁之意"
+    },
+    {
+     "id": "rc-3b52ace3-4688-816c-8ba6-d6cd80978550",
+     "subject": "郵政法規",
+     "point": "偽造郵資符誌之處罰"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8192-baf1-f0cb29cdb8a5",
+     "subject": "民法",
+     "point": "要式契約之種類"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8132-9876-c65100495e03",
+     "subject": "民法",
+     "point": "盜贓遺失物之回復請求"
+    },
+    {
+     "id": "rc-3c82ace3-4688-81a0-a522-d9ebd0d2ea70",
+     "subject": "民法",
+     "point": "物之瑕疵擔保責任"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8105-96a4-d8a6a82d0d03",
+     "subject": "民法",
+     "point": "自始客觀不能與締約上過失"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8175-a22e-feedbfee8bc7",
+     "subject": "民法",
+     "point": "損害賠償之方法與範圍"
+    },
+    {
+     "id": "rc-3c82ace3-4688-81a4-9720-ee0a26b27e37",
+     "subject": "民法",
+     "point": "消滅時效之效力與拋棄"
+    },
+    {
+     "id": "rc-3c72ace3-4688-816e-8d8a-d15a0d1e1df4",
+     "subject": "民法",
+     "point": "繼承債務之清償責任 ⚠"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81cf-9938-d1668bc28e48",
+     "subject": "民法",
+     "point": "拋棄繼承後之應繼分變動"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8140-bd64-d60a6efd7106",
+     "subject": "民法",
+     "point": "扶養義務之發生與消滅"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81a2-8e08-d3e69d868779",
+     "subject": "民法",
+     "point": "離婚生效時點之比較 ⚠"
+    },
+    {
+     "id": "rc-3c72ace3-4688-817b-8c74-e65b7d47bb3a",
+     "subject": "民法",
+     "point": "期間之起算與末日（§120Ⅱ、§121）⚠"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81ca-8bc5-ecdde7069819",
+     "subject": "民法",
+     "point": "§824-1Ⅰ：共有人自共有物分割之「效力發生時」起取得分得部分之所有權；協議成立≠效力發生"
+    },
+    {
+     "id": "rc-3c02ace3-4688-8198-bd29-ef0dd5dc16d1",
+     "subject": "民法",
+     "point": "§821：各共有人得就共有物之全部為本於所有權之請求；但回復共有物之請求，僅得為共有人全體之利益為之"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81a5-b3cf-cd6c2accf8b1",
+     "subject": "民法",
+     "point": "留置權之成立要件"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81ad-8b6b-fd623f6ae50f",
+     "subject": "民法",
+     "point": "加工物所有權之歸屬"
+    },
+    {
+     "id": "rc-3b52ace3-4688-811b-8de7-d03cec9bd487",
+     "subject": "民法",
+     "point": "停止條件與解除條件之區別"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "id": "minfa-mini-0828-family",
+    "title": "民法迷你卷：親屬繼承補強（8/28）",
+    "subject": "民法",
+    "mcScore": 12,
+    "mcMax": 20,
+    "mcRight": 6,
+    "mcTotal": 10,
+    "wrongs": [
+     {
+      "n": 2,
+      "point": "受扶養權利之要件",
+      "user": "A",
+      "answer": "B"
+     },
+     {
+      "n": 3,
+      "point": "拋棄繼承後之應繼分歸屬",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 4,
+      "point": "法定單純承認之事由",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 9,
+      "point": "喪失繼承權之事由",
+      "user": "A",
+      "answer": "C"
+     }
+    ]
+   },
+   {
+    "id": "postal-mini-0827-review",
+    "title": "郵政法規：第6場錯點重測（8/27）",
+    "subject": "郵政法規",
+    "mcScore": 10,
+    "mcMax": 16,
+    "mcRight": 5,
+    "mcTotal": 8,
+    "wrongs": [
+     {
+      "n": 1,
+      "point": "郵政儲金匯兌法立法目的",
+      "user": "C",
+      "answer": "D"
+     },
+     {
+      "n": 3,
+      "point": "重大公共建設融資核可",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 5,
+      "point": "不按址投遞區域",
+      "user": "D",
+      "answer": "A"
+     }
+    ]
+   }
+  ],
+  "vocab": {
+   "done": 15,
+   "right": 12
+  },
+  "vocabStages": {
+   "0": 24,
+   "1": 97,
+   "2": 90,
+   "3": 47
+  }
  }
 }
