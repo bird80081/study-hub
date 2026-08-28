@@ -7516,5 +7516,475 @@
    "2": 90,
    "3": 47
   }
+ },
+ "2026-08-28": {
+  "date": "2026-08-28",
+  "drill": {
+   "count": 37,
+   "wrong": [
+    {
+     "id": "rc-3c72ace3-4688-8132-a188-c5f2ac4c95ad",
+     "subject": "英文",
+     "point": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.\n(A) considerable\n(B) considerate\n(C) considering\n(D) considered",
+     "stem": "The branch manager was ____ enough to arrange a wheelchair ramp before the elderly customer arrived.",
+     "user": "A",
+     "answer": "C",
+     "date": "2026-08-28",
+     "options": [
+      "considerable",
+      "considered",
+      "considerate",
+      "considering"
+     ],
+     "userText": "considerable"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8175-a22e-feedbfee8bc7",
+     "subject": "民法",
+     "point": "損害賠償之方法與範圍",
+     "stem": "關於損害賠償，下列敘述何者正確？",
+     "user": "C",
+     "answer": "A",
+     "date": "2026-08-28",
+     "options": [
+      "除法律或契約另有訂定外，應回復損害發生前之原狀",
+      "被害人與有過失者，法院應免除賠償金額",
+      "非因故意或重大過失所致者，法院應減輕其賠償",
+      "僅須填補所受損害，無庸賠償所失利益"
+     ],
+     "userText": "非因故意或重大過失所致者，法院應減輕其賠償"
+    },
+    {
+     "id": "rc-3c72ace3-4688-817b-8c74-e65b7d47bb3a",
+     "subject": "民法",
+     "point": "期間之起算與末日（§120Ⅱ、§121）⚠",
+     "stem": "民事訴訟法第138條規定，文書之寄存送達自寄存之日起，經10日發生效力。如於7月1日午前11時寄存者，其送達效力何時發生？",
+     "user": "D",
+     "answer": "A",
+     "date": "2026-08-28",
+     "options": [
+      "7月11日午後24時起",
+      "7月10日午後24時起",
+      "7月12日午前11時起",
+      "7月11日午前11時起"
+     ],
+     "userText": "7月11日午前11時起"
+    }
+   ],
+   "right": [
+    {
+     "id": "rc-3c72ace3-4688-81c2-97a4-c8bccd25a4b7",
+     "subject": "英文",
+     "point": "Justin bought a new book which he found very _____ and he finished reading it in one day.\n(A) disinterested\n(B) interested\n(C) interest\n(D) interesting"
+    },
+    {
+     "id": "rc-3c72ace3-4688-817e-8d57-fadd9f3fdb9f",
+     "subject": "英文",
+     "point": "Experts point out that love is a complex process, with many factors _____ in finding and keeping a partner.\n(A) involved\n(B) involving\n(C) to involve\n(D) which involve"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81ff-b04a-ef3108eda1c3",
+     "subject": "英文",
+     "point": "The clerk suggested _____ the fragile items with bubble wrap before shipping.\n(A) wrapping\n(B) wrap\n(C) to wrap\n(D) wrapped"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8112-89d4-d2d0fb6ccaa1",
+     "subject": "英文",
+     "point": "The senior clerk gave me _____ useful advice on handling registered mail.\n(A) much\n(B) many\n(C) a few\n(D) several"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81d1-923b-d217540596aa",
+     "subject": "英文",
+     "point": "_____ is my favorite pastime.\n(A) Listen music\n(B) Listening music\n(C) To listen music\n(D) Listening to music"
+    },
+    {
+     "id": "rc-3c72ace3-4688-818e-8063-f7e9cda0b02f",
+     "subject": "英文",
+     "point": "模考0823-25"
+    },
+    {
+     "id": "rc-3c72ace3-4688-813d-834d-c9a4e8cc67e7",
+     "subject": "英文",
+     "point": "模考0823-26"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8181-a221-ccd23b5e24c5",
+     "subject": "英文",
+     "point": "模考0823-35"
+    },
+    {
+     "id": "rc-3c82ace3-4688-811b-9282-e6080baabaa8",
+     "subject": "國文",
+     "point": "成語中的數字虛實"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8116-8cbc-f392a805bf31",
+     "subject": "國文",
+     "point": "古文詞義：生我劬勞之「劬勞」"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8184-9938-f1ac6a174379",
+     "subject": "國文",
+     "point": "古文文意：陋室銘之交遊"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8192-8754-e8b0ab87256f",
+     "subject": "國文",
+     "point": "詩詞季節判讀"
+    },
+    {
+     "id": "rc-3c82ace3-4688-814d-bfa8-f54012e78ebf",
+     "subject": "國文",
+     "point": "字音辨正：胼手胝足"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8142-94d4-c9999c8a1da3",
+     "subject": "國文",
+     "point": "錯別字辨識：明察秋毫"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8137-a73d-e39316364dbe",
+     "subject": "國文",
+     "point": "醉翁亭記：醉翁之意"
+    },
+    {
+     "id": "rc-3b52ace3-4688-816c-8ba6-d6cd80978550",
+     "subject": "郵政法規",
+     "point": "偽造郵資符誌之處罰"
+    },
+    {
+     "id": "rc-3c52ace3-4688-8192-baf1-f0cb29cdb8a5",
+     "subject": "民法",
+     "point": "要式契約之種類"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8174-843e-cbe577c2ea0f",
+     "subject": "民法",
+     "point": "收養之無效事由"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8132-9876-c65100495e03",
+     "subject": "民法",
+     "point": "盜贓遺失物之回復請求"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8188-b936-d63ce79cc5ba",
+     "subject": "民法",
+     "point": "承攬瑕疵發見期間"
+    },
+    {
+     "id": "rc-3c82ace3-4688-81a0-a522-d9ebd0d2ea70",
+     "subject": "民法",
+     "point": "物之瑕疵擔保責任"
+    },
+    {
+     "id": "rc-3c82ace3-4688-8105-96a4-d8a6a82d0d03",
+     "subject": "民法",
+     "point": "自始客觀不能與締約上過失"
+    },
+    {
+     "id": "rc-3c82ace3-4688-81a4-9720-ee0a26b27e37",
+     "subject": "民法",
+     "point": "消滅時效之效力與拋棄"
+    },
+    {
+     "id": "rc-3c72ace3-4688-816e-8d8a-d15a0d1e1df4",
+     "subject": "民法",
+     "point": "繼承債務之清償責任 ⚠"
+    },
+    {
+     "id": "rc-3c72ace3-4688-813b-a4d4-f82c2ca04179",
+     "subject": "民法",
+     "point": "法定單純承認之事由（§1163）"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81cf-9938-d1668bc28e48",
+     "subject": "民法",
+     "point": "拋棄繼承後之應繼分變動"
+    },
+    {
+     "id": "rc-3c72ace3-4688-8140-bd64-d60a6efd7106",
+     "subject": "民法",
+     "point": "扶養義務之發生與消滅"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81ae-a1ef-d36951eb99ae",
+     "subject": "民法",
+     "point": "認領之效力與親屬關係"
+    },
+    {
+     "id": "rc-3c72ace3-4688-81a2-8e08-d3e69d868779",
+     "subject": "民法",
+     "point": "離婚生效時點之比較 ⚠"
+    },
+    {
+     "id": "rc-3c02ace3-4688-81ca-8bc5-ecdde7069819",
+     "subject": "民法",
+     "point": "§824-1Ⅰ：共有人自共有物分割之「效力發生時」起取得分得部分之所有權；協議成立≠效力發生"
+    },
+    {
+     "id": "rc-3c02ace3-4688-8198-bd29-ef0dd5dc16d1",
+     "subject": "民法",
+     "point": "§821：各共有人得就共有物之全部為本於所有權之請求；但回復共有物之請求，僅得為共有人全體之利益為之"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81a5-b3cf-cd6c2accf8b1",
+     "subject": "民法",
+     "point": "留置權之成立要件"
+    },
+    {
+     "id": "rc-3b52ace3-4688-81ad-8b6b-fd623f6ae50f",
+     "subject": "民法",
+     "point": "加工物所有權之歸屬"
+    },
+    {
+     "id": "rc-3b52ace3-4688-811b-8de7-d03cec9bd487",
+     "subject": "民法",
+     "point": "停止條件與解除條件之區別"
+    }
+   ]
+  },
+  "exams": [
+   {
+    "id": "chinese-112-full",
+    "title": "112 國文真卷（全科第7場）",
+    "subject": "國文",
+    "mcScore": 20,
+    "mcMax": 40,
+    "mcRight": 10,
+    "mcTotal": 20,
+    "wrongs": [
+     {
+      "n": 3,
+      "point": "真卷第3題",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 5,
+      "point": "真卷第5題",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 8,
+      "point": "真卷第8題",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 10,
+      "point": "真卷第10題",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 13,
+      "point": "真卷第13題",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 14,
+      "point": "真卷第14題",
+      "user": "B",
+      "answer": "D"
+     },
+     {
+      "n": 15,
+      "point": "真卷第15題",
+      "user": "B",
+      "answer": "C"
+     },
+     {
+      "n": 17,
+      "point": "真卷第17題",
+      "user": "C",
+      "answer": "B"
+     },
+     {
+      "n": 18,
+      "point": "真卷第18題",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 20,
+      "point": "真卷第20題",
+      "user": "A",
+      "answer": "C"
+     }
+    ]
+   },
+   {
+    "id": "postal-112-full",
+    "title": "112 郵政法規真卷（全科第7場）",
+    "subject": "郵政法規",
+    "mcScore": 92,
+    "mcMax": 100,
+    "mcRight": 46,
+    "mcTotal": 50,
+    "wrongs": [
+     {
+      "n": 4,
+      "point": "真卷第4題",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 20,
+      "point": "真卷第20題",
+      "user": "D",
+      "answer": "C"
+     },
+     {
+      "n": 43,
+      "point": "真卷第43題",
+      "user": "C",
+      "answer": "A"
+     },
+     {
+      "n": 50,
+      "point": "真卷第50題",
+      "user": "D",
+      "answer": "B"
+     }
+    ]
+   },
+   {
+    "id": "english-112-full",
+    "title": "112 英文真卷（全科第7場）",
+    "subject": "英文",
+    "mcScore": 70,
+    "mcMax": 100,
+    "mcRight": 35,
+    "mcTotal": 50,
+    "wrongs": [
+     {
+      "n": 11,
+      "point": "真卷第11題",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 12,
+      "point": "真卷第12題",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 14,
+      "point": "真卷第14題",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 19,
+      "point": "真卷第19題",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 32,
+      "point": "真卷第32題",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 33,
+      "point": "真卷第33題",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 34,
+      "point": "真卷第34題",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 37,
+      "point": "真卷第37題",
+      "user": "B",
+      "answer": "A"
+     },
+     {
+      "n": 38,
+      "point": "真卷第38題",
+      "user": "A",
+      "answer": "C"
+     },
+     {
+      "n": 39,
+      "point": "真卷第39題",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 42,
+      "point": "真卷第42題",
+      "user": "D",
+      "answer": "B"
+     },
+     {
+      "n": 44,
+      "point": "真卷第44題",
+      "user": "D",
+      "answer": "A"
+     },
+     {
+      "n": 45,
+      "point": "真卷第45題",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 49,
+      "point": "真卷第49題",
+      "user": "A",
+      "answer": "B"
+     },
+     {
+      "n": 50,
+      "point": "真卷第50題",
+      "user": "D",
+      "answer": "A"
+     }
+    ]
+   },
+   {
+    "id": "minfa-112-full",
+    "title": "112 民法真卷（全科第7場）",
+    "subject": "民法",
+    "mcScore": 45,
+    "mcMax": 50,
+    "mcRight": 18,
+    "mcTotal": 20,
+    "wrongs": [
+     {
+      "n": 7,
+      "point": "真卷第7題",
+      "user": "A",
+      "answer": "D"
+     },
+     {
+      "n": 20,
+      "point": "真卷第20題",
+      "user": "A",
+      "answer": "C"
+     }
+    ]
+   }
+  ],
+  "vocab": {
+   "done": 15,
+   "right": 12
+  },
+  "vocabStages": {
+   "0": 6,
+   "1": 18,
+   "2": 12,
+   "3": 7
+  }
  }
 }
