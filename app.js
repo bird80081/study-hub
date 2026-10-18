@@ -1,6 +1,52 @@
 /* 隨身讀書館：首頁（倒數/進度/鼓勵）、試卷（模考引擎）、單字卡、筆記速查 */
 const $app = document.getElementById("app");
-const EXAM_DATE = "2026-08-30";
+/* 設定：考試、科目、模考日程、功能入口一律讀 data/config.json（2026-10-17 起）。
+   這份由 Mac 端 my-agent 的 scripts/export_hub_config.py 從三層設定產生，請勿手改。
+   改版前這裡寫死 8/30 與四科，考完後首頁顯示「-48 天」、鼓勵語變成「undefined」。 */
+let CFG = null;
+async function loadConfig() {
+  try {
+    const r = await fetch("data/config.json", { cache: "no-store" });
+    if (r.ok) CFG = await r.json();
+  } catch {}
+  applyFeatureTabs();
+}
+// 在讀的科目：每場考試的科目＋先讀的科目（手機上的科目名，如「郵政法規」）；讀不到設定回 null
+function activeSubjects() {
+  if (!CFG) return null;
+  const out = [];
+  for (const e of CFG.exams || []) for (const s of e.subjects || []) if (!out.includes(s)) out.push(s);
+  for (const s of CFG.standalone || []) if (!out.includes(s)) out.push(s);
+  return out;
+}
+// 有任一在讀科目開了這個功能才顯示入口；讀不到設定時一律顯示（寧可多一個入口，也不要整個不見）
+function hasFeature(f) {
+  const subs = activeSubjects();
+  if (!subs) return true;
+  return subs.some(s => ((CFG.subjects || {})[s]?.features || []).includes(f));
+}
+function subjectIcon(s) { return ((CFG && CFG.subjects) || {})[s]?.icon || "📒"; }
+function daysTo(date) {
+  return Math.round((new Date(date + "T00:00:00") - new Date(todayKey() + "T00:00:00")) / 86400000);
+}
+function upcomingExams() {
+  return ((CFG && CFG.exams) || []).filter(e => e.date >= todayKey())
+    .sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+}
+// 日程：各考試的模考＋考試當天（取代原本寫死的 SCHEDULE）
+function scheduleItems() {
+  const out = [];
+  for (const e of (CFG && CFG.exams) || []) {
+    for (const m of e.mocks || []) out.push({ date: m.date, label: m.label, round: m.round, subjects: e.subjects || [] });
+    out.push({ date: e.date, label: `🎯 ${e.short || e.name}` });
+  }
+  return out.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
+}
+function applyFeatureTabs() {
+  // 用 style.display 而不是 hidden：#tabbar button 有 display 樣式，會蓋掉 hidden
+  const b = document.querySelector('#tabbar button[data-tab="vocab"]');
+  if (b) b.style.display = hasFeature("vocab") ? "" : "none";
+}
 const LS_SESS = "examweb.sessions.v1";
 const LS_VOCAB = "hub.vocab.v1";
 const LS_DAILY = "hub.daily.v1";
@@ -39,24 +85,14 @@ const QUOTES = [
   "你不需要一次讀完，只需要今天的 1.5 小時。",
   "錯題是禮物——考前錯，就是考場上的對。",
   "數字會背叛記憶，但速查表不會。多看一眼。",
-  "穩穩的，每天前進一點，8/30 的你會感謝現在的你。",
+  "穩穩的，每天前進一點，考試那天的你會感謝現在的你。",
   "公車上的十分鐘，也是別人沒有的十分鐘。",
   "與其焦慮還有多少沒讀，不如把眼前這一題弄懂。",
   "考試考的是熟練，不是天分。你正在變熟練。",
   "累的時候休息，不是放棄。回來再繼續就好。",
   "已經走到這裡了，剩下的路比走過的短。"
 ];
-const SCHEDULE = [
-  { date: "2026-07-31", label: "全科模擬 第 1 場（109 真卷）", round: 1 },
-  { date: "2026-08-07", label: "全科模擬 第 2 場（仿真卷 A）", round: 2 },
-  { date: "2026-08-14", label: "全科模擬 第 3 場（仿真卷 B）", round: 3 },
-  { date: "2026-08-21", label: "全科模擬 第 4 場（仿真卷 C）", round: 4 },
-  { date: "2026-08-23", label: "全科模擬 第 5 場（仿真卷 D）", round: 5 },
-  { date: "2026-08-26", label: "全科模擬 第 6 場（仿真卷 E）", round: 6 },
-  { date: "2026-08-28", label: "全科模擬 第 7 場（112 真卷・考前校準）", round: 7 },
-  { date: "2026-08-30", label: "🎯 郵政升等考" }
-];
-const SUBJECTS = ["民法", "郵政法規", "英文", "國文"];
+// 日程與科目改讀設定：見檔頭 scheduleItems()／activeSubjects()
 const DEFAULT_PLAN = [
   "刷題或補未訂正題（30 分）",
   "訂正 3～5 題（40 分）",
@@ -80,9 +116,26 @@ function dayKeyOf(ts) {  // 本地日期（舊版用 UTC，台灣早上 8 點前
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 function todayKey() { return dayKeyOf(Date.now()); }
-function daysLeft() {
-  const ms = new Date(EXAM_DATE + "T00:00:00") - new Date(todayKey() + "T00:00:00");
-  return Math.round(ms / 86400000);
+// 鼓勵語按日期輪替。原本用「距考試天數」當索引，考完天數變負，取到的是 undefined。
+function quoteOfDay() {
+  const n = Math.round(new Date(todayKey() + "T00:00:00").getTime() / 86400000);
+  return QUOTES[((n % QUOTES.length) + QUOTES.length) % QUOTES.length];
+}
+function countdownHtml() {
+  const md = d => d.slice(5).replace("-", "/");
+  const ups = upcomingExams();
+  const alone = (CFG && CFG.standalone) || [];
+  // 先讀的科目不管有沒有考試都列出來，免得掛了考試就看不到自己還有在讀的科目
+  const aloneLine = alone.length ? `<div style="margin:6px 0 2px"><strong>先讀：</strong>${alone.map(escapeHtml).join("、")}</div>` : "";
+  if (ups.length) {
+    const [first, ...rest] = ups;
+    const dd = daysTo(first.date);
+    return `<div class="muted">距離 ${md(first.date)} ${escapeHtml(first.short || first.name)}</div>
+      <div class="score-big">${dd === 0 ? "就是今天" : `${dd} <span style="font-size:1.1rem">天</span>`}</div>
+      ${rest.map(e => `<div class="muted">另：${md(e.date)} ${escapeHtml(e.short || e.name)}，還有 ${daysTo(e.date)} 天</div>`).join("")}
+      ${aloneLine}`;
+  }
+  return `<div class="muted">${CFG ? "目前沒有排定的考試" : "讀不到考試設定"}</div>${aloneLine}`;
 }
 function dailyState() {
   try { return JSON.parse(localStorage.getItem(LS_DAILY)) || {}; } catch { return {}; }
@@ -138,8 +191,7 @@ async function showHomeTab() {
     const r = await fetch("data/progress.json", { cache: "no-store" });
     if (r.ok) sp = await r.json();
   } catch {}
-  const d = daysLeft();
-  const quote = QUOTES[(d + 7) % QUOTES.length];
+  const quote = quoteOfDay();
   const se = sp[todayKey()];
   const dailyItems = Array.isArray(sp.daily) ? sp.daily : [];
   let dateItems = [], serverDone = [];
@@ -154,7 +206,7 @@ async function showHomeTab() {
   const local = dailyState()[todayKey()] || [];
   const done = plan.map((_, i) => !!(local[i] || (i >= nDaily && serverDone[i - nDaily])));
   const doneCount = done.filter(Boolean).length;
-  const upcoming = SCHEDULE.filter(x => x.date >= todayKey()).slice(0, 3);
+  const upcoming = scheduleItems().filter(x => x.date >= todayKey()).slice(0, 3);
 
   // 快速入口素材：進行中／未開始的卷
   let quick = "";
@@ -169,7 +221,7 @@ async function showHomeTab() {
     quick = `
       ${going ? `<button onclick="switchTab('exam');setTimeout(()=>openExam('${going.id}'),300)">▶ 繼續：${going.title}</button>` : ""}
       ${fresh ? `<button class="${going ? "ghost" : ""}" onclick="switchTab('exam');setTimeout(()=>openExam('${fresh.id}'),300)">📝 ${fresh.title}</button>` : ""}
-      <button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocabRound(),300)">🔤 來一輪單字</button>`;
+      ${hasFeature("vocab") ? `<button class="ghost" onclick="switchTab('vocab');setTimeout(()=>startVocabRound(),300)">🔤 來一輪單字</button>` : ""}`;
   } catch {}
 
   // 國文選文入口（2026-08-19 加）：選文一直同步在長文筆記裡，但手機上藏在
@@ -177,7 +229,7 @@ async function showHomeTab() {
   // 茶兒連問兩次「國文選文為什麼我沒有看到」。選文是每週插件、沒有到期日會叫它，
   // 不放在每天會打開的首頁就等於不存在——與 8/18 記的「三個插件缺管道」同一型。
   let prose = "";
-  try {
+  if (hasFeature("prose")) try {
     const pl = await (await fetch("data/notes-long.json", { cache: "no-store" })).json();
     const picks = pl.filter(x => x.tag === "讀");
     if (picks.length) prose = `<div class="card">
@@ -191,14 +243,13 @@ async function showHomeTab() {
   $app.innerHTML = `
     <p class="greet">${greeting()}</p>
     <div class="card countdown-card warm">
-      <div class="muted">距離 8/30 郵政升等考</div>
-      <div class="score-big">${d} <span style="font-size:1.1rem">天</span></div>
+      ${countdownHtml()}
       <div class="quote">「${quote}」</div>
     </div>
     <div class="card">
       <div class="btn-row" style="margin-top:0">${quick}</div>
     </div>
-    ${(() => {
+    ${!hasFeature("essay_pad") ? "" : (() => {
       const d = essayDraft();
       return `<div class="card">
         <strong>✍️ 作文短段</strong> <span class="muted">${d.text ? `草稿 ${d.text.length} 字` : "通勤空檔寫一段，回家不用扛"}</span>
@@ -237,7 +288,7 @@ async function showHomeTab() {
       ${upcoming.map(x => {
         const dd = Math.round((new Date(x.date) - new Date(todayKey())) / 86400000);
         return `<div class="sched-row"><span>${x.date.slice(5).replace("-", "/")}　${x.label}</span><span class="muted">${dd === 0 ? "今天" : dd + " 天後"}</span></div>`;
-      }).join("")}
+      }).join("") || '<div class="muted">沒有排定的日程</div>'}
     </div>`;
 }
 
@@ -387,7 +438,7 @@ let poolIndex = null, poolCache = {}, drillQ = [], drillIdx = 0, drillPicked = n
 function drillSeen() { try { return JSON.parse(localStorage.getItem(LS_DRILL_SEEN)) || {}; } catch { return {}; } }
 function drillCfg() {
   try { const c = JSON.parse(localStorage.getItem(LS_DRILL_CFG)); if (c && c.subjects) return c; } catch {}
-  return { subjects: ["民法", "郵政法規", "英文", "國文"], per: 5 };
+  return { subjects: activeSubjects() || [], per: 5 };   // 預設勾在讀的科目；已存的勾選不受影響
 }
 function drillWrongAll() { try { return JSON.parse(localStorage.getItem(LS_DRILL_WRONG)) || []; } catch { return []; } }
 // 一次性清理：8/10 前的回收卷 id 只取 pageId 前 8 碼，一個 id 對到多達 16 題，
@@ -767,15 +818,15 @@ async function showExamTab() {
   };
 
   // 考程表：每回＝四科全真模擬，日期到才解鎖
-  const schedRows = SCHEDULE.filter(x => x.round).map(x => {
+  const schedRows = scheduleItems().filter(x => x.round).map(x => {
     const dd = Math.round((new Date(x.date) - new Date(today)) / 86400000);
     if (dd > 0) {
       return `<div class="card locked">
         <strong>🔒 ${x.label}</strong>
-        <div class="muted">${x.date.slice(5).replace("-", "/")} 開考．還有 ${dd} 天．民法／郵政法規／英文／國文四卷</div>
+        <div class="muted">${x.date.slice(5).replace("-", "/")} 開考．還有 ${dd} 天．${x.subjects.join("／")}共 ${x.subjects.length} 卷</div>
       </div>`;
     }
-    const inner = SUBJECTS.map(subj => {
+    const inner = x.subjects.map(subj => {
       const exam = exams.find(e => e.type === "full" && e.round === x.round && e.subject === subj);
       if (exam) {
         const st = all[exam.id];
@@ -1626,11 +1677,11 @@ function showVocabDone() {
 // 表格模式在窄螢幕會把「內容」欄擠出畫面，而主要使用情境正是通勤手機。
 // 故預設依螢幕寬決定：窄螢幕條列、寬螢幕表格；使用者仍可自行切換。
 let notes = null, notesWarnOnly = false, openGroups = {}, notesQuery = "";
-const NOTE_ICON = { "郵政法規": "📮", "民法": "⚖️", "英文": "🔤", "國文": "📖" };
+// 科目圖示讀設定（subjectIcon），沒設的用 📒
 // 科目清單由資料決定，不寫死——寫死的後果是新增科目的筆記進了 json 卻永遠點不到
 function notesSubjects() {
   const seen = [];
-  for (const g of notes || []) { const s = g.subject || "郵政法規"; if (!seen.includes(s)) seen.push(s); }
+  for (const g of notes || []) { const s = g.subject || "未分類"; if (!seen.includes(s)) seen.push(s); }
   return seen;
 }
 // 速記筆記是手寫 markdown 搬過來的，value/note 內含 **粗體** 標記共 25 處，
@@ -1649,10 +1700,15 @@ function noteHit(x, g, q) {
 function noteEx(x) {
   return x.ex && x.ex.length ? `<div class="explain" style="font-size:0.85rem">${x.ex.map(noteMd).join("\n")}</div>` : "";
 }
-let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "郵政法規", notesTable = window.innerWidth >= 700;
+let notesView = "notes", essays = null, essayOpen = {}, notesSubject = "", notesTable = window.innerWidth >= 700;
 async function showNotesTab() {
   if (notesView === "essay") return showEssayView();
   if (!notes) notes = await (await fetch("data/notes.json", { cache: "no-store" })).json();
+  // 預設打開第一個在讀、而且有筆記的科目（原本寫死郵政法規）
+  if (!notesSubjects().includes(notesSubject)) {
+    const have = notesSubjects();
+    notesSubject = (activeSubjects() || []).find(x => have.includes(x)) || have[0] || "";
+  }
   $app.innerHTML = `
     <h1>筆記速查</h1>
     <div class="btn-row" style="margin-bottom:4px">
@@ -1662,7 +1718,7 @@ async function showNotesTab() {
     </div>
     <p class="muted">數字、期間、金額速查表（來源：本機速記筆記）</p>
     <div class="btn-row" style="margin-bottom:12px">
-      ${notesSubjects().map(sj => `<button class="small ${notesSubject === sj ? "" : "ghost"}" onclick="notesSubject='${sj}';showNotesTab()">${NOTE_ICON[sj] || "📄"} ${sj}</button>`).join("")}
+      ${notesSubjects().map(sj => `<button class="small ${notesSubject === sj ? "" : "ghost"}" onclick="notesSubject='${sj}';showNotesTab()">${subjectIcon(sj)} ${sj}</button>`).join("")}
       <button class="small ${notesWarnOnly ? "" : "ghost"}" onclick="notesWarnOnly=!notesWarnOnly;showNotesTab()">
         ${notesWarnOnly ? "顯示全部" : "只看 ⚠"}</button>
       <button class="small ghost" onclick="notesTable=!notesTable;showNotesTab()">${notesTable ? "☰ 條列" : "▦ 表格"}</button>
@@ -1674,7 +1730,7 @@ async function showNotesTab() {
     ${notesQuery ? `<p class="muted">搜尋「${notesQuery}」——跨科目找，忽略上方科目選擇</p>` : ""}
     ${(() => { let lastLaw = null; return notes.map((g, gi) => {
       // 搜尋時跨全部科目找：找東西的人通常不記得它被歸在哪一科（郵政的罰則、民法的期間常互相記錯）
-      if (!notesQuery && (g.subject || "郵政法規") !== notesSubject) return "";
+      if (!notesQuery && (g.subject || "未分類") !== notesSubject) return "";
       let items = notesWarnOnly ? g.items.filter(x => x.warn) : g.items;
       if (notesQuery) items = items.filter(x => noteHit(x, g, notesQuery));
       if (!items.length) return "";
@@ -1687,7 +1743,7 @@ async function showNotesTab() {
       return head + `<div class="card">
         <div class="note-group" onclick="openGroups[${gi}]=${!open};showNotesTab()">
           <strong>${g.group}</strong>
-          <span class="muted">${notesQuery ? (g.subject || "郵政法規") + "・" + (g.law ? g.law + "・" : "") : ""}${items.length} 條 ${open ? "▾" : "▸"}</span>
+          <span class="muted">${notesQuery ? (g.subject || "未分類") + "・" + (g.law ? g.law + "・" : "") : ""}${items.length} 條 ${open ? "▾" : "▸"}</span>
         </div>
         ${open ? (notesTable
           ? `<div class="note-table-wrap"><table class="note-table">
@@ -1810,4 +1866,4 @@ function escapeHtml(s) {
 
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 migrateDrillWrong();
-showHomeTab();
+loadConfig().finally(showHomeTab);

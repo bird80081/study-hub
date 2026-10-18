@@ -60,6 +60,7 @@ GitHub Pages 重新部署（約 1～2 分鐘）
 
 | 檔案 | app 會讀回嗎 | 用途 |
 | :-- | :-- | :-- |
+| `data/config.json` | ✅ 首頁、刷題、試卷、筆記 | 考試名稱與日期、科目、模考日程、功能入口（單字分頁、作文短段、國文選文）。**由 Mac 端 my-agent 的 `export_hub_config.py` 從考試設定產生，不要手改**（2026-10-17 起；之前這些寫死在 app.js） |
 | `data/progress.json` | ✅ 首頁待辦 | 每日固定項目＋各日期的回收清單 |
 | `data/vocab.json` | ✅ | 單字庫（含詞性、例句、音檔對應） |
 | `data/notes.json` | ✅ | 筆記速查（`subject` 科目 →`law` 分區 →`group` 組；英文文法通則的例句放 `ex`） |

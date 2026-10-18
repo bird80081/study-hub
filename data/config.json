@@ -1,0 +1,79 @@
+{
+ "schema": 1,
+ "note": "由 my-agent 200_Reference/考試/scripts/export_hub_config.py 從 study.yaml、subjects/、exams/ 產生，請勿手改",
+ "exams": [
+  {
+   "id": "postal-2026",
+   "name": "郵政內部升等考（專業職二晉專業職一）",
+   "short": "郵政內部升等考",
+   "date": "2026-08-30",
+   "subjects": [
+    "民法",
+    "郵政法規",
+    "英文",
+    "國文"
+   ],
+   "mocks": [
+    {
+     "date": "2026-07-31",
+     "label": "全科模擬 第1場：109 全套真卷（摸底）",
+     "round": 1
+    },
+    {
+     "date": "2026-08-07",
+     "label": "全科模擬 第2場：仿真卷 A",
+     "round": 2
+    },
+    {
+     "date": "2026-08-14",
+     "label": "全科模擬 第3場：仿真卷 B",
+     "round": 3
+    },
+    {
+     "date": "2026-08-21",
+     "label": "全科模擬 第4場：仿真卷 C",
+     "round": 4
+    },
+    {
+     "date": "2026-08-23",
+     "label": "全科模擬 第5場：仿真卷 D",
+     "round": 5
+    },
+    {
+     "date": "2026-08-26",
+     "label": "全科模擬 第6場：仿真卷 E",
+     "round": 6
+    },
+    {
+     "date": "2026-08-28",
+     "label": "全科模擬 第7場：112 全套真卷（考前校準）",
+     "round": 7
+    }
+   ]
+  }
+ ],
+ "standalone": [],
+ "subjects": {
+  "民法": {
+   "icon": "⚖️",
+   "features": []
+  },
+  "郵政法規": {
+   "icon": "📮",
+   "features": []
+  },
+  "英文": {
+   "icon": "🔤",
+   "features": [
+    "vocab"
+   ]
+  },
+  "國文": {
+   "icon": "📖",
+   "features": [
+    "essay_pad",
+    "prose"
+   ]
+  }
+ }
+}
